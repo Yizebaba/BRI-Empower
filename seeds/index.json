@@ -1,0 +1,81 @@
+{
+ "note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选范围自动上传给 MiroFish。",
+ "scopes": {
+  "NPL": {
+   "name": "尼泊尔",
+   "files": [
+    {
+     "path": "seeds/NPL/01_projects.md",
+     "title": "尼泊尔（Nepal）的中国融资项目档案",
+     "bytes": 3921
+    },
+    {
+     "path": "seeds/NPL/02_situation.md",
+     "title": "尼泊尔项目周边近期态势（截至 2026-10-18 15:56 UTC）",
+     "bytes": 12121
+    },
+    {
+     "path": "seeds/NPL/03_history.md",
+     "title": "尼泊尔项目周边的历史事件（参考事实）",
+     "bytes": 2999
+    },
+    {
+     "path": "seeds/NPL/00_sources.md",
+     "title": "数据来源说明",
+     "bytes": 2471
+    }
+   ]
+  },
+  "LAO": {
+   "name": "老挝",
+   "files": [
+    {
+     "path": "seeds/LAO/01_projects.md",
+     "title": "老挝（Laos）的中国融资项目档案",
+     "bytes": 1500
+    },
+    {
+     "path": "seeds/LAO/02_situation.md",
+     "title": "老挝项目周边近期态势（截至 2026-10-18 15:56 UTC）",
+     "bytes": 1975
+    },
+    {
+     "path": "seeds/LAO/03_history.md",
+     "title": "老挝项目周边的历史事件（参考事实）",
+     "bytes": 824
+    },
+    {
+     "path": "seeds/LAO/00_sources.md",
+     "title": "数据来源说明",
+     "bytes": 2471
+    }
+   ]
+  },
+  "PAK": {
+   "name": "巴基斯坦",
+   "files": [
+    {
+     "path": "seeds/PAK/01_projects.md",
+     "title": "巴基斯坦（Pakistan）的中国融资项目档案",
+     "bytes": 3228
+    },
+    {
+     "path": "seeds/PAK/02_situation.md",
+     "title": "巴基斯坦项目周边近期态势（截至 2026-10-18 15:56 UTC）",
+     "bytes": 6766
+    },
+    {
+     "path": "seeds/PAK/03_history.md",
+     "title": "巴基斯坦项目周边的历史事件（参考事实）",
+     "bytes": 811
+    },
+    {
+     "path": "seeds/PAK/00_sources.md",
+     "title": "数据来源说明",
+     "bytes": 2471
+    }
+   ]
+  }
+ },
+ "generated": "2026-10-18T15:56:27Z"
+}

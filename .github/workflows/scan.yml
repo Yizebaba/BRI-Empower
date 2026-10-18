@@ -1,0 +1,24 @@
+# 每 30 分钟扫描一次项目周边态势（全部免费来源），重新生成 MiroFish 种子文档，有变化就提交。网页直接读仓库里的 data/ 和 seeds/。
+name: scan
+on:
+  schedule: [{ cron: "7,37 * * * *" }]
+  workflow_dispatch:
+permissions: { contents: write }
+concurrency: { group: data-write, cancel-in-progress: false }
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan project surroundings
+        run: python3 tools/bri_scan.py data/projects.json data/live.json
+      - name: Regenerate seed documents
+        run: python3 tools/seed_docs.py
+      - name: Commit
+        run: |
+          git config user.name "bri-bot"; git config user.email "bri-bot@users.noreply.github.com"
+          git add data seeds
+          git diff --cached --quiet && { echo "no change"; exit 0; }
+          git commit -qm "scan $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done

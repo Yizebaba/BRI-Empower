@@ -1,0 +1,18 @@
+# 发布网页（site/）。数据不随网页发布：网页运行时直接读仓库的 data/、seeds/、runs/，所以数据更新不用重新发布。
+name: pages
+on:
+  push: { branches: [main], paths: ["site/**", ".github/workflows/pages.yml"] }
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: d
+        uses: actions/deploy-pages@v4
