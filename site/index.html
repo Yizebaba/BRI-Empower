@@ -303,7 +303,7 @@ document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.prev
  const req=$("dreq").value.trim();if(req.length<10){m.className="msg err";m.textContent="推演要求至少写 10 个字。";return}
  const rid=new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z"+Math.random().toString(36).slice(2,6);
  btn.disabled=true;m.className="msg";m.textContent="正在提交…";
- try{const r=await fetch("https://api.github.com/repos/"+REPO+"/actions/workflows/drill.yml/dispatches",{method:"POST",headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json","x-github-api-version":"2022-11-28"},
+ try{const r=await fetch("https://api.github.com/repos/"+REPO+"/actions/workflows/drill.yml/dispatches",{method:"POST",headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json","content-type":"application/json","x-github-api-version":"2022-11-28"},
    body:JSON.stringify({ref:"main",inputs:{requirement:req,scope:$("dscope").value,title:$("dtitle").value.trim(),max_rounds:String($("drounds").value||20),request_id:rid}})});
   if(r.status===204){m.className="msg ok";m.textContent="已提交，编号 "+rid+"。运行状态会显示在下面的推演记录里。";ls.set("bri_draft",null);setTimeout(pollRuns,4000)}
   else{const t=await r.text();m.className="msg err";m.textContent=(r.status===401?"令牌无效或已过期，请断开后重新连接。":r.status===403||r.status===404?"令牌没有这个仓库的 Actions 写权限。":"提交失败（"+r.status+"）：")+t.slice(0,200)}}
