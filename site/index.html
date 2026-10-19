@@ -142,11 +142,14 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 "use strict";
 const REPO="Yizebaba/BRI-Empower",Q=new URLSearchParams(location.search);
 const BASE=Q.get("base")||("https://raw.githubusercontent.com/"+REPO+"/main/");
+/* 推演在珠峰仓库（Yizebaba/EVEREST-）的 mirofish 工作流里运行（project=bri），共用那里已经配好的模型和 Zep 密钥；结果在它的 events 分支 mirofish-bri/ */
+const RUNREPO="Yizebaba/EVEREST-",RUNWF="mirofish.yml",RUNRAW="https://raw.githubusercontent.com/Yizebaba/EVEREST-/events/";
+const TOK=()=>ls.get("gh_token")||ls.get("bri_gh_token");
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $=id=>document.getElementById(id);
 const bj=t=>{if(!t)return"—";const d=new Date(t);if(isNaN(d))return esc(t);return d.toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false,month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})};
 const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
-async function get(path,text){const r=await fetch(BASE+path+(BASE.startsWith("http")?"?v="+Math.floor(Date.now()/60000):""),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return text?r.text():r.json()}
+async function get(path,text){const r=await fetch((/^https?:/.test(path)?path:BASE+path)+(BASE.startsWith("http")?"?v="+Math.floor(Date.now()/60000):""),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return text?r.text():r.json()}
 const D={projects:[],live:{},wm:{},retro:null,sources:[],seeds:{},runs:[],base:{}};
 const CN={NPL:"尼泊尔",LAO:"老挝",PAK:"巴基斯坦"},NEWS="新闻（Google 新闻 RSS）";
 const STZ={Completion:"已完工",Implementation:"在建","Pipeline: Commitment":"已承诺","Pipeline: Pledge":"意向"};
@@ -209,7 +212,7 @@ function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THRE
 function split(p){const L=(((D.live.projects||{})[p.id])||{}).items||[];return{geo:L.filter(i=>i.src!==NEWS),inc:L.filter(i=>i.src===NEWS&&i.kind==="事件相关"),gen:L.filter(i=>i.src===NEWS&&i.kind!=="事件相关")}}
 const kmH=(a,b,c,d)=>{const r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))};
 function nearest(la,lo,ps){let b=[1e9,null];ps.forEach(p=>p.rings.forEach(r=>r.forEach(q=>{const d=kmH(la,lo,q[1],q[0]);if(d<b[0])b=[d,p]})));return b}
-async function load(first){const tasks=[["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs","runs/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
+async function load(first){const tasks=[["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
  const errs=[];await Promise.all(tasks.filter(t=>first||!["projects","retro","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>errs.push(t[0]))));
  D.errs=errs;render();glData()}
 
@@ -251,7 +254,7 @@ function tabLive(){const c=CT,ps=D.projects.filter(p=>p.country===c),C=(D.live.c
  h+=cmap(c,ps)+'<div class="list">'+ps.map((p,n)=>{const s=split(p),op=SEL===p.id;return'<button class="row" data-a="p:'+p.id+'" aria-expanded="'+op+'"><span class="num">'+(n+1)+'</span><span style="min-width:0"><div class="nm">'+esc(p.name)+'</div><div class="ds">'+esc(p.kind)+'，'+esc(STZ[p.status]||p.status)+'，'+esc(p.commit_year)+' 年承诺</div></span><span class="ct"><span class="'+(s.geo.length?"on":"")+'">周边 '+s.geo.length+'</span><span class="'+(s.inc.length?"on":"")+'">线索 '+s.inc.length+'</span></span><span class="cv">›</span></button>'+(op?detail(p):"")}).join("")+'</div>';
  h+=wmBlock(c,ps);
  h+='<p class="note">“线索”是标题里带事故、灾害、袭击等词的新闻，按项目名匹配，可能混入无关报道。所有条目都是来源原文的转述，点开可看原文。</p>';return h}
-function tabDrill(){const tok=ls.get("bri_gh_token");let h='<h2 class="h2">MiroFish 推演</h2><p class="lead">你写推演要求，系统把所选范围的种子文档自动上传给 MiroFish，建知识图谱、生成智能体、模拟，最后写出报告。一次约 1 小时，费用记在仓库配置的模型账户上。</p>';
+function tabDrill(){const tok=TOK();let h='<h2 class="h2">MiroFish 推演</h2><p class="lead">你写推演要求，系统把所选范围的种子文档自动上传给 MiroFish，建知识图谱、生成智能体、模拟，最后写出报告。一次约 1 小时。推演在珠峰仓库里运行，共用那里已经配好的模型和 Zep 密钥，不用另外设置。</p>';
  const sc=ls.get("bri_scope")||"ALL";
  h+='<form id="df" autocomplete="off"><label for="dreq">推演要求（必填，由你自己写）</label><textarea id="dreq" required minlength="10" placeholder="写清楚想推演的事件、对象和关心的问题。">'+esc(ls.get("bri_draft")||"")+'</textarea>'
  +'<div class="grid2"><div><label for="dscope">种子文档范围</label><select id="dscope">'+[["ALL","全部 3 国"],["NPL","尼泊尔"],["LAO","老挝"],["PAK","巴基斯坦"]].map(o=>'<option value="'+o[0]+'"'+(o[0]===sc?" selected":"")+'>'+o[1]+'</option>').join("")+'</select></div>'
@@ -259,14 +262,14 @@ function tabDrill(){const tok=ls.get("bri_gh_token");let h='<h2 class="h2">MiroF
  +'<label for="dtitle">标题（可空）</label><input id="dtitle" type="text" maxlength="60">'
  +'<div class="h3">将自动上传的种子文档</div><div id="dseeds">'+seedPreview(sc)+'</div>'
  +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn" type="submit" id="dgo"'+(tok?"":" disabled")+'>开始推演</button>'+(tok?'<span class="small mute">已在本浏览器连接 GitHub · <button type="button" class="more" data-a="tok:clear">断开</button></span>':'<span class="small mute">先在下面连接 GitHub</span>')+'</div><div class="msg" id="dmsg"></div></form>';
- if(!tok)h+='<div class="h3">连接 GitHub（只需一次）</div><p class="small mute" style="margin:0">开始推演要用你的 GitHub 令牌触发仓库里的推演工作流。令牌只存在这个浏览器里，不会上传到任何地方。在 GitHub → Settings → Developer settings → Fine-grained tokens 新建一个：Repository access 只选 BRI-Empower，Permissions 里 Actions 选 Read and write。</p><div style="display:flex;gap:8px;margin-top:8px"><input id="tokin" type="password" placeholder="github_pat_…" style="flex:1"><button class="btn ghost" type="button" data-a="tok:save">保存</button></div>';
+ if(!tok)h+='<div class="h3">连接 GitHub（只需一次）</div><p class="small mute" style="margin:0">开始推演要用你的 GitHub 令牌触发仓库里的推演工作流。令牌只存在这个浏览器里，不会上传到任何地方。在 GitHub → Settings → Developer settings → Fine-grained tokens 新建一个：Repository access 选 EVEREST-（推演在那里运行），Permissions 里 Actions 选 Read and write。珠峰推演页用的也是这一个令牌，在同一个浏览器里只需连接一次。</p><div style="display:flex;gap:8px;margin-top:8px"><input id="tokin" type="password" placeholder="github_pat_…" style="flex:1"><button class="btn ghost" type="button" data-a="tok:save">保存</button></div>';
  h+='<div class="h3">推演记录</div><div id="druns">'+runsHTML()+'</div>';return h}
 function seedPreview(sc){const keys=sc==="ALL"?Object.keys(D.seeds):[sc];const fs=[];keys.forEach((k,i)=>((D.seeds[k]||{}).files||[]).forEach(f=>{if(i&&/00_sources/.test(f.path))return;fs.push(f)}));
  return fs.length?'<div class="seedl">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">共 '+fs.length+' 份，'+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB，随每次扫描自动更新。</p>':'<p class="small mute">还没有种子文档。</p>'}
-let LIVE_RUNS=[];
+let LIVE_RUNS=[];const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
 function runsHTML(){const st={queued:["排队中","#f2c14e"],in_progress:["运行中","#6aa8e0"],completed:["已结束","#8e9099"]};
  let h=LIVE_RUNS.filter(r=>r.status!=="completed").map(r=>'<div class="run"><b>'+esc(r.display_title)+'</b><span class="st" style="background:'+st[r.status][1]+'22;color:'+st[r.status][1]+'">'+st[r.status][0]+'</span><div class="small mute">开始于 '+bj(r.run_started_at||r.created_at)+' · <a href="'+esc(r.html_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join("");
- h+=D.runs.length?D.runs.map(r=>'<div class="run"><b>'+esc(r.title||(r.scope||[]).map(k=>CN[k]).join("、"))+'</b><span class="st" style="background:'+(r.ok?"#5fe0a822":"#ff7a5c22")+';color:'+(r.ok?"#5fe0a8":"#ff7a5c")+'">'+(r.ok?"完成":"失败")+'</span><div class="small mute">'+bj(r.started)+' · 范围 '+esc((r.scope||[]).map(k=>CN[k]).join("、"))+(r.error?' · '+esc(r.error):"")+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+(r.has_report?'<button class="more" data-a="rep:'+esc(r.id)+'">看报告</button> · ':"")+'<a class="mute" href="'+esc(r.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join(""):(LIVE_RUNS.length?"":'<p class="small mute">还没有推演。</p>');return h}
+ h+=D.runs.length?D.runs.map(r=>'<div class="run"><b>'+esc(r.title||scopeL(r.scope).map(k=>CN[k]||(k==="ALL"?"全部 3 国":k)).join("、"))+'</b><span class="st" style="background:'+(r.ok?"#5fe0a822":"#ff7a5c22")+';color:'+(r.ok?"#5fe0a8":"#ff7a5c")+'">'+(r.ok?"完成":"失败")+'</span><div class="small mute">'+bj(r.started)+' · 范围 '+esc(scopeL(r.scope).map(k=>CN[k]||(k==="ALL"?"全部 3 国":k)).join("、"))+(r.error?' · '+esc(r.error):"")+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+(r.has_report?'<button class="more" data-a="rep:'+esc(r.dir)+'">看报告</button> · ':"")+'<a class="mute" href="'+esc(r.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join(""):(LIVE_RUNS.length?"":'<p class="small mute">还没有推演。</p>');return h}
 function tabSeeds(){let h='<h2 class="h2">种子文档</h2><p class="lead">MiroFish 需要的“现实种子”：程序每 30 分钟把项目档案、周边态势、冲突事件和历史事实整理成 Markdown，每条注明来源。推演时按范围自动上传。</p>';
  Object.entries(D.seeds).forEach(([k,v])=>{h+='<div class="h3">'+esc(v.name)+'</div><div class="seedl">'+v.files.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div>'});
  return h}
@@ -294,23 +297,23 @@ document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]")
  else if(k==="c"){CT=v;SEL=null;const ps=D.projects.filter(p=>p.country===v);if(ps.length){const la=ps.reduce((s,p)=>s+p.centroid[0],0)/ps.length,lo=ps.reduce((s,p)=>s+p.centroid[1],0)/ps.length;focus(la,lo)}}
  else if(k==="p"){SEL=SEL===v?null:v;const p=D.projects.find(x=>x.id===v);if(p&&SEL)focus(p.centroid[0],p.centroid[1])}
  else if(k==="z")ZOOM=!ZOOM;else if(k==="m")MORE[v]=!MORE[v];else if(k==="t")OPEN[v]=!OPEN[v];
- else if(k==="doc"){openDoc(v);return}else if(k==="rep"){openDoc("runs/"+v+"/REPORT.md");return}else if(k==="back")VIEW=null;
- else if(k==="tok"){if(v==="save"){const t=($("tokin").value||"").trim();if(!/^(github_pat_|ghp_)/.test(t)){alert("令牌格式不对：应以 github_pat_ 开头");return}ls.set("bri_gh_token",t)}else ls.set("bri_gh_token",null)}
+ else if(k==="doc"){openDoc(v);return}else if(k==="rep"){openDoc(RUNRAW+v+"/REPORT.md");return}else if(k==="back")VIEW=null;
+ else if(k==="tok"){if(v==="save"){const t=($("tokin").value||"").trim();if(!/^(github_pat_|ghp_)/.test(t)){alert("令牌格式不对：应以 github_pat_ 开头");return}ls.set("gh_token",t)}else{ls.set("gh_token",null);ls.set("bri_gh_token",null)}}
  render()});
 document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value)});
 document.addEventListener("change",e=>{if(e.target.id==="dscope"){ls.set("bri_scope",e.target.value);$("dseeds").innerHTML=seedPreview(e.target.value)}});
-document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const tok=ls.get("bri_gh_token"),m=$("dmsg"),btn=$("dgo");
+document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const tok=TOK(),m=$("dmsg"),btn=$("dgo");
  const req=$("dreq").value.trim();if(req.length<10){m.className="msg err";m.textContent="推演要求至少写 10 个字。";return}
  const rid=new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z"+Math.random().toString(36).slice(2,6);
  btn.disabled=true;m.className="msg";m.textContent="正在提交…";
- try{const r=await fetch("https://api.github.com/repos/"+REPO+"/actions/workflows/drill.yml/dispatches",{method:"POST",headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json","content-type":"application/json","x-github-api-version":"2022-11-28"},
-   body:JSON.stringify({ref:"main",inputs:{requirement:req,scope:$("dscope").value,title:$("dtitle").value.trim(),max_rounds:String($("drounds").value||20),request_id:rid}})});
+ try{const r=await fetch("https://api.github.com/repos/"+RUNREPO+"/actions/workflows/"+RUNWF+"/dispatches",{method:"POST",headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json","content-type":"application/json","x-github-api-version":"2022-11-28"},
+   body:JSON.stringify({ref:"main",inputs:{requirement:req,project:"bri",scope:$("dscope").value,title:$("dtitle").value.trim(),max_rounds:String($("drounds").value||20),request_id:rid}})});
   if(r.status===204){m.className="msg ok";m.textContent="已提交，编号 "+rid+"。运行状态会显示在下面的推演记录里。";ls.set("bri_draft",null);setTimeout(pollRuns,4000)}
-  else{const t=await r.text();m.className="msg err";m.textContent=(r.status===401?"令牌无效或已过期，请断开后重新连接。":r.status===403||r.status===404?"令牌没有这个仓库的 Actions 写权限。":"提交失败（"+r.status+"）：")+t.slice(0,200)}}
+  else{const t=await r.text();m.className="msg err";m.textContent=(r.status===401?"令牌无效或已过期，请断开后重新连接。":r.status===403||r.status===404?"令牌没有 EVEREST- 仓库的 Actions 写权限。":"提交失败（"+r.status+"）：")+t.slice(0,200)}}
  catch(x){m.className="msg err";m.textContent="网络错误："+x.message}btn.disabled=false});
-let PR=null;async function pollRuns(){clearTimeout(PR);try{const tok=ls.get("bri_gh_token"),h={accept:"application/vnd.github+json"};if(tok)h.authorization="Bearer "+tok;
- const r=await fetch("https://api.github.com/repos/"+REPO+"/actions/workflows/drill.yml/runs?per_page=6",{headers:h});if(r.ok){const j=await r.json();const was=LIVE_RUNS.some(x=>x.status!=="completed");LIVE_RUNS=j.workflow_runs||[];
-  if(was&&!LIVE_RUNS.some(x=>x.status!=="completed"))await get("runs/index.json").then(x=>D.runs=x.runs||[]).catch(()=>{});
+let PR=null;async function pollRuns(){clearTimeout(PR);try{const tok=TOK(),h={accept:"application/vnd.github+json"};if(tok)h.authorization="Bearer "+tok;
+ const r=await fetch("https://api.github.com/repos/"+RUNREPO+"/actions/workflows/"+RUNWF+"/runs?per_page=10",{headers:h});if(r.ok){const j=await r.json();const was=LIVE_RUNS.some(x=>x.status!=="completed");LIVE_RUNS=(j.workflow_runs||[]).filter(x=>/一带一路/.test(x.display_title||""));
+  if(was&&!LIVE_RUNS.some(x=>x.status!=="completed"))await get(RUNRAW+"mirofish-bri/index.json").then(x=>D.runs=x.runs||[]).catch(()=>{});
   const d=$("druns");if(d)d.innerHTML=runsHTML()}}catch(e){}
  if(TAB==="drill"&&!document.hidden)PR=setTimeout(pollRuns,LIVE_RUNS.some(x=>x.status!=="completed")?20000:90000)}
 (async()=>{let land=null;try{land=await (await fetch("land_dots.json")).json()}catch(e){}try{glInit(land)}catch(e){console.warn(e)}

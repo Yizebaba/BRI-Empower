@@ -13,18 +13,16 @@
 | 扫描 | 每 30 分钟查一次项目周边：USGS 地震、GDACS 灾害警报、NASA EONET、Google 新闻、IODA 断网、美英旅行建议 | `.github/workflows/scan.yml` → `data/live.json` |
 | 冲突事件 | 每天一次经 World Monitor 读取 UCDP 已核实的冲突事件 | 定时任务 → `data/wm.json` |
 | 种子文档 | 把以上数据整理成 MiroFish 需要的 Markdown（项目档案、周边态势、历史事实、来源说明），每条注明来源 | `tools/seed_docs.py` → `seeds/` |
-| 推演 | 你在网页上写推演要求并提交；工作流把所选范围的种子文档和你的要求自动上传给 MiroFish，建图谱、模拟、写报告 | `.github/workflows/drill.yml` → `runs/<编号>/` |
+| 推演 | 你在网页上写推演要求并提交；珠峰仓库的 mirofish 工作流（project=bri）把所选范围的种子文档和你的要求自动上传给 MiroFish，建图谱、模拟、写报告 | Yizebaba/EVEREST- 的 `mirofish.yml` → 它的 events 分支 `mirofish-bri/` |
 | 网页 | 3D 地球、态势、推演表单、种子文档、数据源、偏差测试 | `site/`（GitHub Pages） |
 
 推演要求只能由你自己写，系统不替你生成。
 
-## 第一次使用需要的设置
+## 第一次使用
 
-1. **Settings → Pages**：Source 选 GitHub Actions。
-2. **Settings → Secrets and variables → Actions**，新建 4 个 Secret（MiroFish 用）：
-   - `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL_NAME`：任意 OpenAI 格式的模型接口（如 DeepSeek：`https://api.deepseek.com`、`deepseek-chat`）。
-   - `ZEP_API_KEY`：Zep Cloud 的密钥。
-3. 在网页的“推演”标签连接 GitHub：新建一个 Fine-grained token，只选本仓库，Actions 权限选 Read and write。令牌只存在你自己的浏览器里。
+不用在本仓库设置任何密钥：推演在珠峰仓库（Yizebaba/EVEREST-）里运行，共用那里已经配好的模型和 Zep 密钥。网页由工作流推到 gh-pages 分支自动发布。
+
+第一次推演前，在网页“推演”标签连接 GitHub：新建一个 Fine-grained token，Repository access 选 EVEREST-，Actions 权限选 Read and write。令牌只存在你自己的浏览器里；珠峰的推演页用的是同一个令牌，同一个浏览器里只需连接一次。
 
 ## 数据和许可
 
