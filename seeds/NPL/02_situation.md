@@ -1,4 +1,4 @@
-# 尼泊尔项目周边近期态势（截至 2026-10-19 04:25 UTC）
+# 尼泊尔项目周边近期态势（截至 2026-10-19 10:12 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -15,14 +15,13 @@
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
 - 2026-10-16 08:23 UTC：Rasuwagadhi Hydropower provides Rs 500,000 each in relief to families of missing, deceased employees - OnlineKhabar English News。https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWkRHbXZELVhzdjJja2dCZThlZG9GOVlJT1NwVUx6RUNJeTd6QVJ1Z0pPc0Q3RzJXRjFialRPbzJ6aV92dEZWbDdpSDZFWXlDWkZGbVoyWHg0ejBGZVZVdFcyZWJ3eHpCelhUeFBsdkRDMjJSRm5qUGIwckd2SUgzVWtGSmF2MjJfaFlkUWxpNktrLUgyN2IzMklsbS1lakcwaEp4Ukg2Umd6TVM0amlqYk5QWHRqU0FKODZ6NFB3ZkRiU2theW9ZTlNBbWFfWUtBNVE?oc=5
 - 2026-10-16 03:15 UTC：Strategic Road Section Linking Nepal and China Damaged by Flood, Reconstruction Uncertain - Ratopati。https://news.google.com/rss/articles/CBMirwFBVV95cUxPdE9BOWRoZ0pUSzk4TjRocGwyWVVZQjlkclFYTHZVaHcxUkV5eWMxM0tRVDFvNDRjbUo1NnBfbTBYQ2w1X1lzbTYwUk1yeEk3SXBOaHkyWWdsU2xGdnRDbGJpYjdoblYyemV5Ynd1TG8xN0NNczhOVTVOdGR0djZYbXR0WlpoanJxa0p3X3Z6Z0VVM3JJTUlxczg1ZTZXQTh3ejhZTGFYSjlOM3h6OHJF?oc=5
+- 2026-10-15 12:51 UTC：Nepal Flash Flood 2026 Situation Report 7 (15 October 2026) - ReliefWeb。https://news.google.com/rss/articles/CBMilwFBVV95cUxNVTkxY20xYXM0QnBQUHJCT1ZWYjBJdXZqLUNPdmhremRXaVFlRzF6Yk1MZ2tnSHJudzBkY3VocmgxQXVLTzhVMDliQWFkYmtKVDZXQzFEWFlmSjgwcjNsM2dGVExpbGpQYnVBak9HSnllQmtPU3VuTUF1VngzODltM2tvMU8xS2gtQ3pRM3dSVVVlZXl2cXlz?oc=5
 - 2026-10-14 21:32 UTC：Nepal-Tibet flood death toll surpasses 900, officials say, more than 4,700 missing - ABC11 News。https://news.google.com/rss/articles/CBMiqwpBVV95cUxQLWppdmwtWVdzNmtYd1h6ajZQSTZpSkFsQ0tnV2wzWHNhUlhoQXB6YTJVd2lfRHNITXAwX3JNVzB1ZDRoWmFOU2dwVTVpYWtnaUYzYmNiN3dtQWNadF9saDdBVHA5anNTc2VYUmFabW5sMGV3NmNnMm0wS1M1WXRhRXJNRTZXV1o4cDJaenJOc05aMGhVQXduVF9jN0RrZnFrVFZUWHZzX0J4V3ZsdHYxVWRDM3BNQzZuNE5mSzRZcGF0WHhjdDRQV1REalRlWlZ2N3Z6b183Q1dDZnRxb0NxUmZVdmY0bXBTX3ByV3RoSFpNVkNzMGZadzZBRFZPUzQxTFlJeUpBZDh1MFE5bmxyU1pnRlZaYzVBcV9MeW9mT1JwbmFodEp2UmVRaFd2bVF3dnpLMWtFS01NSWNYMVVmUERzWVVkTnF0SnRSZXhZc1JSM0d2eFJhcXhzaEJNZ2hxOEhIMGpySGp3TjJ1RlFHUHJJdmRuLUZzYmZ2QVFkMmhacWVDeHN0S1g5cHlEWmVRSG9ndllYQ2t2S3BKc2NUY0pUWTB0bG5uYzYtNDl4RDIxWkJFcEd1SHNPVG53enQ3QlA4LWJLdTZ2dVhEcEJWUmhWSHl5SG5DWXhodG02SWlvbDRoTG40UVJGb0N1WmxkUkF4SzVXbGx1dlhQeWRRNkF5WGRQUVhjMG1uMUFPSDBKeFEtN1B1Z3RPc1pISUtfLXRMTzVTcUt5eTVVMU12YU44dVk0bmRhX3JER29Hd2xtRHNVSUxWZWNxLURmZlFNWnNrUm13RU1FRUU1cGRac2NPbk1lTWZYREZTaXJFbDg4b3BMNVFuWnp1aURzdGlyRWF0UG1wa0d3bWlPbXJSYVlvNld0MVhXX2pHRkpneTg2ejRoV3pIZ3IzWVRIajR6Ullvc2ZLQjhxSm13UmpzQUdEWG54ZXM0QmFUY0RpR2tTNW5BNW9YZmVDVjYya1hxc04zVXVEcHZYbjNMZFpncTJpV1BiUmhvdFBZbnp3TFgtWHJTRjdiaU9VSFBySHowR1ZkbjBEZU5sYmZSZ1FHLXVseUFLUklvMWxBbFFpemFKcVhkN3JYRjVUQUpaLWJzbXFXTEpGR1JMVDh1b283eHFkWVdIZ0szb2FjQlBpX3hDZGJ3dURhQ2tyckM2TmtGb0RHNGxTSzg4YjlfTEhHS3JWQ2p5ZHl3RHpuMkhNRlRKdFFDQjVnaG9FWkYycEgyQ0ktek1fTEdSV0xEN19fLUVaNjNuM2Y4U3kyUkVjeHRUUHB2T3hHMUptalowOGRlVnFKSkhoZEd4aEpfaWpMUDR1dzczeXZpQWFlQ2hORExmclBEQVlSUmgtNHBuZnZDN1FpVjAxTGl3YldNNEdjblpESGs2a3hTMU1vY3NNRnhNR0paOUhUTC1Yc1lSV0M5R1FUNVVGV1Z4TXFNaW5hdjZRdm9zZDlBT2o3MHQ4MC1FOFhvVW1nX0RKQVBVb1NqSURGc1FaNjlpWW9NUjEzc18wZENfcU5MN0RvVVlKOS1pY3JYOFBQQW9Fc0VYSWVXdHBDNlEtWDFLMDIyMmNiaHZ3ODlESGtaNXp1QnBYV202LVdjWnRSRTJ0Rk5BQnJfSWZBT1dQeUpsVDVYVHJfMmxzRjBlVkhHQUlRUmhyWWpMQ08tU3ZvNl81ZE5TSExYMXp4MmRPQW5JNUVMUDhCMl9xaHJNcFJvNURXR0phWFhIdWoxLU53amZyNlV5eWtxSW5ONVE2WU9zdVk?oc=5
 - 2026-10-14 10:24 UTC：Bhote Koshi Flood Claims Lives Ahead of Dashain Festival - Ratopati。https://news.google.com/rss/articles/CBMiugFBVV95cUxPd0hkMEZmZDlITUxRYnZSSG0tTlgyaWNWQUVrdndnSnpRN0FodXZDampPTjAtbjdiYmhTSnN5OGxyd0lKaXpKQk94dDFPUTkycTk0Zmt6ZnBjeUdyRUUxRUpsUzJaTUpxZ3ZGUDZ0SndXSmJJRU5tbWZ5SmsyX3A1M3FTbThUd2xxeE1uTGhqUXBxQ2twWWxTcjFZaHR0Z2ctZ0F3b3pPWjRTRFhDZzVYOU9pVlFXMTN5Z3c?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-18 07:43 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
+- 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
-- 2026-10-12 09:16 UTC：Proposed China ambassador Kalyan Raj Sharma outlines priorities, pledges to boost trade and connectivity - OnlineKhabar English News
-- 2026-10-12 08:37 UTC：Ambassador Nominee Sharma Presents Work Plan for China Relations - Ratopati
 
 ## 热索瓦加迪（Timure）口岸边检站
 
@@ -37,8 +36,8 @@
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
+- 2026-10-18 04:14 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Hamro Patro
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
-- 2026-10-12 09:16 UTC：Proposed China ambassador Kalyan Raj Sharma outlines priorities, pledges to boost trade and connectivity - OnlineKhabar English News
 
 ## 上特里苏利 3A 水电站（60 MW）
 
@@ -55,7 +54,6 @@
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
 - 2026-10-18 03:41 UTC：Temporary tower restores 220 kV transmission line damaged by Kaligandaki flood - myRepublica。https://news.google.com/rss/articles/CBMiygFBVV95cUxOOHNTdlFUX3drVk10STRST1U3ZWgzaU5nTmFNay1QYURFdXU0eEZXRG0tWS1qcmYxeXZ1ZC1SbnE5eElDUHo3Y3NHUU1PbUtIWWNQMjBIUXdCOWlYV0xNRGowS21lMHlXU0JBR01MXzV3blh2WFRnM3NLdjV3M0NOa3FUdG9OMVBJdUN5blJHc0tLekFtX0p3MWNFNDByWklfMl9Rb0pFVGxvTmpOdWlpNVBaVTZnbElrSzlobTB1akdOcEh4S0hDeUhn?oc=5
-- 2026-10-17 10:46 UTC：Energy sector accounts for one-third of flood damage - Nepali Patro。https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qTXdGeG52REJLX2lWN21fTnM4LUhUekNWRzFWN3Y5NllsXy1WajEzTDNCMy1nZ05nOWxWQVZnM2J1Zk95WjB6NUZtN2VJTFRXZ2YtQ3FBbkhJQQ?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-18 08:43 UTC：Dhunge-Trishuli suspension bridge opens to the public - myRepublica
