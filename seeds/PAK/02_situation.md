@@ -1,4 +1,4 @@
-# 巴基斯坦项目周边近期态势（截至 2026-10-18 15:56 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-19 04:25 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -13,7 +13,6 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-16 05:00 UTC：Karakoram Highway | Facts, Completion Date, & Khunjerab Pass - Britannica
 - 2026-10-15 13:10 UTC：Pakistan-China Vloggers: How Creators Shape Relations - The Daily CPEC
 
 ## 喀喇昆仑公路二期（塔科特—哈维连）
@@ -38,18 +37,25 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
+- 2026-10-19 04:16 UTC：Four terrorists killed in Balochistan operations, major martyred in Gwadar: ISPR - Hum News English。https://news.google.com/rss/articles/CBMirgFBVV95cUxQVG9PbmRadzF4aWVESmI3N1p2TjF4Z2VRWEZXRmJYRzU1ZEtGRXViYjRja2V6Q0hZb3ZjZ2dPUkp5UkRqTHBYN0Qtak5ZM3VxcXlVQXJHZ2s2MzBLaHhTakFaMmdhVDRIeEFDTm1EQ1dtR2lzWlhVcGNLUG5LSURRNnVZSU53SmIxcTI3ZVlmeEE4SnNodWlfTXRZbUc2RUd4SlJpakpEYVJqS1ZtMlE?oc=5
+- 2026-10-19 03:57 UTC：Pakistan Army major martyred, four terrorists killed in Balochistan IBOs - Daily Pakistan。https://news.google.com/rss/articles/CBMitgFBVV95cUxOZGkwTHFnZzV1SlpPaVBJdjFmamNsNHVTVHNRUTBVSnFxZVlHeGxuR3BvR3R4WUN3UnlwMUNTTkNISFdQd2NXMGlQVDlLNXpPTi1UcF9Xc3ZNNHpHQ2FYN0QwNy1CVW0wV1p3dndTNm96LVNtOFJWRE96LWlGZWZ3aDBCNmFucVNRRU5tLVd1Z1lheVhtTkFINjVFV1hBcVJ1UDRfb0IzNGJXaFBRU0RIdnNYd2NRZw?oc=5
+- 2026-10-19 03:44 UTC：Army major martyred in Gwadar, four terrorists killed in Kalat IBO: ISPR - The News Pakistan。https://news.google.com/rss/articles/CBMiqwFBVV95cUxONUowZmtiSzM5UGlyS1ZmSEtXMHpVc2JnUFk3cVM4Tl93dGM4ck12RkJ1SzNmeUFjeU94T1l0dmNBUnBZblpObDNZSGUwZXpxLUg1dGQ0SlBWZmN0MWUySlZvTTdBRmNjWXNpMXhZQ1doeW45ak4xN0xSV1k5WTVsbnJkWGVJOHl0eVJhS0lLaFNmQ1ZpdThhbjF4YmhhbnpkYlBpMDdLNWltR1k?oc=5
+- 2026-10-19 03:32 UTC：Pakistan Army’s Major Wajahat martyred, 4 terrorists killed in Balochistan operations - Pakistan Observer。https://news.google.com/rss/articles/CBMirAFBVV95cUxPRFBGTjVrREh0V090d1h5YWVvamd1ZTBSYU81YlpGTmwxLWtmZVNGczlrYWpzX2cxZWZpT0JNQzBCRV91QTA1Q2tNZ0hOV0hJT1NLbjktVFdKZE96UGttOE40dzI5QWVoZUFKYmFWZV9tUUtyaW9aTXhZRHJtM29EX2t5Q0dNeURhdmNMMmdoLWdWNThUSFlueFhjQm9weDFEaC03djBvR2Y5SmJj?oc=5
+- 2026-10-19 02:45 UTC：Pakistan Army officer martyred, 4 terrorists killed in Balochistan IBOs: ISPR - Dawn。https://news.google.com/rss/articles/CBMirgFBVV95cUxNLVdJbGpMLW1pRF9xUmZBY01Ba05UdUUwa2pVT0dBM2FmUzNISDV3NjdrRU9vT3ZidUJXLXI1c01PLUpLR1N1NlJPeTBfR2VOdTBnTHpvQ0JuNDNyeklYNWdQbTRQQWxzamgyLS1waUJWcU5vd2pwdVgwX3oxS2l5Ukt6S2NqTlpubkZsLVZPWWdjaFIwS2pKSmlrZ3dmdGtYMlp3cWFxNE9qSlZYSFE?oc=5
+- 2026-10-18 16:38 UTC：Children join protest in Pakistan’s Gwadar, demand justice for murdered teacher - Indiablooms。https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSUI2RkRFcVNHeEI2RGJPV2djRDdncnhvZmJ1T3pURjhZUHJVWjMwczNhQlY3a1ZMYW5HU3ZMNjhBSm5kbmpqOTREM2pnN1F1WkhwQ0JYUy12WUdpOU9SdkhOWGJELUFkWFJHTGdEbnBXVVducjI3dVU2MUctQnZrWDVkd21nc1NDWjViZkJmMWxjMmFLX2lfenV6ODJOUkluNXZLcFBvOHZnZVFKcXRLRXlxWHZwMkk0cmZZ?oc=5
+- 2026-10-17 14:56 UTC：The Day Gwadar Was Flooded 🌧️ || January 19, 2023 | Gwadar Vlog - YouTube。https://news.google.com/rss/articles/CBMiXEFVX3lxTE5ieHJWQUlGS0FpYWpQQnB5Z3F2VFlMakxHVnB1UWhkallNaWhzZVRBLTJDXzItQlBEeXdkeEpYOUhueFFYMmtpcmxCdi1DZGlRSTVFcUFYbTBOa0pH?oc=5
 - 2026-10-13 08:20 UTC：Jiwani Ambush Foiled: 28 BLA Terrorists Killed in Gwadar - Balochistan Pulse。https://news.google.com/rss/articles/CBMiigFBVV95cUxOcDYyeGpGWnI0RDY5eTBfdVZpMVFwOXNta1JidjB4NG9vNVUyQWVqbTQwU2lDbVVpRDNIS2MxWXN2eUU3bUhhRll6ckNmd1ljeXJWZERycDNqbGd0ZHMtV1AzZ0xSanZyY1BNU1dLV3VtMzU2ZXZyTTNYaXhfd0cxOTA2SS1pZm1xcGfSAYoBQVVfeXFMTnA2MnhqRlpyNEQ2OXkwX3VWaTFRcDlzbWtSYnYweDRvbzVVMkFlam00MFNpQ21VaUQzSEtjMVlzdnlFN21IYUZZenJDZndZY3lyVmREcnAzamxndGRzLVdQM2dMUmp2cmNQTVNXS1d1bTM1NmV2ck0zWGl4X3dHMTkwNkktaWZtcXBn?oc=5
 - 2026-10-12 07:54 UTC：BLA claims attack on Pakistani Coast Guard boats, 13 personnel killed - The Statesman。https://news.google.com/rss/articles/CBMiuwFBVV95cUxPXzBZQlpheXlUOVRSY0pTa2xQQmR4MEdOSndHd3FYcTA4eDVLUURSekN1R1BJSDB2bUFYMFU0VVREWmZVUy1DNHZmZV9IdVJpZ3EwYXpUSmJidS1obExmYmdWUkd1Z2JiV29IWU9MWUhKQ2Z0aEJmN2tUVjRVX3JnLTZ4dk5iVENlczg4cDhWREpHcVVyVkdoTTNjN0t3X2hsUnp3V0hqRkJFWm9MdzJGTVZNM2RPWjNMTk1V0gHAAUFVX3lxTE91MTFsMmV0OV9jWGhMV1JrVGp5akR3ZUM2X2pUNTlqMllWRHBKbFZXZ05rZkVYUGZkNHU5cGk3YURvajhhNEFmVVI0Q1M3YVNGdV8xVEFNcnRXaUV3TGk5VzNNdmV2Nkd5dTR5WmtON2xGQXBPVktiR3FoRUhzQllUVDgzSFA1ejM3aFA4dTZRRWdKWkY1Z2JTN2toTGlsa2ZScE5oRlBGaENodjlfeXQ5d1d2UjZGQnZfUjc3UFF1Tg?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-18 15:21 UTC：'State terrorism': Rights group condemns firing on Baloch workers by 'death squad' in Pakistan - IANS LIVE
+- 2026-10-19 03:01 UTC：Major martyred, four terrorists eliminated in Kalat, Gwadar operations - Dunya News
+- 2026-10-19 02:31 UTC：‘State terrorism’: Rights group condemns firing on Baloch workers by ‘death squad’ in Pakistan - Social News XYZ
+- 2026-10-18 00:05 UTC：Gwadar Port Development Reviewed to Expand Regional Trade - Daily Independent
 - 2026-10-17 22:26 UTC：Bridging Gwadar’s Infrastructure And Service Delivery Gap – OpEd - Eurasia Review
+- 2026-10-17 14:02 UTC：Call to remove infrastructure and customs barriers to boost Iran trade through Gwadar Port - SteelRadar
 - 2026-10-17 10:09 UTC：China-Pakistan Youth Forum Held in Harbin at 75-Year Mark - Gwadar Pro
 - 2026-10-17 10:09 UTC：Punjab to distribute 100,000 Chinese electric bikes free to students - Gwadar Pro
 - 2026-10-17 10:09 UTC：Chinese Civil Society Groups Bring Supplies to Underprivileged Youth in Pakistan - Gwadar Pro
-- 2026-10-17 01:13 UTC：The Mecca Pact Is Aimed at Tehran’s Allies, and Pakistan Is Still Trading With Tehran - Republic World
-- 2026-10-16 13:56 UTC：Gwadar Port Chief Reviews Hangeng Donkey Slaughterhouse - The Daily CPEC
-- 2026-10-16 13:56 UTC：Gwadar Installs 164 Poles for Safe City Camera Network - The Daily CPEC
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 
