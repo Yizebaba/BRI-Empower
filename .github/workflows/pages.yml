@@ -1,18 +1,26 @@
-# 发布网页：把 site/ 推到 gh-pages 分支（GitHub 会自动从这个分支发布，不用在 Settings 里设置）。
-# 数据不随网页发布：网页运行时直接读仓库的 data/、seeds/，数据更新不用重新发布。
+# 发布网页（site/）。两条路都走，哪条生效看仓库 Settings → Pages 的 Source：
+#  - 推到 gh-pages 分支（Source = Deploy from a branch / gh-pages，或从没设置过时 GitHub 自动用它）
+#  - GitHub Actions 部署（Source = GitHub Actions）；没开时这一步失败也不影响前一步
+# 数据不随网页发布：网页运行时直接读仓库的 data/、seeds/。
 name: pages
 on:
   push: { branches: [main], paths: ["site/**", ".github/workflows/pages.yml"] }
   workflow_dispatch:
-permissions: { contents: write }
+permissions: { contents: write, pages: write, id-token: write }
 concurrency: { group: pages, cancel-in-progress: true }
 jobs:
   publish:
     runs-on: ubuntu-24.04
+    environment: { name: github-pages }
     steps:
       - uses: actions/checkout@v4
       - name: Push site/ to gh-pages
         run: |
-          cd site && touch .nojekyll && git init -q -b gh-pages && git add -A
+          cp -r site /tmp/site && cd /tmp/site && touch .nojekyll && git init -q -b gh-pages && git add -A
           git -c user.name=bri-bot -c user.email=bri-bot@users.noreply.github.com commit -qm "site from ${GITHUB_SHA::8}"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
+      - uses: actions/upload-pages-artifact@v3
+        continue-on-error: true
+        with: { path: site }
+      - uses: actions/deploy-pages@v4
+        continue-on-error: true
