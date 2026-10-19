@@ -1,4 +1,4 @@
-# 尼泊尔项目周边近期态势（截至 2026-10-19 17:08 UTC）
+# 尼泊尔项目周边近期态势（截至 2026-10-19 21:43 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -19,7 +19,8 @@
 - 2026-10-14 10:24 UTC：Bhote Koshi Flood Claims Lives Ahead of Dashain Festival - Ratopati。https://news.google.com/rss/articles/CBMiugFBVV95cUxPd0hkMEZmZDlITUxRYnZSSG0tTlgyaWNWQUVrdndnSnpRN0FodXZDampPTjAtbjdiYmhTSnN5OGxyd0lKaXpKQk94dDFPUTkycTk0Zmt6ZnBjeUdyRUUxRUpsUzJaTUpxZ3ZGUDZ0SndXSmJJRU5tbWZ5SmsyX3A1M3FTbThUd2xxeE1uTGhqUXBxQ2twWWxTcjFZaHR0Z2ctZ0F3b3pPWjRTRFhDZzVYOU9pVlFXMTN5Z3c?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
+- 2026-10-19 18:07 UTC：China cites non-existent Tibetan refugee threats to refuse reopening Nepal border trade post - Tibetan Review
+- 2026-10-18 07:43 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
 
 ## 热索瓦加迪（Timure）口岸边检站
@@ -34,8 +35,8 @@
 - 2026-10-14 10:24 UTC：Bhote Koshi Flood Claims Lives Ahead of Dashain Festival - Ratopati。https://news.google.com/rss/articles/CBMiugFBVV95cUxPd0hkMEZmZDlITUxRYnZSSG0tTlgyaWNWQUVrdndnSnpRN0FodXZDampPTjAtbjdiYmhTSnN5OGxyd0lKaXpKQk94dDFPUTkycTk0Zmt6ZnBjeUdyRUUxRUpsUzJaTUpxZ3ZGUDZ0SndXSmJJRU5tbWZ5SmsyX3A1M3FTbThUd2xxeE1uTGhqUXBxQ2twWWxTcjFZaHR0Z2ctZ0F3b3pPWjRTRFhDZzVYOU9pVlFXMTN5Z3c?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
+- 2026-10-19 18:07 UTC：China cites non-existent Tibetan refugee threats to refuse reopening Nepal border trade post - Tibetan Review
 - 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
-- 2026-10-18 04:14 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Hamro Patro
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
 
 ## 上特里苏利 3A 水电站（60 MW）
@@ -52,7 +53,6 @@
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
 - 2026-10-18 03:41 UTC：Temporary tower restores 220 kV transmission line damaged by Kaligandaki flood - myRepublica。https://news.google.com/rss/articles/CBMiygFBVV95cUxOOHNTdlFUX3drVk10STRST1U3ZWgzaU5nTmFNay1QYURFdXU0eEZXRG0tWS1qcmYxeXZ1ZC1SbnE5eElDUHo3Y3NHUU1PbUtIWWNQMjBIUXdCOWlYV0xNRGowS21lMHlXU0JBR01MXzV3blh2WFRnM3NLdjV3M0NOa3FUdG9OMVBJdUN5blJHc0tLekFtX0p3MWNFNDByWklfMl9Rb0pFVGxvTmpOdWlpNVBaVTZnbElrSzlobTB1akdOcEh4S0hDeUhn?oc=5
-- 2026-10-17 10:46 UTC：Energy sector accounts for one-third of flood damage - Nepali Patro。https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qTXdGeG52REJLX2lWN21fTnM4LUhUekNWRzFWN3Y5NllsXy1WajEzTDNCMy1nZ05nOWxWQVZnM2J1Zk95WjB6NUZtN2VJTFRXZ2YtQ3FBbkhJQQ?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-18 08:43 UTC：Dhunge-Trishuli suspension bridge opens to the public - myRepublica
