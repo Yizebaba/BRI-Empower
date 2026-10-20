@@ -44,16 +44,18 @@ ports = {k: {} for k in ISO3}
 try:
     end = latest_date("Daily_Ports_Data"); d30 = end - timedelta(days=30); d60 = end - timedelta(days=60)
     D = lambda d: DQ("Daily_Ports_Data", d)
-    inlist = "ISO3 IN (" + ",".join("'" + k + "'" for k in ISO3) + ")"
     S = [("sum", "portcalls", "calls"), ("sum", "import", "imp"), ("sum", "export", "exp")]
-    for row in pw_stats("Daily_Ports_Data", f"{inlist} AND date > {D(d30)}", "ISO3", S):
-        ports[row["ISO3"]].update({"calls30": row["calls"], "import30": round(row["imp"] or 0), "export30": round(row["exp"] or 0)})
-    for row in pw_stats("Daily_Ports_Data", f"{inlist} AND date > {D(d60)} AND date <= {D(d30)}", "ISO3", S):
-        ports[row["ISO3"]].update({"calls_prev": row["calls"], "import_prev": round(row["imp"] or 0), "export_prev": round(row["exp"] or 0)})
-    top = pw_stats("Daily_Ports_Data", f"{inlist} AND date > {D(d30)}", "ISO3,portname,portid", S)
-    for row in sorted(top, key=lambda r: -(r["calls"] or 0)):
-        L = ports[row["ISO3"]].setdefault("ports", [])
-        if len(L) < 6: L.append({"name": row["portname"], "id": row["portid"], "calls30": row["calls"], "import30": round(row["imp"] or 0), "export30": round(row["exp"] or 0)})
+    for k in ISO3:   # 逐国查询：一次查全部国家时服务端只统计了部分记录
+        try:
+            cur = pw_stats("Daily_Ports_Data", f"ISO3='{k}' AND date > {D(d30)}", "portname,portid", S)
+            if not cur: continue
+            prev = pw_stats("Daily_Ports_Data", f"ISO3='{k}' AND date > {D(d60)} AND date <= {D(d30)}", "ISO3", S)
+        except Exception as e: ERR.setdefault("portwatch_some", []).append(k); continue
+        t = lambda key: sum((r[key] or 0) for r in cur)
+        ports[k] = {"calls30": t("calls"), "import30": round(t("imp")), "export30": round(t("exp")),
+                    "calls_prev": (prev[0]["calls"] if prev else None), "import_prev": round(prev[0]["imp"] or 0) if prev else None, "export_prev": round(prev[0]["exp"] or 0) if prev else None,
+                    "ports": [{"name": r["portname"], "id": r["portid"], "calls30": r["calls"], "import30": round(r["imp"] or 0), "export30": round(r["exp"] or 0)} for r in sorted(cur, key=lambda r: -(r["calls"] or 0))[:6]]}
+        time.sleep(0.2)
     out["portwatch"] = {"source": "IMF PortWatch（Daily Ports Data）", "url": "https://portwatch.imf.org/", "data_until": iso(end), "window_days": 30, "countries": {k: v for k, v in ports.items() if v}}
 except Exception as e: ERR["portwatch_ports"] = str(e)[:200]
 try:
