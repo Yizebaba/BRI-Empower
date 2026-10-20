@@ -1,15 +1,125 @@
-{"note":"BRI-Empower 用到的全部数据源。都可以引用：每条注明网址、许可、更新频率和本项目怎么取。",
-"sources":[
-{"id":"aiddata","name":"AidData 全球中国发展融资地理数据集 v3.0","name_en":"AidData GCDF v3.0 (geospatial)","url":"https://github.com/aiddata/gcdf-geospatial-data","license":"ODC-By 1.0；OSM 要素 ODbL","cadence":"静态（2000–2021 年承诺的项目）","use":"项目清单、范围（多边形）、融资方、状态、承诺年份","how":"tools/bri_registry.py 一次性抽取到 data/projects.json","cite":"Goodman, S., et al. (2024). AidData's Geospatial Global Chinese Development Finance Dataset, Version 3.0. Williamsburg, VA: AidData at William & Mary."},
-{"id":"usgs","name":"USGS 地震目录（M2.5+，近 7 天）","url":"https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php","license":"美国政府作品，公有领域","cadence":"每 30 分钟","use":"项目 150 km 内的地震","how":"tools/bri_scan.py"},
-{"id":"gdacs","name":"GDACS 全球灾害警报协调系统","url":"https://www.gdacs.org/","license":"欧盟委员会 JRC / 联合国 OCHA，注明来源可用","cadence":"每 30 分钟","use":"项目 300 km 内的洪水、气旋、地震等警报","how":"tools/bri_scan.py"},
-{"id":"eonet","name":"NASA EONET 自然事件","url":"https://eonet.gsfc.nasa.gov/","license":"NASA 开放数据","cadence":"每 30 分钟","use":"项目 150 km 内的火山、风暴、滑坡、野火等","how":"tools/bri_scan.py"},
-{"id":"gnews","name":"Google 新闻 RSS（按项目名查近 7 天）","url":"https://news.google.com/","license":"标题和链接，版权归原媒体","cadence":"每 30 分钟","use":"项目相关报道和事件线索","how":"tools/bri_scan.py"},
-{"id":"ioda","name":"IODA 互联网中断检测（佐治亚理工）","url":"https://ioda.inetintel.cc.gatech.edu/","license":"学术开放数据，注明来源","cadence":"每 30 分钟","use":"所在国近 7 天断网告警","how":"tools/bri_scan.py"},
-{"id":"us_adv","name":"美国国务院旅行建议","url":"https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html","license":"美国政府作品","cadence":"每 30 分钟","use":"国家风险级别 1–4","how":"tools/bri_scan.py（RSS）"},
-{"id":"uk_adv","name":"英国外交部旅行建议","url":"https://www.gov.uk/foreign-travel-advice","license":"Open Government Licence v3.0","cadence":"每 30 分钟","use":"最近更新时间和更新摘要","how":"tools/bri_scan.py（Content API）"},
-{"id":"worldmonitor","name":"World Monitor（UCDP 冲突事件、GDELT 动荡信号）","url":"https://www.worldmonitor.app/","license":"World Monitor 服务条款；UCDP 数据 CC BY 4.0","cadence":"每天一次（免费账号每天 5 次调用）","use":"所在国已核实的有伤亡冲突事件","how":"定时任务经 World Monitor 连接器读取，写入 data/wm.json"},
-{"id":"naturalearth","name":"Natural Earth 1:50m 国界","url":"https://www.naturalearthdata.com/","license":"公有领域","cadence":"静态","use":"网页地图底图","how":"tools/bri_basemap.js"},
-{"id":"reference","name":"偏差测试参考事实（ICIMOD、Eos、全印广播、ProPakistani、老挝通讯社等）","url":"data/reference.json","license":"各来源原文链接见文件","cadence":"手工整理","use":"4 起真实事件的权威事实，用来量化平台的偏差","how":"人工逐条摘录，注明出处"},
-{"id":"mirofish","name":"MiroFish 群体智能推演引擎","url":"https://github.com/666ghj/MiroFish","license":"AGPL-3.0（本项目不改它的代码，只调用它的后端接口）","cadence":"手动触发","use":"用种子文档和你写的推演要求做多智能体模拟，输出报告","how":".github/workflows/drill.yml"}
-]}
+{
+ "note": "BRI-Empower 用到的全部数据源。都可以引用：每条注明网址、许可、更新频率和本项目怎么取。",
+ "sources": [
+  {
+   "id": "gfdc",
+   "name": "共建“一带一路”国家清单（150 国）",
+   "url": "https://greenfdc.org/countries-of-the-belt-and-road-initiative-bri/",
+   "license": "Green Finance & Development Center，注明来源可用",
+   "cadence": "静态（截至 2025 年 5 月）",
+   "use": "网页覆盖的国家范围",
+   "how": "tools/bri_countries.py → data/bri_countries.json",
+   "cite": "Nedopil, C. (2025). Countries of the Belt and Road Initiative. Green Finance & Development Center."
+  },
+  {
+   "id": "aiddata",
+   "name": "AidData 全球中国发展融资地理数据集 v3.0",
+   "name_en": "AidData GCDF v3.0 (geospatial)",
+   "url": "https://github.com/aiddata/gcdf-geospatial-data",
+   "license": "ODC-By 1.0；OSM 要素 ODbL",
+   "cadence": "静态（2000–2021 年承诺的项目）",
+   "use": "150 国的中国融资项目清单（8,951 个）和 11 个重点项目的范围",
+   "how": "tools/aiddata_countries.py → data/countries/；tools/bri_registry.py → data/projects.json",
+   "cite": "Goodman, S., et al. (2024). AidData's Geospatial Global Chinese Development Finance Dataset, Version 3.0. Williamsburg, VA: AidData at William & Mary."
+  },
+  {
+   "id": "usgs",
+   "name": "USGS 地震目录（M2.5+，近 7 天）",
+   "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php",
+   "license": "美国政府作品，公有领域",
+   "cadence": "每 30 分钟",
+   "use": "按国界归到 150 个国家；11 个重点项目周边",
+   "how": "tools/country_scan.py、tools/bri_scan.py"
+  },
+  {
+   "id": "gdacs",
+   "name": "GDACS 全球灾害警报协调系统",
+   "url": "https://www.gdacs.org/",
+   "license": "欧盟委员会 JRC / 联合国 OCHA，注明来源可用",
+   "cadence": "每 30 分钟",
+   "use": "按国界归到 150 个国家；11 个重点项目周边",
+   "how": "tools/country_scan.py、tools/bri_scan.py"
+  },
+  {
+   "id": "eonet",
+   "name": "NASA EONET 自然事件",
+   "url": "https://eonet.gsfc.nasa.gov/",
+   "license": "NASA 开放数据",
+   "cadence": "每 30 分钟",
+   "use": "按国界归到 150 个国家；11 个重点项目周边",
+   "how": "tools/country_scan.py、tools/bri_scan.py"
+  },
+  {
+   "id": "gnews",
+   "name": "Google 新闻 RSS（按项目名查近 7 天）",
+   "url": "https://news.google.com/",
+   "license": "标题和链接，版权归原媒体",
+   "cadence": "每 30 分钟",
+   "use": "项目相关报道和事件线索",
+   "how": "tools/bri_scan.py"
+  },
+  {
+   "id": "ioda",
+   "name": "IODA 互联网中断检测（佐治亚理工）",
+   "url": "https://ioda.inetintel.cc.gatech.edu/",
+   "license": "学术开放数据，注明来源",
+   "cadence": "每 30 分钟",
+   "use": "所在国近 7 天断网告警",
+   "how": "tools/bri_scan.py"
+  },
+  {
+   "id": "us_adv",
+   "name": "美国国务院旅行建议",
+   "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html",
+   "license": "美国政府作品",
+   "cadence": "每 30 分钟",
+   "use": "150 国的旅行建议级别",
+   "how": "tools/bri_scan.py（RSS）"
+  },
+  {
+   "id": "uk_adv",
+   "name": "英国外交部旅行建议",
+   "url": "https://www.gov.uk/foreign-travel-advice",
+   "license": "Open Government Licence v3.0",
+   "cadence": "每 30 分钟",
+   "use": "最近更新时间和更新摘要",
+   "how": "tools/bri_scan.py（Content API）"
+  },
+  {
+   "id": "worldmonitor",
+   "name": "World Monitor（UCDP 冲突事件、各国旅行建议、国际新闻要闻、Cloudflare 断网、疫情、机场）",
+   "url": "https://www.worldmonitor.app/",
+   "license": "World Monitor 服务条款；UCDP 数据 CC BY 4.0",
+   "cadence": "每天一次（免费账号每天 5 次调用，每次取全球数据）",
+   "use": "每个国家的冲突、新闻、断网、旅行建议",
+   "how": "定时任务经 World Monitor 连接器取全球数据存入 data/wm_raw/，tools/wm_process.py 按国家整理成 data/wm.json"
+  },
+  {
+   "id": "naturalearth",
+   "name": "Natural Earth 1:50m 国界",
+   "url": "https://www.naturalearthdata.com/",
+   "license": "公有领域",
+   "cadence": "静态",
+   "use": "网页地图底图",
+   "how": "tools/bri_basemap.js"
+  },
+  {
+   "id": "reference",
+   "name": "偏差测试参考事实（ICIMOD、Eos、全印广播、ProPakistani、老挝通讯社等）",
+   "url": "data/reference.json",
+   "license": "各来源原文链接见文件",
+   "cadence": "手工整理",
+   "use": "4 起真实事件的权威事实，用来量化平台的偏差",
+   "how": "人工逐条摘录，注明出处"
+  },
+  {
+   "id": "mirofish",
+   "name": "MiroFish 群体智能推演引擎",
+   "url": "https://github.com/666ghj/MiroFish",
+   "license": "AGPL-3.0（本项目不改它的代码，只调用它的后端接口）",
+   "cadence": "手动触发",
+   "use": "用种子文档和你写的推演要求做多智能体模拟，输出报告",
+   "how": ".github/workflows/drill.yml"
+  }
+ ]
+}

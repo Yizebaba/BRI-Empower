@@ -1,0 +1,34 @@
+# 缅甸（Myanmar）：中国融资项目概况
+
+- 所属区域：东亚和太平洋；共建“一带一路”国家（来源：Green Finance & Development Center，截至 2025 年 5 月）
+- AidData 收录 2000–2021 年承诺的项目 248 个，承诺金额合计约 124.7 亿美元（2021 年不变价）；主要行业：Education（56）、Health（40）、Emergency Response（28）
+
+## 金额最大的项目（AidData 原文）
+
+- CDB lends £1.04 billion for Phases 2, 2A, and 3 of the Myingyan No. 1 Steel Mill Construction Project (Linked to Project ID#98030, 98031)（Industry, Mining, Construction，在建，2010 年承诺，约 1923 百万美元）。https://www.openstreetmap.org/way/990213040
+- CDB provides RMB 7.3584 billion loan for Myanmar-China Oil Pipeline Construction Project (Linked to Project ID#34468)（Industry, Mining, Construction，已完工，2010 年承诺，约 1514 百万美元）。https://www.openstreetmap.org/relation/5996483, https://www.openstreetmap.org/relation/5996479, https://www.openstreetmap.org/relation/5996485
+- China Eximbank and CDB extend loans for Tagaung Taung Nickel Mine Project（Industry, Mining, Construction，已完工，2007 年承诺，约 1096 百万美元）。https://www.openstreetmap.org/way/393496370, https://www.openstreetmap.org/relation/5996870, https://www.openstreetmap.org/relation/5996506, https://www.openstreetmap.org/relation/5996484
+- China Eximbank provides loan for the Letpadaung Copper Mine Project（Industry, Mining, Construction，已完工，2010 年承诺，约 1038 百万美元）。https://www.openstreetmap.org/way/237988951
+- China Development Bank provides EUR 452.75 million loan for Myanmar-China Gas Pipeline Construction Project (Linked to Project ID#73285)（Industry, Mining, Construction，已完工，2010 年承诺，约 835 百万美元）。https://www.openstreetmap.org/relation/10697248, https://www.openstreetmap.org/relation/5996666, https://www.openstreetmap.org/relation/5996889, https://www.openstreetmap.org/relation/5996850, https://www.openstreetmap.org/relation/5996480, https://www.openstreetmap.org/relation/2717275
+- China Eximbank provides $200 million preferential buyer’s credit for Hydraulic Steel Structure (Lot HSS-1) of 790MW Yeywa Hydropower Plant Project (Linked to Project ID#64085)（Energy，已完工，2003 年承诺，约 487 百万美元）。https://www.openstreetmap.org/way/217530403, https://www.openstreetmap.org/way/233729655
+- YMEC provides $160 million supplier credit for 280MW Paungluang Hydropower Plant Construction Project (Linked to Project ID#63813)（Energy，已完工，2000 年承诺，约 411 百万美元）。https://www.openstreetmap.org/way/306819854, https://www.openstreetmap.org/way/306819854
+- China Eximbank lends $195 million for No. 4 Urea Fertilizer Factory (Myaungtagar) and No. 5 Urea Fertilizer Factory (Kangyidaunt) Construction Project (Linked to Project ID#96221, 98029)（Industry, Mining, Construction，已完工，2006 年承诺，约 396 百万美元）。https://www.openstreetmap.org/relation/5996616, https://www.openstreetmap.org/relation/5996640
+- China Development Bank provides EUR 185.6 million loan for Yadana-Yangon Natural Gas Pipeline Construction Project (Linked to Project ID#98030, 98031)（Industry, Mining, Construction，已完工，2009 年承诺，约 387 百万美元）。https://www.openstreetmap.org/node/305639181, https://www.openstreetmap.org/way/937915297
+- China Eximbank provides overseas investment loan to 600MW Shweli 1 Hydropower Plant Construction Project（Energy，已完工，2006 年承诺，约 265 百万美元）。https://www.openstreetmap.org/way/489803545.
+- China Eximbank provides $225 million buyer’s credit loan for Yangon International Airport Reconstruction and Expansion Project（Transport And Storage，已承诺，2017 年承诺，约 259 百万美元）。https://www.openstreetmap.org/way/205742449
+- China Eximbank provides $200 million buyer’s credit loan for Naypyidaw International Airport Construction Project (Linked to Project ID#96221, 98029)（Transport And Storage，已完工，2011 年承诺，约 246 百万美元）。https://www.openstreetmap.org/way/330094807
+- China Eximbank provides loan for 240MW Dapeyin I Hydropower Plant Construction Project (Linked to Project ID#67706 and #63694)（Energy，已完工，2007 年承诺，约 243 百万美元）。https://www.openstreetmap.org/way/568777407, https://www.openstreetmap.org/way/568777406
+- Chinese Government provides RMB 800 million loan for Tengchong-Myitkyina Road Construction Project（Transport And Storage，已完工，2004 年承诺，约 220 百万美元）。https://www.openstreetmap.org/node/244081806, https://www.openstreetmap.org/relation/5996756
+- China Eximbank provides export seller’s credit for Thabaung Bleached Pulp Factory Project（Industry, Mining, Construction，已完工，2000 年承诺，约 196 百万美元）。https://www.openstreetmap.org/way/527317869
+- CDB provides EUR 120 million loan for Automobile Mould & Die Manufacturing Project and Truck Axles Manufacturing Project（Industry, Mining, Construction，已完工，2012 年承诺，约 181 百万美元）。https://www.openstreetmap.org/node/315390382
+- China Eximbank and China Construction Bank provide export seller's credit for Yeni Pulp & Paper Mill Project（Industry, Mining, Construction，已完工，2001 年承诺，约 174 百万美元）。https://www.openstreetmap.org/relation/5996887, https://www.openstreetmap.org/relation/5996556, https://www.openstreetmap.org/relation/5996474
+- China Eximbank provides loan for Meiktila-Taungoo 500 kV Transmission Line Construction Project (Linked to Project ID#98029, 96221)（Energy，在建，2012 年承诺，约 160 百万美元）。https://www.openstreetmap.org/relation/5996849, https://www.openstreetmap.org/relation/5996711
+- China Eximbank provides $129.9 million buyer’s credit loan for Phase 1 (Part 2) of Myanmar Communication Infrastructure Construction Project (Linked to Project ID#64443 and #63665)（Communications，已完工，2015 年承诺，约 146 百万美元）。https://www.openstreetmap.org/relation/6004094
+- China Eximbank provides RMB 690 million government concessional loan for Caustic Soda Plant and Industrial Zone Project (Linked to Project ID#96221, 98029)（Industry, Mining, Construction，在建，2010 年承诺，约 142 百万美元）。https://www.openstreetmap.org/relation/5996862
+- China Eximbank provides export seller's credit to YMEC for 140MW Upper Paunglaung Hydroelectric Power Plant Construction Project（Energy，已完工，2006 年承诺，约 138 百万美元）。https://www.openstreetmap.org/way/405725488, https://www.openstreetmap.org/way/405724476
+- CDB provides loan for 135 MW Kyauk Phyu Combined Cycle Power Plant Construction Project (Linked to Project ID#88703)（Energy，已完工，2021 年承诺，约 126 百万美元）。https://www.openstreetmap.org/way/990623724
+- China Eximbank provides $101.98 million preferential buyer's credit for Upper Yeywa-Shwesaryan 230 kV Transmission Line and 230 kV Shwesaryan Substation Extension Project (Linked to Project ID#96221, 98029)（Energy，在建，2013 年承诺，约 115 百万美元）。https://www.openstreetmap.org/way/449082772, https://www.openstreetmap.org/way/292309088
+- China Development Bank provides $100 million buyer’s credit loan for Phase 1 of 489MW Thaketa Gas-fired Combined Cycle Power Plant Construction Project（Energy，已完工，2014 年承诺，约 111 百万美元）。https://www.openstreetmap.org/way/490707697
+- China Eximbank provides export seller's credit for 230kV Nabar-Shrebo-Ohntaw Power Transmission Line and Substation Project (Linked to Project ID#63968)（Energy，已完工，2016 年承诺，约 102 百万美元）。https://www.openstreetmap.org/way/568777407
+
+来源：AidData 全球中国发展融资地理数据集 v3.0，https://github.com/aiddata/gcdf-geospatial-data

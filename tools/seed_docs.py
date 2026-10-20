@@ -132,22 +132,67 @@ def write(path, text):
     open(path, "w").write(text); return True
 
 
-idx = {"note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选范围自动上传给 MiroFish。", "scopes": {}}
+CT = {c["iso3"]: c for c in D("data/bri_countries.json").get("countries", [])}
+AS = D("data/aiddata_summary.json").get("countries", {})
+CL = D("data/country_live.json"); WC = (W.get("countries") or {})
+LVZ = {1: "一级（正常注意）", 2: "二级（加强注意）", 3: "三级（重新考虑出行）", 4: "四级（不要前往）"}
+
+
+def country_profile(k):
+    c = CT[k]; a = AS.get(k); o = [f"# {c['zh']}（{c['en']}）：中国融资项目概况", ""]
+    o.append(f"- 所属区域：{c['region']}；共建“一带一路”国家（来源：{CT and 'Green Finance & Development Center，截至 2025 年 5 月'}）" + (f"；备注：{c['note']}" if c.get("note") else ""))
+    if not a: o += ["", "AidData 全球中国发展融资地理数据集 v3.0 没有收录这个国家带位置的项目。"]; return "\n".join(o) + "\n"
+    o.append(f"- AidData 收录 2000–2021 年承诺的项目 {a['n']} 个，承诺金额合计约 {a['usd']/1e8:.1f} 亿美元（2021 年不变价）；主要行业：" + "、".join(f"{x[0]}（{x[1]}）" for x in a["sectors"]))
+    try: pj = json.load(open(f"data/countries/{k}.json"))["projects"]
+    except Exception: pj = []
+    o += ["", "## 金额最大的项目（AidData 原文）", ""]
+    for x in pj[:25]:
+        o.append(f"- {x['title']}（{x['sector']}，{x['status']}，{x['year']} 年承诺" + (f"，约 {x['amount']/1e6:.0f} 百万美元" if x.get("amount") else "") + f"）。{x['osm']}")
+    o += ["", f"来源：{cite('aiddata')}"]
+    return "\n".join(o) + "\n"
+
+
+def country_situation(k):
+    c = CT[k]; w = WC.get(k) or {}; l = (CL.get("countries") or {}).get(k) or {}
+    o = [f"# {c['zh']}（{c['en']}）近期态势", "", "每条注明来源和时间，内容是来源原文的转述。", ""]
+    if l.get("us"): o.append(f"- 美国国务院旅行建议：{l['us']['title']}（{l['us'].get('t')}）。{l['us'].get('url')} ")
+    if w.get("advisory"): o.append(f"- World Monitor 汇总的旅行建议级别：{w['advisory']}")
+    if w.get("cii"): o.append(f"- World Monitor 综合不稳定指数（CII）：{w['cii'].get('score')}/100")
+    for key, title, fmt in (
+        ("ucdp", "已核实的冲突事件（UCDP，经 World Monitor）", lambda e: f"{(e.get('t') or '')[:10]}：{e.get('a')} 与 {e.get('b')}，死亡 {e.get('deaths')} 人。UCDP 引用来源：{e.get('src')}"),
+        ("outages", "互联网中断（Cloudflare Radar，经 World Monitor）", lambda e: f"{bj(e.get('t'))}：{e.get('title')}。{e.get('text') or ''} {e.get('url') or ''} "),
+        ("stories", "国际新闻要闻（经 World Monitor）", lambda e: f"{bj(e.get('t'))}：{e.get('title')}（{e.get('source')}）。{e.get('url') or ''} "),
+        ("advisories", "各国政府旅行建议更新（经 World Monitor）", lambda e: f"{bj(e.get('t'))}：{e.get('source')} {e.get('title')}。{e.get('url') or ''} "),
+        ("outbreaks", "疫情（经 World Monitor）", lambda e: f"{bj(e.get('t'))}：{e.get('title')}。{e.get('url') or ''} ")):
+        if w.get(key): o += ["", f"## {title}", ""] + [f"- {fmt(e)}" for e in w[key][:15]]
+    for key, title, fmt in (
+        ("quakes", "地震（USGS，M4.5+，近 7 天）", lambda e: f"{bj(e['t'])}：M{e.get('mag')}，{e.get('text')}。{e.get('url') or ''} "),
+        ("gdacs", "灾害警报（GDACS，近 14 天）", lambda e: f"{bj(e['t'])}：{e.get('level')} 级 {e.get('type')}，{e.get('text')}。{e.get('url') or ''} "),
+        ("eonet", "自然事件（NASA EONET，近 30 天）", lambda e: f"{bj(e['t'])}：{e.get('type')}，{e.get('text')}。{e.get('url') or ''} ")):
+        if l.get(key): o += ["", f"## {title}", ""] + [f"- {fmt(e)}" for e in l[key][:15]]
+    if len(o) <= 4: o.append("近期各来源都没有记录。")
+    return "\n".join(o) + "\n"
+
+
+idx = {"note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选国家自动上传。", "sources": "seeds/00_sources.md", "scopes": {}}
 changed = 0
-for c in ("NPL", "LAO", "PAK"):
-    ps = [p for p in P if p["country"] == c]
-    if not ps: continue
-    os.makedirs(f"seeds/{c}", exist_ok=True)
-    docs = [("01_projects.md", projects_doc(c, ps)), ("02_situation.md", situation_doc(c, ps)), ("03_history.md", history_doc(c)), ("00_sources.md", sources_doc())]
+os.makedirs("seeds", exist_ok=True); changed += write("seeds/00_sources.md", sources_doc())
+for k, c in CT.items():
+    os.makedirs(f"seeds/{k}", exist_ok=True)
+    ps = [p for p in P if p["country"] == k]
+    docs = [("01_profile.md", country_profile(k)), ("02_situation.md", country_situation(k) + ("\n" + situation_doc(k, ps) if ps else "")),
+            ("03_projects_detail.md", projects_doc(k, ps) if ps else None), ("04_history.md", history_doc(k) if ps else None)]
     files = []
     for name, text in docs:
-        p = f"seeds/{c}/{name}"
+        p = f"seeds/{k}/{name}"
         if text is None:
             if os.path.exists(p): os.remove(p); changed += 1
             continue
         changed += write(p, text)
         files.append({"path": p, "title": text.splitlines()[0].lstrip("# "), "bytes": len(text.encode())})
-    idx["scopes"][c] = {"name": CN[c], "files": files}
+    idx["scopes"][k] = {"name": c["zh"], "region": c["region"], "files": files}
+for old in ("seeds/NPL/01_projects.md", "seeds/LAO/01_projects.md", "seeds/PAK/01_projects.md", "seeds/NPL/03_history.md", "seeds/LAO/03_history.md", "seeds/PAK/03_history.md", "seeds/NPL/00_sources.md", "seeds/LAO/00_sources.md", "seeds/PAK/00_sources.md"):
+    if os.path.exists(old): os.remove(old)
 idx["generated"] = L.get("generated")
-json.dump(idx, open("seeds/index.json", "w"), ensure_ascii=False, indent=1)
-print("seed docs changed:", changed, {k: len(v["files"]) for k, v in idx["scopes"].items()})
+json.dump(idx, open("seeds/index.json", "w"), ensure_ascii=False, separators=(",", ":"))
+print("seed docs changed:", changed, "countries:", len(idx["scopes"]))

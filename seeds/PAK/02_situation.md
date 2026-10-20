@@ -1,3 +1,40 @@
+# 巴基斯坦（Pakistan）近期态势
+
+每条注明来源和时间，内容是来源原文的转述。
+
+- World Monitor 汇总的旅行建议级别：reconsider
+- World Monitor 综合不稳定指数（CII）：70/100
+
+## 已核实的冲突事件（UCDP，经 World Monitor）
+
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 1 人。UCDP 引用来源：Frontier Files.
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 1 人。UCDP 引用来源：Karak District Police Officer’s (DPO) spokesperson Shaukat Khan
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 16 人。UCDP 引用来源：TTP; Security Forces
+- 2026-08-31：Government of Pakistan 与 BRAS，死亡 11 人。UCDP 引用来源：Geo TV
+- 2026-08-31：Government of Pakistan 与 BRAS，死亡 8 人。UCDP 引用来源：Frontier Files.
+- 2026-08-31：Government of Pakistan 与 BRAS，死亡 4 人。UCDP 引用来源：The Khyber Chronicles.
+- 2026-08-31：Government of Pakistan 与 BRAS，死亡 1 人。UCDP 引用来源：Frontier Files.
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 1 人。UCDP 引用来源：The Khyber Chronicles
+- 2026-08-31：Government of Pakistan 与 BRAS，死亡 12 人。UCDP 引用来源：The Khyber Chronicles
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 2 人。UCDP 引用来源：The Khyber Chronicles
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 2 人。UCDP 引用来源：The Khyber Chronicles
+- 2026-08-31：Government of Pakistan 与 TTP，死亡 15 人。UCDP 引用来源：military’s media wing, Inter-Services Public Relations (ISPR)
+- 2026-08-30：Government of Pakistan 与 BRAS，死亡 1 人。UCDP 引用来源：Frontier Files.
+- 2026-08-30：Government of Pakistan 与 TTP，死亡 1 人。UCDP 引用来源：The Khyber Chronicles.
+- 2026-08-30：Government of Pakistan 与 BRAS，死亡 1 人。UCDP 引用来源：Frontier Files
+
+## 各国政府旅行建议更新（经 World Monitor）
+
+- 2026-09-25 16:02 UTC：US Embassy Pakistan Security Alert: Vigilance during demonstrations (September 27 to 30)。https://pk.usembassy.gov/security-alert-vigilance-during-demonstrations-september-27-to-30/ 
+- 2026-08-13 10:41 UTC：US Embassy Pakistan Security Alert: Vigilance During Independence Day Celebrations。https://pk.usembassy.gov/security-alert-vigilance-during-independence-day-celebrations/ 
+- 2026-08-13 04:48 UTC：US Embassy Pakistan Security Alert – U.S. Mission to Pakistan (August 12, 2026)。https://pk.usembassy.gov/security-alert-u-s-mission-to-pakistan-august-12-2026/ 
+- 2026-08-03 06:14 UTC：US Embassy Pakistan Security Alert – U.S. Mission to Pakistan (August 3, 2026)。https://pk.usembassy.gov/security-alert-u-s-mission-to-pakistan-august-3-2026/ 
+- 2026-07-23 04:24 UTC：US Embassy Pakistan Security Alert – July 22, 2026 – Worldwide Caution for U.S. Citizens。https://pk.usembassy.gov/security-alert-july-22-2026-worldwide-caution-for-u-s-citizens/ 
+- 2026-06-24 14:21 UTC：US Embassy Pakistan Security Alert – Muharram Processions June 25-26。https://pk.usembassy.gov/security-alert-muharram-processions-june-25-26/ 
+- 2026-06-17 04:17 UTC：US Embassy Pakistan Pakistan Travel Advisory Minor Update – Level 3 June 6, 2026。https://pk.usembassy.gov/pakistan-travel-advisory-minor-update-level-3-june-6-2026/ 
+- 2026-06-07 07:51 UTC：US Embassy Pakistan Demonstration Alert: June 9 Protests in Azad Kashmir。https://pk.usembassy.gov/demonstration-alert-june-9-protests-in-azad-kashmir/ 
+- 2026-04-24 03:48 UTC：US Embassy Pakistan Schedule of Fees for Consular Services。https://pk.usembassy.gov/schedule-of-fees-for-consular-services/ 
+
 # 巴基斯坦项目周边近期态势（截至 2026-10-20 15:49 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
@@ -59,7 +96,7 @@
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 
-UCDP 候选数据版本 26.0.8，World Monitor 缓存于 2026-10-19 00:00 UTC。UCDP 只收录有人员死亡的有组织暴力事件，通常比实际发生晚几周。
+UCDP 候选数据版本 None，World Monitor 缓存于 未知。UCDP 只收录有人员死亡的有组织暴力事件，通常比实际发生晚几周。
 
 - 2026-08-31：Government of Pakistan 与 TTP 发生冲突，死亡 1 人，地点北纬 32.599°、东经 70.851°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））268 km。UCDP 引用来源：Frontier Files.
 - 2026-08-31：Government of Pakistan 与 TTP 发生冲突，死亡 1 人，地点北纬 33.179°、东经 70.977°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））224 km。UCDP 引用来源：Karak District Police Officer’s (DPO) spokesperson Shaukat Khan
@@ -77,17 +114,3 @@ UCDP 候选数据版本 26.0.8，World Monitor 缓存于 2026-10-19 00:00 UTC。
 - 2026-08-30：Government of Pakistan 与 TTP 发生冲突，死亡 1 人，地点北纬 34.464°、东经 71.351°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））149 km。UCDP 引用来源：The Khyber Chronicles.
 - 2026-08-30：Government of Pakistan 与 BRAS 发生冲突，死亡 1 人，地点北纬 26.004°、东经 63.061°，距最近项目（瓜达尔港）122 km。UCDP 引用来源：Frontier Files
 - 2026-08-30：IS 与 Civilians 发生冲突，死亡 1 人，地点北纬 34.829°、东经 71.624°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））119 km。UCDP 引用来源：Frontier Files
-- 2026-08-30：BRAS 与 Civilians 发生冲突，死亡 3 人，地点北纬 30.134°、东经 68.569°，距最近项目（卡洛特水电站（720 MW））612 km。UCDP 引用来源：Duki District Police
-- 2026-08-30：Government of Pakistan 与 BRAS 发生冲突，死亡 2 人，地点北纬 27.500°、东经 64.127°，距最近项目（瓜达尔港）319 km。UCDP 引用来源：The Khyber Chronicles.
-- 2026-08-28：TTP 与 Civilians 发生冲突，死亡 0 人，地点北纬 32.621°、东经 69.839°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））346 km。UCDP 引用来源：Dera Ismail Khan Regional Police Officer (RPO) Ghulam Mubashir Makin
-- 2026-08-28：Government of Pakistan 与 TTP 发生冲突，死亡 4 人，地点北纬 31.929°、东经 70.459°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））345 km。UCDP 引用来源：Security Forces
-- 2026-08-28：Government of Pakistan 与 TTP 发生冲突，死亡 2 人，地点北纬 32.801°、东经 70.505°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））282 km。UCDP 引用来源：The Khyber Chronicles.
-- 2026-08-28：Government of Pakistan 与 BRAS 发生冲突，死亡 3 人，地点北纬 29.211°、东经 67.733°，距最近项目（瓜达尔港）701 km。UCDP 引用来源：The Khyber Chronicles.
-- 2026-08-28：TTP 与 Civilians 发生冲突，死亡 1 人，地点北纬 32.214°、东经 70.392°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））328 km。UCDP 引用来源：Frontier Files; TTP
-- 2026-08-28：IS 与 Civilians 发生冲突，死亡 1 人，地点北纬 34.829°、东经 71.624°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））119 km。UCDP 引用来源：ISKP
-- 2026-08-27：Government of Pakistan 与 TTP 发生冲突，死亡 1 人，地点北纬 32.516°、东经 70.026°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））337 km。UCDP 引用来源：police
-- 2026-08-27：Government of Pakistan 与 Jamaat-ul-Ahrar 发生冲突，死亡 4 人，地点北纬 33.982°、东经 71.683°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））135 km。UCDP 引用来源：officials
-- 2026-08-27：XXX770 与 Civilians 发生冲突，死亡 1 人，地点北纬 34.866°、东经 71.527°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））128 km。UCDP 引用来源：The Khyber Chronicles
-- 2026-08-27：Government of Pakistan 与 BRAS 发生冲突，死亡 5 人，地点北纬 26.212°、东经 65.429°，距最近项目（瓜达尔港）332 km。UCDP 引用来源：Frontier Files
-- 2026-08-27：Government of Pakistan 与 TTP 发生冲突，死亡 1 人，地点北纬 32.970°、东经 70.200°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））299 km。UCDP 引用来源：The Khyber Chronicles
-- 2026-08-26：Government of Pakistan 与 TTP 发生冲突，死亡 2 人，地点北纬 32.904°、东经 70.637°，距最近项目（喀喇昆仑公路二期（塔科特—哈维连））266 km。UCDP 引用来源：state-owned Radio Pakistan

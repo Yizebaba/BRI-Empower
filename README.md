@@ -4,14 +4,14 @@
 
 网页：https://yizebaba.github.io/BRI-Empower/
 
-样品范围：尼泊尔 5 个、老挝 2 个、巴基斯坦 4 个，共 11 个中国融资项目（AidData 全球中国发展融资地理数据集 v3.0）。
+覆盖 150 个共建国家（Green Finance & Development Center 清单，截至 2025 年 5 月）；中国融资项目 8,951 个（AidData GCDF v3.0）；其中 11 个重点项目（尼泊尔、老挝、巴基斯坦）有项目周边的逐条监测。
 
 ## 它怎么运转
 
 | 环节 | 做什么 | 在哪里 |
 |---|---|---|
-| 扫描 | 每 30 分钟查一次项目周边：USGS 地震、GDACS 灾害警报、NASA EONET、Google 新闻、IODA 断网、美英旅行建议 | `.github/workflows/scan.yml` → `data/live.json` |
-| 冲突事件 | 每天一次经 World Monitor 读取 UCDP 已核实的冲突事件 | 定时任务 → `data/wm.json` |
+| 扫描 | 每 30 分钟：150 国的地震、灾害警报、自然事件、美国旅行建议；11 个重点项目周边（另加 Google 新闻、IODA、英国旅行建议） | `scan.yml` → `data/country_live.json`、`data/live.json` |
+| World Monitor | 每天一次取全球数据（冲突事件、新闻要闻与旅行建议、断网、疫情、机场），按国家整理 | 定时任务 → `data/wm_raw/` → `tools/wm_process.py` → `data/wm.json` |
 | 种子文档 | 把以上数据整理成 MiroFish 需要的 Markdown（项目档案、周边态势、历史事实、来源说明），每条注明来源 | `tools/seed_docs.py` → `seeds/` |
 | 推演 | 你在网页上写推演要求并提交；珠峰仓库的 mirofish 工作流（project=bri）把所选范围的种子文档和你的要求自动上传给 MiroFish，建图谱、模拟、写报告 | Yizebaba/EVEREST- 的 `mirofish.yml` → 它的 events 分支 `mirofish-bri/` |
 | 网页 | 3D 地球、态势、推演表单、种子文档、数据源、偏差测试 | `site/`（GitHub Pages） |

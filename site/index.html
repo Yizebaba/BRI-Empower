@@ -71,7 +71,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .note{margin-top:12px;padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.03);color:var(--mute);font-size:12px}
 .more{border:0;background:none;color:var(--silk);font-size:12px;padding:4px 0;cursor:pointer}
 label{display:block;font-size:12.5px;margin:12px 0 5px;color:#d8d6cf}
-textarea,input[type=text],input[type=password],input[type=number],select{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:rgba(0,0,0,.35);outline:none}
+textarea,input[type=text],input[type=search],input[type=password],input[type=number],select{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:rgba(0,0,0,.35);outline:none}
 textarea{min-height:150px;resize:vertical;line-height:1.6}
 textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -107,6 +107,11 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 .tr>i{width:8px;height:8px;border-radius:50%;margin-top:6px}
 .tr dl{display:grid;grid-template-columns:36px 1fr;gap:2px 8px;margin:5px 0 0;font-size:12px}.tr dt{color:var(--mute)}.tr dd{margin:0;color:#cfcdc6}
 .tip{position:fixed;z-index:9;pointer-events:none;padding:6px 10px;border-radius:8px;background:rgba(10,11,14,.92);border:1px solid var(--line);font-size:12px;max-width:280px;display:none}
+.srch{display:flex;gap:10px;align-items:center;margin-bottom:6px}.srch input,.srch select{flex:1}
+.crow{display:grid;grid-template-columns:10px 1fr auto;gap:10px;align-items:center;width:100%;padding:8px 12px;border:0;border-top:1px solid var(--line);background:none;text-align:left;cursor:pointer}
+.list>.crow:first-child{border-top:0}.crow:hover{background:rgba(255,255,255,.03)}
+.crow>i{width:8px;height:8px;border-radius:50%}.crow small{color:var(--mute);font-size:11px;margin-left:4px}
+.route i{width:8px!important;height:8px!important;border-radius:50%}
 @media (max-width:900px){
  #gl{position:absolute;height:62vh}
  .hero{position:absolute;top:58vh;bottom:auto;left:16px;right:16px}
@@ -126,9 +131,9 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
  <nav><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a></nav>
 </header>
 <section class="hero">
- <h1>看清每个项目<br>周围正在发生什么</h1>
- <p id="heroP">3 个国家、11 个中国融资项目。周边的地震、灾害警报、新闻、断网和冲突事件每 30 分钟自动汇总，整理成可引用的种子文档，交给 MiroFish 按你写的要求推演。</p>
- <div class="route"><span><i style="background:var(--jade)"></i>陆上（丝绸之路经济带）</span><span><i style="background:var(--sea)"></i>海上（21 世纪海上丝绸之路）</span></div>
+ <h1>一带一路<br>150 个共建国家</h1>
+ <p id="heroP">点地球上的国家，看冲突、灾害、断网、新闻和中国融资项目。</p>
+ <div class="route"><span><i style="background:#ff5b4d"></i>不要前往</span><span><i style="background:#ff9f43"></i>重新考虑</span><span><i style="background:#f2c14e"></i>加强注意</span><span><i style="background:#5fe0a8"></i>正常</span></div>
 </section>
 <aside class="side" aria-label="内容">
  <div class="tabs" role="tablist" id="tabs"></div>
@@ -150,18 +155,18 @@ const $=id=>document.getElementById(id);
 const bj=t=>{if(!t)return"—";const d=new Date(t);if(isNaN(d))return esc(t);return d.toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false,month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})};
 const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 async function get(path,text){const r=await fetch((/^https?:/.test(path)?path:BASE+path)+(BASE.startsWith("http")?"?v="+Math.floor(Date.now()/60000):""),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return text?r.text():r.json()}
-const D={projects:[],live:{},wm:{},retro:null,sources:[],seeds:{},runs:[],base:{}};
+const D={countries:[],asum:{},clive:{},projects:[],live:{},wm:{},retro:null,sources:[],seeds:{},runs:[],base:{}};
 const CN={NPL:"尼泊尔",LAO:"老挝",PAK:"巴基斯坦"},NEWS="新闻（Google 新闻 RSS）";
 const STZ={Completion:"已完工",Implementation:"在建","Pipeline: Commitment":"已承诺","Pipeline: Pledge":"意向"};
 const LV={1:["#5fe0a8","一级 · 正常注意"],2:["#f2c14e","二级 · 加强注意"],3:["#ff9f43","三级 · 重新考虑出行"],4:["#ff6b5b","四级 · 不要前往"]};
-let TAB=ls.get("bri_tab")||"live",CT="NPL",SEL=null,ZOOM=true,MORE={},OPEN={"npl-2026-08-26":1},VIEW=null;
+let TAB=ls.get("bri_tab")||"live",CT=null,SEL=null,ZOOM=true,MORE={},OPEN={"npl-2026-08-26":1},VIEW=null;
 
 /* ---------- 3D globe ---------- */
-const G={};
+const G={};window.BRI_G=G;
 function ll(lat,lon,r){const p=(90-lat)*Math.PI/180,t=(lon+180)*Math.PI/180;return new THREE.Vector3(-r*Math.sin(p)*Math.cos(t),r*Math.cos(p),r*Math.sin(p)*Math.sin(t))}
 function dotTex(){const c=document.createElement("canvas");c.width=c.height=64;const g=c.getContext("2d"),gr=g.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,"rgba(255,255,255,1)");gr.addColorStop(.35,"rgba(255,255,255,.85)");gr.addColorStop(1,"rgba(255,255,255,0)");g.fillStyle=gr;g.fillRect(0,0,64,64);return new THREE.CanvasTexture(c)}
 function glInit(land){if(!window.THREE)return;const cv=$("gl"),R=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:false});R.setPixelRatio(Math.min(devicePixelRatio||1,2));R.setClearColor(0x07080a,1);
- const S=new THREE.Scene(),C=new THREE.PerspectiveCamera(34,1,.1,100);C.position.set(0,0,3.5);const W=new THREE.Group();S.add(W);const tex=dotTex();
+ const S=new THREE.Scene(),C=new THREE.PerspectiveCamera(34,1,.1,100);C.position.set(0,0,4.1);const W=new THREE.Group();S.add(W);const tex=dotTex();
  Object.assign(G,{R,S,C,W,tex,rx:.42,ry:0,tx:.42,ty:0,drag:null,t0:performance.now(),movers:[],pulses:[],pick:[]});
  // 星尘
  const sp=new Float32Array(1800*3);for(let i=0;i<1800;i++){const v=new THREE.Vector3().randomDirection?new THREE.Vector3().randomDirection():new THREE.Vector3(Math.random()-.5,Math.random()-.5,Math.random()-.5).normalize();v.multiplyScalar(6+Math.random()*14);sp.set([v.x,v.y,v.z],i*3)}
@@ -183,9 +188,10 @@ function glInit(land){if(!window.THREE)return;const cv=$("gl"),R=new THREE.WebGL
  const rs=()=>{const w=cv.clientWidth,h=cv.clientHeight;R.setSize(w,h,false);C.aspect=w/h;C.position.x=innerWidth>900?.62:0;C.updateProjectionMatrix()};addEventListener("resize",rs);rs();
  cv.addEventListener("pointerdown",e=>{G.drag=[e.clientX,e.clientY,G.ty,G.tx];cv.setPointerCapture(e.pointerId)});
  cv.addEventListener("pointermove",e=>{if(G.drag){G.ty=G.drag[2]+(e.clientX-G.drag[0])*.006;G.tx=Math.max(-1.2,Math.min(1.2,G.drag[3]+(e.clientY-G.drag[1])*.006));G.auto=false}else hover(e)});
- cv.addEventListener("pointerup",()=>{G.drag=null});cv.addEventListener("pointerleave",()=>{$("tip").style.display="none"});
+ cv.addEventListener("pointerup",e=>{const d=G.drag;G.drag=null;if(d&&Math.hypot(e.clientX-d[0],e.clientY-d[1])<5){const p=pickAt(e,22);if(p&&p.iso)selectC(p.iso)}});cv.addEventListener("pointerleave",()=>{$("tip").style.display="none"});
  G.auto=!matchMedia("(prefers-reduced-motion: reduce)").matches;requestAnimationFrame(loop)}
-function hover(e){if(!G.pick.length)return;const r=G.R.domElement.getBoundingClientRect();let best=null,bd=14;G.pick.forEach(p=>{const v=p.obj.getWorldPosition(new THREE.Vector3()),n=v.clone().normalize();if(n.dot(G.C.position.clone().sub(v).normalize())<.1)return;v.project(G.C);const x=(v.x+1)/2*r.width+r.left,y=(1-v.y)/2*r.height+r.top,d=Math.hypot(x-e.clientX,y-e.clientY);if(d<bd){bd=d;best=p}});
+function pickAt(e,lim){const r=G.R.domElement.getBoundingClientRect();let best=null,bd=lim;G.pick.forEach(p=>{if(!p.iso)return;const v=p.obj.getWorldPosition(new THREE.Vector3()),n=v.clone().normalize();if(n.dot(G.C.position.clone().sub(v).normalize())<.1)return;v.project(G.C);const d=Math.hypot((v.x+1)/2*r.width+r.left-e.clientX,(1-v.y)/2*r.height+r.top-e.clientY);if(d<bd){bd=d;best=p}});return best}
+function hover(e){if(!G.pick.length)return;const r=G.R.domElement.getBoundingClientRect();let best=null,bd=14;G.R.domElement.style.cursor=pickAt(e,22)?"pointer":"grab";G.pick.forEach(p=>{const v=p.obj.getWorldPosition(new THREE.Vector3()),n=v.clone().normalize();if(n.dot(G.C.position.clone().sub(v).normalize())<.1)return;v.project(G.C);const x=(v.x+1)/2*r.width+r.left,y=(1-v.y)/2*r.height+r.top,d=Math.hypot(x-e.clientX,y-e.clientY);if(d<bd){bd=d;best=p}});
  const t=$("tip");if(best){t.innerHTML=best.html;t.style.display="block";t.style.left=(e.clientX+14)+"px";t.style.top=(e.clientY+10)+"px"}else t.style.display="none"}
 function focus(lat,lon){if(!G.W)return;const v=ll(lat,lon,1);G.ty=-Math.atan2(v.x,v.z);G.tx=lat*Math.PI/180;G.auto=false;
  const d=G.ty-G.ry;G.ry+=Math.round(d/(2*Math.PI))*2*Math.PI}
@@ -194,27 +200,32 @@ function loop(t){requestAnimationFrame(loop);if(!G.R)return;const dt=(t-(G.last|
  G.movers.forEach(m=>{m.u=(m.u+dt*m.sp)%1;m.obj.position.copy(m.curve.getPoint(m.u))});
  G.pulses.forEach(p=>{const k=(t/1000*p.f+p.ph)%1;p.obj.scale.setScalar(1+k*2.2);p.obj.material.opacity=.6*(1-k)});
  G.poly.forEach((m,i)=>{m.rotation.x+=dt*.08*(i+1);m.rotation.y+=dt*.05});G.R.render(G.S,G.C)}
-function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THREE.Group();G.layer=L;G.W.add(L);G.movers=[];G.pulses=[];G.pick=[];
- const XA=[34.34,108.94],QZ=[24.87,118.68];
- D.projects.forEach(p=>{const sea=p.kind==="港口",o=sea?QZ:XA,a=ll(o[0],o[1],1.005),b=ll(p.centroid[0],p.centroid[1],1.005),dist=a.distanceTo(b),mid=a.clone().add(b).normalize().multiplyScalar(1+dist*.45);
-  const cur=new THREE.QuadraticBezierCurve3(a,mid,b),col=sea?0x6aa8e0:0x5fbfa3;
-  L.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(cur.getPoints(60)),new THREE.LineBasicMaterial({color:col,transparent:true,opacity:.55})));
-  const m=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:col,transparent:true,depthWrite:false}));m.scale.setScalar(.05);L.add(m);G.movers.push({obj:m,curve:cur,u:Math.random(),sp:.12+Math.random()*.08});
-  const dot=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:0xe9c46a,transparent:true,depthWrite:false}));dot.position.copy(ll(p.centroid[0],p.centroid[1],1.01));dot.scale.setScalar(.06);L.add(dot);
-  const ring=new THREE.Mesh(new THREE.RingGeometry(.012,.016,32),new THREE.MeshBasicMaterial({color:0xe9c46a,transparent:true,side:THREE.DoubleSide,depthWrite:false}));ring.position.copy(ll(p.centroid[0],p.centroid[1],1.012));ring.lookAt(ring.position.clone().multiplyScalar(2));L.add(ring);G.pulses.push({obj:ring,f:.5,ph:Math.random()});
-  G.pick.push({obj:dot,html:"<b>"+esc(p.name)+"</b><br><span class='mute'>"+esc(CN[p.country])+" · "+esc(p.kind)+" · "+esc(STZ[p.status]||p.status)+"</span>"})});
- [XA,QZ].forEach((o,i)=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:i?0x6aa8e0:0x5fbfa3,transparent:true,depthWrite:false}));s.position.copy(ll(o[0],o[1],1.01));s.scale.setScalar(.07);L.add(s);G.pick.push({obj:s,html:i?"泉州（海上丝绸之路起点）":"西安（丝绸之路经济带起点）"})});
- const evs=[];D.projects.forEach(p=>split(p).geo.forEach(i=>{if(i.lat!=null)evs.push([i.lat,i.lon,bj(i.t)+" · "+i.src+"<br>"+esc(i.text),0xff9f43])}));
- Object.values((D.wm&&D.wm.countries)||{}).forEach(c=>((c&&c.ucdp)||[]).forEach(e=>evs.push([e.lat,e.lon,esc((e.t||"").slice(0,10))+" · UCDP<br>"+esc(e.a)+" — "+esc(e.b)+" · 死亡 "+esc(e.deaths),0xff6b5b])));
- evs.forEach(e=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:e[3],transparent:true,depthWrite:false}));s.position.copy(ll(e[0],e[1],1.012));s.scale.setScalar(.035);L.add(s);G.pick.push({obj:s,html:e[2]})})}
+function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THREE.Group();G.layer=L;G.W.add(L);G.movers=[];G.pulses=[];G.pick=[];G.cdots={};
+ const XA=[34.34,108.94],O=ll(XA[0],XA[1],1.005);
+ D.countries.forEach(c=>{if(c.iso3==="CHN")return;const b=ll(c.lat,c.lon,1.005),dist=O.distanceTo(b),mid=O.clone().add(b).normalize().multiplyScalar(1+dist*.32),cur=new THREE.QuadraticBezierCurve3(O,mid,b),sel=CT===c.iso3;
+  L.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(cur.getPoints(48)),new THREE.LineBasicMaterial({color:sel?0xffe2a0:0xe9c46a,transparent:true,opacity:sel?.9:.16})));
+  if(sel||Math.random()<.35){const m=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:0xffe2a0,transparent:true,depthWrite:false}));m.scale.setScalar(sel?.05:.03);L.add(m);G.movers.push({obj:m,curve:cur,u:Math.random(),sp:.08+Math.random()*.06})}});
+ D.countries.forEach(c=>{const a=advOf(c.iso3),col=ADVC[a]||0xe9c46a,n=((D.asum[c.iso3]||{}).n)||0,sc=.035+Math.min(.05,Math.sqrt(n)*.0035),sel=CT===c.iso3;
+  const dot=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:col,transparent:true,depthWrite:false}));dot.position.copy(ll(c.lat,c.lon,1.012));dot.scale.setScalar(sel?sc*1.6:sc);L.add(dot);G.cdots[c.iso3]=dot;
+  if(sel){const ring=new THREE.Mesh(new THREE.RingGeometry(.016,.021,40),new THREE.MeshBasicMaterial({color:0xffe2a0,transparent:true,side:THREE.DoubleSide,depthWrite:false}));ring.position.copy(ll(c.lat,c.lon,1.014));ring.lookAt(ring.position.clone().multiplyScalar(2));L.add(ring);G.pulses.push({obj:ring,f:.6,ph:0})}
+  G.pick.push({obj:dot,iso:c.iso3,html:"<b>"+esc(c.zh)+"</b> <span class='mute'>"+esc(c.en)+"</span><br><span class='mute'>"+(ADVZ[a]||"")+(n?" · 项目 "+n:"")+"</span>"})});
+ const evs=[];Object.entries((D.wm.countries)||{}).forEach(([k,c])=>(c.ucdp||[]).forEach(e=>{if(e.lat!=null)evs.push([e.lat,e.lon,0xff6b5b,esc((e.t||"").slice(0,10))+" · 冲突（UCDP）<br>"+esc(e.a)+" — "+esc(e.b)+" · 死亡 "+esc(e.deaths)])}));
+ Object.values((D.clive.countries)||{}).forEach(c=>{(c.quakes||[]).forEach(e=>evs.push([e.lat,e.lon,0xff9f43,bj(e.t)+" · 地震 M"+esc(e.mag)+"<br>"+esc(e.text)]));(c.gdacs||[]).forEach(e=>evs.push([e.lat,e.lon,0xff9f43,bj(e.t)+" · GDACS "+esc(e.level)+"<br>"+esc(e.text)]))});
+ evs.forEach(e=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:e[2],transparent:true,opacity:.85,depthWrite:false}));s.position.copy(ll(e[0],e[1],1.013));s.scale.setScalar(.022);L.add(s);G.pick.push({obj:s,html:e[3]})})}
 
 /* ---------- 数据 ---------- */
 function split(p){const L=(((D.live.projects||{})[p.id])||{}).items||[];return{geo:L.filter(i=>i.src!==NEWS),inc:L.filter(i=>i.src===NEWS&&i.kind==="事件相关"),gen:L.filter(i=>i.src===NEWS&&i.kind!=="事件相关")}}
 const kmH=(a,b,c,d)=>{const r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))};
 function nearest(la,lo,ps){let b=[1e9,null];ps.forEach(p=>p.rings.forEach(r=>r.forEach(q=>{const d=kmH(la,lo,q[1],q[0]);if(d<b[0])b=[d,p]})));return b}
-async function load(first){const tasks=[["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
- const errs=[];await Promise.all(tasks.filter(t=>first||!["projects","retro","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>errs.push(t[0]))));
+async function load(first){const tasks=[["countries","data/bri_countries.json",x=>D.countries=x.countries||[]],["asum","data/aiddata_summary.json",x=>D.asum=x.countries||{}],["clive","data/country_live.json",x=>D.clive=x],["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
+ const errs=[];await Promise.all(tasks.filter(t=>first||!["countries","asum","projects","retro","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>errs.push(t[0]))));
  D.errs=errs;render();glData()}
+const ADVC={"do-not-travel":0xff5b4d,"reconsider":0xff9f43,"caution":0xf2c14e,"normal":0x5fe0a8,"info":0x9fd6c4};
+const ADVZ={"do-not-travel":"不要前往","reconsider":"重新考虑出行","caution":"加强注意","normal":"正常注意","info":"正常注意"};
+const ADVS={"do-not-travel":"#ff5b4d","reconsider":"#ff9f43","caution":"#f2c14e","normal":"#5fe0a8","info":"#9fd6c4"};
+function advOf(k){const w=(D.wm.countries||{})[k]||{},l=((D.clive.countries||{})[k]||{}).us;if(w.advisory)return w.advisory;if(l&&l.level)return["","normal","caution","reconsider","do-not-travel"][l.level];return""}
+function cinfo(k){return D.countries.find(c=>c.iso3===k)}
+function counts(k){const w=(D.wm.countries||{})[k]||{},l=(D.clive.countries||{})[k]||{};return{conf:(w.ucdp||[]).length,haz:(l.quakes||[]).length+(l.gdacs||[]).length+(l.eonet||[]).length,net:(w.outages||[]).length,news:(w.stories||[]).length,proj:((D.asum[k]||{}).n)||0}}
 
 /* ---------- 2D 国家地图 ---------- */
 function cmap(c,ps){const B=D.base[c];if(!B)return"";const[x0,y1,k,S]=B.p,Xn=lo=>(lo-x0)*k*S,Yn=la=>(y1-la)*S;
@@ -247,34 +258,56 @@ function wmBlock(c,ps){const W=(D.wm.countries||{})[c];let h='<div class="h3">�
  h+='<p class="small mute" style="margin:0 0 4px">UCDP 只收录有人员死亡的有组织暴力事件，通常比实际晚几周。World Monitor 缓存于 '+bj(W.cached_at)+'，读取于 '+bj(W.queried)+'。按离项目的距离排序。</p>';
  h+=L.length?L.slice(0,12).map(e=>'<div class="it"><time>'+esc((e.t||"").slice(0,10))+'</time><div>'+esc(e.a)+' — '+esc(e.b)+' · 死亡 '+esc(e.deaths)+'<small>离最近项目 '+e.km+' km（'+esc(e.np?e.np.name:"")+'）· 来源：'+esc(e.src)+'</small></div></div>').join(""):'<p class="small mute">近期没有记录。</p>';
  if((W.unrest||[]).length)h+='<p class="small mute">另有 GDELT 动荡信号 '+W.unrest.length+' 处（World Monitor 标为未核实、可信度低）：'+esc(W.unrest.map(u=>u.title).join("；"))+'</p>';return h}
-function tabLive(){const c=CT,ps=D.projects.filter(p=>p.country===c),C=(D.live.countries||{})[c]||{},ad=C.advisory||{},io=C.ioda,lv=ad.us&&LV[ad.us.level];
- let h='<h2 class="h2">项目周边态势</h2><p class="lead">最近一次扫描 '+bj(D.live.generated)+'（北京时间），每 30 分钟更新。</p>';
- h+='<div class="chips">'+["NPL","LAO","PAK"].map(k=>'<button data-a="c:'+k+'" aria-pressed="'+(k===c)+'">'+CN[k]+'<em>'+D.projects.filter(p=>p.country===k).length+'</em></button>').join("")+'</div>';
- h+='<div class="stat">'+(ad.us?'<a class="lv" style="background:'+(lv?lv[0]:"#888")+'" href="'+esc(ad.us.url)+'" target="_blank" rel="noopener" title="'+esc(ad.us.title)+'">美国旅行建议 '+(lv?lv[1]:esc(ad.us.title))+'</a>':"")+(ad.uk?'<a href="'+esc(ad.uk.url)+'" target="_blank" rel="noopener" title="'+esc(ad.uk.change||"")+'">英国外交部更新于 '+bj(ad.uk.t)+' ↗</a>':"")+(io?'<span>IODA 近 7 天断网告警 <b style="color:var(--ink)">'+io.n+'</b></span>':"")+'</div>';
- h+=cmap(c,ps)+'<div class="list">'+ps.map((p,n)=>{const s=split(p),op=SEL===p.id;return'<button class="row" data-a="p:'+p.id+'" aria-expanded="'+op+'"><span class="num">'+(n+1)+'</span><span style="min-width:0"><div class="nm">'+esc(p.name)+'</div><div class="ds">'+esc(p.kind)+'，'+esc(STZ[p.status]||p.status)+'，'+esc(p.commit_year)+' 年承诺</div></span><span class="ct"><span class="'+(s.geo.length?"on":"")+'">周边 '+s.geo.length+'</span><span class="'+(s.inc.length?"on":"")+'">线索 '+s.inc.length+'</span></span><span class="cv">›</span></button>'+(op?detail(p):"")}).join("")+'</div>';
- h+=wmBlock(c,ps);
- h+='<p class="note">“线索”是标题里带事故、灾害、袭击等词的新闻，按项目名匹配，可能混入无关报道。所有条目都是来源原文的转述，点开可看原文。</p>';return h}
-function tabDrill(){const tok=TOK();let h='<h2 class="h2">MiroFish 推演</h2><p class="lead">你写推演要求，系统把所选范围的种子文档自动上传给 MiroFish，建知识图谱、生成智能体、模拟，最后写出报告。一次约 1 小时。推演在珠峰仓库里运行，共用那里已经配好的模型和 Zep 密钥，不用另外设置。</p>';
- const sc=ls.get("bri_scope")||"ALL";
- h+='<form id="df" autocomplete="off"><label for="dreq">推演要求（必填，由你自己写）</label><textarea id="dreq" required minlength="10" placeholder="写清楚想推演的事件、对象和关心的问题。">'+esc(ls.get("bri_draft")||"")+'</textarea>'
- +'<div class="grid2"><div><label for="dscope">种子文档范围</label><select id="dscope">'+[["ALL","全部 3 国"],["NPL","尼泊尔"],["LAO","老挝"],["PAK","巴基斯坦"]].map(o=>'<option value="'+o[0]+'"'+(o[0]===sc?" selected":"")+'>'+o[1]+'</option>').join("")+'</select></div>'
+function sampleBlock(c){const ps=D.projects.filter(p=>p.country===c);if(!ps.length)return"";const C=(D.live.countries||{})[c]||{},io=C.ioda;
+ return'<div class="h3">重点项目周边（每 30 分钟）</div>'+(io?'<p class="small mute" style="margin:0 0 6px">IODA 近 7 天断网告警 '+io.n+'</p>':"")+cmap(c,ps)+'<div class="list">'+ps.map((p,n)=>{const s=split(p),op=SEL===p.id;return'<button class="row" data-a="p:'+p.id+'" aria-expanded="'+op+'"><span class="num">'+(n+1)+'</span><span style="min-width:0"><div class="nm">'+esc(p.name)+'</div><div class="ds">'+esc(p.kind)+'，'+esc(STZ[p.status]||p.status)+'</div></span><span class="ct"><span class="'+(s.geo.length?"on":"")+'">周边 '+s.geo.length+'</span><span class="'+(s.inc.length?"on":"")+'">线索 '+s.inc.length+'</span></span><span class="cv">›</span></button>'+(op?detail(p):"")}).join("")+'</div>'}
+const REG=["东亚和太平洋","南亚","欧洲和中亚","中东和北非","撒哈拉以南非洲","拉美和加勒比"];let QS="",CPJ={},PJALL=false;
+function crow(c){const n=counts(c.iso3),a=advOf(c.iso3);return'<button class="crow" data-a="c:'+c.iso3+'"><i style="background:'+(ADVS[a]||"#555")+'"></i><span class="nm">'+esc(c.zh)+' <small>'+esc(c.en)+'</small></span><span class="ct">'+(n.conf?'<span class="on">冲突 '+n.conf+'</span>':"")+(n.haz?'<span>灾害 '+n.haz+'</span>':"")+(n.net?'<span>断网 '+n.net+'</span>':"")+(n.proj?'<span>项目 '+n.proj+'</span>':"")+'</span></button>'}
+function tabLive(){if(CT)return countryView(CT);
+ const q=QS.trim().toLowerCase(),L=D.countries.filter(c=>!q||c.zh.includes(q)||c.en.toLowerCase().includes(q));
+ let h='<div class="srch"><input id="qs" type="search" placeholder="搜索国家" value="'+esc(QS)+'" autocomplete="off"><span class="small mute">'+D.countries.length+' 国 · '+bj(D.wm.generated||D.clive.generated)+'</span></div>';
+ REG.forEach(r=>{const G2=L.filter(c=>c.region===r).sort((a,b)=>{const x=counts(a.iso3),y=counts(b.iso3);return(y.conf*5+y.haz+y.net*3+y.news)-(x.conf*5+x.haz+x.net*3+x.news)||y.proj-x.proj});if(G2.length)h+='<div class="h3">'+r+' <span class="mute">'+G2.length+'</span></div><div class="list">'+G2.map(crow).join("")+'</div>'});
+ return h}
+function sec(t,L,f,more){return L&&L.length?'<div class="h3">'+t+' <span class="mute">'+L.length+'</span></div>'+L.slice(0,more||8).map(f).join(""):""}
+const iL=(t,title,sub,url)=>'<div class="it"><time>'+t+'</time><div>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(title)+' ↗</a>':esc(title))+(sub?'<small>'+sub+'</small>':"")+'</div></div>';
+function countryView(k){const c=cinfo(k);if(!c)return"";const w=(D.wm.countries||{})[k]||{},l=(D.clive.countries||{})[k]||{},a=advOf(k),as=D.asum[k];
+ let h='<button class="back" data-a="cl:1">← 全部国家</button><h2 class="h2">'+esc(c.zh)+' <span class="mute" style="font-size:13px;font-family:inherit">'+esc(c.en)+' · '+esc(c.region)+'</span></h2>';
+ h+='<div class="stat">'+(a?'<span class="lv" style="background:'+ADVS[a]+'">'+ADVZ[a]+'</span>':"")+(l.us?'<a href="'+esc(l.us.url)+'" target="_blank" rel="noopener">美国 '+esc(l.us.level?"Level "+l.us.level:l.us.title)+' ↗</a>':"")+(w.cii?'<span>CII '+w.cii.score+'</span>':"")+(c.note?'<span>'+esc(c.note)+'</span>':"")+'</div>';
+ h+=sec("冲突事件（UCDP）",w.ucdp,e=>iL(esc((e.t||"").slice(0,10)),e.a+" — "+e.b,"死亡 "+esc(e.deaths)+" · "+esc(e.src||"")));
+ h+=sec("新闻要闻",w.stories,e=>iL(bj(e.t),e.title,esc(e.source||"")+(e.sources>1?" 等 "+e.sources+" 家":""),e.url));
+ h+=sec("互联网中断",w.outages,e=>iL(bj(e.t),e.title,esc(e.text||""),e.url));
+ h+=sec("地震",l.quakes,e=>iL(bj(e.t),"M"+e.mag+" "+e.text,"USGS",e.url));
+ h+=sec("灾害警报",l.gdacs,e=>iL(bj(e.t),e.text,"GDACS "+esc(e.level)+" · "+esc(e.type),e.url));
+ h+=sec("自然事件",l.eonet,e=>iL(bj(e.t),e.text,"NASA EONET · "+esc(e.type),e.url));
+ h+=sec("疫情",w.outbreaks,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url));
+ h+=sec("机场",w.airports,e=>iL(esc(e.iata),e.name,esc(e.severity)+" "+esc(e.reason||"")));
+ h+=sec("旅行建议更新",w.advisories,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url),4);
+ h+=sampleBlock(k);
+ h+='<div class="h3">中国融资项目'+(as?' <span class="mute">'+as.n+' 个 · 约 '+(as.usd/1e8).toFixed(1)+' 亿美元</span>':"")+'</div>';
+ const pj=CPJ[k];if(!as)h+='<p class="small mute">AidData 没有收录这个国家带位置的项目。</p>';
+ else if(!pj){h+='<p class="small mute">读取中…</p>';get("data/countries/"+k+".json").then(x=>{CPJ[k]=x.projects||[];if(CT===k)render()}).catch(()=>{CPJ[k]=[];render()})}
+ else{h+=(PJALL?pj:pj.slice(0,10)).map(x=>iL(esc(x.year),x.title,esc(x.sector)+" · "+esc(x.status)+(x.amount?" · "+(x.amount/1e6).toFixed(0)+" 百万美元":""),x.osm)).join("")+(pj.length>10?'<button class="more" data-a="pa:1">'+(PJALL?"收起":"全部 "+pj.length+" 个")+'</button>':"")}
+ h+='<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn ghost" data-a="dk:'+k+'">用这个国家推演</button><button class="btn ghost" data-a="sk:'+k+'">种子文档</button></div>';
+ return h}
+function tabDrill(){const tok=TOK();let h='<h2 class="h2">MiroFish 推演</h2>';
+ const sc=ls.get("bri_scope")||CT||"PAK";
+ h+='<form id="df" autocomplete="off"><label for="dreq">推演要求</label><textarea id="dreq" required minlength="10" placeholder="写清楚想推演的事件、对象和关心的问题。">'+esc(ls.get("bri_draft")||"")+'</textarea>'
+ +'<div class="grid2"><div><label for="dscope">国家</label>'+cselect("dscope",sc)+'</div>'
  +'<div><label for="drounds">模拟轮数</label><input id="drounds" type="number" min="5" max="80" value="20"></div></div>'
  +'<label for="dtitle">标题（可空）</label><input id="dtitle" type="text" maxlength="60">'
- +'<div class="h3">将自动上传的种子文档</div><div id="dseeds">'+seedPreview(sc)+'</div>'
+ +'<div class="h3">自动上传的种子文档</div><div id="dseeds">'+seedPreview(sc)+'</div>'
  +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn" type="submit" id="dgo"'+(tok?"":" disabled")+'>开始推演</button>'+(tok?'<span class="small mute">已在本浏览器连接 GitHub · <button type="button" class="more" data-a="tok:clear">断开</button></span>':'<span class="small mute">先在下面连接 GitHub</span>')+'</div><div class="msg" id="dmsg"></div></form>';
- if(!tok)h+='<div class="h3">连接 GitHub（只需一次）</div><p class="small mute" style="margin:0">开始推演要用你的 GitHub 令牌触发仓库里的推演工作流。令牌只存在这个浏览器里，不会上传到任何地方。在 GitHub → Settings → Developer settings → Fine-grained tokens 新建一个：Repository access 选 EVEREST-（推演在那里运行），Permissions 里 Actions 选 Read and write。珠峰推演页用的也是这一个令牌，在同一个浏览器里只需连接一次。</p><div style="display:flex;gap:8px;margin-top:8px"><input id="tokin" type="password" placeholder="github_pat_…" style="flex:1"><button class="btn ghost" type="button" data-a="tok:save">保存</button></div>';
+ if(!tok)h+='<div class="h3">连接 GitHub</div><p class="small mute" style="margin:0">Fine-grained token：仓库选 EVEREST-，Actions 读写。只存在本浏览器。</p><div style="display:flex;gap:8px;margin-top:8px"><input id="tokin" type="password" placeholder="github_pat_…" style="flex:1"><button class="btn ghost" type="button" data-a="tok:save">保存</button></div>';
  h+='<div class="h3">推演记录</div><div id="druns">'+runsHTML()+'</div>';return h}
-function seedPreview(sc){const keys=sc==="ALL"?Object.keys(D.seeds):[sc];const fs=[];keys.forEach((k,i)=>((D.seeds[k]||{}).files||[]).forEach(f=>{if(i&&/00_sources/.test(f.path))return;fs.push(f)}));
- return fs.length?'<div class="seedl">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">共 '+fs.length+' 份，'+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB，随每次扫描自动更新。</p>':'<p class="small mute">还没有种子文档。</p>'}
+function cselect(id,v){return'<select id="'+id+'">'+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(c.zh)+'</option>').join("")+'</optgroup>').join("")+'</select>'}
+function seedPreview(sc){const fs=((D.seeds[sc]||{}).files||[]).slice();
+ return fs.length?'<div class="seedl">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+' 份，'+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
 let LIVE_RUNS=[];const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
 function runsHTML(){const st={queued:["排队中","#f2c14e"],in_progress:["运行中","#6aa8e0"],completed:["已结束","#8e9099"]};
  let h=LIVE_RUNS.filter(r=>r.status!=="completed").map(r=>'<div class="run"><b>'+esc(r.display_title)+'</b><span class="st" style="background:'+st[r.status][1]+'22;color:'+st[r.status][1]+'">'+st[r.status][0]+'</span><div class="small mute">开始于 '+bj(r.run_started_at||r.created_at)+' · <a href="'+esc(r.html_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join("");
  h+=D.runs.length?D.runs.map(r=>'<div class="run"><b>'+esc(r.title||scopeL(r.scope).map(k=>CN[k]||(k==="ALL"?"全部 3 国":k)).join("、"))+'</b><span class="st" style="background:'+(r.ok?"#5fe0a822":"#ff7a5c22")+';color:'+(r.ok?"#5fe0a8":"#ff7a5c")+'">'+(r.ok?"完成":"失败")+'</span><div class="small mute">'+bj(r.started)+' · 范围 '+esc(scopeL(r.scope).map(k=>CN[k]||(k==="ALL"?"全部 3 国":k)).join("、"))+(r.error?' · '+esc(r.error):"")+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+(r.has_report?'<button class="more" data-a="rep:'+esc(r.dir)+'">看报告</button> · ':"")+'<a class="mute" href="'+esc(r.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join(""):(LIVE_RUNS.length?"":'<p class="small mute">还没有推演。</p>');return h}
-function tabSeeds(){let h='<h2 class="h2">种子文档</h2><p class="lead">MiroFish 需要的“现实种子”：程序每 30 分钟把项目档案、周边态势、冲突事件和历史事实整理成 Markdown，每条注明来源。推演时按范围自动上传。</p>';
- Object.entries(D.seeds).forEach(([k,v])=>{h+='<div class="h3">'+esc(v.name)+'</div><div class="seedl">'+v.files.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div>'});
- return h}
-function tabSources(){let h='<h2 class="h2">数据源</h2><p class="lead">网页和种子文档里的每条事实都来自下面这些公开来源，可以直接引用。</p>';
- const fresh={usgs:D.live.generated,gdacs:D.live.generated,eonet:D.live.generated,gnews:D.live.generated,ioda:D.live.generated,us_adv:D.live.generated,uk_adv:D.live.generated,worldmonitor:D.wm.generated};
+function tabSeeds(){const k=ls.get("bri_seedc")||CT||"PAK";return'<div class="srch">'+cselect("seedc",k)+'</div>'+seedPreview(k)}
+function tabSources(){let h='';
+ const fresh={worldmonitor:D.wm.generated,countries:null,usgs:D.clive.generated,gdacs:D.live.generated,eonet:D.live.generated,gnews:D.live.generated,ioda:D.live.generated,us_adv:D.live.generated,uk_adv:D.live.generated,x:0};
  h+=D.sources.map(s=>'<div class="src"><b>'+esc(s.name)+'</b> <a class="small" href="'+esc(/^https?:/.test(s.url)?s.url:"https://github.com/"+REPO+"/blob/main/"+s.url)+'" target="_blank" rel="noopener">链接 ↗</a><dl><dt>许可</dt><dd>'+esc(s.license)+'</dd><dt>更新</dt><dd>'+esc(s.cadence)+(fresh[s.id]?"，最近一次 "+bj(fresh[s.id]):"")+'</dd><dt>用途</dt><dd>'+esc(s.use)+'</dd><dt>获取</dt><dd>'+esc(s.how)+'</dd>'+(s.cite?'<dt>引用</dt><dd>'+esc(s.cite)+'</dd>':"")+'</dl></div>').join("");return h}
 const cls=r=>/错误/.test(r[0])?"fix":/^(对|一致|有)|一致$/.test(r[3])?"ok":/^(缺|漏)/.test(r[3])?"miss":"part";
 const COL={ok:"#5fe0a8",part:"#f2c14e",miss:"#ff7a5c",fix:"#6aa8e0"},CNM={ok:"相符",part:"部分 / 有偏差",miss:"缺失或漏报"};
@@ -283,7 +316,7 @@ function tabRetro(){const R=D.retro;if(!R)return'<p class="mute">没有测试结
  R.tests.forEach(t=>{const op=!!OPEN[t.id];h+='<div class="tc"><button class="th" data-a="t:'+t.id+'" aria-expanded="'+op+'"><span><b style="font-weight:500">'+esc(t.name)+'</b><small>'+esc(t.mode)+'</small></span><span class="dots">'+t.rows.map(r=>'<i style="background:'+COL[cls(r)]+'"></i>').join("")+'</span><span class="cv" style="transform:rotate('+(op?90:0)+'deg)">›</span></button>'
   +(op?'<div class="tr" style="grid-template-columns:1fr;color:var(--mute);font-size:12px">离项目：'+esc(t.nearest_project)+'</div>'+t.rows.map(r=>{const k=cls(r);return'<div class="tr"><i style="background:'+COL[k]+'"></i><div><div style="font-weight:500">'+esc(r[0])+'</div><div class="small" style="color:'+COL[k]+'">'+esc(r[3])+'</div><dl><dt>平台</dt><dd>'+esc(r[1])+'</dd>'+(r[2]&&r[2]!=="—"?'<dt>参考</dt><dd>'+esc(r[2])+'</dd>':"")+'</dl></div></div>'}).join(""):"")+'</div>'});
  h+='<div class="note"><b style="color:var(--ink)">结论</b>'+(R.overall||[]).map(x=>'<p style="margin:6px 0 0">'+esc(x)+'</p>').join("")+'</div>';return h}
-const TABS=[["live","态势"],["drill","推演"],["seeds","种子文档"],["sources","数据源"],["retro","偏差测试"]];
+const TABS=[["live","国家"],["drill","推演"],["seeds","种子文档"],["sources","数据源"],["retro","偏差测试"]];
 function render(){if(document.activeElement&&document.activeElement.closest&&document.activeElement.closest("#df"))return;
  $("tabs").innerHTML=TABS.map(t=>'<button role="tab" data-a="tab:'+t[0]+'" aria-selected="'+(TAB===t[0])+'">'+t[1]+'</button>').join("");
  const b=$("body"),y=b.scrollTop;let h;
@@ -294,14 +327,17 @@ function render(){if(document.activeElement&&document.activeElement.closest&&doc
 async function openDoc(path,title){VIEW={html:'<p class="mute">读取中…</p>'};render();try{const md=await get(path,true);VIEW={html:DOMPurify.sanitize(marked.parse(md))}}catch(e){VIEW={html:'<p class="mute">读不到 '+esc(path)+'：'+esc(e.message)+'</p>'}}render();$("body").scrollTop=0}
 document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]");if(!a)return;const[k,v]=a.dataset.a.split(/:(.*)/s);
  if(k==="tab"){TAB=v;VIEW=null;ls.set("bri_tab",v);if(v==="drill")pollRuns()}
- else if(k==="c"){CT=v;SEL=null;const ps=D.projects.filter(p=>p.country===v);if(ps.length){const la=ps.reduce((s,p)=>s+p.centroid[0],0)/ps.length,lo=ps.reduce((s,p)=>s+p.centroid[1],0)/ps.length;focus(la,lo)}}
+ else if(k==="c"){selectC(v);return}
+ else if(k==="cl"){CT=null;SEL=null;glData()}else if(k==="pa")PJALL=!PJALL;
+ else if(k==="dk"){ls.set("bri_scope",v);TAB="drill";pollRuns()}else if(k==="sk"){ls.set("bri_seedc",v);TAB="seeds"}
  else if(k==="p"){SEL=SEL===v?null:v;const p=D.projects.find(x=>x.id===v);if(p&&SEL)focus(p.centroid[0],p.centroid[1])}
  else if(k==="z")ZOOM=!ZOOM;else if(k==="m")MORE[v]=!MORE[v];else if(k==="t")OPEN[v]=!OPEN[v];
  else if(k==="doc"){openDoc(v);return}else if(k==="rep"){openDoc(RUNRAW+v+"/REPORT.md");return}else if(k==="back")VIEW=null;
  else if(k==="tok"){if(v==="save"){const t=($("tokin").value||"").trim();if(!/^(github_pat_|ghp_)/.test(t)){alert("令牌格式不对：应以 github_pat_ 开头");return}ls.set("gh_token",t)}else{ls.set("gh_token",null);ls.set("bri_gh_token",null)}}
  render()});
-document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value)});
-document.addEventListener("change",e=>{if(e.target.id==="dscope"){ls.set("bri_scope",e.target.value);$("dseeds").innerHTML=seedPreview(e.target.value)}});
+document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value);if(e.target.id==="qs"){QS=e.target.value;const p=e.target.selectionStart;render();const q=$("qs");if(q){q.focus();q.setSelectionRange(p,p)}}});
+function selectC(k){CT=k;SEL=null;PJALL=false;TAB="live";VIEW=null;const c=cinfo(k);if(c)focus(c.lat,c.lon);glData();render();$("body").scrollTop=0}
+document.addEventListener("change",e=>{if(e.target.id==="dscope"){ls.set("bri_scope",e.target.value);$("dseeds").innerHTML=seedPreview(e.target.value)}if(e.target.id==="seedc"){ls.set("bri_seedc",e.target.value);render()}});
 document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const tok=TOK(),m=$("dmsg"),btn=$("dgo");
  const req=$("dreq").value.trim();if(req.length<10){m.className="msg err";m.textContent="推演要求至少写 10 个字。";return}
  const rid=new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z"+Math.random().toString(36).slice(2,6);
@@ -317,7 +353,7 @@ let PR=null;async function pollRuns(){clearTimeout(PR);try{const tok=TOK(),h={ac
   const d=$("druns");if(d)d.innerHTML=runsHTML()}}catch(e){}
  if(TAB==="drill"&&!document.hidden)PR=setTimeout(pollRuns,LIVE_RUNS.some(x=>x.status!=="completed")?20000:90000)}
 (async()=>{let land=null;try{land=await (await fetch("land_dots.json")).json()}catch(e){}try{glInit(land)}catch(e){console.warn(e)}
- await load(true);const ps=D.projects.filter(p=>p.country===CT);if(ps.length)setTimeout(()=>focus(ps[0].centroid[0],ps[0].centroid[1]),1200);
+ await load(true);setTimeout(()=>{if(!CT)focus(30,80)},900);
  if(TAB==="drill")pollRuns();setInterval(()=>{if(!document.hidden)load(false)},300000)})();
 </script>
 </body>

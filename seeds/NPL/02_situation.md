@@ -1,3 +1,13 @@
+# 尼泊尔（Nepal）近期态势
+
+每条注明来源和时间，内容是来源原文的转述。
+
+- World Monitor 汇总的旅行建议级别：caution
+
+## 各国政府旅行建议更新（经 World Monitor）
+
+- 2026-09-04 00:00 UTC：US State Dept Nepal - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html 
+
 # 尼泊尔项目周边近期态势（截至 2026-10-20 15:49 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
@@ -64,6 +74,6 @@
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 
-UCDP 候选数据版本 26.0.8，World Monitor 缓存于 2026-10-19 00:04 UTC。UCDP 只收录有人员死亡的有组织暴力事件，通常比实际发生晚几周。
+UCDP 候选数据版本 None，World Monitor 缓存于 未知。UCDP 只收录有人员死亡的有组织暴力事件，通常比实际发生晚几周。
 
 - 近期没有记录。

@@ -1,19 +1,25 @@
-# 每 30 分钟扫描一次项目周边态势（全部免费来源），重新生成 MiroFish 种子文档，有变化就提交。网页直接读仓库里的 data/ 和 seeds/。
+# 每 30 分钟：150 国态势（USGS、GDACS、NASA EONET、美国旅行建议）、11 个重点项目周边、World Monitor 原始数据按国家整理、重新生成种子文档。有变化就提交。
 name: scan
 on:
   schedule: [{ cron: "7,37 * * * *" }]
+  push: { branches: [main], paths: ["data/wm_raw/**"] }
   workflow_dispatch:
 permissions: { contents: write }
 concurrency: { group: data-write, cancel-in-progress: false }
 jobs:
   scan:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-      - name: Scan project surroundings
-        run: python3 tools/bri_scan.py data/projects.json data/live.json
-      - name: Regenerate seed documents
+      - run: pip install -q shapely
+      - name: Countries
+        run: python3 tools/country_scan.py || true
+      - name: Key projects
+        run: python3 tools/bri_scan.py data/projects.json data/live.json || true
+      - name: World Monitor by country
+        run: python3 tools/wm_process.py || true
+      - name: Seed documents
         run: python3 tools/seed_docs.py
       - name: Commit
         run: |
