@@ -11,8 +11,8 @@
     },
     {
      "path": "seeds/NPL/02_situation.md",
-     "title": "尼泊尔项目周边近期态势（截至 2026-10-19 21:43 UTC）",
-     "bytes": 11075
+     "title": "尼泊尔项目周边近期态势（截至 2026-10-20 01:02 UTC）",
+     "bytes": 11412
     },
     {
      "path": "seeds/NPL/03_history.md",
@@ -36,8 +36,8 @@
     },
     {
      "path": "seeds/LAO/02_situation.md",
-     "title": "老挝项目周边近期态势（截至 2026-10-19 21:43 UTC）",
-     "bytes": 2205
+     "title": "老挝项目周边近期态势（截至 2026-10-20 01:02 UTC）",
+     "bytes": 2179
     },
     {
      "path": "seeds/LAO/03_history.md",
@@ -61,7 +61,7 @@
     },
     {
      "path": "seeds/PAK/02_situation.md",
-     "title": "巴基斯坦项目周边近期态势（截至 2026-10-19 21:43 UTC）",
+     "title": "巴基斯坦项目周边近期态势（截至 2026-10-20 01:02 UTC）",
      "bytes": 15663
     },
     {
@@ -77,5 +77,5 @@
    ]
   }
  },
- "generated": "2026-10-19T21:43:32Z"
+ "generated": "2026-10-20T01:02:15Z"
 }
