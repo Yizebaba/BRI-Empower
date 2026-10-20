@@ -24,6 +24,7 @@ button,input,select,textarea{font:inherit;color:inherit}
 .top nav{margin-left:auto;display:flex;gap:8px}
 .top nav a{padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;text-decoration:none;background:rgba(10,11,14,.6);backdrop-filter:blur(6px)}
 .top nav a:hover,.lgb:hover{border-color:var(--silk)}
+html[lang=en] .brand span{display:none}
 .lgb{padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;background:rgba(10,11,14,.6);cursor:pointer}
 .hero{position:fixed;left:22px;bottom:calc(28px + env(safe-area-inset-bottom));z-index:4;max-width:440px;pointer-events:none}
 .hero h1{font-family:"Noto Serif SC",serif;font-weight:700;font-size:40px;line-height:1.15;letter-spacing:.02em;margin:0 0 10px}
@@ -171,7 +172,7 @@ const DICT=[["一带一路赋能","BRI-Empower"],["珠峰平台","EVEREST"],["�
 ["许可","License"],["更新","Updates"],["最近一次","latest"],["用途","Use"],["获取","How"],["引用","Cite"],["链接","Link"],["返回","Back"],
 ["相符","Match"],["部分 / 有偏差","Partial"],["缺失或漏报","Missing"],["结论","Takeaways"],["离项目：","Distance: "],["平台","Ours"],["参考","Ref."],
 ["这次没读到：","Not loaded: "],["几分钟后会自动重试。","Retrying in a few minutes."],["推演要求至少写 10 个字。","Write at least 10 characters."],["正在提交…","Submitting…"],["已提交，编号","Submitted, id"],["运行状态会显示在下面的推演记录里。","Status appears under Runs."],
-["已完工","Completed"],["在建","In progress"],["已承诺","Committed"],["意向","Pledged"],["暂停","Suspended"],["取消","Cancelled"],["份，","docs, "],["国 ·","countries ·"]].sort((a,b)=>b[0].length-a[0].length);
+["已完工","Completed"],["在建","In progress"],["已承诺","Committed"],["意向","Pledged"],["暂停","Suspended"],["取消","Cancelled"],["份，","docs, "],["国 ·","countries ·"],["美国","US"]].sort((a,b)=>b[0].length-a[0].length);
 function trText(t){if(!EN()||!/[\u4e00-\u9fff]/.test(t))return t;for(const[z,e]of DICT)if(t.includes(z))t=t.split(z).join(e);return t}
 function trNode(root){if(!EN()||!root)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){if(n.parentElement&&n.parentElement.closest(".md,.keep"))continue;const v=trText(n.nodeValue);if(v!==n.nodeValue)n.nodeValue=v}
  root.querySelectorAll("[placeholder],[title],[aria-label]").forEach(el=>["placeholder","title","aria-label"].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,trText(el.getAttribute(a)))}))}

@@ -1,14 +1,14 @@
 # 每天一次：IMF PortWatch 港口与咽喉要道、UN Comtrade 中国与各国贸易额（都免费、不要密钥）→ data/logistics.json
 name: logistics
 on:
-  schedule: [{ cron: "41 2 * * *" }]
+  schedule: [{ cron: "41 2,14 * * *" }]
   workflow_dispatch:
 permissions: { contents: write }
 concurrency: { group: data-write, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-24.04
-    timeout-minutes: 15
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/logistics.py

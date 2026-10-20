@@ -41,7 +41,23 @@ def DQ(svc, d): return ("'" + d.strftime("%Y-%m-%d") + "'") if DSTR.get(svc) els
 
 out = {"generated": iso(NOW), "portwatch": {}, "comtrade": {}, "errors": ERR}
 ports = {k: {} for k in ISO3}
+OLD = {}
+try: OLD = json.load(open("data/logistics.json"))
+except Exception: pass
+
+
+def ready():   # PortWatch 每周整表重建，重建中查询会返回 0 条或 400；等它恢复
+    for i in range(4):
+        try:
+            j = get(PW + "Daily_Ports_Data/FeatureServer/0/query", {"where": "1=1", "returnCountOnly": "true", "f": "json"})
+            if (j.get("count") or 0) > 100000: return True
+        except Exception: pass
+        time.sleep(300)
+    return False
+
+
 try:
+    if not ready(): raise RuntimeError("PortWatch 正在更新，这次没取到")
     end = latest_date("Daily_Ports_Data"); d30 = end - timedelta(days=30); d60 = end - timedelta(days=60)
     D = lambda d: DQ("Daily_Ports_Data", d)
     S = [("sum", "portcalls", "calls"), ("sum", "import", "imp"), ("sum", "export", "exp")]
@@ -77,5 +93,7 @@ try:
         cty.setdefault(k, {})["export" if r.get("flowCode") == "X" else "import"] = r.get("primaryValue")
     out["comtrade"] = {"source": "UN Comtrade（中国申报，年度，美元）", "url": "https://comtradeplus.un.org/", "year": yr, "countries": cty}
 except Exception as e: ERR["comtrade"] = str(e)[:200]
+if len(((out.get("portwatch") or {}).get("countries") or {})) < 60 and ((OLD.get("portwatch") or {}).get("countries")):
+    keep = dict(OLD["portwatch"]); keep["chokepoints"] = (out.get("portwatch") or {}).get("chokepoints") or keep.get("chokepoints"); keep["stale"] = True; out["portwatch"] = keep   # 不完整时保留上次的港口数据
 json.dump(out, open("data/logistics.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print("logistics:", len((out.get("portwatch") or {}).get("countries", {})), "countries with ports;", len(((out.get("portwatch") or {}).get("chokepoints") or {}).get("items", [])), "chokepoints;", len(out["comtrade"].get("countries", {})), "comtrade;", ERR)
