@@ -14,15 +14,18 @@ PW = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/"
 ERR = {}
 
 
-def get(url, params=None):
-    if params: url += "?" + urllib.parse.urlencode(params)
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as r: return json.loads(r.read())
+def get(url, params=None, post=False):
+    data = None
+    if params and post: data = urllib.parse.urlencode(params).encode()   # 条件很长时用 POST（GET 的网址太长会被拒）
+    elif params: url += "?" + urllib.parse.urlencode(params)
+    h = dict(UA, **({"content-type": "application/x-www-form-urlencoded"} if data else {}))
+    with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=h), timeout=120) as r: return json.loads(r.read())
 
 
 def pw_stats(svc, where, group, stats):
     p = {"where": where, "groupByFieldsForStatistics": group, "f": "json",
          "outStatistics": json.dumps([{"statisticType": t, "onStatisticField": f, "outStatisticFieldName": o} for t, f, o in stats])}
-    j = get(PW + svc + "/FeatureServer/0/query", p)
+    j = get(PW + svc + "/FeatureServer/0/query", p, post=True)
     if "error" in j: raise RuntimeError(str(j["error"])[:200])
     return [f["attributes"] for f in j.get("features", [])]
 

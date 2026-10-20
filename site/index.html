@@ -23,7 +23,8 @@ button,input,select,textarea{font:inherit;color:inherit}
 .brand span{color:var(--mute);font-size:12px;letter-spacing:.04em}
 .top nav{margin-left:auto;display:flex;gap:8px}
 .top nav a{padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;text-decoration:none;background:rgba(10,11,14,.6);backdrop-filter:blur(6px)}
-.top nav a:hover{border-color:var(--silk)}
+.top nav a:hover,.lgb:hover{border-color:var(--silk)}
+.lgb{padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;background:rgba(10,11,14,.6);cursor:pointer}
 .hero{position:fixed;left:22px;bottom:calc(28px + env(safe-area-inset-bottom));z-index:4;max-width:440px;pointer-events:none}
 .hero h1{font-family:"Noto Serif SC",serif;font-weight:700;font-size:40px;line-height:1.15;letter-spacing:.02em;margin:0 0 10px}
 .hero{text-shadow:0 1px 12px rgba(7,8,10,.95),0 0 2px rgba(7,8,10,.9)}
@@ -128,7 +129,7 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 <canvas id="gl" aria-hidden="true"></canvas>
 <header class="top">
  <a class="brand" href="./"><b>一带一路赋能</b><span>BRI-Empower</span></a>
- <nav><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a></nav>
+ <nav><button id="lang" class="lgb" type="button">EN</button><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a></nav>
 </header>
 <section class="hero">
  <h1>一带一路<br>150 个共建国家</h1>
@@ -152,10 +153,35 @@ const RUNREPO="Yizebaba/EVEREST-",RUNWF="mirofish.yml",RUNRAW="https://raw.githu
 const TOK=()=>ls.get("gh_token")||ls.get("bri_gh_token");
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $=id=>document.getElementById(id);
+let LANG=(()=>{try{return localStorage.getItem("bri_lang")||((navigator.language||"").startsWith("zh")?"zh":"en")}catch(e){return"zh"}})();
+const EN=()=>LANG==="en",cn=c=>c?(EN()?c.en:c.zh):"";
+const DICT=[["一带一路赋能","BRI-Empower"],["珠峰平台","EVEREST"],["一带一路","Belt and Road"],["150 个共建国家","150 partner countries"],["点地球上的国家，看冲突、灾害、断网、新闻和中国融资项目。","Click a country on the globe for conflict, hazards, outages, news and Chinese-financed projects."],
+["重新考虑出行","Reconsider travel"],["不要前往","Do not travel"],["重新考虑","Reconsider"],["加强注意","Exercise caution"],["正常注意","Normal"],["正常","Normal"],
+["东亚和太平洋","East Asia & Pacific"],["南亚","South Asia"],["欧洲和中亚","Europe & Central Asia"],["中东和北非","Middle East & North Africa"],["撒哈拉以南非洲","Sub-Saharan Africa"],["拉美和加勒比","Latin America & Caribbean"],
+["偏差测试","Accuracy"],["种子文档","Seed docs"],["数据源","Sources"],["推演记录","Runs"],["推演要求","Prompt"],["推演","Simulate"],["国家","Countries"],
+["← 全部国家","← All countries"],["搜索国家","Search countries"],["冲突事件（UCDP）","Conflict events (UCDP)"],["冲突（UCDP）","Conflict (UCDP)"],["新闻要闻","Top stories"],["互联网中断","Internet outages"],["灾害警报","Hazard alerts"],["自然事件","Natural events"],
+["旅行建议更新","Travel advisories"],["中国融资项目","Chinese-financed projects"],["物流与贸易","Logistics & trade"],["重点项目周边（每 30 分钟）","Key projects (every 30 min)"],["用这个国家推演","Simulate this country"],["读取中…","Loading…"],
+["AidData 没有收录这个国家带位置的项目。","No geolocated projects in AidData."],["近 7 天断网告警","outage alerts (7 d)"],["未确认","unconfirmed"],["发起国","initiator"],
+["港口（近 30 天）","Ports (last 30 days)"],["靠港","port calls"],["进口","imports"],["出口","exports"],["万吨","×10k t"],["咽喉要道（近 7 天）","Chokepoints (last 7 days)"],["次通行","transits"],["中国对其出口","China exports"],["自其进口","China imports"],
+["周边自然事件","Nearby natural events"],["新闻里的事故和安全线索","Incident leads in news"],["其他报道","Other coverage"],["显示全部","Show all"],["收起","Less"],["看全国","Whole country"],["放大到项目","Zoom to projects"],
+["周边","Near"],["线索","Leads"],["冲突","Conflict"],["灾害","Hazards"],["断网","Outages"],["项目","Projects"],["地震","Earthquakes"],["疫情","Outbreaks"],["机场","Airports"],["死亡","deaths"],
+["模拟轮数","Rounds"],["标题（可空）","Title (optional)"],["自动上传的种子文档","Seed docs uploaded"],["开始推演","Run"],["已在本浏览器连接 GitHub","GitHub connected in this browser"],["断开","Disconnect"],["先在下面连接 GitHub","Connect GitHub below first"],["连接 GitHub","Connect GitHub"],
+["仓库选 EVEREST-，Actions 读写。只存在本浏览器。","Repository EVEREST-, Actions read & write. Stored only in this browser."],["保存","Save"],["写清楚想推演的事件、对象和关心的问题。","Describe the event, actors and questions to simulate."],
+["还没有推演。","No runs yet."],["还没有种子文档。","No seed docs yet."],["看报告","Report"],["运行日志","Log"],["排队中","Queued"],["运行中","Running"],["已结束","Ended"],["开始于","Started"],["完成","Done"],["失败","Failed"],["范围","Scope"],
+["许可","License"],["更新","Updates"],["最近一次","latest"],["用途","Use"],["获取","How"],["引用","Cite"],["链接","Link"],["返回","Back"],
+["相符","Match"],["部分 / 有偏差","Partial"],["缺失或漏报","Missing"],["结论","Takeaways"],["离项目：","Distance: "],["平台","Ours"],["参考","Ref."],
+["这次没读到：","Not loaded: "],["几分钟后会自动重试。","Retrying in a few minutes."],["推演要求至少写 10 个字。","Write at least 10 characters."],["正在提交…","Submitting…"],["已提交，编号","Submitted, id"],["运行状态会显示在下面的推演记录里。","Status appears under Runs."],
+["已完工","Completed"],["在建","In progress"],["已承诺","Committed"],["意向","Pledged"],["暂停","Suspended"],["取消","Cancelled"],["份，","docs, "],["国 ·","countries ·"]].sort((a,b)=>b[0].length-a[0].length);
+function trText(t){if(!EN()||!/[\u4e00-\u9fff]/.test(t))return t;for(const[z,e]of DICT)if(t.includes(z))t=t.split(z).join(e);return t}
+function trNode(root){if(!EN()||!root)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){if(n.parentElement&&n.parentElement.closest(".md,.keep"))continue;const v=trText(n.nodeValue);if(v!==n.nodeValue)n.nodeValue=v}
+ root.querySelectorAll("[placeholder],[title],[aria-label]").forEach(el=>["placeholder","title","aria-label"].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,trText(el.getAttribute(a)))}))}
+const STATIC=[];function applyLang(){document.documentElement.lang=EN()?"en":"zh-CN";$("lang").textContent=EN()?"中文":"EN";
+ if(!STATIC.length)document.querySelectorAll(".hero h1,.hero p,.hero .route span,.brand b,.top nav a").forEach(el=>STATIC.push([el,el.innerHTML]));
+ STATIC.forEach(([el,h])=>{el.innerHTML=h;trNode(el)});document.title=EN()?"BRI-Empower · Belt and Road":"一带一路赋能 · BRI-Empower"}
 const bj=t=>{if(!t)return"—";const d=new Date(t);if(isNaN(d))return esc(t);return d.toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false,month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})};
 const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 async function get(path,text){const r=await fetch((/^https?:/.test(path)?path:BASE+path)+(BASE.startsWith("http")?"?v="+Math.floor(Date.now()/60000):""),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return text?r.text():r.json()}
-const D={countries:[],asum:{},clive:{},projects:[],live:{},wm:{},retro:null,sources:[],seeds:{},runs:[],base:{}};
+const D={logi:{},countries:[],asum:{},clive:{},projects:[],live:{},wm:{},retro:null,sources:[],seeds:{},runs:[],base:{}};
 const CN={NPL:"尼泊尔",LAO:"老挝",PAK:"巴基斯坦"},NEWS="新闻（Google 新闻 RSS）";
 const STZ={Completion:"已完工",Implementation:"在建","Pipeline: Commitment":"已承诺","Pipeline: Pledge":"意向"};
 const LV={1:["#5fe0a8","一级 · 正常注意"],2:["#f2c14e","二级 · 加强注意"],3:["#ff9f43","三级 · 重新考虑出行"],4:["#ff6b5b","四级 · 不要前往"]};
@@ -208,7 +234,7 @@ function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THRE
  D.countries.forEach(c=>{const a=advOf(c.iso3),col=ADVC[a]||0xe9c46a,n=((D.asum[c.iso3]||{}).n)||0,sc=.035+Math.min(.05,Math.sqrt(n)*.0035),sel=CT===c.iso3;
   const dot=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:col,transparent:true,depthWrite:false}));dot.position.copy(ll(c.lat,c.lon,1.012));dot.scale.setScalar(sel?sc*1.6:sc);L.add(dot);G.cdots[c.iso3]=dot;
   if(sel){const ring=new THREE.Mesh(new THREE.RingGeometry(.016,.021,40),new THREE.MeshBasicMaterial({color:0xffe2a0,transparent:true,side:THREE.DoubleSide,depthWrite:false}));ring.position.copy(ll(c.lat,c.lon,1.014));ring.lookAt(ring.position.clone().multiplyScalar(2));L.add(ring);G.pulses.push({obj:ring,f:.6,ph:0})}
-  G.pick.push({obj:dot,iso:c.iso3,html:"<b>"+esc(c.zh)+"</b> <span class='mute'>"+esc(c.en)+"</span><br><span class='mute'>"+(ADVZ[a]||"")+(n?" · 项目 "+n:"")+"</span>"})});
+  G.pick.push({obj:dot,iso:c.iso3,html:"<b>"+esc(cn(c))+"</b>"+(EN()?"":" <span class='mute'>"+esc(c.en)+"</span>")+"<br><span class='mute'>"+trText((ADVZ[a]||"")+(n?" · 项目 "+n:""))+"</span>"})});
  const evs=[];Object.entries((D.wm.countries)||{}).forEach(([k,c])=>(c.ucdp||[]).forEach(e=>{if(e.lat!=null)evs.push([e.lat,e.lon,0xff6b5b,esc((e.t||"").slice(0,10))+" · 冲突（UCDP）<br>"+esc(e.a)+" — "+esc(e.b)+" · 死亡 "+esc(e.deaths)])}));
  Object.values((D.clive.countries)||{}).forEach(c=>{(c.quakes||[]).forEach(e=>evs.push([e.lat,e.lon,0xff9f43,bj(e.t)+" · 地震 M"+esc(e.mag)+"<br>"+esc(e.text)]));(c.gdacs||[]).forEach(e=>evs.push([e.lat,e.lon,0xff9f43,bj(e.t)+" · GDACS "+esc(e.level)+"<br>"+esc(e.text)]))});
  evs.forEach(e=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:e[2],transparent:true,opacity:.85,depthWrite:false}));s.position.copy(ll(e[0],e[1],1.013));s.scale.setScalar(.022);L.add(s);G.pick.push({obj:s,html:e[3]})})}
@@ -217,7 +243,7 @@ function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THRE
 function split(p){const L=(((D.live.projects||{})[p.id])||{}).items||[];return{geo:L.filter(i=>i.src!==NEWS),inc:L.filter(i=>i.src===NEWS&&i.kind==="事件相关"),gen:L.filter(i=>i.src===NEWS&&i.kind!=="事件相关")}}
 const kmH=(a,b,c,d)=>{const r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))};
 function nearest(la,lo,ps){let b=[1e9,null];ps.forEach(p=>p.rings.forEach(r=>r.forEach(q=>{const d=kmH(la,lo,q[1],q[0]);if(d<b[0])b=[d,p]})));return b}
-async function load(first){const tasks=[["countries","data/bri_countries.json",x=>D.countries=x.countries||[]],["asum","data/aiddata_summary.json",x=>D.asum=x.countries||{}],["clive","data/country_live.json",x=>D.clive=x],["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
+async function load(first){const tasks=[["countries","data/bri_countries.json",x=>D.countries=x.countries||[]],["asum","data/aiddata_summary.json",x=>D.asum=x.countries||{}],["clive","data/country_live.json",x=>D.clive=x],["logi","data/logistics.json",x=>D.logi=x],["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
  const errs=[];await Promise.all(tasks.filter(t=>first||!["countries","asum","projects","retro","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>errs.push(t[0]))));
  D.errs=errs;render();glData()}
 const ADVC={"do-not-travel":0xff5b4d,"reconsider":0xff9f43,"caution":0xf2c14e,"normal":0x5fe0a8,"info":0x9fd6c4};
@@ -261,16 +287,28 @@ function wmBlock(c,ps){const W=(D.wm.countries||{})[c];let h='<div class="h3">�
 function sampleBlock(c){const ps=D.projects.filter(p=>p.country===c);if(!ps.length)return"";const C=(D.live.countries||{})[c]||{},io=C.ioda;
  return'<div class="h3">重点项目周边（每 30 分钟）</div>'+(io?'<p class="small mute" style="margin:0 0 6px">IODA 近 7 天断网告警 '+io.n+'</p>':"")+cmap(c,ps)+'<div class="list">'+ps.map((p,n)=>{const s=split(p),op=SEL===p.id;return'<button class="row" data-a="p:'+p.id+'" aria-expanded="'+op+'"><span class="num">'+(n+1)+'</span><span style="min-width:0"><div class="nm">'+esc(p.name)+'</div><div class="ds">'+esc(p.kind)+'，'+esc(STZ[p.status]||p.status)+'</div></span><span class="ct"><span class="'+(s.geo.length?"on":"")+'">周边 '+s.geo.length+'</span><span class="'+(s.inc.length?"on":"")+'">线索 '+s.inc.length+'</span></span><span class="cv">›</span></button>'+(op?detail(p):"")}).join("")+'</div>'}
 const REG=["东亚和太平洋","南亚","欧洲和中亚","中东和北非","撒哈拉以南非洲","拉美和加勒比"];let QS="",CPJ={},PJALL=false;
-function crow(c){const n=counts(c.iso3),a=advOf(c.iso3);return'<button class="crow" data-a="c:'+c.iso3+'"><i style="background:'+(ADVS[a]||"#555")+'"></i><span class="nm">'+esc(c.zh)+' <small>'+esc(c.en)+'</small></span><span class="ct">'+(n.conf?'<span class="on">冲突 '+n.conf+'</span>':"")+(n.haz?'<span>灾害 '+n.haz+'</span>':"")+(n.net?'<span>断网 '+n.net+'</span>':"")+(n.proj?'<span>项目 '+n.proj+'</span>':"")+'</span></button>'}
+function crow(c){const n=counts(c.iso3),a=advOf(c.iso3);return'<button class="crow" data-a="c:'+c.iso3+'"><i style="background:'+(ADVS[a]||"#555")+'"></i><span class="nm">'+esc(cn(c))+(EN()?"":' <small>'+esc(c.en)+'</small>')+'</span><span class="ct">'+(n.conf?'<span class="on">冲突 '+n.conf+'</span>':"")+(n.haz?'<span>灾害 '+n.haz+'</span>':"")+(n.net?'<span>断网 '+n.net+'</span>':"")+(n.proj?'<span>项目 '+n.proj+'</span>':"")+'</span></button>'}
 function tabLive(){if(CT)return countryView(CT);
  const q=QS.trim().toLowerCase(),L=D.countries.filter(c=>!q||c.zh.includes(q)||c.en.toLowerCase().includes(q));
  let h='<div class="srch"><input id="qs" type="search" placeholder="搜索国家" value="'+esc(QS)+'" autocomplete="off"><span class="small mute">'+D.countries.length+' 国 · '+bj(D.wm.generated||D.clive.generated)+'</span></div>';
+ h+=q?"":chokeBlock();
  REG.forEach(r=>{const G2=L.filter(c=>c.region===r).sort((a,b)=>{const x=counts(a.iso3),y=counts(b.iso3);return(y.conf*5+y.haz+y.net*3+y.news)-(x.conf*5+x.haz+x.net*3+x.news)||y.proj-x.proj});if(G2.length)h+='<div class="h3">'+r+' <span class="mute">'+G2.length+'</span></div><div class="list">'+G2.map(crow).join("")+'</div>'});
  return h}
 function sec(t,L,f,more){return L&&L.length?'<div class="h3">'+t+' <span class="mute">'+L.length+'</span></div>'+L.slice(0,more||8).map(f).join(""):""}
 const iL=(t,title,sub,url)=>'<div class="it"><time>'+t+'</time><div>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(title)+' ↗</a>':esc(title))+(sub?'<small>'+sub+'</small>':"")+'</div></div>';
+const nf=v=>v==null?"—":Number(v).toLocaleString(EN()?"en-US":"zh-CN");
+const wt=t=>t==null?"—":EN()?nf(Math.round(t/1000))+"k t":nf(Math.round(t/1e4))+" 万吨";
+const usd=v=>v==null?"—":EN()?"$"+(v/1e9).toFixed(2)+" bn":(v/1e8).toFixed(1)+" 亿美元";
+const chg=(a,b)=>a!=null&&b?'<span class="mute">（'+(a>=b?"+":"")+Math.round((a-b)/b*100)+'%）</span>':"";
+function logiBlock(k){const pw=((D.logi.portwatch||{}).countries||{})[k],ct=((D.logi.comtrade||{}).countries||{})[k];if(!pw&&!ct)return"";
+ let h='<div class="h3">物流与贸易</div>';
+ if(pw)h+='<div class="it"><time>港口（近 30 天）</time><div>靠港 '+nf(pw.calls30)+chg(pw.calls30,pw.calls_prev)+' · 进口 '+wt(pw.import30)+chg(pw.import30,pw.import_prev)+' · 出口 '+wt(pw.export30)+chg(pw.export30,pw.export_prev)+'<small>IMF PortWatch · '+bj(D.logi.portwatch.data_until)+'</small></div></div>'+(pw.ports||[]).map(x=>'<div class="it"><time></time><div>'+esc(x.name)+'<small>靠港 '+nf(x.calls30)+' · 进口 '+wt(x.import30)+' · 出口 '+wt(x.export30)+'</small></div></div>').join("");
+ if(ct)h+='<div class="it"><time>'+esc(D.logi.comtrade.year)+'</time><div>中国对其出口 '+usd(ct.export)+' · 自其进口 '+usd(ct.import)+'<small>UN Comtrade</small></div></div>';
+ return h}
+function chokeBlock(){const c=(D.logi.portwatch||{}).chokepoints;if(!c||!c.items)return"";
+ return'<div class="h3">咽喉要道（近 7 天）</div><div class="list">'+c.items.slice(0,12).map(x=>'<div class="crow" style="cursor:default"><i style="background:#6aa8e0"></i><span class="nm">'+esc(x.name)+'</span><span class="ct"><span>'+nf(x.transits7)+' 次通行'+(x.transits_prev?" "+(x.transits7>=x.transits_prev?"+":"")+Math.round((x.transits7-x.transits_prev)/x.transits_prev*100)+"%":"")+'</span></span></div>').join("")+'</div>'}
 function countryView(k){const c=cinfo(k);if(!c)return"";const w=(D.wm.countries||{})[k]||{},l=(D.clive.countries||{})[k]||{},a=advOf(k),as=D.asum[k];
- let h='<button class="back" data-a="cl:1">← 全部国家</button><h2 class="h2">'+esc(c.zh)+' <span class="mute" style="font-size:13px;font-family:inherit">'+esc(c.en)+' · '+esc(c.region)+'</span></h2>';
+ let h='<button class="back" data-a="cl:1">← 全部国家</button><h2 class="h2">'+esc(cn(c))+' <span class="mute" style="font-size:13px;font-family:inherit">'+(EN()?"":esc(c.en)+' · ')+esc(c.region)+'</span></h2>';
  h+='<div class="stat">'+(a?'<span class="lv" style="background:'+ADVS[a]+'">'+ADVZ[a]+'</span>':"")+(l.us?'<a href="'+esc(l.us.url)+'" target="_blank" rel="noopener">美国 '+esc(l.us.level?"Level "+l.us.level:l.us.title)+' ↗</a>':"")+(w.cii?'<span>CII '+w.cii.score+'</span>':"")+(c.note?'<span>'+esc(c.note)+'</span>':"")+'</div>';
  h+=sec("冲突事件（UCDP）",w.ucdp,e=>iL(esc((e.t||"").slice(0,10)),e.a+" — "+e.b,"死亡 "+esc(e.deaths)+" · "+esc(e.src||"")));
  h+=sec("新闻要闻",w.stories,e=>iL(bj(e.t),e.title,esc(e.source||"")+(e.sources>1?" 等 "+e.sources+" 家":""),e.url));
@@ -281,11 +319,12 @@ function countryView(k){const c=cinfo(k);if(!c)return"";const w=(D.wm.countries|
  h+=sec("疫情",w.outbreaks,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url));
  h+=sec("机场",w.airports,e=>iL(esc(e.iata),e.name,esc(e.severity)+" "+esc(e.reason||"")));
  h+=sec("旅行建议更新",w.advisories,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url),4);
+ h+=logiBlock(k);
  h+=sampleBlock(k);
- h+='<div class="h3">中国融资项目'+(as?' <span class="mute">'+as.n+' 个 · 约 '+(as.usd/1e8).toFixed(1)+' 亿美元</span>':"")+'</div>';
+ h+='<div class="h3">中国融资项目'+(as?' <span class="mute">'+(EN()?as.n+" · ≈ $"+(as.usd/1e9).toFixed(1)+" bn":as.n+' 个 · 约 '+(as.usd/1e8).toFixed(1)+' 亿美元')+'</span>':"")+'</div>';
  const pj=CPJ[k];if(!as)h+='<p class="small mute">AidData 没有收录这个国家带位置的项目。</p>';
  else if(!pj){h+='<p class="small mute">读取中…</p>';get("data/countries/"+k+".json").then(x=>{CPJ[k]=x.projects||[];if(CT===k)render()}).catch(()=>{CPJ[k]=[];render()})}
- else{h+=(PJALL?pj:pj.slice(0,10)).map(x=>iL(esc(x.year),x.title,esc(x.sector)+" · "+esc(x.status)+(x.amount?" · "+(x.amount/1e6).toFixed(0)+" 百万美元":""),x.osm)).join("")+(pj.length>10?'<button class="more" data-a="pa:1">'+(PJALL?"收起":"全部 "+pj.length+" 个")+'</button>':"")}
+ else{h+=(PJALL?pj:pj.slice(0,10)).map(x=>iL(esc(x.year),x.title,esc(x.sector)+" · "+esc(x.status)+(x.amount?" · "+(EN()?"$"+(x.amount/1e6).toFixed(0)+"m":(x.amount/1e6).toFixed(0)+" 百万美元"):""),x.osm)).join("")+(pj.length>10?'<button class="more" data-a="pa:1">'+(PJALL?"收起":"全部 "+pj.length+" 个")+'</button>':"")}
  h+='<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn ghost" data-a="dk:'+k+'">用这个国家推演</button><button class="btn ghost" data-a="sk:'+k+'">种子文档</button></div>';
  return h}
 function tabDrill(){const tok=TOK();let h='<h2 class="h2">MiroFish 推演</h2>';
@@ -298,7 +337,7 @@ function tabDrill(){const tok=TOK();let h='<h2 class="h2">MiroFish 推演</h2>';
  +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn" type="submit" id="dgo"'+(tok?"":" disabled")+'>开始推演</button>'+(tok?'<span class="small mute">已在本浏览器连接 GitHub · <button type="button" class="more" data-a="tok:clear">断开</button></span>':'<span class="small mute">先在下面连接 GitHub</span>')+'</div><div class="msg" id="dmsg"></div></form>';
  if(!tok)h+='<div class="h3">连接 GitHub</div><p class="small mute" style="margin:0">Fine-grained token：仓库选 EVEREST-，Actions 读写。只存在本浏览器。</p><div style="display:flex;gap:8px;margin-top:8px"><input id="tokin" type="password" placeholder="github_pat_…" style="flex:1"><button class="btn ghost" type="button" data-a="tok:save">保存</button></div>';
  h+='<div class="h3">推演记录</div><div id="druns">'+runsHTML()+'</div>';return h}
-function cselect(id,v){return'<select id="'+id+'">'+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(c.zh)+'</option>').join("")+'</optgroup>').join("")+'</select>'}
+function cselect(id,v){return'<select id="'+id+'">'+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(cn(c))+'</option>').join("")+'</optgroup>').join("")+'</select>'}
 function seedPreview(sc){const fs=((D.seeds[sc]||{}).files||[]).slice();
  return fs.length?'<div class="seedl">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+' 份，'+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
 let LIVE_RUNS=[];const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
@@ -311,7 +350,8 @@ function tabSources(){let h='';
  h+=D.sources.map(s=>'<div class="src"><b>'+esc(s.name)+'</b> <a class="small" href="'+esc(/^https?:/.test(s.url)?s.url:"https://github.com/"+REPO+"/blob/main/"+s.url)+'" target="_blank" rel="noopener">链接 ↗</a><dl><dt>许可</dt><dd>'+esc(s.license)+'</dd><dt>更新</dt><dd>'+esc(s.cadence)+(fresh[s.id]?"，最近一次 "+bj(fresh[s.id]):"")+'</dd><dt>用途</dt><dd>'+esc(s.use)+'</dd><dt>获取</dt><dd>'+esc(s.how)+'</dd>'+(s.cite?'<dt>引用</dt><dd>'+esc(s.cite)+'</dd>':"")+'</dl></div>').join("");return h}
 const cls=r=>/错误/.test(r[0])?"fix":/^(对|一致|有)|一致$/.test(r[3])?"ok":/^(缺|漏)/.test(r[3])?"miss":"part";
 const COL={ok:"#5fe0a8",part:"#f2c14e",miss:"#ff7a5c",fix:"#6aa8e0"},CNM={ok:"相符",part:"部分 / 有偏差",miss:"缺失或漏报"};
-function tabRetro(){const R=D.retro;if(!R)return'<p class="mute">没有测试结果。</p>';const T={ok:0,part:0,miss:0};R.tests.forEach(t=>t.rows.forEach(r=>{const k=cls(r);if(T[k]!=null)T[k]++}));
+function tabRetro(){return'<div class="keep">'+tabRetro0()+'</div>'}
+function tabRetro0(){const R=D.retro;if(!R)return'<p class="mute">没有测试结果。</p>';const T={ok:0,part:0,miss:0};R.tests.forEach(t=>t.rows.forEach(r=>{const k=cls(r);if(T[k]!=null)T[k]++}));
  let h='<h2 class="h2">偏差测试</h2><p class="lead">'+esc(R.method)+'</p><div class="tally">'+["ok","part","miss"].map(k=>'<div><b style="color:'+COL[k]+'">'+T[k]+'</b><span>'+CNM[k]+'</span></div>').join("")+'</div>';
  R.tests.forEach(t=>{const op=!!OPEN[t.id];h+='<div class="tc"><button class="th" data-a="t:'+t.id+'" aria-expanded="'+op+'"><span><b style="font-weight:500">'+esc(t.name)+'</b><small>'+esc(t.mode)+'</small></span><span class="dots">'+t.rows.map(r=>'<i style="background:'+COL[cls(r)]+'"></i>').join("")+'</span><span class="cv" style="transform:rotate('+(op?90:0)+'deg)">›</span></button>'
   +(op?'<div class="tr" style="grid-template-columns:1fr;color:var(--mute);font-size:12px">离项目：'+esc(t.nearest_project)+'</div>'+t.rows.map(r=>{const k=cls(r);return'<div class="tr"><i style="background:'+COL[k]+'"></i><div><div style="font-weight:500">'+esc(r[0])+'</div><div class="small" style="color:'+COL[k]+'">'+esc(r[3])+'</div><dl><dt>平台</dt><dd>'+esc(r[1])+'</dd>'+(r[2]&&r[2]!=="—"?'<dt>参考</dt><dd>'+esc(r[2])+'</dd>':"")+'</dl></div></div>'}).join(""):"")+'</div>'});
@@ -323,7 +363,7 @@ function render(){if(document.activeElement&&document.activeElement.closest&&doc
  if(VIEW)h='<button class="back" data-a="back:1">← 返回</button><div class="md">'+VIEW.html+'</div>';
  else h=TAB==="drill"?tabDrill():TAB==="seeds"?tabSeeds():TAB==="sources"?tabSources():TAB==="retro"?tabRetro():tabLive();
  if(D.errs&&D.errs.length)h+='<p class="note">这次没读到：'+esc(D.errs.join("、"))+'。几分钟后会自动重试。</p>';
- b.innerHTML=h;b.scrollTop=y}
+ b.innerHTML=h;trNode(b);trNode($("tabs"));b.scrollTop=y}
 async function openDoc(path,title){VIEW={html:'<p class="mute">读取中…</p>'};render();try{const md=await get(path,true);VIEW={html:DOMPurify.sanitize(marked.parse(md))}}catch(e){VIEW={html:'<p class="mute">读不到 '+esc(path)+'：'+esc(e.message)+'</p>'}}render();$("body").scrollTop=0}
 document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]");if(!a)return;const[k,v]=a.dataset.a.split(/:(.*)/s);
  if(k==="tab"){TAB=v;VIEW=null;ls.set("bri_tab",v);if(v==="drill")pollRuns()}
@@ -336,6 +376,7 @@ document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]")
  else if(k==="tok"){if(v==="save"){const t=($("tokin").value||"").trim();if(!/^(github_pat_|ghp_)/.test(t)){alert("令牌格式不对：应以 github_pat_ 开头");return}ls.set("gh_token",t)}else{ls.set("gh_token",null);ls.set("bri_gh_token",null)}}
  render()});
 document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value);if(e.target.id==="qs"){QS=e.target.value;const p=e.target.selectionStart;render();const q=$("qs");if(q){q.focus();q.setSelectionRange(p,p)}}});
+document.addEventListener("click",e=>{if(e.target.id!=="lang")return;LANG=EN()?"zh":"en";try{localStorage.setItem("bri_lang",LANG)}catch(x){}applyLang();render();glData()});
 function selectC(k){CT=k;SEL=null;PJALL=false;TAB="live";VIEW=null;const c=cinfo(k);if(c)focus(c.lat,c.lon);glData();render();$("body").scrollTop=0}
 document.addEventListener("change",e=>{if(e.target.id==="dscope"){ls.set("bri_scope",e.target.value);$("dseeds").innerHTML=seedPreview(e.target.value)}if(e.target.id==="seedc"){ls.set("bri_seedc",e.target.value);render()}});
 document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const tok=TOK(),m=$("dmsg"),btn=$("dgo");
@@ -352,6 +393,7 @@ let PR=null;async function pollRuns(){clearTimeout(PR);try{const tok=TOK(),h={ac
   if(was&&!LIVE_RUNS.some(x=>x.status!=="completed"))await get(RUNRAW+"mirofish-bri/index.json").then(x=>D.runs=x.runs||[]).catch(()=>{});
   const d=$("druns");if(d)d.innerHTML=runsHTML()}}catch(e){}
  if(TAB==="drill"&&!document.hidden)PR=setTimeout(pollRuns,LIVE_RUNS.some(x=>x.status!=="completed")?20000:90000)}
+applyLang();
 (async()=>{let land=null;try{land=await (await fetch("land_dots.json")).json()}catch(e){}try{glInit(land)}catch(e){console.warn(e)}
  await load(true);setTimeout(()=>{if(!CT)focus(30,80)},900);
  if(TAB==="drill")pollRuns();setInterval(()=>{if(!document.hidden)load(false)},300000)})();

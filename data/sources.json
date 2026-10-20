@@ -120,6 +120,24 @@
    "cadence": "手动触发",
    "use": "用种子文档和你写的推演要求做多智能体模拟，输出报告",
    "how": ".github/workflows/drill.yml"
+  },
+  {
+   "id": "portwatch",
+   "name": "IMF PortWatch 港口与海上咽喉要道",
+   "url": "https://portwatch.imf.org/",
+   "license": "IMF / 牛津大学，公开数据，注明来源",
+   "cadence": "每天一次（数据本身约晚几天）",
+   "use": "各国港口近 30 天靠港次数、进出口量（公吨），28 个咽喉要道通行",
+   "how": "tools/logistics.py（ArcGIS FeatureServer 统计查询，不要密钥）"
+  },
+  {
+   "id": "comtrade",
+   "name": "UN Comtrade 联合国商品贸易统计",
+   "url": "https://comtradeplus.un.org/",
+   "license": "联合国统计司，公开预览接口",
+   "cadence": "每天检查一次（年度数据）",
+   "use": "中国与各国的年度货物出口、进口额",
+   "how": "tools/logistics.py（公共预览接口，不要密钥，每次最多 500 条）"
   }
  ]
 }

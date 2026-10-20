@@ -170,6 +170,12 @@ def country_situation(k):
         ("gdacs", "灾害警报（GDACS，近 14 天）", lambda e: f"{bj(e['t'])}：{e.get('level')} 级 {e.get('type')}，{e.get('text')}。{e.get('url') or ''} "),
         ("eonet", "自然事件（NASA EONET，近 30 天）", lambda e: f"{bj(e['t'])}：{e.get('type')}，{e.get('text')}。{e.get('url') or ''} ")):
         if l.get(key): o += ["", f"## {title}", ""] + [f"- {fmt(e)}" for e in l[key][:15]]
+    LG = D("data/logistics.json"); pw = ((LG.get("portwatch") or {}).get("countries") or {}).get(k); ct = ((LG.get("comtrade") or {}).get("countries") or {}).get(k)
+    if pw or ct: o += ["", "## 物流与贸易", ""]
+    if pw:
+        o.append(f"- 港口（IMF PortWatch，截至 {bj((LG.get('portwatch') or {}).get('data_until'))} 的近 30 天）：靠港 {pw.get('calls30')} 次（前 30 天 {pw.get('calls_prev')} 次），进口约 {pw.get('import30')} 公吨，出口约 {pw.get('export30')} 公吨。")
+        o += [f"  - {x['name']}：靠港 {x['calls30']} 次，进口约 {x['import30']} 公吨，出口约 {x['export30']} 公吨" for x in pw.get("ports", [])]
+    if ct: o.append(f"- 中国与该国货物贸易（UN Comtrade，{(LG.get('comtrade') or {}).get('year')} 年，中国申报）：中国出口 {ct.get('export')} 美元，中国进口 {ct.get('import')} 美元。")
     if len(o) <= 4: o.append("近期各来源都没有记录。")
     return "\n".join(o) + "\n"
 
