@@ -48,9 +48,9 @@ except Exception as e: ERR["eonet"] = str(e)[:120]
 try:
     names = {c["iso3"]: {c["en"].lower(), c["en"].split(",")[0].lower()} for c in C}
     ALIAS = {"RUS": {"russia"}, "KOR": {"south korea", "korea, south"}, "LAO": {"laos"}, "IRN": {"iran"}, "SYR": {"syria"}, "VEN": {"venezuela"}, "BOL": {"bolivia"}, "TZA": {"tanzania"},
-             "MDA": {"moldova"}, "COD": {"democratic republic of the congo"}, "COG": {"republic of the congo"}, "CIV": {"cote d'ivoire", "côte d'ivoire"}, "VNM": {"vietnam"}, "BRN": {"brunei"},
+             "MDA": {"moldova"}, "COD": {"democratic republic of the congo"}, "COG": {"republic of the congo", "congo, republic of the", "republic of congo"}, "CIV": {"cote d'ivoire", "côte d'ivoire", "cote d ivoire", "côte d ivoire"}, "VNM": {"vietnam"}, "BRN": {"brunei"},
              "FSM": {"micronesia"}, "CPV": {"cabo verde"}, "GMB": {"the gambia", "gambia"}, "MKD": {"north macedonia"}, "TUR": {"turkey", "türkiye", "turkiye"}, "CZE": {"czechia", "czech republic"},
-             "KGZ": {"kyrgyzstan", "kyrgyz republic"}, "SVK": {"slovakia"}, "TLS": {"timor-leste"}, "BIH": {"bosnia and herzegovina"}, "PSE": set()}
+             "KGZ": {"kyrgyzstan", "kyrgyz republic", "the kyrgyz republic"}, "SVK": {"slovakia"}, "TLS": {"timor-leste"}, "BIH": {"bosnia and herzegovina"}, "MMR": {"burma", "burma (myanmar)"}, "PSE": set()}
     for k, v in ALIAS.items():
         if k in names: names[k] |= v
     for it in ET.fromstring(get("https://travel.state.gov/_res/rss/TAsTWs.xml", raw=True)).iter("item"):
