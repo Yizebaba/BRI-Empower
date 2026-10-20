@@ -2,6 +2,7 @@
 
 每条注明来源和时间，内容是来源原文的转述。
 
+- 美国国务院旅行建议：Dominican Republic - Level 2: Exercise Increased Caution（Thu, 12 Jun 2025）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dom.html 
 - World Monitor 汇总的旅行建议级别：caution
 
 ## 各国政府旅行建议更新（经 World Monitor）
@@ -14,3 +15,7 @@
 - 2026-04-30 13:01 UTC：US Embassy Dominican Republic Weather Alert: U.S. Embassy Santo Domingo, Dominican Republic (April 30, 2026)。https://do.usembassy.gov/weather-alert-u-s-embassy-santo-domingo-dominican-republic-april-30-2026/ 
 - 2026-04-23 03:05 UTC：US Embassy Dominican Republic Weather Alert: U.S. Embassy Santo Domingo, Dominican Republic (April 22, 2026)。https://do.usembassy.gov/weather-alert-u-s-embassy-santo-domingo-dominican-republic-april-22-2026-2/ 
 - 2026-04-13 22:02 UTC：US Embassy Dominican Republic Weather Alert: U.S. Embassy Santo Domingo, Dominican Republic (April 13, 2026)。https://do.usembassy.gov/weather-alert-u-s-embassy-santo-domingo-dominican-republic-april-11-2026/ 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-04-21 00:00 UTC：Orange 级 DR，Drought in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States。https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=12&eventtype=DR 

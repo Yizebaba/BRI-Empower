@@ -2,6 +2,7 @@
 
 每条注明来源和时间，内容是来源原文的转述。
 
+- 美国国务院旅行建议：Thailand - Level 1: Exercise Normal Precautions（Tue, 07 Jul 2026）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tha.html 
 - World Monitor 汇总的旅行建议级别：normal
 
 ## 各国政府旅行建议更新（经 World Monitor）
@@ -15,3 +16,7 @@
 - 2026-05-28 16:56 UTC：US Embassy Thailand Health Alert: Worldwide Caution – Updated Public Health Arrival Restrictions and Enhanced Ebola Disease Screening – May 28, 2026。https://th.usembassy.gov/health-alert-worldwide-caution-updated-public-health-arrival-restrictions-and-enhanced-ebola-disease-screening-may-28-2026/ 
 - 2026-05-23 01:09 UTC：US Embassy Thailand Health Alert: Worldwide Caution – Updated Public Health Arrival Restrictions and Enhanced Ebola Screening – May 22, 2026。https://th.usembassy.gov/health-alert-worldwide-caution-updated-public-health-arrival-restrictions-and-enhanced-ebola-screening-may-22-2026/ 
 - 2026-05-22 08:44 UTC：US Embassy Thailand Health Alert: Worldwide Caution – Public Health Arrival Restrictions and Enhanced Ebola Screening – May 21, 2026。https://th.usembassy.gov/health-alert-worldwide-caution-public-health-arrival-restrictions-and-enhanced-ebola-screening-may-21-2026/ 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-18 01:00 UTC：Green 级 FL，Flood in Thailand。https://www.gdacs.org/report.aspx?eventid=1104241&episodeid=1&eventtype=FL 

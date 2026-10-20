@@ -2,6 +2,7 @@
 
 每条注明来源和时间，内容是来源原文的转述。
 
+- 美国国务院旅行建议：Ukraine - Level 4: Do Not Travel（Fri, 28 Aug 2026）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ukr.html 
 - World Monitor 汇总的旅行建议级别：do-not-travel
 - World Monitor 综合不稳定指数（CII）：75/100
 
@@ -36,3 +37,7 @@
 - 2025-09-18 08:35 UTC：US Embassy Ukraine Security Alert: Message for U.S. Citizens Considering Travel to Uman for Rosh Hashanah。https://ua.usembassy.gov/security-alert-message-for-u-s-citizens-considering-travel-to-uman-for-rosh-hashanah-2/ 
 - 2025-07-21 14:04 UTC：US Embassy Ukraine Alert – Message for U.S. Citizens: Potential Obligations of Dual Citizens under Martial Law and Mobilization Law。https://ua.usembassy.gov/message-for-u-s-citizens-potential-obligations-of-dual-citizens-under-martial-law-and-mobilization-law/ 
 - 2025-06-22 05:51 UTC：US Embassy Ukraine Security Alert – Worldwide Caution。https://ua.usembassy.gov/security-alert-worldwide-caution-june-22-2025/ 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2025-12-21 00:00 UTC：Orange 级 DR，Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Moldova, Montenegro, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, Ukraine, 。https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=25&eventtype=DR 

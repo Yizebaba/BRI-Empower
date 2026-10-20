@@ -2,6 +2,7 @@
 
 每条注明来源和时间，内容是来源原文的转述。
 
+- 美国国务院旅行建议：Colombia - Level 3: Reconsider Travel（Tue, 31 Mar 2026）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.col.html 
 - World Monitor 汇总的旅行建议级别：reconsider
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
@@ -24,3 +25,8 @@ cucuta metropolitan police
 - 2026-09-22 03:16 UTC：US Embassy Colombia Security Alert: Troncal del Caribe (Route 90) Disrupted Near Santa Marta / Guachaca (September 21, 2026)。https://co.usembassy.gov/security-alert-troncal-del-caribe-route-90-disrupted-near-santa-marta-guachaca-september-21-2026/ 
 - 2026-09-03 22:09 UTC：US Embassy Colombia Security Alert: Elevated Risk of Attacks in Cesar Department, Colombia (September 3, 2026)。https://co.usembassy.gov/security-alert-elevated-risk-of-attacks-in-cesar-department-colombia-september-3-2026/ 
 - 2026-08-14 22:21 UTC：US Embassy Colombia Natural Disaster Alert: Colombia Earthquake Update 4 – August 14, 2026。https://co.usembassy.gov/natural-disaster-alert-colombia-earthquake-update-4-august-14-2026/ 
+
+## 地震（USGS，M4.5+，近 7 天）
+
+- 2026-10-16 13:02 UTC：M4.5，51 km ESE of Juradó, Colombia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pw 
+- 2026-10-13 21:24 UTC：M4.8，5 km NW of Cepitá, Colombia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i 

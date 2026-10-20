@@ -2,6 +2,7 @@
 
 每条注明来源和时间，内容是来源原文的转述。
 
+- 美国国务院旅行建议：Russia - Level 4: Do Not Travel（Mon, 29 Dec 2025）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.rus.html 
 - World Monitor 汇总的旅行建议级别：do-not-travel
 - World Monitor 综合不稳定指数（CII）：84/100
 
@@ -15,3 +16,8 @@
 - 2026-10-20 15:13 UTC：Jon Stewart: Trump waiving Russia sanctions 'insane' and 'incoherent'（The Hill）。https://thehill.com/blogs/in-the-know/6160240-jon-stewart-trump-russia-sanctions-diesel-deal-daily-show/ 
 - 2026-10-20 15:04 UTC：Trump "should apply his creativity" to end Russia's war, Ukrainian parliament member says（CBS News）。https://www.cbsnews.com/video/trump-should-apply-his-creativity-to-end-russias-war-ukrainian-parliament-member-says/ 
 - 2026-10-20 12:52 UTC：Europe is preparing for direct talks with Putin, FT reports. One possible proposal: Russia gets Donbas, Ukraine gets NATO membership.（Meduza）。https://meduza.io/en/feature/2026/10/20/europe-is-preparing-for-direct-talks-with-putin-ft-reports-one-possible-proposal-russia-gets-donbas-ukraine-gets-nato-membership 
+
+## 地震（USGS，M4.5+，近 7 天）
+
+- 2026-10-16 03:35 UTC：M6.9，76 km NE of Ozernovskiy, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq 
+- 2026-10-14 23:20 UTC：M4.5，82 km SSW of Mil’kovo, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6 
