@@ -27,16 +27,20 @@ def pw_stats(svc, where, group, stats):
     return [f["attributes"] for f in j.get("features", [])]
 
 
+DSTR = {}
 def latest_date(svc):
-    a = pw_stats(svc, "1=1", "", [("max", "date", "d")])
-    return datetime.fromtimestamp(a[0]["d"] / 1000, timezone.utc)
+    a = pw_stats(svc, "1=1", "", [("max", "date", "d")]); v = a[0]["d"]
+    if isinstance(v, str):   # 有的服务把 date 存成文本（YYYY-MM-DD…），比较时用字符串
+        DSTR[svc] = True; return datetime.fromisoformat(v[:10]).replace(tzinfo=timezone.utc)
+    return datetime.fromtimestamp(v / 1000, timezone.utc)
+def DQ(svc, d): return ("'" + d.strftime("%Y-%m-%d") + "'") if DSTR.get(svc) else ("DATE '" + d.strftime("%Y-%m-%d") + "'")
 
 
 out = {"generated": iso(NOW), "portwatch": {}, "comtrade": {}, "errors": ERR}
 ports = {k: {} for k in ISO3}
 try:
     end = latest_date("Daily_Ports_Data"); d30 = end - timedelta(days=30); d60 = end - timedelta(days=60)
-    D = lambda d: "DATE '" + d.strftime("%Y-%m-%d") + "'"
+    D = lambda d: DQ("Daily_Ports_Data", d)
     inlist = "ISO3 IN (" + ",".join("'" + k + "'" for k in ISO3) + ")"
     S = [("sum", "portcalls", "calls"), ("sum", "import", "imp"), ("sum", "export", "exp")]
     for row in pw_stats("Daily_Ports_Data", f"{inlist} AND date > {D(d30)}", "ISO3", S):
@@ -51,7 +55,7 @@ try:
 except Exception as e: ERR["portwatch_ports"] = str(e)[:200]
 try:
     end = latest_date("Daily_Chokepoints_Data"); d7 = end - timedelta(days=7); d14 = end - timedelta(days=14)
-    D = lambda d: "DATE '" + d.strftime("%Y-%m-%d") + "'"
+    D = lambda d: DQ("Daily_Chokepoints_Data", d)
     S = [("sum", "n_total", "n"), ("sum", "capacity", "cap")]
     cur = {r["portname"]: r for r in pw_stats("Daily_Chokepoints_Data", f"date > {D(d7)}", "portname,portid", S)}
     prev = {r["portname"]: r for r in pw_stats("Daily_Chokepoints_Data", f"date > {D(d14)} AND date <= {D(d7)}", "portname", S)}
