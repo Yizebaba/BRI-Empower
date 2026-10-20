@@ -1,4 +1,4 @@
-# 巴基斯坦项目周边近期态势（截至 2026-10-20 05:55 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-20 11:23 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -51,14 +51,14 @@
 - 2026-10-19 06:44 UTC：Major Wajahat Waheed Martyred in Gwadar IED Attack - Balochistan Pulse。https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMVNZTE1fcHpYenBSREhlRElsUHhyaG1ZRXlNS0ZuOEZIRTlWbWFoYTRFMDVjZTY0QVpmRzlYUkJuZXNUWnl5MUNUZ3RMRlJDY1FYOV9OQTZmYmdnV0FKOVZmbU1JS2ZWcXV5cjdlTlFRcGR3VWwxTEZpSjFXUlJURUdOakIxa2xzbVgyX3czSHo5b1NCWkNmczA0bW5zMnZQZ3NWcEdoeUMzdUJJVXpnVE9QRFM0N1BVcHNMYzBKSE9PMXJILUp4Ylp4cEhIQ2F2d3EwblZB?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
+- 2026-10-20 11:21 UTC：Pak-China joint venture in donkey business holds groundbreaking ceremony Breaking - Independent News Pakistan
+- 2026-10-20 10:10 UTC：China-Pakistan marine information workshop launched - Gwadar Pro
+- 2026-10-20 08:02 UTC：Gwadar District General League Football Championship 2026 Kicks Off - Gwadar Pro
+- 2026-10-20 07:00 UTC：Pak-China Donkey Farm JV Breaks Ground in Gwadar - The Daily CPEC
 - 2026-10-19 20:25 UTC：PM Pays Tribute to Security Forces for Kalat, Gwadar Operations - Daily Independent
 - 2026-10-19 20:05 UTC：Gwadar DEO Calls for Improved Teaching Standards, Facilities for Girls - Daily Independent
 - 2026-10-19 14:14 UTC：President, PM praise security forces for Kalat and Gwadar operations - Abb Takk News
 - 2026-10-19 07:53 UTC：Pakistan-China Joint Farming Venture Launched in Gwadar Free Zone - Daily Independent
-- 2026-10-19 07:51 UTC：Balochistan CM Praises Security Forces for Operations in Kalat and Gwadar - Daily Independent
-- 2026-10-19 07:17 UTC：Trends - security operation in Gwadar - Aaj English TV
-- 2026-10-19 06:09 UTC：President commends security forces for killing four Indian-backed terrorists in Kalat, Gwadar - | Associated Press Of Pakistan
-- 2026-10-19 03:02 UTC：Major martyred, four terrorists eliminated in Kalat, Gwadar operations - Dunya News
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 
