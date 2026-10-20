@@ -1,0 +1,12 @@
+name: debug-pw
+on: { workflow_dispatch: {} }
+jobs:
+  d:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: |
+          B="https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query"
+          curl -s "$B?where=ISO3%3D%27PAK%27&returnCountOnly=true&f=json"; echo
+          curl -s "$B?where=ISO3%3D%27PAK%27&outFields=*&resultRecordCount=2&orderByFields=date%20DESC&f=json" | head -c 1500; echo
+          curl -s "$B?where=1%3D1&outFields=date,ISO3,portname&resultRecordCount=3&orderByFields=date%20DESC&f=json" | head -c 800; echo
+          curl -s "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0?f=json" | python3 -c "import json,sys;d=json.load(sys.stdin);print([(f['name'],f['type']) for f in d['fields']]);print(d.get('maxRecordCount'))"
