@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - run: |
-          B="https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0"
-          a=$(curl -s "$B/query?where=ISO3%3D%27PAK%27&returnCountOnly=true&f=json"); echo "::notice::A $a"
-          b=$(curl -s "$B/query?where=ISO3%3D%27PAK%27&outFields=date,ISO3,portname,portcalls&resultRecordCount=2&orderByFields=date%20DESC&f=json" | head -c 700 | tr -d '\n'); echo "::notice::B $b"
-          c=$(curl -s "$B/query?where=1%3D1&outFields=date,ISO3,portname&resultRecordCount=3&orderByFields=date%20DESC&f=json" | head -c 700 | tr -d '\n'); echo "::notice::C $c"
-          d=$(curl -s "$B?f=json" | python3 -c "import json,sys;d=json.load(sys.stdin);print([(f['name'],f['type'][13:]) for f in d['fields']], d.get('maxRecordCount'), d.get('standardMaxRecordCount'))"); echo "::notice::D $d"
+          B="https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/Daily_Ports_Data/FeatureServer/0/query"
+          a=$(curl -s "$B?where=1%3D1&returnCountOnly=true&f=json"); echo "::notice::A $a"
+          b=$(curl -s -G "$B" --data-urlencode "where=1=1" --data-urlencode 'outStatistics=[{"statisticType":"count","onStatisticField":"ObjectId","outStatisticFieldName":"n"},{"statisticType":"min","onStatisticField":"date","outStatisticFieldName":"d0"},{"statisticType":"max","onStatisticField":"date","outStatisticFieldName":"d1"}]' --data-urlencode "groupByFieldsForStatistics=ISO3" --data-urlencode "f=json" | python3 -c "import json,sys;d=json.load(sys.stdin);f=[x['attributes'] for x in d.get('features',[])];print(len(f),sorted(x['ISO3'] for x in f)[:400], f[:3], d.get('error'))"); echo "::notice::B $b"
+          c=$(curl -s -G "$B" --data-urlencode "where=country LIKE '%akistan%'" --data-urlencode "returnCountOnly=true" --data-urlencode "f=json"); echo "::notice::C $c"
+          e=$(curl -s "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/PortWatch_ports_database/FeatureServer/0/query?where=ISO3%3D%27PAK%27&outFields=portname,portid,ISO3&f=json" | head -c 600 | tr -d '\n'); echo "::notice::E $e"
