@@ -44,7 +44,7 @@
 
 - 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 22400594210.0 美元，中国进口 2847776758.0 美元。
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-20 19:57 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-20 23:07 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -93,8 +93,8 @@
 - 2026-10-19 06:30 UTC：Four terrorists killed in Balochistan operations, Army major martyred in Gwadar - Tribal News Network。https://news.google.com/rss/articles/CBMiowFBVV95cUxQNC04dnhkaWlsTFFkSEs3V1BjRWd5eDJWV2YxZFc5VVdCcWFtbV95aVIxN2ZjN3U2TEtnSjdkU2VqN19KZWdza3hLV0xhS3d5ZmdNOVRiQ0V3S2FZX1Z6WDhrNnFiaFVsYi1MbGluMjh2RGlRckNGd2ZxRUhLaGUycE1fcHQ1ODh0Nk9EVzRfOXplM2Nmb01OZ1Y3OWJJcFdEZXlv?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
+- 2026-10-20 19:52 UTC：China-Pakistan marine information workshop launched - Gwadar Pro
 - 2026-10-20 11:21 UTC：Pak-China joint venture in donkey business holds groundbreaking ceremony Breaking - Independent News Pakistan
-- 2026-10-20 10:10 UTC：China-Pakistan marine information workshop launched - Gwadar Pro
 - 2026-10-20 08:02 UTC：McDonald’s Pakistan, StarCharge sign deal for EV charging network nationwide - Gwadar Pro
 - 2026-10-20 08:02 UTC：Gwadar District General League Football Championship 2026 Kicks Off - Gwadar Pro
 - 2026-10-20 07:00 UTC：Pak-China Donkey Farm JV Breaks Ground in Gwadar - The Daily CPEC

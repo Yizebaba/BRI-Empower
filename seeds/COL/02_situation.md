@@ -29,7 +29,6 @@ cucuta metropolitan police
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-16 13:02 UTC：M4.5，51 km ESE of Juradó, Colombia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pw 
-- 2026-10-13 21:24 UTC：M4.8，5 km NW of Cepitá, Colombia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i 
 
 ## 物流与贸易
 

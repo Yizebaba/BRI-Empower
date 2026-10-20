@@ -7,7 +7,7 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-14 00:00 UTC：Green 级 WF，Forest fires in Madagascar。https://www.gdacs.org/report.aspx?eventid=1032971&episodeid=2&eventtype=WF 
+- 2026-10-14 00:00 UTC：Green 级 WF，Forest fires in Madagascar。https://www.gdacs.org/report.aspx?eventid=1032971&episodeid=3&eventtype=WF 
 - 2025-11-21 00:00 UTC：Green 级 DR，Drought in Madagascar。https://www.gdacs.org/report.aspx?eventid=1018431&episodeid=18&eventtype=DR 
 
 ## 物流与贸易
