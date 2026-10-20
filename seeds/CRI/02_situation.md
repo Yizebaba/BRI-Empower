@@ -14,3 +14,7 @@
 
 - 2026-10-09 01:00 UTC：Green 级 FL，Flood in Costa Rica。https://www.gdacs.org/report.aspx?eventid=1104227&episodeid=2&eventtype=FL 
 - 2026-04-21 00:00 UTC：Orange 级 DR，Drought in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States。https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=12&eventtype=DR 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 3678944125.0 美元，中国进口 2184069534.0 美元。

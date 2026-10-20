@@ -9,3 +9,10 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-04-21 00:00 UTC：Orange 级 DR，Drought in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States。https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=12&eventtype=DR 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 66 次（前 30 天 47 次），进口约 174611 公吨，出口约 44443 公吨。
+  - Mariel：靠港 57 次，进口约 127754 公吨，出口约 21398 公吨
+  - Cienfuegos：靠港 9 次，进口约 46857 公吨，出口约 23045 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1083580285.0 美元，中国进口 229508097.0 美元。

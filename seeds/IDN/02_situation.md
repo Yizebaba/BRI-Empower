@@ -19,3 +19,14 @@
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032922&episodeid=5&eventtype=WF 
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032972&episodeid=1&eventtype=WF 
 - 2026-03-21 00:00 UTC：Green 级 DR，Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines。https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=18&eventtype=DR 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 2286 次（前 30 天 2287 次），进口约 7369391 公吨，出口约 11573740 公吨。
+  - Surabaya：靠港 507 次，进口约 917820 公吨，出口约 676727 公吨
+  - Banjarmasin：靠港 275 次，进口约 174299 公吨，出口约 4822430 公吨
+  - Makassar：靠港 223 次，进口约 344907 公吨，出口约 122322 公吨
+  - Balikpapan：靠港 207 次，进口约 294898 公吨，出口约 1708386 公吨
+  - Tanjung Sekong：靠港 155 次，进口约 1899279 公吨，出口约 364202 公吨
+  - Banten：靠港 125 次，进口约 1523350 公吨，出口约 202053 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 85403950840.0 美元，中国进口 82262184508.0 美元。

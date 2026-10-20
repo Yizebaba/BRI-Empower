@@ -8,3 +8,7 @@
 ## 各国政府旅行建议更新（经 World Monitor）
 
 - 2026-10-15 15:44 UTC：UK FCDO Albania。https://www.gov.uk/foreign-travel-advice/albania 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1459478895.0 美元，中国进口 161767922.0 美元。

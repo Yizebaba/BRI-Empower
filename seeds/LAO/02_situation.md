@@ -5,6 +5,10 @@
 - 美国国务院旅行建议：Laos - Level 2: Exercise Increased Caution（Tue, 28 Jul 2026）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lao.html 
 - World Monitor 汇总的旅行建议级别：caution
 
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 4322990121.0 美元，中国进口 5475334475.0 美元。
+
 # 老挝项目周边近期态势（截至 2026-10-20 15:56 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。

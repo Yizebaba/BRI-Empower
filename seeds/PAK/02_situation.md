@@ -40,6 +40,10 @@
 
 - 2026-10-17 05:06 UTC：M5.7，48 km WNW of Khuzdar, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1 
 
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 22400594210.0 美元，中国进口 2847776758.0 美元。
+
 # 巴基斯坦项目周边近期态势（截至 2026-10-20 15:56 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。

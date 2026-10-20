@@ -10,3 +10,7 @@
 - 2026-10-18 00:00 UTC：Green 级 WF，Forest fires in Botswana。https://www.gdacs.org/report.aspx?eventid=1032933&episodeid=3&eventtype=WF 
 - 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Botswana, South Africa。https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=3&eventtype=WF 
 - 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Botswana。https://www.gdacs.org/report.aspx?eventid=1032945&episodeid=2&eventtype=WF 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 299573555.0 美元，中国进口 911366172.0 美元。

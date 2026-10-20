@@ -12,3 +12,7 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-02-21 00:00 UTC：Green 级 DR，Drought in Brazil, French Guiana, Suriname。https://www.gdacs.org/report.aspx?eventid=1023877&episodeid=12&eventtype=DR 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 541148477.0 美元，中国进口 39583930.0 美元。

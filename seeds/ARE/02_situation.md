@@ -18,3 +18,14 @@
 - 2026-07-24 14:30 UTC：US Embassy UAE Security Alert: U.S. Embassy Abu Dhabi and U.S. Consulate General Dubai – July 24, 2026。https://ae.usembassy.gov/security-alert-u-s-embassy-abu-dhabi-and-u-s-consulate-general-dubai-july-24-2026/ 
 - 2026-07-17 19:59 UTC：US Embassy UAE Security Alert: U.S. Embassy Abu Dhabi and U.S. Consulate General Dubai – July 17, 2026。https://ae.usembassy.gov/security-alert-u-s-embassy-abu-dhabi-and-u-s-consulate-general-dubai-july-17-2026/ 
 - 2026-07-13 18:36 UTC：US Embassy UAE Security Alert: U.S. Embassy Abu Dhabi, United Arab Emirates (July 13, 2026)。https://ae.usembassy.gov/security-alert-u-s-embassy-abu-dhabi-united-arab-emirates-july-13-2026/ 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 939 次（前 30 天 955 次），进口约 6695875 公吨，出口约 6408907 公吨。
+  - Fujairah：靠港 229 次，进口约 2824178 公吨，出口约 3055046 公吨
+  - Abu Dhabi：靠港 149 次，进口约 178441 公吨，出口约 87785 公吨
+  - Dubai：靠港 148 次，进口约 36786 公吨，出口约 87193 公吨
+  - Jebel Ali：靠港 140 次，进口约 1977836 公吨，出口约 1174281 公吨
+  - Mina Saqr：靠港 70 次，进口约 205766 公吨，出口约 1494147 公吨
+  - Al Hamriyah LPG Terminal：靠港 64 次，进口约 643921 公吨，出口约 125737 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 72902934584.0 美元，中国进口 34969572596.0 美元。

@@ -20,3 +20,14 @@
 - 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032814&episodeid=13&eventtype=WF 
 - 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032894&episodeid=3&eventtype=WF 
 - 2026-03-21 00:00 UTC：Green 级 DR，Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines。https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=18&eventtype=DR 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 210 次（前 30 天 210 次），进口约 339960 公吨，出口约 629469 公吨。
+  - Lae：靠港 65 次，进口约 185975 公吨，出口约 13005 公吨
+  - Port Moresby：靠港 64 次，进口约 92819 公吨，出口约 332906 公吨
+  - Rabaul：靠港 18 次，进口约 7130 公吨，出口约 45901 公吨
+  - Kimbe：靠港 13 次，进口约 7181 公吨，出口约 95716 公吨
+  - Madang：靠港 9 次，进口约 880 公吨，出口约 2512 公吨
+  - Put Put：靠港 8 次，进口约 28298 公吨，出口约 79 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1662393422.0 美元，中国进口 2552935005.0 美元。

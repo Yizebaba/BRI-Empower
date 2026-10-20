@@ -19,3 +19,14 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-04-21 00:00 UTC：Orange 级 DR，Drought in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States。https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=12&eventtype=DR 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 288 次（前 30 天 297 次），进口约 1276016 公吨，出口约 252555 公吨。
+  - Haina：靠港 118 次，进口约 441606 公吨，出口约 57434 公吨
+  - Caucedo：靠港 86 次，进口约 448949 公吨，出口约 78635 公吨
+  - San Pedro De Macoris：靠港 29 次，进口约 215895 公吨，出口约 103575 公吨
+  - Puerto Plata：靠港 26 次，进口约 101387 公吨，出口约 6140 公吨
+  - Santo Domingo：靠港 26 次，进口约 41476 公吨，出口约 6301 公吨
+  - Pepillo Salcedo (Manzanillo)：靠港 3 次，进口约 26703 公吨，出口约 470 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 4805879573.0 美元，中国进口 521746407.0 美元。

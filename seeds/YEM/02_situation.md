@@ -23,3 +23,11 @@
 
 - 2026-10-10 00:00 UTC：US State Dept Yemen - Level 4: Do Not Travel。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.yem.html 
 - 2026-08-26 04:00 UTC：CDC Travel Notices Level 1 - Paratyphoid Fever in Yemen。https://wwwnc.cdc.gov/travel/notices/level1/paratyphoid-fever-yemen 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 45 次（前 30 天 58 次），进口约 503852 公吨，出口约 31128 公吨。
+  - Aden：靠港 36 次，进口约 391385 公吨，出口约 25947 公吨
+  - Mukalla：靠港 5 次，进口约 33929 公吨，出口约 4307 公吨
+  - Hudaydah (Hodeidah)：靠港 4 次，进口约 78538 公吨，出口约 874 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 2842316328.0 美元，中国进口 25999653.0 美元。

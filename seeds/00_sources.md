@@ -14,3 +14,5 @@
 - World Monitor（UCDP 冲突事件、各国旅行建议、国际新闻要闻、Cloudflare 断网、疫情、机场）：https://www.worldmonitor.app/。许可：World Monitor 服务条款；UCDP 数据 CC BY 4.0。更新：每天一次（免费账号每天 5 次调用，每次取全球数据）。用途：每个国家的冲突、新闻、断网、旅行建议。
 - Natural Earth 1:50m 国界：https://www.naturalearthdata.com/。许可：公有领域。更新：静态。用途：网页地图底图。
 - 偏差测试参考事实（ICIMOD、Eos、全印广播、ProPakistani、老挝通讯社等）：data/reference.json。许可：各来源原文链接见文件。更新：手工整理。用途：4 起真实事件的权威事实，用来量化平台的偏差。
+- IMF PortWatch 港口与海上咽喉要道：https://portwatch.imf.org/。许可：IMF / 牛津大学，公开数据，注明来源。更新：每天一次（数据本身约晚几天）。用途：各国港口近 30 天靠港次数、进出口量（公吨），28 个咽喉要道通行。
+- UN Comtrade 联合国商品贸易统计：https://comtradeplus.un.org/。许可：联合国统计司，公开预览接口。更新：每天检查一次（年度数据）。用途：中国与各国的年度货物出口、进口额。

@@ -17,3 +17,10 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-16 21:30 UTC：M4.5，70 km NNE of Mīnāb, Iran。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 35 次（前 30 天 60 次），进口约 23375 公吨，出口约 5018 公吨。
+  - Nowshahr Port：靠港 28 次，进口约 21563 公吨，出口约 2935 公吨
+  - Khorramshahr：靠港 7 次，进口约 1812 公吨，出口约 2083 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 6930589531.0 美元，中国进口 3033893492.0 美元。

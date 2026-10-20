@@ -8,3 +8,7 @@
 ## 各国政府旅行建议更新（经 World Monitor）
 
 - 2026-10-19 19:07 UTC：UK FCDO Mauritania。https://www.gov.uk/foreign-travel-advice/mauritania 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1263341676.0 美元，中国进口 1292012598.0 美元。

@@ -16,3 +16,7 @@
 - 2025-12-15 10:34 UTC：US Embassy Bangladesh Security Alert – U. S. Embassy Dhaka, Bangladesh (December 15, 2025)。https://bd.usembassy.gov/security-alert-u-s-embassy-dhaka-bangladesh-december-15-2025/ 
 - 2025-11-21 07:01 UTC：US Embassy Bangladesh Earthquake Alert。https://bd.usembassy.gov/earthquake-alert/ 
 - 2025-09-09 04:43 UTC：US Embassy Bangladesh Health Alert – Bangladesh Added to CDC’s Traveler’s Health Notice on Chikungunya – U. S. Embassy Dhaka, Bangladesh (September 9, 2025)。https://bd.usembassy.gov/health-alert-bangladesh-added-to-cdcs-travelers-health-notice-on-chikungunya-u-s-embassy-dhaka-bangladesh-september-9-2025/ 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 22812626806.0 美元，中国进口 1332223308.0 美元。

@@ -9,3 +9,7 @@
 
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Zimbabwe。https://www.gdacs.org/report.aspx?eventid=1032873&episodeid=7&eventtype=WF 
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Zimbabwe。https://www.gdacs.org/report.aspx?eventid=1032951&episodeid=2&eventtype=WF 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1835811541.0 美元，中国进口 2107031652.0 美元。

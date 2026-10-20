@@ -15,3 +15,14 @@
 
 - 2026-10-20 06:04 UTC：Green 级 EQ，Earthquake in Philippines。https://www.gdacs.org/report.aspx?eventid=1572708&episodeid=1741348&eventtype=EQ 
 - 2026-03-21 00:00 UTC：Green 级 DR，Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines。https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=18&eventtype=DR 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 1513 次（前 30 天 1468 次），进口约 4534664 公吨，出口约 573607 公吨。
+  - Manila：靠港 592 次，进口约 2497775 公吨，出口约 176941 公吨
+  - Cebu：靠港 213 次，进口约 319313 公吨，出口约 16111 公吨
+  - Batangas City：靠港 207 次，进口约 604860 公吨，出口约 40235 公吨
+  - Davao：靠港 147 次，进口约 191001 公吨，出口约 161488 公吨
+  - Subic Bay：靠港 94 次，进口约 468497 公吨，出口约 29430 公吨
+  - Cagayan de Oro：靠港 57 次，进口约 125128 公吨，出口约 16443 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 55689007633.0 美元，中国进口 16726581831.0 美元。

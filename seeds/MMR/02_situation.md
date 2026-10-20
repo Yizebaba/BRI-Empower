@@ -16,3 +16,7 @@
 - 2025-03-29 09:46 UTC：US Embassy Myanmar Alert – U. S. Embassy in Yangon, Burma (Myanmar), March 29, 2025。https://mm.usembassy.gov/alert-u-s-embassy-in-yangon-burma-myanmar-march-29-2025/ 
 - 2025-03-28 10:59 UTC：US Embassy Myanmar Alert – U. S. Embassy Yangon, Burma (Myanmar), March 28, 2025。https://mm.usembassy.gov/alert-u-s-embassy-yangon-burma-myanmar-march-28-2025/ 
 - 2025-02-11 10:48 UTC：US Embassy Myanmar ACS message for Union Day 2025。https://mm.usembassy.gov/acs-message-for-union-day-2025/ 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 11370895354.0 美元，中国进口 7886496304.0 美元。

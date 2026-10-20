@@ -8,3 +8,7 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-09-15 01:00 UTC：Green 级 FL，Flood in Ecuador。https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=8&eventtype=FL 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 7781374821.0 美元，中国进口 9534603073.0 美元。

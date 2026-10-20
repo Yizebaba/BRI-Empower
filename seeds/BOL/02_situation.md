@@ -8,3 +8,7 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-17 16:52 UTC：M4.6，88 km SSW of Uyuni, Bolivia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u30x 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1111328399.0 美元，中国进口 2264303633.0 美元。

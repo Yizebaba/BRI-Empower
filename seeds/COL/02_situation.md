@@ -30,3 +30,7 @@ cucuta metropolitan police
 
 - 2026-10-16 13:02 UTC：M4.5，51 km ESE of Juradó, Colombia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pw 
 - 2026-10-13 21:24 UTC：M4.8，5 km NW of Cepitá, Colombia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u25i 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 18079452334.0 美元，中国进口 4940035608.0 美元。

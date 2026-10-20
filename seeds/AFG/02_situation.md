@@ -10,3 +10,7 @@
 
 - 2026-08-31：Government of Afghanistan 与 Civilians，死亡 1 人。UCDP 引用来源：The Afghan Digest
 - 2026-08-31：Government of Afghanistan 与 AUF，死亡 0 人。UCDP 引用来源：The Afghan Digest
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1795779692.0 美元，中国进口 92227578.0 美元。

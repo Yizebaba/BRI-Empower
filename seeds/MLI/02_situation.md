@@ -11,3 +11,7 @@
 - 2026-08-31：Government of Mali 与 IS，死亡 0 人。UCDP 引用来源：FAMa
 - 2026-08-31：Dozos (Mali) 与 JNIM，死亡 0 人。UCDP 引用来源：JNIM
 - 2026-08-31：Government of Mali 与 JNIM，死亡 1 人。UCDP 引用来源：Africa Corps
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1435158117.0 美元，中国进口 156664122.0 美元。

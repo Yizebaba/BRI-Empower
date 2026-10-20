@@ -20,3 +20,7 @@
 - 2026-06-21 00:00 UTC：Orange 级 DR，Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad。https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR 
 - 2026-05-21 00:00 UTC：Orange 级 DR，Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda。https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR 
 - 2025-12-21 00:00 UTC：Green 级 DR，Drought in Angola, Democratic Republic of Congo, Republic of Congo。https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=26&eventtype=DR 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 5112463490.0 美元，中国进口 21477903594.0 美元。

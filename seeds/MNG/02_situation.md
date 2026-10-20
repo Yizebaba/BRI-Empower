@@ -8,3 +8,7 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-06-21 00:00 UTC：Green 级 DR，Drought in China, Kazakhstan, Mongolia。https://www.gdacs.org/report.aspx?eventid=1027491&episodeid=11&eventtype=DR 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 4037405397.0 美元，中国进口 13502181409.0 美元。

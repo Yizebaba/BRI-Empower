@@ -12,3 +12,7 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-10-20 11:40 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1572740&episodeid=1741377&eventtype=EQ 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 321450779.0 美元，中国进口 98043204.0 美元。

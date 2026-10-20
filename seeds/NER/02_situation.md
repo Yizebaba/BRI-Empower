@@ -8,3 +8,7 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-06-21 00:00 UTC：Orange 级 DR，Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad。https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 324463837.0 美元，中国进口 737414746.0 美元。

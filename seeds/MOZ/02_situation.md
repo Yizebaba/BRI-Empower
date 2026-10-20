@@ -11,3 +11,7 @@
 - 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Mozambique。https://www.gdacs.org/report.aspx?eventid=1032804&episodeid=5&eventtype=WF 
 - 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Mozambique。https://www.gdacs.org/report.aspx?eventid=1032880&episodeid=5&eventtype=WF 
 - 2026-10-07 00:00 UTC：Green 级 WF，Forest fires in Mozambique。https://www.gdacs.org/report.aspx?eventid=1032834&episodeid=5&eventtype=WF 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 3810865196.0 美元，中国进口 1551040808.0 美元。

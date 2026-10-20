@@ -8,3 +8,7 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-19 15:35 UTC：M4.9，77 km WSW of Murghob, Tajikistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3d2 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 3752171198.0 美元，中国进口 544471459.0 美元。

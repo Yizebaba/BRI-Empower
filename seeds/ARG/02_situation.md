@@ -8,3 +8,7 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-19 07:33 UTC：M4.5，79 km W of San Antonio de los Cobres, Argentina。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3b9 
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 14453970734.0 美元，中国进口 9079037831.0 美元。

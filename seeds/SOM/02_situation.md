@@ -8,3 +8,7 @@
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 
 - 2026-08-31：Government of Somalia 与 Al-Shabaab，死亡 3 人。UCDP 引用来源：The Ministry of Defense
+
+## 物流与贸易
+
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 1024133319.0 美元，中国进口 2991617.0 美元。

@@ -21,3 +21,14 @@
 
 - 2026-10-16 03:35 UTC：M6.9，76 km NE of Ozernovskiy, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq 
 - 2026-10-14 23:20 UTC：M4.5，82 km SSW of Mil’kovo, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6 
+
+## 物流与贸易
+
+- 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天）：靠港 1612 次（前 30 天 1506 次），进口约 2503725 公吨，出口约 23186818 公吨。
+  - Saint Petersburg：靠港 409 次，进口约 1279173 公吨，出口约 3502863 公吨
+  - Vladivostok：靠港 285 次，进口约 421435 公吨，出口约 279393 公吨
+  - Ust-Luga：靠港 191 次，进口约 97586 公吨，出口约 7101309 公吨
+  - Nakhodka：靠港 132 次，进口约 141259 公吨，出口约 1318087 公吨
+  - Murmansk：靠港 91 次，进口约 114306 公吨，出口约 1670268 公吨
+  - Vanino：靠港 86 次，进口约 77470 公吨，出口约 1760580 公吨
+- 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 103457523832.0 美元，中国进口 124005929237.0 美元。
