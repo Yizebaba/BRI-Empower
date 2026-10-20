@@ -1,4 +1,4 @@
-# 巴基斯坦项目周边近期态势（截至 2026-10-19 21:43 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-20 05:55 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -37,6 +37,8 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
+- 2026-10-20 04:22 UTC：Army major martyred, four terrorists killed in Balochistan IBOs - Daily Times。https://news.google.com/rss/articles/CBMingFBVV95cUxPTTIyVEdrVXdOdm1TY2hVckxVYllnYk1SWExNZFpJeEVlN2QwT1hJYV90Tjllb2VtOEZWMTNRaUJmaXprTWFJbEVxVXFrNnNmNUdQeWQ5ZGhZbExUWms1RVg0MVNIYjB5RGQ2NjVBTEpDRXZzNlpYTXNvVDZEbUptS1BCbDY4QlVmVTRVTl93LXN0RXZGWWNfbUt5Wnh5dw?oc=5
+- 2026-10-20 02:53 UTC：Army major martyred in IED blast in Pasni - The Express Tribune。https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVFoR3g1aFQyOXpUSHo4VDBvQ1Rfb0IzaUEtcGh4ei03bm10X0k4QU1VS3otdmVRQjREN0puMWdmRGJBOXlGN3J3OW4wNTZRNXFEaTRxbWhOcFgyX1hmNmhRNmNfNXVROW02NTlLbFhvM05PM3hDNl9TVy1ITHZwdWFmVU3SAYwBQVVfeXFMTi1LZTZZSHBPUXlxQnBhckhwVHdib3ZpbWVTckZRUHVuRV92ZS13MUVucUpQcjg4cWdPVlBUOERGSU55bVFGanRLUVAxYjVubncxVjhoc3ZnYVJST0lrYUs4MjduNW0yMjllaG9KZ2F0Uk80OG9zYTdfbjFLVm55TjUxQkQ2STRhS3Rudi0?oc=5
 - 2026-10-19 18:24 UTC：Four Terrorists Killed in Kalat Operation; Major Wajahat Waheed Embraces Shahadat in Gwadar - Daily Independent。https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYUpIZkN5cWZQQ2UtRG1ycmNCQXg5ZzdUUE5YaTRnNXg3UjBZYXdGaGpoY3VmV1BienRMZVRkLVNMUFVSQUY5bTM4cFllUGJLSmJqY1BvTVdGTzFaZmZid3FwU3BSZWFVNFhlQ1VZQmdOMXVaQnNKSDVITXpreGtlYlJubWI2WFBzSmlZdWFFdVdESjhvWGtzS2JoSVRuUmNXMUNCMnF1Q0ZsbzNwMVpXeG8xT2xObnBUajI4T2NjaFRJN1BYa0VZR0ZWR2diWTdVOVFTWg?oc=5
 - 2026-10-19 13:42 UTC：Big News! Pakistan-Iran Trade Routes Suddenly Closed, Hamid Mir Says - UrduPoint。https://news.google.com/rss/articles/CBMipgFBVV95cUxNdlR3Si1DZGc5bXNOU0xWb1E5VUwxekVxalVnaXhoLU04MTkxekNfazRDeU0yR2JwM050aTZWUzAwWnhQZmM3TTlMLWF0NzJZdzBuMXJKdkZ0bnpfaklWeEo2WTB5bmY0NG1VN1BpblhqRXd0UGlwRXNUYkVjbDhnam81aEhvTVRpZEcwdDNLZXBKWTVpbzd5R2hsS2tqS0p2cnBvdnFB?oc=5
 - 2026-10-19 13:27 UTC：Four militants killed, Pakistan Army major martyred in Balochistan - Daily Times。https://news.google.com/rss/articles/CBMiogFBVV95cUxQZk16bkE2SWstTW9GbU4xMTlidWRlM24wVWlaTUhkR1NXaHl6WDA1WEhveHpwSUQxVEpXblU2emEwOENFNVdxRENzcDliNXBmRHQ3WjRXXzBaNjdRYnltNUVyb0J6ZWdRMUV4TE5kd1RKX1d0Uks0S2ZfSWRFSXBia0tuaTdrS0swUVBTYm1MU0kxb204dmVrVkFyZUYzTUs4OVE?oc=5
@@ -45,20 +47,18 @@
 - 2026-10-19 07:40 UTC：IED Blast During Gwadar Operation Claims Life of Major Wajahat Waheed - MM News。https://news.google.com/rss/articles/CBMikgFBVV95cUxPdjRBVUoxT0VmZkVMTzRWOV9SN2RPLXlkQWNtaTFTb3Y0dHE2UXlrVmhOaVV0c0QxWGNZS3cyMVFFbXZuY3RiMlR6UGwxckdqd2tQWGhuemFmOGZ0SU91V1RMdTRIeUUwTURFXzVVenZTdXRQd2NfZFo0VEU4blNoZEp6YkVHSnBPY0ZPZDRKRXBndw?oc=5
 - 2026-10-19 07:23 UTC：KALAT AND GWADAR OPERATIONS: 4 TERRORISTS KILLED, MAJOR WAJAHAT WAHEED MARTYRED - Minute Mirror。https://news.google.com/rss/articles/CBMiswFBVV95cUxONTBldHNJRm1ILVRQRFpwZ2VIaUdMWHpCdXNzZEhJYlNfRUUzcy16a1BnUDV3aEFUSmdxblVHNTBXb1UyU0M5azdQMnExdThlTW5XZ0dyQ3dpMHFlcFBHNkozMGpfOGJBNkZFZm9SYXFEYkhjdE5rdnBucUJvLW1JblJRYUU4RHNCZ21kN0tVeU40bW9BQWhlenZEa0gyTXFpMlctWlhKay1XU0xQZ25jbEFROA?oc=5
 - 2026-10-19 07:23 UTC：Pakistan Army Major Martyred, 4 Terrorists Killed In Balochistan Operations: Report - Free Press Journal。https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTnpaZ1YtTkRiTDZmNm5EcUFpXzRXWE10a2hCUlFXX3FObUlfVHUtR3Vfb0lhWG1kWEREWlJEd1NvS2RQcFZuajZsbWExcEVSekxNaEI1eXFlc0kwQkx0MkxSazRsN3lZNzliaFRZMTVYNF85Z3ZOYVFkaVBza19WblVKZ005cWJ2U1A5VnRIMTVDUF9hYzRxdEtTaHpzQXBQdFR5aExfck1rT2FtMkpIY2VWMEdnQ0R3a0840gHAAUFVX3lxTFA3R0FoSXlpU19SR0REMk1CVk5pS28yNDZXN3czZVNKWDBwOGhfRmFGQUd5bzFET0ZSa2ZFd2p4T2RyZ3NjczVRMWgyRTZXZDIyYktQUnJWbzhmQkthdkd0MDB6UVhiYjhBOHRtN25iS1N0Y1dkOTB4eE04RlhWSzdSVkpfQ3dnYTlKdnFsUUUxRWhfNVNQN2NlNEtHM3YyMzJqeW80NjJWTm1BbXBPZFl1WGxkYnRTc2dRQUxLQUpvaw?oc=5
-- 2026-10-19 07:22 UTC：Major martyred, four terrorists killed in Balochistan operations: ISPR - Business Recorder。https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VaDNiSUJDTkJPUnB2MmJZMU9FcVgyQWpKZWJsOXBwczAzTGd1YVMwVzUtTFdLRjFmWTVQZUpkdVlkTmtETWQ1QnhUcm9JSUo0WHhQTmNR0gFWQVVfeXFMT1VoM2JJQkNOQk9ScHYyYlkxT0VxWDJBakplYmw5cHBzMDNMZ3VhUzBXNS1MV0tGMWZZNVBlSmR1WWROa0RNZDVCeFRyb0lJSjRYeFBOY1E?oc=5
 - 2026-10-19 06:56 UTC：Pakistani Army Officer Killed in IED Blast - Bold News。https://news.google.com/rss/articles/CBMiekFVX3lxTE9JeHdfUkstMnN5WGtOUGpMeWFtNkpWT1IzTkpUaGVpWXNyTHZWbDBkU1drRVhZY1otZTNTdGhvVDNLTEN3UEFzMlJHM1lfUUpxcmcwNnZmTHNUTkdRSFNrbm9VdjZRTGRDdmlSaXFRNHp1akpEalI5X2ZB?oc=5
-- 2026-10-19 06:30 UTC：Four terrorists killed in Balochistan operations, Army major martyred in Gwadar - Tribal News Network。https://news.google.com/rss/articles/CBMiowFBVV95cUxQNC04dnhkaWlsTFFkSEs3V1BjRWd5eDJWV2YxZFc5VVdCcWFtbV95aVIxN2ZjN3U2TEtnSjdkU2VqN19KZWdza3hLV0xhS3d5ZmdNOVRiQ0V3S2FZX1Z6WDhrNnFiaFVsYi1MbGluMjh2RGlRckNGd2ZxRUhLaGUycE1fcHQ1ODh0Nk9EVzRfOXplM2Nmb01OZ1Y3OWJJcFdEZXlv?oc=5
-- 2026-10-19 05:38 UTC：Major martyred in Gwadar IED blast; 4 terrorists killed in Kalat - samaa tv。https://news.google.com/rss/articles/CBMimwFBVV95cUxPUkVfZFd4YmJoOVJzWWFJc1J5djRuOFlPSFlIdDBOQ01CZnpJN0lyMWd1dW9QU3FLVGdGTGtxUi1PcTRfeEdjT1l4NFcwaktMZUZPVWl6dG40dmlmUzh5LUxqR0E2TVo4ZTJ6bVhMeUt5d2tJLW1YVkh2WUpMcmJZdFR4YXBlSTF0TnBGU1h6NjVYYTh3cXJoRjJzTQ?oc=5
+- 2026-10-19 06:44 UTC：Major Wajahat Waheed Martyred in Gwadar IED Attack - Balochistan Pulse。https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMVNZTE1fcHpYenBSREhlRElsUHhyaG1ZRXlNS0ZuOEZIRTlWbWFoYTRFMDVjZTY0QVpmRzlYUkJuZXNUWnl5MUNUZ3RMRlJDY1FYOV9OQTZmYmdnV0FKOVZmbU1JS2ZWcXV5cjdlTlFRcGR3VWwxTEZpSjFXUlJURUdOakIxa2xzbVgyX3czSHo5b1NCWkNmczA0bW5zMnZQZ3NWcEdoeUMzdUJJVXpnVE9QRFM0N1BVcHNMYzBKSE9PMXJILUp4Ylp4cEhIQ2F2d3EwblZB?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-19 20:25 UTC：PM Pays Tribute to Security Forces for Kalat, Gwadar Operations - Daily Independent
-- 2026-10-19 20:05 UTC：Gwadar DEO Calls for Improved Teaching Standards, Facilities for Girls - www.dailyindependent.com.pk
+- 2026-10-19 20:05 UTC：Gwadar DEO Calls for Improved Teaching Standards, Facilities for Girls - Daily Independent
 - 2026-10-19 14:14 UTC：President, PM praise security forces for Kalat and Gwadar operations - Abb Takk News
 - 2026-10-19 07:53 UTC：Pakistan-China Joint Farming Venture Launched in Gwadar Free Zone - Daily Independent
 - 2026-10-19 07:51 UTC：Balochistan CM Praises Security Forces for Operations in Kalat and Gwadar - Daily Independent
 - 2026-10-19 07:17 UTC：Trends - security operation in Gwadar - Aaj English TV
 - 2026-10-19 06:09 UTC：President commends security forces for killing four Indian-backed terrorists in Kalat, Gwadar - | Associated Press Of Pakistan
-- 2026-10-19 02:55 UTC：Major martyred, four terrorists eliminated in Kalat, Gwadar operations - Dunya News
+- 2026-10-19 03:02 UTC：Major martyred, four terrorists eliminated in Kalat, Gwadar operations - Dunya News
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 
