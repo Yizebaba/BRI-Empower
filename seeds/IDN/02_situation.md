@@ -11,11 +11,14 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-20 13:27 UTC：M4.5，142 km SSW of Abepura, Indonesia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lx 
 - 2026-10-18 08:00 UTC：M5.2，55 km NNW of Ruteng, Indonesia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34e 
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=4&eventtype=WF 
+- 2026-10-20 16:29 UTC：Green 级 EQ，Earthquake in Indonesia。https://www.gdacs.org/report.aspx?eventid=1572783&episodeid=1741424&eventtype=EQ 
+- 2026-10-20 13:27 UTC：Green 级 EQ，Earthquake in Indonesia。https://www.gdacs.org/report.aspx?eventid=1572778&episodeid=1741416&eventtype=EQ 
+- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=5&eventtype=WF 
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032922&episodeid=5&eventtype=WF 
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032972&episodeid=1&eventtype=WF 
 - 2026-03-21 00:00 UTC：Green 级 DR，Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines。https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=18&eventtype=DR 

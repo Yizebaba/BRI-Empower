@@ -7,7 +7,8 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Botswana, South Africa。https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=3&eventtype=WF 
+- 2026-10-18 00:00 UTC：Green 级 WF，Forest fires in South Africa, Mozambique。https://www.gdacs.org/report.aspx?eventid=1032974&episodeid=1&eventtype=WF 
+- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Botswana, South Africa。https://www.gdacs.org/report.aspx?eventid=1032943&episodeid=4&eventtype=WF 
 
 ## 物流与贸易
 

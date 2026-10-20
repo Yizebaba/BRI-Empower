@@ -44,7 +44,7 @@
 
 - 中国与该国货物贸易（UN Comtrade，2025 年，中国申报）：中国出口 22400594210.0 美元，中国进口 2847776758.0 美元。
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-20 15:56 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-20 19:57 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -69,7 +69,6 @@
 - 2026-10-15 16:52 UTC：Rs12.75bn lined up for six strategic infrastructure projects-INP - Independent News Pakistan
 - 2026-10-15 04:33 UTC：Six major infrastructure schemes to benefit from Rs12.75bn funding - https://greenpost.com.pk/
 - 2026-10-14 02:03 UTC：Torghar residents get subsidised wheat flour - Dawn
-- 2026-10-13 19:00 UTC：Upper Hazara receives snowfall, rain lashes plains - The News Pakistan
 
 ## 卡洛特水电站（720 MW）
 

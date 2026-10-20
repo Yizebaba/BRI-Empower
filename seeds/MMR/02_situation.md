@@ -2,6 +2,7 @@
 
 每条注明来源和时间，内容是来源原文的转述。
 
+- 美国国务院旅行建议：Burma - Level 4: Do Not Travel（Fri, 08 May 2026）。https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/burma-travel-advisory.html 
 - World Monitor 汇总的旅行建议级别：do-not-travel
 - World Monitor 综合不稳定指数（CII）：60/100
 
