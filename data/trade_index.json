@@ -1,5 +1,5 @@
 {
-"generated": "2026-10-21T19:27:18Z",
+"generated": "2026-10-21T20:59:02Z",
 "source": "UN Comtrade 公共预览接口",
 "countries": {
 "NPL": {
@@ -10,11 +10,11 @@
 "china_year": null
 },
 "PAK": {
-"year": null,
-"basis": null,
-"n_ind": 0,
-"n_partners": 0,
-"china_year": null
+"year": 2025,
+"basis": "本国申报",
+"n_ind": 97,
+"n_partners": 25,
+"china_year": 2025
 },
 "CHN": {
 "year": null,
