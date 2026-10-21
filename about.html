@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>文档 · 一带一路 全量 预鉴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--void:#07080a;--panel:rgba(255,255,255,.025);--line:rgba(255,255,255,.09);--ink:#ecebe6;--mute:#8e9099;--silk:#e9c46a;--ok:#5fe0a8;--warn:#f2c14e;--hot:#ff9f43;--alert:#ff5b4d;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--void);color:var(--ink);font:15px/1.75 "Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(1200px 600px at 80% -10%,rgba(233,196,106,.08),transparent 60%),var(--void)}
+a{color:var(--silk)}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:14px 22px;background:rgba(7,8,10,.82);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .back{color:var(--ink);text-decoration:none;font-size:13.5px;padding:5px 12px;border:1px solid var(--line);border-radius:999px}
+.top .back:hover,.lgb:hover{border-color:var(--silk)}
+.top b{font-family:"Noto Serif SC",serif;font-size:17px;letter-spacing:.06em}.top b em{font-style:normal;color:var(--silk);margin-left:.5em}
+.lgb{margin-left:auto;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font:inherit;font-size:12.5px;background:none;color:inherit;cursor:pointer}
+main{max-width:860px;margin:0 auto;padding:40px 22px 80px}
+h1{font-family:"Noto Serif SC",serif;font-weight:700;font-size:34px;line-height:1.3;letter-spacing:.04em;margin:0 0 14px}
+.lead{font-size:17px;color:#cfccc2;margin:0 0 8px}
+.tag{font-family:"Noto Serif SC",serif;color:var(--mute);letter-spacing:.08em;margin:18px 0 0;padding-left:12px;border-left:2px solid rgba(233,196,106,.55)}
+.tag .q{color:var(--silk)}
+h2{font-family:"Noto Serif SC",serif;font-size:21px;letter-spacing:.04em;margin:48px 0 14px;padding-top:6px}
+h2 small{font-family:"Noto Sans SC",sans-serif;font-size:12px;color:var(--mute);letter-spacing:.1em;margin-left:10px;font-weight:400}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;counter-reset:s}
+.steps div{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--panel)}
+.steps div::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(233,196,106,.16);color:var(--silk);font-size:12px;font-weight:600;margin-bottom:8px}
+.steps b{display:block;margin-bottom:4px}.steps p{margin:0;color:var(--mute);font-size:13.5px;line-height:1.65}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--panel)}
+.card b{display:block;margin-bottom:4px}.card p{margin:0;color:#bdbab1;font-size:14px;line-height:1.7}
+.card .eg{display:block;margin-top:6px;color:var(--mute);font-size:13px}
+.inds{display:flex;flex-wrap:wrap;gap:8px}
+.inds span{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;background:var(--panel)}
+.inds span i{font-style:normal;color:var(--mute);font-size:12px;margin-left:6px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--mute);font-weight:500;font-size:12.5px;letter-spacing:.06em}
+td:first-child{white-space:nowrap}
+.lv{display:inline-flex;align-items:center;gap:8px;font-weight:600}.lv i{width:9px;height:9px;border-radius:50%;display:inline-block}
+ul{margin:0;padding-left:1.2em}li{margin:4px 0}
+.not{border-left:2px solid var(--mute);padding:4px 0 4px 14px;color:#bdbab1}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.btn{display:inline-flex;align-items:center;padding:10px 20px;border-radius:10px;border:1px solid var(--silk);background:var(--silk);color:#17130a;font-weight:600;text-decoration:none}
+.btn.ghost{background:none;color:var(--silk)}
+.fine{color:var(--mute);font-size:12.5px;margin-top:40px;line-height:1.8}
+[data-l]{display:none}html[lang=zh-CN] [data-l=zh],html[lang=en] [data-l=en]{display:block}
+@media (max-width:720px){h1{font-size:26px}.steps{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}main{padding:28px 16px 60px}.top{padding:12px 16px}table{font-size:13px}th,td{padding:9px 6px}td:nth-child(2){white-space:nowrap}}
+.toc{display:flex;flex-wrap:wrap;gap:6px;margin:26px 0 0}.toc a{padding:4px 11px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;color:var(--ink);text-decoration:none;background:var(--panel)}.toc a:hover{border-color:var(--silk)}
+h2{scroll-margin-top:70px}
+.how{counter-reset:h;list-style:none;padding:0;margin:0}.how li{counter-increment:h;position:relative;padding:10px 0 10px 40px;border-bottom:1px solid var(--line);color:#cfccc2}.how li::before{content:counter(h);position:absolute;left:0;top:11px;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(233,196,106,.16);color:var(--silk);font-size:12px;font-weight:600}.how li b{color:var(--ink)}
+.docs{display:grid;grid-template-columns:1fr 1fr;gap:8px}.docs div{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--panel);font-size:13.5px;color:#bdbab1}.docs b{display:block;color:var(--ink);font-size:14px;margin-bottom:2px}
+details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8px 0;background:var(--panel)}details summary{cursor:pointer;padding:11px 0;font-weight:500;list-style:none}details summary::after{content:"+";float:right;color:var(--mute)}details[open] summary::after{content:"–"}details p{margin:0 0 12px;color:#bdbab1;font-size:14px}
+.warnb{border:1px solid rgba(255,159,67,.4);background:rgba(255,159,67,.07);border-radius:10px;padding:10px 14px;color:#e9d9c0;font-size:14px;margin-top:10px}
+.prompt{border:1px dashed var(--line);border-radius:10px;padding:12px 14px;color:#bdbab1;font-size:13.5px;line-height:1.8;background:rgba(0,0,0,.2)}
+@media (max-width:720px){.docs{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="top">
+ <a class="back" href="./">← <span class="zh">返回</span></a>
+ <b class="zhb">一带一路<em>全量 预鉴</em></b>
+ <button class="lgb" id="lang" type="button">EN</button>
+</header>
+<main>
+<article data-l="zh">
+ <h1>在做决定之前，先看一遍未来</h1>
+ <p class="lead">我们把 150 个“一带一路”共建国家的公开数据，加上你自己的资料，交给 AI 群体智能推演引擎，生成一群代表政府、企业、媒体、当地居民等各方的“智能体”，让它们在模拟的社会里对你的决定做出反应。你在真正行动之前，就能看到可能出现的几种走向。</p>
+ <div class="tag">如果，看见未来的不同可能<br>如果，未来可以事先预演<br><span class="q">那么决策的胜率会有多高呢？</span></div>
+ <nav class="toc"><a href="#z-why">解决什么问题</a><a href="#z-how">怎么做</a><a href="#z-data">数据与更新</a><a href="#z-seed">种子文档</a><a href="#z-dec">适合的决策</a><a href="#z-ind">行业</a><a href="#z-urg">紧急程度</a><a href="#z-use">怎么使用</a><a href="#z-out">结果与下载</a><a href="#z-sec">密钥与隐私</a><a href="#z-tip">写好推演要求</a><a href="#z-faq">常见问题</a><a href="#z-not">我们不做什么</a></nav>
+
+ <h2 id="z-why">解决什么问题</h2>
+ <p style="color:#cfccc2">在 150 个国家做投资、贸易、工程或政策，信息分散在几十个来源、几种语言里；事情一旦发生，往往来不及请咨询公司慢慢调研。我们做两件事：</p>
+ <div class="grid">
+  <div class="card"><b>持续监测</b><p>每 30 分钟到每周自动更新冲突、灾害、断网、新闻、港口和口岸、贸易、融资项目、经济指标，按国家整理好。</p></div>
+  <div class="card"><b>事先推演</b><p>把这些事实连同你的资料交给推演引擎，模拟各方会怎么反应，在行动之前看清风险和机会。</p></div>
+ </div>
+
+ <h2 id="z-how">怎么做<small>四步</small></h2>
+ <div class="steps">
+  <div><b>公开数据</b><p>冲突、灾害、断网、新闻、港口和口岸、贸易、中国融资项目、经济指标，按时自动更新。</p></div>
+  <div><b>种子文档</b><p>按国家整理成文档，写清楚涉及哪些真实的人和机构，每条注明来源。你也可以上传自己的资料。</p></div>
+  <div><b>群体推演</b><p>推演引擎建知识图谱，生成大量智能体，在模拟社交平台上互相影响，一轮一轮演化。</p></div>
+  <div><b>推演报告</b><p>输出报告和全过程数据（PDF、Word、Markdown、CSV），看清各方会怎么反应、风险在哪里。</p></div>
+ </div>
+
+ <h2 id="z-data">数据从哪来，多久更新</h2>
+ <table>
+  <thead><tr><th>内容</th><th>来源</th><th>更新</th></tr></thead>
+  <tbody>
+   <tr><td>地震、灾害警报、自然事件</td><td>USGS、GDACS、NASA EONET</td><td>每 30 分钟</td></tr>
+   <tr><td>旅行建议、重点项目周边新闻</td><td>美国国务院、英国外交部、Google 新闻</td><td>每 30 分钟</td></tr>
+   <tr><td>冲突、新闻要闻、断网、疫情、机场</td><td>World Monitor（含 UCDP、Cloudflare Radar）</td><td>每天</td></tr>
+   <tr><td>港口、海上咽喉要道</td><td>IMF PortWatch</td><td>每天 2 次</td></tr>
+   <tr><td>航空、铁路、公路咽喉要道和陆地边境</td><td>Google 新闻、OurAirports、Natural Earth</td><td>每天 2 次</td></tr>
+   <tr><td>各国 97 个行业的进出口和贸易伙伴</td><td>UN Comtrade</td><td>每周</td></tr>
+   <tr><td>经济指标、领导人和政府机构</td><td>世界银行、Wikidata</td><td>每周</td></tr>
+   <tr><td>军费、军力、武器进出口</td><td>世界银行（SIPRI、IISS 数据）</td><td>每周</td></tr>
+   <tr><td>研发、论文、专利、高技术出口、国际大奖获奖者</td><td>世界银行、OpenAlex、Wikidata</td><td>每周</td></tr>
+   <tr><td>公开文档（百科、世界银行文件、论文）</td><td>维基百科、世界银行文献库、OpenAlex</td><td>每周</td></tr>
+   <tr><td>中国融资项目、150 国名单、陆地边境</td><td>AidData、绿色金融与发展中心、Natural Earth</td><td>基础数据，来源更新时同步</td></tr>
+  </tbody>
+ </table>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">每条事实都注明来源和时间，详见首页“数据源”。</p>
+
+ <h2 id="z-seed">种子文档里有什么</h2>
+ <p style="color:#bdbab1;margin:-4px 0 12px">每个国家 5–8 份，自动生成、随数据更新，可以单独阅读和下载：</p>
+ <div class="docs">
+  <div><b>国家概况与经济结构</b>领导人、立法机构、央行、首都、货币；GDP、增长、三次产业、债务、外资等约 30 项指标；军费、军力、武器贸易；研发、论文、专利、国际大奖获奖者。</div>
+  <div><b>参与方</b>本国政府和机构、中国出资方和企业、主要贸易伙伴、发布旅行建议的外国政府、报道该国的媒体、冲突当事方。</div>
+  <div><b>行业、贸易与物流</b>全部 97 个行业的进出口，中国与该国的分行业贸易，主要贸易伙伴，港口靠港和进出口量。</div>
+  <div><b>中国融资项目</b>AidData 收录的项目数量、金额、行业和金额最大的项目。</div>
+  <div><b>近期态势</b>冲突、新闻、断网、旅行建议、疫情、地震、灾害警报、自然事件。</div>
+  <div><b>公开文档汇编</b>维基百科国家条目和“中国—该国关系”全文、相关条目、世界银行最新文件、学术论文摘要。</div>
+  <div><b>重点项目档案和历史事件</b>巴基斯坦、尼泊尔、老挝的 11 个重点项目：范围、周边事件和历史灾害。</div>
+  <div><b>你自己的资料</b>PDF、Markdown、TXT，最多 20 个，单个 50 MB，合计 100 MB。</div>
+ </div>
+
+ <h2 id="z-dec">适合什么样的决策</h2>
+ <div class="grid">
+  <div class="card"><b>海外投资与项目落地</b><p>在某国建电站、修铁路、开矿、设厂之前，看当地政府、社区、媒体、竞争对手可能的反应。</p><span class="eg">例：在巴基斯坦扩建电站，当地舆论和地方政府会怎么看？</span></div>
+  <div class="card"><b>进入新市场</b><p>新产品、新渠道进入一个国家，消费者、经销商、监管部门的接受度。</p><span class="eg">例：电动车进入中亚市场，哪类人群会先接受？</span></div>
+  <div class="card"><b>政策与监管变化</b><p>关税、制裁、出口管制、本地化要求出台后，对项目和贸易的连锁影响。</p><span class="eg">例：某国提高矿产出口税，承包商和下游买家会怎么调整？</span></div>
+  <div class="card"><b>供应链与物流中断</b><p>港口拥堵、口岸关闭、航线改道、自然灾害时，各方的应对和替代路线。</p><span class="eg">例：某口岸关闭两周，班列和货主会转向哪里？</span></div>
+  <div class="card"><b>舆情与危机公关</b><p>事故、劳资纠纷、环保争议发生后，不同回应方式会引发什么样的舆论。</p><span class="eg">例：项目工地出事故，先道歉还是先说明？</span></div>
+  <div class="card"><b>谈判与合作</b><p>合作方、东道国政府、金融机构在不同条件下的立场和底线。</p><span class="eg">例：提出延期还款，贷款方和当地政府各自的态度？</span></div>
+  <div class="card"><b>研究与政策评估</b><p>智库、高校、政府部门评估一项倡议或政策在多国的反响。</p><span class="eg">例：一项绿色融资新规在东南亚各国的反应差异。</span></div>
+  <div class="card"><b>安全与冲突风险</b><p>武装冲突、局势升级、军事部署对项目、人员和航线的影响，以及各方的立场。</p><span class="eg">例：边境冲突升级，项目人员撤离与否，各方会怎么看？</span></div>
+  <div class="card"><b>技术与研发方向</b><p>新技术、新标准推广时，产业链各方的接受度和阻力（偏方向性判断）。</p><span class="eg">例：数据中心落地某国，电力部门和社区的顾虑。</span></div>
+ </div>
+
+ <h2 id="z-ind">涉及哪些行业</h2>
+ <p style="color:#bdbab1;margin:-4px 0 12px">种子文档覆盖每个国家全部 97 个贸易行业大类（HS 两位章）的进出口，以及中国融资项目的行业分布。重点行业：</p>
+ <div class="inds">
+  <span>能源电力<i>水电 · 火电 · 新能源 · 电网</i></span><span>油气<i>管道 · 炼化</i></span><span>矿产金属<i>铜 · 锂 · 铝 · 钢铁</i></span>
+  <span>交通基建<i>铁路 · 公路 · 港口 · 机场</i></span><span>物流贸易<i>班列 · 航运 · 口岸</i></span><span>制造业<i>汽车 · 电池 · 电子</i></span>
+  <span>数字通信<i>数据中心 · 5G · 海缆</i></span><span>金融<i>银行 · 保险 · 融资</i></span><span>农业食品</span><span>医疗卫生</span>
+  <span>建筑工程</span><span>政府与智库</span><span>军事与国防<i>军费 · 军力 · 武器贸易 · 武装冲突</i></span><span>科研与创新<i>论文 · 研发 · 专利 · 获奖</i></span>
+ </div>
+
+ <h2 id="z-urg">紧急程度</h2>
+ <table>
+  <thead><tr><th>级别</th><th>交付时间</th><th>适合</th></tr></thead>
+  <tbody>
+   <tr><td><span class="lv"><i style="background:var(--ok)"></i>标准</span></td><td>5–10 个工作日</td><td>提前规划的投资、市场进入、研究课题；可以多轮修改、多种情景对比。</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--warn)"></i>加急</span></td><td>3 个工作日</td><td>近期要开会决策、要提交方案。</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--hot)"></i>特急</span></td><td>48 小时</td><td>事件已经发生，需要尽快判断各方走向。</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--alert)"></i>紧急</span></td><td>24 小时内</td><td>危机正在发展（事故、冲突、口岸关闭、舆情爆发），先出快速推演，再滚动更新。</td></tr>
+  </tbody>
+ </table>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">紧急程度适用于定制推演，按项目规模和紧急程度报价。</p>
+
+ <h2 id="z-use">怎么使用</h2>
+ <div class="grid" style="margin-bottom:14px">
+  <div class="card"><b>自助推演（免费）</b><p>在首页“推演”里自己操作，用你自己的模型密钥运行，费用记在你自己的模型账户。</p></div>
+  <div class="card"><b>定制推演</b><p>我们帮你梳理问题、补充资料、设计多种情景、解读结果，并按需持续跟踪。适合重要决策和机构客户。</p></div>
+ </div>
+ <ol class="how">
+  <li><b>选国家（可以不选，最多 5 个）。</b>选了国家，下面会列出它的种子文档。</li>
+  <li><b>写推演要求。</b>必须自己写，至少 10 个字，见下方“写好推演要求”。</li>
+  <li><b>上传你自己的资料（可选）。</b>PDF、Markdown、TXT，最多 20 个，单个 50 MB，合计 100 MB。</li>
+  <li><b>勾选种子文档。</b>默认全选，可以全不选；至少要有一份文档（种子文档或你的资料）。</li>
+  <li><b>轮数和标题。</b>轮数默认“自动”，由推演引擎按事件决定；想控制成本可以填上限。</li>
+  <li><b>填你的密钥。</b>任意 OpenAI 兼容的模型接口（DeepSeek、通义千问、智谱、Kimi、OpenAI 等）和 Zep 密钥（免费申请）。提交时会先试一下密钥。</li>
+  <li><b>开始推演。</b>几分钟内开始运行，完整推演通常要几个小时；“我的推演”里能看到状态。</li>
+ </ol>
+
+ <h2 id="z-out">结果怎么看，能下载什么</h2>
+ <div class="grid">
+  <div class="card"><b>推演报告</b><p>网页上直接阅读，也可以下载 PDF、Word、Markdown、HTML。</p></div>
+  <div class="card"><b>过程数据</b><p>一个压缩包：智能体人设、帖子、评论、每个动作、每轮统计（CSV，Excel 可直接打开），另附原始数据。</p></div>
+ </div>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">每份文件开头和结尾都标注“推演内容，不是事实”和免责声明。</p>
+
+ <h2 id="z-sec">密钥与隐私</h2>
+ <ul style="color:#cfccc2">
+  <li>模型密钥和 Zep 密钥只用于这一次推演：运行开始时取走，随即从服务器删除；6 小时没开始运行也会删除；运行日志里不显示。</li>
+  <li>勾选“在本浏览器记住”时，密钥只保存在你自己的浏览器里。</li>
+  <li>上传的文件在推演开始时取走并删除，最长保留 24 小时。</li>
+ </ul>
+ <div class="warnb">注意：自助推演的推演要求和报告会出现在公开的“全部推演记录”里。涉及商业秘密或敏感内容，请用定制推演。</div>
+
+ <h2 id="z-tip">写好推演要求</h2>
+ <p style="color:#bdbab1;margin:-4px 0 10px">推演引擎会从你的要求和文档里找出“谁会发声、谁会行动”。写清楚这几点，结果会更有用：</p>
+ <div class="prompt">1. 事件或决策：发生了什么，或你打算做什么，在哪里、什么时候。<br>2. 关心的群体：政府部门、出资方、承包商、当地居民、媒体、竞争对手……<br>3. 想回答的问题：各方会怎么反应？舆论往哪边走？最坏情况是什么？<br>4. 时间范围：推演接下来几天、几周还是几个月。</div>
+
+ <h2 id="z-faq">常见问题</h2>
+ <details><summary>推演准吗？</summary><p>推演给的是“可能的走向”和“各方可能的反应”，不是预言。它最有价值的地方是提前暴露你没想到的反应和风险。结果取决于资料是否充分、要求是否写清楚，以及所用模型的能力。</p></details>
+ <details><summary>要多久？</summary><p>自助推演几分钟内开始，完整推演通常几个小时，轮数越多越久。定制推演按紧急程度从 24 小时到 10 个工作日。</p></details>
+ <details><summary>要花多少钱？</summary><p>自助推演本站不收费，模型和 Zep 的费用记在你自己的账户。定制推演按项目规模和紧急程度报价，请点“定制推演”联系我们。</p></details>
+ <details><summary>可以只用我自己的资料吗？</summary><p>可以。国家可以不选、种子文档可以全不选，只上传你自己的资料。</p></details>
+ <details><summary>支持哪些格式？</summary><p>上传支持 PDF、Markdown、TXT。结果提供 PDF、Word、Markdown、HTML 报告和 CSV 过程数据。</p></details>
+ <details><summary>用什么模型？</summary><p>任意 OpenAI 兼容接口都可以，页面里有 DeepSeek、通义千问、智谱、Kimi、OpenAI、OpenRouter 的预设，也可以自定义。</p></details>
+ <details><summary>覆盖哪些国家？</summary><p>绿色金融与发展中心名单里的 150 个“一带一路”共建国家（截至 2025 年 5 月）。名单之外的国家可以通过上传自己的资料来推演。</p></details>
+
+ <div class="cta"><a class="btn" href="./">开始推演</a><a class="btn ghost" id="mail" target="_blank" rel="noopener" href="#">定制推演 ✉</a></div>
+
+ <h2 id="z-not">我们不做什么</h2>
+ <div class="not">推演是模拟，不是预言。它展示的是“可能的走向”和“各方可能的反应”，不保证结果，也不是投资、法律或安全建议。种子数据来自公开来源，以原始来源为准；重要决策请结合实地调研和专业意见。</div>
+
+ <p class="fine">数据来源：AidData、UN Comtrade、IMF PortWatch、世界银行、Wikidata、维基百科、OpenAlex、OurAirports、Natural Earth、USGS、GDACS、NASA EONET、World Monitor、美英旅行建议等，详见首页“数据源”。联系：yizebaba@gmail.com</p>
+</article>
+
+<article data-l="en">
+ <h1>See the future before you decide</h1>
+ <p class="lead">We take public data on the 150 Belt and Road partner countries, add your own documents, and hand them to an AI swarm-intelligence engine. It creates agents representing governments, companies, media, local residents and others, and lets them react to your decision in a simulated society — so you can see the likely paths before you act.</p>
+ <div class="tag">What if you could see the futures that might unfold?<br>What if the future could be rehearsed in advance?<br><span class="q">How much more often would your decisions win?</span></div>
+ <nav class="toc"><a href="#e-why">The problem</a><a href="#e-how">How it works</a><a href="#e-data">Data & updates</a><a href="#e-seed">Seed documents</a><a href="#e-dec">Decisions</a><a href="#e-ind">Industries</a><a href="#e-urg">Urgency</a><a href="#e-use">How to use</a><a href="#e-out">Results</a><a href="#e-sec">Keys & privacy</a><a href="#e-tip">Writing a prompt</a><a href="#e-faq">FAQ</a><a href="#e-not">What we don't do</a></nav>
+
+ <h2 id="e-why">The problem</h2>
+ <p style="color:#cfccc2">Investing, trading, building or making policy across 150 countries means information scattered across dozens of sources and languages — and when something happens, there is rarely time for a slow consulting study. We do two things:</p>
+ <div class="grid">
+  <div class="card"><b>Continuous monitoring</b><p>Conflict, hazards, outages, news, ports and crossings, trade, financed projects and economic indicators, updated from every 30 minutes to weekly and organised by country.</p></div>
+  <div class="card"><b>Simulation in advance</b><p>Those facts plus your documents go to the engine, which simulates how each side may react, so you see risks and openings before you act.</p></div>
+ </div>
+
+ <h2 id="e-how">How it works<small>four steps</small></h2>
+ <div class="steps">
+  <div><b>Public data</b><p>Conflict, hazards, outages, news, ports and crossings, trade, Chinese-financed projects, economic indicators — updated automatically.</p></div>
+  <div><b>Seed documents</b><p>Organised by country, naming the real people and organisations involved, every fact sourced. You can add your own files.</p></div>
+  <div><b>Swarm simulation</b><p>The engine builds a knowledge graph and many agents that influence each other on simulated social platforms, round by round.</p></div>
+  <div><b>Report</b><p>A report plus the full process data (PDF, Word, Markdown, CSV): how each side may react and where the risks are.</p></div>
+ </div>
+
+ <h2 id="e-data">Where the data comes from</h2>
+ <table>
+  <thead><tr><th>Content</th><th>Source</th><th>Updated</th></tr></thead>
+  <tbody>
+   <tr><td>Earthquakes, hazard alerts, natural events</td><td>USGS, GDACS, NASA EONET</td><td>Every 30 min</td></tr>
+   <tr><td>Travel advice, news near key projects</td><td>US State Department, UK FCDO, Google News</td><td>Every 30 min</td></tr>
+   <tr><td>Conflict, top stories, outages, outbreaks, airports</td><td>World Monitor (incl. UCDP, Cloudflare Radar)</td><td>Daily</td></tr>
+   <tr><td>Ports, maritime chokepoints</td><td>IMF PortWatch</td><td>Twice daily</td></tr>
+   <tr><td>Air, rail and road chokepoints, land borders</td><td>Google News, OurAirports, Natural Earth</td><td>Twice daily</td></tr>
+   <tr><td>Trade across 97 industries, trade partners</td><td>UN Comtrade</td><td>Weekly</td></tr>
+   <tr><td>Economic indicators, leaders and institutions</td><td>World Bank, Wikidata</td><td>Weekly</td></tr>
+   <tr><td>Military spending, armed forces, arms trade</td><td>World Bank (SIPRI, IISS data)</td><td>Weekly</td></tr>
+   <tr><td>R&D, papers, patents, high-tech exports, major award winners</td><td>World Bank, OpenAlex, Wikidata</td><td>Weekly</td></tr>
+   <tr><td>Public documents (encyclopedia, World Bank, papers)</td><td>Wikipedia, World Bank Documents, OpenAlex</td><td>Weekly</td></tr>
+   <tr><td>Chinese-financed projects, country list, borders</td><td>AidData, Green Finance & Development Center, Natural Earth</td><td>Reference data, synced when sources update</td></tr>
+  </tbody>
+ </table>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">Every fact carries its source and time — see "Sources" on the home page.</p>
+
+ <h2 id="e-seed">What the seed documents contain</h2>
+ <p style="color:#bdbab1;margin:-4px 0 12px">5–8 per country, generated automatically and refreshed with the data; each can be read and downloaded on its own:</p>
+ <div class="docs">
+  <div><b>Country & economy</b>Leaders, legislature, central bank, capital, currency; about 30 indicators including GDP, growth, sector shares, debt and FDI; military spending, forces and arms trade; R&D, papers, patents and major award winners.</div>
+  <div><b>Actors</b>Government and institutions, Chinese lenders and companies, trade partners, governments issuing travel advice, media covering the country, parties to conflict.</div>
+  <div><b>Industries, trade & logistics</b>Trade across all 97 industries, China's trade with the country by industry, top partners, port calls and volumes.</div>
+  <div><b>Chinese finance</b>AidData project counts, amounts, sectors and the largest projects.</div>
+  <div><b>Recent situation</b>Conflict, news, outages, travel advice, outbreaks, earthquakes, hazard alerts, natural events.</div>
+  <div><b>Public documents</b>Wikipedia country article and the full "China–X relations" article, related articles, latest World Bank documents, paper abstracts.</div>
+  <div><b>Key projects & history</b>11 key projects in Pakistan, Nepal and Laos: footprints, nearby events and past disasters.</div>
+  <div><b>Your own documents</b>PDF, Markdown, TXT; up to 20 files, 50 MB each, 100 MB total.</div>
+ </div>
+
+ <h2 id="e-dec">Decisions it helps with</h2>
+ <div class="grid">
+  <div class="card"><b>Overseas investment and projects</b><p>Before building a plant, railway, mine or factory: how government, communities, media and competitors may respond.</p></div>
+  <div class="card"><b>Entering a new market</b><p>How consumers, distributors and regulators may receive a new product or channel.</p></div>
+  <div class="card"><b>Policy and regulatory change</b><p>Knock-on effects of tariffs, sanctions, export controls or localisation rules on projects and trade.</p></div>
+  <div class="card"><b>Supply chain and logistics disruption</b><p>Port congestion, border closures, rerouting or disasters: how actors respond and which routes they switch to.</p></div>
+  <div class="card"><b>Reputation and crisis response</b><p>After an accident, labour dispute or environmental controversy: how different responses may play out.</p></div>
+  <div class="card"><b>Negotiation and partnership</b><p>Positions and red lines of partners, host governments and lenders under different terms.</p></div>
+  <div class="card"><b>Research and policy evaluation</b><p>Think tanks, universities and agencies testing how an initiative may be received across countries.</p></div>
+  <div class="card"><b>Security and conflict risk</b><p>How armed conflict, escalation or military deployments may affect projects, staff and routes, and where each side stands.</p></div>
+  <div class="card"><b>Technology direction</b><p>Acceptance and resistance across the value chain when new technology or standards roll out (directional).</p></div>
+ </div>
+
+ <h2 id="e-ind">Industries</h2>
+ <p style="color:#bdbab1;margin:-4px 0 12px">Seed documents cover each country's trade across all 97 HS chapters and the sector mix of Chinese-financed projects. Key sectors:</p>
+ <div class="inds">
+  <span>Energy & power</span><span>Oil & gas</span><span>Mining & metals</span><span>Transport infrastructure</span><span>Logistics & trade</span><span>Manufacturing</span>
+  <span>Digital & telecoms</span><span>Finance</span><span>Agriculture & food</span><span>Health</span><span>Construction</span><span>Government & think tanks</span><span>Military & defence</span><span>Research & innovation</span>
+ </div>
+
+ <h2 id="e-urg">Urgency</h2>
+ <table>
+  <thead><tr><th>Level</th><th>Delivery</th><th>For</th></tr></thead>
+  <tbody>
+   <tr><td><span class="lv"><i style="background:var(--ok)"></i>Standard</span></td><td>5–10 working days</td><td>Planned investments, market entry, research; multiple scenarios and revisions.</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--warn)"></i>Priority</span></td><td>3 working days</td><td>A decision meeting or submission coming up soon.</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--hot)"></i>Express</span></td><td>48 hours</td><td>An event has happened and you need a read on how it will unfold.</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--alert)"></i>Emergency</span></td><td>Within 24 hours</td><td>A crisis is developing (accident, conflict, border closure, media storm): a rapid run first, then rolling updates.</td></tr>
+  </tbody>
+ </table>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">Urgency levels apply to custom simulations, quoted by project size and urgency.</p>
+
+ <h2 id="e-use">How to use it</h2>
+ <div class="grid" style="margin-bottom:14px">
+  <div class="card"><b>Self-service (free)</b><p>Run it yourself from "Simulate" on the home page with your own model key, billed to your own model account.</p></div>
+  <div class="card"><b>Custom simulation</b><p>We help frame the question, add material, design scenarios, interpret results and keep tracking if needed. For important decisions and institutions.</p></div>
+ </div>
+ <ol class="how">
+  <li><b>Pick countries (optional, up to 5).</b> Their seed documents are listed below.</li>
+  <li><b>Write your prompt.</b> You write it yourself, at least 10 characters — see "Writing a prompt".</li>
+  <li><b>Upload your own documents (optional).</b> PDF, Markdown, TXT; up to 20 files, 50 MB each, 100 MB total.</li>
+  <li><b>Tick seed documents.</b> All ticked by default; you can untick all. At least one document is needed (seed or your own).</li>
+  <li><b>Rounds and title.</b> Rounds default to "Auto": the engine decides from the event. Set a cap to control cost.</li>
+  <li><b>Enter your keys.</b> Any OpenAI-compatible model API (DeepSeek, Qwen, GLM, Kimi, OpenAI…) and a Zep key (free). Keys are tested on submit.</li>
+  <li><b>Run.</b> It starts within minutes; a full run usually takes a few hours. Track it under "My runs".</li>
+ </ol>
+
+ <h2 id="e-out">Results and downloads</h2>
+ <div class="grid">
+  <div class="card"><b>Report</b><p>Read it on the page or download PDF, Word, Markdown or HTML.</p></div>
+  <div class="card"><b>Process data</b><p>A zip of agent personas, posts, comments, every action and per-round statistics (CSV, opens in Excel), plus raw data.</p></div>
+ </div>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">Every file starts and ends with a "simulation, not fact" label and disclaimer.</p>
+
+ <h2 id="e-sec">Keys and privacy</h2>
+ <ul style="color:#cfccc2">
+  <li>Model and Zep keys are used for this run only: taken when it starts and deleted from the server; deleted after 6 hours if it never starts; never shown in logs.</li>
+  <li>If you tick "Remember in this browser", keys are stored only in your own browser.</li>
+  <li>Uploaded files are taken and deleted when the run starts, kept at most 24 hours.</li>
+ </ul>
+ <div class="warnb">Note: self-service prompts and reports appear in the public "All runs" list. For confidential material, use a custom simulation.</div>
+
+ <h2 id="e-tip">Writing a good prompt</h2>
+ <p style="color:#bdbab1;margin:-4px 0 10px">The engine looks for who will speak up and who will act. Cover these points for more useful results:</p>
+ <div class="prompt">1. The event or decision: what happened or what you plan to do, where and when.<br>2. The groups you care about: government, lenders, contractors, residents, media, competitors…<br>3. The questions: how will each side react? Where will opinion go? What is the worst case?<br>4. The time frame: days, weeks or months ahead.</div>
+
+ <h2 id="e-faq">FAQ</h2>
+ <details><summary>How accurate is it?</summary><p>It shows possible paths and likely reactions, not a prophecy. Its main value is surfacing reactions and risks you had not considered. Results depend on the material, how clearly the prompt is written and the model used.</p></details>
+ <details><summary>How long does it take?</summary><p>Self-service starts within minutes and usually takes a few hours; more rounds take longer. Custom work runs from 24 hours to 10 working days depending on urgency.</p></details>
+ <details><summary>What does it cost?</summary><p>Self-service is free on this site; model and Zep usage is billed to your own accounts. Custom work is quoted by project size and urgency — use "Custom simulation" to contact us.</p></details>
+ <details><summary>Can I use only my own documents?</summary><p>Yes. Pick no country, untick all seed documents and upload your own.</p></details>
+ <details><summary>Which formats are supported?</summary><p>Uploads: PDF, Markdown, TXT. Results: PDF, Word, Markdown and HTML reports and CSV process data.</p></details>
+ <details><summary>Which models?</summary><p>Any OpenAI-compatible API. Presets for DeepSeek, Qwen, GLM, Kimi, OpenAI and OpenRouter, or enter your own.</p></details>
+ <details><summary>Which countries?</summary><p>The 150 Belt and Road partner countries on the Green Finance & Development Center list (as of May 2025). For other countries, upload your own documents.</p></details>
+
+ <div class="cta"><a class="btn" href="./">Start a simulation</a><a class="btn ghost" id="mail2" target="_blank" rel="noopener" href="#">Custom simulation ✉</a></div>
+
+ <h2 id="e-not">What we don't do</h2>
+ <div class="not">A simulation is not a prophecy. It shows possible paths and how actors may react; it does not guarantee outcomes and is not investment, legal or security advice. Seed data comes from public sources, which prevail. For important decisions, combine it with field work and professional advice.</div>
+
+ <p class="fine">Sources: AidData, UN Comtrade, IMF PortWatch, World Bank, Wikidata, Wikipedia, OpenAlex, OurAirports, Natural Earth, USGS, GDACS, NASA EONET, World Monitor, US and UK travel advice and more — see "Sources" on the home page. Contact: yizebaba@gmail.com</p>
+</article>
+</main>
+<script>
+(function(){
+ var L;try{L=localStorage.getItem("bri_lang")}catch(e){}
+ if(!L)L=(navigator.language||"").indexOf("zh")===0?"zh":"en";
+ var M=function(en){var sub=en?"Custom simulation enquiry":"定制推演咨询",body=en?"Hello,\n\nI would like a custom simulation.\n\nOrganisation:\nCountries / industries:\nEvent or decision:\nProject size (approx.):\nUrgency (standard / priority / express / emergency):\nContact:\n":"您好，\n\n我想定制推演。\n\n单位：\n国家 / 行业：\n要推演的事件或决策：\n项目金额（大约）：\n紧急程度（标准 / 加急 / 特急 / 紧急）：\n联系方式：\n";
+  return"https://mail.google.com/mail/?view=cm&fs=1&to=yizebaba%40gmail.com&su="+encodeURIComponent(sub)+"&body="+encodeURIComponent(body)};
+ function apply(){var en=L==="en";document.documentElement.lang=en?"en":"zh-CN";document.getElementById("lang").textContent=en?"中文":"EN";
+  document.querySelector(".back span").textContent=en?"Back":"返回";document.querySelector(".zhb").innerHTML=en?"Belt and Road<em>Full-Scope Foresight</em>":"一带一路<em>全量 预鉴</em>";
+  document.title=en?"Docs · Belt and Road Full-Scope Foresight":"文档 · 一带一路 全量 预鉴";
+  document.getElementById("mail").href=M(false);document.getElementById("mail2").href=M(true)}
+ document.getElementById("lang").onclick=function(){L=L==="en"?"zh":"en";try{localStorage.setItem("bri_lang",L)}catch(e){}apply()};
+ apply();
+})();
+</script>
+</body>
+</html>

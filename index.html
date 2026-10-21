@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>一带一路 全量 预鉴</title>
+<meta name="description" content="一带一路项目周边的实时态势、可引用的数据源、自动生成的种子文档和推演。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--void:#07080a;--panel:rgba(13,14,18,.86);--line:rgba(255,255,255,.09);--ink:#ecebe6;--mute:#8e9099;--silk:#e9c46a;--silk2:rgba(233,196,106,.16);--jade:#5fbfa3;--sea:#6aa8e0;--alert:#ff7a5c;--warn:#f2c14e;--ok:#5fe0a8;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--void);color:var(--ink);font:14px/1.6 "Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--silk);outline-offset:2px}
+#gl{position:fixed;inset:0;width:100vw;height:100vh;display:block;z-index:0;touch-action:none}
+.top{position:fixed;left:0;right:0;top:0;z-index:5;display:flex;align-items:center;gap:16px;padding:calc(14px + env(safe-area-inset-top)) 22px 14px;pointer-events:none}
+.top>*{pointer-events:auto}
+.brand{display:flex;align-items:baseline;gap:10px;text-decoration:none}
+.brand b{font-family:"Noto Serif SC",serif;font-weight:700;font-size:19px;letter-spacing:.08em}
+.brand span{color:var(--mute);font-size:12px;letter-spacing:.04em}
+.top nav{margin-left:auto;display:flex;gap:8px}
+.top nav a{padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;text-decoration:none;background:rgba(10,11,14,.6);backdrop-filter:blur(6px)}
+.top nav a:hover,.lgb:hover{border-color:var(--silk)}
+html[lang=en] .brand span{display:none}
+.lgb{padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;background:rgba(10,11,14,.6);cursor:pointer}
+.hero{position:fixed;left:22px;bottom:calc(28px + env(safe-area-inset-bottom));z-index:4;max-width:440px;pointer-events:none}
+.hero h1{font-family:"Noto Serif SC",serif;font-weight:700;font-size:38px;line-height:1.15;letter-spacing:.06em;margin:0 0 6px}
+.hero{text-shadow:0 1px 12px rgba(7,8,10,.95),0 0 2px rgba(7,8,10,.9)}
+.hero p{margin:0;color:#d4d3ce;font-size:14px;max-width:36em}
+.hero .route{display:flex;gap:14px;margin-top:14px;font-size:12px;color:var(--mute)}
+.hero .route i{display:inline-block;width:18px;height:2px;vertical-align:middle;margin-right:6px;border-radius:2px}
+.side{position:fixed;z-index:6;right:16px;top:64px;bottom:16px;width:min(540px,44vw);display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line);border-radius:16px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 18px 50px rgba(0,0,0,.5);overflow:hidden}
+.tabs{display:flex;gap:2px;padding:6px;border-bottom:1px solid var(--line);overflow-x:auto;scrollbar-width:none}
+.tabs button{flex:1 0 auto;padding:8px 12px;border:0;border-radius:9px;background:none;color:var(--mute);cursor:pointer;font-size:13.5px;white-space:nowrap}
+.tabs button[aria-selected="true"]{background:var(--silk2);color:var(--silk)}
+.body{flex:1;overflow:auto;padding:16px 18px 22px;scrollbar-width:thin}
+.h2{font-family:"Noto Serif SC",serif;font-weight:600;font-size:17px;margin:0 0 4px}
+.lead{color:var(--mute);font-size:12.5px;margin:0 0 12px}
+.h3{font-size:13px;font-weight:600;margin:16px 0 6px;color:#d8d6cf}
+.mute{color:var(--mute)}
+.small{font-size:12px}
+.about{pointer-events:auto;align-self:center;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font-size:12.5px;text-decoration:none;background:rgba(10,11,14,.6);backdrop-filter:blur(6px);color:var(--ink)}.about:hover{border-color:var(--silk)}
+.brandw{display:flex;flex-direction:column;gap:3px;pointer-events:auto}
+.bsub{font-size:12px;letter-spacing:.06em;color:var(--mute)}
+.hero h1{opacity:0;transform:translateY(8px);animation:tagin 1.1s ease forwards}
+.hero .tag{margin:0;font-family:"Noto Serif SC",serif;font-weight:400;font-size:16px;line-height:1.9;letter-spacing:.12em;color:#bdb9ae}
+.hero .tag span{display:block;opacity:0;transform:translateY(6px);animation:tagin 1.1s ease forwards;animation-delay:.2s}
+.hero .tag span:nth-child(2){animation-delay:.7s}.hero .tag .q{animation-delay:1.2s;color:var(--silk);font-weight:600}
+@keyframes tagin{to{opacity:1;transform:none}}
+html[lang=en] .hero .tag{letter-spacing:.01em;font-size:15px}
+@media (prefers-reduced-motion:reduce){.hero .tag span,.hero h1{animation:none;opacity:1;transform:none}}
+.brand .bq{font-style:normal;margin-left:.55em;color:var(--silk)}.brand .bq .sp{display:inline-block;width:.45em}
+.gdot{display:inline-block;width:.32em;height:.32em;border-radius:50%;background:var(--silk);box-shadow:0 0 .4em var(--silk);margin:0 .22em;vertical-align:middle;transform:translateY(-.06em)}
+.cktog{display:flex;align-items:center;gap:10px;width:100%;margin:14px 0 4px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.02);cursor:pointer;text-align:left;font-weight:600}.cktog .mute{flex:1;text-align:right;font-weight:400}.cktog .cv{color:var(--mute)}
+.cktabs{display:flex;gap:6px;margin:8px 0 2px}.cktabs button{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:none;cursor:pointer;font-size:12.5px;color:var(--mute)}.cktabs button[aria-selected=true]{border-color:var(--silk);color:var(--silk)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.chips button{padding:5px 13px;border-radius:999px;border:1px solid var(--line);background:none;cursor:pointer;color:var(--mute);font-size:12.5px}
+.chips button[aria-pressed="true"]{border-color:var(--silk);color:var(--ink);background:var(--silk2)}
+.chips em{font-style:normal;opacity:.6;margin-left:4px}
+.stat{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font-size:12px;color:var(--mute);margin-bottom:10px}
+.lv{display:inline-block;padding:2px 9px;border-radius:6px;font-weight:600;font-size:11.5px;color:#111;text-decoration:none}
+.map{position:relative;border-radius:12px;overflow:hidden;background:radial-gradient(120% 90% at 50% 40%,#15171c,#0a0b0e);border:1px solid var(--line)}
+.map svg{display:block;width:100%;height:auto;max-height:380px}
+.map .zm{position:absolute;right:10px;top:10px;padding:3px 10px;border-radius:999px;border:1px solid rgba(255,255,255,.16);background:rgba(10,11,13,.75);font-size:11.5px;cursor:pointer}
+.map .lg{position:absolute;left:10px;bottom:8px;display:flex;gap:10px;font-size:11px;color:var(--mute);background:rgba(10,11,13,.72);padding:3px 8px;border-radius:6px}
+.map .lg i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:-1px}
+.list{margin-top:10px;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.row{display:grid;grid-template-columns:22px 1fr auto 12px;gap:10px;align-items:center;width:100%;padding:10px 12px;border:0;border-top:1px solid var(--line);background:none;text-align:left;cursor:pointer}
+.list>.row:first-child{border-top:0}
+.row:hover{background:rgba(255,255,255,.03)}
+.row[aria-expanded="true"]{background:rgba(233,196,106,.06)}
+.num{width:20px;height:20px;border-radius:50%;background:var(--silk);color:#16130a;font-size:11px;font-weight:700;display:grid;place-items:center}
+.nm{font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ds{color:var(--mute);font-size:11.5px}
+.ct{display:flex;gap:4px}.ct span{font-size:11px;padding:1px 8px;border-radius:999px;background:rgba(255,255,255,.06);color:var(--mute);white-space:nowrap}
+.ct span.on{background:rgba(255,122,92,.15);color:#ffb39f}
+.cv{color:var(--mute);transition:transform .15s}.row[aria-expanded="true"] .cv{transform:rotate(90deg)}
+.dt{padding:4px 14px 12px 44px;border-top:1px solid rgba(255,255,255,.04);background:rgba(233,196,106,.03)}
+.it{display:grid;grid-template-columns:88px 1fr;gap:8px;padding:6px 0;border-top:1px dashed rgba(255,255,255,.07)}
+.it:first-of-type{border-top:0}
+.it time{color:var(--mute);font-size:11.5px;font-variant-numeric:tabular-nums}
+.it a{text-decoration:none}.it a:hover{color:var(--silk)}
+.it small{display:block;color:var(--mute);font-size:11px}
+.note{margin-top:12px;padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.03);color:var(--mute);font-size:12px}
+.more{border:0;background:none;color:var(--silk);font-size:12px;padding:4px 0;cursor:pointer}
+label{display:block;font-size:12.5px;margin:12px 0 5px;color:#d8d6cf}
+textarea,input[type=text],input[type=search],input[type=password],input[type=number],select{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:rgba(0,0,0,.35);outline:none}
+textarea{min-height:150px;resize:vertical;line-height:1.6}
+textarea:focus,input:focus,select:focus{border-color:var(--silk)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:9px 18px;border-radius:10px;border:1px solid var(--silk);background:var(--silk);color:#17130a;font-weight:600;cursor:pointer}
+.btn[disabled]{opacity:.45;cursor:not-allowed}
+.btn.ghost{background:none;color:var(--silk)}
+.msg{margin-top:10px;font-size:12.5px}
+.msg.err{color:var(--alert)}.msg.ok{color:var(--ok)}
+.seedl{border:1px solid var(--line);border-radius:10px;margin-top:6px}
+.seedl .sr{display:flex;align-items:center;border-top:1px solid var(--line)}.seedl .sr:first-child{border-top:0}
+.seedl .sr .dl{flex:none;margin-right:8px;padding:3px 10px;border:1px solid var(--silk);border-radius:999px;background:none;color:var(--silk);font-size:11.5px;cursor:pointer;white-space:nowrap}
+.seedl .sr .dl:hover{background:rgba(233,196,106,.12)}
+.seedl .op{display:flex;justify-content:space-between;gap:10px;flex:1;min-width:0;padding:8px 12px;border:0;background:none;text-align:left;cursor:pointer;font-size:12.5px}
+.seedl .op:hover{background:rgba(255,255,255,.03)}
+.run{padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin-top:8px}
+.run .st{font-size:11.5px;padding:1px 8px;border-radius:999px;margin-left:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 8px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:4px 6px 4px 10px;border:1px solid var(--silk);border-radius:999px;font-size:12.5px;color:var(--silk);background:rgba(233,196,106,.08)}
+.chip button{border:0;background:none;color:inherit;cursor:pointer;font-size:14px;line-height:1;padding:0 4px}
+.keys{border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:6px;background:rgba(0,0,0,.18)}
+.keys label{margin-top:8px}.keys label:first-child{margin-top:0}
+.chk{display:flex;align-items:center;gap:8px;font-size:12.5px;margin-top:10px;color:var(--mute)}.chk input{width:auto}
+.md{font-size:13.5px;line-height:1.75}
+.md h1,.md h2,.md h3{font-family:"Noto Serif SC",serif;line-height:1.35}
+.md h1{font-size:20px}.md h2{font-size:17px;margin-top:20px}.md h3{font-size:15px}
+.md a{color:var(--sea)}
+.md table{border-collapse:collapse;font-size:12px}.md td,.md th{border:1px solid var(--line);padding:4px 6px}
+.back{border:0;background:none;color:var(--silk);cursor:pointer;padding:0;margin-bottom:10px;font-size:12.5px}
+.src{padding:11px 0;border-top:1px solid var(--line)}
+.src:first-of-type{border-top:0}
+.src b{font-weight:600}
+.src dl{display:grid;grid-template-columns:52px 1fr;gap:2px 10px;margin:6px 0 0;font-size:12px}
+.src dt{color:var(--mute)}.src dd{margin:0;color:#cfcdc6}
+.tally{display:flex;gap:6px;margin-bottom:10px}.tally div{flex:1;padding:8px 10px;border-radius:10px;border:1px solid var(--line)}
+.tally b{display:block;font-size:20px;font-variant-numeric:tabular-nums}.tally span{font-size:11.5px;color:var(--mute)}
+.tc{border:1px solid var(--line);border-radius:12px;margin-bottom:8px;overflow:hidden}
+.th{display:grid;grid-template-columns:1fr auto 12px;gap:10px;align-items:center;width:100%;padding:10px 12px;border:0;background:rgba(255,255,255,.02);text-align:left;cursor:pointer}
+.th small{display:block;color:var(--mute);font-size:11.5px}
+.dots{display:flex;gap:3px}.dots i{width:7px;height:7px;border-radius:50%}
+.tr{display:grid;grid-template-columns:10px 1fr;gap:10px;padding:9px 12px;border-top:1px solid var(--line)}
+.tr>i{width:8px;height:8px;border-radius:50%;margin-top:6px}
+.tr dl{display:grid;grid-template-columns:36px 1fr;gap:2px 8px;margin:5px 0 0;font-size:12px}.tr dt{color:var(--mute)}.tr dd{margin:0;color:#cfcdc6}
+.tip{position:fixed;z-index:9;pointer-events:none;padding:6px 10px;border-radius:8px;background:rgba(10,11,14,.92);border:1px solid var(--line);font-size:12px;max-width:280px;display:none}
+.srch{display:flex;gap:10px;align-items:center;margin-bottom:6px}.srch input,.srch select{flex:1}
+.crow{display:grid;grid-template-columns:10px 1fr auto;gap:10px;align-items:center;width:100%;padding:8px 12px;border:0;border-top:1px solid var(--line);background:none;text-align:left;cursor:pointer}
+.list>.crow:first-child{border-top:0}.crow:hover{background:rgba(255,255,255,.03)}
+.crow>i{width:8px;height:8px;border-radius:50%}.crow small{color:var(--mute);font-size:11px;margin-left:4px}
+.route i{width:8px!important;height:8px!important;border-radius:50%}
+@media (max-width:900px){
+ #gl{position:absolute;height:62vh}
+ .hero{position:absolute;top:58vh;bottom:auto;left:16px;right:16px}
+ .hero h1{font-size:28px}
+ .hero .tag{font-size:14px;line-height:1.75;letter-spacing:.08em}.brand .bq{margin-left:.4em}.bsub{font-size:10.5px;white-space:nowrap;letter-spacing:0}
+ .about{white-space:nowrap;padding:3px 8px;font-size:11.5px}.brand span{display:none}.top{padding-left:10px;padding-right:8px;gap:6px}.top nav{gap:4px}.top nav a,.lgb{white-space:nowrap;padding:3px 7px;font-size:11.5px}.brand b{white-space:nowrap;font-size:14px}.brand .bq{margin-left:.3em}
+ .side{position:relative;top:auto;right:auto;bottom:auto;width:auto;margin:calc(62vh + 120px) 12px 16px;min-height:70vh}
+ .body{overflow:visible}
+ .grid2{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<header class="top">
+ <div class="brandw"><a class="brand" href="./"><b>一带一路<em class="bq">全量<span class="sp"></span>预鉴</em></b></a><div class="bsub">150 个共建国家</div></div>
+ <nav><a href="about.html" target="_blank" rel="noopener">文档 ↗</a><a href="https://github.com/Yizebaba/BRI-Full-Scope-Foresight" target="_blank" rel="noopener">GitHub ↗</a><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><button id="lang" class="lgb" type="button">EN</button></nav>
+</header>
+<section class="hero">
+ <div class="tag"><span>如果，看见未来的不同可能</span><span>如果，未来可以事先预演</span><span class="q">那么决策的胜率会有多高呢？</span></div>
+ <div class="route"><span><i style="background:#ff5b4d"></i>不要前往</span><span><i style="background:#ff9f43"></i>重新考虑</span><span><i style="background:#f2c14e"></i>加强注意</span><span><i style="background:#5fe0a8"></i>正常</span></div>
+</section>
+<aside class="side" aria-label="内容" id="side">
+ <div class="tabs" role="tablist" id="tabs"></div>
+ <div class="body" id="body"><p class="mute">正在读取数据…</p></div>
+</aside>
+<div class="tip" id="tip"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.6/purify.min.js"></script>
+<script>
+"use strict";
+const REPO="Yizebaba/BRI-Full-Scope-Foresight",Q=new URLSearchParams(location.search);
+const BASE=Q.get("base")||("https://raw.githubusercontent.com/"+REPO+"/main/");
+/* 推演：提交到 Worker 排队，由珠峰仓库（Yizebaba/EVEREST-）的 mirofish 工作流运行，用提交者自己的模型和 Zep 密钥；结果在它的 events 分支 mirofish-bri/ */
+const MFQ="https://everest-facets.yizebaba.workers.dev/mf/",RUNRAW="https://raw.githubusercontent.com/Yizebaba/EVEREST-/events/";
+const PRESETS=[["deepseek","DeepSeek","https://api.deepseek.com/v1","deepseek-chat"],["qwen","阿里百炼 · 通义千问","https://dashscope.aliyuncs.com/compatible-mode/v1","qwen-plus"],["glm","智谱 GLM","https://open.bigmodel.cn/api/paas/v4","glm-4-flash"],["kimi","月之暗面 Kimi","https://api.moonshot.cn/v1","moonshot-v1-32k"],["openai","OpenAI","https://api.openai.com/v1","gpt-4o-mini"],["openrouter","OpenRouter","https://openrouter.ai/api/v1","deepseek/deepseek-chat"],["custom","自定义（OpenAI 兼容）","",""]];
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const $=id=>document.getElementById(id);
+let LANG=(()=>{try{return localStorage.getItem("bri_lang")||((navigator.language||"").startsWith("zh")?"zh":"en")}catch(e){return"zh"}})();
+const EN=()=>LANG==="en",cn=c=>c?(EN()?c.en:c.zh):"";
+const DICT=[["推演示例","Examples"],["种子数据准确度检验","Seed data accuracy check"],["第一批示例推演完成后会显示在这里：推演要求、所用的种子文档、报告和过程数据。","The first example simulations will appear here: the prompt, the seed documents used, the report and the process data."],["军费","Military spending"],["研发","R&D"],["论文","Papers"],["推演要求和报告会公开在“全部推演记录”里；敏感内容请用定制推演。","Your prompt and report appear in the public \"All runs\" list; use a custom simulation for confidential material."],["文档 ↗","Docs ↗"],["定制推演 ✉","Custom simulation ✉"],["如果，看见未来的不同可能","What if you could see the futures that might unfold?"],["如果，未来可以事先预演","What if the future could be rehearsed in advance?"],["那么决策的胜率会有多高呢？","How much more often would your decisions win?"],["各国港口（近 30 天，按变化排序）","Ports by country (30 days, sorted by change)"],["海上咽喉要道（近 7 天通行）","Maritime chokepoints (7-day transits)"],["边境","border"],["未选国家（可以不选）","No country selected (optional)"],["选了国家才有种子文档。","Seed documents appear when you pick a country."],["已勾选","Selected"],["全选","All"],["全不选","None"],["种子文档（勾选的会一起上传）","Seed documents (ticked ones are uploaded)"],["你自己的资料","Your own documents"],["＋ 上传文件","+ Upload files"],["PDF、Markdown、TXT · 最多 20 个 · 单个 ≤ 50 MB · 合计 ≤ 100 MB","PDF, Markdown, TXT · up to 20 · ≤ 50 MB each · ≤ 100 MB total"],["上传这份","Upload this one"],["至少要有一份文档：勾选种子文档，或上传自己的资料","Add at least one document: tick seed documents or upload your own"],["上传已过期，请重新提交","Upload expired, please submit again"],["服务器上待处理的文件太多，稍后再试","Too many pending files on the server, try later"],["最多上传 20 个文件","At most 20 files"],["单个文件不能超过 50 MB：","File over 50 MB: "],["上传文件合计不能超过 100 MB","Over 100 MB in total"],["只支持 PDF、Markdown、TXT：","Only PDF, Markdown, TXT: "],["你自己的资料（可选）","Your own documents (optional)"],["PDF、Markdown、TXT · 最多 5 个 · 单个 ≤ 10 MB · 合计 ≤ 20 MB · 和种子文档一起上传","PDF, Markdown, TXT · up to 5 · ≤ 10 MB each · ≤ 20 MB total · uploaded with the seed documents"],["模拟轮数上限","Max rounds"],["自动","Auto"],["咽喉要道（近 7 天）","Chokepoints (last 7 days)"],["海运","Sea"],["航空","Air"],["条异常报道","disruption reports"],["Google 新闻","Google News"],["看报告","Report"],["过程数据 CSV","Process data (CSV)"],["推演结果","Simulation result"],["还没有报告。","No report yet."],["公路","Road"],["口岸","Border post"],["水电","Hydropower"],["港口","Port"],["输电","Transmission"],["铁路","Railway"],["USGS 地震目录","USGS earthquakes"],["新闻（Google 新闻 RSS）","News (Google News RSS)"],["一般报道","General coverage"],["事件相关","Incident-related"],["加德满都","Kathmandu"],["万象","Vientiane"],["伊斯兰堡","Islamabad"],["项目地图"," project map"],
+["模型账户余额不足，需要充值","Model account balance is insufficient"],["模型账户余额不足","Model account balance is insufficient"],["模型密钥无效","Invalid model key"],["模型接口限流","Model API rate-limited"],["模型接口限流，稍后再试","Model API rate-limited, try later"],["模型密钥没有权限","Model key lacks permission"],["接口地址或模型名不对","Wrong base URL or model name"],["连不上模型接口","Cannot reach the model API"],["Zep 密钥无效","Invalid Zep key"],["今天提交次数已满，明天再来","Daily submission limit reached; try tomorrow"],["排队的人太多，稍后再试","Queue is full; try later"],["推演要求要自己写，10 到 4000 字","Write the prompt yourself, 10–4000 characters"],["请选国家","Choose a country"],["请填模型接口地址、模型名和密钥","Enter base URL, model and key"],["没有完成","Not finished"],["格式不对","Invalid request"],["网络错误：","Network error: "],["提交失败","Submission failed"],
+["没有测试结果。","No test results."],["其他报道","Other coverage"],["一级","Level 1"],["二级","Level 2"],["三级","Level 3"],["四级","Level 4"],["百万美元","m USD"],["正在读取数据…","Loading data…"],["内容","Content"],["读不到","Cannot read"],["全球","Global"],["预鉴","Foresight"],["全量","Full-Scope"],["全局","Global"],["一带一路赋能","BRI-Empower"],["珠峰平台","EVEREST"],["一带一路","Belt and Road"],["一带一路 · 150 个共建国家","Belt and Road · 150 partner countries"],["150 个共建国家","150 partner countries"],["150 个共建国家","150 partner countries"],["点地球上的国家，看冲突、灾害、断网、新闻和中国融资项目。","Click a country on the globe for conflict, hazards, outages, news and Chinese-financed projects."],
+["重新考虑出行","Reconsider travel"],["不要前往","Do not travel"],["重新考虑","Reconsider"],["加强注意","Exercise caution"],["正常注意","Normal"],["正常","Normal"],
+["东亚和太平洋","East Asia & Pacific"],["南亚","South Asia"],["欧洲和中亚","Europe & Central Asia"],["中东和北非","Middle East & North Africa"],["撒哈拉以南非洲","Sub-Saharan Africa"],["拉美和加勒比","Latin America & Caribbean"],
+["推演测试","Simulation tests"],["偏差测试","Accuracy"],["种子文档","Seed docs"],["数据源","Sources"],["推演记录","Runs"],["推演要求","Prompt"],["推演","Simulate"],["国家","Countries"],
+["← 全部国家","← All countries"],["搜索国家","Search countries"],["冲突事件（UCDP）","Conflict events (UCDP)"],["冲突（UCDP）","Conflict (UCDP)"],["新闻要闻","Top stories"],["互联网中断","Internet outages"],["灾害警报","Hazard alerts"],["自然事件","Natural events"],
+["旅行建议更新","Travel advisories"],["中国融资项目","Chinese-financed projects"],["物流与贸易","Logistics & trade"],["重点项目周边（每 30 分钟）","Key projects (every 30 min)"],["用这个国家推演","Simulate this country"],["读取中…","Loading…"],
+["AidData 没有收录这个国家带位置的项目。","No geolocated projects in AidData."],["近 7 天断网告警","outage alerts (7 d)"],["未确认","unconfirmed"],["发起国","initiator"],
+["港口（近 30 天）","Ports (last 30 days)"],["靠港","port calls"],["进口","imports"],["出口","exports"],["万吨","×10k t"],["咽喉要道（近 7 天）","Chokepoints (last 7 days)"],["次通行","transits"],["中国对其出口","China exports"],["自其进口","China imports"],
+["周边自然事件","Nearby natural events"],["新闻里的事故和安全线索","Incident leads in news"],["其他报道","Other coverage"],["显示全部","Show all"],["收起","Less"],["看全国","Whole country"],["放大到项目","Zoom to projects"],
+["周边","Near"],["线索","Leads"],["冲突","Conflict"],["灾害","Hazards"],["断网","Outages"],["项目","Projects"],["地震","Earthquakes"],["疫情","Outbreaks"],["机场","Airports"],["死亡","deaths"],
+["模拟轮数","Rounds"],["标题（可空）","Title (optional)"],["自动上传的种子文档","Seed docs uploaded"],["开始推演","Run"],["已在本浏览器连接 GitHub","GitHub connected in this browser"],["断开","Disconnect"],["先在下面连接 GitHub","Connect GitHub below first"],["连接 GitHub","Connect GitHub"],
+["仓库选 EVEREST-，Actions 读写。只存在本浏览器。","Repository EVEREST-, Actions read & write. Stored only in this browser."],["保存","Save"],["写清楚想推演的事件、对象和关心的问题。","Describe the event, actors and questions to simulate."],
+["还没有推演。","No runs yet."],["还没有种子文档。","No seed docs yet."],["看报告","Report"],["运行日志","Log"],["排队中","Queued"],["运行中","Running"],["已结束","Ended"],["开始于","Started"],["完成","Done"],["失败","Failed"],["范围","Scope"],
+["许可","License"],["更新","Updates"],["最近一次","latest"],["用途","Use"],["获取","How"],["引用","Cite"],["链接","Link"],["返回","Back"],
+["相符","Match"],["部分 / 有偏差","Partial"],["缺失或漏报","Missing"],["结论","Takeaways"],["离项目：","Distance: "],["平台","Ours"],["参考","Ref."],
+["这次没读到：","Not loaded: "],["几分钟后会自动重试。","Retrying in a few minutes."],["推演要求至少写 10 个字。","Write at least 10 characters."],["正在提交…","Submitting…"],["已提交，编号","Submitted, id"],["运行状态会显示在下面的推演记录里。","Status appears under Runs."],
+["已完工","Completed"],["在建","In progress"],["已承诺","Committed"],["意向","Pledged"],["暂停","Suspended"],["取消","Cancelled"],["份，","docs, "],["国 ·","countries ·"],["美国","US"],["群体智能推演","Swarm simulation"],["印度","India"],["不丹","Bhutan"],["缅甸","Myanmar"],["泰国","Thailand"],["越南","Vietnam"],["柬埔寨","Cambodia"],["一带一路 150 国","150 Belt and Road countries"],["选国家，写推演要求，用你自己的模型密钥运行。种子文档由公开数据自动生成。","Pick countries, write your prompt, run it with your own model key. Seed documents are generated from public data."],["推演引擎从种子文档里找出真实的人和机构，建知识图谱，生成大量智能体在模拟社交平台上互动，最后写出推演报告。","The engine extracts real people and organisations from the seed documents, builds a knowledge graph, simulates many agents on social platforms and writes a report."],["国家（最多 5 个）","Countries (up to 5)"],["＋ 添加国家","+ Add country"],["种子文档（自动上传）","Seed documents (uploaded automatically)"],["你的密钥","Your keys"],["模型","Model"],["接口地址","Base URL"],["模型名","Model name"],["免费申请","Get one free"],["在本浏览器记住","Remember in this browser"],["密钥只用于这一次推演：运行开始时取走即删除，不进日志。费用记在你自己的账户。","Keys are used for this run only: taken when it starts, then deleted, never logged. Usage is billed to your own account."],["我的推演","My runs"],["全部推演记录","All runs"],["还没有提交。","Nothing submitted yet."],["即将开始","Starting"],["已过期","Expired"],["编号","ID"],["正在检查密钥并提交…","Checking keys and submitting…"],["已排队。几分钟内开始运行，完整推演通常要几个小时。","Queued. It starts within minutes; a full run usually takes 1–3 hours."],["请填模型接口地址、模型名和 API Key。","Enter base URL, model and API key."],["请填 Zep API Key。","Enter your Zep API key."],["自定义（OpenAI 兼容）","Custom (OpenAI-compatible)"],["阿里百炼 · 通义千问","Alibaba Bailian · Qwen"],["智谱 GLM","Zhipu GLM"],["月之暗面 Kimi","Moonshot Kimi"],["自己写：想推演的事件、关心的群体（政府、出资方、承包商、当地居民、媒体……）、想回答的问题和时间范围。","Write it yourself: the event, the groups involved (government, lenders, contractors, residents, media…), the questions and the time frame."],["概况","Overview"],["国家元首","Head of state"],["政府首脑","Head of government"],["产业结构","Economy"],["农业","Agriculture"],["工业","Industry"],["服务业","Services"],["外债","External debt"],["世界银行","World Bank"],["贸易","Trade"],["总额","Total"],["主要行业","Top industries"],["主要伙伴","Top partners"],["与中国（中国申报，","With China (China-reported, "],["中国出口","China exports"],["全部","All"],["个行业","industries"],["本国申报","self-reported"],["镜像：各国对它的申报","mirror: partners' reports"],["万美元","×10k USD"],["亿美元","×100m USD"],["移除","Remove"]].sort((a,b)=>b[0].length-a[0].length);
+const RX=[[/(\d[\d,]*) ?个/g,"$1"],[/(\d+) ?份/g,"$1 docs"],[/(Green|Orange|Red) ?级/g,"$1"],[/(\d+) ?次/g,"$1"],[/(\d+) ?人/g,"$1"],[/(\d+) ?国/g,"$1 countries"],[/，/g,", "],[/；/g,"; "],[/：/g,": "],[/（/g," ("],[/）/g,")"],[/、/g,", "],[/。/g,". "],[/—/g,"–"]];
+function trText(t){if(!EN()||!/[\u4e00-\u9fff]/.test(t))return t;for(const[z,e]of DICT)if(t.includes(z))t=t.split(z).join(e);for(const[r,e]of RX)t=t.replace(r,e);return t.replace(/ {2,}/g," ")}
+let NAMES_ADDED=false;function addNames(){if(NAMES_ADDED||!D.countries.length)return;NAMES_ADDED=true;D.countries.forEach(c=>DICT.push([c.zh,c.en.split(",")[0]]));(D.projects||[]).forEach(p=>p.name&&p.name_en&&DICT.push([p.name,p.name_en]));DICT.sort((a,b)=>b[0].length-a[0].length)}
+function trNode(root){if(!EN()||!root)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){if(n.parentElement&&n.parentElement.closest(".md,.keep"))continue;const v=trText(n.nodeValue);if(v!==n.nodeValue)n.nodeValue=v}
+ root.querySelectorAll("[placeholder],[title],[aria-label],optgroup[label]").forEach(el=>["placeholder","title","aria-label","label"].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,trText(el.getAttribute(a)))}))}
+const STATIC=[];function applyLang(){document.documentElement.lang=EN()?"en":"zh-CN";$("lang").textContent=EN()?"中文":"EN";
+ if(!STATIC.length)document.querySelectorAll(".hero .tag span,.bsub,.hero h1,.hero p,.hero .route span,.brand b,.top nav a,#side").forEach(el=>STATIC.push([el,el.innerHTML]));
+ STATIC.forEach(([el,h])=>{if(el.id==="side"){el.setAttribute("aria-label",EN()?"Content":"内容");return}el.innerHTML=h;trNode(el)});document.title=EN()?"Belt and Road · Full-Scope Foresight":"一带一路 全量 预鉴"}
+const bj=t=>{if(!t)return"—";const d=new Date(t);if(isNaN(d))return esc(t);return d.toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false,month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})};
+const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
+async function get(path,text){const r=await fetch((/^https?:/.test(path)?path:BASE+path)+(BASE.startsWith("http")?"?v="+Math.floor(Date.now()/60000):""),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return text?r.text():r.json()}
+const D={logi:{},countries:[],asum:{},clive:{},projects:[],live:{},wm:{},retro:null,sources:[],seeds:{},runs:[],base:{}};
+const CN={NPL:"尼泊尔",LAO:"老挝",PAK:"巴基斯坦"},NEWS="新闻（Google 新闻 RSS）";
+const STZ={Completion:"已完工",Implementation:"在建","Pipeline: Commitment":"已承诺","Pipeline: Pledge":"意向"};
+const LV={1:["#5fe0a8","一级 · 正常注意"],2:["#f2c14e","二级 · 加强注意"],3:["#ff9f43","三级 · 重新考虑出行"],4:["#ff6b5b","四级 · 不要前往"]};
+let TAB=ls.get("bri_tab")||"drill",CT=null,SEL=null,ZOOM=true,MORE={},OPEN={"npl-2026-08-26":1},VIEW=null;
+
+/* ---------- 3D globe ---------- */
+const G={};window.BRI_G=G;
+function ll(lat,lon,r){const p=(90-lat)*Math.PI/180,t=(lon+180)*Math.PI/180;return new THREE.Vector3(-r*Math.sin(p)*Math.cos(t),r*Math.cos(p),r*Math.sin(p)*Math.sin(t))}
+function dotTex(){const c=document.createElement("canvas");c.width=c.height=64;const g=c.getContext("2d"),gr=g.createRadialGradient(32,32,0,32,32,32);gr.addColorStop(0,"rgba(255,255,255,1)");gr.addColorStop(.35,"rgba(255,255,255,.85)");gr.addColorStop(1,"rgba(255,255,255,0)");g.fillStyle=gr;g.fillRect(0,0,64,64);return new THREE.CanvasTexture(c)}
+function glInit(land){if(!window.THREE)return;const cv=$("gl"),R=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:false});R.setPixelRatio(Math.min(devicePixelRatio||1,2));R.setClearColor(0x07080a,1);
+ const S=new THREE.Scene(),C=new THREE.PerspectiveCamera(34,1,.1,100);C.position.set(0,0,4.1);const W=new THREE.Group();S.add(W);const tex=dotTex();
+ Object.assign(G,{R,S,C,W,tex,rx:.42,ry:0,tx:.42,ty:0,drag:null,t0:performance.now(),movers:[],pulses:[],pick:[]});
+ // 星尘
+ const sp=new Float32Array(1800*3);for(let i=0;i<1800;i++){const v=new THREE.Vector3().randomDirection?new THREE.Vector3().randomDirection():new THREE.Vector3(Math.random()-.5,Math.random()-.5,Math.random()-.5).normalize();v.multiplyScalar(6+Math.random()*14);sp.set([v.x,v.y,v.z],i*3)}
+ const sg=new THREE.BufferGeometry();sg.setAttribute("position",new THREE.BufferAttribute(sp,3));S.add(new THREE.Points(sg,new THREE.PointsMaterial({color:0xe9c46a,size:.035,map:tex,transparent:true,opacity:.5,depthWrite:false})));
+ // 光晕
+ const hc=document.createElement("canvas");hc.width=hc.height=256;const hg=hc.getContext("2d"),gr=hg.createRadialGradient(128,128,60,128,128,128);gr.addColorStop(0,"rgba(233,196,106,.22)");gr.addColorStop(.55,"rgba(233,196,106,.06)");gr.addColorStop(1,"rgba(233,196,106,0)");hg.fillStyle=gr;hg.fillRect(0,0,256,256);
+ const halo=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(hc),transparent:true,depthWrite:false}));halo.scale.set(3.4,3.4,1);S.add(halo);
+ // 球体遮挡 + 经纬网
+ W.add(new THREE.Mesh(new THREE.SphereGeometry(.995,64,48),new THREE.MeshBasicMaterial({color:0x0b0c10})));
+ const gp=[];for(let la=-60;la<=60;la+=30)for(let lo=0;lo<360;lo+=3){gp.push(ll(la,lo,1.002),ll(la,lo+3,1.002))}for(let lo=0;lo<360;lo+=30)for(let la=-87;la<87;la+=3){gp.push(ll(la,lo,1.002),ll(la+3,lo,1.002))}
+ W.add(new THREE.LineSegments(new THREE.BufferGeometry().setFromPoints(gp),new THREE.LineBasicMaterial({color:0xe9c46a,transparent:true,opacity:.07})));
+ // 陆地点阵
+ if(land){const n=land.length/2,a=new Float32Array(n*3);for(let i=0;i<n;i++){const v=ll(land[2*i]/10,land[2*i+1]/10,1.004);a.set([v.x,v.y,v.z],i*3)}
+  const lg=new THREE.BufferGeometry();lg.setAttribute("position",new THREE.BufferAttribute(a,3));W.add(new THREE.Points(lg,new THREE.PointsMaterial({color:0xcfc6a8,size:.026,map:tex,transparent:true,opacity:.8,depthWrite:false})))}
+ // 环绕轨道（呼应珠峰平台的轨道环）
+ for(let i=0;i<3;i++){const e=new THREE.EllipseCurve(0,0,1.55+i*.22,1.32+i*.16,0,2*Math.PI),pts=e.getPoints(160).map(p=>new THREE.Vector3(p.x,0,p.y));const l=new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),new THREE.LineBasicMaterial({color:0xe9c46a,transparent:true,opacity:.12-i*.03}));l.rotation.set(.35+i*.18,i*.6,.15*i);S.add(l)}
+ // 远处的线框多面体
+ G.poly=[];[[-2.6,1.3,-2,.32],[2.9,-1.2,-2.6,.4],[-2.2,-1.6,-1.6,.22]].forEach(q=>{const m=new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.IcosahedronGeometry(q[3],0)),new THREE.LineBasicMaterial({color:0xe9c46a,transparent:true,opacity:.28}));m.position.set(q[0],q[1],q[2]);S.add(m);G.poly.push(m)});
+ const rs=()=>{const w=cv.clientWidth,h=cv.clientHeight;R.setSize(w,h,false);C.aspect=w/h;C.position.x=innerWidth>900?.62:0;C.updateProjectionMatrix()};addEventListener("resize",rs);rs();
+ cv.addEventListener("pointerdown",e=>{G.drag=[e.clientX,e.clientY,G.ty,G.tx];cv.setPointerCapture(e.pointerId)});
+ cv.addEventListener("pointermove",e=>{if(G.drag){G.ty=G.drag[2]+(e.clientX-G.drag[0])*.006;G.tx=Math.max(-1.2,Math.min(1.2,G.drag[3]+(e.clientY-G.drag[1])*.006));G.auto=false}else hover(e)});
+ cv.addEventListener("pointerup",e=>{const d=G.drag;G.drag=null;if(d&&Math.hypot(e.clientX-d[0],e.clientY-d[1])<5){const p=pickAt(e,22);if(p&&p.iso)selectC(p.iso)}});cv.addEventListener("pointerleave",()=>{$("tip").style.display="none"});
+ G.auto=!matchMedia("(prefers-reduced-motion: reduce)").matches;requestAnimationFrame(loop)}
+function pickAt(e,lim){const r=G.R.domElement.getBoundingClientRect();let best=null,bd=lim;G.pick.forEach(p=>{if(!p.iso)return;const v=p.obj.getWorldPosition(new THREE.Vector3()),n=v.clone().normalize();if(n.dot(G.C.position.clone().sub(v).normalize())<.1)return;v.project(G.C);const d=Math.hypot((v.x+1)/2*r.width+r.left-e.clientX,(1-v.y)/2*r.height+r.top-e.clientY);if(d<bd){bd=d;best=p}});return best}
+function hover(e){if(!G.pick.length)return;const r=G.R.domElement.getBoundingClientRect();let best=null,bd=14;G.R.domElement.style.cursor=pickAt(e,22)?"pointer":"grab";G.pick.forEach(p=>{const v=p.obj.getWorldPosition(new THREE.Vector3()),n=v.clone().normalize();if(n.dot(G.C.position.clone().sub(v).normalize())<.1)return;v.project(G.C);const x=(v.x+1)/2*r.width+r.left,y=(1-v.y)/2*r.height+r.top,d=Math.hypot(x-e.clientX,y-e.clientY);if(d<bd){bd=d;best=p}});
+ const t=$("tip");if(best){t.innerHTML=best.html;trNode(t);t.style.display="block";t.style.left=(e.clientX+14)+"px";t.style.top=(e.clientY+10)+"px"}else t.style.display="none"}
+function focus(lat,lon){if(!G.W)return;const v=ll(lat,lon,1);G.ty=-Math.atan2(v.x,v.z);G.tx=lat*Math.PI/180;G.auto=false;
+ const d=G.ty-G.ry;G.ry+=Math.round(d/(2*Math.PI))*2*Math.PI}
+function loop(t){requestAnimationFrame(loop);if(!G.R)return;const dt=(t-(G.last||t))/1000;G.last=t;
+ if(G.auto&&!G.drag)G.ty+=dt*.05;G.ry+=(G.ty-G.ry)*.06;G.rx+=(G.tx-G.rx)*.06;G.W.rotation.order="XYZ";G.W.rotation.set(G.rx,G.ry,0);
+ G.movers.forEach(m=>{m.u=(m.u+dt*m.sp)%1;m.obj.position.copy(m.curve.getPoint(m.u))});
+ G.pulses.forEach(p=>{const k=(t/1000*p.f+p.ph)%1;p.obj.scale.setScalar(1+k*2.2);p.obj.material.opacity=.6*(1-k)});
+ G.poly.forEach((m,i)=>{m.rotation.x+=dt*.08*(i+1);m.rotation.y+=dt*.05});G.R.render(G.S,G.C)}
+function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THREE.Group();G.layer=L;G.W.add(L);G.movers=[];G.pulses=[];G.pick=[];G.cdots={};
+ const XA=[34.34,108.94],O=ll(XA[0],XA[1],1.005);
+ D.countries.forEach(c=>{if(c.iso3==="CHN")return;const b=ll(c.lat,c.lon,1.005),dist=O.distanceTo(b),mid=O.clone().add(b).normalize().multiplyScalar(1+dist*.32),cur=new THREE.QuadraticBezierCurve3(O,mid,b),sel=CT===c.iso3;
+  L.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(cur.getPoints(48)),new THREE.LineBasicMaterial({color:sel?0xffe2a0:0xe9c46a,transparent:true,opacity:sel?.9:.16})));
+  if(sel||Math.random()<.35){const m=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:0xffe2a0,transparent:true,depthWrite:false}));m.scale.setScalar(sel?.05:.03);L.add(m);G.movers.push({obj:m,curve:cur,u:Math.random(),sp:.08+Math.random()*.06})}});
+ D.countries.forEach(c=>{const a=advOf(c.iso3),col=ADVC[a]||0xe9c46a,n=((D.asum[c.iso3]||{}).n)||0,sc=.035+Math.min(.05,Math.sqrt(n)*.0035),sel=CT===c.iso3;
+  const dot=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:col,transparent:true,depthWrite:false}));dot.position.copy(ll(c.lat,c.lon,1.012));dot.scale.setScalar(sel?sc*1.6:sc);L.add(dot);G.cdots[c.iso3]=dot;
+  if(sel){const ring=new THREE.Mesh(new THREE.RingGeometry(.016,.021,40),new THREE.MeshBasicMaterial({color:0xffe2a0,transparent:true,side:THREE.DoubleSide,depthWrite:false}));ring.position.copy(ll(c.lat,c.lon,1.014));ring.lookAt(ring.position.clone().multiplyScalar(2));L.add(ring);G.pulses.push({obj:ring,f:.6,ph:0})}
+  G.pick.push({obj:dot,iso:c.iso3,html:"<b>"+esc(cn(c))+"</b>"+(EN()?"":" <span class='mute'>"+esc(c.en)+"</span>")+"<br><span class='mute'>"+trText((ADVZ[a]||"")+(n?" · 项目 "+n:""))+"</span>"})});
+ const evs=[];Object.entries((D.wm.countries)||{}).forEach(([k,c])=>(c.ucdp||[]).forEach(e=>{if(e.lat!=null)evs.push([e.lat,e.lon,0xff6b5b,esc((e.t||"").slice(0,10))+" · 冲突（UCDP）<br>"+esc(e.a)+" — "+esc(e.b)+" · 死亡 "+esc(e.deaths)])}));
+ Object.values((D.clive.countries)||{}).forEach(c=>{(c.quakes||[]).forEach(e=>evs.push([e.lat,e.lon,0xff9f43,bj(e.t)+" · 地震 M"+esc(e.mag)+"<br>"+esc(e.text)]));(c.gdacs||[]).forEach(e=>evs.push([e.lat,e.lon,0xff9f43,bj(e.t)+" · GDACS "+esc(e.level)+"<br>"+esc(e.text)]))});
+ evs.forEach(e=>{const s=new THREE.Sprite(new THREE.SpriteMaterial({map:G.tex,color:e[2],transparent:true,opacity:.85,depthWrite:false}));s.position.copy(ll(e[0],e[1],1.013));s.scale.setScalar(.022);L.add(s);G.pick.push({obj:s,html:e[3]})})}
+
+/* ---------- 数据 ---------- */
+function split(p){const L=(((D.live.projects||{})[p.id])||{}).items||[];return{geo:L.filter(i=>i.src!==NEWS),inc:L.filter(i=>i.src===NEWS&&i.kind==="事件相关"),gen:L.filter(i=>i.src===NEWS&&i.kind!=="事件相关")}}
+const kmH=(a,b,c,d)=>{const r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))};
+function nearest(la,lo,ps){let b=[1e9,null];ps.forEach(p=>p.rings.forEach(r=>r.forEach(q=>{const d=kmH(la,lo,q[1],q[0]);if(d<b[0])b=[d,p]})));return b}
+async function load(first){const tasks=[["countries","data/bri_countries.json",x=>D.countries=x.countries||[]],["asum","data/aiddata_summary.json",x=>D.asum=x.countries||{}],["clive","data/country_live.json",x=>D.clive=x],["logi","data/logistics.json",x=>D.logi=x],["land","data/chokepoints_land.json",x=>D.land=x],["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["retroEn","data/retro_summary_en.json",x=>D.retroEn=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["hs","data/hs2_zh.json",x=>D.hs=x],["base","data/basemap.json",x=>D.base=x]];
+ const errs=[];await Promise.all(tasks.filter(t=>first||!["countries","asum","projects","retro","retroEn","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>{if(!["runs","hs","land"].includes(t[0]))errs.push(t[0])})));
+ D.errs=errs;addNames();render();glData()}
+const ADVC={"do-not-travel":0xff5b4d,"reconsider":0xff9f43,"caution":0xf2c14e,"normal":0x5fe0a8,"info":0x9fd6c4};
+const ADVZ={"do-not-travel":"不要前往","reconsider":"重新考虑出行","caution":"加强注意","normal":"正常注意","info":"正常注意"};
+const ADVS={"do-not-travel":"#ff5b4d","reconsider":"#ff9f43","caution":"#f2c14e","normal":"#5fe0a8","info":"#9fd6c4"};
+function advOf(k){const w=(D.wm.countries||{})[k]||{},l=((D.clive.countries||{})[k]||{}).us;if(w.advisory)return w.advisory;if(l&&l.level)return["","normal","caution","reconsider","do-not-travel"][l.level];return""}
+function cinfo(k){return D.countries.find(c=>c.iso3===k)}
+function counts(k){const w=(D.wm.countries||{})[k]||{},l=(D.clive.countries||{})[k]||{};return{conf:(w.ucdp||[]).length,haz:(l.quakes||[]).length+(l.gdacs||[]).length+(l.eonet||[]).length,net:(w.outages||[]).length,news:(w.stories||[]).length,proj:((D.asum[k]||{}).n)||0}}
+
+/* ---------- 2D 国家地图 ---------- */
+function cmap(c,ps){const B=D.base[c];if(!B)return"";const[x0,y1,k,S]=B.p,Xn=lo=>(lo-x0)*k*S,Yn=la=>(y1-la)*S;
+ const sel=SEL&&ps.some(p=>p.id===SEL)?SEL:null,geo=[],seen={};ps.forEach(p=>split(p).geo.forEach(i=>{if(i.lat!=null&&!seen[i.text]){seen[i.text]=1;geo.push(i)}}));
+ const W=(D.wm.countries||{})[c],uc=(W&&W.ucdp)||[];let vx=0,vy=0,vw=B.w,vh=B.h;
+ if(ZOOM){let a=1e9,b=1e9,cc=-1e9,d=-1e9;const add=(x,y)=>{a=Math.min(a,x);cc=Math.max(cc,x);b=Math.min(b,y);d=Math.max(d,y)};ps.forEach(p=>p.rings.forEach(r=>r.forEach(q=>add(Xn(q[0]),Yn(q[1])))));geo.forEach(i=>add(Xn(i.lon),Yn(i.lat)));
+  let w=Math.max(cc-a,B.w/14)*1.3,h=Math.max(d-b,B.w/14)*1.3;if(h>w*.85)w=h/.85;else if(h<w*.6)h=w*.6;if(w>=B.w*.8){w=B.w;h=B.h;a=0;b=0;cc=B.w;d=B.h}vx=(a+cc)/2-w/2;vy=(b+d)/2-h/2;vw=w;vh=h}
+ const u=vw/B.w,f=n=>(n*u).toFixed(2),X=lo=>Xn(lo).toFixed(1),Y=la=>Yn(la).toFixed(1),ns=' vector-effect="non-scaling-stroke"',ring=r=>"M"+r.map(q=>X(q[0])+" "+Y(q[1])).join("L")+"Z";
+ const sh=ps.map(p=>{const on=!sel||sel===p.id;return'<path d="'+p.rings.map(ring).join("")+'" fill="'+(on?"rgba(233,196,106,.32)":"rgba(233,196,106,.1)")+'" stroke="'+(on?"#e9c46a":"rgba(233,196,106,.4)")+'" stroke-width="'+(sel===p.id?2.4:1.5)+'" stroke-linejoin="round"'+ns+'/>'}).join("");
+ const ucm=uc.map(e=>'<g><title>'+esc((e.t||"").slice(0,10)+" · UCDP · "+e.a+" — "+e.b+" · 死亡 "+e.deaths)+'</title><rect x="'+(Xn(e.lon)-3.5*u).toFixed(2)+'" y="'+(Yn(e.lat)-3.5*u).toFixed(2)+'" width="'+f(7)+'" height="'+f(7)+'" transform="rotate(45 '+X(e.lon)+' '+Y(e.lat)+')" fill="#ff6b5b" stroke="#0a0b0e" stroke-width="1"'+ns+'/></g>').join("");
+ const ev=geo.map(i=>'<g><title>'+esc(bj(i.t)+" · "+i.src+" · "+i.text)+'</title><circle cx="'+X(i.lon)+'" cy="'+Y(i.lat)+'" r="'+f(9)+'" fill="rgba(255,159,67,.2)"/><circle cx="'+X(i.lon)+'" cy="'+Y(i.lat)+'" r="'+f(3.5)+'" fill="#ff9f43"/></g>').join("");
+ const mk=ps.map((p,n)=>{const on=!sel||sel===p.id,x=X(p.centroid[1]),y=Y(p.centroid[0]);return'<g data-a="p:'+p.id+'" style="cursor:pointer;opacity:'+(on?1:.45)+'"><title>'+esc(p.name)+'</title><circle cx="'+x+'" cy="'+y+'" r="'+f(sel===p.id?11:9)+'" fill="#e9c46a" stroke="#0a0b0e" stroke-width="2"'+ns+'/><text x="'+x+'" y="'+(+y+3.8*u).toFixed(2)+'" font-size="'+f(10.5)+'" font-weight="700" fill="#17130a" text-anchor="middle">'+(n+1)+'</text></g>'}).join("");
+ const lb=B.lbl.map(l=>'<text x="'+X(l[2])+'" y="'+Y(l[1])+'" font-size="'+f(11)+'" fill="rgba(200,205,215,.38)" text-anchor="middle" letter-spacing="'+f(2)+'">'+esc(l[0])+'</text>').join(""),cap=B.cap;
+ const sk=[1,2,5,10,25,50,100,200,500].filter(v=>v/111.32*S<=vw/4).pop()||1,sl=sk/111.32*S;
+ return'<div class="map"><svg viewBox="'+[vx,vy,vw,vh].map(v=>v.toFixed(1)).join(" ")+'" role="img" aria-label="'+CN[c]+'项目地图"><path d="'+B.nb+'" fill="rgba(255,255,255,.025)" stroke="rgba(255,255,255,.14)" stroke-width=".8"'+ns+'/><path d="'+B.c+'" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.45)" stroke-width="1.1"'+ns+'/>'+lb
+  +'<circle cx="'+X(cap[2])+'" cy="'+Y(cap[1])+'" r="'+f(3)+'" fill="none" stroke="rgba(236,236,240,.7)" stroke-width="1.2"'+ns+'/><text x="'+(+X(cap[2])+6*u).toFixed(2)+'" y="'+(+Y(cap[1])+4*u).toFixed(2)+'" font-size="'+f(10.5)+'" fill="rgba(236,236,240,.6)">'+esc(cap[0])+'</text>'+sh+ucm+ev+mk
+  +'<g transform="translate('+(vx+vw-sl-14*u).toFixed(2)+','+(vy+vh-14*u).toFixed(2)+')" fill="rgba(236,236,240,.55)" font-size="'+f(10)+'"><rect width="'+sl.toFixed(2)+'" height="'+f(2)+'"/><text y="'+f(-5)+'" x="'+(sl/2).toFixed(2)+'" text-anchor="middle">'+sk+' km</text></g></svg>'
+  +'<div class="lg"><span><i style="background:#e9c46a"></i>项目</span><span><i style="background:#ff9f43"></i>自然事件</span>'+(uc.length?'<span><i style="background:#ff6b5b;border-radius:1px"></i>冲突（UCDP）</span>':"")+'</div><button class="zm" data-a="z:1">'+(ZOOM?"看全国":"放大到项目")+'</button></div>'}
+
+/* ---------- 各标签 ---------- */
+const it=i=>'<div class="it"><time>'+bj(i.t)+'</time><div>'+(i.url?'<a href="'+esc(i.url)+'" target="_blank" rel="noopener">'+esc(i.text)+' ↗</a>':esc(i.text))+'<small>'+esc(i.src===NEWS?"Google 新闻":i.src)+(i.km!=null?" · 距项目 "+i.km+" km":"")+'</small></div></div>';
+function detail(p){const s=split(p),all=MORE[p.id],gen=all?s.gen:s.gen.slice(0,3);
+ return'<div class="dt"><p class="small mute" style="margin:6px 0">AidData #'+p.aiddata_id+'：'+esc(p.title)+' · <a href="'+esc(p.osm)+'" target="_blank" rel="noopener">OSM ↗</a>'+(p.note?" · "+esc(p.note):"")+'</p>'
+ +'<div class="h3">周边自然事件</div>'+(s.geo.length?s.geo.slice(0,8).map(it).join(""):'<p class="small mute">近期没有（地震 150 km、灾害警报 300 km、NASA 自然事件 150 km 内）。</p>')
+ +'<div class="h3">新闻里的事故和安全线索</div>'+(s.inc.length?s.inc.slice(0,8).map(it).join(""):'<p class="small mute">近 7 天没有。</p>')
+ +(s.gen.length?'<div class="h3">其他报道（'+s.gen.length+'）</div>'+gen.map(it).join("")+(s.gen.length>3?'<button class="more" data-a="m:'+p.id+'">'+(all?"收起":"显示全部 "+s.gen.length+" 条")+'</button>':""):"")+'</div>'}
+function wmBlock(c,ps){const W=(D.wm.countries||{})[c];let h='<div class="h3">已核实的冲突事件（UCDP，经 World Monitor）</div>';
+ if(!W)return h+'<p class="small mute">这个国家今天还没查（World Monitor 免费账号每天 5 次）。</p>';if(W.error)return h+'<p class="small mute">这次没取到：'+esc(W.error)+'</p>';
+ const L=(W.ucdp||[]).map(e=>{const n=nearest(e.lat,e.lon,ps);return Object.assign({km:Math.round(n[0]),np:n[1]},e)}).sort((a,b)=>a.km-b.km);
+ h+='<p class="small mute" style="margin:0 0 4px">UCDP 只收录有人员死亡的有组织暴力事件，通常比实际晚几周。World Monitor 缓存于 '+bj(W.cached_at)+'，读取于 '+bj(W.queried)+'。按离项目的距离排序。</p>';
+ h+=L.length?L.slice(0,12).map(e=>'<div class="it"><time>'+esc((e.t||"").slice(0,10))+'</time><div>'+esc(e.a)+' — '+esc(e.b)+' · 死亡 '+esc(e.deaths)+'<small>离最近项目 '+e.km+' km（'+esc(e.np?e.np.name:"")+'）· 来源：'+esc(e.src)+'</small></div></div>').join(""):'<p class="small mute">近期没有记录。</p>';
+ if((W.unrest||[]).length)h+='<p class="small mute">另有 GDELT 动荡信号 '+W.unrest.length+' 处（World Monitor 标为未核实、可信度低）：'+esc(W.unrest.map(u=>u.title).join("；"))+'</p>';return h}
+function sampleBlock(c){const ps=D.projects.filter(p=>p.country===c);if(!ps.length)return"";const C=(D.live.countries||{})[c]||{},io=C.ioda;
+ return'<div class="h3">重点项目周边（每 30 分钟）</div>'+(io?'<p class="small mute" style="margin:0 0 6px">IODA 近 7 天断网告警 '+io.n+'</p>':"")+cmap(c,ps)+'<div class="list">'+ps.map((p,n)=>{const s=split(p),op=SEL===p.id;return'<button class="row" data-a="p:'+p.id+'" aria-expanded="'+op+'"><span class="num">'+(n+1)+'</span><span style="min-width:0"><div class="nm">'+esc(p.name)+'</div><div class="ds">'+esc(p.kind)+'，'+esc(STZ[p.status]||p.status)+'</div></span><span class="ct"><span class="'+(s.geo.length?"on":"")+'">周边 '+s.geo.length+'</span><span class="'+(s.inc.length?"on":"")+'">线索 '+s.inc.length+'</span></span><span class="cv">›</span></button>'+(op?detail(p):"")}).join("")+'</div>'}
+const REG=["东亚和太平洋","南亚","欧洲和中亚","中东和北非","撒哈拉以南非洲","拉美和加勒比"];let QS="",CPJ={},PJALL=false;
+function crow(c){const n=counts(c.iso3),a=advOf(c.iso3);return'<button class="crow" data-a="c:'+c.iso3+'"><i style="background:'+(ADVS[a]||"#555")+'"></i><span class="nm">'+esc(cn(c))+(EN()?"":' <small>'+esc(c.en)+'</small>')+'</span><span class="ct">'+(n.conf?'<span class="on">冲突 '+n.conf+'</span>':"")+(n.haz?'<span>灾害 '+n.haz+'</span>':"")+(n.net?'<span>断网 '+n.net+'</span>':"")+(n.proj?'<span>项目 '+n.proj+'</span>':"")+'</span></button>'}
+function tabLive(){if(CT)return countryView(CT);
+ const q=QS.trim().toLowerCase(),L=D.countries.filter(c=>!q||c.zh.includes(q)||c.en.toLowerCase().includes(q));
+ let h='<div class="srch"><input id="qs" type="search" placeholder="搜索国家" value="'+esc(QS)+'" autocomplete="off"><span class="small mute">'+D.countries.length+' 国 · '+bj(D.wm.generated||D.clive.generated)+'</span></div>';
+ h+=q?"":chokeBlock();
+ REG.forEach(r=>{const G2=L.filter(c=>c.region===r).sort((a,b)=>{const x=counts(a.iso3),y=counts(b.iso3);return(y.conf*5+y.haz+y.net*3+y.news)-(x.conf*5+x.haz+x.net*3+x.news)||y.proj-x.proj});if(G2.length)h+='<div class="h3">'+r+' <span class="mute">'+G2.length+'</span></div><div class="list">'+G2.map(crow).join("")+'</div>'});
+ return h}
+function sec(t,L,f,more){return L&&L.length?'<div class="h3">'+t+' <span class="mute">'+L.length+'</span></div>'+L.slice(0,more||8).map(f).join(""):""}
+const iL=(t,title,sub,url)=>'<div class="it"><time>'+t+'</time><div>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(title)+' ↗</a>':esc(title))+(sub?'<small>'+sub+'</small>':"")+'</div></div>';
+const nf=v=>v==null?"—":Number(v).toLocaleString(EN()?"en-US":"zh-CN");
+const wt=t=>t==null?"—":EN()?nf(Math.round(t/1000))+"k t":nf(Math.round(t/1e4))+" 万吨";
+const usd=v=>v==null?"—":EN()?(Math.abs(v)>=1e9?"$"+(v/1e9).toFixed(2)+" bn":"$"+(v/1e6).toFixed(1)+" m"):(Math.abs(v)>=1e8?(v/1e8).toFixed(1)+" 亿美元":(v/1e4).toFixed(0)+" 万美元");
+const chg=(a,b)=>a!=null&&b?'<span class="mute">（'+(a>=b?"+":"")+Math.round((a-b)/b*100)+'%）</span>':"";
+function logiBlock(k){const pw=((D.logi.portwatch||{}).countries||{})[k],ct=((D.logi.comtrade||{}).countries||{})[k];if(!pw&&!ct)return"";
+ let h='<div class="h3">物流与贸易</div>';
+ if(pw)h+='<div class="it"><time>港口（近 30 天）</time><div>靠港 '+nf(pw.calls30)+chg(pw.calls30,pw.calls_prev)+' · 进口 '+wt(pw.import30)+chg(pw.import30,pw.import_prev)+' · 出口 '+wt(pw.export30)+chg(pw.export30,pw.export_prev)+'<small>IMF PortWatch · '+bj(D.logi.portwatch.data_until)+'</small></div></div>'+(pw.ports||[]).map(x=>'<div class="it"><time></time><div>'+esc(x.name)+'<small>靠港 '+nf(x.calls30)+' · 进口 '+wt(x.import30)+' · 出口 '+wt(x.export30)+'</small></div></div>').join("");
+ if(ct)h+='<div class="it"><time>'+esc(D.logi.comtrade.year)+'</time><div>中国对其出口 '+usd(ct.export)+' · 自其进口 '+usd(ct.import)+'<small>UN Comtrade</small></div></div>';
+ return h}
+const TRD={};let FACTS=null,FACTSP=null;
+function lazy(k){if(!TRD[k]){TRD[k]="…";get("data/trade/"+k+".json").then(x=>{TRD[k]=x;if(CT===k)render()}).catch(()=>{TRD[k]={}})}
+ if(!FACTS&&!FACTSP)FACTSP=get("data/country_facts.json").then(x=>{FACTS=x;if(CT)render()}).catch(()=>{FACTS={countries:{}}})}
+const hsN=h=>EN()?(h==="TOTAL"?"Total":"HS "+h):((D.hs||{})[h]||"HS "+h);
+function factsBlock(k){const f=((FACTS||{}).countries||{})[k];if(!f)return"";const wb=f.wb||{},v=c=>(wb[c]||[])[0],y=c=>(wb[c]||[])[1],nm=a=>(a||[]).map(x=>EN()?(x[1]||x[0]):x[0]).join("、");
+ const rows=[];if(f.hos&&f.hos.length)rows.push(["国家元首",nm(f.hos)]);if(f.hog&&f.hog.length)rows.push(["政府首脑",nm(f.hog)]);
+ if(v("NY.GDP.MKTP.CD")!=null)rows.push(["GDP",usd(v("NY.GDP.MKTP.CD"))+(v("NY.GDP.MKTP.KD.ZG")!=null?" · "+(v("NY.GDP.MKTP.KD.ZG")>=0?"+":"")+v("NY.GDP.MKTP.KD.ZG").toFixed(1)+"%":"")+" ("+y("NY.GDP.MKTP.CD")+")"]);
+ if(v("NV.AGR.TOTL.ZS")!=null&&v("NV.IND.TOTL.ZS")!=null&&v("NV.SRV.TOTL.ZS")!=null)rows.push(["产业结构","农业 "+v("NV.AGR.TOTL.ZS").toFixed(0)+"% · 工业 "+v("NV.IND.TOTL.ZS").toFixed(0)+"% · 服务业 "+v("NV.SRV.TOTL.ZS").toFixed(0)+"%"]);
+ if(v("DT.DOD.DECT.CD")!=null)rows.push(["外债",usd(v("DT.DOD.DECT.CD"))+" ("+y("DT.DOD.DECT.CD")+")"]);
+ if(v("MS.MIL.XPND.CD")!=null)rows.push(["军费",usd(v("MS.MIL.XPND.CD"))+(v("MS.MIL.XPND.GD.ZS")!=null?" · "+v("MS.MIL.XPND.GD.ZS").toFixed(1)+"% GDP":"")+" ("+y("MS.MIL.XPND.CD")+")"]);
+ if(v("GB.XPD.RSDV.GD.ZS")!=null)rows.push(["研发",v("GB.XPD.RSDV.GD.ZS").toFixed(2)+"% GDP ("+y("GB.XPD.RSDV.GD.ZS")+")"]);
+ if(f.research&&f.research.works)rows.push(["论文",nf(f.research.works)+" ("+f.research.year+", OpenAlex)"]);
+ return rows.length?'<div class="h3">概况</div>'+rows.map(r=>'<div class="it"><time>'+r[0]+'</time><div>'+esc(r[1])+'</div></div>').join("")+'<p class="small mute" style="margin:4px 0 0">世界银行 · SIPRI · Wikidata · OpenAlex</p>':""}
+function tradeBlock(k){const t=TRD[k];if(!t||t==="…"||!t.iso3)return"";let h='<div class="h3">贸易（'+esc(t.year||"")+'）</div>';
+ if(t.total)h+='<div class="it"><time>总额</time><div>出口 '+usd(t.total.x)+' · 进口 '+usd(t.total.m)+'<small>UN Comtrade · '+esc(t.partners_basis||"")+'</small></div></div>';
+ const ind=(t.industries||[]).filter(r=>r.hs!=="TOTAL");if(ind.length)h+='<div class="small mute" style="margin-top:8px">主要行业</div>'+ind.slice(0,MORE.ind?97:8).map(r=>'<div class="it"><time>'+esc(hsN(r.hs))+'</time><div>出口 '+usd(r.x)+' · 进口 '+usd(r.m)+'</div></div>').join("")+(ind.length>8?'<button class="more" data-a="m:ind">'+(MORE.ind?"收起":"全部 "+ind.length+" 个行业")+'</button>':"");
+ if((t.partners||[]).length)h+='<div class="small mute" style="margin-top:8px">主要伙伴</div>'+t.partners.slice(0,6).map(p=>'<div class="it"><time>'+esc((cinfo(p.iso3)&&cn(cinfo(p.iso3)))||p.name)+'</time><div>出口 '+usd(p.x)+' · 进口 '+usd(p.m)+'</div></div>').join("");
+ const ch=((t.china||{}).industries||[]).filter(r=>r.hs!=="TOTAL");if(ch.length)h+='<div class="small mute" style="margin-top:8px">与中国（中国申报，'+esc(t.china.year)+'）</div>'+ch.slice(0,5).map(r=>'<div class="it"><time>'+esc(hsN(r.hs))+'</time><div>中国出口 '+usd(r.x)+' · 进口 '+usd(r.m)+'</div></div>').join("");
+ return h}
+let CHOKE_OPEN=(()=>{try{return localStorage.getItem("bri_choke")==="1"}catch(e){return false}})(),CHOKE_K="sea";
+const ckRow=x=>{const hot=(x.incidents7||0)>0||(x.hazards||[]).length||x.airport,ln=(x.latest||[])[0];
+ return'<div class="crow" style="cursor:default;align-items:flex-start"><i style="background:'+(hot?"#ff9f43":"#5fe0a8")+';margin-top:6px"></i><span class="nm" style="white-space:normal">'+esc(EN()?x.en:x.zh)+(ln?'<small style="display:block;margin-top:2px"><a href="'+esc(ln.url)+'" target="_blank" rel="noopener" class="keep">'+esc(ln.title)+' ↗</a></small>':"")+((x.hazards||[]).length?'<small style="display:block;color:#ff9f43">'+esc(x.hazards[0].text||"")+' · '+x.hazards[0].km+' km</small>':"")+(x.airport?'<small style="display:block;color:#ff9f43">'+esc((x.airport.severity||"")+" "+(x.airport.reason||""))+'</small>':"")+'</span><span class="ct"><span'+((x.incidents7||0)?' class="on"':"")+'>'+(x.incidents7||0)+' 条异常报道</span></span></div>'};
+const pct=(a,b)=>b?" "+(a>=b?"+":"")+Math.round((a-b)/b*100)+"%":"";
+const portRow=(k,v)=>'<div class="crow" style="cursor:default"><i style="background:#6aa8e0"></i><span class="nm">'+esc(cn(cinfo(k)))+' · '+esc(((v.ports||[])[0]||{}).name||"")+'</span><span class="ct"><span>靠港 '+nf(v.calls30)+pct(v.calls30,v.calls_prev)+'</span></span></div>';
+function chokeBlock(){const c=(D.logi.portwatch||{}).chokepoints,L=(D.land||{}).items||[],PC=Object.entries(((D.logi.portwatch||{}).countries)||{});if((!c||!c.items)&&!L.length)return"";
+ const K=[["sea","海运",(c&&c.items?c.items.length:0)+PC.length],["air","航空",L.filter(x=>x.kind==="air").length],["rail","铁路",L.filter(x=>x.kind==="rail").length],["road","公路",L.filter(x=>x.kind==="road").length]].filter(k=>k[2]);
+ let h='<button class="cktog" data-a="ck:toggle" aria-expanded="'+CHOKE_OPEN+'"><span>咽喉要道（近 7 天）</span><span class="mute small">'+K.map(k=>k[1]+" "+k[2]).join(" · ")+'</span><span class="cv" style="transform:rotate('+(CHOKE_OPEN?90:0)+'deg)">›</span></button>';
+ if(!CHOKE_OPEN)return h;
+ if(!K.some(k=>k[0]===CHOKE_K))CHOKE_K=K[0][0];
+ const all=!!MORE["ck_"+CHOKE_K],N=20,more=n=>n>N?'<button class="more" data-a="m:ck_'+CHOKE_K+'">'+(all?"收起":"显示全部 "+n)+'</button>':"";
+ h+='<div class="cktabs">'+K.map(k=>'<button data-a="ck:'+k[0]+'" aria-selected="'+(CHOKE_K===k[0])+'">'+k[1]+'</button>').join("")+'</div>';
+ if(CHOKE_K==="sea"){h+=(c&&c.items?'<div class="small mute" style="margin-top:8px">海上咽喉要道（近 7 天通行）</div><div class="list">'+c.items.map(x=>'<div class="crow" style="cursor:default"><i style="background:#6aa8e0"></i><span class="nm">'+esc(x.name)+'</span><span class="ct"><span>'+nf(x.transits7)+' 次通行'+pct(x.transits7,x.transits_prev)+'</span></span></div>').join("")+'</div>':"");
+  const ps=PC.sort((a,b)=>Math.abs((b[1].calls30-(b[1].calls_prev||b[1].calls30))/(b[1].calls_prev||1))-Math.abs((a[1].calls30-(a[1].calls_prev||a[1].calls30))/(a[1].calls_prev||1)));
+  h+='<div class="small mute" style="margin-top:10px">各国港口（近 30 天，按变化排序）</div><div class="list">'+(all?ps:ps.slice(0,N)).map(([k,v])=>portRow(k,v)).join("")+'</div>'+more(ps.length)+'<p class="small mute" style="margin:4px 0 0">IMF PortWatch · '+bj((c||{}).data_until||D.logi.portwatch.data_until)+'</p>'}
+ else{const it=L.filter(x=>x.kind===CHOKE_K).sort((a,b)=>(b.incidents7||0)-(a.incidents7||0)||(b.hazards||[]).length-(a.hazards||[]).length||(b.news7||0)-(a.news7||0));
+  h+='<div class="list" style="margin-top:8px">'+(all?it:it.slice(0,N)).map(ckRow).join("")+'</div>'+more(it.length)+'<p class="small mute" style="margin:4px 0 0">Google 新闻 · USGS / GDACS / NASA EONET · World Monitor · OurAirports · Natural Earth · '+bj(D.land.generated)+'</p>'}
+ return h}
+function countryChoke(k){const L=((D.land||{}).items||[]).filter(x=>(x.countries||[]).includes(k)),pv=((D.logi.portwatch||{}).countries||{})[k];if(!L.length&&!pv)return"";
+ const G=[["air","航空"],["rail","铁路"],["road","公路"]];let h='<div class="h3">咽喉要道（近 7 天）</div>';
+ G.forEach(([g,t])=>{const it=L.filter(x=>x.kind===g).sort((a,b)=>(b.incidents7||0)-(a.incidents7||0));if(it.length)h+='<div class="small mute" style="margin-top:6px">'+t+'</div><div class="list">'+it.map(ckRow).join("")+'</div>'});
+ return h}
+function countryView(k){const c=cinfo(k);if(!c)return"";const w=(D.wm.countries||{})[k]||{},l=(D.clive.countries||{})[k]||{},a=advOf(k),as=D.asum[k];
+ let h='<button class="back" data-a="cl:1">← 全部国家</button><h2 class="h2">'+esc(cn(c))+' <span class="mute" style="font-size:13px;font-family:inherit">'+(EN()?"":esc(c.en)+' · ')+esc(c.region)+'</span></h2>';
+ h+='<div class="stat">'+(a?'<span class="lv" style="background:'+ADVS[a]+'">'+ADVZ[a]+'</span>':"")+(l.us?'<a href="'+esc(l.us.url)+'" target="_blank" rel="noopener">美国 '+esc(l.us.level?"Level "+l.us.level:l.us.title)+' ↗</a>':"")+(w.cii?'<span>CII '+w.cii.score+'</span>':"")+(c.note?'<span>'+esc(c.note)+'</span>':"")+'</div>';
+ h+='<div style="margin:12px 0 4px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn" data-a="dk:'+k+'">用这个国家推演</button><button class="btn ghost" data-a="sk:'+k+'">种子文档</button></div>';lazy(k);h+=factsBlock(k);
+ h+=sec("冲突事件（UCDP）",w.ucdp,e=>iL(esc((e.t||"").slice(0,10)),e.a+" — "+e.b,"死亡 "+esc(e.deaths)+" · "+esc(e.src||"")));
+ h+=sec("新闻要闻",w.stories,e=>iL(bj(e.t),e.title,esc(e.source||"")+(e.sources>1?" 等 "+e.sources+" 家":""),e.url));
+ h+=sec("互联网中断",w.outages,e=>iL(bj(e.t),e.title,esc(e.text||""),e.url));
+ h+=sec("地震",l.quakes,e=>iL(bj(e.t),"M"+e.mag+" "+e.text,"USGS",e.url));
+ h+=sec("灾害警报",l.gdacs,e=>iL(bj(e.t),e.text,"GDACS "+esc(e.level)+" · "+esc(e.type),e.url));
+ h+=sec("自然事件",l.eonet,e=>iL(bj(e.t),e.text,"NASA EONET · "+esc(e.type),e.url));
+ h+=sec("疫情",w.outbreaks,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url));
+ h+=sec("机场",w.airports,e=>iL(esc(e.iata),e.name,esc(e.severity)+" "+esc(e.reason||"")));
+ h+=sec("旅行建议更新",w.advisories,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url),4);
+ h+=logiBlock(k);h+=countryChoke(k);h+=tradeBlock(k);
+ h+=sampleBlock(k);
+ h+='<div class="h3">中国融资项目'+(as?' <span class="mute">'+(EN()?as.n+" · ≈ $"+(as.usd/1e9).toFixed(1)+" bn":as.n+' 个 · 约 '+(as.usd/1e8).toFixed(1)+' 亿美元')+'</span>':"")+'</div>';
+ const pj=CPJ[k];if(!as)h+='<p class="small mute">AidData 没有收录这个国家带位置的项目。</p>';
+ else if(!pj){h+='<p class="small mute">读取中…</p>';get("data/countries/"+k+".json").then(x=>{CPJ[k]=x.projects||[];if(CT===k)render()}).catch(()=>{CPJ[k]=[];render()})}
+ else{h+=(PJALL?pj:pj.slice(0,10)).map(x=>iL(esc(x.year),x.title,esc(x.sector)+" · "+esc(x.status)+(x.amount?" · "+(EN()?"$"+(x.amount/1e6).toFixed(0)+"m":(x.amount/1e6).toFixed(0)+" 百万美元"):""),x.osm)).join("")+(pj.length>10?'<button class="more" data-a="pa:1">'+(PJALL?"收起":"全部 "+pj.length+" 个")+'</button>':"")}
+ return h}
+const SCOPE=()=>(ls.get("bri_scope")||"").split(",").filter(k=>cinfo(k)).slice(0,5);
+let FILES=[];const UNSEL=new Set();
+const KEY=k=>ls.get("bri_k_"+k)||"";
+function chipsHTML(){const sc=SCOPE();return sc.length?sc.map(k=>'<span class="chip">'+esc(cn(cinfo(k)))+'<button type="button" data-a="rm:'+k+'" aria-label="移除">×</button></span>').join(""):'<span class="small mute">未选国家（可以不选）</span>'}
+function filesHTML(){return FILES.map((f,i)=>'<span class="chip" style="margin:6px 6px 0 0">'+esc(f.name)+' · '+(f.size/1048576).toFixed(1)+' MB<button type="button" data-a="fx:'+i+'" aria-label="移除">×</button></span>').join("")}
+function seedsMulti(){const sc=SCOPE();if(!sc.length)return'<p class="small mute">选了国家才有种子文档。</p>';const all=sc.flatMap(k=>((D.seeds[k]||{}).files||[]).map(f=>f.path)),on=all.filter(p=>!UNSEL.has(p));
+ return'<div class="small" style="display:flex;gap:10px;align-items:center;margin:2px 0 4px"><span class="mute">已勾选 '+on.length+' / '+all.length+'</span><button type="button" class="more" data-a="sa:1">全选</button><button type="button" class="more" data-a="sa:0">全不选</button></div>'+sc.map(k=>(sc.length>1?'<div class="small" style="margin-top:8px;color:var(--ink)">'+esc(cn(cinfo(k)))+'</div>':"")+seedPreview(k,true)).join("")}
+function selSeeds(){return SCOPE().flatMap(k=>((D.seeds[k]||{}).files||[]).map(f=>f.path)).filter(p=>!UNSEL.has(p))}
+function mailHref(){const sc=SCOPE().map(k=>cn(cinfo(k))).join("、");const sub=EN()?"Custom simulation enquiry":"定制推演咨询";
+ const body=EN()?"Hello,\n\nI would like a custom simulation.\n\nOrganisation:\nCountries / industries:"+(sc?" "+sc:"")+"\nEvent or decision:\nProject size (approx.):\nUrgency (standard / priority / express / emergency):\nContact:\n":"您好，\n\n我想定制推演。\n\n单位：\n国家 / 行业："+(sc?sc:"")+"\n要推演的事件或决策：\n项目金额（大约）：\n紧急程度（标准 / 加急 / 特急 / 紧急）：\n联系方式：\n";
+ return"https://mail.google.com/mail/?view=cm&fs=1&to=yizebaba%40gmail.com&su="+encodeURIComponent(sub)+"&body="+encodeURIComponent(body)}
+function tabDrill(){const pv=KEY("prov")||"deepseek",P=PRESETS.find(x=>x[0]===pv)||PRESETS[0];
+ let h='<h2 class="h2">群体智能推演</h2><p class="small mute" style="margin:-4px 0 10px">推演引擎从种子文档里找出真实的人和机构，建知识图谱，生成大量智能体在模拟社交平台上互动，最后写出推演报告。</p>';
+ h+='<form id="df" autocomplete="off"><label>国家（最多 5 个）</label><div class="chips" id="dchips">'+chipsHTML()+'</div>'+cselect("dadd","",true)
+ +'<label for="dreq">推演要求</label><textarea id="dreq" required minlength="10" placeholder="自己写：想推演的事件、关心的群体（政府、出资方、承包商、当地居民、媒体……）、想回答的问题和时间范围。">'+esc(ls.get("bri_draft")||"")+'</textarea>'
+ +'<label>你自己的资料</label><label class="btn ghost" style="display:inline-flex;margin:0;cursor:pointer;padding:7px 14px;font-size:13px">＋ 上传文件<input id="dfiles" type="file" multiple accept=".pdf,.md,.markdown,.txt,application/pdf,text/markdown,text/plain" style="display:none"></label><p class="small mute" style="margin:6px 0 0">PDF、Markdown、TXT · 最多 20 个 · 单个 ≤ 50 MB · 合计 ≤ 100 MB</p><div id="dflist" class="small">'+filesHTML()+'</div>'
+ +'<div class="grid2"><div><label for="drounds">模拟轮数上限</label><input id="drounds" type="number" min="5" max="200" placeholder="自动"></div><div><label for="dtitle">标题（可空）</label><input id="dtitle" type="text" maxlength="60"></div></div>'
+ +'<div class="h3">种子文档（勾选的会一起上传）</div><div id="dseeds">'+seedsMulti()+'</div>'
+ +'<div class="h3">你的密钥</div><div class="keys"><label for="dprov">模型</label><select id="dprov">'+PRESETS.map(x=>'<option value="'+x[0]+'"'+(x[0]===P[0]?" selected":"")+'>'+esc(x[1])+'</option>').join("")+'</select>'
+ +'<div class="grid2"><div><label for="dbase">接口地址</label><input id="dbase" type="text" placeholder="https://…/v1" value="'+esc(KEY("base")||P[2])+'"></div><div><label for="dmodel">模型名</label><input id="dmodel" type="text" value="'+esc(KEY("model")||P[3])+'"></div></div>'
+ +'<label for="dkey">模型 API Key</label><input id="dkey" type="password" placeholder="sk-…" value="'+esc(KEY("llm"))+'">'
+ +'<label for="dzep">Zep API Key <a class="small" href="https://app.getzep.com/" target="_blank" rel="noopener" style="margin-left:6px">免费申请 ↗</a></label><input id="dzep" type="password" placeholder="z_…" value="'+esc(KEY("zep"))+'">'
+ +'<label class="chk"><input type="checkbox" id="dremember"'+(KEY("llm")?" checked":"")+'>在本浏览器记住</label>'
+ +'<p class="small mute" style="margin:8px 0 0">密钥只用于这一次推演：运行开始时取走即删除，不进日志。费用记在你自己的账户。</p><p class="small" style="margin:6px 0 0;color:#e9b98a">推演要求和报告会公开在“全部推演记录”里；敏感内容请用定制推演。</p></div>'
+ +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center"><button class="btn" type="submit" id="dgo">开始推演</button><a class="btn ghost" id="dmail" style="text-decoration:none" target="_blank" rel="noopener" href="'+mailHref()+'">定制推演 ✉</a></div><div class="msg" id="dmsg"></div></form>';
+ h+='<div class="h3">我的推演</div><div id="dmine">'+mineHTML()+'</div>';
+ h+='<div class="h3">全部推演记录</div><p class="small mute" style="margin:0 0 6px">'+DISC()+'</p><div id="druns">'+runsHTML()+'</div>';return h}
+function cselect(id,v,add){return'<select id="'+id+'">'+(add?'<option value="">＋ 添加国家</option>':"")+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(cn(c))+'</option>').join("")+'</optgroup>').join("")+'</select>'}
+function seedPreview(sc,pick){const fs=((D.seeds[sc]||{}).files||[]).slice();
+ return fs.length?'<div class="seedl keep">'+fs.map(f=>'<div class="sr">'+(pick?'<input type="checkbox" class="sk" data-p="'+esc(f.path)+'"'+(UNSEL.has(f.path)?"":" checked")+' style="width:auto;margin:0 0 0 12px" aria-label="上传这份">':"")+'<button type="button" class="op" data-a="doc:'+esc(f.path)+'"><span>'+esc(EN()&&f.title_en?f.title_en:f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>'+(pick?"":'<button type="button" class="dl" data-a="dl:'+esc(f.path)+'">'+(EN()?"Use for simulation ↓":"用这个文档推演 ↓")+'</button>')+'</div>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+(EN()?' docs, ':' 份，')+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
+const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
+const scN=v=>scopeL(v).map(k=>cn(cinfo(k))||k).join(EN()?", ":"、");
+let JOBS=(()=>{try{return JSON.parse(ls.get("bri_jobs")||"[]")}catch(e){return[]}})(),JST={};
+const JS={queued:["排队中","#f2c14e"],dispatched:["即将开始","#f2c14e"],running:["运行中","#6aa8e0"],done:["完成","#5fe0a8"],failed:["失败","#ff7a5c"],expired:["已过期","#8e9099"]};
+function mineHTML(){if(!JOBS.length)return'<p class="small mute">还没有提交。</p>';
+ return JOBS.map(j=>{const s=JST[j.id]||{state:"queued"},c=JS[s.state]||JS.queued;return'<div class="run"><b>'+esc(j.title||scN(j.scope))+'</b><span class="st" style="background:'+c[1]+'22;color:'+c[1]+'">'+c[0]+'</span><div class="small mute">'+bj(j.t)+' · '+esc(scN(j.scope))+(s.error?' · '+esc(s.error):"")+'</div><div class="small" style="margin-top:4px">'+(s.dir&&expHTML(D.runs.find(x=>x.dir===s.dir)||{dir:s.dir,has_report:s.state==="done"})?expHTML(D.runs.find(x=>x.dir===s.dir)||{dir:s.dir,has_report:s.state==="done"})+' · ':"")+(s.run_url?'<a class="mute" href="'+esc(s.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a>':'<span class="mute">编号 '+esc(j.id)+'</span>')+'</div></div>'}).join("")}
+const DISC=()=>EN()?"Simulation, not fact: generated by AI agents from the user's own prompt and model. The data, process and results are simulated — not facts, forecasts or advice. BRI-Empower and its developers accept no liability for this content or its use.":"推演内容，不是事实：由 AI 智能体根据使用者自己写的要求、用使用者自己的模型生成。推演数据、过程和结果都是模拟，不是事实、预测或任何建议。本站和开发团队不对推演内容及其使用承担责任。";
+const EXPL=[["report.pdf","PDF"],["report.docx","Word"],["report.md","Markdown"],["report.html","HTML"],["process.zip","过程数据 CSV"]];
+function expHTML(r){if(!r||!r.dir)return"";const ex=r.exports||[];let h=(r.has_report||ex.includes("report.md"))?'<button class="more" data-a="rep:'+esc(r.dir)+'">看报告</button>':"";
+ h+=EXPL.filter(e=>ex.includes(e[0])).map(e=>(h?' · ':'')+'<button class="more" data-a="dx:'+esc(r.dir+"/"+e[0])+'">'+e[1]+' ↓</button>').join("");
+ if(!ex.length&&r.has_report)h+=' · <button class="more" data-a="dx:'+esc(r.dir+"/REPORT.md")+'">Markdown ↓</button>';return h}
+function runsHTML(){return D.runs.length?D.runs.map(r=>'<div class="run"><b>'+esc(r.title||scN(r.scope))+'</b><span class="st" style="background:'+(r.ok?"#5fe0a822":"#ff7a5c22")+';color:'+(r.ok?"#5fe0a8":"#ff7a5c")+'">'+(r.ok?"完成":"失败")+'</span><div class="small mute">'+bj(r.started)+' · '+esc(scN(r.scope))+(r.error?' · '+esc(r.error):"")+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+(expHTML(r)?expHTML(r)+' · ':"")+'<a class="mute" href="'+esc(r.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join(""):'<p class="small mute">还没有推演。</p>'}
+function tabSeeds(){const k=ls.get("bri_seedc")||CT||"PAK";return'<div class="srch">'+cselect("seedc",k)+'</div>'+seedPreview(k)}
+function tabSources(){let h='';
+ const fresh={worldmonitor:D.wm.generated,countries:null,usgs:D.clive.generated,gdacs:D.live.generated,eonet:D.live.generated,gnews:D.live.generated,ioda:D.live.generated,us_adv:D.live.generated,uk_adv:D.live.generated,x:0};
+ h+=D.sources.map(s0=>{const s=EN()&&s0.en?Object.assign({},s0,s0.en,{how:""}):s0;return'<div class="src keep"><b>'+esc(s.name)+'</b> <a class="small" href="'+esc(/^https?:/.test(s.url)?s.url:"https://github.com/"+REPO+"/blob/main/"+s.url)+'" target="_blank" rel="noopener">'+(EN()?"Link":"链接")+' ↗</a><dl><dt>'+(EN()?"License":"许可")+'</dt><dd>'+esc(s.license)+'</dd><dt>'+(EN()?"Updates":"更新")+'</dt><dd>'+esc(s.cadence)+(fresh[s.id]?(EN()?", latest ":"，最近一次 ")+bj(fresh[s.id]):"")+'</dd><dt>'+(EN()?"Use":"用途")+'</dt><dd>'+esc(s.use)+'</dd>'+(s.how?'<dt>获取</dt><dd>'+esc(s.how)+'</dd>':"")+(s.cite?'<dt>'+(EN()?"Cite":"引用")+'</dt><dd>'+esc(s.cite)+'</dd>':"")+'</dl></div>'}).join("");return h}
+const cls=r=>/错误/.test(r[0])?"fix":/^(对|一致|有)|一致$/.test(r[3])?"ok":/^(缺|漏)/.test(r[3])?"miss":"part";
+const COL={ok:"#5fe0a8",part:"#f2c14e",miss:"#ff7a5c",fix:"#6aa8e0"},CNM={ok:"相符",part:"部分 / 有偏差",miss:"缺失或漏报"};
+function tabRetro(){const ex=D.runs.filter(r=>r.ok&&(r.has_report||(r.exports||[]).length));
+ let h='<h2 class="h2">推演示例</h2>'+(ex.length?'<p class="small mute" style="margin:-4px 0 8px">'+DISC()+'</p>'+ex.slice(0,10).map(r=>'<div class="run"><b>'+esc(r.title||scN(r.scope))+'</b><div class="small mute">'+bj(r.started)+' · '+esc(scN(r.scope))+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+expHTML(r)+'</div></div>').join(""):'<p class="small mute">第一批示例推演完成后会显示在这里：推演要求、所用的种子文档、报告和过程数据。</p>');
+ h+='<div style="margin-top:22px"></div>';
+ return h+(EN()?tabRetro0():'<div class="keep">'+tabRetro0()+'</div>')}
+function tabRetro0(){const Z=D.retro,R=EN()&&D.retroEn?D.retroEn:D.retro;const zr=(ti,ri)=>((Z.tests[ti]||{}).rows||[])[ri]||[];if(!R)return'<p class="mute">没有测试结果。</p>';const T={ok:0,part:0,miss:0};R.tests.forEach((t,ti)=>t.rows.forEach((r,ri)=>{const k=cls(zr(ti,ri));if(T[k]!=null)T[k]++}));
+ let h='<h2 class="h2" style="font-size:16px">种子数据准确度检验</h2><p class="lead">'+esc(R.method)+'</p><div class="tally">'+["ok","part","miss"].map(k=>'<div><b style="color:'+COL[k]+'">'+T[k]+'</b><span>'+CNM[k]+'</span></div>').join("")+'</div>';
+ R.tests.forEach((t,ti)=>{const op=!!OPEN[t.id];h+='<div class="tc"><button class="th" data-a="t:'+t.id+'" aria-expanded="'+op+'"><span><b style="font-weight:500">'+esc(t.name)+'</b><small>'+esc(t.mode)+'</small></span><span class="dots">'+t.rows.map((r,ri)=>'<i style="background:'+COL[cls(zr(ti,ri))]+'"></i>').join("")+'</span><span class="cv" style="transform:rotate('+(op?90:0)+'deg)">›</span></button>'
+  +(op?'<div class="tr" style="grid-template-columns:1fr;color:var(--mute);font-size:12px">离项目：'+esc(t.nearest_project)+'</div>'+t.rows.map((r,ri)=>{const k=cls(zr(ti,ri));return'<div class="tr"><i style="background:'+COL[k]+'"></i><div><div style="font-weight:500">'+esc(r[0])+'</div><div class="small" style="color:'+COL[k]+'">'+esc(r[3])+'</div><dl><dt>平台</dt><dd>'+esc(r[1])+'</dd>'+(r[2]&&r[2]!=="—"?'<dt>参考</dt><dd>'+esc(r[2])+'</dd>':"")+'</dl></div></div>'}).join(""):"")+'</div>'});
+ h+='<div class="note"><b style="color:var(--ink)">结论</b>'+(R.overall||[]).map(x=>'<p style="margin:6px 0 0">'+esc(x)+'</p>').join("")+'</div>';return h}
+const TABS=[["drill","推演"],["live","国家"],["seeds","种子文档"],["sources","数据源"],["retro","推演示例"]];
+function render(){if(document.activeElement&&document.activeElement.closest&&document.activeElement.closest("#df"))return;
+ $("tabs").innerHTML=TABS.map(t=>'<button role="tab" data-a="tab:'+t[0]+'" aria-selected="'+(TAB===t[0])+'">'+t[1]+'</button>').join("");
+ const b=$("body"),y=b.scrollTop;let h;
+ if(VIEW)h='<div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><button class="back" data-a="back:1">← 返回</button>'+(VIEW.path&&/^seeds\//.test(VIEW.path)?'<button class="btn ghost" style="padding:5px 12px;font-size:12px" data-a="dl:'+esc(VIEW.path)+'">'+(EN()?"Use for simulation ↓":"用这个文档推演 ↓")+'</button>':"")+'</div>'+(VIEW.raw?VIEW.html:'<div class="md">'+VIEW.html+'</div>');
+ else h=TAB==="drill"?tabDrill():TAB==="seeds"?tabSeeds():TAB==="sources"?tabSources():TAB==="retro"?tabRetro():tabLive();
+ if(D.errs&&D.errs.length)h+='<p class="note">这次没读到：'+esc(D.errs.join("、"))+'。几分钟后会自动重试。</p>';
+ b.innerHTML=h;trNode(b);trNode($("tabs"));b.scrollTop=y}
+async function dlDoc(path,fname){try{let blob;if(/^https?:/.test(path)){const r=await fetch(path,{cache:"no-store"});if(!r.ok)throw new Error(r.status);blob=await r.blob()}else{const md=await get(path,true);blob=new Blob([md],{type:"text/markdown;charset=utf-8"})}const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=fname||path.replace(/^seeds\//,"").replace(/\//g,"_");document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500)}catch(e){alert((EN()?"Download failed: ":"下载失败：")+e.message)}}
+async function openRep(dir){const r=D.runs.find(x=>x.dir===dir)||{dir};VIEW={html:'<p class="mute">读取中…</p>'};render();
+ let md="";try{md=await get(RUNRAW+dir+"/report.md",true)}catch(e){try{md=await get(RUNRAW+dir+"/REPORT.md",true)}catch(e2){}}
+ VIEW={raw:1,html:'<div class="note" style="border-color:#c9a227;color:var(--ink);margin-top:0"><b>'+(EN()?"Simulation result":"推演结果")+'</b><p style="margin:6px 0 0">'+esc(DISC())+'</p><div class="small" style="margin-top:8px">'+expHTML(Object.assign({},r,{has_report:false}))+'</div></div>'+(md?'<div class="md">'+DOMPurify.sanitize(marked.parse(md))+'</div>':'<p class="mute">'+(EN()?"No report yet.":"还没有报告。")+'</p>')};render();$("body").scrollTop=0}
+async function openDoc(path,title){VIEW={path,html:'<p class="mute">读取中…</p>'};render();try{const md=await get(path,true);VIEW={path,html:DOMPurify.sanitize(marked.parse(md))}}catch(e){VIEW={html:'<p class="mute">读不到 '+esc(path)+'：'+esc(e.message)+'</p>'}}render();$("body").scrollTop=0}
+document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]");if(!a)return;const[k,v]=a.dataset.a.split(/:(.*)/s);
+ if(k==="tab"){TAB=v;VIEW=null;ls.set("bri_tab",v);if(v==="drill")pollJobs()}
+ else if(k==="c"){selectC(v);return}
+ else if(k==="cl"){CT=null;SEL=null;glData()}else if(k==="pa")PJALL=!PJALL;
+ else if(k==="dk"){const sc=SCOPE().filter(x=>x!==v);ls.set("bri_scope",[v].concat(sc).slice(0,5).join(","));TAB="drill";VIEW=null;ls.set("bri_tab","drill");pollJobs()}
+ else if(k==="fx"){FILES.splice(+v,1);$("dflist").innerHTML=filesHTML();trNode($("dflist"));return}
+ else if(k==="sa"){SCOPE().flatMap(x=>((D.seeds[x]||{}).files||[]).map(f=>f.path)).forEach(p=>v==="1"?UNSEL.delete(p):UNSEL.add(p));reSeeds();return}
+ else if(k==="rm"){ls.set("bri_scope",SCOPE().filter(x=>x!==v).join(","));$("dchips").innerHTML=chipsHTML();$("dseeds").innerHTML=seedsMulti();trNode($("dchips"));trNode($("dseeds"));return}else if(k==="sk"){ls.set("bri_seedc",v);TAB="seeds"}
+ else if(k==="p"){SEL=SEL===v?null:v;const p=D.projects.find(x=>x.id===v);if(p&&SEL)focus(p.centroid[0],p.centroid[1])}
+ else if(k==="z")ZOOM=!ZOOM;else if(k==="m")MORE[v]=!MORE[v];else if(k==="t")OPEN[v]=!OPEN[v];
+ else if(k==="ck"){if(v==="toggle"){CHOKE_OPEN=!CHOKE_OPEN;ls.set("bri_choke",CHOKE_OPEN?"1":"0")}else CHOKE_K=v}
+ else if(k==="doc"){openDoc(v);return}else if(k==="dl"){dlDoc(v);return}else if(k==="rep"){openRep(v);return}else if(k==="dx"){dlDoc(RUNRAW+v,v.replace(/^mirofish-bri\//,"").replace(/\//g,"_"));return}else if(k==="back")VIEW=null;
+ render()});
+document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value);if(e.target.id==="qs"){QS=e.target.value;const p=e.target.selectionStart;render();const q=$("qs");if(q){q.focus();q.setSelectionRange(p,p)}}});
+document.addEventListener("click",e=>{if(e.target.id!=="lang")return;LANG=EN()?"zh":"en";try{localStorage.setItem("bri_lang",LANG)}catch(x){}applyLang();render();glData()});
+function selectC(k){CT=k;SEL=null;PJALL=false;TAB="live";VIEW=null;const c=cinfo(k);if(c)focus(c.lat,c.lon);glData();render();$("body").scrollTop=0}
+const reSeeds=()=>{$("dseeds").innerHTML=seedsMulti();trNode($("dseeds"))};
+document.addEventListener("change",e=>{if(e.target.id==="dfiles"){for(const f of e.target.files||[])if(!FILES.some(x=>x.name===f.name&&x.size===f.size))FILES.push(f);e.target.value="";$("dflist").innerHTML=filesHTML();trNode($("dflist"))}
+ if(e.target.classList&&e.target.classList.contains("sk")){const p=e.target.dataset.p;e.target.checked?UNSEL.delete(p):UNSEL.add(p);reSeeds();return}
+ if(e.target.id==="dadd"&&e.target.value){const v=e.target.value,sc=SCOPE();if(!sc.includes(v)&&sc.length<5)ls.set("bri_scope",sc.concat([v]).join(","));e.target.value="";$("dchips").innerHTML=chipsHTML();$("dseeds").innerHTML=seedsMulti();trNode($("dchips"));trNode($("dseeds"))}
+ if(e.target.id==="dprov"){const P=PRESETS.find(x=>x[0]===e.target.value);if(P&&P[0]!=="custom"){$("dbase").value=P[2];$("dmodel").value=P[3]}}if(e.target.id==="seedc"){ls.set("bri_seedc",e.target.value);render()}});
+document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const m=$("dmsg"),btn=$("dgo"),V=id=>($(id).value||"").trim();
+ const req=V("dreq");if(req.length<10){m.className="msg err";m.textContent="推演要求至少写 10 个字。";return}
+ if(!V("dkey")||!V("dbase")||!V("dmodel")){m.className="msg err";m.textContent="请填模型接口地址、模型名和 API Key。";return}
+ if(!V("dzep")){m.className="msg err";m.textContent="请填 Zep API Key。";return}
+ const rem=$("dremember").checked;[["prov",V("dprov")],["base",V("dbase")],["model",V("dmodel")],["llm",V("dkey")],["zep",V("dzep")]].forEach(([k,v])=>ls.set("bri_k_"+k,rem||k==="prov"||k==="base"||k==="model"?v:null));
+ btn.disabled=true;m.className="msg";m.textContent="正在检查密钥并提交…";
+ try{const sc=SCOPE().join(","),title=V("dtitle"),fl=FILES.slice(),seeds=selSeeds();
+  if(!fl.length&&!seeds.length)throw new Error(EN()?"Add at least one document: tick seed documents or upload your own":"至少要有一份文档：勾选种子文档，或上传自己的资料");
+  if(fl.length>20)throw new Error(EN()?"At most 20 files":"最多 20 个文件");let tot=0;for(const f of fl){if(!/\.(pdf|md|markdown|txt)$/i.test(f.name))throw new Error((EN()?"Unsupported format: ":"不支持的格式：")+f.name);if(f.size>52428800)throw new Error((EN()?"Over 50 MB: ":"超过 50 MB：")+f.name);tot+=f.size}if(tot>104857600)throw new Error(EN()?"Over 100 MB in total":"合计超过 100 MB");
+  if(seeds.length)seeds.unshift("seeds/00_sources.md");
+  const r=await fetch(MFQ+"submit",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({project:"bri",scope:sc,title,requirement:req,rounds:Number(V("drounds")||0),seeds,files:fl.map(f=>({name:f.name,size:f.size})),llm_base:V("dbase"),llm_model:V("dmodel"),llm_key:V("dkey"),zep_key:V("dzep")})});
+  let j=await r.json().catch(()=>({}));
+  if(r.ok&&j.id&&j.upload_token){let done=0;const P=async(path,b)=>{for(let t=0;t<4;t++){try{const x=await fetch(MFQ+path,{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(b)});const y=await x.json().catch(()=>({}));if(x.ok)return y;if(x.status<500)throw new Error(y.error||x.status)}catch(e){if(t===3||!/fetch|network|5\d\d/i.test(String(e.message)))throw e}await new Promise(z=>setTimeout(z,1500*(t+1)))}};
+   for(const f of fl){const d=await new Promise((ok,no)=>{const rd=new FileReader();rd.onload=()=>ok(String(rd.result).split(",")[1]||"");rd.onerror=()=>no(rd.error);rd.readAsDataURL(f)});
+    for(let i=0,k=0;i<d.length;i+=j.chunk,k++){await P("upload",{id:j.id,tok:j.upload_token,name:f.name.replace(/[\\/:*?"<>|\x00-\x1f]/g,"_").slice(-100),idx:k,data:d.slice(i,i+j.chunk)});done+=Math.min(j.chunk,d.length-i)*3/4;m.textContent=(EN()?"Uploading ":"正在上传 ")+Math.min(100,Math.round(done/tot*100))+"%"}}
+   j=Object.assign({},j,await P("commit",{id:j.id,tok:j.upload_token}))}
+
+  if(r.ok&&j.id){JOBS.unshift({id:j.id,t:new Date().toISOString(),scope:sc,title});JOBS=JOBS.slice(0,30);ls.set("bri_jobs",JSON.stringify(JOBS));JST[j.id]={state:"queued"};ls.set("bri_draft",null);FILES=[];if($("dflist"))$("dflist").innerHTML="";
+   m.className="msg ok";m.textContent="已排队。几分钟内开始运行，完整推演通常要几个小时。";$("dmine").innerHTML=mineHTML();trNode($("dmine"));setTimeout(pollJobs,3000)}
+  else{m.className="msg err";m.textContent=j.error||("提交失败（"+r.status+"）")}}
+ catch(x){m.className="msg err";m.textContent=(/^(最多|不支持|超过|合计|至少|上传|文件|At most|Unsupported|Over|Add)/.test(x.message)?"":"网络错误：")+x.message}btn.disabled=false;trNode(m)});
+let PJ=null;async function pollJobs(){clearTimeout(PJ);const ids=JOBS.filter(j=>!JST[j.id]||!["done","failed","expired"].includes(JST[j.id].state)).map(j=>j.id).slice(0,20);
+ if(ids.length){try{const r=await fetch(MFQ+"job?id="+ids.join(","));if(r.ok){const j=await r.json();let fin=false;for(const[id,v]of Object.entries(j.jobs||{})){if(v){if(v.state==="done"||v.state==="failed")fin=true;JST[id]=v}}
+  if(fin)await get(RUNRAW+"mirofish-bri/index.json").then(x=>D.runs=x.runs||[]).catch(()=>{});
+  const d=$("dmine");if(d){d.innerHTML=mineHTML();trNode(d)}const u=$("druns");if(u&&fin){u.innerHTML=runsHTML();trNode(u)}}}catch(e){}}
+ if(TAB==="drill"&&!document.hidden&&JOBS.some(j=>!JST[j.id]||!["done","failed","expired"].includes(JST[j.id].state)))PJ=setTimeout(pollJobs,30000)}
+applyLang();
+(async()=>{let land=null;try{land=await (await fetch("land_dots.json")).json()}catch(e){}try{glInit(land)}catch(e){console.warn(e)}
+ await load(true);setTimeout(()=>{if(!CT)focus(30,80)},900);
+ if(TAB==="drill")pollJobs();setInterval(()=>{if(!document.hidden)load(false)},300000)})();
+</script>
+</body>
+</html>
