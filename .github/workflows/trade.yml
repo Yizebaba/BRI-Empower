@@ -10,7 +10,7 @@ concurrency: { group: trade, cancel-in-progress: false }
 jobs:
   run:
     runs-on: ubuntu-24.04
-    timeout-minutes: 340
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/country_facts.py

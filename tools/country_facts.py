@@ -26,8 +26,14 @@ out = {"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "labels": WB, "countries
 def get(url, tries=4):
     for i in range(tries):
         try: return json.loads(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120).read())
+        except urllib.error.HTTPError as e:
+            err = e; time.sleep(75 if e.code == 429 else 10 * (i + 1))   # Wikidata 限流时每分钟只允许 1 次
         except Exception as e: err = e; time.sleep(10 * (i + 1))
     raise err
+
+
+try: OLD = json.load(open("data/country_facts.json")).get("countries", {})
+except Exception: OLD = {}
 
 
 for code in WB:
@@ -59,7 +65,7 @@ for i in range(0, len(keys), 30):
             L = out["countries"][k].setdefault(p, [])
             if zh and [zh, en] not in L: L.append([zh, en])
     except Exception as e: out["errors"]["wikidata_%d" % i] = str(e)[:160]
-    time.sleep(2)
+    time.sleep(62)
 # 获奖（Wikidata）：诺贝尔奖（各奖项）、菲尔兹奖、图灵奖的本国获奖者
 AW = """SELECT ?iso ?pLabel ?pEn ?aLabel ?aEn ?year WHERE { VALUES ?iso { %s } ?c wdt:P298 ?iso . ?p wdt:P27 ?c ; p:P166 ?st . ?st ps:P166 ?a .
  { ?a wdt:P279* wd:Q7191 } UNION { VALUES ?a { wd:Q28835 wd:Q185667 } }
@@ -73,7 +79,7 @@ for i in range(0, len(keys), 25):
             e = [b.get("pLabel", {}).get("value"), b.get("pEn", {}).get("value"), b.get("aLabel", {}).get("value"), b.get("aEn", {}).get("value"), b.get("year", {}).get("value")]
             if e not in L: L.append(e)
     except Exception as e: out["errors"]["awards_%d" % i] = str(e)[:160]
-    time.sleep(2)
+    time.sleep(62)
 for v in out["countries"].values():
     if v.get("awards"): v["awards"] = sorted(v["awards"], key=lambda x: x[4] or "0", reverse=True)[:30]
 
@@ -88,6 +94,11 @@ for c in C:
         out["errors"].setdefault("openalex", str(e)[:160])
         if "429" in str(e): break
     time.sleep(0.3)
+for k, v in out["countries"].items():   # 这次没取到的，保留上次的
+    o = OLD.get(k) or {}
+    for key in ("hos", "hog", "capital", "currency", "language", "central_bank", "hos_office", "hog_office", "legislature", "awards", "research"):
+        if not v.get(key) and o.get(key): v[key] = o[key]
+    for code, val in (o.get("wb") or {}).items(): v["wb"].setdefault(code, val)
 json.dump(out, open("data/country_facts.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print("awards:", sum(1 for v in out["countries"].values() if v.get("awards")), "research:", sum(1 for v in out["countries"].values() if v.get("research")))
 print("facts:", sum(1 for v in out["countries"].values() if v["wb"]), "wb;", sum(1 for v in out["countries"].values() if v.get("hos")), "wikidata;", out["errors"])
