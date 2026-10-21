@@ -88,6 +88,12 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 .seedl button:hover{background:rgba(255,255,255,.03)}
 .run{padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin-top:8px}
 .run .st{font-size:11.5px;padding:1px 8px;border-radius:999px;margin-left:6px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 8px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:4px 6px 4px 10px;border:1px solid var(--silk);border-radius:999px;font-size:12.5px;color:var(--silk);background:rgba(233,196,106,.08)}
+.chip button{border:0;background:none;color:inherit;cursor:pointer;font-size:14px;line-height:1;padding:0 4px}
+.keys{border:1px solid var(--line);border-radius:12px;padding:12px;margin-top:6px;background:rgba(0,0,0,.18)}
+.keys label{margin-top:8px}.keys label:first-child{margin-top:0}
+.chk{display:flex;align-items:center;gap:8px;font-size:12.5px;margin-top:10px;color:var(--mute)}.chk input{width:auto}
 .md{font-size:13.5px;line-height:1.75}
 .md h1,.md h2,.md h3{font-family:"Noto Serif SC",serif;line-height:1.35}
 .md h1{font-size:20px}.md h2{font-size:17px;margin-top:20px}.md h3{font-size:15px}
@@ -130,11 +136,11 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 <canvas id="gl" aria-hidden="true"></canvas>
 <header class="top">
  <a class="brand" href="./"><b>一带一路赋能</b><span>BRI-Empower</span></a>
- <nav><button id="lang" class="lgb" type="button">EN</button><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a></nav>
+ <nav><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><button id="lang" class="lgb" type="button">EN</button></nav>
 </header>
 <section class="hero">
- <h1>一带一路<br>150 个共建国家</h1>
- <p id="heroP">点地球上的国家，看冲突、灾害、断网、新闻和中国融资项目。</p>
+ <h1>MiroFish 推演<br>一带一路 150 国</h1>
+ <p id="heroP">选国家，写推演要求，用你自己的模型密钥运行。种子文档由公开数据自动生成。</p>
  <div class="route"><span><i style="background:#ff5b4d"></i>不要前往</span><span><i style="background:#ff9f43"></i>重新考虑</span><span><i style="background:#f2c14e"></i>加强注意</span><span><i style="background:#5fe0a8"></i>正常</span></div>
 </section>
 <aside class="side" aria-label="内容">
@@ -149,9 +155,9 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 "use strict";
 const REPO="Yizebaba/BRI-Empower",Q=new URLSearchParams(location.search);
 const BASE=Q.get("base")||("https://raw.githubusercontent.com/"+REPO+"/main/");
-/* 推演在珠峰仓库（Yizebaba/EVEREST-）的 mirofish 工作流里运行（project=bri），共用那里已经配好的模型和 Zep 密钥；结果在它的 events 分支 mirofish-bri/ */
-const RUNREPO="Yizebaba/EVEREST-",RUNWF="mirofish.yml",RUNRAW="https://raw.githubusercontent.com/Yizebaba/EVEREST-/events/";
-const TOK=()=>ls.get("gh_token")||ls.get("bri_gh_token");
+/* 推演：提交到 Worker 排队，由珠峰仓库（Yizebaba/EVEREST-）的 mirofish 工作流运行，用提交者自己的模型和 Zep 密钥；结果在它的 events 分支 mirofish-bri/ */
+const MFQ="https://everest-facets.yizebaba.workers.dev/mf/",RUNRAW="https://raw.githubusercontent.com/Yizebaba/EVEREST-/events/";
+const PRESETS=[["deepseek","DeepSeek","https://api.deepseek.com/v1","deepseek-chat"],["qwen","阿里百炼 · 通义千问","https://dashscope.aliyuncs.com/compatible-mode/v1","qwen-plus"],["glm","智谱 GLM","https://open.bigmodel.cn/api/paas/v4","glm-4-flash"],["kimi","月之暗面 Kimi","https://api.moonshot.cn/v1","moonshot-v1-32k"],["openai","OpenAI","https://api.openai.com/v1","gpt-4o-mini"],["openrouter","OpenRouter","https://openrouter.ai/api/v1","deepseek/deepseek-chat"],["custom","自定义（OpenAI 兼容）","",""]];
 const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const $=id=>document.getElementById(id);
 let LANG=(()=>{try{return localStorage.getItem("bri_lang")||((navigator.language||"").startsWith("zh")?"zh":"en")}catch(e){return"zh"}})();
@@ -172,7 +178,7 @@ const DICT=[["一带一路赋能","BRI-Empower"],["珠峰平台","EVEREST"],["�
 ["许可","License"],["更新","Updates"],["最近一次","latest"],["用途","Use"],["获取","How"],["引用","Cite"],["链接","Link"],["返回","Back"],
 ["相符","Match"],["部分 / 有偏差","Partial"],["缺失或漏报","Missing"],["结论","Takeaways"],["离项目：","Distance: "],["平台","Ours"],["参考","Ref."],
 ["这次没读到：","Not loaded: "],["几分钟后会自动重试。","Retrying in a few minutes."],["推演要求至少写 10 个字。","Write at least 10 characters."],["正在提交…","Submitting…"],["已提交，编号","Submitted, id"],["运行状态会显示在下面的推演记录里。","Status appears under Runs."],
-["已完工","Completed"],["在建","In progress"],["已承诺","Committed"],["意向","Pledged"],["暂停","Suspended"],["取消","Cancelled"],["份，","docs, "],["国 ·","countries ·"],["美国","US"]].sort((a,b)=>b[0].length-a[0].length);
+["已完工","Completed"],["在建","In progress"],["已承诺","Committed"],["意向","Pledged"],["暂停","Suspended"],["取消","Cancelled"],["份，","docs, "],["国 ·","countries ·"],["美国","US"],["MiroFish 推演","MiroFish simulation"],["一带一路 150 国","150 Belt and Road countries"],["选国家，写推演要求，用你自己的模型密钥运行。种子文档由公开数据自动生成。","Pick countries, write your prompt, run it with your own model key. Seed documents are generated from public data."],["MiroFish 从种子文档里找出真实的人和机构，建知识图谱，生成大量智能体在模拟社交平台上互动，最后写出推演报告。","MiroFish extracts real people and organisations from the seed documents, builds a knowledge graph, simulates many agents on social platforms and writes a report."],["国家（最多 5 个）","Countries (up to 5)"],["＋ 添加国家","+ Add country"],["种子文档（自动上传）","Seed documents (uploaded automatically)"],["你的密钥","Your keys"],["模型","Model"],["接口地址","Base URL"],["模型名","Model name"],["免费申请","Get one free"],["在本浏览器记住","Remember in this browser"],["密钥只用于这一次推演：运行开始时取走即删除，不进日志。费用记在你自己的账户。","Keys are used for this run only: taken when it starts, then deleted, never logged. Usage is billed to your own account."],["我的推演","My runs"],["全部推演记录","All runs"],["还没有提交。","Nothing submitted yet."],["即将开始","Starting"],["已过期","Expired"],["编号","ID"],["正在检查密钥并提交…","Checking keys and submitting…"],["已排队。几分钟内开始运行，完整推演通常要 1–3 小时。","Queued. It starts within minutes; a full run usually takes 1–3 hours."],["请填模型接口地址、模型名和 API Key。","Enter base URL, model and API key."],["请填 Zep API Key。","Enter your Zep API key."],["自定义（OpenAI 兼容）","Custom (OpenAI-compatible)"],["阿里百炼 · 通义千问","Alibaba Bailian · Qwen"],["智谱 GLM","Zhipu GLM"],["月之暗面 Kimi","Moonshot Kimi"],["自己写：想推演的事件、关心的群体（政府、出资方、承包商、当地居民、媒体……）、想回答的问题和时间范围。","Write it yourself: the event, the groups involved (government, lenders, contractors, residents, media…), the questions and the time frame."],["概况","Overview"],["国家元首","Head of state"],["政府首脑","Head of government"],["产业结构","Economy"],["农业","Agriculture"],["工业","Industry"],["服务业","Services"],["外债","External debt"],["世界银行","World Bank"],["贸易","Trade"],["总额","Total"],["主要行业","Top industries"],["主要伙伴","Top partners"],["与中国（中国申报，","With China (China-reported, "],["中国出口","China exports"],["全部","All"],["个行业","industries"],["本国申报","self-reported"],["镜像：各国对它的申报","mirror: partners' reports"],["万美元","×10k USD"],["亿美元","×100m USD"],["移除","Remove"]].sort((a,b)=>b[0].length-a[0].length);
 function trText(t){if(!EN()||!/[\u4e00-\u9fff]/.test(t))return t;for(const[z,e]of DICT)if(t.includes(z))t=t.split(z).join(e);return t}
 function trNode(root){if(!EN()||!root)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){if(n.parentElement&&n.parentElement.closest(".md,.keep"))continue;const v=trText(n.nodeValue);if(v!==n.nodeValue)n.nodeValue=v}
  root.querySelectorAll("[placeholder],[title],[aria-label]").forEach(el=>["placeholder","title","aria-label"].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,trText(el.getAttribute(a)))}))}
@@ -186,7 +192,7 @@ const D={logi:{},countries:[],asum:{},clive:{},projects:[],live:{},wm:{},retro:n
 const CN={NPL:"尼泊尔",LAO:"老挝",PAK:"巴基斯坦"},NEWS="新闻（Google 新闻 RSS）";
 const STZ={Completion:"已完工",Implementation:"在建","Pipeline: Commitment":"已承诺","Pipeline: Pledge":"意向"};
 const LV={1:["#5fe0a8","一级 · 正常注意"],2:["#f2c14e","二级 · 加强注意"],3:["#ff9f43","三级 · 重新考虑出行"],4:["#ff6b5b","四级 · 不要前往"]};
-let TAB=ls.get("bri_tab")||"live",CT=null,SEL=null,ZOOM=true,MORE={},OPEN={"npl-2026-08-26":1},VIEW=null;
+let TAB=ls.get("bri_tab")||"drill",CT=null,SEL=null,ZOOM=true,MORE={},OPEN={"npl-2026-08-26":1},VIEW=null;
 
 /* ---------- 3D globe ---------- */
 const G={};window.BRI_G=G;
@@ -244,8 +250,8 @@ function glData(){if(!G.W)return;if(G.layer)G.W.remove(G.layer);const L=new THRE
 function split(p){const L=(((D.live.projects||{})[p.id])||{}).items||[];return{geo:L.filter(i=>i.src!==NEWS),inc:L.filter(i=>i.src===NEWS&&i.kind==="事件相关"),gen:L.filter(i=>i.src===NEWS&&i.kind!=="事件相关")}}
 const kmH=(a,b,c,d)=>{const r=Math.PI/180,x=Math.sin((c-a)*r/2),y=Math.sin((d-b)*r/2);return 12742*Math.asin(Math.sqrt(x*x+Math.cos(a*r)*Math.cos(c*r)*y*y))};
 function nearest(la,lo,ps){let b=[1e9,null];ps.forEach(p=>p.rings.forEach(r=>r.forEach(q=>{const d=kmH(la,lo,q[1],q[0]);if(d<b[0])b=[d,p]})));return b}
-async function load(first){const tasks=[["countries","data/bri_countries.json",x=>D.countries=x.countries||[]],["asum","data/aiddata_summary.json",x=>D.asum=x.countries||{}],["clive","data/country_live.json",x=>D.clive=x],["logi","data/logistics.json",x=>D.logi=x],["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["base","data/basemap.json",x=>D.base=x]];
- const errs=[];await Promise.all(tasks.filter(t=>first||!["countries","asum","projects","retro","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>errs.push(t[0]))));
+async function load(first){const tasks=[["countries","data/bri_countries.json",x=>D.countries=x.countries||[]],["asum","data/aiddata_summary.json",x=>D.asum=x.countries||{}],["clive","data/country_live.json",x=>D.clive=x],["logi","data/logistics.json",x=>D.logi=x],["projects","data/projects.json",x=>D.projects=x.projects||[]],["live","data/live.json",x=>D.live=x],["wm","data/wm.json",x=>D.wm=x],["retro","data/retro_summary.json",x=>D.retro=x],["sources","data/sources.json",x=>D.sources=x.sources||[]],["seeds","seeds/index.json",x=>D.seeds=x.scopes||{}],["runs",RUNRAW+"mirofish-bri/index.json",x=>D.runs=x.runs||[]],["hs","data/hs2_zh.json",x=>D.hs=x],["base","data/basemap.json",x=>D.base=x]];
+ const errs=[];await Promise.all(tasks.filter(t=>first||!["countries","asum","projects","retro","sources","base"].includes(t[0])).map(t=>get(t[1]).then(t[2]).catch(e=>{if(!["runs","hs"].includes(t[0]))errs.push(t[0])})));
  D.errs=errs;render();glData()}
 const ADVC={"do-not-travel":0xff5b4d,"reconsider":0xff9f43,"caution":0xf2c14e,"normal":0x5fe0a8,"info":0x9fd6c4};
 const ADVZ={"do-not-travel":"不要前往","reconsider":"重新考虑出行","caution":"加强注意","normal":"正常注意","info":"正常注意"};
@@ -299,18 +305,35 @@ function sec(t,L,f,more){return L&&L.length?'<div class="h3">'+t+' <span class="
 const iL=(t,title,sub,url)=>'<div class="it"><time>'+t+'</time><div>'+(url?'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(title)+' ↗</a>':esc(title))+(sub?'<small>'+sub+'</small>':"")+'</div></div>';
 const nf=v=>v==null?"—":Number(v).toLocaleString(EN()?"en-US":"zh-CN");
 const wt=t=>t==null?"—":EN()?nf(Math.round(t/1000))+"k t":nf(Math.round(t/1e4))+" 万吨";
-const usd=v=>v==null?"—":EN()?"$"+(v/1e9).toFixed(2)+" bn":(v/1e8).toFixed(1)+" 亿美元";
+const usd=v=>v==null?"—":EN()?(Math.abs(v)>=1e9?"$"+(v/1e9).toFixed(2)+" bn":"$"+(v/1e6).toFixed(1)+" m"):(Math.abs(v)>=1e8?(v/1e8).toFixed(1)+" 亿美元":(v/1e4).toFixed(0)+" 万美元");
 const chg=(a,b)=>a!=null&&b?'<span class="mute">（'+(a>=b?"+":"")+Math.round((a-b)/b*100)+'%）</span>':"";
 function logiBlock(k){const pw=((D.logi.portwatch||{}).countries||{})[k],ct=((D.logi.comtrade||{}).countries||{})[k];if(!pw&&!ct)return"";
  let h='<div class="h3">物流与贸易</div>';
  if(pw)h+='<div class="it"><time>港口（近 30 天）</time><div>靠港 '+nf(pw.calls30)+chg(pw.calls30,pw.calls_prev)+' · 进口 '+wt(pw.import30)+chg(pw.import30,pw.import_prev)+' · 出口 '+wt(pw.export30)+chg(pw.export30,pw.export_prev)+'<small>IMF PortWatch · '+bj(D.logi.portwatch.data_until)+'</small></div></div>'+(pw.ports||[]).map(x=>'<div class="it"><time></time><div>'+esc(x.name)+'<small>靠港 '+nf(x.calls30)+' · 进口 '+wt(x.import30)+' · 出口 '+wt(x.export30)+'</small></div></div>').join("");
  if(ct)h+='<div class="it"><time>'+esc(D.logi.comtrade.year)+'</time><div>中国对其出口 '+usd(ct.export)+' · 自其进口 '+usd(ct.import)+'<small>UN Comtrade</small></div></div>';
  return h}
+const TRD={};let FACTS=null,FACTSP=null;
+function lazy(k){if(!TRD[k]){TRD[k]="…";get("data/trade/"+k+".json").then(x=>{TRD[k]=x;if(CT===k)render()}).catch(()=>{TRD[k]={}})}
+ if(!FACTS&&!FACTSP)FACTSP=get("data/country_facts.json").then(x=>{FACTS=x;if(CT)render()}).catch(()=>{FACTS={countries:{}}})}
+const hsN=h=>EN()?(h==="TOTAL"?"Total":"HS "+h):((D.hs||{})[h]||"HS "+h);
+function factsBlock(k){const f=((FACTS||{}).countries||{})[k];if(!f)return"";const wb=f.wb||{},v=c=>(wb[c]||[])[0],y=c=>(wb[c]||[])[1],nm=a=>(a||[]).map(x=>EN()?(x[1]||x[0]):x[0]).join("、");
+ const rows=[];if(f.hos&&f.hos.length)rows.push(["国家元首",nm(f.hos)]);if(f.hog&&f.hog.length)rows.push(["政府首脑",nm(f.hog)]);
+ if(v("NY.GDP.MKTP.CD")!=null)rows.push(["GDP",usd(v("NY.GDP.MKTP.CD"))+(v("NY.GDP.MKTP.KD.ZG")!=null?" · "+(v("NY.GDP.MKTP.KD.ZG")>=0?"+":"")+v("NY.GDP.MKTP.KD.ZG").toFixed(1)+"%":"")+" ("+y("NY.GDP.MKTP.CD")+")"]);
+ if(v("NV.AGR.TOTL.ZS")!=null&&v("NV.IND.TOTL.ZS")!=null&&v("NV.SRV.TOTL.ZS")!=null)rows.push(["产业结构","农业 "+v("NV.AGR.TOTL.ZS").toFixed(0)+"% · 工业 "+v("NV.IND.TOTL.ZS").toFixed(0)+"% · 服务业 "+v("NV.SRV.TOTL.ZS").toFixed(0)+"%"]);
+ if(v("DT.DOD.DECT.CD")!=null)rows.push(["外债",usd(v("DT.DOD.DECT.CD"))+" ("+y("DT.DOD.DECT.CD")+")"]);
+ return rows.length?'<div class="h3">概况</div>'+rows.map(r=>'<div class="it"><time>'+r[0]+'</time><div>'+esc(r[1])+'</div></div>').join("")+'<p class="small mute" style="margin:4px 0 0">世界银行 · Wikidata</p>':""}
+function tradeBlock(k){const t=TRD[k];if(!t||t==="…"||!t.iso3)return"";let h='<div class="h3">贸易（'+esc(t.year||"")+'）</div>';
+ if(t.total)h+='<div class="it"><time>总额</time><div>出口 '+usd(t.total.x)+' · 进口 '+usd(t.total.m)+'<small>UN Comtrade · '+esc(t.partners_basis||"")+'</small></div></div>';
+ const ind=(t.industries||[]).filter(r=>r.hs!=="TOTAL");if(ind.length)h+='<div class="small mute" style="margin-top:8px">主要行业</div>'+ind.slice(0,MORE.ind?97:8).map(r=>'<div class="it"><time>'+esc(hsN(r.hs))+'</time><div>出口 '+usd(r.x)+' · 进口 '+usd(r.m)+'</div></div>').join("")+(ind.length>8?'<button class="more" data-a="m:ind">'+(MORE.ind?"收起":"全部 "+ind.length+" 个行业")+'</button>':"");
+ if((t.partners||[]).length)h+='<div class="small mute" style="margin-top:8px">主要伙伴</div>'+t.partners.slice(0,6).map(p=>'<div class="it"><time>'+esc((cinfo(p.iso3)&&cn(cinfo(p.iso3)))||p.name)+'</time><div>出口 '+usd(p.x)+' · 进口 '+usd(p.m)+'</div></div>').join("");
+ const ch=((t.china||{}).industries||[]).filter(r=>r.hs!=="TOTAL");if(ch.length)h+='<div class="small mute" style="margin-top:8px">与中国（中国申报，'+esc(t.china.year)+'）</div>'+ch.slice(0,5).map(r=>'<div class="it"><time>'+esc(hsN(r.hs))+'</time><div>中国出口 '+usd(r.x)+' · 进口 '+usd(r.m)+'</div></div>').join("");
+ return h}
 function chokeBlock(){const c=(D.logi.portwatch||{}).chokepoints;if(!c||!c.items)return"";
  return'<div class="h3">咽喉要道（近 7 天）</div><div class="list">'+c.items.slice(0,12).map(x=>'<div class="crow" style="cursor:default"><i style="background:#6aa8e0"></i><span class="nm">'+esc(x.name)+'</span><span class="ct"><span>'+nf(x.transits7)+' 次通行'+(x.transits_prev?" "+(x.transits7>=x.transits_prev?"+":"")+Math.round((x.transits7-x.transits_prev)/x.transits_prev*100)+"%":"")+'</span></span></div>').join("")+'</div>'}
 function countryView(k){const c=cinfo(k);if(!c)return"";const w=(D.wm.countries||{})[k]||{},l=(D.clive.countries||{})[k]||{},a=advOf(k),as=D.asum[k];
  let h='<button class="back" data-a="cl:1">← 全部国家</button><h2 class="h2">'+esc(cn(c))+' <span class="mute" style="font-size:13px;font-family:inherit">'+(EN()?"":esc(c.en)+' · ')+esc(c.region)+'</span></h2>';
  h+='<div class="stat">'+(a?'<span class="lv" style="background:'+ADVS[a]+'">'+ADVZ[a]+'</span>':"")+(l.us?'<a href="'+esc(l.us.url)+'" target="_blank" rel="noopener">美国 '+esc(l.us.level?"Level "+l.us.level:l.us.title)+' ↗</a>':"")+(w.cii?'<span>CII '+w.cii.score+'</span>':"")+(c.note?'<span>'+esc(c.note)+'</span>':"")+'</div>';
+ h+='<div style="margin:12px 0 4px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn" data-a="dk:'+k+'">用这个国家推演</button><button class="btn ghost" data-a="sk:'+k+'">种子文档</button></div>';lazy(k);h+=factsBlock(k);
  h+=sec("冲突事件（UCDP）",w.ucdp,e=>iL(esc((e.t||"").slice(0,10)),e.a+" — "+e.b,"死亡 "+esc(e.deaths)+" · "+esc(e.src||"")));
  h+=sec("新闻要闻",w.stories,e=>iL(bj(e.t),e.title,esc(e.source||"")+(e.sources>1?" 等 "+e.sources+" 家":""),e.url));
  h+=sec("互联网中断",w.outages,e=>iL(bj(e.t),e.title,esc(e.text||""),e.url));
@@ -320,31 +343,42 @@ function countryView(k){const c=cinfo(k);if(!c)return"";const w=(D.wm.countries|
  h+=sec("疫情",w.outbreaks,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url));
  h+=sec("机场",w.airports,e=>iL(esc(e.iata),e.name,esc(e.severity)+" "+esc(e.reason||"")));
  h+=sec("旅行建议更新",w.advisories,e=>iL(bj(e.t),e.title,esc(e.source||""),e.url),4);
- h+=logiBlock(k);
+ h+=logiBlock(k);h+=tradeBlock(k);
  h+=sampleBlock(k);
  h+='<div class="h3">中国融资项目'+(as?' <span class="mute">'+(EN()?as.n+" · ≈ $"+(as.usd/1e9).toFixed(1)+" bn":as.n+' 个 · 约 '+(as.usd/1e8).toFixed(1)+' 亿美元')+'</span>':"")+'</div>';
  const pj=CPJ[k];if(!as)h+='<p class="small mute">AidData 没有收录这个国家带位置的项目。</p>';
  else if(!pj){h+='<p class="small mute">读取中…</p>';get("data/countries/"+k+".json").then(x=>{CPJ[k]=x.projects||[];if(CT===k)render()}).catch(()=>{CPJ[k]=[];render()})}
  else{h+=(PJALL?pj:pj.slice(0,10)).map(x=>iL(esc(x.year),x.title,esc(x.sector)+" · "+esc(x.status)+(x.amount?" · "+(EN()?"$"+(x.amount/1e6).toFixed(0)+"m":(x.amount/1e6).toFixed(0)+" 百万美元"):""),x.osm)).join("")+(pj.length>10?'<button class="more" data-a="pa:1">'+(PJALL?"收起":"全部 "+pj.length+" 个")+'</button>':"")}
- h+='<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap"><button class="btn ghost" data-a="dk:'+k+'">用这个国家推演</button><button class="btn ghost" data-a="sk:'+k+'">种子文档</button></div>';
  return h}
-function tabDrill(){const tok=TOK();let h='<h2 class="h2">MiroFish 推演</h2>';
- const sc=ls.get("bri_scope")||CT||"PAK";
- h+='<form id="df" autocomplete="off"><label for="dreq">推演要求</label><textarea id="dreq" required minlength="10" placeholder="写清楚想推演的事件、对象和关心的问题。">'+esc(ls.get("bri_draft")||"")+'</textarea>'
- +'<div class="grid2"><div><label for="dscope">国家</label>'+cselect("dscope",sc)+'</div>'
- +'<div><label for="drounds">模拟轮数</label><input id="drounds" type="number" min="5" max="80" value="20"></div></div>'
- +'<label for="dtitle">标题（可空）</label><input id="dtitle" type="text" maxlength="60">'
- +'<div class="h3">自动上传的种子文档</div><div id="dseeds">'+seedPreview(sc)+'</div>'
- +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center;flex-wrap:wrap"><button class="btn" type="submit" id="dgo"'+(tok?"":" disabled")+'>开始推演</button>'+(tok?'<span class="small mute">已在本浏览器连接 GitHub · <button type="button" class="more" data-a="tok:clear">断开</button></span>':'<span class="small mute">先在下面连接 GitHub</span>')+'</div><div class="msg" id="dmsg"></div></form>';
- if(!tok)h+='<div class="h3">连接 GitHub</div><p class="small mute" style="margin:0">Fine-grained token：仓库选 EVEREST-，Actions 读写。只存在本浏览器。</p><div style="display:flex;gap:8px;margin-top:8px"><input id="tokin" type="password" placeholder="github_pat_…" style="flex:1"><button class="btn ghost" type="button" data-a="tok:save">保存</button></div>';
- h+='<div class="h3">推演记录</div><div id="druns">'+runsHTML()+'</div>';return h}
-function cselect(id,v){return'<select id="'+id+'">'+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(cn(c))+'</option>').join("")+'</optgroup>').join("")+'</select>'}
+const SCOPE=()=>{const v=(ls.get("bri_scope")||CT||"PAK").split(",").filter(k=>cinfo(k));return v.length?v.slice(0,5):["PAK"]};
+const KEY=k=>ls.get("bri_k_"+k)||"";
+function chipsHTML(){return SCOPE().map(k=>'<span class="chip">'+esc(cn(cinfo(k)))+(SCOPE().length>1?'<button type="button" data-a="rm:'+k+'" aria-label="移除">×</button>':"")+'</span>').join("")}
+function seedsMulti(){const sc=SCOPE();return sc.map(k=>(sc.length>1?'<div class="small" style="margin-top:8px;color:var(--ink)">'+esc(cn(cinfo(k)))+'</div>':"")+seedPreview(k)).join("")}
+function tabDrill(){const pv=KEY("prov")||"deepseek",P=PRESETS.find(x=>x[0]===pv)||PRESETS[0];
+ let h='<h2 class="h2">MiroFish 推演</h2><p class="small mute" style="margin:-4px 0 10px">MiroFish 从种子文档里找出真实的人和机构，建知识图谱，生成大量智能体在模拟社交平台上互动，最后写出推演报告。</p>';
+ h+='<form id="df" autocomplete="off"><label>国家（最多 5 个）</label><div class="chips" id="dchips">'+chipsHTML()+'</div>'+cselect("dadd","",true)
+ +'<label for="dreq">推演要求</label><textarea id="dreq" required minlength="10" placeholder="自己写：想推演的事件、关心的群体（政府、出资方、承包商、当地居民、媒体……）、想回答的问题和时间范围。">'+esc(ls.get("bri_draft")||"")+'</textarea>'
+ +'<div class="grid2"><div><label for="drounds">模拟轮数</label><input id="drounds" type="number" min="5" max="40" value="20"></div><div><label for="dtitle">标题（可空）</label><input id="dtitle" type="text" maxlength="60"></div></div>'
+ +'<div class="h3">种子文档（自动上传）</div><div id="dseeds">'+seedsMulti()+'</div>'
+ +'<div class="h3">你的密钥</div><div class="keys"><label for="dprov">模型</label><select id="dprov">'+PRESETS.map(x=>'<option value="'+x[0]+'"'+(x[0]===P[0]?" selected":"")+'>'+esc(x[1])+'</option>').join("")+'</select>'
+ +'<div class="grid2"><div><label for="dbase">接口地址</label><input id="dbase" type="text" placeholder="https://…/v1" value="'+esc(KEY("base")||P[2])+'"></div><div><label for="dmodel">模型名</label><input id="dmodel" type="text" value="'+esc(KEY("model")||P[3])+'"></div></div>'
+ +'<label for="dkey">模型 API Key</label><input id="dkey" type="password" placeholder="sk-…" value="'+esc(KEY("llm"))+'">'
+ +'<label for="dzep">Zep API Key <a class="small" href="https://app.getzep.com/" target="_blank" rel="noopener" style="margin-left:6px">免费申请 ↗</a></label><input id="dzep" type="password" placeholder="z_…" value="'+esc(KEY("zep"))+'">'
+ +'<label class="chk"><input type="checkbox" id="dremember"'+(KEY("llm")?" checked":"")+'>在本浏览器记住</label>'
+ +'<p class="small mute" style="margin:8px 0 0">密钥只用于这一次推演：运行开始时取走即删除，不进日志。费用记在你自己的账户。</p></div>'
+ +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center"><button class="btn" type="submit" id="dgo">开始推演</button></div><div class="msg" id="dmsg"></div></form>';
+ h+='<div class="h3">我的推演</div><div id="dmine">'+mineHTML()+'</div>';
+ h+='<div class="h3">全部推演记录</div><div id="druns">'+runsHTML()+'</div>';return h}
+function cselect(id,v,add){return'<select id="'+id+'">'+(add?'<option value="">＋ 添加国家</option>':"")+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(cn(c))+'</option>').join("")+'</optgroup>').join("")+'</select>'}
 function seedPreview(sc){const fs=((D.seeds[sc]||{}).files||[]).slice();
- return fs.length?'<div class="seedl">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+' 份，'+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
-let LIVE_RUNS=[];const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
-function runsHTML(){const st={queued:["排队中","#f2c14e"],in_progress:["运行中","#6aa8e0"],completed:["已结束","#8e9099"]};
- let h=LIVE_RUNS.filter(r=>r.status!=="completed").map(r=>'<div class="run"><b>'+esc(r.display_title)+'</b><span class="st" style="background:'+st[r.status][1]+'22;color:'+st[r.status][1]+'">'+st[r.status][0]+'</span><div class="small mute">开始于 '+bj(r.run_started_at||r.created_at)+' · <a href="'+esc(r.html_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join("");
- h+=D.runs.length?D.runs.map(r=>'<div class="run"><b>'+esc(r.title||scopeL(r.scope).map(k=>CN[k]||(k==="ALL"?"全部 3 国":k)).join("、"))+'</b><span class="st" style="background:'+(r.ok?"#5fe0a822":"#ff7a5c22")+';color:'+(r.ok?"#5fe0a8":"#ff7a5c")+'">'+(r.ok?"完成":"失败")+'</span><div class="small mute">'+bj(r.started)+' · 范围 '+esc(scopeL(r.scope).map(k=>CN[k]||(k==="ALL"?"全部 3 国":k)).join("、"))+(r.error?' · '+esc(r.error):"")+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+(r.has_report?'<button class="more" data-a="rep:'+esc(r.dir)+'">看报告</button> · ':"")+'<a class="mute" href="'+esc(r.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join(""):(LIVE_RUNS.length?"":'<p class="small mute">还没有推演。</p>');return h}
+ return fs.length?'<div class="seedl keep">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(EN()&&f.title_en?f.title_en:f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+(EN()?' docs, ':' 份，')+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
+const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
+const scN=v=>scopeL(v).map(k=>CN[k]||k).join("、");
+let JOBS=(()=>{try{return JSON.parse(ls.get("bri_jobs")||"[]")}catch(e){return[]}})(),JST={};
+const JS={queued:["排队中","#f2c14e"],dispatched:["即将开始","#f2c14e"],running:["运行中","#6aa8e0"],done:["完成","#5fe0a8"],failed:["失败","#ff7a5c"],expired:["已过期","#8e9099"]};
+function mineHTML(){if(!JOBS.length)return'<p class="small mute">还没有提交。</p>';
+ return JOBS.map(j=>{const s=JST[j.id]||{state:"queued"},c=JS[s.state]||JS.queued;return'<div class="run"><b>'+esc(j.title||scN(j.scope))+'</b><span class="st" style="background:'+c[1]+'22;color:'+c[1]+'">'+c[0]+'</span><div class="small mute">'+bj(j.t)+' · '+esc(scN(j.scope))+(s.error?' · '+esc(s.error):"")+'</div><div class="small" style="margin-top:4px">'+(s.state==="done"&&s.dir?'<button class="more" data-a="rep:'+esc(s.dir)+'">看报告</button> · ':"")+(s.run_url?'<a class="mute" href="'+esc(s.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a>':'<span class="mute">编号 '+esc(j.id)+'</span>')+'</div></div>'}).join("")}
+function runsHTML(){return D.runs.length?D.runs.map(r=>'<div class="run"><b>'+esc(r.title||scN(r.scope))+'</b><span class="st" style="background:'+(r.ok?"#5fe0a822":"#ff7a5c22")+';color:'+(r.ok?"#5fe0a8":"#ff7a5c")+'">'+(r.ok?"完成":"失败")+'</span><div class="small mute">'+bj(r.started)+' · '+esc(scN(r.scope))+(r.error?' · '+esc(r.error):"")+'</div><div class="small" style="margin-top:4px;color:#cfcdc6">'+esc(r.requirement)+'</div><div class="small" style="margin-top:4px">'+(r.has_report?'<button class="more" data-a="rep:'+esc(r.dir)+'">看报告</button> · ':"")+'<a class="mute" href="'+esc(r.run_url)+'" target="_blank" rel="noopener">运行日志 ↗</a></div></div>').join(""):'<p class="small mute">还没有推演。</p>'}
 function tabSeeds(){const k=ls.get("bri_seedc")||CT||"PAK";return'<div class="srch">'+cselect("seedc",k)+'</div>'+seedPreview(k)}
 function tabSources(){let h='';
  const fresh={worldmonitor:D.wm.generated,countries:null,usgs:D.clive.generated,gdacs:D.live.generated,eonet:D.live.generated,gnews:D.live.generated,ioda:D.live.generated,us_adv:D.live.generated,uk_adv:D.live.generated,x:0};
@@ -357,7 +391,7 @@ function tabRetro0(){const R=D.retro;if(!R)return'<p class="mute">没有测试�
  R.tests.forEach(t=>{const op=!!OPEN[t.id];h+='<div class="tc"><button class="th" data-a="t:'+t.id+'" aria-expanded="'+op+'"><span><b style="font-weight:500">'+esc(t.name)+'</b><small>'+esc(t.mode)+'</small></span><span class="dots">'+t.rows.map(r=>'<i style="background:'+COL[cls(r)]+'"></i>').join("")+'</span><span class="cv" style="transform:rotate('+(op?90:0)+'deg)">›</span></button>'
   +(op?'<div class="tr" style="grid-template-columns:1fr;color:var(--mute);font-size:12px">离项目：'+esc(t.nearest_project)+'</div>'+t.rows.map(r=>{const k=cls(r);return'<div class="tr"><i style="background:'+COL[k]+'"></i><div><div style="font-weight:500">'+esc(r[0])+'</div><div class="small" style="color:'+COL[k]+'">'+esc(r[3])+'</div><dl><dt>平台</dt><dd>'+esc(r[1])+'</dd>'+(r[2]&&r[2]!=="—"?'<dt>参考</dt><dd>'+esc(r[2])+'</dd>':"")+'</dl></div></div>'}).join(""):"")+'</div>'});
  h+='<div class="note"><b style="color:var(--ink)">结论</b>'+(R.overall||[]).map(x=>'<p style="margin:6px 0 0">'+esc(x)+'</p>').join("")+'</div>';return h}
-const TABS=[["live","国家"],["drill","推演"],["seeds","种子文档"],["sources","数据源"],["retro","偏差测试"]];
+const TABS=[["drill","推演"],["live","国家"],["seeds","种子文档"],["sources","数据源"],["retro","偏差测试"]];
 function render(){if(document.activeElement&&document.activeElement.closest&&document.activeElement.closest("#df"))return;
  $("tabs").innerHTML=TABS.map(t=>'<button role="tab" data-a="tab:'+t[0]+'" aria-selected="'+(TAB===t[0])+'">'+t[1]+'</button>').join("");
  const b=$("body"),y=b.scrollTop;let h;
@@ -367,37 +401,41 @@ function render(){if(document.activeElement&&document.activeElement.closest&&doc
  b.innerHTML=h;trNode(b);trNode($("tabs"));b.scrollTop=y}
 async function openDoc(path,title){VIEW={html:'<p class="mute">读取中…</p>'};render();try{const md=await get(path,true);VIEW={html:DOMPurify.sanitize(marked.parse(md))}}catch(e){VIEW={html:'<p class="mute">读不到 '+esc(path)+'：'+esc(e.message)+'</p>'}}render();$("body").scrollTop=0}
 document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]");if(!a)return;const[k,v]=a.dataset.a.split(/:(.*)/s);
- if(k==="tab"){TAB=v;VIEW=null;ls.set("bri_tab",v);if(v==="drill")pollRuns()}
+ if(k==="tab"){TAB=v;VIEW=null;ls.set("bri_tab",v);if(v==="drill")pollJobs()}
  else if(k==="c"){selectC(v);return}
  else if(k==="cl"){CT=null;SEL=null;glData()}else if(k==="pa")PJALL=!PJALL;
- else if(k==="dk"){ls.set("bri_scope",v);TAB="drill";pollRuns()}else if(k==="sk"){ls.set("bri_seedc",v);TAB="seeds"}
+ else if(k==="dk"){const sc=SCOPE().filter(x=>x!==v);ls.set("bri_scope",[v].concat(sc).slice(0,5).join(","));TAB="drill";VIEW=null;ls.set("bri_tab","drill");pollJobs()}
+ else if(k==="rm"){ls.set("bri_scope",SCOPE().filter(x=>x!==v).join(","));$("dchips").innerHTML=chipsHTML();$("dseeds").innerHTML=seedsMulti();trNode($("dchips"));trNode($("dseeds"));return}else if(k==="sk"){ls.set("bri_seedc",v);TAB="seeds"}
  else if(k==="p"){SEL=SEL===v?null:v;const p=D.projects.find(x=>x.id===v);if(p&&SEL)focus(p.centroid[0],p.centroid[1])}
  else if(k==="z")ZOOM=!ZOOM;else if(k==="m")MORE[v]=!MORE[v];else if(k==="t")OPEN[v]=!OPEN[v];
  else if(k==="doc"){openDoc(v);return}else if(k==="rep"){openDoc(RUNRAW+v+"/REPORT.md");return}else if(k==="back")VIEW=null;
- else if(k==="tok"){if(v==="save"){const t=($("tokin").value||"").trim();if(!/^(github_pat_|ghp_)/.test(t)){alert("令牌格式不对：应以 github_pat_ 开头");return}ls.set("gh_token",t)}else{ls.set("gh_token",null);ls.set("bri_gh_token",null)}}
  render()});
 document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value);if(e.target.id==="qs"){QS=e.target.value;const p=e.target.selectionStart;render();const q=$("qs");if(q){q.focus();q.setSelectionRange(p,p)}}});
 document.addEventListener("click",e=>{if(e.target.id!=="lang")return;LANG=EN()?"zh":"en";try{localStorage.setItem("bri_lang",LANG)}catch(x){}applyLang();render();glData()});
 function selectC(k){CT=k;SEL=null;PJALL=false;TAB="live";VIEW=null;const c=cinfo(k);if(c)focus(c.lat,c.lon);glData();render();$("body").scrollTop=0}
-document.addEventListener("change",e=>{if(e.target.id==="dscope"){ls.set("bri_scope",e.target.value);$("dseeds").innerHTML=seedPreview(e.target.value)}if(e.target.id==="seedc"){ls.set("bri_seedc",e.target.value);render()}});
-document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const tok=TOK(),m=$("dmsg"),btn=$("dgo");
- const req=$("dreq").value.trim();if(req.length<10){m.className="msg err";m.textContent="推演要求至少写 10 个字。";return}
- const rid=new Date().toISOString().replace(/[-:]/g,"").slice(0,15)+"Z"+Math.random().toString(36).slice(2,6);
- btn.disabled=true;m.className="msg";m.textContent="正在提交…";
- try{const r=await fetch("https://api.github.com/repos/"+RUNREPO+"/actions/workflows/"+RUNWF+"/dispatches",{method:"POST",headers:{authorization:"Bearer "+tok,accept:"application/vnd.github+json","content-type":"application/json","x-github-api-version":"2022-11-28"},
-   body:JSON.stringify({ref:"main",inputs:{requirement:req,project:"bri",scope:$("dscope").value,title:$("dtitle").value.trim(),max_rounds:String($("drounds").value||20),request_id:rid}})});
-  if(r.status===204){m.className="msg ok";m.textContent="已提交，编号 "+rid+"。运行状态会显示在下面的推演记录里。";ls.set("bri_draft",null);setTimeout(pollRuns,4000)}
-  else{const t=await r.text();m.className="msg err";m.textContent=(r.status===401?"令牌无效或已过期，请断开后重新连接。":r.status===403||r.status===404?"令牌没有 EVEREST- 仓库的 Actions 写权限。":"提交失败（"+r.status+"）：")+t.slice(0,200)}}
- catch(x){m.className="msg err";m.textContent="网络错误："+x.message}btn.disabled=false});
-let PR=null;async function pollRuns(){clearTimeout(PR);try{const tok=TOK(),h={accept:"application/vnd.github+json"};if(tok)h.authorization="Bearer "+tok;
- const r=await fetch("https://api.github.com/repos/"+RUNREPO+"/actions/workflows/"+RUNWF+"/runs?per_page=10",{headers:h});if(r.ok){const j=await r.json();const was=LIVE_RUNS.some(x=>x.status!=="completed");LIVE_RUNS=(j.workflow_runs||[]).filter(x=>/一带一路/.test(x.display_title||""));
-  if(was&&!LIVE_RUNS.some(x=>x.status!=="completed"))await get(RUNRAW+"mirofish-bri/index.json").then(x=>D.runs=x.runs||[]).catch(()=>{});
-  const d=$("druns");if(d)d.innerHTML=runsHTML()}}catch(e){}
- if(TAB==="drill"&&!document.hidden)PR=setTimeout(pollRuns,LIVE_RUNS.some(x=>x.status!=="completed")?20000:90000)}
+document.addEventListener("change",e=>{if(e.target.id==="dadd"&&e.target.value){const v=e.target.value,sc=SCOPE();if(!sc.includes(v)&&sc.length<5)ls.set("bri_scope",sc.concat([v]).join(","));e.target.value="";$("dchips").innerHTML=chipsHTML();$("dseeds").innerHTML=seedsMulti();trNode($("dchips"));trNode($("dseeds"))}
+ if(e.target.id==="dprov"){const P=PRESETS.find(x=>x[0]===e.target.value);if(P&&P[0]!=="custom"){$("dbase").value=P[2];$("dmodel").value=P[3]}}if(e.target.id==="seedc"){ls.set("bri_seedc",e.target.value);render()}});
+document.addEventListener("submit",async e=>{if(e.target.id!=="df")return;e.preventDefault();const m=$("dmsg"),btn=$("dgo"),V=id=>($(id).value||"").trim();
+ const req=V("dreq");if(req.length<10){m.className="msg err";m.textContent="推演要求至少写 10 个字。";return}
+ if(!V("dkey")||!V("dbase")||!V("dmodel")){m.className="msg err";m.textContent="请填模型接口地址、模型名和 API Key。";return}
+ if(!V("dzep")){m.className="msg err";m.textContent="请填 Zep API Key。";return}
+ const rem=$("dremember").checked;[["prov",V("dprov")],["base",V("dbase")],["model",V("dmodel")],["llm",V("dkey")],["zep",V("dzep")]].forEach(([k,v])=>ls.set("bri_k_"+k,rem||k==="prov"||k==="base"||k==="model"?v:null));
+ btn.disabled=true;m.className="msg";m.textContent="正在检查密钥并提交…";
+ try{const sc=SCOPE().join(","),title=V("dtitle");const r=await fetch(MFQ+"submit",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({project:"bri",scope:sc,title,requirement:req,rounds:Number(V("drounds")||20),llm_base:V("dbase"),llm_model:V("dmodel"),llm_key:V("dkey"),zep_key:V("dzep")})});
+  const j=await r.json().catch(()=>({}));
+  if(r.ok&&j.id){JOBS.unshift({id:j.id,t:new Date().toISOString(),scope:sc,title});JOBS=JOBS.slice(0,30);ls.set("bri_jobs",JSON.stringify(JOBS));JST[j.id]={state:"queued"};ls.set("bri_draft",null);
+   m.className="msg ok";m.textContent="已排队。几分钟内开始运行，完整推演通常要 1–3 小时。";$("dmine").innerHTML=mineHTML();trNode($("dmine"));setTimeout(pollJobs,3000)}
+  else{m.className="msg err";m.textContent=j.error||("提交失败（"+r.status+"）")}}
+ catch(x){m.className="msg err";m.textContent="网络错误："+x.message}btn.disabled=false;trNode(m)});
+let PJ=null;async function pollJobs(){clearTimeout(PJ);const ids=JOBS.filter(j=>!JST[j.id]||!["done","failed","expired"].includes(JST[j.id].state)).map(j=>j.id).slice(0,20);
+ if(ids.length){try{const r=await fetch(MFQ+"job?id="+ids.join(","));if(r.ok){const j=await r.json();let fin=false;for(const[id,v]of Object.entries(j.jobs||{})){if(v){if(v.state==="done"||v.state==="failed")fin=true;JST[id]=v}}
+  if(fin)await get(RUNRAW+"mirofish-bri/index.json").then(x=>D.runs=x.runs||[]).catch(()=>{});
+  const d=$("dmine");if(d){d.innerHTML=mineHTML();trNode(d)}const u=$("druns");if(u&&fin){u.innerHTML=runsHTML();trNode(u)}}}catch(e){}}
+ if(TAB==="drill"&&!document.hidden&&JOBS.some(j=>!JST[j.id]||!["done","failed","expired"].includes(JST[j.id].state)))PJ=setTimeout(pollJobs,30000)}
 applyLang();
 (async()=>{let land=null;try{land=await (await fetch("land_dots.json")).json()}catch(e){}try{glInit(land)}catch(e){console.warn(e)}
  await load(true);setTimeout(()=>{if(!CT)focus(30,80)},900);
- if(TAB==="drill")pollRuns();setInterval(()=>{if(!document.hidden)load(false)},300000)})();
+ if(TAB==="drill")pollJobs();setInterval(()=>{if(!document.hidden)load(false)},300000)})();
 </script>
 </body>
 </html>

@@ -327,6 +327,8 @@ def country_profile_finance(k):
     return t.replace("：中国融资项目概况", "：中国融资项目（AidData）", 1)
 
 
+TEN = {"01_country.md": "Country & economy", "02_actors.md": "Actors", "03_industries_trade.md": "Industries, trade & logistics", "04_china_finance.md": "Chinese finance (AidData)",
+       "05_situation.md": "Recent situation", "06_projects_detail.md": "Key project dossiers", "07_history.md": "Historical events"}
 idx = {"note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选国家自动上传。", "sources": "seeds/00_sources.md", "scopes": {}}
 changed = 0
 os.makedirs("seeds", exist_ok=True); changed += write("seeds/00_sources.md", sources_doc())
@@ -344,7 +346,7 @@ for k, c in CT.items():
         if text is None: continue
         p = f"seeds/{k}/{name}"
         changed += write(p, text)
-        files.append({"path": p, "title": text.splitlines()[0].lstrip("# "), "bytes": len(text.encode())})
+        files.append({"path": p, "title": text.splitlines()[0].lstrip("# "), "title_en": TEN.get(name, name), "bytes": len(text.encode())})
     idx["scopes"][k] = {"name": c["zh"], "en": c["en"], "region": c["region"], "files": files}
 idx["generated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 json.dump(idx, open("seeds/index.json", "w"), ensure_ascii=False, separators=(",", ":"))

@@ -20,9 +20,9 @@
 
 ## 第一次使用
 
-不用在本仓库设置任何密钥：推演在珠峰仓库（Yizebaba/EVEREST-）里运行，共用那里已经配好的模型和 Zep 密钥。网页由工作流推到 gh-pages 分支自动发布。
+不用在本仓库设置任何密钥，访客也不需要 GitHub 令牌。谁推演谁出密钥：在网页“推演”标签填自己的模型接口（任意 OpenAI 兼容接口）和 Zep 密钥，提交到珠峰的 Worker 排队；珠峰仓库（Yizebaba/EVEREST-）的 mirofish 工作流用 GitHub OIDC 身份领取并运行，密钥领取后即删除。网页由工作流推到 gh-pages 分支自动发布。
 
-第一次推演前，在网页“推演”标签连接 GitHub：新建一个 Fine-grained token，Repository access 选 EVEREST-，Actions 权限选 Read and write。令牌只存在你自己的浏览器里；珠峰的推演页用的是同一个令牌，同一个浏览器里只需连接一次。
+种子文档（seeds/<ISO3>/）每国 5–7 份：国家概况与经济结构（世界银行、Wikidata）、参与方（政府与领导人、中国出资方和企业、贸易伙伴、媒体、冲突当事方）、全部行业的进出口和物流（UN Comtrade、IMF PortWatch）、中国融资项目（AidData）、近期态势（World Monitor、USGS、GDACS、NASA EONET 等）。
 
 ## 数据和许可
 
