@@ -1,0 +1,23 @@
+# 每周一次：维基百科、世界银行文献库、OpenAlex 论文、ReliefWeb 报告 → data/docs/，再生成种子文档
+name: docs
+on:
+  schedule: [{ cron: "47 4 * * 3" }]
+  workflow_dispatch:
+    inputs:
+      countries: { description: "只跑这些国家（ISO3，逗号分隔；空 = 全部 150 国）", default: "", type: string }
+permissions: { contents: write }
+concurrency: { group: docs, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/docs_fetch.py "${{ inputs.countries }}"
+      - run: python3 tools/seed_docs.py
+      - name: Commit
+        run: |
+          git config user.name "bri-bot"; git config user.email "bri-bot@users.noreply.github.com"
+          git add data seeds; git diff --cached --quiet && exit 0
+          git commit -qm "docs $(date -u +%F)"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done
