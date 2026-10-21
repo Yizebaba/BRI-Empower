@@ -100,10 +100,10 @@ def reliefweb(c):
     body = {"filter": {"field": "primary_country.iso3", "value": c["iso3"].lower()}, "fields": {"include": ["title", "body", "source.shortname", "date.original", "url_alias"]},
             "sort": ["date.original:desc"], "limit": 6}
     try:
-        r = urllib.request.Request("https://api.reliefweb.int/v2/reports?appname=" + os.environ.get("RW_APPNAME", "bri-empower"), data=json.dumps(body).encode(), headers=dict(UA, **{"content-type": "application/json"}))
+        r = urllib.request.Request("https://api.reliefweb.int/v2/reports?appname=" + os.environ.get("RW_APPNAME", "BRIEmpower-seeddocs-k7q2xm"), data=json.dumps(body).encode(), headers=dict(UA, **{"content-type": "application/json"}))
         j = json.loads(urllib.request.urlopen(r, timeout=60).read())
     except Exception as e:
-        RW_OK = False; ERR["reliefweb"] = str(e)[:160]; return []
+        RW_OK = False; ERR["reliefweb"] = (str(e) + " " + (e.read().decode("utf-8", "ignore")[:200] if hasattr(e, "read") else ""))[:300]; return []
     out = []
     for x in j.get("data") or []:
         f = x.get("fields") or {}

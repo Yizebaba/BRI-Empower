@@ -84,9 +84,11 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 .msg{margin-top:10px;font-size:12.5px}
 .msg.err{color:var(--alert)}.msg.ok{color:var(--ok)}
 .seedl{border:1px solid var(--line);border-radius:10px;margin-top:6px}
-.seedl button{display:flex;justify-content:space-between;gap:10px;width:100%;padding:8px 12px;border:0;border-top:1px solid var(--line);background:none;text-align:left;cursor:pointer;font-size:12.5px}
-.seedl button:first-child{border-top:0}
-.seedl button:hover{background:rgba(255,255,255,.03)}
+.seedl .sr{display:flex;align-items:center;border-top:1px solid var(--line)}.seedl .sr:first-child{border-top:0}
+.seedl .sr .dl{flex:none;margin-right:8px;padding:3px 10px;border:1px solid var(--silk);border-radius:999px;background:none;color:var(--silk);font-size:11.5px;cursor:pointer;white-space:nowrap}
+.seedl .sr .dl:hover{background:rgba(233,196,106,.12)}
+.seedl .op{display:flex;justify-content:space-between;gap:10px;flex:1;min-width:0;padding:8px 12px;border:0;background:none;text-align:left;cursor:pointer;font-size:12.5px}
+.seedl .op:hover{background:rgba(255,255,255,.03)}
 .run{padding:10px 12px;border:1px solid var(--line);border-radius:10px;margin-top:8px}
 .run .st{font-size:11.5px;padding:1px 8px;border-radius:999px;margin-left:6px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 8px}
@@ -141,7 +143,7 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 </header>
 <section class="hero">
  <h1>全局<i class="gdot"></i>预鉴</h1>
- <p id="heroP">选国家，写推演要求，用你自己的模型密钥运行。种子文档由公开数据自动生成。</p>
+ <p id="heroP">一带一路 · 150 个共建国家</p>
  <div class="route"><span><i style="background:#ff5b4d"></i>不要前往</span><span><i style="background:#ff9f43"></i>重新考虑</span><span><i style="background:#f2c14e"></i>加强注意</span><span><i style="background:#5fe0a8"></i>正常</span></div>
 </section>
 <aside class="side" aria-label="内容" id="side">
@@ -165,7 +167,7 @@ let LANG=(()=>{try{return localStorage.getItem("bri_lang")||((navigator.language
 const EN=()=>LANG==="en",cn=c=>c?(EN()?c.en:c.zh):"";
 const DICT=[["公路","Road"],["口岸","Border post"],["水电","Hydropower"],["港口","Port"],["输电","Transmission"],["铁路","Railway"],["USGS 地震目录","USGS earthquakes"],["新闻（Google 新闻 RSS）","News (Google News RSS)"],["一般报道","General coverage"],["事件相关","Incident-related"],["加德满都","Kathmandu"],["万象","Vientiane"],["伊斯兰堡","Islamabad"],["项目地图"," project map"],
 ["模型账户余额不足，需要充值","Model account balance is insufficient"],["模型账户余额不足","Model account balance is insufficient"],["模型密钥无效","Invalid model key"],["模型接口限流","Model API rate-limited"],["模型接口限流，稍后再试","Model API rate-limited, try later"],["模型密钥没有权限","Model key lacks permission"],["接口地址或模型名不对","Wrong base URL or model name"],["连不上模型接口","Cannot reach the model API"],["Zep 密钥无效","Invalid Zep key"],["今天提交次数已满，明天再来","Daily submission limit reached; try tomorrow"],["排队的人太多，稍后再试","Queue is full; try later"],["推演要求要自己写，10 到 4000 字","Write the prompt yourself, 10–4000 characters"],["请选国家","Choose a country"],["请填模型接口地址、模型名和密钥","Enter base URL, model and key"],["没有完成","Not finished"],["格式不对","Invalid request"],["网络错误：","Network error: "],["提交失败","Submission failed"],
-["没有测试结果。","No test results."],["其他报道","Other coverage"],["一级","Level 1"],["二级","Level 2"],["三级","Level 3"],["四级","Level 4"],["百万美元","m USD"],["正在读取数据…","Loading data…"],["内容","Content"],["读不到","Cannot read"],["全球","Global"],["预鉴","Foresight"],["全局","Global"],["一带一路赋能","BRI-Empower"],["珠峰平台","EVEREST"],["一带一路","Belt and Road"],["150 个共建国家","150 partner countries"],["点地球上的国家，看冲突、灾害、断网、新闻和中国融资项目。","Click a country on the globe for conflict, hazards, outages, news and Chinese-financed projects."],
+["没有测试结果。","No test results."],["其他报道","Other coverage"],["一级","Level 1"],["二级","Level 2"],["三级","Level 3"],["四级","Level 4"],["百万美元","m USD"],["正在读取数据…","Loading data…"],["内容","Content"],["读不到","Cannot read"],["全球","Global"],["预鉴","Foresight"],["全局","Global"],["一带一路赋能","BRI-Empower"],["珠峰平台","EVEREST"],["一带一路","Belt and Road"],["一带一路 · 150 个共建国家","Belt and Road · 150 partner countries"],["150 个共建国家","150 partner countries"],["点地球上的国家，看冲突、灾害、断网、新闻和中国融资项目。","Click a country on the globe for conflict, hazards, outages, news and Chinese-financed projects."],
 ["重新考虑出行","Reconsider travel"],["不要前往","Do not travel"],["重新考虑","Reconsider"],["加强注意","Exercise caution"],["正常注意","Normal"],["正常","Normal"],
 ["东亚和太平洋","East Asia & Pacific"],["南亚","South Asia"],["欧洲和中亚","Europe & Central Asia"],["中东和北非","Middle East & North Africa"],["撒哈拉以南非洲","Sub-Saharan Africa"],["拉美和加勒比","Latin America & Caribbean"],
 ["偏差测试","Accuracy"],["种子文档","Seed docs"],["数据源","Sources"],["推演记录","Runs"],["推演要求","Prompt"],["推演","Simulate"],["国家","Countries"],
@@ -376,7 +378,7 @@ function tabDrill(){const pv=KEY("prov")||"deepseek",P=PRESETS.find(x=>x[0]===pv
  h+='<div class="h3">全部推演记录</div><div id="druns">'+runsHTML()+'</div>';return h}
 function cselect(id,v,add){return'<select id="'+id+'">'+(add?'<option value="">＋ 添加国家</option>':"")+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(cn(c))+'</option>').join("")+'</optgroup>').join("")+'</select>'}
 function seedPreview(sc){const fs=((D.seeds[sc]||{}).files||[]).slice();
- return fs.length?'<div class="seedl keep">'+fs.map(f=>'<button type="button" data-a="doc:'+esc(f.path)+'"><span>'+esc(EN()&&f.title_en?f.title_en:f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+(EN()?' docs, ':' 份，')+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
+ return fs.length?'<div class="seedl keep">'+fs.map(f=>'<div class="sr"><button type="button" class="op" data-a="doc:'+esc(f.path)+'"><span>'+esc(EN()&&f.title_en?f.title_en:f.title)+'</span><span class="mute">'+(f.bytes/1024).toFixed(1)+' KB</span></button><button type="button" class="dl" data-a="dl:'+esc(f.path)+'">'+(EN()?"Use for simulation ↓":"用这个文档推演 ↓")+'</button></div>').join("")+'</div><p class="small mute" style="margin:6px 0 0">'+fs.length+(EN()?' docs, ':' 份，')+(fs.reduce((a,f)=>a+f.bytes,0)/1024).toFixed(1)+' KB</p>':'<p class="small mute">还没有种子文档。</p>'}
 const scopeL=v=>Array.isArray(v)?v:String(v||"").split(/[ ,]+/).filter(Boolean);
 const scN=v=>scopeL(v).map(k=>cn(cinfo(k))||k).join(EN()?", ":"、");
 let JOBS=(()=>{try{return JSON.parse(ls.get("bri_jobs")||"[]")}catch(e){return[]}})(),JST={};
@@ -400,11 +402,12 @@ const TABS=[["drill","推演"],["live","国家"],["seeds","种子文档"],["sour
 function render(){if(document.activeElement&&document.activeElement.closest&&document.activeElement.closest("#df"))return;
  $("tabs").innerHTML=TABS.map(t=>'<button role="tab" data-a="tab:'+t[0]+'" aria-selected="'+(TAB===t[0])+'">'+t[1]+'</button>').join("");
  const b=$("body"),y=b.scrollTop;let h;
- if(VIEW)h='<button class="back" data-a="back:1">← 返回</button><div class="md">'+VIEW.html+'</div>';
+ if(VIEW)h='<div style="display:flex;justify-content:space-between;align-items:center;gap:8px"><button class="back" data-a="back:1">← 返回</button>'+(VIEW.path&&/^seeds\//.test(VIEW.path)?'<button class="btn ghost" style="padding:5px 12px;font-size:12px" data-a="dl:'+esc(VIEW.path)+'">'+(EN()?"Use for simulation ↓":"用这个文档推演 ↓")+'</button>':"")+'</div><div class="md">'+VIEW.html+'</div>';
  else h=TAB==="drill"?tabDrill():TAB==="seeds"?tabSeeds():TAB==="sources"?tabSources():TAB==="retro"?tabRetro():tabLive();
  if(D.errs&&D.errs.length)h+='<p class="note">这次没读到：'+esc(D.errs.join("、"))+'。几分钟后会自动重试。</p>';
  b.innerHTML=h;trNode(b);trNode($("tabs"));b.scrollTop=y}
-async function openDoc(path,title){VIEW={html:'<p class="mute">读取中…</p>'};render();try{const md=await get(path,true);VIEW={html:DOMPurify.sanitize(marked.parse(md))}}catch(e){VIEW={html:'<p class="mute">读不到 '+esc(path)+'：'+esc(e.message)+'</p>'}}render();$("body").scrollTop=0}
+async function dlDoc(path){try{const md=await get(path,true);const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([md],{type:"text/markdown;charset=utf-8"}));a.download=path.replace(/^seeds\//,"").replace(/\//g,"_");document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},1500)}catch(e){alert((EN()?"Download failed: ":"下载失败：")+e.message)}}
+async function openDoc(path,title){VIEW={path,html:'<p class="mute">读取中…</p>'};render();try{const md=await get(path,true);VIEW={path,html:DOMPurify.sanitize(marked.parse(md))}}catch(e){VIEW={html:'<p class="mute">读不到 '+esc(path)+'：'+esc(e.message)+'</p>'}}render();$("body").scrollTop=0}
 document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]");if(!a)return;const[k,v]=a.dataset.a.split(/:(.*)/s);
  if(k==="tab"){TAB=v;VIEW=null;ls.set("bri_tab",v);if(v==="drill")pollJobs()}
  else if(k==="c"){selectC(v);return}
@@ -413,7 +416,7 @@ document.addEventListener("click",async e=>{const a=e.target.closest("[data-a]")
  else if(k==="rm"){ls.set("bri_scope",SCOPE().filter(x=>x!==v).join(","));$("dchips").innerHTML=chipsHTML();$("dseeds").innerHTML=seedsMulti();trNode($("dchips"));trNode($("dseeds"));return}else if(k==="sk"){ls.set("bri_seedc",v);TAB="seeds"}
  else if(k==="p"){SEL=SEL===v?null:v;const p=D.projects.find(x=>x.id===v);if(p&&SEL)focus(p.centroid[0],p.centroid[1])}
  else if(k==="z")ZOOM=!ZOOM;else if(k==="m")MORE[v]=!MORE[v];else if(k==="t")OPEN[v]=!OPEN[v];
- else if(k==="doc"){openDoc(v);return}else if(k==="rep"){openDoc(RUNRAW+v+"/REPORT.md");return}else if(k==="back")VIEW=null;
+ else if(k==="doc"){openDoc(v);return}else if(k==="dl"){dlDoc(v);return}else if(k==="rep"){openDoc(RUNRAW+v+"/REPORT.md");return}else if(k==="back")VIEW=null;
  render()});
 document.addEventListener("input",e=>{if(e.target.id==="dreq")ls.set("bri_draft",e.target.value);if(e.target.id==="qs"){QS=e.target.value;const p=e.target.selectionStart;render();const q=$("qs");if(q){q.focus();q.setSelectionRange(p,p)}}});
 document.addEventListener("click",e=>{if(e.target.id!=="lang")return;LANG=EN()?"zh":"en";try{localStorage.setItem("bri_lang",LANG)}catch(x){}applyLang();render();glData()});
