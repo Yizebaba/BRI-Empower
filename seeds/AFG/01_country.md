@@ -10,4 +10,10 @@
 - 中央银行：无数据
 - 首都：无数据；货币：无数据；官方语言：无数据
 
+## 军事与安全
+
+- 近期有人员死亡的武装冲突事件（UCDP，经 World Monitor）：2 起，当事方见“参与方”文档。
+- 武器和弹药贸易（HS 93 章）见“行业、贸易与物流”文档。
+来源：世界银行开放数据（军费、武器贸易数据来自 SIPRI，武装部队人数来自 IISS）。
+
 来源：世界银行开放数据 https://data.worldbank.org/country/AFG ；Wikidata https://www.wikidata.org/ （CC0）。

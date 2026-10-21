@@ -1,4 +1,4 @@
-"""150 国基本面（免费、不要密钥），每周一次：
+"""150 国基本面（免费、不要密钥），每周一次（军事、科研、获奖也在这里）：
 1. 世界银行开放数据（api.worldbank.org）：经济规模、增长、三次产业占比、制造业、通胀、外债、偿债、外资、就业、城市化、电力和互联网普及等，各取最近一个有值的年份。
 2. Wikidata（query.wikidata.org）：国家元首、政府首脑（现任）、首都、货币、官方语言、中央银行、执政党。
 输出 data/country_facts.json。用法：python3 tools/country_facts.py
@@ -15,7 +15,11 @@ WB = {"NY.GDP.MKTP.CD": "GDP（现价美元）", "NY.GDP.MKTP.KD.ZG": "GDP 实�
       "DT.TDS.DECT.EX.ZS": "外债还本付息占出口收入（%）", "GC.DOD.TOTL.GD.ZS": "中央政府债务占 GDP（%）", "NE.EXP.GNFS.ZS": "货物和服务出口占 GDP（%）", "NE.IMP.GNFS.ZS": "货物和服务进口占 GDP（%）",
       "BN.CAB.XOKA.GD.ZS": "经常账户余额占 GDP（%）", "FI.RES.TOTL.CD": "外汇储备（含黄金，美元）", "TX.VAL.FUEL.ZS.UN": "燃料出口占商品出口（%）", "TX.VAL.MMTL.ZS.UN": "矿石和金属出口占商品出口（%）",
       "TX.VAL.FOOD.ZS.UN": "食品出口占商品出口（%）", "TX.VAL.MANF.ZS.UN": "制成品出口占商品出口（%）", "ST.INT.ARVL": "入境游客（人次）", "BX.TRF.PWKR.DT.GD.ZS": "侨汇收入占 GDP（%）",
-      "SP.URB.TOTL.IN.ZS": "城镇人口比例（%）", "EG.ELC.ACCS.ZS": "通电人口比例（%）", "IT.NET.USER.ZS": "互联网用户比例（%）", "SL.AGR.EMPL.ZS": "农业就业占比（%）", "SL.IND.EMPL.ZS": "工业就业占比（%）", "SL.SRV.EMPL.ZS": "服务业就业占比（%）"}
+      "SP.URB.TOTL.IN.ZS": "城镇人口比例（%）", "EG.ELC.ACCS.ZS": "通电人口比例（%）", "IT.NET.USER.ZS": "互联网用户比例（%）", "SL.AGR.EMPL.ZS": "农业就业占比（%）", "SL.IND.EMPL.ZS": "工业就业占比（%）", "SL.SRV.EMPL.ZS": "服务业就业占比（%）",
+      "MS.MIL.XPND.CD": "军费（现价美元，SIPRI）", "MS.MIL.XPND.GD.ZS": "军费占 GDP（%，SIPRI）", "MS.MIL.XPND.ZS": "军费占政府支出（%，SIPRI）", "MS.MIL.TOTL.P1": "武装部队人数",
+      "MS.MIL.MPRT.KD": "武器进口（SIPRI 趋势指标值 TIV）", "MS.MIL.XPRT.KD": "武器出口（SIPRI 趋势指标值 TIV）",
+      "GB.XPD.RSDV.GD.ZS": "研发支出占 GDP（%）", "SP.POP.SCIE.RD.P6": "每百万人研究人员", "IP.JRN.ARTC.SC": "科技期刊论文（篇）", "IP.PAT.RESD": "本国居民专利申请（件）",
+      "IP.PAT.NRES": "非居民专利申请（件）", "TX.VAL.TECH.MF.ZS": "高技术出口占制成品出口（%）", "TX.VAL.TECH.CD": "高技术出口（现价美元）"}
 out = {"generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "labels": WB, "countries": {k: {"wb": {}} for k in ISO}, "errors": {}}
 
 
@@ -56,5 +60,34 @@ for i in range(0, len(keys), 30):
             if zh and [zh, en] not in L: L.append([zh, en])
     except Exception as e: out["errors"]["wikidata_%d" % i] = str(e)[:160]
     time.sleep(2)
+# 获奖（Wikidata）：诺贝尔奖（各奖项）、菲尔兹奖、图灵奖的本国获奖者
+AW = """SELECT ?iso ?pLabel ?pEn ?aLabel ?aEn ?year WHERE { VALUES ?iso { %s } ?c wdt:P298 ?iso . ?p wdt:P27 ?c ; p:P166 ?st . ?st ps:P166 ?a .
+ { ?a wdt:P279* wd:Q7191 } UNION { VALUES ?a { wd:Q28835 wd:Q185667 } }
+ OPTIONAL { ?st pq:P585 ?d . BIND(YEAR(?d) AS ?year) } OPTIONAL { ?p rdfs:label ?pEn FILTER(lang(?pEn)="en") } OPTIONAL { ?a rdfs:label ?aEn FILTER(lang(?aEn)="en") }
+ SERVICE wikibase:label { bd:serviceParam wikibase:language "zh-cn,zh-hans,zh,en". } }"""
+for i in range(0, len(keys), 25):
+    try:
+        j = get("https://query.wikidata.org/sparql?format=json&query=" + urllib.parse.quote(AW % " ".join(f'"{k}"' for k in keys[i:i + 25])))
+        for b in j["results"]["bindings"]:
+            k = b["iso"]["value"]; L = out["countries"][k].setdefault("awards", [])
+            e = [b.get("pLabel", {}).get("value"), b.get("pEn", {}).get("value"), b.get("aLabel", {}).get("value"), b.get("aEn", {}).get("value"), b.get("year", {}).get("value")]
+            if e not in L: L.append(e)
+    except Exception as e: out["errors"]["awards_%d" % i] = str(e)[:160]
+    time.sleep(2)
+for v in out["countries"].values():
+    if v.get("awards"): v["awards"] = sorted(v["awards"], key=lambda x: x[4] or "0", reverse=True)[:30]
+
+# 科研产出（OpenAlex，CC0）：近一年论文数和主要学科
+YR = NOW.year - 1
+for c in C:
+    try:
+        j = get(f"https://api.openalex.org/works?filter=authorships.countries:{c['iso2']},publication_year:{YR}&group_by=primary_topic.field.id&mailto=bri-empower@users.noreply.github.com", tries=2)
+        g = sorted(j.get("group_by") or [], key=lambda x: -x["count"])
+        out["countries"][c["iso3"]]["research"] = {"year": YR, "works": (j.get("meta") or {}).get("count"), "fields": [[x["key_display_name"], x["count"]] for x in g[:10]]}
+    except Exception as e:
+        out["errors"].setdefault("openalex", str(e)[:160])
+        if "429" in str(e): break
+    time.sleep(0.3)
 json.dump(out, open("data/country_facts.json", "w"), ensure_ascii=False, separators=(",", ":"))
+print("awards:", sum(1 for v in out["countries"].values() if v.get("awards")), "research:", sum(1 for v in out["countries"].values() if v.get("research")))
 print("facts:", sum(1 for v in out["countries"].values() if v["wb"]), "wb;", sum(1 for v in out["countries"].values() if v.get("hos")), "wikidata;", out["errors"])

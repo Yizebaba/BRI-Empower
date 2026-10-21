@@ -221,6 +221,24 @@ def doc_country(k):
         ag, ind, srv, mf = (wb.get(x, [None])[0] for x in ("NV.AGR.TOTL.ZS", "NV.IND.TOTL.ZS", "NV.SRV.TOTL.ZS", "NV.IND.MANF.ZS"))
         if ag is not None and ind is not None and srv is not None:
             o += [f"产业结构：农业约占 GDP 的 {ag:.0f}%，工业（含建筑业）约 {ind:.0f}%" + (f"（其中制造业约 {mf:.0f}%）" if mf is not None else "") + f"，服务业约 {srv:.0f}%。", ""]
+    MIL = [x for x in ("MS.MIL.XPND.CD", "MS.MIL.XPND.GD.ZS", "MS.MIL.XPND.ZS", "MS.MIL.TOTL.P1", "MS.MIL.MPRT.KD", "MS.MIL.XPRT.KD") if x in wb]
+    w = WC.get(k) or {}
+    if MIL or w.get("ucdp"):
+        o += ["## 军事与安全", ""]
+        for code in MIL:
+            v, y = wb[code]; o.append(f"- {WBL[code]}：{usd(v) if code == 'MS.MIL.XPND.CD' else (f'{v:,.0f}' if abs(v) >= 100 else f'{v:.2f}')}（{y} 年）")
+        if w.get("ucdp"): o.append(f"- 近期有人员死亡的武装冲突事件（UCDP，经 World Monitor）：{len(w['ucdp'])} 起，当事方见“参与方”文档。")
+        o += ["- 武器和弹药贸易（HS 93 章）见“行业、贸易与物流”文档。", "来源：世界银行开放数据（军费、武器贸易数据来自 SIPRI，武装部队人数来自 IISS）。", ""]
+    RD = [x for x in ("GB.XPD.RSDV.GD.ZS", "SP.POP.SCIE.RD.P6", "IP.JRN.ARTC.SC", "IP.PAT.RESD", "IP.PAT.NRES", "TX.VAL.TECH.MF.ZS", "TX.VAL.TECH.CD") if x in wb]
+    rs = f.get("research") or {}; aw = f.get("awards") or []
+    if RD or rs or aw:
+        o += ["## 科研、创新与获奖", ""]
+        for code in RD:
+            v, y = wb[code]; o.append(f"- {WBL[code]}：{usd(v) if code == 'TX.VAL.TECH.CD' else (f'{v:,.0f}' if abs(v) >= 100 else f'{v:.2f}')}（{y} 年）")
+        if rs.get("works"): o.append(f"- {rs['year']} 年有本国作者参与的论文约 {rs['works']:,} 篇（OpenAlex），主要学科：" + "、".join(f"{a}（{b:,}）" for a, b in rs.get("fields", [])[:8]))
+        for p_zh, p_en, a_zh, a_en, yr in aw[:15]:
+            o.append(f"- {p_zh}" + (f"（{p_en}）" if p_en and p_en != p_zh else "") + f"：{a_zh or a_en}" + (f"，{yr} 年" if yr else ""))
+        o += ["来源：世界银行开放数据（论文数据来自美国国家科学基金会，专利来自 WIPO）；OpenAlex（CC0）；Wikidata（CC0）。", ""]
     o += [f"来源：世界银行开放数据 https://data.worldbank.org/country/{k} ；Wikidata https://www.wikidata.org/ （CC0）。"]
     return "\n".join(o) + "\n"
 
