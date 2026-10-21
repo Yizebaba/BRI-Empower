@@ -7,6 +7,7 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-20 23:16 UTC：M4.6，115 km NNE of Barishal, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r1 
 - 2026-10-19 15:35 UTC：M4.9，77 km WSW of Murghob, Tajikistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3d2 
 
 ## 物流与贸易
