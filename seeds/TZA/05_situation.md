@@ -13,4 +13,3 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-16 16:17 UTC：M4.6，41 km NNE of Kilimatinde, Tanzania。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qn 
-- 2026-10-14 09:16 UTC：M4.6，42 km NNE of Kilimatinde, Tanzania。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28e 

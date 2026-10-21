@@ -19,5 +19,3 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-10-20 23:16 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1572835&episodeid=1741492&eventtype=EQ 
-- 2026-10-20 06:41 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1572712&episodeid=1741339&eventtype=EQ 
-- 2026-10-20 00:56 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1572670&episodeid=1741296&eventtype=EQ 

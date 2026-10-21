@@ -9,7 +9,3 @@
 
 - 2026-09-18 04:00 UTC：CDC Travel Notices Level 1 - Hepatitis A in Costa Rica。https://wwwnc.cdc.gov/travel/notices/level1/hepatitis-a-costa-rica 
 - 2026-07-30 04:00 UTC：CDC Travel Notices Level 2 - Chikungunya in Costa Rica。https://wwwnc.cdc.gov/travel/notices/level2/chikungunya-costa-rica 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-09 01:00 UTC：Green 级 FL，Flood in Costa Rica。https://www.gdacs.org/report.aspx?eventid=1104227&episodeid=2&eventtype=FL 

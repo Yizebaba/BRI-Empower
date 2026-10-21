@@ -15,3 +15,7 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-10-20 14:20 UTC：Green 级 EQ，Earthquake in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1572780&episodeid=1741419&eventtype=EQ 
+- 2026-10-11 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032999&episodeid=2&eventtype=WF 
+- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032814&episodeid=15&eventtype=WF 
+- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032894&episodeid=4&eventtype=WF 
+- 2026-10-06 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032888&episodeid=7&eventtype=WF 

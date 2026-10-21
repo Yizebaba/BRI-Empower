@@ -7,4 +7,5 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Zimbabwe。https://www.gdacs.org/report.aspx?eventid=1032978&episodeid=1&eventtype=WF 
+- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Zimbabwe。https://www.gdacs.org/report.aspx?eventid=1032873&episodeid=10&eventtype=WF 
+- 2026-10-07 00:00 UTC：Green 级 WF，Forest fires in Zimbabwe, Mozambique。https://www.gdacs.org/report.aspx?eventid=1032988&episodeid=2&eventtype=WF 
