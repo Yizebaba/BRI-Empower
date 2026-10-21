@@ -1,0 +1,196 @@
+# 塞尔维亚（Serbia）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Serbia, officially the Republic of Serbia, is a landlocked country in Southeastern and Central Europe. It is bordered by Hungary to the north, Romania to the northeast, Bulgaria to the southeast, North Macedonia to the south, Croatia to the northwest, Bosnia and Herzegovina to the west, Montenegro to the southwest, and it also claims a border with Albania through the disputed territory of Kosovo. 
+Serbia has about 6.5 million inhabitants, with its capital, Belgrade, being its largest city.  
+Continuously inhabited since the Paleolithic age, the territory of modern-day Serbia, then part of the Roman Empire, experienced Slavic migrations in the 6th century. The first Serb proto-state was established in the 7th century and by the 9th century had developed into a more stable principality, recognized as a tributary state to the Byzantine Empire. The Serbian Kingdom was established in 1217, reaching its territorial apex in 1346 as the Serbian Empire. By the mid-16th century, the Ottoman Empire annexed the entirety of modern-day Serbia; their rule was at times interrupted by the Habsburg Empire, which maintained a foothold in the northern part of the country from the early 18th century. At the beginning of the 19th century, the Serbian Revolution established the Principality of Serbia, which developed into a constitutional monarchy and gained international recognition of its independence in 1878 before being proclaimed a kingdom in 1882. Emerging victorious from World War I, Serbia incorporated the former Habsburg crownland of Vojvodina into its territory in 1918, before uniting that same year with Slovenes and Croats to form the Kingdom of Yugoslavia, ending its existence as a separate political entity. Serbia was re-established after World War II as one of six federal units of socialist Yugoslavia. During the breakup of Yugoslavia, it formed a union with Montenegro, which was dissolved in 2006, subsequently restoring Serbia's independence. In 2008, Kosovo unilaterally declared independence, receiving mixed responses from the international community, while Serbia continues to regard it as part of its sovereign territory.
+Serbia is a parliamentary republic, with its constitution ensuring the separation of powers between the executive (with president and government headed by the prime minister), legislative (with unicameral parliament), and judiciary branches. The country is a member of the United Nations and numerous other international organizations and has been negotiating its accession to the European Union. It exerts regional influence as a small power in Europe, particularly in neighboring Southeast Europe. An upper-middle-income economy, Serbia provides universal health care as well as free primary and secondary education and subsidized tertiary education to its citizens.
+
+来源：https://en.wikipedia.org/wiki/Serbia（CC BY-SA 4.0）
+
+## 中国与塞尔维亚的关系（维基百科全文）
+
+### China–Serbia relations
+
+China and Serbia maintain diplomatic relations established between People's Republic of China and SFR Yugoslavia in 1955. From 1956 to 2006, China maintained relations with the Socialist Federal Republic of Yugoslavia (SFRY) and the Federal Republic of Yugoslavia (FRY) (later Serbia and Montenegro), of which Serbia is considered shared (SFRY) or sole (FRY) legal successor. In recent decades, the two countries have held a very close relationship raising it to the level of strategic partnership since 2009.
+
+
+== History ==
+China supported the Serbia (then part of Federal Republic of Yugoslavia) during the Kosovo War and opposed the NATO airstrikes against targets in Serbia and Montenegro. China believed that Milošević was acting to prevent the secession of Kosovo by Albanian separatists from Serbia, and thus supported his actions as preserving the FRY's territorial integrity. China opposed NATO intervention in Kosovo on the basis that it set a dangerous precedent that Chinese officials believed could in the future afflict China should riots occur in Tibet or Xinjiang and then result in bombings. PRC opposition to the NATO actions intensified after the United States bombed the Chinese embassy in Belgrade during the war.
+
+
+== Political relations ==
+Serbia follows the one China principle, and recognizes government of the People's Republic of China as the sole legal government representing the whole of China and Taiwan as "an inalienable part" of China. Serbia also supports all efforts by the PRC to "achieve national reunification" and opposes Taiwan independence.
+Under president Aleksandar Vučić, Serbia has sought closer cooperation with China. After meeting with Chinese Minister of Foreign Affairs Wang Yi, he secured Chinese help in combating the COVID-19 pandemic in Serbia through the delivery of PPE and CoronaVac vaccine doses, which contributed to Serbia leading COVID-19 vaccination rates in Europe. 
+In 2019, UN ambassadors of 37 countries, including Serbia, signed a joint letter to the United Nations Human Rights Council defending China's persecution of Uyghurs. Serbia was one of 16 countries that defended China in 2019 but did not do so in 2020.
+In 2024, on occasion of the 25th anniversary of the United States bombing of the Chinese embassy in Belgrade, Chinese leader Xi Jinping wrote an article in the Serbian newspaper Politika in which he stated, "The friendship between China and Serbia which is soaked in blood that the two peoples spilled together has become a joint memory of the two peoples and will encourage both parties to make together huge steps forward." In September 2025, China ratified an extradition treaty it signed with Serbia in 2024. 
+
+
+=== China's stance on Kosovo ===
+
+China backs Serbia's position regarding Kosovo. The Ministry of Foreign Affairs of China has made a statement stressing that the PRC "expresses grave concern" over Kosovo's unilateral declaration of independence. The spokesman Liu Jianchao's remarks go on to add that "The resolution of the Kosovo issue bares  [sic] on peace and stability of the Balkan region, the fundamental norms governing international relations as well as the authority and role of the UN Security Council. China always believes that a plan acceptable to both Serbia and Kosovo through negotiations is the best way to resolve this issue. The unilateral move taken by Kosovo will lead to a series of consequences. China is deeply worried about its severe and negative impact on peace and stability of the Balkan region and the goal of establishing a multi-ethnic society in Kosovo. China calls upon Serbia and Kosovo to continue negotiations for a proper resolution within the framework of the international law and work together to safeguard peace and stability of the Balkan region. The international community should create favorable conditions for that." 
+Serbian Deputy Prime Minister Božidar Đelić told reporters after an April 2009 meeting in Beijing with Politburo member Liu Yandong that China reiterated its support to help Serbia preserve her territorial integrity. "Just as Serbia supports the one China policy, China supports Serbia as its best and most stable friend in southeastern Europe." Ambassador of China to Serbia, Wei Jinghua, stated in 2009 that "China respects the sovereignty and territorial integrity of Serbia and understands the great concern of Serbia on the issue of Kosovo. We support the negotiations between Belgrade and Pristina that would bring a mutually acceptable solution, in accordance with international law, the UN Charter and UN resolutions."
+
+
+=== High-level visits ===
+
+
+== Economic relations ==
+China is Serbia's second biggest trading partner. Trade between the two countries amounted to $6.1 billion in 2022 with Chinese merchandise exports to Serbia standing at almost $5 billion while Serbian exports stood at $1.1 billion. Since 2024, China and Serbia have a free trade agreement. 
+Chinese companies invested $5.6 billion in Serbia in the last decade and employ 38,000 people. Chinese corporations making investments in Serbia include Zijin Mining (owner of Serbia Zijin Bor Copper cooper mining complex in Bor), Hesteel (owner of Hesteel Serbia steel plant in Smederevo), Hisense (electrical appliances factory in Valjevo), Linglong Tire (tire factory in Zrenjanin), and Minth (automotive parts factories in Šabac and Loznica).
+Since early 2010s China has invested US$10 billion in Serbian infrastructure and energy mainly through China's Belt and Road Initiative, of which Serbia was one of major beneficiaries with projects including Serbian section of the Budapest–Belgrade railway (built by CCCC), 350 MW B3 unit of Kostolac thermal power-plant (built by CMEC), Belgrade–Ljig and Čačak-Požega segments of A2 motorway (built by Shandong Gaosu Group), Pupin Bridge in Belgrade (built by CRBC). As of 2024, Chinese companies are building several large infrastructure projects including Line 1 of Belgrade Metro (built by Power China), the National Stadium and exhibition halls for Expo 2027 in Belgrade (built by Power China), A6 motorway connecting Belgrade and Novi Sad through the town of Zrenjanin (built by Shandong Gaosu Group). 
+The Serbian flag carrier Air Serbia operates flights between Belgrade and Shanghai and Belgrade and Guangzhou. The Chinese carriers China Southern Airlines and Hainan Airlines operate flights between Belgrade and Guangzhou and Belgrade and Beijing respectively.
+
+
+== Military cooperation ==
+In recent years, Serbia has purchased from China air defense missile systems of medium and short range (HQ-22 and HQ-17) as well as combat drones (CH-95 and CH-92). In 2025, the Serbian and Chinese militaries conducted joint training exercises in China, an operation which was code-named "Peace Guardian 2025".
+
+
+== Cultural cooperation ==
+Confucius Institute, cultural center devoted to the Chinese culture and language has been operating in Belgrade since 2006.
+
+
+== Immigration from China ==
+
+There is a relatively present Chinese diaspora in Serbia; estimates are that up to 15,000 Chinese people live in Serbia, mainly in Belgrade, Bor, and Zrenjanin. First wave of Chinese immigration to Serbia mainly occurred during the late 1990s and was driven by relaxed visa policies, primarily traders from Zhejiang and Fujian who settled in Belgrade. Second wave is largely tied to economic activities, investments of Chinese companies in mining and manufacturing, and is concentrated in towns of Bor and Zrenjanin.
+
+
+== Travel regime ==
+In 2017, Serbia and China mutually abolished the requirement of obtaining an entry visa for its citizens.
+
+
+== Resident diplomatic missions ==
+
+China has an embassy in Belgrade.
+Serbia has an embassy in Beijing and a consulate general in Shanghai.
+
+
+== See also ==
+Foreign relations of China
+Foreign relations of Serbia
+China–Yugoslavia relations
+
+
+== References ==
+
+
+== External links ==
+Chinese Foreign Ministry about relations with Serbia
+Serbian Ministry of Foreign Affairs about relations with China Archived 20 February 2012 at the Wayback Machine
+Serbian embassy in Beijing
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Serbia_relations（CC BY-SA 4.0）
+
+## 与“一带一路”相关的条目（维基百科导言）
+
+### Budapest–Belgrade railway
+
+The Budapest–Belgrade railway connects the capital cities of Budapest, Hungary and Belgrade, Serbia, linking the Budapest Keleti railway station with Belgrade Centre railway station. Valued at $2.89 billion, the 350 km (220 mi) high-speed rail line is part of the planned Budapest–Belgrade–Skopje–Athens railway, an international route across Central and Southeast Europe. It is a flagship China-CEEC project under Beijing's Belt and Road Initiative, aimed at connecting the Chinese-operated Port of Piraeus in Greece with Central Europe.
+
+来源：https://en.wikipedia.org/wiki/Budapest%E2%80%93Belgrade_railway
+### China–Yugoslavia relations
+
+China–Yugoslavia relations were historical foreign relations between China and the former Socialist Federal Republic of Yugoslavia. Upon the creation of the People's Republic of China (PRC), Yugoslav communists were quite elated and provided diplomatic support for the emergent government led by the Chinese Communist Party. During the initial phases of the Cold War, China was very critical towards Yugoslavia's perceived liberalism, lack of antagonism with the Western Bloc and Tito's market socialism. Due to these disagreements, the Chinese communists denounced their Yugoslav counterparts as revisionists. Mao Zedong, the Chairman of the PRC, launched a scathing attack on Tito's policies, claiming that Yugoslavia had joined the capitalist bloc and had abandoned socialism. Mao would denounce Tito as having strayed from Marxism–Leninism and basing his ideology on imperialism. Yugoslav communists in turn criticized the Chinese Communist Party's dogmatic and orthodox version of communism.
+However, by the end of the 1960s, the relations significantly improved due to the fallout of the Sino-Albanian split. With Albania having denounced both Yugoslavia and China, the two countries formed a good working relationship which continued till the acrimonious breakup of Yugoslavia. Yugoslavia maintained a robust partnership with China, especially in diplomacy and technology. In the 1980s Deng Xiaoping's foreign policy resembled Yugoslavia's stance of being non-aligned and non-confrontational, accompanied with Hu Yaobang's 1983 appraisal of Josip Tito's principles of independence and equality among all communist parties, and of opposing imperialism, colonialism, and hegemonism. The CCP would carefully watch Yugoslavia's market socialism and its disastrous collapse, using the Yugoslav model to create its own form of socialism, known as Socialism with Chinese characteristics. China was firmly on Slobodan Milošević's side in the Kosovo War, which would eventually culminate in strong modern day China–Serbia relations.
+All six former Yugoslav republics have a broad memoranda of understanding with China on Belt and Road Initiative. China's relationship with Serbia is particularly strong. Confucius Institutes as well as China-oriented study departments have opened up in Serbia, Croatia and Slovenia.
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Yugoslavia_relations
+### Cooperation between China and Central and Eastern European Countries
+
+Cooperation between China and Central and Eastern European Countries (China-CEE, China-CEEC, also 14+1; formerly 17+1 from 2019 to 2021 and 16+1 from 2021 to 2022) is an initiative by the Chinese Ministry of Foreign Affairs to promote business and investment relations between China and 14 countries of Central and Eastern Europe (CEE, CEEC): Albania, Bosnia and Herzegovina, Bulgaria, Croatia, the Czech Republic, Greece, Hungary, Montenegro, North Macedonia, Poland, Romania, Serbia, Slovakia, and Slovenia. Prior to their 2022 withdrawal, Estonia, Latvia, and Lithuania were members of the initiative.
+
+来源：https://en.wikipedia.org/wiki/Cooperation_between_China_and_Central_and_Eastern_European_Countries
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-08 · Brief · Serbia Poverty and Equity Brief : October 2026
+。http://documents.worldbank.org/curated/en/099449004222525893
+  摘要：Over the past decade, Serbia has made substantial progress in reducing poverty. The share of the population living below the upper-middle-income poverty line (US$8.30 per person per day in 2021 PPP) declined from 33 percent in 2014 to an estimated 9 percent in 2023. Prior to the COVID-19 pandemic, Serbia experienced several years of strong economic growth, driven primarily by services and, to a lesser extent, industry and agriculture, alongside low inflation. Growth translated into higher employment and rising earnings, particularly through wage growth in the private sector, contributing to significant reductions in poverty and gains in shared prosperity. Labor market outcomes improved markedly over the period. The employment rate among individuals aged 15 and above increased from 40.7 percent in 2015 to 46.1 percent in 2019 and further to 51.2 percent in 2025. Although unemployment rose temporarily in 2021 as labor force participation increased, it subsequently declined to 9.5 percent in 2022 and 8.7 percent in 2025. By the second quarter of 2026, unemployment had fallen to a record low of 7.2 percent.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Serbia : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099451310142631391
+  摘要：Recent economic developments suggest that growth is likely to exceed 3 percent in 2026, despite some headwinds, supported by a more expansionary fiscal stance. After several years of fiscal consolidation, the deficit has widened, providing some countercyclical support to domestic demand. The incidence of poverty is projected to be 7.4 percent in 2026 and to continue falling, driven by expected pickup in growth.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Serbia : Annual Meetings 2026 Datasheet。http://documents.worldbank.org/curated/en/099455010202615933
+  摘要：Recent economic developments suggest that growth is likely to exceed 3 percent in 2026, despite some headwinds, supported by a more expansionary fiscal stance. After several years of fiscal consolidation, the deficit has widened, providing some countercyclical support to domestic demand. The incidence of poverty is projected to be 7.4 percent in 2026 and to continue falling, driven by the expected pickup in growth.
+- 2026-09-03 · Project Appraisal Document · Serbia - Gas Sector Development Program
+（项目：YF-Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project -- P516640,YF-Serbia Gas Sector Development Program -- P516639）。http://documents.worldbank.org/curated/en/099090326183511555
+  摘要：Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project for Serbia, with the development objective to improve the security and reliability of gas supply in Serbia. Components: Component 1 – Trupale–Pojate Gas Transmission Pipeline, which finances engineering, procurement, and construction of a 62-kilometer, 900-millimeter-diameter, high-pressure pipeline with metering, regulation, safety systems, fiber-optic communications, and integration into a Supervisory Control and Data Acquisition (SCADA) network; the pipeline is designed to hydrogen-ready specifications to preserve future flexibility, will be transferred upon commissioning to Gas Infrastruktura as the Transmission Network Owner (TNO), and operated under lease and operation arrangements by Transportgas Srbija as the Transmission System Operator (TSO), thereby removing a central corridor bottleneck, enabling greater utilization of gas from the Bulgaria–Serbia interconnector and the planned North Macedonia interconnector, and improving supply to key demand centers and to the planned combined cycle gas turbine in Niš. Component 2 – Institutional Strengthening and Technical Assistance, which supports sector governance, reform implementation, and preparation for subsequent phases through three Sub-components: Sub-component 2.1 – Project Implementation Support and Institutional Strengthening, which establishes and operates a Project Implementation Unit within the Ministry of Mining and Energy (MoME), pro
+- 2026-07-31 · Report · FY 2026 Serbia Country Opinion Survey Report : Appendices。http://documents.worldbank.org/curated/en/099607108202613669
+  摘要：The Country Opinion Survey in Serbia assists the World Bank Group (WBG) in better understanding how stakeholders in Serbia perceive the WBG. It provides the WBG with systematic feedback from national and local governments, multilateral and bilateral agencies, media, academia and research centers, the private sector, and civil society organizations in Serbia on: 1) their overall attitudes toward the WBG in Serbia; 2) their views on development priorities and challenges in Serbia; 3) overall impressions of the WBG’s effectiveness and results, instruments, knowledge work and activities, engagement and collaboration, and communication and information sharing in Serbia; and 4) their perceptions of the WBG’s future role in Serbia.
+- 2026-07-31 · Report · FY 2026 Serbia Country Opinion Survey Report。http://documents.worldbank.org/curated/en/099603108202616488
+  摘要：The Country Opinion Survey in Serbia assists the World Bank Group (WBG) in better understanding how stakeholders in Serbia perceive the WBG. It provides the WBG with systematic feedback from national and local governments, multilateral and bilateral agencies, media, academia and research centers, the private sector, and civil society organizations in Serbia on: 1) their overall attitudes toward the WBG in Serbia; 2) their views on development priorities and challenges in Serbia; 3) overall impressions of the WBG’s effectiveness and results, instruments, knowledge work and activities, engagement and collaboration, and communication and information sharing in Serbia; and 4) their perceptions of the WBG’s future role in Serbia.
+- 2026-06-02 · Working Paper · Serbia - Catalyzing Long Term Finance through Capital Markets Project : Mid Term Review Report（项目：YF-Catalyzing Long Term Finance through Capital Markets -- P176069）。http://documents.worldbank.org/curated/en/099072226142027530
+  摘要：This Mid-Term Review assesses the progress of the Catalyzing Long-Term Finance for Capital Markets Project (P176069) in Serbia. The project aims to strengthen the capital market ecosystem, improve the enabling environment for capital markets, and deepen the corporate bond market, including green and thematic bond issuances. At the review stage, notable achievements include the establishment of the Capital Markets Policy and Regulatory Unit, progress on regulatory alignment with international standards, upgrades to the Central Securities Depository, and the successful issuance of two inaugural corporate bonds, including a green bond. However, implementation has faced delays in key reform and infrastructure activities, resulting in a disbursement rate below target. The review concludes that the project remains relevant and strategically important, recommending accelerated implementation of delayed activities, stronger investor outreach, and targeted policy reforms to support sustainable market development and achievement of project objectives by closure.
+- 2026-05-28 · Performance and Learning Review · Serbia - Performance and Learning Review of the Country Partnership Framework for the Period FY22-FY26（项目：YF-Serbia Country Partnership Framework FY22-26 -- P500018）。http://documents.worldbank.org/curated/en/099050626134097163
+  摘要：This Performance and Learning Review (PLR) reports on the implementation of the World Bank Group (WBG) FY22-26 Country Partnership Framework (CPF) for the Republic of Serbia and extends it by one year. This extension will ensure a credible government commitment to a new program after parliamentary and presidential elections that will be held in 2026/27. It will also allow time to deliver the program in full, based on PLR adjustments including alignment of the Result Framework (RF) to revised activities and expected results. A new CPF will be prepared in FY28, in partnership with the Government, underpinned by analytics under preparation, including a Country Growth and Jobs Report (CGJR) (FY27). The WBG program is mostly on track to deliver the outcomes expected under the CPF RF by FY27. Important results were achieved on building human capital, greening Public Financial Management (PFM), fostering renewable energy, boosting digitalization, supporting the strengthening of carbon taxation and the research and innovation ecosystem, moving towards green energy and investments and aligning the legal and regulatory framework with the EU. Conversely, less progress than expected was realized on mining, decarbonization and the just transition, although recent developments have injected renewed impetus in the energy transition agenda. On the operational side, implementation bottlenecks emerged in the railways sector and in the engagement with local self-governments (LSGs). Strong colla
+- 2026-08-19 · Project Information Document · Appraisal Project Information Document (PID)（项目：YF-Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project -- P516640）。http://documents.worldbank.org/curated/en/099081926130531557
+- 2026-08-18 · Environmental and Social Review Summary · Appraisal Environmental and Social Review Summary (ESRS) - Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project - P516640（项目：YF-Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project -- P516640）。http://documents.worldbank.org/curated/en/099081826135536296
+- 2026-08-03 · Environmental and Social Assessment · Environmental and Social Scoping Report and TOR for ESIA Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project (P516640)（项目：YF-Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project -- P516640）。http://documents.worldbank.org/curated/en/099080326110023422
+- 2026-07-29 · Environmental and Social Management Framework · Resettlement Framework Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project (P516640)（项目：YF-Serbia - Strategic Gas Infrastructure and Institutional Strengthening Project -- P516640）。http://documents.worldbank.org/curated/en/099072926084024370
+
+## 学术论文（OpenAlex）
+
+### The Republic of Serbia and the Belt and Road Initiative（2020，，被引 7）
+
+In 2013, President of the People's Republic of China, Xi Jinping, launched the One Belt One Road Initiative, later abbreviated as the Belt and Road Initiative.Surprisingly or not, the initiative became widely accepted.The Republic of Serbia was among the countries that warmly welcomed it and decided to join.This article gives an insight into the results that Serbia has achieved participating in this initiative so far.Besides, the author tried to determine if this political decision had influenced the Republic of Serbia's position in international relations and if it did to what extent.Although the BRI was launched in 2013, the time context of this paper starts earlier in order not to neglect Serbia and China's bilateral relations that have been ascending for decades.The quality of their relations was never conditioned by undeniable disproportion in population, territory or economic strength.Their linkage was based on mutual understanding and respect for the international law norms and principles.
+
+https://doi.org/10.18485/iipe_balkans_rssc.2020.ch17
+### Beyond the spatial fix: towards a finance-sensitive reading of the Belt and Road in Serbia（2023，Area Development and Policy，被引 24）
+
+The Belt and Road Initiative (BRI) has been theorised as a spatial fix to China's overaccumulation problem, and as such, an implicitly productivist endeavour. This article opens up conceptual space to consider how historically and geographically mediated forms of financialisation have tempered the unfolding of the BRI in peripheral economies. Drawing on the Serbian post-socialist transition context, financialisation has been characterised by underinvestment and a persistent dependency on foreign, market-based capital inflows which have (1) precipitated state transformations to mobilise Chinese financing for BRI projects, strengthening the role of the state in industrial rejuvenation; and (2) created an institutional palimpsest conducive to non-productive forms of surplus value appropriation that demonstrates the hybridity of accumulation imperatives underlying the BRI.
+
+https://doi.org/10.1080/23792949.2023.2200546
+### Belt and Road Initiative in Serbia: An impact on entrepreneurship development（2024，，被引 0）
+
+Belt and Road Initiative' (BRI) is a major global initiative with severe economic impact , geopolitical, environmental and social implications. The Belt and Road Initiative is a very ambitious project started by the Chinese Government with a partnership of 152 countries .Our study is based on a review of existing literature, our own research and GEM data. Also, our research on Serbia showed that impact of China is rather on the recovery of the country than geopolitics. In addition, the impact of the BRI on entrepreneurship in Asia is complex and multifaceted. While the initiative has the potential to create significant opportunities for entrepreneurs, it also poses some challenges and risks that need to be carefully managed. In any case, the Belt and Road Initiative can provide a significant opportunity for entrepreneurs to expand their businesses, promote innovation, and contribute to economic growth in participating countries.
+
+https://doi.org/10.5937/eee24058r
+### “Belt and Road” Initiative as a Development Chance for the Western Balkan Countries（2022，Advances in finance, accounting, and economics book series，被引 7）
+
+Foreign direct investment (FDI) is a very important element of economic integration because it creates an opportunity for accelerated development, technological innovation, and corporate restructuring. Western Balkan countries mainly focused their activities on attracting investments from EU countries. However, as investments from these countries have been reduced recently, the countries of the Western Balkans have opened their markets to incoming Chinese investments. Serbia is currently the first country in the Western Balkans. Based on the inflow of Chinese investments, and in the coming period, we can expect a trend of intensive growth of Chinese investments related to the “Belt and Road” Initiative, which will lead to additional development of the Serbian economy. The main subject of this research focuses on the distribution of Chinese investments on a global scale, as well as the importance of the “Belt and Road” Initiative for both multinational companies and recipient countries of Western Balkans, with special reference to Serbia.
+
+https://doi.org/10.4018/978-1-7998-8021-9.ch008
+### Global-Local Dynamics in Belt and Road Initiative Projects（2023，Japan focus，被引 4）
+
+Abstract This essay argues that modes of conceptualizing global-local entanglements provide a useful lens for looking at the different ways Belt and Road Initiative (BRI) projects localize in BRI-host countries. The essay draws on recent work on George Ritzer to examine examples of BRI projects where global norms and practices are locally conceived and controlled, in contrast to other cases where the projects barely reflect local culture. Examples of Serbia and Hungary are provided to illuminate these points.
+
+https://doi.org/10.1017/s1557466023028449
+### Understanding the Impact of the Normative Power of the European Union on the Belt and Road Initiative: The Case of Italy, Serbia, and Latvia（2020，Gothenburg University Publications Electronic Archive (Gothenburg University)，被引 0）
+
+The Belt and Road Initiative (BRI) was announced in 2013 and has attracted much attention from many countries. Promising significant investments all over the world, including in Europe, the BRI has prompted vibrant discussion regarding how it will shape international politics. While many studies have been published on how the BRI is influencing trends in different countries and regions, there has not been any research on how those countries try to socialize the BRI during their interaction with China. This dissertation aims to contribute to the by looking at if the level of a country’s affiliation with the EU, which is usually considered as being a normative power, equals the level of EU norms present in China’s BRI interactions with that country. The dissertation used a qualitative content analysis of official agreements and other documents related to China’s BRI interactions with our three case countries (Italy, Latvia, Serbia) to study the topic. The dissertation also studied what norms were present in the BRI when the BRI was first defined in 2015 to be better able to see what norms originate from the EU. To complement our data and give our data more context, we have also conducted expert interviews with country experts as well as EU-China experts while also utilizing second hand or tertiary sources if it is needed. The dissertation concludes that the EU’s internal norms are affecting the BRI and the level of affiliation to the EU matters. The more a country is affiliated\n4\nwith the EU, the more EU norms are present in China’s BRI interactions with said country. Affiliation levels and EU norms present in China’s interactions can change over time and be affected by the case country's attitude towards, and dependency of, the EU.
+
+https://openalex.org/W3093897103
+### The importance of Chinese investments in the One Belt, One Road Initiative（2017，，被引 2）
+
+The 16+1 cooperation initiative, involving the People’s Republic
+of China and the 16 countries of Central and Eastern Europe, was officially
+launched in 2012. Each of the countries has its own cooperation priorities,
+but the majority of the investment projects which are part of the initiative
+is in the areas of transport infrastructure, agriculture, energy, logistics,
+health, etc. This cooperation initiative is complementary to China’s
+landmark foreign policy project, One Belt, One Road; together, they
+determine China’s attitude towards these 16 countries. Firstly, this paper
+will view the main sectors of Chinese investment throughout the countries
+of Central and Eastern Europe since 2012. This will be followed by the
+investment projects which have been completed, as well as the most recent
+announced projects and their estimated value. Five years after the official
+launching of the 16+1 cooperation initiative, it is clear that not all countries
+in the region have benefited equally from the initiative ‐ while some have
+maintained enthusiasm due to a large number of implemented projects
+and tangible results, the others are still waiting to see tax revenue flowing
+into their budgets and are growing sceptical. The authors point out that
+dominant countries such as Hungary, Poland, the Czech Republic, Romania,
+Serbia or Bulgaria have seen most of the benefits; although it is unrealistic
+to expect equal benefits to all 16 countries of Central and Eastern Europe,
+the initiative will be fully successful only if major Chinese companies gain
+a stronghold in those countries in which they were absent until now.
+
+https://openalex.org/W3154958098
+### Report on ICT in Education in the Republic of Serbia（2020，Lecture notes in educational technology，被引 1）
+
+（无摘要）
+
+https://doi.org/10.1007/978-981-15-6879-4_16
+
+抓取时间：2026-10-21T09:59:02Z

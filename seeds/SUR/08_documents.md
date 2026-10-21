@@ -1,0 +1,81 @@
+# 苏里南（Suriname）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Suriname,  officially the Republic of Suriname, is a country on the northern coast of South America, also considered part of the Caribbean region. Situated slightly north of the equator, over 90% of its territory is covered by rainforest, the second-highest proportion of forest cover in the world. Suriname is bordered by the Atlantic Ocean to the north, French Guiana to the east, Brazil to the south, and Guyana to the west. It is the smallest sovereign country in South America by both population and territory, with around 612,985 inhabitants in 2021 in an area of approximately 165,940 square kilometres (64,070 square miles). The capital and largest city is Paramaribo, which is home to roughly half the population.
+Suriname was inhabited as early as the fourth millennium BC by various Indigenous peoples, including the Lokono, Kalina, and Wayana. Europeans arrived and contested the area in the 16th century, with the Dutch controlling much of the country's current territory by the late 17th century. Under Dutch rule, Suriname was a lucrative plantation colony focused mostly on sugar; its economy was driven by African slave labour until the abolition of slavery in 1863. Approximately 300,000 enslaved Africans were taken to Suriname during the transatlantic slave trade, from the mid-1600s to the early 1800s. After 1863, indentured servants were recruited mostly from British India and the Dutch East Indies. In 1954, Suriname became a constituent country of the Kingdom of the Netherlands. On 25 November 1975, it became independent following negotiations with the Dutch government. Suriname continues to maintain close diplomatic, economic, and cultural ties with the Netherlands. Surinamese culture and society strongly reflect the legacy of Dutch colonial rule. 
+Suriname is the only independent state outside Europe where Dutch is the official and prevailing language of government, business, media, and education; an estimated 60% of the population speaks Dutch as a native language. Sranan Tongo, an English-based creole language, is a widely used lingua franca and English itself is also widely spoken, understood and used. Most Surinamese are descendants of slaves brought from Africa by Europeans, and indentured labourers brought from Asia by the Dutch. Suriname is highly diverse, with no ethnic group forming a majority; proportionally, its Muslim and Hindu populations are some of the largest in the Americas. Most people live along the northern coast, centred on Paramaribo, making Suriname one of the least densely populated countries on Earth.
+It is a developing country with a high level of human development; its economy is heavily dependent on its abundant natural resources, namely bauxite, gold, petroleum, and agricultural products. Suriname is a member of the Caribbean Community (CARICOM), the United Nations, the Organisation of Islamic Cooperation and the Organization of American States.
+
+来源：https://en.wikipedia.org/wiki/Suriname（CC BY-SA 4.0）
+
+## 中国与苏里南的关系（维基百科全文）
+
+### China–Suriname relations
+
+China-Suriname relations are the bilateral relations between the Republic of Suriname and the People's Republic of China. China has an embassy in Paramaribo. Suriname has an embassy in Beijing. 
+
+
+== History ==
+In 1976, China and Suriname officially established diplomatic relations between the two countries. Suriname engaged with the Belt and Road Initiative by signing a memorandum of understanding, which made it the second Caribbean country to sign.
+
+
+== Human Rights ==
+In June 2020, Suriname was one of 53 countries that backed the Hong Kong national security law at the United Nations.
+
+
+== See also ==
+Chinese Surinamese
+Sino-Caribbean relations
+
+
+== References ==
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Suriname_relations（CC BY-SA 4.0）
+
+## 与“一带一路”相关的条目（维基百科导言）
+
+### Marco Rubio's anti-narcotics diplomacy in the Caribbean
+
+Marco Rubio’s diplomatic efforts in the Caribbean, particularly in anti-narcotics policy, have been central to his tenure as U.S. Secretary of State. During his visits in early 2025, Rubio reinforced U.S. support for regional security, ostensibly focusing on combating drug trafficking and limiting Chinese influence. On February 6, 2025, he visited Costa Rica, offering cooperation from the DEA and FBI to combat drug-related crime, while also endorsing Costa Rica’s restrictions on Chinese companies in 5G development. Rubio’s March 2025 regional tour included Guyana and Suriname, where he signed security agreements to strengthen intelligence sharing and military cooperation, linking Venezuela's territorial claims to narcotrafficking. In the Dominican Republic, he worked with President Luis Abinader to address drug trafficking and irregular migration, while announcing a memorandum of understanding for U.S. border collaboration. Additionally, Rubio’s efforts extended to Panama, where he secured commitments to audit Chinese-controlled ports and withdraw from China’s Belt and Road Initiative.
+
+来源：https://en.wikipedia.org/wiki/Marco_Rubio%27s_anti-narcotics_diplomacy_in_the_Caribbean
+### Regional Hospital Wanica
+
+Regional Hospital Wanica (Dutch: Regionaal Ziekenhuis Wanica) is a hospital in Lelydorp, Suriname which primarily serves the Wanica District. The hospital, which officially opened in February 2020, is a beneficiary of China's Belt and Road Initiative. It is the first major hospital built after Surinamese independence in 1975.
+
+来源：https://en.wikipedia.org/wiki/Regional_Hospital_Wanica
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-08 · Brief · Suriname Poverty and Equity Brief : October 2026
+。http://documents.worldbank.org/curated/en/099452104222536879
+  摘要：In 2022, the latest year with household survey data, an estimated 18 percent of Suriname’s population lived below the national poverty line. Poverty is markedly higher in the rural interior, especially in the sparsely populated territories, than in Greater Paramaribo and other coastal districts. Poverty is also more prevalent among households with children and those headed by less educated adults. Because comparable data over time are scarce, robust trend analysis for monetary poverty is not possible.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Suriname : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099647510152611497
+  摘要：Economic activity strengthened in early 2026 as offshore oil development supported construction and services, while stronger revenues and expenditure control improved the fiscal position. Growth is projected to improve in 2026–27 and rise substantially in 2028 as oil production begins. Strong institutions and prudent oil-revenue management will be essential to preserve stability and turn oil wealth into inclusive and sustainable development.
+- 2026-07-20 · Report · Suriname Jobs and Skills Radar 2030 : From Economic Opportunity to Jobs for Surinamese Workers（项目：SR-STARS: Suriname Talent and Skills Radar Strategy -- P513754）。http://documents.worldbank.org/curated/en/099072026115526820
+  摘要：Suriname is entering a period of accelerated economic transformation, driven primarily by large-scale investment in oil and gas, with growing opportunities in tourism and hospitality and agribusiness. This Jobs and Skills Radar 2030 examines whether the country’s education and skills system is positioned to supply the workforce needed to translate this growth into well-paid jobs for Surinamese workers. Drawing on qualitative interviews with employers, training institutions, industry associations, and government counterparts—triangulated with available labor-market and education data—the report finds that Suriname’s skills system is not yet aligned with emerging labor demand, but there is opportunity for it to be. Employers across priority sectors report shortages of workers with the technical, safety, behavioral, and foundational skills required, leading firms to rely increasingly on foreign labor and informal training. Three systemwide challenges are identified: weak foundational and work-readiness skills, limited training quality and relevance to current labor-market needs, and fragmented governance. While these challenges are longstanding, the pace of economic change has made them more urgent. Without rapid and targeted reform, Suriname risks missing a narrow window to build a domestic workforce capable of supporting productivity growth, workforce localization, and inclusive employment. The report calls for a faster, more coordinated shift toward demand-driven skills devel
+- 2026-04-16 · Brief · Macro Poverty Outlook for Suriname : April 2026。http://documents.worldbank.org/curated/en/099740108052616224
+  摘要：Fiscal and monetary policies were loosened ahead of the 2025 elections, slowing the improvements in macroeconomic stability achieved in recent years. Growth is projected to strengthen in 2026–2027 and surge in 2028 as oil production begins. Ensuring that future oil wealth supports inclusive and sustainable development will require strengthening institutions, enforcing fiscal rules, and improving the targeting of social spending.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Suriname : April 2026 Datasheet
+。http://documents.worldbank.org/curated/en/099812108182620854
+  摘要：Fiscal and monetary policies were loosened ahead of the 2025 elections, slowing the improvements in macroeconomic stability achieved in recent years. Growth is projected to strengthen in 2026–2027 and surge in 2028 as oil production begins. Ensuring that future oil wealth supports inclusive and sustainable development will require strengthening institutions, enforcing fiscal rules, and improving the targeting of social spending.
+- 2026-04-02 · Brief · Suriname Gender Landscape。http://documents.worldbank.org/curated/en/099939307042227557
+  摘要：This briefing showcases the gender landscape in Suriname on key indicators helpful for monitoring gender equality and designing effective policy interventions. Gender equality fosters productivity gains, minimizes losses in wealth, reduces poverty, boosts shared prosperity, and supports green, resilient, and inclusive development.
+- 2025-10-08 · Brief · Prosperity Data360 Tourism Country Snapshots : Suriname。http://documents.worldbank.org/curated/en/099903010162518594
+  摘要：This Factsheet provides an overview of the tourism sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Gender Country Snapshots : Suriname。http://documents.worldbank.org/curated/en/099943010132591881
+  摘要：This Factsheet provides an overview of the gender sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Finance, Competitiveness and Innovation Country Snapshots : Suriname。http://documents.worldbank.org/curated/en/099859010102533701
+  摘要：This Factsheet provides an overview of the finance, competitiveness, and innovation sector according to key performance indicators.
+- 2025-10-06 · Brief · Prosperity Data360 Justice Country Snapshots : Suriname
+。http://documents.worldbank.org/curated/en/099729310172562603
+  摘要：This Factsheet provides an overview of the Justice sector according to key performance indicators.
+- 2025-09-24 · Report · Amazonia Viva GCF Program : Environmental and Social Sustainability Framework。http://documents.worldbank.org/curated/en/099037209242521603
+  摘要：The Amazonia Viva GCF Program is a transformative initiative aimed at safeguarding the ecological and social integrity of the Amazon biome. Spanning seven countries—Bolivia, Brazil, Colombia, Ecuador, Guyana, Peru, and Suriname—the program addresses urgent challenges related to deforestation, biodiversity loss, and socio-economic inequalities while promoting climate resilience and sustainable livelihoods. The Environmental and Social Sustainability Framework (ESSF) is central to achieving these goals, providing robust guidelines for assessing and managing environmental and social (E&S) risks. By aligning with the World Bank’s Environmental and Social Standards (ESS), the framework ensures that all program activities adhere to international best practices while delivering positive and equitable outcomes. The Amazonia Viva GCF Program includes Indigenous Peoples, local communities, and Afro-descendants at the core of its strategy, empowering them to play a leading role in protecting the world’s largest tropical rainforest. Through innovative financing, sustainable land-use practices, and strengthened governance, the program seeks to create a model for climate resilience and biodiversity conservation.
+- 2025-09-24 · Report · Amazonia Viva GCF-programma : Kader voor ecologische en sociale duurzaamheid。http://documents.worldbank.org/curated/en/099049309242540580
+  摘要：Het Amazonia Viva GCF-programma is een transformatief initiatief gericht op het beschermen van de ecologische en sociale integriteit van het Amazone-bioom. Het programma strekt zich uit over zeven landen - Bolivia, Brazilië, Colombia, Ecuador, Guyana, Peru en Suriname - en pakt urgente uitdagingen aan in verband met ontbossing, verlies aan biodiversiteit en sociaaleconomische ongelijkheden, terwijl het klimaatbestendigheid en duurzaam levensonderhoud bevordert. Het Environmental and Social Sustainability Framework (ESSF) is van cruciaal belang voor het bereiken van deze doelen en biedt robuuste richtlijnen voor het beoordelen en beheren van ecologische en sociale (E&S) risico's. Door af te stemmen op de milieu- en sociale normen (ESS) van de Wereldbank, zorgt het kader ervoor dat alle programma-activiteiten voldoen aan internationale best practices en tegelijkertijd positieve en billijke resultaten opleveren. Het Amazonia Viva GCF-programma omvat inheemse volkeren, lokale gemeenschappen en Afro-afstammelingen in de kern van de strategie, waardoor ze een leidende rol kunnen spelen bij de bescherming van 's werelds grootste tropische regenwoud. Door middel van innovatieve financiering, duurzame praktijken op het gebied van landgebruik en versterkt bestuur probeert het programma een model te creëren voor klimaatbestendigheid en behoud van biodiversiteit.
+
+抓取时间：2026-10-21T09:59:02Z

@@ -1,0 +1,136 @@
+# 巴林（Bahrain）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Bahrain, officially the Kingdom of Bahrain, is an island country in the eastern part of Arabian Peninsula in West Asia. Situated near the western shore of the Persian Gulf, the country comprises a small archipelago of 33 natural islands and an additional 50 artificial islands, centred on Bahrain Island, which makes up around 80 percent of the country's landmass. Bahrain is situated between Qatar and the northeastern coast of Saudi Arabia, to which it is connected by the King Fahd Causeway. The population is 1,588,670 as of 2024, of whom 739,736 (46.6% of the population) are Bahraini nationals, and 848,934 are expatriates (53.4% of the population). Bahrain spans some 760 square kilometres (290 sq mi) and is the third-smallest nation in Asia after Maldives and Singapore. The capital and largest city is Manama.
+The area that straddles the present-day territory of Bahrain was once the site of the ancient Dilmun civilisation. It has been famed since antiquity for its pearl fisheries, which were considered the best in the world into the 19th century.  Bahrain was one of the earliest areas to be influenced by Islam, during the lifetime of Muhammad in 628. Following a period of Arab rule, Bahrain was ruled by the Portuguese Empire from 1521 until 1602, when they were expelled by Shah Abbas the Great of the Safavid Iran. In 1783, the Bani Utbah and allied tribes captured Bahrain from Nasr Al-Madhkur. It has since been ruled by the Al Khalifa royal family, with Ahmed al Fateh as Bahrain's first hakim.
+In the late 19th century, following successive treaties with the British, Bahrain became a protectorate of the United Kingdom. In 1971, it declared independence. Formerly an emirate, Bahrain was declared a semi-constitutional monarchy in 2002, and Article 2 of the constitution made sharia a principal source for legislation. In 2011, the country experienced protests inspired by the regional Arab Spring. The ruling Sunni Muslim Al Khalifa royal family has been criticised for violating the human rights of groups including dissidents, political opposition figures, and its Shia Muslim population.
+Bahrain is known as one of the first post-oil economies in the Persian Gulf, the result of decades of investing in the banking and tourism sectors. Many of the world's largest financial institutions have a presence in Manama, but oil revenues still constitute a significant part of its government budget. It is recognised by the World Bank as a high-income economy. Bahrain is a member of the United Nations, the Non-Aligned Movement, the Arab League, the Organisation of Islamic Cooperation, and the Gulf Cooperation Council. It is a Dialogue partner of the Shanghai Cooperation Organization.
+
+来源：https://en.wikipedia.org/wiki/Bahrain（CC BY-SA 4.0）
+
+## 中国与巴林的关系（维基百科全文）
+
+### Bahrain–China relations
+
+Bahrain–China relations refer to the bilateral relations between the Kingdom of Bahrain and the People's Republic of China.
+
+
+== History ==
+On April 18, 1989, China and Bahrain formally established diplomatic relations. After the establishment of diplomatic relations, the relationship between the two countries developed smoothly. Bahrain's Prime Minister Khalifa visited China in 2002. On March 29, 2021, Chinese Foreign Minister Wang Yi arrived in Bahrain. Bahraini King Hamad hosted a banquet for Wang Yi. Subsequently, the Crown Prince of Bahrain and Prime Minister Salman met with Wang Yi in Manama. On the same day, Wang Yi held talks with Bahraini Foreign Minister Zayani. Both sides expressed their willingness to strengthen the connection between the 'Economic Vision 2030' and the "Belt and Road" initiative and expand cooperation between the two countries in trade, investment, energy, science and technology, infrastructure and other fields. Finally, the two sides signed the China-Bahrain Cultural Center Agreement and the Implementation Plan for Cultural Cooperation between the Two Countries. During the visit of the King of Bahrain to China in May 2024, China and Bahrain established a comprehensive strategic partnership.
+
+
+== Economic relations ==
+The economic relationship between the People's Republic of China and the Kingdom of Bahrain has grown steadily since the establishment of diplomatic relations on April 18, 1989. Over the years, the two nations have expanded their cooperation across sectors such as trade, investment, infrastructure development, and cultural exchange.
+
+
+=== Trade and investment ===
+In 2022, the total trade volume between China and Bahrain reached approximately US$2.36 billion. China's exports to Bahrain were valued at around US$2.25 billion, while imports from Bahrain stood at US$110 million, with raw aluminum constituting a major portion of Bahrain's exports to China. China is Bahrain's largest import partner, supplying mechanical and electrical products, high-tech items, and textiles.
+
+
+=== Strategic partnership ===
+In May 2024, General Secretary of the Chinese Communist Party Xi Jinping and King Hamad bin Isa Al Khalifa announced the establishment of a comprehensive strategic partnership between China and Bahrain. The agreement aims to strengthen cooperation in energy, transportation, investment, renewable energy, and the digital economy. Both nations also emphasized expanding cultural and people-to-people exchanges.
+
+
+=== Infrastructure and development projects ===
+Chinese firms have participated extensively in Bahrain's infrastructure sector. The China Machinery Engineering Corporation and Power Construction Corporation of China have initiated projects valued at a combined US$1.42 billion, including major real estate and utilities developments. In January 2024, the first phase of a housing project in Sitra, providing nearly 3,000 units, was inaugurated.
+
+
+=== Financial collaboration ===
+In April 2024, Bahrain-based Investcorp, in partnership with China's sovereign wealth fund China Investment Corporation (CIC), launched a US$1 billion fund targeting high-growth sectors such as consumer goods, healthcare, logistics, and business services across the Gulf and China.
+
+
+=== Cultural and educational exchanges ===
+In 2014, the University of Bahrain established a Confucius Institute to promote Chinese language and culture. In addition, both countries have signed agreements to open cultural centers in their respective capitals, enhancing mutual understanding.
+
+
+== See also ==
+Foreign relations of Bahrain
+Foreign relations of China
+
+
+== References ==
+
+来源：https://en.wikipedia.org/wiki/Bahrain%E2%80%93China_relations（CC BY-SA 4.0）
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-01 · Brief · Macro Poverty Outlook for Bahrain : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099703010152623774
+  摘要：Bahrain faces severe shocks from the conflict in the Middle East, making it one of the hardest-hit Gulf Cooperation Council economies. Acute maritime bottlenecks in the Strait of Hormuz, direct damage to domestic refining and aluminum infrastructure, and depressed tourism revenues are predicted to push the economy into contraction in 2026. Conflict-related pressure and uncertainty exacerbate pre-existing fiscal distress and heighten sovereign debt vulnerabilities.
+- 2026-04-30 · Brief · Bahrain Human Capital Country Brief。http://documents.worldbank.org/curated/en/099906406242636423
+  摘要：Human capital - people’s knowledge, skills, and health - drives productivity and growth. The Human Capital Index Plus (HCI+) measures the human capital a child born today can expect to accumulate over their working life, extending the original HCI by incorporating tertiary education and work experience. This brief summarizes Bahrain's HCI+ score and its performance in building human capital.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Bahrain : April 2026 Datasheet
+。http://documents.worldbank.org/curated/en/099135508192622304
+  摘要：The economy faces risks from its high exposure to the conflict in the Middle East, with adverse effects on tourism, energy exports, and investment sentiment. Bahrain's combination of small size and geographic proximity to the conflict’s epicenter makes it one of the most economically vulnerable states in the event of prolonged tensions. This adds to fiscal challenges, with fiscal deterioration and rapidly rising debt.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Bahrain : April 2026。http://documents.worldbank.org/curated/en/099543508062623667
+  摘要：The economy faces risks from its high exposure to the conflict in the Middle East, with adverse effects on tourism, energy exports, and investment sentiment. Bahrain's combination of small size and geographic proximity to the conflict’s epicenter makes it one of the most economically vulnerable states in the event of prolonged tensions. This adds to fiscal challenges, with fiscal deterioration and rapidly rising debt.
+- 2026-04-02 · Brief · Bahrain Gender Landscape。http://documents.worldbank.org/curated/en/099626405112342038
+  摘要：This briefing showcases the gender landscape in Bahrain on key indicators helpful for monitoring gender equality and designing effective policy interventions. Gender equality fosters productivity gains, minimizes losses in wealth, reduces poverty, boosts shared prosperity, and supports green, resilient, and inclusive development.
+- 2025-10-08 · Brief · Prosperity Data360 Tourism Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099252110152539231
+  摘要：This Factsheet provides an overview of the tourism sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Finance, Competitiveness and Innovation Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099258210092529390
+  摘要：This Factsheet provides an overview of the finance, competitiveness, and innovation sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Gender Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099805210102579146
+  摘要：This Factsheet provides an overview of the gender sector according to key performance indicators.
+- 2025-10-06 · Brief · Prosperity Data360 Justice Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099617510162541333
+  摘要：This Factsheet provides an overview of the Justice sector according to key performance indicators.
+- 2025-01-17 · Brief · Prosperity Data360 Finance, Competitiveness and Innovation Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099023201202530457
+  摘要：This Factsheet provides an overview of the finance, competitiveness and innovation sector in Bahrain according to key performance indicators.
+- 2024-12-17 · Brief · Prosperity Data360 Justice Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099534012192438269
+  摘要：This Factsheet provides an overview of the Justice sector in Bahrain according to key performance indicators.
+- 2024-11-19 · Brief · Prosperity Data360 Gender Country Snapshots : Bahrain
+。http://documents.worldbank.org/curated/en/099701102062512907
+  摘要：This Factsheet provides an overview of the gender sector in Bahrain according to key performance indicators.
+
+## 学术论文（OpenAlex）
+
+### The Gulf monarchies in the Belt and Road Initiative（2020，Routledge eBooks，被引 2）
+
+The six monarchies of the Persian Gulf – Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and the United Arab Emirates – present a useful case study to examine the implications of the Belt and Road Initiative (BRI) on regions. This chapter uses a level of analysis approach to understand the opportunities and challenges inherent in the BRI when approached from the perspective of the Gulf monarchies. The analysis of the impact of the BRI on the Gulf monarchies is presented at three levels: the domestic, regional, and international. The Gulf monarchies are actively involved in BRI projects to support their own development agendas, making the initiative a useful means of addressing domestic pressures for economic diversification. At the regional level, the BRI has the potential to be more problematic for the Gulf monarchies. At the international level, the GCC states must try to maintain equilibrium between cooperation with China and India.
+
+https://doi.org/10.4324/9780429202346-6
+### Balancing power and prosperity: China’s geo-economic engagement with the Gulf Cooperation Council（2024，Asian Review of Political Economy，被引 16）
+
+Abstract Since the 1990s, China’s engagement beyond its geographical periphery, especially with Asian regions, has grown exceptionally, which is best evident in the Gulf sub-region and Western Asian nations. Indeed, energy-based interactions were the first to be established with Gulf Arab countries, and today, more than two decades after the Cold War, such relationships have evolved into tighter partnerships and engagement networks. Thus, in the last decade, China has increased its economic and political footprint in the Gulf region, as it has become one of the region’s largest external investors and trade partners. In its relations with the Gulf Cooperation Council (GCC) states, China faces varying challenges as each country pursues its interests, making the Chinese strategy in the region more complex. The Gulf countries have had to balance their relationship between the US as a security guarantor and China as an important economic partner. They strive to maximize their political and economic interests in the process. The main contention of this paper is that the GCC should not be viewed as a homogenous entity and that the Belt and Road Initiative (BRI) is a flexible approach designed to bolster China’s economic objectives in each Gulf country. Our research scrutinizes China’s geo-economic strategy and geopolitical aims about the Gulf States’ aspirations to maximize their economic ties with China. Against this background, this paper discusses the political and economic relationships between the People’s Republic of China and the Gulf Arab states: Bahrain, Kuwait, Qatar, Oman, the Kingdom of Saudi Arabia (KSA), and the United Arab Emirates (UAE).
+
+https://doi.org/10.1007/s44216-024-00040-6
+### Conclusion（2018，Routledge eBooks，被引 0）
+
+During the transition period, economic interests came to play a role, insignificant at first, but with increasingly clear opportunities for growth. Within the Gulf monarchies, China has come to be seen as an important and reliable partner, with mutual interests across a range of issues. The Belt and Road Initiative (BRI) appears to be an important factor in China&s;s relationships with the other three Gulf monarchies, Qatar, Kuwait, and Bahrain, although unevenly, and with less intensity. The centrality of the BRI in China&s;s foreign policy means China&s;s presence in the Gulf can be linked with its interests across the Indian Ocean. In terms of construction and infrastructure projects, Saudi Arabia is also the most important Gulf Cooperation Council state for China, with the greatest number of projects, the largest value of projects, and the high profile of projects such as the Mecca-Medina hajj railway.
+
+https://doi.org/10.4324/9781315142678-7
+### Belt and road initiative and Chinese firms' outward foreign direct investment（2019，Emerging Markets Review，被引 196）
+
+（无摘要）
+
+https://doi.org/10.1016/j.ememar.2019.100629
+### The Belt and Road Initiative: Economic, Poverty and Environmental Impacts（2019，World Bank, Washington, DC eBooks，被引 100）
+
+China's Belt and Road Initiative aims to improve connectivity between China and more than 70 countries through infrastructure investment and regional cooperation. The initiative has the potential to accelerate significantly the rate of economic integration and development in the region, as trade costs decline. The goals of this paper are to (i) study the impacts of infrastructure improvements on Belt and Road Initiative and non?Belt and Road Initiative countries'trade flows, growth, and poverty; and (ii) suggest policies that would help maximize gains from the Belt and Road Initiative?induced trade cost declines. The analysis captures the trade costs reductions as a result of infrastructure improvements. The findings indicate that the Belt and Road Initiative would be largely beneficial. First, global income increases by 0.7 percent (in 2030 relative to the baseline). This translates into almost half a trillion dollars in 2014 prices and market exchange rates. The Belt and Road Initiative area captures 82 percent of the gain, with the largest percent gains in East Asia. Second, globally, the Belt and Road Initiative could contribute to lifting 7.6 million people from extreme poverty and 32 million from moderate poverty. Third, the initiative would lead to a modest increase in global carbon dioxide emissions, with a complex set of positive and negative outcomes at the national level for other types of emissions.
+
+https://doi.org/10.1596/1813-9450-8814
+### Common transport infrastructure: A quantitative model and estimates from the Belt and Road Initiative（2019，Journal of Development Economics，被引 162）
+
+（无摘要）
+
+https://doi.org/10.1016/j.jdeveco.2019.102415
+### Energy and Ecological Sustainability: Challenges and Panoramas in Belt and Road Initiative Countries（2018，Sustainability，被引 123）
+
+Innovation and globalization fosters a tendency towards multiparty collaboration and strategic contacts among nations. A similar path was followed by the Chinese administration in 2013, with its “Belt and Road Initiative” (BRI). The most important objective of the present fact-finding study was to demonstrate the links between economic growth, energy consumption, urbanization, gross fixed capital formation, trade openness, financial development and carbon emissions (ecological degradation) from a panel of 47 BRI economies, over a time span of 1980 to 2016. Dynamic panel estimations (dynamic ordinary least square (DOLS) and fully modified ordinary least square (FMOLS)) were engaged to examine the long-run links between the subjected variables. Synchronized outcomes for the full panel show that energy consumption, gross fixed capital formation, economic growth, financial development, and urbanization unfavorably led to environmental degradation (CO2 emissions). However, trade openness is negatively correlated with emissions. Furthermore, pairwise panel Granger causative estimations justified bi-directional links from all regressors towards CO2 emissions, except for trade openness, which had unidirectional ties with environmental quality. In cross-country, long-run assessments, different results were found, with CO2 emissions being greatly increased by economic growth in all countries and energy consumption in 30 countries; other predictors testified to some mixed interactions with CO2 emissions in the country-level examination. The reported investigation provides some noteworthy guiding principles and policy inferences aimed at governments and ecological supervisory administrations, suggesting assertive moves towards truncated used of carbon fossil fuels and dependency on renewable energy, establishing waste and water treatment plants, familiarizing themselves with the concept of a green economy, and making the general public aware of eco-friendly investments in BRI e
+
+https://doi.org/10.3390/su10082743
+### Some Features of China’s Relations with the Countries of the Arabian Peninsula（2026，Springer geography，被引 0）
+
+（无摘要）
+
+https://doi.org/10.1007/978-3-032-09795-8_3
+
+抓取时间：2026-10-21T09:59:02Z

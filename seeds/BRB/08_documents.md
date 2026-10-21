@@ -1,0 +1,219 @@
+# 巴巴多斯（Barbados）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Barbados is an island nation in the Caribbean Sea. It is part of the Lesser Antilles of the West Indies and is the southernmost and easternmost island of the Caribbean region. It lies on the boundary of the South American and Caribbean tectonic plates. Its capital and largest city is Bridgetown.
+Inhabited by Kalinago people since the 13th century, and prior to that by other Indigenous peoples, the island was originally named Ichirouganaim. It was claimed for the Crown of Castile by Spanish navigators in the late 15th century, who named it Barbudos, and it first appeared on a Spanish map in 1511. The Portuguese Empire claimed the island between 1532 and 1536, but abandoned it in 1620; their only traces were the introduction of wild boars intended as a supply of meat whenever the island was visited. The indigenous population had mostly been sold into slavery, killed, or died of disease by that time.
+An English ship, the Olive Blossom, arrived in Barbados on 14 May 1625; its men took possession of the island in the name of King James I. In 1627, the first permanent settlers arrived from England, and Barbados became an English and later British colony. During this period, the colony operated on a plantation economy, relying initially on the labour of Irish indentured servants and subsequently African slaves, who worked on the island's plantations. Slavery continued until it was phased out through most of the British Empire by the Slavery Abolition Act 1833. The descendants of these enslaved Africans now account for over 90% of the island's population.
+On 30 November 1966, Barbados moved toward political independence and assumed the status of a Commonwealth realm, becoming a sovereign state with Elizabeth II as Queen of Barbados. On 30 November 2021, Barbados transitioned to a republic within the Commonwealth, replacing its monarchy with a ceremonial president.
+Barbados is ranked as one of the Caribbean's leading tourist destinations.
+
+来源：https://en.wikipedia.org/wiki/Barbados（CC BY-SA 4.0）
+
+## 中国与巴巴多斯的关系（维基百科全文）
+
+### Barbados–China relations
+
+Relations between Barbados and China began on 4 September 1967 with Barbados recognizing the People's Republic of China from 30 May 1977, just over one decade after the eastern Caribbean island nation's independence from the United Kingdom.
+Chinese-Barbadian trade relations have intensified over the decades and are growing, and have expanded in both: growing bilateral trade and strategic cooperation. Given the inherent limit of natural resources in Barbados, various Chinese administrations have taken interest in investing in the construction of infrastructure to support Barbados' human capital like aiding in the construction of the Sir Garfield Sobers Gymnasium (1986), and other projects such as: construction assistance for the Sir Lloyd Erskine Sandiford Conference and Cultural Centre (1994), and renovating Bridgetown's Cheapside Market building (2005).  Some media sources have claimed Barbados was highly indebted to China, however Barbadian officials have called such claims as being a "falsehood" and "innuendos" and stated that less than 2.5% of the external debt of the country (~$300m) is owed to China.
+Barbados adheres with the One China policy as it recognizes the PRC as the sole legitimate government of "China" rather than the Republic of China (ROC). The PRC has an embassy to Bridgetown; and Barbados has an embassy in Beijing, along with a consulate in Hong Kong, SAR  The current Chinese Ambassador to Barbados is Yan Xiusheng, who heads the embassy in suburb of Christ Church, Barbados.
+Barbados and China are members of the Belt and Road Initiative trade agreement, the Caribbean Development Bank, the Group of 77, and the United Nations. The relationship between both nations partly falls under the larger regional China–CELAC Forum.
+
+
+== History ==
+In 2004 Barbados was added to China's list of officially approved tourist destinations by the government in China. with Barbados' former Prime Minister pushing for an open air accord between both nations.
+Over the years a number of building projects have been carried out with Chinese government assistance these include: The Wildey Gymnasium, two adjustments on the Lloyd Erskine Sandiford Conference And Cultural Centre, a Home Vegetable Growing Experimental Center, embroidery, grass weaving and feather handicraft. A consideration was also giving according to the Prime Minister of Barbados, David Thompson for China to assist with the opening of a new cruise ship facility in Barbados.
+Following the 2008 Sichuan earthquake, the Barbadian prime minister visited the Chinese Embassy to personally sign the book of condolence to the nation.
+In July 2010 Barbados opened its first resident Barbadian Embassy in Chaoyang District, Beijing.
+In 2014 the two governments signed visa waiver agreements for travel by nationals from both nations.  Later in 2014 there was also an agreement signed in Barbados to establish a branch of the Confucius Institute at the University of the West Indies.
+In late 2015 the Chinese Navy hospital Ark ship visited the Bridgetown port.
+In 2018 the newly elected Mottley administration stated its desire to enter the then five year old Belt and Road Initiative.
+In February 2019 Barbados and China signed a MOU for Barbados to officially join the Belt and Road Initiative.  He Lifeng, chairman of the Chinese National Development and Reform Commission (NDRC), and Jerome Walcott, minister of foreign affairs and foreign trade of Barbados, held talks in Beijing, and the two sides exchanged views on jointly building Belt and Road cooperation between China and Barbados.  Later that year China's resident Ambassador to Barbados, announced 11 graduate students would be sponsored to study in China.  This recent figure brings to a total of over 90 Barbadians who have taken part in the studying in China programme. Other goals outlined in 2019 included China providing technical assistance and funding for building a laboratory to ensure international product accreditation standards and address sanitary and phytosanitary rules of the World Trade Organisation (WTO).
+In 2020 the first batch of roughly three dozen BYD rechargeable electric buses were delivered to the Government's Barbados Transport Board.
+In late 2020 the British media reported that United States military intelligence spread an allegation to the Boris Johnson United Kingdom government that Barbados was dropping the Queen as Chief of State to appease China.
+The Chinese government is also offering scholarships directly to students and professionals for further training in China. In 2024 Vcom International Ltd. and Barbados announced a partnership in Vocational educational cooperation.
+
+
+== Trade and economic cooperation ==
+
+As of 2025 cooperation has spanned the industries of: scholarships, culture, sports, electric buses, solar lights, food security, and projects such as the Dukes Agricultural Research Park and the National Stadium redevelopment.  Further plans by Chinese ambassador have proposed collaboration into- tourism, airlift, logistics, and disaster resilience. 
+The Barbados and China has evolved over time and today is considered one of Barbados's closest allies and partners. China is also one of Barbados's increasingly important trading and export partners. In 2013 China's foreign direct investment to Barbados surpassed the United Kingdom's for the first time. As of 2017 China was third only to the US and Trinidad & Tobago as Barbados' largest import market, with an import share of 5.65 per cent, according to World Integrated Trade Solution (WITS) data. 
+
+Both nations have additionally signed bilateral agreements including a Double taxation agreement, (updated 2010) and a Reciprocal Promotion and Protection of Investments treaty.
+The Chinese government remains one of the main stakeholders in the Barbados-based Caribbean Development Bank (CDB), which lends to the various territories throughout the Caribbean region.
+In 2004 Chinese interests expanded into Barbados' construction industry.  Two notable firms include China Construction Barbados Co. Ltd. and ChinaDOS Construction Limited. (A mixture of the name China and Barbados), Which has performed a number of construction projects in Barbados.
+In August 2008 the Barbados-based Caribbean Export and Chinese officials signed a deal to increase the export capacity in the region to the Chinese market.
+In 2010 a high-level Chinese delegation from the China National Tourism Administration (CNTA) visited the Government of Barbados' tourism unit to ink a branding opportunity for a Barbados tourism website targeting Chinese visitors to Barbados.[2]
+Barbados was one of the first nations in the region to sign on to the China's Belt and Road Cooperative initiative. Later the same year the Association for Barbados-China Friendship (ABCF) was formed in Barbados
+Barbadian officials have showcased Barbadian made brands at such major Chinese annual events as the CIIE, Beijing Expo 2019, and Shanghai World Expo.
+
+
+== Diplomacy ==
+
+
+=== One-China stance ===
+
+Following the Chinese Civil War, commencing on 4 September 1967 for a brief period Barbados witnessed one-way incoming diplomatic relations from the Republic of China (R.O.C.), commonly called Taiwan. Barbados hadn't, yet established diplomatic relations with the larger "mainland" People's Republic of China (P.R.C.) until after breaking off relations with the Republic of China (Taiwan) on January 11, 1977, Barbados moved to instead recognise the mainland government in the People's Republic of China on 30 May 1977 when the Government of Barbados then ceased to recognize Taiwan as the legitimate government of China.
+The following is a statement made by the late Henry DeBoulay Forde, S.C., P.C., former Attorney General and Minister of External Affairs on the China issue in a report issued by the Government of Barbados outlined in 1977 to summarize the country's One-China policy until then.
+"Barbados had maintained diplomatic relations with the Republic of China, commonly known as Taiwan, since 4 September 1967.  A Taiwanese Embassy was established in Barbados in 1968, but a Barbadian ambassador had never been accredited towards Taiwan.  On the occasion of the United Nations debate on the admission of the People's Republic of China to that body, the Barbados delegation expressed the hope that a compromise formula would have been found to have enabled the government of the People's Republic of China. - Neither Taiwan nor the People's Republic of China has, however, been willing to reach this accommodation or to accept the principle of the existence of "two Chinas".
+On 25 October 1971, the United Nations General Assembly voted overwhelmingly "to restore all its rights to the People's Republic of China and to recognise its representatives as the only legitimate representatives of China."
+Under the circumstances the Government of Barbados of the day considered that "it can no longer validly treat the Government of Taiwan as the Government of all China.  The government of Taiwan had therefore been officially informed that, as from today[11 January 1977], it will no longer be recognised by the Government of Barbados as the Government of China.  It is believed, and my Government believes that failure to take this position would be to turn a blind eye to the realities of the international situation and be contrary to our best interest."  Since the 1980s Barbados has upheld to the position of there being only one-china based in Beijing.
+
+
+== Joint military cooperation ==
+In October 2006 the Barbadian government found itself sanctioned by U.S. President George W. Bush for not signing an Article 98 Agreements with the United States military to exempt U.S. personnel from the International Criminal Court (ICC).  Following the sanctions on Barbados and several other Caribbean nations by the United States the Chinese Government provided Barbados with the financial assistance in-lieu of the situation.
+In 2009 the military units of both countries moved to strengthen their military cooperation. Then in December 2016 expanded this military cooperation with the Chinese government presenting the government of Barbados with $3 million worth of military equipment which had been the largest gift to the Barbados military to date.
+
+
+== Diplomatic characterization ==
+Former Barbadian Prime Minister J.M.G.M 'Tom' Adams during a visit to China expressed a satisfaction over the development of bilateral relations since the establishment of diplomatic ties.  Praising the Chinese policy of "non-interference in other countries' internal affairs", Adams stated: "it is often comparatively difficult to maintain good relations between big and small countries since good bilateral relations lie in ironing out mutual differences and eliminating the control over the small countries by the big ones. The relations of Barbados and other Caribbean countries with China are different. China has never interfered in any way in the internal affairs of Barbados and other countries, and never has it disrupted peace of Barbados and the Caribbean region."
+Former Barbadian Prime Minister Owen S. Arthur urged his Chinese counterparts to provide development-aide to the smaller Caribbean economies regional fund and opinioned that: "Any cooperation in tourism should not be only about the movement of people, but we must assist each other in the development of our industries…… and when we have special events we must make it possible for our citizens to attend these activities. This would help build a base for a stronger relationship in the future," Mr. Arthur said.  Chinese Premier Wen Jiabao said that China would like to join hands with Barbados in deepening cooperation in the areas of trade, tourism, architecture, and cultural exchange.
+CCP general secretary Xi Jinping of China characterised the relationship with Barbados in 2021 as "a good friend, and partner of China."
+
+Projects in Barbados include: 
+
+Feasibility Study Project for the Redevelopment of the Barbados National Stadium (2007,10)
+Sir Garfield Sobers Gymnasium Project (1990–1992)
+Sherbourne Conference Centre Fitting-up Project (1993–1994)
+Cheapside Market Renovation Project (2001–2002)
+Sir Garfield Sobers Gymnasium Redevelopment Project (1996–1997; 2005, 7–2005, 9, 2011)
+Home Vegetable Growing Experimental Centre Project (1983–1987)
+Embroidery and Grass Weaving Project (1985–1987) and
+Feather Handicraft Project (1992–1995).
+Elsie Payne Ministry of Education Complex Redevelopment
+Sam Lord's Castle Redevelopment Project (2017)
+
+
+=== Bilateral agreements ===
+
+
+=== Common memberships ===
+
+
+== Twin or sister cities / towns ==
+2023 – Bridgetown, St. Michael – Province of Hunan,
+
+
+== Resident diplomatic missions ==
+Barbados appointed its 4th former Prime Minister Sir Lloyd Erskine Sandiford as its first resident Barbadian Ambassador to Beijing, China in July, 2010.
+China has both a resident embassy and Economic and Commercial Affairs Office in Christ Church, which is headed by the Ambassador of the People's Republic of China to Barbados.
+
+
+== Footnotes ==
+
+
+== See also ==
+Caribbean–China relations
+List of ambassadors of China to Barbados
+Visa requirements for Chinese citizens
+History of Chinese foreign policy
+Foreign relations of China
+Foreign relations of imperial China
+Foreign relations of Hong Kong
+Foreign relations of Macao
+Foreign relations of Taiwan
+
+
+== Further reading ==
+Best, Tony (24 December 2016). "BEHIND THE HEADLINES: Barbados and China: The way forward". The Nation Newspaper. Retrieved 23 March 2023.
+Peters, Enrique Dussel; Barba, Silvia Jiménez; Levine, Elaine, eds. (2019). China's Financing in Latin America and the Caribbean (PDF). Universidad Nacional Autónoma de México (published October 2019). ISBN 9786078066469. Retrieved 30 March 2021.
+Brathwaite, Chelston W. D. (21 February 2021). Memories of China. p. 318.
+Shehadi, Sebastian, ed. (11 January 2022). "Opinion: The West must stop demonising China and patronising Barbados". Insights. www.investmentmonitor.ai. Investment Monitor. GlobalData. Retrieved 30 January 2022.
+"Former diplomat pens Memories of China". Barbados Today. 18 March 2021. Retrieved 21 March 2021.
+Dr. Auliana Poon (3 August 2021). "The Chinese Have Influenced the Caribbean in a Powerful Way". www.exceptionalcaribbean.com. Exceptional Caribbean. Retrieved 1 January 2025.
+
+
+== External links ==
+Official website - of the Chinese Embassy in Barbados (English)
+Official website - of the Chinese Embassy in Barbados (Chinese)
+Economic and Commercial Counsellor's Office Archived 19 July 2006 at the Wayback Machine
+
+来源：https://en.wikipedia.org/wiki/Barbados%E2%80%93China_relations（CC BY-SA 4.0）
+
+## 与“一带一路”相关的条目（维基百科导言）
+
+### Caribbean Development Bank
+
+The Caribbean Development Bank (CDB) is a development bank that helps Caribbean countries finance social and economic programs in its member countries through loans, grants, and technical assistance. The CDB was established by an Agreement signed on October 18, 1969, in Kingston, Jamaica, which entered into force on January 26, 1970. The idea for the bank originated from the 1966 Canada/Commonwealth Caribbean Conference.
+The permanent headquarters of the CDB is located in Wildey, St. Michael, Barbados, adjacent to the campus of the Samuel Jackman Prescod Polytechnic. On September 21, 2018, the Bank officially opened its Country Office in Haiti, the first outside its Headquarters in Barbados. The headquarters in Barbados serves all of the regional borrowing member countries, with staff recruited from its member states.
+
+来源：https://en.wikipedia.org/wiki/Caribbean_Development_Bank
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-09 · Brief · Barbados Poverty and Equity Brief : October 2026
+。http://documents.worldbank.org/curated/en/099517504212514309
+  摘要：In 2016, poverty in Barbados was strikingly high for a high-income country (HIC). About 25.7 percent of Barbadians lived below the national poverty line and about 4.9 percent lived below the food poverty line. A similar finding holds when applying the international poverty measurement approach that allows comparisons with other countries. Around 15.8 percent of Barbadians lived on less than $8.30 (2021 PPP) per person per day in 2016. Only two high-income countries have higher poverty rates at the $8.30 line: Nauru and Panama.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Barbados : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099704210152652195
+  摘要：Barbados' tourism-dependent, import-heavy economy remains exposed to external and climate shocks. Economic growth is projected to moderate to 2 percent in 2026 as tourism activity softens, then rebound over the medium term, supported by services and construction. Poverty is expected to continue declining gradually, while strong external buffers and sustained fiscal discipline support resilience and further debt reduction.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Barbados : April 2026 Datasheet。http://documents.worldbank.org/curated/en/099619508182650306
+  摘要：Barbados’ tourism-dependent, import-heavy economy remains exposed to external and climate shocks. Growth cooled in 2025 as domestic demand normalized, but with stable prices, resilient tourism, job creation, and modest fiscal gains, while poverty continued to fall. Public debt, though easing, still limits fiscal flexibility, prompting the continuation of priority reforms to foster green energy, diversification, and stronger safety nets.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Barbados : April 2026。http://documents.worldbank.org/curated/en/099717508052611626
+  摘要：Barbados’ tourism-dependent, import-heavy economy remains exposed to external and climate shocks. Growth cooled in 2025 as domestic demand normalized, but with stable prices, resilient tourism, job creation, and modest fiscal gains, while poverty continued to fall. Public debt, though easing, still limits fiscal flexibility, prompting the continuation of priority reforms to foster green energy, diversification, and stronger safety nets.
+- 2026-03-25 · Brief · Barbados Gender Landscape。http://documents.worldbank.org/curated/en/099848408302323575
+  摘要：This briefing showcases the gender landscape in Barbados on key indicators helpful for monitoring gender equality and designing effective policy interventions. Gender equality fosters productivity gains, minimizes losses in wealth, reduces poverty, boosts shared prosperity, and supports green, resilient, and inclusive development.
+- 2026-03-02 · Report · Navigating Change : Review of Education Expenditure and Resilience in Barbados（项目：BB-Barbados Education Public Expenditure Review -- P505638）。http://documents.worldbank.org/curated/en/099050626133524122
+  摘要：Barbados stands at a critical juncture in its educational journey. Despite high enrollment and completion rates in primary and secondary education and a relatively high level of education spending, the current education system is not delivering on the mission of adequately preparing students for the demands of a modern, knowledge-based economy. This PER examines the adequacy, efficiency, and equity of education spending; assesses resilience of the education system in the face of economic shifts, public health crises, and climate events; and identifies priority actions that aim to secure Barbados’s economic future and social cohesion.
+- 2026-02-26 · Program Appraisal Document · Barbados - Education Sector Transformation Operation Program（项目：BB-Barbados Education Sector Transformation Operation -- P511038）。http://documents.worldbank.org/curated/en/099030326141026683
+  摘要：The Barbados Education Sector Transformation (BEST) Operation is strategically positioned to advance national development priorities, drive meaningful improvements in education outcomes, and contribute to the country’s long-term resilience and inclusive growth. By enhancing education quality and addressing key determinants of learning and human capital formation, the operation supports the transition toward a high-skilled economy, equipping students with strong foundational skills that increase employability and access to good jobs. The operation ensures that the education sector transformation is integrated with broader objectives of economic resilience, inclusive growth, and sustainable development, as articulated in the National Strategic Plan (NSP) for 2005-2025 and the Barbados Economic Recovery and Transformation (BERT) 2022 Plan. Specifically, the operation advances Goal 3 of the NSP, Building Social Capital, which emphasizes expanding education and training to power a knowledge-based, skill-intensive economy. It also supports Pillar 3 of the BERT 2022 Plan, Investing in Skills Training and Education, which focuses on building human capital for inclusive and resilient economic growth. Through this integrated approach, the BEST operation ensures that education sector transformation is not only a sectoral priority but a driver of inclusive and resilient economic growth. The operation’s emphasis on foundational learning, early childhood education (ECE), teacher quality, a
+- 2025-10-08 · Brief · Prosperity Data360 Tourism Country Snapshots : Barbados
+。http://documents.worldbank.org/curated/en/099256410152577171
+  摘要：This Factsheet provides an overview of the tourism sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Finance, Competitiveness and Innovation Country Snapshots : Barbados
+。http://documents.worldbank.org/curated/en/099327410092513297
+  摘要：This Factsheet provides an overview of the finance, competitiveness, and innovation sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Gender Country Snapshots : Barbados
+。http://documents.worldbank.org/curated/en/099811510102539502
+  摘要：This Factsheet provides an overview of the gender sector according to key performance indicators.
+- 2025-10-06 · Brief · Prosperity Data360 Justice Country Snapshots : Barbados
+。http://documents.worldbank.org/curated/en/099630210162513993
+  摘要：This Factsheet provides an overview of the Justice sector according to key performance indicators.
+- 2025-04-21 · Implementation Completion and Results Report · Barbados - Green and Resilient Recovery Development Policy Loan Project（项目：BB-Barbados Green and Resilient Recovery DPL -- P179112）。http://documents.worldbank.org/curated/en/099051425174517977
+  摘要：Ratings for the Green and Resilient Recovery Development Policy Loan Project for Barbados were as follows: outcomes were satisfactory, the relevance of prior actions was satisfactory, and the bank performance was also satisfactory. Some lessons learned included: the Barbados Green and Resilient DPL provides a model for how the WBG can engage with small economies with limited capacity in a similar context. This model emphasizes the importance of being nimble and leveraging existing work to achieve meaningful outcomes. These features are particularly effective in situations where urgent financing is needed, time is limited, but there is adequate existing analytical work and well-defined reforms ready for expert review. The WBG’s convening power can then be utilized to coordinate, sequence, and support the implementation of reforms. DPF-supported reforms need to be in an advanced state to be ready for implementation, particularly where there is little or no ongoing policy dialogue. In the case of Barbados, most of the precursors for the prior actions had been discussed before DPF preparation. This proved advantageous because the timeframe from concept to approval was only 2.5 months. The homegrown nature of the reforms, an advantage explicitly recognized by the WBG Board of Directors, was a key factor in the rapid implementation of meaningful reforms. Strategically integrating environmental and fiscal objectives across pillars is both good practice and essential for achieving su
+
+## 学术论文（OpenAlex）
+
+### Belt and road initiative and Chinese firms' outward foreign direct investment（2019，Emerging Markets Review，被引 196）
+
+（无摘要）
+
+https://doi.org/10.1016/j.ememar.2019.100629
+### Does the Belt and Road Initiative Increase the Carbon Emission Intensity of Participating Countries?（2021，China & World Economy，被引 92）
+
+Abstract The impact that the Belt and Road Initiative (BRI) has had on carbon emissions is a hotly debated issue. Using a panel dataset of 178 countries from 2002 to 2017, and applying the quantile difference‐in‐difference method in different industries, this study finds that, first, the BRI overall tends to reduce the carbon emission intensity of BRI countries. Second, the impact of BRI on reducing the carbon emission intensity is significant for BRI countries at higher (0.8 and 0.9) and lower (0.2 and 0.3) carbon emission intensity quantiles but it is insignificant for those at medium levels. Third, the BRI has significant impacts on reducing carbon emission intensity in the energy‐intensive industries, and this effect is the highest at the quantile level of 0.9 for all three industries considered here: transportation, electric and heating, and manufacturing and construction. These results indicate that establishing BRI cooperation with China will improve the environment and enhance the sustainable development ability of BRI countries.
+
+https://doi.org/10.1111/cwe.12374
+### China's Belt and Road Initiative in Latin America: What has Changed?（2021，Journal of Current Chinese Affairs，被引 67）
+
+When China invited the Latin American countries to participate in the Belt and Road Initiative, it fuelled expectations of a much closer and more productive relationship with the region. In practice, however, there is little evidence that this was happening even before the coronavirus disease 2019 pandemic. The article shows that neither the policy statements by China nor the trends in economic relations indicate a substantive change in Sino–Latin American relations and that the Belt and Road Initiative represents a repackaging of existing relations and the continuation of trends that have been underway since the global financial crisis.
+
+https://doi.org/10.1177/18681026211047871
+### Building Bridges or Breaking Bonds? The Belt and Road Initiative and Foreign Aid Competition（2023，Foreign Policy Analysis，被引 68）
+
+Abstract China’s renewed prominence is the most important development in international relations in the 21st century. Despite longstanding rhetoric of its own “peaceful rise”, China is increasingly viewed as a long-term strategic competitor, especially in the United States. Foreign aid is one arena where this competition may be playing out. While Western foreign aid principles have emphasized coordination and harmonization, the rise of China as a development partner has raised the specter of a return to competitive foreign aid practices. Most notably, China's Belt and Road Initiative (BRI), has received a wary reception by those who view it primarily as a geostrategic effort, but our knowledge of responses to the BRI is often anecdotal and fragmentary. To remedy this, we test if the BRI is inducing a competitive foreign aid response by evaluating if countries involved in this initiative are more likely to receive US support for loan packages from the major, Western, multilateral development banks (MDBs). Using an instrumental variable approach, covering 7,850 project/loan packages in 10 MDBs from 162 countries during 2013–2018 period, we find that the United States was more likely to vote for MDB packages to countries that have signed on to the BRI, but predominantly when the actual amount of Chinese aid flowing to those countries is still low, suggesting the United States is competing for “hedging” countries.
+
+https://doi.org/10.1093/fpa/orad015
+### OFDI Agglomeration and Chinese Firm Location Decisions under the “Belt and Road” Initiative（2018，Sustainability，被引 48）
+
+This paper established a combined dataset from 2004 to 2015 for 129 host countries and matched them with 1193 Outward Foreign Direct Investment (OFDI) events by Chinese listed firms. Four variables were designed to proxy the agglomeration effects of Chinese OFDI at both an industry and country level. Probit and FGLS estimation methods were used to analyze whether the Chinese listed firm location choices were affected by the agglomeration level. It was found that the agglomeration effect of Chinese OFDI on host country selection was obvious, as Chinese firms were often found to follow other Chinese firms and invest in host countries where Chinese investment was concentrated; however, it was also found that Chinese firms did not choose countries where there was a high concentration of non-Chinese FDI. The agglomeration effect on Chinese OFDI industry selection was also significant. Firms were found to invest in industries that already had large Chines OFDI agglomeration or high host-country industrial agglomeration. Further investigations found that the “Belt and Road” Initiative (BRI) was effective in guiding location decisions. Firms were found to invest more along the “Belt and Road” route after the BRI was launched; however, large State-owned listed firms with higher leverage but lower productivity and profitability were found to more often invest along the BRI routes.
+
+https://doi.org/10.3390/su10114060
+### Harmony in Diversity: Can the One Belt One Road Initiative Promote China’s Outward Foreign Direct Investment?（2018，Sustainability，被引 92）
+
+This paper investigates the effect of the One Belt One Road (OBOR) initiative on China’s outward foreign direct investment (OFDI) using a dataset of all host countries for the period of 2010–2015. The employed econometric technique combines a difference-in-differences estimator with matching techniques. The results show that China’s OFDI in OBOR countries is about 40% higher than in non-OBOR countries. After the initiative, the OFDI from China increases by 46.2% in OBOR countries. However, after controlling for the heterogeneity across OBOR and non-OBOR countries using the matching approach, the significance of the increasing effect caused by the OBOR initiative disappears. We also find the OBOR initiative diminishes the resource-seeking motivation and improves the market-seeking motivation of China’s OFDI. Our results cast doubts on the infrastructure-led and institution-based strategy of the OBOR initiative, but support the boosting effect of the OBOR initiative on institutional cooperation and cultural convergence. Thus, the OBOR initiative is a sustainable continuation and development of the long tradition of economic, institutional, and cultural convergence with the OBOR countries, rather than a temporary policy shock.
+
+https://doi.org/10.3390/su10093264
+### The 2030 Agenda for Sustainable Development and China’s Belt and Road Initiative in Latin America and the Caribbean（2019，Sustainability，被引 45）
+
+During the initial implementation of the 2030 Agenda for Sustainable Development (the 2030 Agenda), the Second Ministerial Meeting of the Forum of China and the Community of Latin American and Caribbean States (CELAC) was held in Santiago, Chile, in January 2018. During this forum, China officially invited 33 countries in Latin America and the Caribbean (LAC) to join the Belt and Road Initiative (BRI). This study links three important global governance issues: The 2030 Agenda, China-LAC relations and BRI. The authors attempt to analyze how China’s BRI in the LAC region can learn from the 2030 Agenda of the United Nations with 17 sustainable development goals (SDGs). This study shows that although China and the LAC region have strong political, economic and trade relationships, they must deepen dialogues and cooperation on sustainable development, especially the 2030 Agenda with 17 SDGs, which can be inspirations for China’s BRI in this region. BRI, which aligns with the 2030 Agenda and contributes to Chinese experience in development, can generate new opportunities for the LAC region to implement such an agenda. However, the challenges and risks of BRI cannot be ignored, and adequate answers and solutions should be provided to allow BRI to achieve a win–win outcome for China and LAC countries. The authors also examine the alignment of China’s policies towards LAC and BRI with the 2030 Agenda (17 SDGs) and the involvement of each SDG in these policies as the 2030 Agenda (17 SDGs) should be considered in policy-making for China’s BRI in the LAC region. Moreover, on the basis of previous analyses, suggestions for a successful BRI in the LAC region in six sectors are proposed in the context the 2030 Agenda.
+
+https://doi.org/10.3390/su11082297
+### The Belt and Road Initiative: Economic Causes and Effects（2023，Asian Economic Papers，被引 3）
+
+Abstract Chinese investment abroad has grown significantly in connection with the Belt and Road Initiative (BRI). This paper tries to answer two questions: First, what considerations gave birth to the BRI? And second, what are the project's economic effects in terms of capital flows and international trade? It is found that the project is above all a way to deal with large surplus capacity in China's capital-intensive industries, to increase growth in relatively poor regions of the country, and to secure a supply of energy and raw materials. For other countries involved in the project, BRI investments are a means to increase production and international trade. International trade and foreign direct investment have been positively affected, although to a limited extent. Finally, there are concerns that lack of transparency in Chinese lending may lead to increased corruption, and that some countries will face financial difficulties.
+
+https://doi.org/10.1162/asep_a_00861
+
+抓取时间：2026-10-21T09:59:02Z

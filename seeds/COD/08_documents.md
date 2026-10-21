@@ -1,0 +1,154 @@
+# 刚果（金）（Congo, The Democratic Republic of the）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+The Democratic Republic of the Congo (DRC), also known as the DR Congo, Congo-Kinshasa, or simply the Congo, and formerly named Zaire, is a country in Central Africa. By land area, it is the second-largest country in Africa and the eleventh-largest in the world. With a population of about 124 million people, the Democratic Republic of the Congo is the fourth-most populous country in Africa and the most populous Francophone country in the world. French is the official and most widely spoken language. There are over 200 indigenous languages, of which Lingala is the most widely spoken. The capital, largest city, and economic center is Kinshasa. The DRC is bordered by the Republic of the Congo, the Cabinda exclave of Angola, and the South Atlantic Ocean to the west; the Central African Republic and South Sudan to the north; Uganda, Rwanda, Burundi, and Tanzania (across Lake Tanganyika) to the east; and Zambia and Angola to the south. Centered on the Congo Basin, most of the DRC's terrain is covered by dense rainforests and is crossed by many rivers. The east and southeast are mountainous.
+The territory of the Congo was first inhabited by Central African foragers around 90,000 years ago and was settled in the Bantu expansion about 2,000 to 3,000 years ago. In the west, the Kingdom of Kongo ruled around the mouth of the Congo River from the 14th to the 19th century. In the center and east, the empires of Mwene Muji, Luba, and Lunda ruled between the 15th and 19th centuries. These kingdoms were broken up by Europeans during the colonization of the Congo Basin. King Leopold II of Belgium acquired rights to the Congo territory in 1885 and called it the Congo Free State. In 1908, Leopold ceded the territory after international pressure in response to widespread atrocities, and it became a Belgian colony. Congo achieved independence from Belgium in 1960 and was immediately confronted by secessionist movements, the assassination of Prime Minister Patrice Lumumba, and the seizure of power by Mobutu Sese Seko in 1965. Mobutu renamed the country Zaire in 1971 and imposed a personalist dictatorship.
+Instability caused by an influx of refugees from the Rwandan Civil War led to the First Congo War, from 1996 to 1997, which ended with Mobutu's overthrow. The country's name was changed, and it experienced the Second Congo War from 1998 to 2003, which resulted in an estimated several million deaths and the assassination of President Laurent-Désiré Kabila. The war ended under President Joseph Kabila, who restored relative stability. Human rights remained poor, and there were frequent abuses, such as forced disappearances, torture, arbitrary imprisonment and restrictions on civil liberties. Kabila stepped down in 2019 after Félix Tshisekedi won the contentious 2018 election, marking the country's first peaceful transition of power since independence. Over 120 armed groups remain active, concentrated in the east. One of the region's largest cities, Goma, was occupied by the M23 rebels in 2012 and again since 2025. The M23 uprising escalated in 2025 with military support from Rwanda, which has caused a conflict between the two countries.
+Despite being rich in natural resources, the DRC is one of the world's poorest and least developed countries, having suffered from political instability, lack of infrastructure, rampant corruption, and centuries of commercial and colonial extraction and exploitation. The nation is a prominent example of the "resource curse". Aside from Kinshasa, the next largest cities, Lubumbashi and Mbuji-Mayi, are mining communities. DRC's main exports are raw minerals and metal, which accounted for 80% of exports in 2023, with China being its largest trade partner. The DRC's level of human development was ranked 171 out of 193 countries by the Human Development Index in 2023. As of 2022, following two decades of civil wars and internal conflicts, around one million Congolese refugees were still living in neighbouring countries. Two million children are at risk of starvation, and the fighting has displaced 7 million people. The DRC is a member of the United Nations, Non-Aligned Movement, African Union, COMESA, Southern African Development Community, Organisation internationale de la Francophonie, and Economic Community of Central African States.
+
+来源：https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo（CC BY-SA 4.0）
+
+## 中国与刚果（金）的关系（维基百科全文）
+
+### China–Democratic Republic of the Congo relations
+
+The People's Republic of China (PRC) and the Democratic Republic of the Congo (DRC) have maintained diplomatic relations since 1961. Contact between the two regions stretch back to 1887 when representatives of the Congo Free State established relations with the Qing dynasty. The first treaty between the two powers was signed in 1898. 
+The Free State became a Belgian colony in 1908, but when it gained its independence in 1960 it established formal relations with the Republic of China (ROC), which had replaced the Qing in 1912 but was relegated to the island of Taiwan, a former Japanese colony, after 1949. Over the next decade, Congolese recognition was switched several times between the ROC and the PRC before it settled finally on the latter in 1971. 
+At the time, the Congo was known as Zaire. In the 21st century, Chinese investment in the DRC and Congolese exports to China have grown rapidly. The DRC joined the Belt and Road Initiative in 2021.
+
+
+== Qing relations with the Congo Free State ==
+In 1887, King Leopold II of Belgium sent emissaries to the Qing court in China to request the right to recruit labourers for the Congo Free State. Since the Qing had already signed a treaty with Belgium, the Belgians were permitted to recruit labour on behalf of their own colonies, but not for the Congo Free State, which was not a Belgian colony. In 1892, the agents of the Congo Free State contracted out their recruiting in China to Macau-based Portuguese firms. A total of 536 men and six boys were recruited in Guangzhou under three-year contracts. The Congo paid their round-trip fares, provided room and board and paid wages of 45 francs a month. Workers wishing to remain in the Congo after three years would then receive a 400-franc cash allowance. These men left for the Congo on 18 September 1892 aboard the German steamer Walstein from Macau. Both the China Custom Annual Trading and Commerce Records and the Business Report of the British Consulate in China reported more workers recruited by Macanese and Hong Kong agents in Qiongzhou and Shantou for work in the Congo in 1892. In the Congo, these recruits were put to work on the Congo railway, logging trees and hauling rocks. Most of these recruits died in the harsh conditions of the Congo. Contemporary newspapers in Hong Kong published information about the bad conditions and mistreatment suffered by the Chinese in the Congo. During this first period of recruitment, around 1,000 Chinese went to the Congo.
+On 10 July 1898, China and the Congo Free State signed a "special chapter" in Peking that stated, in part: "It was agreed upon that Chinese citizens can at will move to and live in the Congo Free State. All properties, movable or unmovable, can be purchased or traded. Whether for shipping, business, crafts or arts, Chinese citizens will receive the same treatment as citizens of the most favorable countries." This agreement granted China "most favoured nation" status in the Congo. It also had the effect of legalising the recruitment of Chinese for work in the Congo. Although Congolese authorities found the performance of the workers of 1892 unsatisfactory, recruitment drives were undertaken in China in 1901, 1902, 1904, and 1906. During this second period of recruitment, about 2,000 Chinese went to the Congo. In 1906, Hong Kong alone produced 500 recruits.
+
+
+== Establishing relations with the ROC and the PRC ==
+
+In October 1960, the newly independent DRC, then called the Republic of the Congo, established diplomatic relations with the Republic of China (ROC).  On February 20, 1961, China recognized the government headed by Antoine Gizenga. In September 1961, Gizenga joined the Cyrille Adoula government, which recognized the ROC, and the PRC suspended relations in response. 
+Relations were again established between the DRC, then known as the Republic of Zaire, and the People's Republic of China in November 1972 and have remained intact since.
+During the time that the DRC/Zaire recognised Taiwan, between 1961 and 1971, the PRC supported and provided material support to anti-Zairian rebels. After Zaire's president, Joseph-Désiré Mobutu, reverted recognition back to the PRC, eight Chinese leaders visited Zaire between 1978 and 1995.  Mobutu himself visited the PRC five times, despite the fact that their relationship was not very close at the time.
+The Democratic Republic of the Congo follows the one China principle. It recognizes the People's Republic of China as the sole government of China and Taiwan as an integral part of China's territory, and supports all efforts by the PRC to "achieve national reunification". 
+The DR Congo considers Hong Kong, Tibet, and Xinjiang to be China's internal affairs.
+
+
+== Present economic relations ==
+The DRC is a major destination for Chinese investment, especially in mining, with the South China Morning Post describing the country as "the epicentre of Chinese investments in Africa". Major companies involved include Chengtun Mining, China Molybdenum Company, China Nonferrous Metal Mining Group, and Huayou Cobalt. As of 2025, Chinese investment in the DRC is primarily in the resources sector and predominantly mining-related.
+In June 2000, a Sino-Congolese telecommunications company (China-Congo Telecom) was set up between ZTE and the Congolese government in a deal worth RMB 80 million in concessional finance from China EXIM Bank.  In April 2009, South African telecommunications group MTN Group offered to buy ZTE's 51 percent stake in the company for USD 200 million. As of January 2010, the DRC has not yet been given Approved Destination Status (ADS) by China due to ongoing civil conflict in the country.
+Exports of copper ore and hard woods to China increased greatly in 2007.
+China and the DRC have significant trade in cobalt, a metal for which China is the world's largest consumer due to its importance in batteries for electric vehicles. As of at least 2024, the DRC produces more than 70% of the world's cobalt, and most of this production goes to China. Chinese companies also account for the majority of cobalt mining in the DRC.
+
+
+=== Sicomines ===
+
+In April 2008, the Congolese government and a Chinese consortium consisting of Sinohydro and China Railway Engineering Corporation formed Sicomines, a joint venture exchanging mineral concessions in Katanga for infrastructure investments. Originally valued at US$9 billion, funded by China EXIM Bank, the deal allocated US$6 billion to infrastructure and US$3 billion to mining operations. Sicomines owns 68% of the project, while the Congolese state-owned mining company Gécamines holds the remaining 32%.
+The infrastructure investments initially included the construction or rehabilitation of 6,600 km of roads, two hospitals, and two universities. The mining concessions at Dikuluwe and Mashamba West offered access to confirmed deposits of 6.8 million tons of copper and 427,000 tons of cobalt.
+The deal faced scrutiny over debt sustainability, prompting a reduction of US$3 billion in May 2009 pending further feasibility studies. In 2023, negotiations led by President Félix Tshisekedi resulted in a revised agreement, increasing China's infrastructure investment commitment to US$7 billion. By January 2024, the Congolese government dedicated these revenues primarily to road improvements, including a major upgrade of National Road 1 between Mbuji-Mayi and Lualaba Province.
+
+
+=== Benefaction ===
+Former governor of Katanga province Moïse Katumbi estimated that over 60 of the province's 75 processing plants are owned by Chinese nationals. He said that 90% of the region's minerals went to China. They are known to have poor environmental and labour relations records and have been accused, directly or indirectly, of using child labour.  In 2007, about 600 Chinese nationals were expelled from Katanga for violating labour and environmental laws.
+
+
+=== Building projects in the DRC ===
+Since 1972, the PRC has given a number of donations to the DRC.  Including a farm on the outskirts of Kinshasa, a sugar refinery in Kisangani, and the National Assembly building (at the time costing US$42 million or US$186 million in 2011 dollars) were all built and given to the DRC/Zaire in the 1970s.  The Chinese government also built an 80,000-seat stadium in 1994.  In 2004, the PRC built and donated the N'Djili Sino-Congolese Friendship Hospital, handing it over to the DRC government in 2006. According to AidData, from 2000 to 2011, there are approximately 21 Chinese official development finance projects identified in DRC through various media reports.
+In January 2021, the Chinese government agreed to cancel Congolese debt worth US$28 million and pledged US$17 million in aid, mainly for development projects. At the same time, the Democratic Republic of the Congo joined the Belt and Road Initiative.
+
+
+== Military cooperation ==
+China has also been committed to providing assistance for reforming the Armed Forces of the Democratic Republic of the Congo (FARDC). Besides providing military equipment, Chinese firms helped construct the FARDC headquarters and a naval base at the sea port of Banana. The Chinese have also provided maintenance and repair for the Congolese navy's "Shanghai" Type 062 gunboats, since eight boats were purchased under the Mobutu regime, but only two being currently operational due to poor maintenance. A Chinese military mission is based at Kamina since 2008, where in August 2017 they completed training of the Congolese 32nd Rapid Reaction Brigade by Chinese instructors. 4th President Joseph Kabila of the DRC has received training at the PLA National Defense University.
+
+
+== Official visits ==
+Throughout 2015 and 2016, high-ranking officials of the DRC, including President Kabila, Prime Minister Augustin Matata Ponyo, and Foreign Minister Raymond Tshibanda, met with Chinese Foreign Minister Wang Yi. They discussed the increase in economic cooperation, as well as in other fields, between the two states.
+
+
+== References ==
+
+
+== Further reading ==
+Sun, Jodie Yuzhou (2022). "Supplied Cash and Arms but Losing Anyway: Chinese Support of the Lumumbist Insurgencies in the Congo Crisis (1959–65)". Cold War History. 22 (4): 459–478. doi:10.1080/14682745.2022.2050699.
+Cardenal, Juan Pablo; Araújo, Heriberto (2011). La silenciosa conquista china (in Spanish). Barcelona: Crítica. pp. 84–88, 114–121. ISBN 9788498922578.
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Democratic_Republic_of_the_Congo_relations（CC BY-SA 4.0）
+
+## 与“一带一路”相关的条目（维基百科导言）
+
+### Bruno Tshibala
+
+Bruno Tshibala Nzenze (born 20 February 1956) is a Congolese politician who served as Prime Minister of the Democratic Republic of the Congo from 2017 to 2019.
+
+来源：https://en.wikipedia.org/wiki/Bruno_Tshibala
+### Kenya Standard Gauge Railway
+
+The Kenya Standard Gauge Railway (SGR) is a partially finished railway system connecting Kenya's cities. Once completed, it will link Kenya to neighboring Uganda, and through Uganda, to South Sudan, the Democratic Republic of the Congo, Rwanda, and Burundi. There are also plans to link to Addis Ababa, in neighboring Ethiopia to the north. The first segment, between Mombasa and Nairobi, opened passenger rail service in June 2017, and freight rail service in January 2018. Other segments are under construction or planned. The new standard gauge railway is intended to replace the old, inefficient metre-gauge railway system.
+
+来源：https://en.wikipedia.org/wiki/Kenya_Standard_Gauge_Railway
+### Mining industry of the Democratic Republic of the Congo
+
+The mining industry of the Democratic Republic of the Congo (French: Industrie minière de la République Démocratique du Congo) is a major global supplier of minerals including cobalt, copper, diamonds, gold, tantalum, and tin. The DRC supplies over 60% of global cobalt, and mineral exports account for more than 95% of the country's export revenues. According to a 2011 report, the total value of the major mineral reserves in the DRC amounts to a total of over 300 billion US dollars.
+Mining includes large-scale industrial projects, semi-industrial ventures, and widespread artisanal and small-scale mining (ASM), often under dangerous and exploitative conditions.
+
+来源：https://en.wikipedia.org/wiki/Mining_industry_of_the_Democratic_Republic_of_the_Congo
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2020-12-23 · Financing Agreement · Official Documents- Financing Agreement for Additional Financing Agreement for Credit 6815-CG（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/685991609782206382
+- 2020-12-22 · Agreement · Official Documents- Amendment No. 2 to the Financing Agreement for Credit 5302-CG（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/219481609782582706
+- 2020-07-28 · Agreement · Official Documents- Agreement for Advance V3460-CG（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/663431595944569589
+- 2018-07-18 · Agreement · Official Documents- Amendment No. 1 to the Financing Agreement for Credit 5302-CG（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/350101536263266616
+- 2013-10-11 · Financing Agreement · Official Documents- Financing Agreement, C5302-CG (Closing Package)（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/954611468031599460
+- 2013-08-21 · Statutory Committee Report · Official Documents- Recommendation Statutory Committee, C5302-CG (Closing Package)（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/555521468026641023
+- 2013-08-20 · Agreement · Official Documents- Agreement for Advance Q874-CG（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/704671468026640675
+- 2013-06-20 · Project Information Document · Project Information Document (Appraisal Stage) - Congo Skills Development for Employability Project - P128628（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/433651468031598898
+- 2013-06-20 · Integrated Safeguards Data Sheet · Integrated Safeguards Data Sheet (Appraisal Stage) - Congo Skills Development for Employability Project - P128628（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/505941468260051759
+- 2013-06-12 · Integrated Safeguards Data Sheet · Integrated Safeguards Data Sheet (Concept Stage) - Congo Skills Development for Employability Project - P128628（项目：CG-CONGO - Rep. Skills Development for Employability Project -- P128628）。http://documents.worldbank.org/curated/en/269111468244791515
+- 2011-03-23 · Grant or Trust Fund Agreement · Agreement for Grant TF096011 Conformed。http://documents.worldbank.org/curated/en/107101468018597029
+- 2011-02-17 · Grant or Trust Fund Agreement · Agreement for MDTF Grant TF099033 Conformed（项目：ZR-Belgian Muti-donor Trust Fund for Finacing Teachers Salaries -- P125656）。http://documents.worldbank.org/curated/en/180781468258273875
+
+## 学术论文（OpenAlex）
+
+### The Challenges of Peace in China’s Belt and Road Initiative in The Great-Lakes Region: The Case of The Democratic Republic of The Congo（2024，Hong Kong Review of Belt and Road Studies，被引 0）
+
+For more than two decades, the Grand Lac region has been a theater of armed conflicts whose dramatic effects are concentrated in the east of the Democratic Republic of the Congo (DRC). The DRC is installed in a chaos programmed by predators of natural resources, intervening on ground veiled by the front agents in their services in particular: Rwanda, Burundi, and Uganda, which are themselves under the influence of geographical extremism, the latter struggling with the imperative of power and covetousness land, raw materials are eager to control the space within the borders of the DRC, benefiting from the alliance with the great powers to establish their strategies of mineral possessions. It is in this conflictual climate that this article undertakes to examine the challenges and impact of China’s Belt and Road initiative (BRI) for the establishment of peace and stability in the Great Lakes region with a particular focus on the conflict in the East of the DRC. Through an in-depth analysis of Chinese projects in the DRC and their influence on the security situation, we assess the specific challenges encountered in promoting peace. By highlighting the potential destabilizing factors associated with this initiative, we seek to understand how to reconcile Chinese economic interests with the imperatives of peace and regional stability. Drawing on empirical data and case studies, this article offers recommendations for strengthening regional and international cooperation for peace in the Great Lakes region. These contributions aim to inform policymakers and actors involved in conflict management on the crucial issues linked to the intersection between economic development and peacebuilding. From the above, regarding the conflict situation in the eastern Democratic Republic of the Congo, the involvement of the BRI could potentially address several underlying factors that influence the conflict, such as the development of infrastructure, job creation, economic stimulation, a
+
+https://doi.org/10.63596/oborjournal.1.2024.52-65
+### Understanding China’s Belt and Road Initiative（2024，Asia in transition，被引 87）
+
+This open access book provokes critical thinking regarding the most ambitious Chinese project since the founding of the People’s Republic of China
+
+https://doi.org/10.1007/978-981-99-9633-9
+### Examining the debt implications of the Belt and Road Initiative from a policy perspective（2019，Journal of Infrastructure Policy and Development，被引 472）
+
+China’s Belt and Road Initiative (BRI) hopes to deliver trillions of dollars in infrastructure financing to Asia, Europe, and Africa. If the initiative follows Chinese practices to date for infrastructure financing, which often entail lending to sovereign borrowers, then BRI raises the risk of debt distress in some borrower countries. This paper assesses the likelihood of debt problems in the 68 countries identified as potential BRI borrowers. We conclude that eight countries are at particular risk of debt distress based on an identified pipeline of project lending associated with BRI.Because this indebtedness also suggests a higher concentration in debt owed to official and quasi-official Chinese creditors, we examine Chinese policies and practices related to sustainable financing and the management of debt problems in borrower countries. Based on this evidence, we offer recommendations to improve Chinese policy in these areas. The recommendations are offered to Chinese policymakers directly, as well as to BRI’s bilateral and multilateral partners, including the IMF and World Bank.
+
+https://doi.org/10.24294/jipd.v3i1.1123
+### La diplomatie conomique de la RDC: Pourquoi devrai-t-on choisir Belt and Road initiative? [Economic diplomacy of the DRC: Why should the belt and road initiative be chosen?]（2021，International journal of applied research，被引 0）
+
+Given that geopolitical changes are characterized by the decline of the West and the economic prosperity of the East, the Democratic Republic of Congo must adjust its foreign policy implementation tools. In the global and transnational international situation, diplomats' skills are not enough to benefit from economic diplomacy. In addition to traditional diplomatic missions, countries now rely on enterprises as influential participants in their economic diplomacy. Because in the contemporary society, power depends more and more on the mastery of economic ability. China's success is first and foremost economic, not military. The belt and road initiative is obviously the most important geopolitical and geostrategic project in history. So why did the Democratic Republic of Congo choose it? What should be the strategy after signing the MoU? This paper attempts to answer these questions.
+
+https://doi.org/10.22271/allresearch.2021.v7.i12d.9249
+### INFRASTRUCTURE AND RESOURCES: THE EVOLVING DYNAMICS OF SINO-CONGOLESE COOPERATION UNDER THE BELT AND ROAD INITIATIVE（2025，Global and Regional Dimensions of International Economic Relations，被引 0）
+
+The Belt and Road Initiative has become a signature instrument for the Chinese government in promoting global trade and economic integration. A new model of cooperation based on the Belt and Road Initiative, such as “infrastructure-for-resources” agreements, has been utilized in China’s collaboration with the Democratic Republic of the Congo. The article examines the economic feasibility and repercussions of the model by using the copper mining sector in the DRC. By using the case study of Sino-Congolese cooperation, the study demonstrates how investments in road, railway, and public utility infrastructure have unleashed the potential of mineral resources to the benefit of both parties.
+
+https://doi.org/10.58861/tae.grdier.2025.01
+### China’s Belt and Road Initiative in Three Diverse African Countries: A Comparative Approach（2022，Springer eBooks，被引 0）
+
+（无摘要）
+
+https://doi.org/10.1007/978-3-031-08526-0_4
+### The Belt and Road Initiative: Geopolitical Expansion and Institutional Instability in the DRC and Sri Lanka（2026，CUNY Academic Works (City University of New York)，被引 0）
+
+This study examines how large‑scale Chinese investment in resource‑rich and strategically located states, specifically the Democratic Republic of the Congo (DRC) and Sri Lanka, generates domestic and geopolitical instability. Despite their distinct regional and historical contexts, both countries exhibit structural vulnerabilities that allow external actors to reshape their political and economic trajectories. In the DRC, Chinese initiatives leverage abundant mineral resources and a highly centralized executive structure, reinforcing weak institutional oversight. In Sri Lanka, financial fragility and geopolitical ambition enabled China to acquire strategic territorial influence, illustrating how external financing can erode strategic autonomy and intensify great‑power competition. These dynamics reflect a broader shift in the future of International Political Economy, where a more Beijing‑centric distribution of power and deeper polarization of the international system are likely to intensify. As realist dynamics expand globally, states face increasing pressure from hard‑power competition, reshaping the constraints and possibilities of global governance.
+
+https://openalex.org/W7165995105
+### Does the Belt and Road Initiative Increase the Carbon Emission Intensity of Participating Countries?（2021，China & World Economy，被引 92）
+
+Abstract The impact that the Belt and Road Initiative (BRI) has had on carbon emissions is a hotly debated issue. Using a panel dataset of 178 countries from 2002 to 2017, and applying the quantile difference‐in‐difference method in different industries, this study finds that, first, the BRI overall tends to reduce the carbon emission intensity of BRI countries. Second, the impact of BRI on reducing the carbon emission intensity is significant for BRI countries at higher (0.8 and 0.9) and lower (0.2 and 0.3) carbon emission intensity quantiles but it is insignificant for those at medium levels. Third, the BRI has significant impacts on reducing carbon emission intensity in the energy‐intensive industries, and this effect is the highest at the quantile level of 0.9 for all three industries considered here: transportation, electric and heating, and manufacturing and construction. These results indicate that establishing BRI cooperation with China will improve the environment and enhance the sustainable development ability of BRI countries.
+
+https://doi.org/10.1111/cwe.12374
+
+抓取时间：2026-10-21T09:59:02Z

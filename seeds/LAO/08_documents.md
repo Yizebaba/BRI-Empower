@@ -59,12 +59,6 @@ Cardenal, Juan Pablo; Araújo, Heriberto (2011). La silenciosa conquista china (
 
 ## 与“一带一路”相关的条目（维基百科导言）
 
-### Belt and Road Forum for International Cooperation
-
-The Belt and Road Forum for International Cooperation (also known as the Belt and Road Forum or BRFIC) is an international political and economic forum of the Belt and Road Initiative.
-The forum will be a platform for working out action plans for implementation of the initiative in the areas of infrastructure, energy and resources, production capacity, trade and investment and identification of major projects. It is also intended to be an opportunity for the signing of cooperation agreements with countries and international organizations in the areas of financial cooperation mechanism; a cooperation platform for science, technology and environmental protection; and enhanced exchanges and training of talent and financing agreements for backing projects.
-
-来源：https://en.wikipedia.org/wiki/Belt_and_Road_Forum_for_International_Cooperation
 ### Boten–Vientiane railway
 
 The Boten–Vientiane railway is a Lao section of the Laos–China Railway (LCR), running between the capital Vientiane and the northern town of Boten on the border with Yunnan, China. The line was officially opened on 3 December 2021.
@@ -77,11 +71,6 @@ The China-Indochina Peninsula economic corridor (CICPEC) is an economic corridor
 The economic corridor connects several cities in Southern China with the major cities of Southeast Asia including Hanoi in Vietnam, Vientiane in Laos, Phnom Penh in Cambodia, Bangkok in Thailand, Kuala Lumpur in Malaysia, and Singapore with modern road, rail, and pipelines. The corridor is planned to better connect neighbouring economies, and encourage development across the ASEAN–China Free Trade Area.
 
 来源：https://en.wikipedia.org/wiki/China%E2%80%93Indochina_Peninsula_economic_corridor
-### Green finance and the Belt and Road Initiative
-
-Green finance is officially promoted as an important feature of the Belt and Road Initiative, China's signature global economic development initiative. The official vision for the BRI calls for an environmentally friendly "Green Belt and Road".
-
-来源：https://en.wikipedia.org/wiki/Green_finance_and_the_Belt_and_Road_Initiative
 ### Lancang–Mekong Cooperation
 
 Lancang-Mekong Cooperation (LMC) is a multilateral format established in 2016 for cooperation between the riparian states of the Lancang River and Mekong River. The Lancang is the part of the Mekong that flows through China. Cambodia, Laos, Myanmar, Vietnam and Thailand are five downstream countries of the Mekong River.
@@ -90,22 +79,19 @@ Lancang-Mekong Cooperation (LMC) is a multilateral format established in 2016 fo
 
 ## 世界银行最新文件（Documents & Reports）
 
+- 2018-02-08 · Project Paper · Lao People's Democratic Republic - Second Lao Environment and Social Project : restructuring（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/552371518096748972
+  摘要：The development objective of the Second Lao Environment and Social Project (LENS2) for Lao People's Democratic Republic is to help strengthen selected environmental protection management systems, specifically for protected areas conservation, enforcement of wildlife laws and environmental assessment management. This restructuring requires the following changes: (i) reallocation of funds across LENS2 components; (ii) re-allocation of Project Preparation Advance (PPA) proceeds (Disbursement Categories 2 and 3) to the LENS2 implementation budget (Disbursement Category 1); (iii) revision of results indicators; (iv) raise the disbursement ceiling; and (v) cancel part of one subproject.
 - 2022-03-23 · Agreement · Official Documents- Amendment to the Financing Agreement for Credit 5383-LA, Grant H915-LA and for Additional Credit 5620-LA（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/255671649252780991
 - 2022-03-23 · Agreement · Official Documents- Amendment to the GEF Grant Agreement for TF016619（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/366561649253944579
-- 2021-08-11 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (formaly Protected Area and Wildlife) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/570321628646481303
-- 2021-08-04 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (formaly Protected Area and Wildlife) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/566321628043788859
-- 2021-08-02 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (formaly Protected Area and Wildlife) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/396091627895288959
-- 2021-07-07 · Implementation Status and Results Report · Disclosable Version of the ISR - Second Lao Environment   Social Project (formaly Protected Area and Wildlife) - P128393 - Sequence No : 16（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/958311625702186921
-- 2021-01-14 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (former Protected Area and Wildlife Project) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/371741610615445032
-- 2021-01-13 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (former Protected Area and Wildlife Project) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/180081610525596875
-- 2020-12-29 · Implementation Status and Results Report · Disclosable Version of the ISR - Second Lao Environment   Social Project (former Protected Area and Wildlife Project) - P128393 - Sequence No : 15（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/392611609202196467
-- 2020-10-01 · Auditing Document · LENS2-Statement for Jan-Dec 2019.pdf（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/698941605495217934
-- 2020-08-28 · Project Paper · Disclosable Restructuring Paper - Second Lao Environment   Social Project (former Protected Area and Wildlife Project) - P128393（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/558621598595973322
-  摘要：The development objective of Second Lao Environment and and Social Project for Lao People's Democratic Republic is to help strengthen selected environmental protection management systems, specifically for protected areas conservation, enforcement of wildlife laws and environmental assessment management. This restructuring requires extension for twelve months from June 30, 2021, to June 30, 2022 to complete the project activities.
-- 2020-07-22 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (former Protected Area and Wildlife Project) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/958861595387989679
-- 2020-07-21 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (former Protected Area and Wildlife Project) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/162301595304118605
-- 2020-06-29 · Implementation Status and Results Report · Disclosable Version of the ISR - Second Lao Environment   Social Project (former Protected Area and Wildlife Project) - P128393 - Sequence No : 14（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/948711593441264791
-- 2020-05-04 · Procurement Plan · Lao People's Democratic Republic - EAST ASIA AND PACIFIC- P128393- Second Lao Environment  and  Social Project (former Protected Area and Wildlife Project) - Procurement Plan（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/463541588601758038
+- 2018-03-12 · Agreement · Official Documents- Amended and Restated Second Grant Agreement for TF014777。http://documents.worldbank.org/curated/en/185461531237804987
+- 2014-06-30 · Agreement · Official Documents - Agreement for extension of closing date for Advance Q843（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/357151468283523265
+- 2014-05-14 · Financing Agreement · Official Documents- Financing Agreement, C5383-LA, Grant H915-LA (Closing Package)（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/357371468046158518
+- 2014-03-05 · Statutory Committee Report · Official Documents- Recommendation of Statutory Committee, C5383-LA, Grant H915-LA (Closing Package)（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/858361468277145886
+- 2014-03-04 · Grant or Trust Fund Agreement · Official Documents- Agreement for FCPF Grant TF014777。http://documents.worldbank.org/curated/en/966551468048286480
+- 2014-02-01 · Integrated Safeguards Data Sheet · Integrated Safeguards Data Sheet (Concept Stage) - Protected Area and Wildlife Project (Regional APL) - P128393（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/817181468046187839
+- 2014-01-29 · Integrated Safeguards Data Sheet · Integrated Safeguards Data Sheet (Appraisal Stage) - Protected Area and Wildlife Project (Regional APL) - P128393（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/243431468046156834
+- 2014-01-21 · Project Information Document · Project Information Document (Appraisal Stage) - Protected Area and Wildlife Project (Regional APL) - P128393（项目：LA-Second Lao Environment & Social Project (formerly Protected Area and Wildlife Project) -- P128393）。http://documents.worldbank.org/curated/en/640271468266107359
+- 2013-10-10 · Financing Agreement · Official Documents-  Financing Agreement for Credit 5301-LA and Grant H881-LA (Closing Package)（项目：LA-Lao PDR Ninth Poverty Reduction Support Operation -- P143025）。http://documents.worldbank.org/curated/en/888731468047639648
 
 ## 学术论文（OpenAlex）
 
@@ -150,4 +136,4 @@ If current trajectories continue there will be no elephants left in Laos by the 
 
 https://openalex.org/W3005905567
 
-抓取时间：2026-10-21T09:51:43Z
+抓取时间：2026-10-21T09:59:02Z

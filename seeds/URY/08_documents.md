@@ -1,0 +1,134 @@
+# 乌拉圭（Uruguay）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Uruguay, officially the Oriental Republic of Uruguay, is a country in southeastern South America. It shares borders with Argentina to its west and southwest and Brazil to its north and northeast, while bordering the Río de la Plata to the south and the Atlantic Ocean to the southeast. It is part of the Southern Cone region of South America. Uruguay covers an area of approximately 176,215 square kilometers (68,037 sq mi). It has a population of almost 3.5 million people, of whom nearly 2 million live in the metropolitan area of its capital and largest city, Montevideo.
+The area that became Uruguay was first inhabited by groups of hunter gatherers 13,000 years ago. The first European explorer to reach the region was Juan Díaz de Solís in 1516, but the area was colonized later than its neighbors. At the time of European arrival, the Charrúa were the predominant tribe, alongside other groups such as the Guaraní and the Chaná. However, none of these peoples were socially or politically organized in large groups, which contributed to their decline. Amid territorial disputes, the Portuguese established Colônia do Sacramento in 1680, and the Spanish founded Montevideo as a military stronghold. Uruguay secured its independence between 1811 and 1828, following a four-way struggle involving Portugal, Spain, and later the United Provinces of the Río de la Plata and the Empire of Brazil. In 1830, the country enacted its constitution and was formally established as an independent state.
+Following independence, Uruguay experienced foreign intervention, internal conflicts and political instability. From the second half of the 19th century, successive waves of European migration, particularly from Spain, Italy and France, reshaped the country's demographics and contributed to the development of modern Uruguayan culture. During this period, national politics were dominated by the Colorado Party and the National Party, collectively known as the Traditional Parties, which fought several civil wars. In the early 20th century, a series of economic, labor and social reforms, combined with sustained political stability, established Uruguay as an advanced welfare state and earned it the nickname "Switzerland of the Americas".
+Economic crises and escalating political and social tensions amid the Cold War, including the activities of the far-left National Liberation Movement–Tupamaros, an urban guerrilla movement, contributed to the erosion of democratic institutions in the late 1960s and early 1970s. This culminated in the 1973 coup d'état, which ushered in a civic-military dictatorship that lasted until 1985. Since the restoration of democracy, Uruguay has been a constitutional republic, with a president who serves as both head of state and head of government.
+Uruguay is highly ranked in international measurements of democracy, government transparency, economic freedom, social progress, income equality, per capita income, innovation, and infrastructure. It is classified as a high-income economy. It is also highly socially liberal, and has fully legalized cannabis—the first country in the world to do so—as well as same-sex marriage, abortion and euthanasia. Uruguay is also a founding member of the United Nations, the OAS, and Mercosur.
+
+来源：https://en.wikipedia.org/wiki/Uruguay（CC BY-SA 4.0）
+
+## 中国与乌拉圭的关系（维基百科全文）
+
+### China–Uruguay relations
+
+Relations between the People's Republic of China and the Oriental Republic of Uruguay were first established in 1988. Relations were defined as “friendly and cooperative” by the Chinese government. The bilateral relationship was upgraded to a strategic partnership in 2016.
+Trade between the two nations increased significantly during 2000-2006 due to China's rapid growth. After a decrease  due to the Great Recession, trade levels recovered and has been increasing. China has been a massive contributor to Uruguay's economy, being the country's largest trading partner since 2016. In 2017, the value of exports to China was US$2500m, consisting mainly of natural resources. Imports totaled US$1704m in 2017, largely made up of manufactured products. Total trade amounted to US$29,615m in 2017. Trade agreements have been signed in sectors of agriculture, food products, and infrastructure, among others. Financial flows and migration between the two countries are limited.
+The two countries are collaborating on the development of China's Belt and Road Initiative. China has delivered healthcare supplies and COVID-19 vaccinations to Uruguay in response to the pandemic.
+
+
+== Country Comparison ==
+
+
+== History (Pre-2008) ==
+
+
+=== Development of Relations (1988-2000) ===
+Uruguay used to have bilateral relations with the Republic of China; these were broken up when the People's Republic of China established diplomatic relations with Uruguay in 1988. Relations were classified as “friendly and cooperative”. Trade increased steadily throughout the 1990s, particularly due to China's growing demand for raw materials. Imports from China increased from 1.1% in 1990 to 4.1% in 2000. Exports to China as a proportion of total exports increased from 4.8% to 5% in the same period.
+
+
+=== Rapid economic growth of China (2000-2006) ===
+During 2000–2006, trade flows between China and Uruguay significantly increased due to China's rapid economic growth. For Uruguay, imports from China increased by 213% in this period, with the proportion of imports from China to total imports increasing from 3.2% in 2000 to 7.4% in 2006. China rose to become Uruguay's fourth largest import supplier in 2006. The increase in imports has negatively impacted Uruguay's domestic producers, who have struggled to compete with foreign firms.
+Exports from Uruguay to China increased by 5.5% between 2001 and 2005. The proportion of exports to China to total exports increased by 0.5%. This increase in exports is attributed to China's high demand for natural resources. As such, a large proportion of Uruguay's exports to China consist of primary commodities.
+Uruguay's export products to China have moved towards less-developed products as Chinese industries have pushed the production of higher-value added products. Wool has been Uruguay's top export product to China, with two main variants: wool tops (a higher value-added product) and non-carded wool (a lower value-added product). In 2002, the total exported value of wool tops was US$48.4m. Non-carded wool was the top 6th exported product, with a significantly less total value of US$4.9m. In 2006, non-carded wool exports increased by 6 times the 2002 value, reaching a total of $30.1m. On the other hand, wool top exports experienced a 35% decrease, amounting to a total of $31.4m.
+Uruguay had a trade deficit with China during 2000–2006, importing more than exporting. Its trade deficit with China made up a quarter of its total deficits. This increased Uruguay's reliance on commodities, which posed a challenge for the economy's development.
+Foreign direct investment (FDI) also increased during this period. In late 2008, Chery Mobile, a Chinese company, began manufacturing cars in Uruguay through a joint venture with Socma in Argentina and Oferol in Uruguay.
+
+
+=== Great Recession (2008-2009) ===
+Bilateral trade decreased due to the Great Recession. In response to the impacts of the financial crisis, then CCP General Secretary Hu Jintao and Uruguayan counterpart Tabaré Vázquez met at the Great Hall of the People, Beijing. Trade pacts were signed by the two representatives, with the aim of countering the 20.2% drop of Uruguayan exports in 2008. The agreements encompassed areas of technology, water systems, and sports. A deal was also signed to promote collaboration between the central and state television stations of the two countries. Trade levels returned to pre-crisis levels by 2010.
+
+
+== Post 2008 Relations ==
+
+
+=== Diplomatic relations ===
+In February 2003, the two countries celebrated 15 years of diplomatic relations. Then Chinese Foreign Minister Tang Jiaxun exchanged congratulations with then Uruguayan Foreign Minister Didier Opertti. The two foreign ministers expressed positive sentiments regarding past relations, particularly emphasizing the progress in areas of trade, culture, and technology. Opertti stated his interest in further expanding bilateral ties.
+During a week-long visit to China in August 2010, then Uruguayan Vice-president Danilo Astori expressed positive expectations in regards to China–Uruguay relations. He acknowledged China's impact on Uruguay's economic development. Wu Bangguo, a Chinese legislator, shared similar sentiments, expressing interest in expanding trade and cooperation between the two countries.
+In June 2012, former Chinese Premier Wen Jiabao visited several Latin American countries, including Uruguay, expressing interest in establishing an economic forum between China and CELAC (Community of Latin American and Caribbean States). Wen Jiabao's proposals during this visit encouraged the expansion of trade relations between China and Latin American countries.
+In May 2013, then Uruguayan President José Mujica made an official visit to Beijing, meeting CCP General Secretary Xi Jinping. The talks furthered relations, with the two nations establishing a five-year plan concerning bilateral trade. In addition to this, a bilateral agreement was also signed by the national representatives. Xi said the two countries should further joint projects in automobile manufacture, communication, and agriculture, and that he would urge China-Uruguayan cooperation in the development of Uruguayan infrastructure. Xi stated the importance of China-Uruguayan relations in encouraging other developing nations to pursue economic partnerships with China. Mujica stated that Uruguay would contribute to the development of China-Latin America relations.
+Talks regarding infrastructure cooperation were furthered in June 2013, with Mujica's visit to China. During his visit, an agreement was signed which allowed Chinese companies to aid in the reconstruction of a Uruguayan railway. Additionally, it was agreed that China would contribute to the development of a Uruguayan port located on the Atlantic coast.
+In 2016, China and Uruguay established a strategic partnership and the two countries signed a free trade agreement. This was a step-up from the initial relationship established in 1988. Uruguay has supported the “One China Policy” and does not have an office in Taiwan.
+On 3 February 2018, in celebration of 30 years of diplomatic relations, then Assistant Foreign Minister Qin Gang attended the Uruguayan Embassy in Beijing. He met with Carolina Cosse, then Uruguayan Minister of Industry, Energy, and Mining. The two expressed positive sentiments of bilateral relations. CCP General Secretary Xi Jinping and then President Tabaré Vázquez exchanged letters, each congratulating the other for the development of diplomatic relations.
+In April 2019, China's deputy premier Hu Chunhua visited Uruguay. Uruguayan Foreign Minister Rodolfo Nin Novoa said that the visit strengthened China–Uruguay relations. He also stated his expectations for future trade and tariff agreements between the two countries, particularly emphasizing the importance of agreements that concerned food safety, as a large portion of Uruguay's exports consists of food products.
+In September 2019, Chinese Minister of National Defense Wei Fenghe met with then Uruguayan Vice President Lucia Topolansky. The two national representatives discussed bilateral relations and agreed to work together to advance China's Belt and Road Initiative. Topolansky expressed interest in advancing bilateral ties with China in areas of trade, politics, economics, and military. In the deepening of army relations, Wei visited several Uruguayan army bases and met with then Uruguayan Defense Minister Jose Bayardi.
+On 1 March 2021, Uruguay started a COVID-19 vaccination campaign after receiving doses of Sinovac vaccines from China. Chinese Ambassador Wang Gang stated that this was an important step in advancing bilateral relations. On 29 March 2021, Uruguayan President Luis Lacalle Pou was vaccinated with the Sinovac vaccine.
+
+
+=== Economic relations ===
+
+
+==== Trade ====
+During the Chinese-Uruguayan Mixed Economic Commission in 2004, the two countries discussed economic cooperation, particularly focusing on the export of soybeans and beef to China. National representatives also emphasized the importance of extending safety measures for Uruguayan food products. Uruguay expressed interest in importing electronic goods from China.
+Trade has been expanding since 2008 due to an increase in both China and Uruguay's exports. Exports to China increased from US$171m in 2008 to US$2500m in 2017. Exports remained largely made up of primary commodities, namely soybeans, wool, and meat products. Imports from China increased from US$833m to US$1704m in the same period, consisting mainly of manufactured products. Since 2012, Uruguay has had a trade surplus with China.
+There are several agreements between both countries:
+
+Mutual investment promotion and protection agreement (1993) (in Spanish)
+Scientific and technological cooperation agreement (1993) (in Spanish)
+Preferential loan (2006) (in Spanish)
+There is also a Uruguay-PRC Chamber of Commerce in Montevideo.
+In 2019, the two countries signed an agreement on trade of dairy products. Under this agreement, the major Uruguayan dairy company, Conaprole, will export 4,000 tons of powdered milk to Yili, the largest dairy company in China. The agreement was the result of “years of negotiations”. There are plans to expand this agreement to other dairy products.
+In September 2020, CCP General Secretary Xi Jinping spoke with Uruguayan President Luis Lacalle Pou over a telephone call, during which he expressed interest to increase imports of agricultural product and higher value-added products. Xi also stated interest in further developing e-commerce between the two countries. Lacalle Pou echoed Xi's sentiments, expressing interest in deepening relations, particularly in sectors of agriculture, infrastructure, and innovation. In addition, he praised China's efforts in controlling the COVID-19 outbreak and emphasized the importance of openness to trade and collaboration.
+Due to the COVID-19 pandemic, Uruguayan exports to China decreased by 1% in the first quarter of 2020. Imports fell by 10% during the same period. This decline is expected to have a negative impact on Uruguayan industrial sectors and product chains, particularly considering China's role as Uruguay's largest trading partner.
+
+
+==== Financial Flow and Investment ====
+Financial flow and investment between the two regions are minimal. Uruguay does not currently have a currency swap agreement with China, unlike other nations in the same geographic region. Most financial flows between the two countries consist of China's foreign direct investment. These investments are largely made up of China's use of Uruguay as a tax haven, but precise data from official reports has not been publicized.
+
+
+==== Migration ====
+According to a 2015 census conducted by the Ministry of Commerce of China, there were 300 Chinese citizens living in Uruguay. Uruguay's tight immigration laws have prevented high levels of migration. There is no reported data on the number of Uruguayan citizens living in China.
+
+
+=== International Organizations ===
+Both China and Uruguay are members of the Group of 77, the United Nations, and the World Trade Organization.
+
+
+== Taiwan ==
+Uruguay follows the one China principle, and recognizes government of the People's Republic of China as the sole legal government representing the whole of China and Taiwan as "an inalienable part" of China. Uruguay also supports all efforts by the PRC to "achieve national reunification".
+
+
+== Resident diplomatic missions ==
+
+
+== See also ==
+Chinese Uruguayans
+Foreign relations of China
+Foreign relations of Uruguay
+
+
+== References ==
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Uruguay_relations（CC BY-SA 4.0）
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-01 · Brief · Macro Poverty Outlook for Uruguay : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099659210152641416
+  摘要：Growth is projected to moderate in 2026, amid external headwinds, but to gradually reach 2.0 percent in 2028, supported by resilient consumption, recovering investment, and improved external conditions. Inflation is expected to remain contained, while fiscal consolidation stabilizes debt. Low inflation and labor market gains boosted real household incomes, but structural inequalities should be tackled to achieve further social gains.
+- 2026-09-18 · Brief · Uruguay en PISA 2025。http://documents.worldbank.org/curated/en/099955009182688607
+  摘要：Resumen de dos páginas con los resultados de PISA 2025 para Uruguay. Reúne los puntajes en lectura, matemática y ciencias, la proporción de estudiantes bajo el nivel mínimo de competencia, la evolución del desempeño en el tiempo y las diferencias por nivel socioeconómico y género. Cierra con seis prioridades para la educación secundaria, basadas en el reporte del Banco Mundial Donde los caminos se bifurcan. Fuente: OCDE (2026), PISA 2025 Results (Volume I).
+- 2026-08-12 · Program Document · Uruguay - Fostering Competitiveness, Private Investment and Jobs Development Policy Financing with a Deferred Drawdown Option Program（项目：UY-Uruguay: Fostering Competitiveness, Private Investment and Jobs DPF DDO -- P513691）。http://documents.worldbank.org/curated/en/099081926161539949
+  摘要：The development objective of the Uruguay: Fostering Competitiveness, Private Investment and Jobs Development Policy Financing with a Deferred Drawdown Option for Uruguay is to foster trade, investment, and competitiveness for more and better jobs and to strengthen fiscal sustainability. The operation supports an integrated set of policy and institutional reforms that expand preferential market access through ratification of the European Union–Southern Common Market (MERCOSUR) interim Trade Agreement, reduce trade costs by establishing self-certification of origin with an upgraded enforcement regime and eliminating redundant negative certificates for imports, and deepen domestic finance by lowering reserve requirements on short-term local-currency obligations and simplifying access to capital markets, including crowdfunding and financial trusts, to benefit Small and Medium-sized Enterprises (SMEs). It modernizes the investment promotion regime by incorporating explicit indicators for Research, Development and Innovation (R&D+i) and technological upgrading in the official evaluation matrix and provides enhanced incentives for innovative firms and those in science and technology parks, while advancing labor inclusion through a progressive framework of temporary wage subsidies, simplified hiring for SMEs, and complementary training and certification for youth, women, and other vulnerable groups. To underpin macro-fiscal resilience, the program strengthens the fiscal rule by intro
+- 2026-07-10 · Implementation Completion and Results Report · Uruguay - Green and Resilient Growth Development Policy Loan Project（项目：UY-Uruguay Green and Resilient Growth Development Policy Loan -- P179367）。http://documents.worldbank.org/curated/en/099072926195517254
+  摘要：Ratings of the Uruguay Green and Resilient Growth Development Policy Loan for Uruguay were as follows: overall outcome was satisfactory, relevance of prior actions was satisfactory, achievement of objectives (efficacy) was satisfactory, and Bank performance was satisfactory. Key lessons include that a policy and results matrix in a development policy operation must balance what is feasible within a short implementation period with indicators that credibly demonstrate progress toward outcomes; reliance on narrowly defined output indicators or ambiguously worded targets can understate broader systemic effects and require complementary evidence to assess efficacy. The strength of a results framework and the pace of reform are closely linked to country context; in settings with strong institutions, political stability, and extensive consultation traditions, policies are durable but adoption can be slower, so targets and timing should reflect that reality while leveraging the value of policy relevance and innovation over financing need. Performance-based interest rate reductions linked to climate targets can extend incentives beyond operation closing and strengthen outcome orientation, but they require clear verification arrangements after closure, realistic expectations about evaluation timelines, and institutional flexibility to mainstream such innovations. Replication of sustainability-linked mechanisms is feasible but should be conditioned on strong commitment, policy continui
+- 2026-05-05 · Announcement · Announcement of IFC Invests in Uruguayan Company Arboreal to Scale Sustainable Wood-Based Solutions in Latin America on May 5, 2026
+。http://documents.worldbank.org/curated/en/099735008142622525
+  摘要：This press release announces on May 5, 2026, that the International Finance Corporation (IFC) has provided a financing package to Arboreal, a Uruguayan company that converts wood from responsibly managed forests into high-value industrial and construction products. With additional capital mobilized from a fund, the investment will help Arboreal expand its production capacity, strengthen technical expertise and workforce skills, and meet growing demand for renewable construction materials in Latin America. The initiative aims to support sustainable industrial development and promote the use of environmentally responsible building materials.
+- 2026-04-30 · Brief · Uruguay Human Capital Country Brief。http://documents.worldbank.org/curated/en/099317206302623996
+  摘要：Human capital - people’s knowledge, skills, and health - drives productivity and growth. The Human Capital Index Plus (HCI+) measures the human capital a child born today can expect to accumulate over their working life, extending the original HCI by incorporating tertiary education and work experience. This brief summarizes Uruguay’s HCI+ score and its performance in building human capital.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Uruguay : April 2026。http://documents.worldbank.org/curated/en/099742208052619193
+  摘要：GDP growth moderated to 1.8 percent in 2025 and is expected to converge to around 2.0 percent over the medium term, supported by domestic demand. Inflation fell to 3.6 percent year-over-year in 2025, within the central bank’s tolerance band, while the fiscal position deteriorated. The labor market and household incomes improved moderately, but sustained productivity and real wage growth remain essential for lasting welfare gains.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Uruguay : April 2026 Datasheet
+。http://documents.worldbank.org/curated/en/099813408182615842
+  摘要：GDP growth moderated to 1.8 percent in 2025 and is expected to converge to around 2.0 percent over the medium term, supported by domestic demand. Inflation fell to 3.6 percent year-over-year in 2025, within the central bank’s tolerance band, while the fiscal position deteriorated. The labor market and household incomes improved moderately, but sustained productivity and real wage growth remain essential for lasting welfare gains.
+- 2026-03-25 · Brief · Uruguay Gender Landscape。http://documents.worldbank.org/curated/en/099027207042270406
+  摘要：This briefing showcases the gender landscape in Uruguay on key indicators helpful for monitoring gender equality and designing effective policy interventions. Gender equality fosters productivity gains, minimizes losses in wealth, reduces poverty, boosts shared prosperity, and supports green, resilient, and inclusive development.
+- 2026-08-03 · Program Information Document · Appraisal Program Information Document (PID)（项目：UY-Uruguay: Fostering Competitiveness, Private Investment and Jobs DPF DDO -- P513691）。http://documents.worldbank.org/curated/en/099080326181044468
+- 2026-06-29 · Project Information Document · Concept Program Information Document (PID)（项目：UY-Uruguay: Fostering Competitiveness, Private Investment and Jobs DPF DDO -- P513691）。http://documents.worldbank.org/curated/en/099062926080548661
+- 2026-04-28 · Agreement · Official Documents- Amendment to the Loan Agreement for Loan 9305-UY and Amendment to the Additional Financing Grant Agreement for GPG Grant TF0C5819.pdf（项目：UY-Uruguay Agro-Ecological and Climate Resilient Systems Project -- P176232）。http://documents.worldbank.org/curated/en/099042926105524522
+
+抓取时间：2026-10-21T09:59:02Z

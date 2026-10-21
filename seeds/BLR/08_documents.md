@@ -1,0 +1,138 @@
+# 白俄罗斯（Belarus）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Belarus, officially the Republic of Belarus, is a landlocked country in Eastern Europe. It is bordered by Russia to the east and northeast, Ukraine to the south, Poland to the west, and Lithuania and Latvia to the northwest. Belarus spans an area of 207,600 square kilometres (80,200 sq mi) with a population of 9.1 million. The country has a hemiboreal climate and is administratively divided into six regions. Minsk is the capital and largest city; it is administered separately as a city with special status.
+For most of the medieval period, the lands of modern-day Belarus were ruled by independent city-states such as the Principality of Polotsk. By the 14th century these lands had come fully under the Grand Duchy of Lithuania and subsequently the Polish–Lithuanian Commonwealth; this period lasted for 500 years until the 1792–1795 partitions of Poland-Lithuania placed Belarus within the Russian Empire for the first time. In the aftermath of the Russian Revolution in 1917, different states arose competing for legitimacy amid the Civil War, ultimately ending in the rise of the Byelorussian SSR, which became a founding constituent republic of the Soviet Union in 1922.
+After the Polish-Soviet War (1918–1921), Belarus lost almost half of its territory to Poland. Much of the borders of Belarus took their modern shape in 1939, when some lands of the Second Polish Republic were reintegrated into it after the Soviet invasion of Poland, and were finalised after World War II. During World War II, military operations devastated Belarus, which lost about a quarter of its population and half of its economic resources. In 1945, the Byelorussian SSR became a founding member of the United Nations, along with the Soviet Union. The republic was home to a widespread and diverse anti-Nazi insurgent movement which dominated politics until well into the 1970s, overseeing Belarus's transformation from an agrarian to an industrial economy.
+The parliament of the republic proclaimed the sovereignty of Belarus on 27 July 1990, and during the dissolution of the Soviet Union, Belarus gained independence on 25 August 1991. Following the adoption of a new constitution in 1994, Alexander Lukashenko was elected Belarus's first president in the country's first and only free election after independence, serving as president ever since. Lukashenko heads a highly centralised authoritarian government. Belarus ranks low in international measurements of freedom of the press and civil liberties. It has continued several Soviet-era policies, such as state ownership of large sections of the economy. In 2000, Belarus and Russia signed a treaty for greater cooperation, forming the Union State.
+The country has been a member of the United Nations since its founding and has joined the CIS, the CSTO, the EAEU, the OSCE, and the Non-Aligned Movement. It has shown no aspirations of joining the European Union but maintains a bilateral relationship with the bloc, and also participates in the Baku Initiative. Belarus is one the only three European countries (along with Russia and Kosovo) that are not members of the Council of Europe; it attempted to join in 1993 but was refused admission because of electoral malpractice and serious human rights concerns (Belarus is the only European country that continues to use capital punishment). Its limited relationship with the council was suspended after the 2022 Russian invasion of Ukraine was launched from its territory in April of that year.
+
+来源：https://en.wikipedia.org/wiki/Belarus（CC BY-SA 4.0）
+
+## 中国与白俄罗斯的关系（维基百科全文）
+
+### Belarus–China relations
+
+Relations between Belarus and the People's Republic of China have been generally positive, with Belarusian President Alexander Lukashenko advocating that Belarus should take an approach of "understanding China, learning from China, and approaching China."
+
+
+== History ==
+The Byelorussian Soviet Socialist Republic, then part of the Soviet Union, recognized the PRC on 2 October 1949.
+Belarus became an independent country in 1991 following the dissolution of the Soviet Union. Lukashenko was elected President of Belarus on July 20, 1994, and has been re-elected since. From early in his presidency, Lukashenko has advocated that Belarus should adopt an approach of "understanding China, learning from China, and approaching China." Lukashenko visited China several times between 1995 and 2019, seeking to develop diplomatic and economic ties.
+In 2011, the two countries agreed to construct an industrial park in Belarus. After Chinese President Xi Jinping's announcement of the Belt and Road Initiative (BRI) in 2013, Belarus responded positively and sought to combine the benefits of the Chinese initiative with its own national integration and public docking priorities. Under the auspices of the BRI, construction of the China–Belarus Industrial Park began in 2014. It is now the largest industrial park built pursuant to the BRI and serves as a major channel for Chinese goods to enter Europe. 
+Belarus plays an essential role in the Digital Silk Road. Even in the era of Western sanctions on this country, China continues cooperating in high-tech and innovation development with this post-Soviet Eurasia state.
+In July 2015, Belarus became an observer in the Shanghai Cooperation Organisation (SCO). Trade relations between the two countries have grown. In particular, Belarus markets agricultural and food products to China, where they have significant popularity.
+Belarus was one of 53 countries that in June 2020 supported China's Hong Kong national security law at the United Nations Human Rights Council.
+At the 2022 China–Belarus summit, the countries agreed to form an all-weather comprehensive strategic partnership. Lukashenko traveled to Beijing for the 2023 Belarus–China Summit, during which the countries agreed to create a free trade zone in Belarus in 2023. On March 1, 2023, Lukashenko and Xi jointly called for the "soonest possible" peace deal in the Russian invasion of Ukraine, stating their "deep concern about the development of the armed conflict in the European region and extreme interest in the soonest possible establishment of peace in Ukraine".
+In July 2024, Belarus became a full member in the SCO. The same month, the People's Liberation Army and the Armed Forces of Belarus conducted joint military exercises a few kilometers from the Belarus–Poland border.
+
+
+== Political stances ==
+Belarus follows the one China principle, and recognizes the government of the People's Republic of China as the sole legal government representing the whole of China and Taiwan as "an inalienable part" of China. Belarus supports all efforts by the PRC to "achieve national reunification" and opposes Taiwan independence. It also supports China's position on its "core interests" and its policies in Hong Kong, Tibet and Xinjiang, as well as the South China Sea.
+
+
+== See also ==
+Foreign relations of Belarus
+Foreign relations of China
+
+
+== References ==
+
+来源：https://en.wikipedia.org/wiki/Belarus%E2%80%93China_relations（CC BY-SA 4.0）
+
+## 与“一带一路”相关的条目（维基百科导言）
+
+### China–Belarus Industrial Park
+
+The China–Belarus Industrial Park "Great Stone" (Belarusian: Кітайска-беларускі індустрыяльны парк «Вялікі камень», Russian: Китайско-Белорусский индустриальный парк «Великий камень», Chinese: 中国-白俄罗斯工业园) is a special economic zone in Belarus, established under the intergovernmental agreement between the People's Republic of China and the Republic of Belarus. The park offers easy access to International Highways M1/E30 and M4, International Airport (included into the Park territory), International Railways and the capital of Belarus (Minsk) with its labour and scientific potential. Great Stone Industrial Park is designated for high-tech industrial and business activities, including research and development, manufacturing and assembly, warehousing and logistic facilities. Park tax benefits, free customs regime within the countries of the Eurasian Economic Union (EAEU), including Russia and Kazakhstan, open market opportunities for 183 million customers.
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Belarus_Industrial_Park
+### Trans-Eurasia Logistics
+
+Trans-Eurasia Logistics, AKA CHINA RAILWAY Express, is a joint venture between German rail company Deutsche Bahn  and Russian RZhD, China Railway Corporation from China operating container freight trains between Germany and China via Russia. The first such train arrived in Hamburg from Xiangtan on 6 October 2008, taking 17 days to make the trip. Intermodal companies Polzug, Kombiverkehr, and TransContainer are also involved in the project.
+Since the end of 2020, up to 60 trains per week run between Shenzhen and Duisburg (Rhine harbour).
+
+Container trains travel from China to Germany via the Trans-Mongolian and Trans-Siberian Railways, and then via Belarus and Poland - the route collectively known as the "Eurasian Land Bridge". A break of gauge needs to be crossed when entering Mongolia from China (or Russia directly from China, if traveling via Manzhouli/Zabaykalsk), and then another one when leaving Belarus for Poland.
+Trans-Eurasia Logistics operates the Yiwu-Madrid Railway line, which is the longest goods railway line in the world and connects China, Kazakhstan, Russia, Belarus, Poland, Germany, France and Spain.
+
+来源：https://en.wikipedia.org/wiki/Trans-Eurasia_Logistics
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-01 · Brief · Macro Poverty Outlook for Belarus : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099510110142619104
+  摘要：Although Belarus avoided recession, its 2025 slowdown highlighted the fragility of Belarus’s economic model. Growth is set to improve in 2026 but decelerate over the medium term as Russian demand weakens and supply-side bottlenecks persist. Diminishing returns to stimulus and elevated inflation cloud the outlook, while continued isolation from global markets and reliance on Russia undermines the foundations for durable, broad-based growth.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Belarus : Annual Meetings 2026 Datasheet。http://documents.worldbank.org/curated/en/099348310202686766
+  摘要：Although Belarus avoided recession, its 2025 slowdown highlighted the fragility of Belarus’s economic model. Growth is set to improve in 2026 but decelerate over the medium term as Russian demand weakens and supply-side bottlenecks persist. Diminishing returns to stimulus and elevated inflation cloud the outlook, while continued isolation from global markets and reliance on Russia undermines the foundations for durable, broad-based growth.
+- 2026-04-30 · Brief · Belarus Human Capital Country Brief
+。http://documents.worldbank.org/curated/en/099542206292642977
+  摘要：Human capital - people’s knowledge, skills, and health - drives productivity and growth. The Human Capital Index Plus (HCI+) measures the human capital a child born today can expect to accumulate over their working life, extending the original HCI by incorporating tertiary education and work experience. This brief summarizes Belarus’s HCI+ score and its performance in building human capital.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Belarus : April 2026。http://documents.worldbank.org/curated/en/099816308042695567
+  摘要：The 2025 growth slowdown highlighted the fragility of Belarus’s economic model. Growth in 2026 is expected to moderate further with mild Russian demand and persistent supply-side bottlenecks. Medium-term prospects are further constrained by the limited impact of stimulus measures and elevated inflation. Belarus’s continued isolation from global markets and reliance on Russia undermine the foundations for durable, broad-based growth.
+- 2026-04-16 · Brief · Macro Poverty Outlook for Belarus : April 2026 Datasheet。http://documents.worldbank.org/curated/en/099622308182630135
+  摘要：The 2025 growth slowdown highlighted the fragility of Belarus’s economic model. Growth in 2026 is expected to moderate further with mild Russian demand and persistent supply-side bottlenecks. Medium-term prospects are further constrained by the limited impact of stimulus measures and elevated inflation. Belarus’s continued isolation from global markets and reliance on Russia undermine the foundations for durable, broad-based growth.
+- 2026-04-02 · Brief · Belarus Gender Landscape。http://documents.worldbank.org/curated/en/099301206242231818
+  摘要：This briefing showcases the gender landscape in Belarus on key indicators helpful for monitoring gender equality and designing effective policy interventions. Gender equality fosters productivity gains, minimizes losses in wealth, reduces poverty, boosts shared prosperity, and supports green, resilient, and inclusive development.
+- 2025-10-08 · Brief · Prosperity Data360 Tourism Country Snapshots : Belarus
+。http://documents.worldbank.org/curated/en/099253510152513148
+  摘要：This Factsheet provides an overview of the tourism sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Finance, Competitiveness and Innovation Country Snapshots : Belarus
+。http://documents.worldbank.org/curated/en/099318510092510082
+  摘要：This Factsheet provides an overview of the finance, competitiveness, and innovation sector according to key performance indicators.
+- 2025-10-07 · Brief · Prosperity Data360 Gender Country Snapshots : Belarus
+。http://documents.worldbank.org/curated/en/099808010102511994
+  摘要：This Factsheet provides an overview of the gender sector according to key performance indicators.
+- 2025-10-06 · Brief · Prosperity Data360 Justice Country Snapshots : Belarus
+。http://documents.worldbank.org/curated/en/099627010162522375
+  摘要：This Factsheet provides an overview of the Justice sector according to key performance indicators.
+- 2025-09-08 · Implementation Completion and Results Report · Belarus - Utility Efficiency and Quality Improvement Project（项目：BY-Belarus Utility Efficiency and Quality Improvement Project -- P164260）。http://documents.worldbank.org/curated/en/099100825111012393
+  摘要：Ratings for the Utility Efficiency and Quality Improvement Project for Belarus were as follows: outcomes were unsatisfactory, the Bank performance was satisfactory, and the monitoring and evaluation quality was substantial. Some lessons learned included: the project, originally an ambitious and innovative concept aimed at enhancing utility performance and establishing the first regional sanitary landfill, could not be executed in Belarus due to factors beyond the project and World Bank control. Nonetheless, the concept has inherent merits and could serve as a valuable model for potential replication in other countries with similar objectives, particularly those focused on improving utility performance. Utilizing in-country specialist resources or establishing third-party monitoring arrangements is essential for verifying implementation performance, especially in situations where country practices differ from World Bank policy requirements, and if these requirements are considered sensitive. Additionally, embracing virtual and digital technologies more extensively can enhance performance verification, particularly during prolonged crises such as the COVID-19 pandemic. It is advisable to incorporate these measures during project preparation, ensuring that they are well-timed and adequately funded. When considering project suspensions, it would be beneficial for the Bank to allow a longer transition/grace period (of at least six months) for wrapping-up ongoing critical project a
+- 2025-08-05 · Implementation Completion and Results Report · Belarus - Education Modernization Project（项目：BY-Belarus Education Modernization Project -- P148181）。http://documents.worldbank.org/curated/en/099081225171030403
+  摘要：Ratings for the Education Modernization Project for Belarus were as follows: outcome was moderately unsatisfactory, Bank Performance was satisfactory, and monitoring and evaluation (M and E) quality was substantial. Some lessons learned included: physical investments in educational infrastructure can be important starting points in emerging collaboration between the Bank and borrowers and at the same time foster substantive innovation both directly and indirectly. Citizen engagement and community involvement are important for implementation success. Participation in international learning assessments has several advantages. In the case of Belarus, the analysis of results from Program for International Student Assessment (PISA) 2018 served to have an in-depth understanding of the quality of secondary education in relation to other countries in the region and identified areas of improvement. The challenges of developing management information systems in-house is often underestimated. As shown by the delays in the preparation of the technical specification for the education management information system (EMIS), which was ultimately contracted out to a third party, denote the challenges faced by permanent staff to tackle additional tasks that require a significant concentration of efforts in addition to their regular responsibilities. Another critical lesson is the need to embed pandemic resistance and disaster management institutional measures in the design of Bank projects.
+
+## 学术论文（OpenAlex）
+
+### Eurasian Economic Union with the Belt and Road（2025，Routledge eBooks，被引 0）
+
+The Eurasian Economic Union is an economic cooperation organization established by Russia, Belarus, Kazakhstan and other countries in the Eurasian region. In 1994, Kazakh President Nazarbayev first proposed the concept of the Eurasian Economic Union during his speech at Moscow State University. On May 29, 2014, the presidents of Russia, Belarus and Kazakhstan signed the Eurasian Economic Union Treaty in Astana, capital of Kazakhstan, announcing that the Eurasian Economic Union would be officially launched on January 1, 2015. According to the Treaty, Russia, Belarus and Kazakhstan will realize the free movement of goods, services, capital and labor before 2025. The Treaty also covers such fields as energy, transportation, industry, agriculture, tariffs, trade, taxation and government procurement. It sets out a list of free trade goods, but it does not include sensitive goods like tobacco and alcohol. On January 2, 2015, Armenia formally joined the Eurasian Economic Union, and on August 12 of the same year, Kyrgyzstan joined the Eurasian Economic Union.
+
+https://doi.org/10.4324/9781003660750-110
+### Belarus as a Geostrategic Node: A Gateway for the Belt and Road Initiative in the China-Europe Corridor（2026，Springer eBooks，被引 0）
+
+（无摘要）
+
+https://doi.org/10.1007/978-981-95-5358-7_9
+### Impacts of the Belt and Road in the Eurasian Heartland（2020，RePEc: Research Papers in Economics，被引 0）
+
+Belt and Road projects in the Eurasian Heartland (Central Asia and the Caucasus, Russia, and Belarus) have predominately focused on the exploitation of the region’s natural resources rather than on developing infrastructure, building industrial facilities, or partnering in innovations. However, there is a visible positive impact of the BRI on host countries in the Eurasian Heartland, as evidenced by rising investment, increasing trade, institutional improvements, and growing humanitarian connections and awareness. At the same time, there are also unintended consequences of Chinese BRI activity, including negative social, environmental, and economic impacts that could undermine the future development of the Initiative due to public opposition and politicization.
+
+https://openalex.org/W3147705437
+### Belt and Road: Strategies for Promoting and Lobbying the Initiative in Partner Countries (On the Example of the Republic of Belarus)（2026，Global vision research，被引 0）
+
+（无摘要）
+
+https://doi.org/10.69979/3041-0843.26.02.009
+### Chinese business and the Belt and Road Initiative institutional strategies（2022，，被引 0）
+
+Introduction -- Silk Roads History and Case Country Institutional Dynamics -- Profile of Case Actors and Cases -- CMPort's Investments in Sri Lanka -- China Merchants' Investments in Djibouti -- China Merchants' Investment in Belarus -- Cross-Case Generalizations and Policy Implications -- Chinese Firms' Institutional Strategies -- Generalizations and Implications of Chinese Firms' Institutional Strategies -- Conclusion.
+
+https://openalex.org/W3192795396
+### A STUDY OF THE "BELT AND ROAD" AND "DUAL CYCLE" POLICIES - THE EXAMPLE OF RURAL COOPERATION BETWEEN CHINA AND BELARUS（2023，Экономика и предпринимательство，被引 0）
+
+В данной статье раскрывается состояние развития белорусских сельских территорий с точки зрения промышленного процветания, экологической благоустроенности, цивилизованной сельской культуры, эффективного управления и обеспеченной жизни с позиций развития белорусского сельского хозяйства, туристической отрасли, китайско-белорусских культурных обменов, парламентской реализации положений о сельском управлении и предлагается механизм углубленного сотрудничества Китая и Беларуси на платформе "Пояса и пути" в области возрождения сельских территорий. This article reveals the state of development of Belarusian rural areas in terms of industrial prosperity, ecological well-being, civilized rural culture, effective management and a prosperous life from the standpoint of the development of Belarusian agriculture, the tourism industry, Chinese-Belarusian cultural exchanges, parliamentary implementation of provisions on rural management and a mechanism for in-depth cooperation between China and Belarus on the Belt and Road platform in the field of rural revival is proposed.
+
+https://doi.org/10.34925/eip.2023.156.7.106
+### China’s Belt and Road Initiative and the Eurasian Economic Union（2024，Iran and the Caucasus，被引 5）
+
+Abstract This article focuses on the Russia-led Eurasian Economic Union (EAEU) and China’s Belt and Road Initiative (BRI). It argues that EAEU members and China need each other to implement their two major initiatives. As a result of the conjunction of the EAEU and BRI, China and the EAEU states linked their transportation infrastructure, which provided them opportunities for modernization and growth. The EAEU member states established contacts with the second economy of the world at a multilateral level as well. The Agreement on Economic and Trade Cooperation between the Eurasian Economic Union and Its Member States, of the One Part, and the People’s Republic of China, of the other Part, signed in 2018, which came into force in 2019, provided added impetus to strengthen economic relations and created a legal platform for the further harmonization of the BRI with the EAEU. This article also argues that the conjunction of the EAEU and BRI has a political meaning as well. It means that in post-Soviet Eurasia, Russia and China have chosen cooperation over competition, as they are the main initiators of these economic and political integration initiatives. It explains that it fully coincides with the national interests of other members of the EAEU, such as Armenia, Belarus, Kazakhstan, and Kyrgyzstan, as these states can cooperate with both Russia and China without choosing any side. This contribution concludes that cooperation between China and the EAEU in post-Soviet Eurasia improves security level and contributes to peaceful, cooperative development.
+
+https://doi.org/10.1163/1573384x-02803007
+### Belt vs. Road: Eurasian Dilemma for Infrastructure Development（2020，Springer eBooks，被引 0）
+
+（无摘要）
+
+https://doi.org/10.1007/978-981-15-0856-1_10
+
+抓取时间：2026-10-21T09:59:02Z

@@ -1,0 +1,115 @@
+# 马达加斯加（Madagascar）：公开文档汇编
+
+以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。
+
+## 国家概况（维基百科）
+
+Madagascar, officially the Republic of Madagascar, is an island country in the Indian Ocean that includes the island of Madagascar and numerous smaller peripheral islands. Lying off the southeastern coast of Africa, it is the world's fourth-largest island, the second-largest island country, and the 46th-largest country overall. Its capital and largest city is Antananarivo.
+Following the prehistoric breakup of the supercontinent Gondwana, Madagascar split from Africa during the Early Jurassic period, around 180 million years ago, and from the Indian subcontinent approximately 90 million years ago. This isolation allowed native plants and animals to evolve in relative seclusion. As a result, Madagascar is a biodiversity hotspot and one of the world's 17 megadiverse countries, with over 90% of its wildlife being endemic. The island has a subtropical to tropical maritime climate.
+Madagascar was first permanently settled during or before the mid-first millennium CE (roughly 500 to 700) by Austronesian peoples, presumably arriving on outrigger canoes from present-day Indonesia. These were joined around the ninth century by Bantu groups crossing the Mozambique Channel from East Africa. Other groups continued to settle on Madagascar over time, each one making lasting contributions to Malagasy cultural life. Consequently, there are 18 or more classified peoples of Madagascar, the most numerous being the Merina of the central highlands.
+Until the late 18th century, the island of Madagascar was ruled by a fragmented assortment of shifting sociopolitical alliances. Beginning in the early 19th century, most of it was united and ruled as the Kingdom of Madagascar by a series of Merina nobles. The monarchy was ended in 1897 by France's annexation of Madagascar, from which the country gained independence in 1960. It has since undergone four major constitutional periods, termed republics, and has been governed as a constitutional democracy since 1992. Following a political crisis and military coup in 2009, Madagascar underwent a protracted transition towards its fourth and current republic, with constitutional governance being restored in January 2014. In 2025, a series of mass protests resulted in a military coup and the installation of Michael Randrianirina as president of a military junta.
+Madagascar is a member of the United Nations (UN), the African Union (AU), the Southern African Development Community (SADC), and the Organisation Internationale de la Francophonie. Malagasy and French are both official languages of the state. Christianity is the country's predominant religion, with a significant minority still practicing traditional faiths.
+Madagascar is classified as a least-developed country by the UN. Ecotourism and agriculture, paired with greater investments in education, health, and private enterprise, are key elements of its development strategy. Despite substantial economic growth since the early 2000s, income disparities have widened, and quality of life remains low for the majority of the population. As of 2021, 68.4% of the population was considered to be multidimensionally poor.
+
+来源：https://en.wikipedia.org/wiki/Madagascar（CC BY-SA 4.0）
+
+## 中国与马达加斯加的关系（维基百科全文）
+
+### China–Madagascar relations
+
+The People's Republic of China and Madagascar established diplomatic relations in November 1972. The two countries established a comprehensive strategic partnership in 2017. 
+
+
+== Diplomatic relations ==
+The People's Republic of China and Madagascar established diplomatic ties on 6 November 1972. The two governments signed a trade agreement in January 1974, a trade, economic and technical cooperation agreement in June 1995, an agreement on the establishment of a mixed commission for economic and commercial cooperation and an agreement on bilateral investment promotion and protection in November 2005.
+In March 2017, China and Madagascar established a comprehensive cooperation partnership, and the two sides signed a memorandum of understanding on the joint promotion of the Belt and Road Initiative. Madagascar is among the first African countries to sign a cooperation document on BRI with China.
+In January 2019, He Wei, special envoy of Chinese leader, CCP general secretary Xi Jinping and vice chairman of the National Committee of CPPCC, visited Madagascar and attended the inauguration ceremony of newly elected President Andry Rajoelina. In November 2019, Chinese Vice Premier Sun Chunlan visited Madagascar, met with President Rajoelina and Prime Minister Christian Ntsay, and visited the Chinese Medical Mission to Madagascar.
+
+
+== Economic relations ==
+According to the Malagasy customs, China has been Madagascar's biggest trading partner and biggest source of import since 2015. In 2020, the bilateral trade in goods reached US$930 million, accounting for 18.1% of Madagascar's total foreign trade.
+According to China's Ministry of Commerce, the flow of China's direct investment to Madagascar was US$136 million in 2020 and the stock of investment has reached US$391 million at the end of 2020. The Chinese enterprises in Madagascar have carried out corporate social responsibility (CSR) activities, contributing to the country's economic, social development and improving people's livelihood.
+
+
+=== Development cooperation ===
+Since the establishment of diplomatic relations in 1972, China has assisted Madagascar in a number of economic and social projects, including the construction of a Primary School for China-Africa Friendship, the construction of and technical support to the Sports and Cultural Palace, the International Conference Center at Ivato, and the Anosiala Hospital. In 1975, China agreed to provide Madagascar with aid for the development of the Moramanga-Andranonampango Highway. The highway was funded with an interest-free loan from China and was completed in 1985.
+In recent years, China has continued supporting the Chinese medical mission and technical experts to Madagascar, deepened human resources development cooperation, and carried out a series of infrastructure and social projects, such as the expressway between Ivato Airport and the Boulevard de l'Europe, the Tsarasaotra-Ivato expressway, the "Eggs Road", well-drilling, etc. The assistance and cooperation have contributed to the socio-economic recovery of Madagascar and brought tangible benefits to the Malagasy people.
+In early 2019, the newly inaugurated President Rajoelina inspected the 200 well-drilling project in the south, and attended the inauguration ceremonies of the extension and renovation project of the expressway linking Port Toamasina and the RN2 and the rehabilitation project of the RN5A in the north.
+From 2000 to 2011, there were approximately 19 Chinese official development finance projects identified in Madagascar through various media reports. These projects range from developing a new 40.5 MW hydroelectric plant in the Betsiboka River basin with a loan from the Chinese Export Import Bank, to the construction of an international conference center in Antananarivo.
+
+
+== Political relations ==
+Madagascar follows the one China principle. It recognizes the People's Republic of China as the sole government of China and Taiwan as an integral part of China's territory, and supports all efforts by the PRC to "achieve national reunification". It also considers Hong Kong, Xinjiang and Tibet to be China's internal affairs.
+
+
+== Resident diplomatic missions ==
+China has an embassy in Antananarivo.
+Madagascar has an embassy in Beijing.
+
+
+== References ==
+
+来源：https://en.wikipedia.org/wiki/China%E2%80%93Madagascar_relations（CC BY-SA 4.0）
+
+## 世界银行最新文件（Documents & Reports）
+
+- 2026-10-09 · Brief · Madagascar Poverty and Equity Brief : October 2026
+。http://documents.worldbank.org/curated/en/099703304212517450
+  摘要：Madagascar's long-term progress in poverty reduction has largely stalled, mirroring the sharp decline in average real incomes, as GDP per capita fell from US$812 in 1960 to US$457 in 2025 (constant 2015 US dollars). The poverty headcount at the international poverty line of US$3 per day (2021 PPP) increased from 67.3 percent in 2012 to 69.2 percent in 2021. While rural poverty remains widespread, urban living standards have also deteriorated due to weak job creation and rising living costs. Economic growth continues to be insufficiently inclusive to generate meaningful reductions in poverty, reflecting structural constraints including low productivity, weak infrastructure, limited human capital accumulation, exposure to repeated climate shocks and periods of political uncertainty.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Madagascar : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099526110162641823
+  摘要：Growth is projected at 3.8 percent in 2026, supported by post-cyclone reconstruction and public investment, despite a weak first quarter. Inflation re-emerged in mid-2026, driven by non-rice food and energy prices, prompting the central bank to raise its policy rate to 12.5 percent. Over 65 percent of the population lives below the international poverty line. Downside risks include institutional fragility, slow reform implementation, high energy prices, and climate shocks.
+- 2026-10-15 · Climate Co-Benefits Assessment · Climate Finance Assessment (P507944)（项目：MG-Integrated Urban Development and Resilience Project for Jobs -- P507944）。http://documents.worldbank.org/curated/en/099101526173036104
+- 2026-10-01 · Environmental and Social Review Summary · AF Initial Environmental and Social Review Summary (ESRS) - Connecting Madagascar for Inclusive Growth - P173711 - AF Seq No: 2（项目：MG-Connecting Madagascar for Inclusive Growth -- P173711）。http://documents.worldbank.org/curated/en/099100126154011278
+- 2026-10-01 · Project Information Document · Initial Project Information Document (PID) - Connecting Madagascar for Inclusive Growth - P173711（项目：MG-Connecting Madagascar for Inclusive Growth -- P173711）。http://documents.worldbank.org/curated/en/099100126154037123
+- 2026-10-01 · Project Information Document · Project Information Document (PID)（项目：MG-Connecting Madagascar for Inclusive Growth -- P173711）。http://documents.worldbank.org/curated/en/099100126154049996
+- 2026-09-30 · Project Information Document · Project Information Document (PID)（项目：MG-Economic Transformation for Inclusive Growth Project -- P174684）。http://documents.worldbank.org/curated/en/099093026100024710
+- 2026-09-30 · Environmental and Social Review Summary · AF Initial Environmental and Social Review Summary (ESRS) - Economic Transformation for Inclusive Growth Project - P174684 - AF Seq No: 2（项目：MG-Economic Transformation for Inclusive Growth Project -- P174684）。http://documents.worldbank.org/curated/en/099093026100032023
+- 2026-09-30 · Environmental and Social Review Summary · AF Initial Environmental and Social Review Summary (ESRS) - Economic Transformation for Inclusive Growth Project - P174684 - AF Seq No: 2（项目：MG-Economic Transformation for Inclusive Growth Project -- P174684）。http://documents.worldbank.org/curated/en/099093026100022976
+- 2026-09-30 · Project Information Document · Initial Project Information Document (PID) - Economic Transformation for Inclusive Growth Project - P174684（项目：MG-Economic Transformation for Inclusive Growth Project -- P174684）。http://documents.worldbank.org/curated/en/099093026100038923
+- 2026-09-30 · Project Information Document · Project Information Document (PID)（项目：MG-Economic Transformation for Inclusive Growth Project -- P174684）。http://documents.worldbank.org/curated/en/099093026100085644
+- 2026-09-30 · Project Information Document · Initial Project Information Document (PID) - Economic Transformation for Inclusive Growth Project - P174684（项目：MG-Economic Transformation for Inclusive Growth Project -- P174684）。http://documents.worldbank.org/curated/en/099093026100032297
+
+## 学术论文（OpenAlex）
+
+### Does the Connectivity of the Belt and Road Initiative Contribute to the Economic Growth of the Belt and Road Countries?（2019，Emerging Markets Finance and Trade，被引 48）
+
+Since the Belt and Road Initiative (BRI) has been implemented for five years, it is time to ask whether the BRI contributes to Belt and Road (BR) countries’ economic growth, and how are the five elements of connectivity implemented between China and its partner countries since the BRI was proposed. This study focuses on the development of the five elements of connectivity between China and the BR countries from 2008 to 2017 using a comprehensive connectivity index extracted from principle component analysis, and then investigating if the connectivity has contributed to the economic growth of the BR countries with quantitative analysis of the fixed effect econometrical model. It is found that Russia, South Korea, and Singapore presented the top three levels of connectivity with China with regard to the overall connectivity index, varying from 1.4 to 2.4. Madagascar and Panama have the lowest level of connectivity with China, with values of −0.8 to −1.1. The result of the fixed effect model shows that the connectivity of the BR countries with China contributes to their economic growth. This provides quantitative evidence that the connectivity between BR countries and China has a significant influence on the economic growth of those countries.
+
+https://doi.org/10.1080/1540496x.2019.1643315
+### Institutional and ecological factors shaping community participation in tourism under the Belt and Road Initiative in China and Madagascar（2026，Research Square，被引 0）
+
+（无摘要）
+
+https://doi.org/10.21203/rs.3.rs-9754012/v1
+### Examining the debt implications of the Belt and Road Initiative from a policy perspective（2019，Journal of Infrastructure Policy and Development，被引 472）
+
+China’s Belt and Road Initiative (BRI) hopes to deliver trillions of dollars in infrastructure financing to Asia, Europe, and Africa. If the initiative follows Chinese practices to date for infrastructure financing, which often entail lending to sovereign borrowers, then BRI raises the risk of debt distress in some borrower countries. This paper assesses the likelihood of debt problems in the 68 countries identified as potential BRI borrowers. We conclude that eight countries are at particular risk of debt distress based on an identified pipeline of project lending associated with BRI.Because this indebtedness also suggests a higher concentration in debt owed to official and quasi-official Chinese creditors, we examine Chinese policies and practices related to sustainable financing and the management of debt problems in borrower countries. Based on this evidence, we offer recommendations to improve Chinese policy in these areas. The recommendations are offered to Chinese policymakers directly, as well as to BRI’s bilateral and multilateral partners, including the IMF and World Bank.
+
+https://doi.org/10.24294/jipd.v3i1.1123
+### A Corpus-Based Machine-Learning Sentiment Analysis of Chinese News Portraying African Island Nations' Economic Images（2024，，被引 1）
+
+This study built a corpus of economic reports on four African island countries (Comoros, Madagascar, Mauritius, and Seychelles) by the Chinese Ministry of Commerce (CMC) from 2005 to 2024 which fell into five periods. We aimed to explore what national economic images were embodied by the news under the guidance of Media Framing Theory. A corpus analysis tool, LancsBox, was employed to identify the text features, themes, and trends. Then Llama 3 implemented in Python, was used to conduct thematic analysis and aspect-based sentiment analysis of the text across countries and periods. Finally, a critical metaphor analysis was made to reveal ideological underpinnings. The main findings include: (1) Comoros ranked the highest in the mean sentimental value (SV), the only country that didn't lower its SV in the pandemic, and only Mauritius raised its SV after China's Belt and Road Initiative; (2) conceptual metaphors framed China as a friendly helper/collaborator and African countries as having economic potential but facing challenges; (3) CMC constructed distinct national economic images through diversified reporting content and strategies, Comoros as a small, developing economy emphasizing various aspects, Madagascar as an agricultural country with significant natural resources and economic potential but troubled by political instability, Mauritius as a success story of a financial hub diversifying its economy with emphasis on agriculture and tourism, and Seychelles as a high-end tourism destination aiming for a sustainable blue economy. The study provides implications for studies on media discourse, international relations, and African countries.
+
+https://doi.org/10.1109/ceii65291.2024.00045
+### Belt and road initiative and Chinese firms' outward foreign direct investment（2019，Emerging Markets Review，被引 196）
+
+（无摘要）
+
+https://doi.org/10.1016/j.ememar.2019.100629
+### The Belt and Road Initiative: Economic, Poverty and Environmental Impacts（2019，World Bank, Washington, DC eBooks，被引 100）
+
+China's Belt and Road Initiative aims to improve connectivity between China and more than 70 countries through infrastructure investment and regional cooperation. The initiative has the potential to accelerate significantly the rate of economic integration and development in the region, as trade costs decline. The goals of this paper are to (i) study the impacts of infrastructure improvements on Belt and Road Initiative and non?Belt and Road Initiative countries'trade flows, growth, and poverty; and (ii) suggest policies that would help maximize gains from the Belt and Road Initiative?induced trade cost declines. The analysis captures the trade costs reductions as a result of infrastructure improvements. The findings indicate that the Belt and Road Initiative would be largely beneficial. First, global income increases by 0.7 percent (in 2030 relative to the baseline). This translates into almost half a trillion dollars in 2014 prices and market exchange rates. The Belt and Road Initiative area captures 82 percent of the gain, with the largest percent gains in East Asia. Second, globally, the Belt and Road Initiative could contribute to lifting 7.6 million people from extreme poverty and 32 million from moderate poverty. Third, the initiative would lead to a modest increase in global carbon dioxide emissions, with a complex set of positive and negative outcomes at the national level for other types of emissions.
+
+https://doi.org/10.1596/1813-9450-8814
+### Common transport infrastructure: A quantitative model and estimates from the Belt and Road Initiative（2019，Journal of Development Economics，被引 162）
+
+（无摘要）
+
+https://doi.org/10.1016/j.jdeveco.2019.102415
+### Virtual scarce water flows and economic benefits of the Belt and Road Initiative（2019，Journal of Cleaner Production，被引 49）
+
+（无摘要）
+
+https://doi.org/10.1016/j.jclepro.2019.119936
+
+抓取时间：2026-10-21T09:59:02Z

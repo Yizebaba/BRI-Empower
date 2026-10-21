@@ -130,46 +130,50 @@ The maritime silk road essentially runs through the Indo-Pacific and then the In
 The China–Pakistan Economic Corridor is an extension of the proposed Silk Road. The Maritime Silk Road coincides with the theory of China's String of Pearls strategy.
 
 来源：https://en.wikipedia.org/wiki/21st_Century_Maritime_Silk_Road
-### Belt and Road Forum for International Cooperation
-
-The Belt and Road Forum for International Cooperation (also known as the Belt and Road Forum or BRFIC) is an international political and economic forum of the Belt and Road Initiative.
-The forum will be a platform for working out action plans for implementation of the initiative in the areas of infrastructure, energy and resources, production capacity, trade and investment and identification of major projects. It is also intended to be an opportunity for the signing of cooperation agreements with countries and international organizations in the areas of financial cooperation mechanism; a cooperation platform for science, technology and environmental protection; and enhanced exchanges and training of talent and financing agreements for backing projects.
-
-来源：https://en.wikipedia.org/wiki/Belt_and_Road_Forum_for_International_Cooperation
 ### China–Kyrgyzstan–Uzbekistan International Highway
 
 The China–Kyrgyzstan–Uzbekistan International Highway (CKU) is a transport corridor centered on Kyrgyzstan. It is envisioned to "interlink Pakistan, China and Kyrgyzstan, with strategic nodes extending to Uzbekistan, Tajikistan and Kazakhstan." 
 The corridor is a part of the Belt and Road Initiative and among the corridors and projects listed in a joint communiqué of state leaders attending the 2nd Belt and Road Initiative Forum in April 2019.
 
 来源：https://en.wikipedia.org/wiki/China%E2%80%93Kyrgyzstan%E2%80%93Uzbekistan_International_Highway
+### Gwadar Port
+
+Gwadar Port (Urdu: گوادر بندرگاہ [ˈɡwaːdəɾ ˈbəndəɾɡaː]) is a deep-sea port situated on the Arabian Sea at Gwadar in Pakistan's Balochistan province. The port is under the administrative control of the Maritime Secretary of Pakistan and the operational control of the China Overseas Port Holding Company. The port features prominently in the China–Pakistan Economic Corridor (CPEC) and is considered to be a link between the Belt and Road Initiative and the Maritime Silk Road projects. It is about 120 kilometres (75 mi) southwest of Turbat, and 170 kilometres (110 mi) to the east of Chabahar Port (Sistan and Balochistan Province in Iran).
+The potential of Gwadar to serve as a deep-water port was first identified in 1954, when the city was still under Omani rule. Plans for construction of the port were not realised until 2007, when the port was inaugurated by Pervez Musharraf after four years of construction, at a cost of $248 million.
+In 2015, it was announced that the city and port would be further developed under CPEC at a cost of $1.62 billion, with the aim of linking northern Pakistan and western China to the deep water seaport. The port will also be the site of a floating liquefied natural gas facility that will be built as part of the larger $2.5 billion Gwadar-Nawabshah segment of the Iran–Pakistan gas pipeline project. Construction began in June 2016 on the Gwadar Special Economic Zone, which is being built on 2,292-acre site adjacent to Gwadar's port. In late 2015, around 2000 acres of land were leased to a Chinese company for 43 years for the development of Gwadar Special Economy Zone.
+Gwadar Port became formally operational on 14 November 2016, when it was inaugurated by Pakistan's Prime Minister Muhammad Nawaz Sharif; the first convoy was seen off by the then Pakistan's Chief of Army Staff, General Raheel Sharif. On 14 January 2020, Pakistan operationalized Gwadar Port for Afghan transit trade. On 31 May 2021, Gwadar Port became fully operational, along with the availability of online booking for the delivery of goods.
+
+来源：https://en.wikipedia.org/wiki/Gwadar_Port
+### M-14 motorway (Pakistan)
+
+The M-14 Motorway, or the Islamabad–Dera Ismail Khan Motorway (اسلام آباد – ڈیره اسماعیل خان موٹروے), also known as Hakla–Yarik Motorway, is a four-lane north–south motorway in Pakistan. The 285-kilometre-long (177 mi) motorway is a part of the Western Alignment of the China–Pakistan Economic Corridor, and offers high speed road connections between the Islamabad-Rawalpindi metropolitan area, and the southern parts of Khyber Pakhtunkhwa province around Dera Ismail Khan.
+The motorway was originally planned to open at the end of 2018, but due to delays, was inaugurated on 5 January 2022.
+
+来源：https://en.wikipedia.org/wiki/M-14_motorway_%28Pakistan%29
 ### M-5 motorway (Pakistan)
 
 The M-5 Motorway (Urdu: ایم ٥ موٹروے), or the Multan–Sukkur Motorway (Urdu: ملتان سکھر موٹروے), is a north–south motorway in Pakistan, which connects Multan and Sukkur. The M-5 is a 392 km long, high-speed (120 km/h), controlled-access, six-lane motorway that forms part of the China-Pakistan Economic Corridor. It is currently the longest motorway in Pakistan. It is one of the longest parts of the Lahore-Karachi Motorway (LKR).
 
 来源：https://en.wikipedia.org/wiki/M-5_motorway_%28Pakistan%29
-### Silk Road Fund
-
-The Silk Road Fund (Chinese: 丝路基金) is a China Government Guidance Fund to foster increased investment in countries along the Belt and Road Initiative (formerly One Belt, One Road), an economic development initiative primarily covering Eurasia. The Chinese government pledged US$40 billion for the creation of the investment fund, established on 29 December 2014.
-
-来源：https://en.wikipedia.org/wiki/Silk_Road_Fund
 
 ## 世界银行最新文件（Documents & Reports）
 
-- 2026-10-21 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P121507- Dasu Hydropower Stage I Project - Procurement Plan（项目：PK-Dasu Hydropower Stage I Project -- P121507）。http://documents.worldbank.org/curated/en/099102026215077405
-- 2026-10-21 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P172834- Sindh Early Learning Enhancement through Classroom Transformation - Procurement Plan（项目：PK-Sindh Early Learning Enhancement through Classroom Transformation -- P172834）。http://documents.worldbank.org/curated/en/099102126011516996
-- 2026-10-20 · Implementation Status and Results Report · Disclosable Version of the ISR - Actions to Strengthen Performance for Inclusive and Responsive Education Program - P173399 - Sequence No : 13（项目：PK-Actions to Strengthen Performance for Inclusive and Responsive Education Program -- P173399）。http://documents.worldbank.org/curated/en/099102026112531342
-- 2026-10-20 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P165982- Pakistan Raises Revenue - Procurement Plan（项目：PK-Pakistan Raises Revenue -- P165982）。http://documents.worldbank.org/curated/en/099102026105542852
+- 2026-10-08 · Brief · Pakistan Poverty and Equity Brief : October 2026
+。http://documents.worldbank.org/curated/en/099255104222573036
+  摘要：Pakistan's national poverty rate rose from 22 percent in 2018-19 to 29 percent in 2024-25. Poverty rose in every province and in both rural and urban areas. What sets this reversal apart is its context: GDP per capita growth was volatile but positive on average, at about 0.9 percent a year, even as the economy absorbed a sequence of compounding shocks. In earlier periods, poverty fell through episodes of weak and often negative growth; the 2018-2025 period is the first since 2001 in which positive per capita growth coincided with rising poverty. Poverty also deepened, with the poverty gap rising from 2.7 to 5.2 percent and severity from 0.7 to 1.8 percent, both back near their 2011 levels.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Pakistan : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099529410152627903
+  摘要：Prudent macroeconomic policy helped growth accelerate to 3.7 percent (GDP at factor cost) in FY26, despite the ongoing Middle East conflict. A prolonged conflict and El Niño pose risks to macroeconomic stability and growth, sustaining high commodity prices while weighing on fiscal and external balances. Maintaining fiscal and monetary prudence is essential to managing these risks, while structural reforms are required to lift growth, raise incomes, and reduce poverty.
+- 2026-09-29 · Policy Research Working Paper · What Happens When Women Suddenly Stop Receiving Cash Transfers ?（项目：8S-South Asia Gender Innovation Lab Phase 3 -- P181254）。http://documents.worldbank.org/curated/en/099315009292634527
+  摘要：Female-targeted cash transfers are widely used as a policy tool to enhance women’s empowerment. However, little is known about what happens when payments stop — whether due to budget cuts, program changes, or recipient graduation. This paper studies how women are affected by unanticipated program exit, and whether they experience backlash when they stop bringing cash home. Using a regression discontinuity-in-differences design around a revised eligibility threshold, the study followed 2,333 women exiting Pakistan’s largest cash transfer program, surveying them before program exit and one year after it. Drawing on comprehensive measures of empowerment, intimate partner violence, and well-being, the paper finds no evidence of negative impacts a year after exit. These results suggest that the gains experienced by women during the program are not undone by adverse reactions upon exit.
 - 2026-10-19 · Project Information Document · Initial Project Information Document (PID) - Pakistan Entrepreneurship and Private Investment Catalyst Project - P519113（项目：PK-Pakistan Entrepreneurship and Private Investment Catalyst Project -- P519113）。http://documents.worldbank.org/curated/en/099101926092067846
 - 2026-10-19 · Environmental and Social Review Summary · Initial Environmental and Social Review Summary (ESRS) - Pakistan Entrepreneurship and Private Investment Catalyst Project - P519113（项目：PK-Pakistan Entrepreneurship and Private Investment Catalyst Project -- P519113）。http://documents.worldbank.org/curated/en/099101926092070182
-- 2026-10-19 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P176594- Getting Results: Access and Delivery of Quality Education Services in Punjab Project - Procurement Plan（项目：PK-Getting Results: Access and Delivery of Quality Education Services in Punjab Project -- P176594）。http://documents.worldbank.org/curated/en/099101926082511881
-- 2026-10-16 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P172615- National Health Support Program - Procurement Plan（项目：PK-National Health Support Program -- P172615）。http://documents.worldbank.org/curated/en/099101626100534670
-- 2026-10-16 · Implementation Status and Results Report · Disclosable Version of the ISR - Khyber Pakhtunkhwa Human Capital Investment Project - P166309 - Sequence No : 11（项目：PK-Khyber Pakhtunkhwa Human Capital Investment Project -- P166309）。http://documents.worldbank.org/curated/en/099101626144535806
-- 2026-10-16 · Implementation Status and Results Report · Disclosable Version of the ISR - Punjab Clean Air Program - P508222 - Sequence No : 4（项目：PK-Punjab Clean Air Program -- P508222）。http://documents.worldbank.org/curated/en/099101626150015618
-- 2026-10-16 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P508222- Punjab Clean Air Program - Procurement Plan（项目：PK-Punjab Clean Air Program -- P508222）。http://documents.worldbank.org/curated/en/099101626082022736
-- 2026-10-16 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P180707- Khyber Pakhtunkhwa Citizen-Centered Service Delivery Project - Procurement Plan（项目：PK-Khyber Pakhtunkhwa Citizen-Centered Service Delivery Project -- P180707）。http://documents.worldbank.org/curated/en/099101626053529243
-- 2026-10-15 · Procurement Plan · Pakistan - MID EAST,NORTH AFRICA,AFG,PAK- P178410- Punjab Family Planning Program - Procurement Plan（项目：PK-Punjab Family Planning Program -- P178410）。http://documents.worldbank.org/curated/en/099101526125554612
 - 2026-10-15 · Climate Co-Benefits Assessment · Climate Finance Assessment (P504536)（项目：PK-BEST-PAK MPA Program Phase 1: Grid Stability Enhancement Project -- P504536）。http://documents.worldbank.org/curated/en/099101526173011793
-- 2026-10-14 · Implementation Status and Results Report · Disclosable Version of the ISR - Khyber Pakhtunkhwa Irrigated-Agriculture Improvement Project - P163474 - Sequence No : 12（项目：PK-Khyber Pakhtunkhwa Irrigated-Agriculture Improvement Project -- P163474）。http://documents.worldbank.org/curated/en/099101426142033296
+- 2026-10-12 · Environmental and Social Review Summary · Additional Financing Environmental and Social Review Summary (ESRS) - Punjab Resilient and Inclusive Agriculture Transformation - P176786 - AF No: 1（项目：PK-Punjab Resilient and Inclusive Agriculture Transformation -- P176786）。http://documents.worldbank.org/curated/en/099101226101024014
+- 2026-10-08 · Environmental and Social Review Summary · Additional Financing Environmental and Social Review Summary (ESRS) - Punjab Resilient and Inclusive Agriculture Transformation - P176786 - AF No: 1（项目：PK-Punjab Resilient and Inclusive Agriculture Transformation -- P176786）。http://documents.worldbank.org/curated/en/099100826100516256
+- 2026-10-06 · Program Information Document · Appraisal Program Information Document (PID)。http://documents.worldbank.org/curated/en/099100626075036667
+- 2026-10-06 · Program Information Document · Appraisal Program Information Document (PID)。http://documents.worldbank.org/curated/en/099100626075020393
+- 2026-10-06 · Program Information Document · Appraisal Program Information Document (PID)。http://documents.worldbank.org/curated/en/099100626075029429
+- 2026-10-05 · Project Information Document · Project Information Document - Punjab Resilient and Inclusive Agriculture Transformation - P176786（项目：PK-Punjab Resilient and Inclusive Agriculture Transformation -- P176786）。http://documents.worldbank.org/curated/en/099100526010536548
 
 ## 学术论文（OpenAlex）
 
@@ -214,4 +218,4 @@ This study investigates the macroeconomic impact of the Belt and Road Initiative
 
 https://doi.org/10.1080/20954816.2023.2289235
 
-抓取时间：2026-10-21T09:51:43Z
+抓取时间：2026-10-21T09:59:02Z

@@ -95,27 +95,6 @@ Mulmi, Amish Raj,  All Roads Lead North:Nepal's Turn to China.India: Westland Bo
 
 ## 与“一带一路”相关的条目（维基百科导言）
 
-### Arctic policy of China
-
-The People's Republic of China (PRC) published its first official Arctic policy in a white paper released in 2018 and declared itself a "near-Arctic state." Analysts have also noted the development of People's Liberation Army (PLA) capabilities that could extend to the Arctic. Termed the "Polar Silk Road" of the larger Belt and Road Initiative, China's arctic policy has been understood by analysts to encompass geostrategic and economic objectives, such as providing options to bypass the Strait of Malacca and the Suez Canal while accessing the Northeast Passage.
-
-来源：https://en.wikipedia.org/wiki/Arctic_policy_of_China
-### Belt and Road Construction Leadership Group
-
-The Belt and Road construction leadership group (Chinese: 国家推进“一带一路”建设工作领导小组) (also called Leading Group for Promoting the Belt and Road Initiative) is the deliberative and coordinating body of the State Council to promote the Belt and Road Initiative. State Council leader Han Zheng is the core and the China National Development and Reform Commission is the main body.
-
-来源：https://en.wikipedia.org/wiki/Belt_and_Road_Construction_Leadership_Group
-### Belt and Road Forum for International Cooperation
-
-The Belt and Road Forum for International Cooperation (also known as the Belt and Road Forum or BRFIC) is an international political and economic forum of the Belt and Road Initiative.
-The forum will be a platform for working out action plans for implementation of the initiative in the areas of infrastructure, energy and resources, production capacity, trade and investment and identification of major projects. It is also intended to be an opportunity for the signing of cooperation agreements with countries and international organizations in the areas of financial cooperation mechanism; a cooperation platform for science, technology and environmental protection; and enhanced exchanges and training of talent and financing agreements for backing projects.
-
-来源：https://en.wikipedia.org/wiki/Belt_and_Road_Forum_for_International_Cooperation
-### Green finance and the Belt and Road Initiative
-
-Green finance is officially promoted as an important feature of the Belt and Road Initiative, China's signature global economic development initiative. The official vision for the BRI calls for an environmentally friendly "Green Belt and Road".
-
-来源：https://en.wikipedia.org/wiki/Green_finance_and_the_Belt_and_Road_Initiative
 ### Trans-Himalayan Multi-dimensional Connectivity Network
 
 The Trans-Himalayan Multi-dimensional Connectivity Network (abbreviated as THMCN and sometimes referred to as the Trans-Himalayan network) is an economic corridor between Nepal and China and part of China's Belt and Road Initiative, a global development initiative that develops connectivity especially across Eurasia. During a state visit to Nepal in 2019, the corridor was hailed by Chinese President and General Secretary of the Communist Party Xi Jinping as changing Nepal "from a landlocked to a land-linked country."
@@ -124,21 +103,22 @@ The Trans-Himalayan Multi-dimensional Connectivity Network (abbreviated as THMCN
 
 ## 世界银行最新文件（Documents & Reports）
 
+- 2026-10-08 · Brief · Nepal Poverty and Equity Brief : October 2026
+。http://documents.worldbank.org/curated/en/099236304222515459
+  摘要：Nepal has achieved remarkable poverty reduction over the past decade. Based on the country’s updated national poverty line, the poverty headcount rate was 20.3% in 2022 (about 6 million people). Comparable numbers show a substantial improvement in the poverty rate from 25.2% in 2010 to 3.6% in 2022. Extreme poverty, defined by the $3.00/day threshold, fell to 2.4% in 2022, while the $4.20/day poverty rate dropped to 9.1% and is projected to decline further to 6.4% by 2026. Living standards have improved across multiple dimensions, reflected in greater access to electricity, shorter travel times to public hospitals, and expanded paved road networks.
+- 2026-10-07 · Report · Nepal Development Update : Building Back Differently for the Future。http://documents.worldbank.org/curated/en/099514210052618832
+  摘要：This report reviews Nepal’s recent economic developments and highlights the significant impact of the August 2026 flood on the country’s economic outlook. While Nepal maintained overall macroeconomic stability, the flood caused widespread loss of life, extensive infrastructure damage, and disruptions to energy, transportation, trade, tourism, and local livelihoods. The report notes that economic growth is expected to slow in the short term as the effects of the disaster continue to affect key sectors, with recovery supported by ongoing reconstruction efforts. Risks to the outlook remain tilted to the downside, including delays in relief and infrastructure restoration, financial sector vulnerabilities, and external uncertainties that could affect remittance inflows and economic activity. The report emphasizes that recovery should extend beyond rebuilding damaged assets and adopt a “Build Differently” approach that incorporates multi-hazard risk assessments, resilient infrastructure planning, stronger monitoring and early warning systems, improved disaster-risk financing, enhanced regional cooperation, and greater resilience in critical transport, energy, and communication networks to support sustainable development and reduce future disaster risks in Nepal.
+- 2026-10-01 · Brief · Macro Poverty Outlook for Nepal : Annual Meetings 2026。http://documents.worldbank.org/curated/en/099550410162612093
+  摘要：Nepal is subject to repeated shocks, including the September 2025 unrest, rising global fuel prices, and devastating floods in August 2026. Consequently, growth has slowed and is expected to remain subdued, while fiscal pressures intensify. The pace of poverty reduction may slow or even revert as many households remain vulnerable to falling into poverty. The external position remains comfortable, driven by robust remittance inflows
+- 2026-09-01 · Report · Global Rapid Post-Disaster Damage Estimation (GRADE) Report : Rasuwa Flash Flood, Nepal 。http://documents.worldbank.org/curated/en/099217209292624461
+  摘要：This report presents a GRADE assessment estimating direct economic damage to buildings and infrastructure caused by the Rasuwa Flash Flood in Nepal on August 26, 2026, which left 1,252 dead and over 4,200 missing along the Bhote Koshi-Trishuli corridor, making it the most damaging flood in Nepal since 1993. Using a combination of flood damage modelling, satellite imagery, local data, and reports from government and humanitarian agencies, the assessment completed as of September 1, 2026 - aims to support response, recovery planning, and risk reduction discussions, while noting that it covers only physical asset damage and estimates replacement rather than reconstruction costs, which are expected to be considerably higher given the scale of ground-level destruction and required resilience measures.
 - 2026-10-20 · Procedure and Checklist · Labor Management Procedures   Modernization of Rani Jamara Kulariya Irrigation Project - Phase 3 (P507433)（项目：NP-Modernization of Rani Jamara Kulariya Irrigation Project - Phase 3 -- P507433）。http://documents.worldbank.org/curated/en/099102026113017547
-- 2026-10-16 · Procurement Plan · Nepal - SOUTH ASIA- P505226- Public Financial Management for Development Effectiveness Project - Procurement Plan（项目：NP-Public Financial Management for Development Effectiveness Project -- P505226）。http://documents.worldbank.org/curated/en/099101626074575095
-- 2026-10-16 · Procurement Plan · Nepal - SOUTH ASIA- P505226- Public Financial Management for Development Effectiveness Project - Procurement Plan（项目：NP-Public Financial Management for Development Effectiveness Project -- P505226）。http://documents.worldbank.org/curated/en/099101626075030413
-- 2026-10-15 · Procurement Plan · Nepal - SOUTH ASIA- P512377- Greater Lumbini Area Development Project - Procurement Plan（项目：NP-Greater Lumbini Area Development Project -- P512377）。http://documents.worldbank.org/curated/en/099101526030530910
-- 2026-10-14 · Procurement Plan · Nepal - SOUTH ASIA- P176589- Water Sector Governance and Infrastructure Support Project - Procurement Plan（项目：NP-Water Sector Governance and Infrastructure Support Project -- P176589）。http://documents.worldbank.org/curated/en/099101426112521816
-- 2026-10-14 · Procurement Plan · Nepal - SOUTH ASIA- P505226- Public Financial Management for Development Effectiveness Project - Procurement Plan（项目：NP-Public Financial Management for Development Effectiveness Project -- P505226）。http://documents.worldbank.org/curated/en/099101426090540637
 - 2026-10-14 · Environmental and Social Management Plan · Environmental and Social Management Plan (ESMP) Sustainable and Inclusive Finance (P508961)（项目：NP-Sustainable and Inclusive Finance -- P508961）。http://documents.worldbank.org/curated/en/099101426014532574
-- 2026-10-14 · Procurement Plan · Nepal - SOUTH ASIA- P171720- Dedicated Grant Mechanism for Indigenous Peoples and Local Communities in Nepal - Procurement Plan（项目：NP-Dedicated Grant Mechanism for Indigenous Peoples and Local Communities in Nepal -- P171720）。http://documents.worldbank.org/curated/en/099101326213540112
-- 2026-10-13 · Procurement Plan · Nepal - SOUTH ASIA- P505226- Public Financial Management for Development Effectiveness Project - Procurement Plan（项目：NP-Public Financial Management for Development Effectiveness Project -- P505226）。http://documents.worldbank.org/curated/en/099101326000519118
-- 2026-10-13 · Procurement Plan · Nepal - SOUTH ASIA- P518111- Nepal Safer Schools Project  - Procurement Plan（项目：NP-Nepal Safer Schools Project -- P518111）。http://documents.worldbank.org/curated/en/099101326071583441
-- 2026-10-13 · Procurement Plan · Nepal - SOUTH ASIA- P507516- Third Bridges Improvement and Maintenance Program - Procurement Plan（项目：NP-Third Bridges Improvement and Maintenance Program -- P507516）。http://documents.worldbank.org/curated/en/099101326024011471
 - 2026-10-12 · Project Information Document · Updated Project Information Document (PID) - Nepal Safer Schools Project  - P517087（项目：NP-Nepal Safer Schools Project -- P517087）。http://documents.worldbank.org/curated/en/099101226030575315
 - 2026-10-10 · Social Assessment; Environmental and Social Assessment · Gender-Based Violence (GBV) Assessment   Modernization of Rani Jamara Kulariya Irrigation Project - Phase 3 (P507433)（项目：NP-Modernization of Rani Jamara Kulariya Irrigation Project - Phase 3 -- P507433）。http://documents.worldbank.org/curated/en/099101026030073512
-- 2026-10-09 · Procurement Plan · Nepal - SOUTH ASIA- P518111- Nepal Safer Schools Project  - Procurement Plan（项目：NP-Nepal Safer Schools Project -- P518111）。http://documents.worldbank.org/curated/en/099100926021018526
-- 2026-10-08 · Procurement Plan · Nepal - SOUTH ASIA- P505226- Public Financial Management for Development Effectiveness Project - Procurement Plan（项目：NP-Public Financial Management for Development Effectiveness Project -- P505226）。http://documents.worldbank.org/curated/en/099100826044523332
+- 2026-08-31 · Agreement · Official Documents- Implementation Agreement for GFPP Grant E757–NP.pdf（项目：NP-GFPP Kathmandu Valley Water Security Improvement Project -- P517244）。http://documents.worldbank.org/curated/en/099083126115042053
+- 2026-08-26 · Resettlement Plan; Environmental and Social Management Plan · Resettlement Plan Nepal Strategic Road Connectivity and Trade Improvement Project (P170409)（项目：NP-Nepal Strategic Road Connectivity and Trade Improvement Project -- P170409）。http://documents.worldbank.org/curated/en/099082626080011364
+- 2026-08-20 · Environmental and Social Management Plan; Resettlement Plan · Resettlement Plan Accelerating Transport and Trade Connectivity in Eastern South Asia – Nepal Phase 1 Project (P177902)（项目：NP-Accelerating Transport and Trade Connectivity in Eastern South Asia – Nepal Phase 1 Project -- P177902）。http://documents.worldbank.org/curated/en/099082026120026440
 
 ## 学术论文（OpenAlex）
 
@@ -183,4 +163,4 @@ In just the same manner as it is contested, debated, and controversial globally,
 
 https://doi.org/10.3126/unityj.v6i1.75637
 
-抓取时间：2026-10-21T09:51:43Z
+抓取时间：2026-10-21T09:59:02Z
