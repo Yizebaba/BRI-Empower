@@ -40,7 +40,7 @@
 
 - 2026-10-17 05:06 UTC：M5.7，48 km WNW of Khuzdar, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1 
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-21 13:09 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-21 18:14 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -53,7 +53,6 @@
 ## 喀喇昆仑公路改扩建（雷科特—红其拉甫）
 
 周边自然事件（地震 150 km、灾害警报 300 km、NASA 自然事件 150 km 以内）：
-- 2026-10-20 23:16 UTC，GDACS：Green 级 · Earthquake in China，距项目 47.4 km。https://www.gdacs.org/report.aspx?eventid=1572835&episodeid=1741492&eventtype=EQ
 - 2026-10-20 23:16 UTC，USGS 地震目录：M4.6 earthquake · 115 km NNE of Barishal, Pakistan，距项目 47.4 km。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r1
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
@@ -77,7 +76,7 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
-- 2026-10-21 07:52 UTC：Iran says technical issues behind halt in cross-border traffic from Pakistan, vows resolution - Gwadar Pro。https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT081Y0MyOHQ3NENmR1QzVXFaYkdoSU1NMy0ybDNQaV9lMGtTV3lZU3gyWkVXM0k1clRXZjFoOENjOGJuWFhTTFc3dlVQQlNSRHU2b0JVclV0ZUxKR2RtaXpmVWhRekFpejNYNjJpNl9sckJxdDQ3cUprLWZ2UE5fUG1mUkRhYThvSkRTYzdOcnVHVHhTbnZzSENUM0pQcmp0MzA4MDhscC0ydzl1bk5jUktoWm9VS2lEdUp3cm5oNy0waHE1X3hESV9zSTJYYkF5X09z?oc=5
+- 2026-10-21 08:02 UTC：Iran says technical issues behind halt in cross-border traffic from Pakistan, vows resolution - Gwadar Pro。https://news.google.com/rss/articles/CBMi0wFBVV95cUxOT081Y0MyOHQ3NENmR1QzVXFaYkdoSU1NMy0ybDNQaV9lMGtTV3lZU3gyWkVXM0k1clRXZjFoOENjOGJuWFhTTFc3dlVQQlNSRHU2b0JVclV0ZUxKR2RtaXpmVWhRekFpejNYNjJpNl9sckJxdDQ3cUprLWZ2UE5fUG1mUkRhYThvSkRTYzdOcnVHVHhTbnZzSENUM0pQcmp0MzA4MDhscC0ydzl1bk5jUktoWm9VS2lEdUp3cm5oNy0waHE1X3hESV9zSTJYYkF5X09z?oc=5
 - 2026-10-21 02:05 UTC：Four terrorists killed in Balochistan operations, Army major martyred in Gwadar - Tribal News Network。https://news.google.com/rss/articles/CBMiowFBVV95cUxQNC04dnhkaWlsTFFkSEs3V1BjRWd5eDJWV2YxZFc5VVdCcWFtbV95aVIxN2ZjN3U2TEtnSjdkU2VqN19KZWdza3hLV0xhS3d5ZmdNOVRiQ0V3S2FZX1Z6WDhrNnFiaFVsYi1MbGluMjh2RGlRckNGd2ZxRUhLaGUycE1fcHQ1ODh0Nk9EVzRfOXplM2Nmb01OZ1Y3OWJJcFdEZXlv?oc=5
 - 2026-10-20 04:22 UTC：Army major martyred, four terrorists killed in Balochistan IBOs - Daily Times。https://news.google.com/rss/articles/CBMingFBVV95cUxPTTIyVEdrVXdOdm1TY2hVckxVYllnYk1SWExNZFpJeEVlN2QwT1hJYV90Tjllb2VtOEZWMTNRaUJmaXprTWFJbEVxVXFrNnNmNUdQeWQ5ZGhZbExUWms1RVg0MVNIYjB5RGQ2NjVBTEpDRXZzNlpYTXNvVDZEbUptS1BCbDY4QlVmVTRVTl93LXN0RXZGWWNfbUt5Wnh5dw?oc=5
 - 2026-10-20 02:53 UTC：Army major martyred in IED blast in Pasni - The Express Tribune。https://news.google.com/rss/articles/CBMihAFBVV95cUxNTVFoR3g1aFQyOXpUSHo4VDBvQ1Rfb0IzaUEtcGh4ei03bm10X0k4QU1VS3otdmVRQjREN0puMWdmRGJBOXlGN3J3OW4wNTZRNXFEaTRxbWhOcFgyX1hmNmhRNmNfNXVROW02NTlLbFhvM05PM3hDNl9TVy1ITHZwdWFmVU3SAYwBQVVfeXFMTi1LZTZZSHBPUXlxQnBhckhwVHdib3ZpbWVTckZRUHVuRV92ZS13MUVucUpQcjg4cWdPVlBUOERGSU55bVFGanRLUVAxYjVubncxVjhoc3ZnYVJST0lrYUs4MjduNW0yMjllaG9KZ2F0Uk80OG9zYTdfbjFLVm55TjUxQkQ2STRhS3Rudi0?oc=5
@@ -88,17 +87,17 @@
 - 2026-10-19 10:06 UTC：BLA Claims Deadly IED Strike On Pakistan Army Convoy In Gwadar, Major-Rank Officer Killed - News18。https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZF9vZnZYbGRtSFBIcWdKN2lCbmRsajdkRWdnN2ZablBCMnV5WUZickhWWWhkck1uNFJBZkx1bFhQZDV4Tzh1cFo4Wm91eFp5VG5JS1hpSF9jZU82UkJfWkZpaE9MNHlBUlFDb1VyT0NDcW9OQTNVTXpWc0haeXJ0c3lLck95SmxZak8yb0dPOG0ybzllR2d4LXhtUW44VGItaHYtS0dJTUFhMW54TnhfM2ZoczNuVXVCV2ZpZ1ozblJFdVI2RWVZRi1NaWJBWFkwSG5J0gHYAUFVX3lxTFBmU0gyUUIxeWFBWDd1QWtybWloMmU0LWhGLXFWY0xQWTlMUzY1WTh6N2xpRTB4eU83THVDMXpNTERpSmRvd2p4STlYLUppWDhzd1huZTRRY090T0xQNEpLdXRFSmJpT3gwREJySjFnV28wM0VwRUFzbUxaYVJZWVZkUVE0bmZhY1lyaEpRSE1SVlFnVnktODBlSzlhbnR4ZS1STV9kMEhzM3czU0kxTlFXRnM0UkJlM3ZsYXhwT0t6NTFDb1ZrQjN0d0QzRzRWVnBjSXdEX3E0Vg?oc=5
 - 2026-10-19 07:40 UTC：IED Blast During Gwadar Operation Claims Life of Major Wajahat Waheed - MM News。https://news.google.com/rss/articles/CBMikgFBVV95cUxPdjRBVUoxT0VmZkVMTzRWOV9SN2RPLXlkQWNtaTFTb3Y0dHE2UXlrVmhOaVV0c0QxWGNZS3cyMVFFbXZuY3RiMlR6UGwxckdqd2tQWGhuemFmOGZ0SU91V1RMdTRIeUUwTURFXzVVenZTdXRQd2NfZFo0VEU4blNoZEp6YkVHSnBPY0ZPZDRKRXBndw?oc=5
 - 2026-10-19 07:23 UTC：KALAT AND GWADAR OPERATIONS: 4 TERRORISTS KILLED, MAJOR WAJAHAT WAHEED MARTYRED - Minute Mirror。https://news.google.com/rss/articles/CBMiswFBVV95cUxONTBldHNJRm1ILVRQRFpwZ2VIaUdMWHpCdXNzZEhJYlNfRUUzcy16a1BnUDV3aEFUSmdxblVHNTBXb1UyU0M5azdQMnExdThlTW5XZ0dyQ3dpMHFlcFBHNkozMGpfOGJBNkZFZm9SYXFEYkhjdE5rdnBucUJvLW1JblJRYUU4RHNCZ21kN0tVeU40bW9BQWhlenZEa0gyTXFpMlctWlhKay1XU0xQZ25jbEFROA?oc=5
-- 2026-10-19 06:56 UTC：Pakistani Army Officer Killed in IED Blast - Bold News。https://news.google.com/rss/articles/CBMiekFVX3lxTE9JeHdfUkstMnN5WGtOUGpMeWFtNkpWT1IzTkpUaGVpWXNyTHZWbDBkU1drRVhZY1otZTNTdGhvVDNLTEN3UEFzMlJHM1lfUUpxcmcwNnZmTHNUTkdRSFNrbm9VdjZRTGRDdmlSaXFRNHp1akpEalI5X2ZB?oc=5
+- 2026-10-19 06:44 UTC：Major Wajahat Waheed Martyred in Gwadar IED Attack - Balochistan Pulse。https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMVNZTE1fcHpYenBSREhlRElsUHhyaG1ZRXlNS0ZuOEZIRTlWbWFoYTRFMDVjZTY0QVpmRzlYUkJuZXNUWnl5MUNUZ3RMRlJDY1FYOV9OQTZmYmdnV0FKOVZmbU1JS2ZWcXV5cjdlTlFRcGR3VWwxTEZpSjFXUlJURUdOakIxa2xzbVgyX3czSHo5b1NCWkNmczA0bW5zMnZQZ3NWcEdoeUMzdUJJVXpnVE9QRFM0N1BVcHNMYzBKSE9PMXJILUp4Ylp4cEhIQ2F2d3EwblZB?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
+- 2026-10-21 16:03 UTC：Pakistan Maritime Resilience Faces a New Test - The Daily CPEC
+- 2026-10-21 13:27 UTC：Gwadar Steps Up Drainage Cleaning to Improve Urban Sanitation - Daily Independent
+- 2026-10-21 13:24 UTC：Gwadar Residents Welcome Healthcare Improvements at Mir Abdul Ghafoor Kalmati Teaching Hospital - Daily Independent
 - 2026-10-21 08:02 UTC：Pakistani Scholars Exchange Research Insights at RADAR 2026 as Global Participation Hits Record High - Gwadar Pro
 - 2026-10-21 02:04 UTC：Ten bodies found across four districts - Dawn
 - 2026-10-21 00:15 UTC：Pak-China joint venture in donkey business holds ceremony - Daily Lead Pakistan
 - 2026-10-20 20:02 UTC：China-Pakistan marine information workshop launched - Gwadar Pro
 - 2026-10-20 08:02 UTC：McDonald’s Pakistan, StarCharge sign deal for EV charging network nationwide - Gwadar Pro
-- 2026-10-20 08:02 UTC：Gwadar District General League Football Championship 2026 Kicks Off - Gwadar Pro
-- 2026-10-20 07:00 UTC：Pak-China Donkey Farm JV Breaks Ground in Gwadar - The Daily CPEC
-- 2026-10-19 20:25 UTC：PM Pays Tribute to Security Forces for Kalat, Gwadar Operations - Daily Independent
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 

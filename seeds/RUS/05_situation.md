@@ -21,7 +21,3 @@
 
 - 2026-10-16 03:35 UTC：M6.9，76 km NE of Ozernovskiy, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq 
 - 2026-10-14 23:20 UTC：M4.5，82 km SSW of Mil’kovo, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-20 19:53 UTC：Green 级 EQ，Earthquake in Russia。https://www.gdacs.org/report.aspx?eventid=1572818&episodeid=1741467&eventtype=EQ 

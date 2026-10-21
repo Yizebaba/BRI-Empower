@@ -15,7 +15,3 @@
 - 2026-10-20 06:41 UTC：M5.1，263 km WSW of Yanglong, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ka 
 - 2026-10-20 00:56 UTC：M4.5，156 km SE of Kuqa, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3j5 
 - 2026-10-19 10:57 UTC：M5，31 km NW of Jiangyou, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c7 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-20 23:16 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1572835&episodeid=1741492&eventtype=EQ 
