@@ -98,6 +98,8 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
    <tr><td>航空、铁路、公路咽喉要道和陆地边境</td><td>Google 新闻、OurAirports、Natural Earth</td><td>每天 2 次</td></tr>
    <tr><td>各国 97 个行业的进出口和贸易伙伴</td><td>UN Comtrade</td><td>每周</td></tr>
    <tr><td>经济指标、领导人和政府机构</td><td>世界银行、Wikidata</td><td>每周</td></tr>
+   <tr><td>军费、军力、武器进出口</td><td>世界银行（SIPRI、IISS 数据）</td><td>每周</td></tr>
+   <tr><td>研发、论文、专利、高技术出口、国际大奖获奖者</td><td>世界银行、OpenAlex、Wikidata</td><td>每周</td></tr>
    <tr><td>公开文档（百科、世界银行文件、论文）</td><td>维基百科、世界银行文献库、OpenAlex</td><td>每周</td></tr>
    <tr><td>中国融资项目、150 国名单、陆地边境</td><td>AidData、绿色金融与发展中心、Natural Earth</td><td>基础数据，来源更新时同步</td></tr>
   </tbody>
@@ -107,7 +109,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
  <h2 id="z-seed">种子文档里有什么</h2>
  <p style="color:#bdbab1;margin:-4px 0 12px">每个国家 5–8 份，自动生成、随数据更新，可以单独阅读和下载：</p>
  <div class="docs">
-  <div><b>国家概况与经济结构</b>领导人、立法机构、央行、首都、货币；GDP、增长、三次产业、债务、外资等约 30 项指标。</div>
+  <div><b>国家概况与经济结构</b>领导人、立法机构、央行、首都、货币；GDP、增长、三次产业、债务、外资等约 30 项指标；军费、军力、武器贸易；研发、论文、专利、国际大奖获奖者。</div>
   <div><b>参与方</b>本国政府和机构、中国出资方和企业、主要贸易伙伴、发布旅行建议的外国政府、报道该国的媒体、冲突当事方。</div>
   <div><b>行业、贸易与物流</b>全部 97 个行业的进出口，中国与该国的分行业贸易，主要贸易伙伴，港口靠港和进出口量。</div>
   <div><b>中国融资项目</b>AidData 收录的项目数量、金额、行业和金额最大的项目。</div>
@@ -126,6 +128,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
   <div class="card"><b>舆情与危机公关</b><p>事故、劳资纠纷、环保争议发生后，不同回应方式会引发什么样的舆论。</p><span class="eg">例：项目工地出事故，先道歉还是先说明？</span></div>
   <div class="card"><b>谈判与合作</b><p>合作方、东道国政府、金融机构在不同条件下的立场和底线。</p><span class="eg">例：提出延期还款，贷款方和当地政府各自的态度？</span></div>
   <div class="card"><b>研究与政策评估</b><p>智库、高校、政府部门评估一项倡议或政策在多国的反响。</p><span class="eg">例：一项绿色融资新规在东南亚各国的反应差异。</span></div>
+  <div class="card"><b>安全与冲突风险</b><p>武装冲突、局势升级、军事部署对项目、人员和航线的影响，以及各方的立场。</p><span class="eg">例：边境冲突升级，项目人员撤离与否，各方会怎么看？</span></div>
   <div class="card"><b>技术与研发方向</b><p>新技术、新标准推广时，产业链各方的接受度和阻力（偏方向性判断）。</p><span class="eg">例：数据中心落地某国，电力部门和社区的顾虑。</span></div>
  </div>
 
@@ -135,7 +138,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
   <span>能源电力<i>水电 · 火电 · 新能源 · 电网</i></span><span>油气<i>管道 · 炼化</i></span><span>矿产金属<i>铜 · 锂 · 铝 · 钢铁</i></span>
   <span>交通基建<i>铁路 · 公路 · 港口 · 机场</i></span><span>物流贸易<i>班列 · 航运 · 口岸</i></span><span>制造业<i>汽车 · 电池 · 电子</i></span>
   <span>数字通信<i>数据中心 · 5G · 海缆</i></span><span>金融<i>银行 · 保险 · 融资</i></span><span>农业食品</span><span>医疗卫生</span>
-  <span>建筑工程</span><span>政府与智库</span>
+  <span>建筑工程</span><span>政府与智库</span><span>军事与国防<i>军费 · 军力 · 武器贸易 · 武装冲突</i></span><span>科研与创新<i>论文 · 研发 · 专利 · 获奖</i></span>
  </div>
 
  <h2 id="z-urg">紧急程度</h2>
@@ -233,6 +236,8 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
    <tr><td>Air, rail and road chokepoints, land borders</td><td>Google News, OurAirports, Natural Earth</td><td>Twice daily</td></tr>
    <tr><td>Trade across 97 industries, trade partners</td><td>UN Comtrade</td><td>Weekly</td></tr>
    <tr><td>Economic indicators, leaders and institutions</td><td>World Bank, Wikidata</td><td>Weekly</td></tr>
+   <tr><td>Military spending, armed forces, arms trade</td><td>World Bank (SIPRI, IISS data)</td><td>Weekly</td></tr>
+   <tr><td>R&D, papers, patents, high-tech exports, major award winners</td><td>World Bank, OpenAlex, Wikidata</td><td>Weekly</td></tr>
    <tr><td>Public documents (encyclopedia, World Bank, papers)</td><td>Wikipedia, World Bank Documents, OpenAlex</td><td>Weekly</td></tr>
    <tr><td>Chinese-financed projects, country list, borders</td><td>AidData, Green Finance & Development Center, Natural Earth</td><td>Reference data, synced when sources update</td></tr>
   </tbody>
@@ -242,7 +247,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
  <h2 id="e-seed">What the seed documents contain</h2>
  <p style="color:#bdbab1;margin:-4px 0 12px">5–8 per country, generated automatically and refreshed with the data; each can be read and downloaded on its own:</p>
  <div class="docs">
-  <div><b>Country & economy</b>Leaders, legislature, central bank, capital, currency; about 30 indicators including GDP, growth, sector shares, debt and FDI.</div>
+  <div><b>Country & economy</b>Leaders, legislature, central bank, capital, currency; about 30 indicators including GDP, growth, sector shares, debt and FDI; military spending, forces and arms trade; R&D, papers, patents and major award winners.</div>
   <div><b>Actors</b>Government and institutions, Chinese lenders and companies, trade partners, governments issuing travel advice, media covering the country, parties to conflict.</div>
   <div><b>Industries, trade & logistics</b>Trade across all 97 industries, China's trade with the country by industry, top partners, port calls and volumes.</div>
   <div><b>Chinese finance</b>AidData project counts, amounts, sectors and the largest projects.</div>
@@ -261,6 +266,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
   <div class="card"><b>Reputation and crisis response</b><p>After an accident, labour dispute or environmental controversy: how different responses may play out.</p></div>
   <div class="card"><b>Negotiation and partnership</b><p>Positions and red lines of partners, host governments and lenders under different terms.</p></div>
   <div class="card"><b>Research and policy evaluation</b><p>Think tanks, universities and agencies testing how an initiative may be received across countries.</p></div>
+  <div class="card"><b>Security and conflict risk</b><p>How armed conflict, escalation or military deployments may affect projects, staff and routes, and where each side stands.</p></div>
   <div class="card"><b>Technology direction</b><p>Acceptance and resistance across the value chain when new technology or standards roll out (directional).</p></div>
  </div>
 
@@ -268,7 +274,7 @@ details{border:1px solid var(--line);border-radius:10px;padding:0 14px;margin:8p
  <p style="color:#bdbab1;margin:-4px 0 12px">Seed documents cover each country's trade across all 97 HS chapters and the sector mix of Chinese-financed projects. Key sectors:</p>
  <div class="inds">
   <span>Energy & power</span><span>Oil & gas</span><span>Mining & metals</span><span>Transport infrastructure</span><span>Logistics & trade</span><span>Manufacturing</span>
-  <span>Digital & telecoms</span><span>Finance</span><span>Agriculture & food</span><span>Health</span><span>Construction</span><span>Government & think tanks</span>
+  <span>Digital & telecoms</span><span>Finance</span><span>Agriculture & food</span><span>Health</span><span>Construction</span><span>Government & think tanks</span><span>Military & defence</span><span>Research & innovation</span>
  </div>
 
  <h2 id="e-urg">Urgency</h2>

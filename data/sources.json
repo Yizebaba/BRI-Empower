@@ -220,14 +220,14 @@
    "url": "https://data.worldbank.org/",
    "license": "CC BY 4.0",
    "cadence": "每周取一次，各指标取最近一个有值的年份",
-   "use": "经济规模、增长、三次产业和制造业占比、通胀、外债、偿债、外资、就业结构、城市化、通电和互联网",
+   "use": "经济规模、增长、三次产业和制造业占比、通胀、外债、偿债、外资、就业结构、城市化、通电和互联网；军费、武装部队人数、武器进出口（SIPRI、IISS 数据）；研发支出、研究人员、科技论文、专利、高技术出口",
    "how": "api.worldbank.org/v2，免费、不要密钥",
    "cite": "World Bank, World Development Indicators",
    "en": {
     "name": "World Bank Open Data (World Development Indicators)",
     "license": "CC BY 4.0",
     "cadence": "Weekly; latest available year per indicator",
-    "use": "Economy size, growth, sector shares, manufacturing, inflation, debt, debt service, FDI, employment, urbanisation, electricity and internet"
+    "use": "Economy size, growth, sector shares, manufacturing, inflation, debt, debt service, FDI, employment, urbanisation, electricity and internet; military spending, armed forces, arms trade (SIPRI, IISS data); R&D spending, researchers, scientific articles, patents, high-tech exports"
    }
   },
   {
@@ -236,14 +236,14 @@
    "url": "https://www.wikidata.org/",
    "license": "CC0",
    "cadence": "每周",
-   "use": "现任国家元首、政府首脑、立法机构、中央银行、首都、货币、官方语言（种子文档里的真实主体）",
+   "use": "现任国家元首、政府首脑、立法机构、中央银行、首都、货币、官方语言（种子文档里的真实主体）；诺贝尔奖、菲尔兹奖、图灵奖的本国获奖者",
    "how": "query.wikidata.org SPARQL，免费",
    "cite": "Wikidata contributors",
    "en": {
     "name": "Wikidata",
     "license": "CC0",
     "cadence": "Weekly",
-    "use": "Current heads of state and government, legislature, central bank, capital, currency, languages (real actors in the seed documents)"
+    "use": "Current heads of state and government, legislature, central bank, capital, currency, languages (real actors in the seed documents); Nobel, Fields Medal and Turing Award winners by country"
    }
   },
   {
@@ -284,14 +284,14 @@
    "url": "https://openalex.org/",
    "license": "CC0",
    "cadence": "每周",
-   "use": "关于“一带一路”和该国的论文：标题、年份、期刊、摘要（种子文档）",
+   "use": "关于“一带一路”和该国的论文：标题、年份、期刊、摘要（种子文档）；各国近一年论文数和主要学科",
    "how": "tools/docs_fetch.py（api.openalex.org，免费额度）",
    "cite": "Priem, J., Piwowar, H., & Orr, R. (2022). OpenAlex.",
    "en": {
     "name": "OpenAlex scholarly works",
     "license": "CC0",
     "cadence": "Weekly",
-    "use": "Papers on the Belt and Road and each country: title, year, journal, abstract (seed documents)"
+    "use": "Papers on the Belt and Road and each country: title, year, journal, abstract (seed documents); each country's papers in the last year and main fields"
    }
   },
   {
