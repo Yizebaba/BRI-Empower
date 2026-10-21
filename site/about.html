@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>说明 · 一带一路 全量 预鉴</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--void:#07080a;--panel:rgba(255,255,255,.025);--line:rgba(255,255,255,.09);--ink:#ecebe6;--mute:#8e9099;--silk:#e9c46a;--ok:#5fe0a8;--warn:#f2c14e;--hot:#ff9f43;--alert:#ff5b4d;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--void);color:var(--ink);font:15px/1.75 "Noto Sans SC",system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+body{background:radial-gradient(1200px 600px at 80% -10%,rgba(233,196,106,.08),transparent 60%),var(--void)}
+a{color:var(--silk)}
+.top{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:12px;padding:14px 22px;background:rgba(7,8,10,.82);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top .back{color:var(--ink);text-decoration:none;font-size:13.5px;padding:5px 12px;border:1px solid var(--line);border-radius:999px}
+.top .back:hover,.lgb:hover{border-color:var(--silk)}
+.top b{font-family:"Noto Serif SC",serif;font-size:17px;letter-spacing:.06em}.top b em{font-style:normal;color:var(--silk);margin-left:.5em}
+.lgb{margin-left:auto;padding:5px 12px;border:1px solid var(--line);border-radius:999px;font:inherit;font-size:12.5px;background:none;color:inherit;cursor:pointer}
+main{max-width:860px;margin:0 auto;padding:40px 22px 80px}
+h1{font-family:"Noto Serif SC",serif;font-weight:700;font-size:34px;line-height:1.3;letter-spacing:.04em;margin:0 0 14px}
+.lead{font-size:17px;color:#cfccc2;margin:0 0 8px}
+.tag{font-family:"Noto Serif SC",serif;color:var(--mute);letter-spacing:.08em;margin:18px 0 0;padding-left:12px;border-left:2px solid rgba(233,196,106,.55)}
+.tag .q{color:var(--silk)}
+h2{font-family:"Noto Serif SC",serif;font-size:21px;letter-spacing:.04em;margin:48px 0 14px;padding-top:6px}
+h2 small{font-family:"Noto Sans SC",sans-serif;font-size:12px;color:var(--mute);letter-spacing:.1em;margin-left:10px;font-weight:400}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;counter-reset:s}
+.steps div{border:1px solid var(--line);border-radius:12px;padding:14px;background:var(--panel)}
+.steps div::before{counter-increment:s;content:counter(s);display:inline-grid;place-items:center;width:24px;height:24px;border-radius:50%;background:rgba(233,196,106,.16);color:var(--silk);font-size:12px;font-weight:600;margin-bottom:8px}
+.steps b{display:block;margin-bottom:4px}.steps p{margin:0;color:var(--mute);font-size:13.5px;line-height:1.65}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.card{border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--panel)}
+.card b{display:block;margin-bottom:4px}.card p{margin:0;color:#bdbab1;font-size:14px;line-height:1.7}
+.card .eg{display:block;margin-top:6px;color:var(--mute);font-size:13px}
+.inds{display:flex;flex-wrap:wrap;gap:8px}
+.inds span{padding:6px 12px;border:1px solid var(--line);border-radius:999px;font-size:13.5px;background:var(--panel)}
+.inds span i{font-style:normal;color:var(--mute);font-size:12px;margin-left:6px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--mute);font-weight:500;font-size:12.5px;letter-spacing:.06em}
+td:first-child{white-space:nowrap}
+.lv{display:inline-flex;align-items:center;gap:8px;font-weight:600}.lv i{width:9px;height:9px;border-radius:50%;display:inline-block}
+ul{margin:0;padding-left:1.2em}li{margin:4px 0}
+.not{border-left:2px solid var(--mute);padding:4px 0 4px 14px;color:#bdbab1}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.btn{display:inline-flex;align-items:center;padding:10px 20px;border-radius:10px;border:1px solid var(--silk);background:var(--silk);color:#17130a;font-weight:600;text-decoration:none}
+.btn.ghost{background:none;color:var(--silk)}
+.fine{color:var(--mute);font-size:12.5px;margin-top:40px;line-height:1.8}
+[data-l]{display:none}html[lang=zh-CN] [data-l=zh],html[lang=en] [data-l=en]{display:block}
+@media (max-width:720px){h1{font-size:26px}.steps{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}main{padding:28px 16px 60px}.top{padding:12px 16px}table{font-size:13px}th,td{padding:9px 6px}td:nth-child(2){white-space:nowrap}}
+</style>
+</head>
+<body>
+<header class="top">
+ <a class="back" href="./">← <span class="zh">返回</span></a>
+ <b class="zhb">一带一路<em>全量 预鉴</em></b>
+ <button class="lgb" id="lang" type="button">EN</button>
+</header>
+<main>
+
+<!-- ============ 中文 ============ -->
+<article data-l="zh">
+ <h1>在做决定之前，先看一遍未来</h1>
+ <p class="lead">我们把 150 个“一带一路”共建国家的公开数据，加上你自己的资料，交给 AI 群体智能引擎 MiroFish，生成一群代表政府、企业、媒体、当地居民等各方的“智能体”，让它们在模拟的社会里对你的决定做出反应。你在真正行动之前，就能看到可能出现的几种走向。</p>
+ <div class="tag">如果，看见未来的不同可能<br>如果，未来可以事先预演<br><span class="q">那么决策的胜率会有多高呢？</span></div>
+
+ <h2>怎么做<small>四步</small></h2>
+ <div class="steps">
+  <div><b>公开数据</b><p>冲突、灾害、断网、新闻、港口和口岸、贸易、中国融资项目、经济指标，按时自动更新。</p></div>
+  <div><b>种子文档</b><p>按国家整理成文档，写清楚涉及哪些真实的人和机构，每条注明来源。你也可以上传自己的资料。</p></div>
+  <div><b>群体推演</b><p>MiroFish 建知识图谱，生成大量智能体，在模拟社交平台上互相影响，一轮一轮演化。</p></div>
+  <div><b>推演报告</b><p>输出报告和全过程数据（PDF、Word、Markdown、CSV），看清各方会怎么反应、风险在哪里。</p></div>
+ </div>
+
+ <h2>适合什么样的决策</h2>
+ <div class="grid">
+  <div class="card"><b>海外投资与项目落地</b><p>在某国建电站、修铁路、开矿、设厂之前，看当地政府、社区、媒体、竞争对手可能的反应。</p><span class="eg">例：在巴基斯坦扩建电站，当地舆论和地方政府会怎么看？</span></div>
+  <div class="card"><b>进入新市场</b><p>新产品、新渠道进入一个国家，消费者、经销商、监管部门的接受度。</p><span class="eg">例：电动车进入中亚市场，哪类人群会先接受？</span></div>
+  <div class="card"><b>政策与监管变化</b><p>关税、制裁、出口管制、本地化要求出台后，对项目和贸易的连锁影响。</p><span class="eg">例：某国提高矿产出口税，承包商和下游买家会怎么调整？</span></div>
+  <div class="card"><b>供应链与物流中断</b><p>港口拥堵、口岸关闭、航线改道、自然灾害时，各方的应对和替代路线。</p><span class="eg">例：某口岸关闭两周，班列和货主会转向哪里？</span></div>
+  <div class="card"><b>舆情与危机公关</b><p>事故、劳资纠纷、环保争议发生后，不同回应方式会引发什么样的舆论。</p><span class="eg">例：项目工地出事故，先道歉还是先说明？</span></div>
+  <div class="card"><b>谈判与合作</b><p>合作方、东道国政府、金融机构在不同条件下的立场和底线。</p><span class="eg">例：提出延期还款，贷款方和当地政府各自的态度？</span></div>
+  <div class="card"><b>研究与政策评估</b><p>智库、高校、政府部门评估一项倡议或政策在多国的反响。</p><span class="eg">例：一项绿色融资新规在东南亚各国的反应差异。</span></div>
+  <div class="card"><b>技术与研发方向</b><p>新技术、新标准推广时，产业链各方的接受度和阻力（偏方向性判断）。</p><span class="eg">例：数据中心落地某国，电力部门和社区的顾虑。</span></div>
+ </div>
+
+ <h2>涉及哪些行业</h2>
+ <p style="color:#bdbab1;margin:-4px 0 12px">种子文档覆盖每个国家全部 97 个贸易行业大类（HS 两位章）的进出口，以及中国融资项目的行业分布。重点行业：</p>
+ <div class="inds">
+  <span>能源电力<i>水电 · 火电 · 新能源 · 电网</i></span><span>油气<i>管道 · 炼化</i></span><span>矿产金属<i>铜 · 锂 · 铝 · 钢铁</i></span>
+  <span>交通基建<i>铁路 · 公路 · 港口 · 机场</i></span><span>物流贸易<i>班列 · 航运 · 口岸</i></span><span>制造业<i>汽车 · 电池 · 电子</i></span>
+  <span>数字通信<i>数据中心 · 5G · 海缆</i></span><span>金融<i>银行 · 保险 · 融资</i></span><span>农业食品</span><span>医疗卫生</span>
+  <span>建筑工程</span><span>政府与智库</span>
+ </div>
+
+ <h2>紧急程度</h2>
+ <table>
+  <thead><tr><th>级别</th><th>交付时间</th><th>适合</th></tr></thead>
+  <tbody>
+   <tr><td><span class="lv"><i style="background:var(--ok)"></i>标准</span></td><td>5–10 个工作日</td><td>提前规划的投资、市场进入、研究课题；可以多轮修改、多种情景对比。</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--warn)"></i>加急</span></td><td>3 个工作日</td><td>近期要开会决策、要提交方案。</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--hot)"></i>特急</span></td><td>48 小时</td><td>事件已经发生，需要尽快判断各方走向。</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--alert)"></i>紧急</span></td><td>24 小时内</td><td>危机正在发展（事故、冲突、口岸关闭、舆情爆发），先出快速推演，再滚动更新。</td></tr>
+  </tbody>
+ </table>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">自助推演随时可用，排队几分钟后开始，完整推演通常要几个小时。定制服务按项目规模和紧急程度报价。</p>
+
+ <h2>两种用法</h2>
+ <div class="grid">
+  <div class="card"><b>自助推演（免费）</b><p>在首页“推演”里选国家、勾选种子文档或上传自己的资料，写下推演要求，用你自己的模型密钥运行。费用记在你自己的模型账户。</p></div>
+  <div class="card"><b>定制推演</b><p>我们帮你梳理问题、补充资料、设计多种情景、解读结果，并按需持续跟踪。适合重要决策和机构客户。</p></div>
+ </div>
+ <div class="cta"><a class="btn" href="./">开始推演</a><a class="btn ghost" id="mail" target="_blank" rel="noopener" href="#">定制推演 ✉</a></div>
+
+ <h2>我们不做什么</h2>
+ <div class="not">推演是模拟，不是预言。它展示的是“可能的走向”和“各方可能的反应”，不保证结果，也不是投资、法律或安全建议。种子数据来自公开来源，以原始来源为准；重要决策请结合实地调研和专业意见。</div>
+
+ <p class="fine">数据来源：AidData、UN Comtrade、IMF PortWatch、世界银行、Wikidata、维基百科、OpenAlex、USGS、GDACS、NASA EONET、World Monitor、美英旅行建议等，详见首页“数据源”。推演引擎：MiroFish（AGPL-3.0）。联系：yizebaba@gmail.com</p>
+</article>
+
+<!-- ============ English ============ -->
+<article data-l="en">
+ <h1>See the future before you decide</h1>
+ <p class="lead">We take public data on the 150 Belt and Road partner countries, add your own documents, and hand them to MiroFish, a swarm-intelligence engine. It creates agents representing governments, companies, media, local residents and others, and lets them react to your decision in a simulated society — so you can see the likely paths before you act.</p>
+ <div class="tag">What if you could see the futures that might unfold?<br>What if the future could be rehearsed in advance?<br><span class="q">How much more often would your decisions win?</span></div>
+
+ <h2>How it works<small>four steps</small></h2>
+ <div class="steps">
+  <div><b>Public data</b><p>Conflict, hazards, outages, news, ports and crossings, trade, Chinese-financed projects, economic indicators — updated automatically.</p></div>
+  <div><b>Seed documents</b><p>Organised by country, naming the real people and organisations involved, every fact sourced. You can add your own files.</p></div>
+  <div><b>Swarm simulation</b><p>MiroFish builds a knowledge graph and many agents that influence each other on simulated social platforms, round by round.</p></div>
+  <div><b>Report</b><p>A report plus the full process data (PDF, Word, Markdown, CSV): how each side may react and where the risks are.</p></div>
+ </div>
+
+ <h2>Decisions it helps with</h2>
+ <div class="grid">
+  <div class="card"><b>Overseas investment and projects</b><p>Before building a plant, railway, mine or factory: how government, communities, media and competitors may respond.</p></div>
+  <div class="card"><b>Entering a new market</b><p>How consumers, distributors and regulators may receive a new product or channel.</p></div>
+  <div class="card"><b>Policy and regulatory change</b><p>Knock-on effects of tariffs, sanctions, export controls or localisation rules on projects and trade.</p></div>
+  <div class="card"><b>Supply chain and logistics disruption</b><p>Port congestion, border closures, rerouting or disasters: how actors respond and which routes they switch to.</p></div>
+  <div class="card"><b>Reputation and crisis response</b><p>After an accident, labour dispute or environmental controversy: how different responses may play out.</p></div>
+  <div class="card"><b>Negotiation and partnership</b><p>Positions and red lines of partners, host governments and lenders under different terms.</p></div>
+  <div class="card"><b>Research and policy evaluation</b><p>Think tanks, universities and agencies testing how an initiative may be received across countries.</p></div>
+  <div class="card"><b>Technology direction</b><p>Acceptance and resistance across the value chain when new technology or standards roll out (directional).</p></div>
+ </div>
+
+ <h2>Industries</h2>
+ <p style="color:#bdbab1;margin:-4px 0 12px">Seed documents cover each country's trade across all 97 HS chapters and the sector mix of Chinese-financed projects. Key sectors:</p>
+ <div class="inds">
+  <span>Energy & power</span><span>Oil & gas</span><span>Mining & metals</span><span>Transport infrastructure</span><span>Logistics & trade</span><span>Manufacturing</span>
+  <span>Digital & telecoms</span><span>Finance</span><span>Agriculture & food</span><span>Health</span><span>Construction</span><span>Government & think tanks</span>
+ </div>
+
+ <h2>Urgency</h2>
+ <table>
+  <thead><tr><th>Level</th><th>Delivery</th><th>For</th></tr></thead>
+  <tbody>
+   <tr><td><span class="lv"><i style="background:var(--ok)"></i>Standard</span></td><td>5–10 working days</td><td>Planned investments, market entry, research; multiple scenarios and revisions.</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--warn)"></i>Priority</span></td><td>3 working days</td><td>A decision meeting or submission coming up soon.</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--hot)"></i>Express</span></td><td>48 hours</td><td>An event has happened and you need a read on how it will unfold.</td></tr>
+   <tr><td><span class="lv"><i style="background:var(--alert)"></i>Emergency</span></td><td>Within 24 hours</td><td>A crisis is developing (accident, conflict, border closure, media storm): a rapid run first, then rolling updates.</td></tr>
+  </tbody>
+ </table>
+ <p style="color:var(--mute);font-size:13px;margin:10px 0 0">Self-service runs are always available: they start within minutes and a full run usually takes a few hours. Custom work is quoted by project size and urgency.</p>
+
+ <h2>Two ways to use it</h2>
+ <div class="grid">
+  <div class="card"><b>Self-service (free)</b><p>On the home page, pick countries, tick seed documents or upload your own, write your prompt and run it with your own model key, billed to your own account.</p></div>
+  <div class="card"><b>Custom simulation</b><p>We help frame the question, add material, design scenarios, interpret results and keep tracking if needed. For important decisions and institutions.</p></div>
+ </div>
+ <div class="cta"><a class="btn" href="./">Start a simulation</a><a class="btn ghost" id="mail2" target="_blank" rel="noopener" href="#">Custom simulation ✉</a></div>
+
+ <h2>What we don't do</h2>
+ <div class="not">A simulation is not a prophecy. It shows possible paths and how actors may react; it does not guarantee outcomes and is not investment, legal or security advice. Seed data comes from public sources, which prevail. For important decisions, combine it with field work and professional advice.</div>
+
+ <p class="fine">Sources: AidData, UN Comtrade, IMF PortWatch, World Bank, Wikidata, Wikipedia, OpenAlex, USGS, GDACS, NASA EONET, World Monitor, US and UK travel advice and more — see "Sources" on the home page. Engine: MiroFish (AGPL-3.0). Contact: yizebaba@gmail.com</p>
+</article>
+</main>
+<script>
+(function(){
+ var L;try{L=localStorage.getItem("bri_lang")}catch(e){}
+ if(!L)L=(navigator.language||"").indexOf("zh")===0?"zh":"en";
+ var M=function(en){var sub=en?"Custom simulation enquiry":"定制推演咨询",body=en?"Hello,\n\nI would like a custom simulation.\n\nOrganisation:\nCountries / industries:\nEvent or decision:\nProject size (approx.):\nUrgency (standard / priority / express / emergency):\nContact:\n":"您好，\n\n我想定制推演。\n\n单位：\n国家 / 行业：\n要推演的事件或决策：\n项目金额（大约）：\n紧急程度（标准 / 加急 / 特急 / 紧急）：\n联系方式：\n";
+  return"https://mail.google.com/mail/?view=cm&fs=1&to=yizebaba%40gmail.com&su="+encodeURIComponent(sub)+"&body="+encodeURIComponent(body)};
+ function apply(){var en=L==="en";document.documentElement.lang=en?"en":"zh-CN";document.getElementById("lang").textContent=en?"中文":"EN";
+  document.querySelector(".back span").textContent=en?"Back":"返回";document.querySelector(".zhb").innerHTML=en?"Belt and Road<em>Full-Scope Foresight</em>":"一带一路<em>全量 预鉴</em>";
+  document.title=en?"About · Belt and Road Full-Scope Foresight":"说明 · 一带一路 全量 预鉴";
+  document.getElementById("mail").href=M(false);document.getElementById("mail2").href=M(true)}
+ document.getElementById("lang").onclick=function(){L=L==="en"?"zh":"en";try{localStorage.setItem("bri_lang",L)}catch(e){}apply()};
+ apply();
+})();
+</script>
+</body>
+</html>
