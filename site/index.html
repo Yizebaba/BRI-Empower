@@ -399,7 +399,7 @@ function seedsMulti(){const sc=SCOPE();if(!sc.length)return'<p class="small mute
 function selSeeds(){return SCOPE().flatMap(k=>((D.seeds[k]||{}).files||[]).map(f=>f.path)).filter(p=>!UNSEL.has(p))}
 function mailHref(){const sc=SCOPE().map(k=>cn(cinfo(k))).join("、");const sub=EN()?"Custom simulation enquiry":"定制推演咨询";
  const body=EN()?"Hello,\n\nI would like a custom simulation.\n\nOrganisation:\nCountries / industries:"+(sc?" "+sc:"")+"\nEvent or decision:\nProject size (approx.):\nTimeline:\nContact:\n":"您好，\n\n我想定制推演。\n\n单位：\n国家 / 行业："+(sc?sc:"")+"\n要推演的事件或决策：\n项目金额（大约）：\n时间要求：\n联系方式：\n";
- return"mailto:yizebaba@gmail.com?subject="+encodeURIComponent(sub)+"&body="+encodeURIComponent(body)}
+ return"https://mail.google.com/mail/?view=cm&fs=1&to=yizebaba%40gmail.com&su="+encodeURIComponent(sub)+"&body="+encodeURIComponent(body)}
 function tabDrill(){const pv=KEY("prov")||"deepseek",P=PRESETS.find(x=>x[0]===pv)||PRESETS[0];
  let h='<h2 class="h2">MiroFish 推演</h2><p class="small mute" style="margin:-4px 0 10px">MiroFish 从种子文档里找出真实的人和机构，建知识图谱，生成大量智能体在模拟社交平台上互动，最后写出推演报告。</p>';
  h+='<form id="df" autocomplete="off"><label>国家（最多 5 个）</label><div class="chips" id="dchips">'+chipsHTML()+'</div>'+cselect("dadd","",true)
@@ -413,7 +413,7 @@ function tabDrill(){const pv=KEY("prov")||"deepseek",P=PRESETS.find(x=>x[0]===pv
  +'<label for="dzep">Zep API Key <a class="small" href="https://app.getzep.com/" target="_blank" rel="noopener" style="margin-left:6px">免费申请 ↗</a></label><input id="dzep" type="password" placeholder="z_…" value="'+esc(KEY("zep"))+'">'
  +'<label class="chk"><input type="checkbox" id="dremember"'+(KEY("llm")?" checked":"")+'>在本浏览器记住</label>'
  +'<p class="small mute" style="margin:8px 0 0">密钥只用于这一次推演：运行开始时取走即删除，不进日志。费用记在你自己的账户。</p></div>'
- +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center"><button class="btn" type="submit" id="dgo">开始推演</button><a class="btn ghost" id="dmail" style="text-decoration:none" href="'+mailHref()+'">定制推演 ✉</a></div><div class="msg" id="dmsg"></div></form>';
+ +'<div style="margin-top:14px;display:flex;gap:10px;align-items:center"><button class="btn" type="submit" id="dgo">开始推演</button><a class="btn ghost" id="dmail" style="text-decoration:none" target="_blank" rel="noopener" href="'+mailHref()+'">定制推演 ✉</a></div><div class="msg" id="dmsg"></div></form>';
  h+='<div class="h3">我的推演</div><div id="dmine">'+mineHTML()+'</div>';
  h+='<div class="h3">全部推演记录</div><p class="small mute" style="margin:0 0 6px">'+DISC()+'</p><div id="druns">'+runsHTML()+'</div>';return h}
 function cselect(id,v,add){return'<select id="'+id+'">'+(add?'<option value="">＋ 添加国家</option>':"")+REG.map(r=>'<optgroup label="'+r+'">'+D.countries.filter(c=>c.region===r).map(c=>'<option value="'+c.iso3+'"'+(c.iso3===v?" selected":"")+'>'+esc(cn(c))+'</option>').join("")+'</optgroup>').join("")+'</select>'}
