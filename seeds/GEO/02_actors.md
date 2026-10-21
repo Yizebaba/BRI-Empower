@@ -4,6 +4,9 @@
 
 ## 本国政府与机构
 
+- 米哈伊尔·卡韦拉什维利（Mikheil Kavelashvili）：格鲁吉亚现任国家元首。来源：Wikidata
+- 伊拉克利·科巴希泽（Irakli Kobakhidze）：格鲁吉亚现任政府首脑。来源：Wikidata
+- 格鲁吉亚议会（Parliament of Georgia）：格鲁吉亚的立法机构。来源：Wikidata
 - 格鲁吉亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -13,6 +16,21 @@
 - 中国驻当地使领馆：在格鲁吉亚出现在 2 个项目中。例：2013 年 Chinese Embassy donates 450 books to Tbilisi State University in Georgia；2015 年 Chinese Embassy in Georgia donates supplies to the Chinese Language and Culture Center at Tbilisi State Univer
 - 汉办 / 孔子学院总部（Hanban）：在格鲁吉亚出现在 2 个项目中。例：2010 年 Hanban provides a grant for the establishment of a Confucius Institute at the Free University of Tbilisi；2016 年 Hanban provides a grant for the establishment of a Confucius Classroom at Tbilisi Open University
 - TCC：在格鲁吉亚出现在 1 个项目中。例：2019 年 TCC donates educational materials to public school in Tbilisi 
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 土耳其：格鲁吉亚对其出口 3.33 亿美元，自其进口 27.77 亿美元
+- 美国：格鲁吉亚对其出口 1.20 亿美元，自其进口 27.80 亿美元
+- 俄罗斯：格鲁吉亚对其出口 7.49 亿美元，自其进口 19.39 亿美元
+- 中国：格鲁吉亚对其出口 3.28 亿美元，自其进口 19.87 亿美元
+- 吉尔吉斯斯坦：格鲁吉亚对其出口 14.99 亿美元，自其进口 505 万美元
+- 德国：格鲁吉亚对其出口 7163 万美元，自其进口 13.06 亿美元
+- 阿塞拜疆：格鲁吉亚对其出口 6.97 亿美元，自其进口 6.61 亿美元
+- 哈萨克斯坦：格鲁吉亚对其出口 9.10 亿美元，自其进口 9069 万美元
+- 亚美尼亚：格鲁吉亚对其出口 5.53 亿美元，自其进口 2.37 亿美元
+- 保加利亚：格鲁吉亚对其出口 2.37 亿美元，自其进口 3.21 亿美元
+- Italy：格鲁吉亚对其出口 1.05 亿美元，自其进口 4.44 亿美元
+- 英国：格鲁吉亚对其出口 1876 万美元，自其进口 5.24 亿美元
 
 ## 发布旅行建议的外国政府
 

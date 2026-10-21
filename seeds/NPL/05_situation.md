@@ -9,7 +9,7 @@
 
 - 2026-09-04 00:00 UTC：US State Dept Nepal - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html 
 
-# 尼泊尔项目周边近期态势（截至 2026-10-21 18:14 UTC）
+# 尼泊尔项目周边近期态势（截至 2026-10-21 21:56 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -28,7 +28,6 @@
 - 2026-10-16 08:23 UTC：Rasuwagadhi Hydropower provides Rs 500,000 each in relief to families of missing, deceased employees - OnlineKhabar English News。https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWkRHbXZELVhzdjJja2dCZThlZG9GOVlJT1NwVUx6RUNJeTd6QVJ1Z0pPc0Q3RzJXRjFialRPbzJ6aV92dEZWbDdpSDZFWXlDWkZGbVoyWHg0ejBGZVZVdFcyZWJ3eHpCelhUeFBsdkRDMjJSRm5qUGIwckd2SUgzVWtGSmF2MjJfaFlkUWxpNktrLUgyN2IzMklsbS1lakcwaEp4Ukg2Umd6TVM0amlqYk5QWHRqU0FKODZ6NFB3ZkRiU2theW9ZTlNBbWFfWUtBNVE?oc=5
 - 2026-10-16 03:15 UTC：Strategic Road Section Linking Nepal and China Damaged by Flood, Reconstruction Uncertain - Ratopati。https://news.google.com/rss/articles/CBMirwFBVV95cUxPdE9BOWRoZ0pUSzk4TjRocGwyWVVZQjlkclFYTHZVaHcxUkV5eWMxM0tRVDFvNDRjbUo1NnBfbTBYQ2w1X1lzbTYwUk1yeEk3SXBOaHkyWWdsU2xGdnRDbGJpYjdoblYyemV5Ynd1TG8xN0NNczhOVTVOdGR0djZYbXR0WlpoanJxa0p3X3Z6Z0VVM3JJTUlxczg1ZTZXQTh3ejhZTGFYSjlOM3h6OHJF?oc=5
 - 2026-10-15 23:58 UTC：Families Await News of Loved Ones Missing After Nepal-China Border Floods - Ratopati。https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2M1ZnphRW1kNlRvYVVGVGxRdV8xM3pldVlIbTRYM3E0ekhMc3A4YlRZWkZHNXF0TUt3SkhwcHQxbE0zUkE4Z0diT09xdFlTR2VuejY0Z2tGY1lrMUE2eVV1Z2ZfV1JlS2xjdGRQeWN5dW1jR2NHcDVIOUJYbEc1SUdyaGJtMHVUemxXWHRoYVNpRDIyWGRHUXdBVEluQ2NOWWUwOVprT2Utckk?oc=5
-- 2026-10-15 12:51 UTC：Nepal Flash Flood 2026 Situation Report 7 (15 October 2026) - ReliefWeb。https://news.google.com/rss/articles/CBMilwFBVV95cUxNVTkxY20xYXM0QnBQUHJCT1ZWYjBJdXZqLUNPdmhremRXaVFlRzF6Yk1MZ2tnSHJudzBkY3VocmgxQXVLTzhVMDliQWFkYmtKVDZXQzFEWFlmSjgwcjNsM2dGVExpbGpQYnVBak9HSnllQmtPU3VuTUF1VngzODltM2tvMU8xS2gtQ3pRM3dSVVVlZXl2cXlz?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-19 18:07 UTC：China cites non-existent Tibetan refugee threats to refuse reopening Nepal border trade post - Tibetan Review

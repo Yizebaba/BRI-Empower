@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 约翰·德拉马尼·马哈马（John Mahama）：加纳现任国家元首。来源：Wikidata
+- 納納·阿庫福-阿多（Nana Akufo-Addo）：加纳现任政府首脑。来源：Wikidata
+- 加纳议会（Parliament of Ghana）：加纳的立法机构。来源：Wikidata
+- 加纳银行（Bank of Ghana）：加纳的中央银行。来源：Wikidata
 - 加纳政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -24,6 +28,21 @@
 - 汉办 / 孔子学院总部（Hanban）：在加纳出现在 1 个项目中。例：2013 年 Hanban establishes Confucius Institute at University of Ghana
 - Fujian Municipal Government：在加纳出现在 1 个项目中。例：2020 年 Fujian Municipal Government donates medical supplies to Ghana's Greater Accra Region
 - 中国援外医疗队：在加纳出现在 1 个项目中。例：2021 年 10th Chinese Medical Team to Ghana provides Traditional Chinese Medicine supplies to the China Traditional Her
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 阿联酋：加纳对其出口 82.84 亿美元，自其进口 12.17 亿美元
+- 印度：加纳对其出口 51.21 亿美元，自其进口 13.81 亿美元
+- 中国：加纳对其出口 15.60 亿美元，自其进口 45.86 亿美元
+- 瑞士：加纳对其出口 45.27 亿美元，自其进口 3.40 亿美元
+- 南非：加纳对其出口 32.86 亿美元，自其进口 3.28 亿美元
+- 美国：加纳对其出口 10.42 亿美元，自其进口 14.17 亿美元
+- 荷兰：加纳对其出口 14.41 亿美元，自其进口 9.08 亿美元
+- 比利时：加纳对其出口 4.12 亿美元，自其进口 10.09 亿美元
+- 尼日利亚：加纳对其出口 2.25 亿美元，自其进口 9.06 亿美元
+- Burkina Faso：加纳对其出口 9.41 亿美元，自其进口 1.07 亿美元
+- 英国：加纳对其出口 3.03 亿美元，自其进口 5.16 亿美元
+- 加拿大：加纳对其出口 2.51 亿美元，自其进口 4.36 亿美元
 
 ## 发布旅行建议的外国政府
 

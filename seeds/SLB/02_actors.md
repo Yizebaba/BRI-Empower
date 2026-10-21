@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 查尔斯三世（Charles III）：所罗门群岛现任国家元首。来源：Wikidata
+- 杰里迈亚·马内莱（Jeremiah Manele）：所罗门群岛现任政府首脑。来源：Wikidata
+- 所罗门群岛国民议会（National Parliament of Solomon Islands）：所罗门群岛的立法机构。来源：Wikidata
+- 所羅門群島中央銀行（Central Bank of Solomon Islands）：所罗门群岛的中央银行。来源：Wikidata
 - 所罗门群岛政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

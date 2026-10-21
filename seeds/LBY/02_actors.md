@@ -4,6 +4,12 @@
 
 ## 本国政府与机构
 
+- 阿基拉·萨拉赫·伊萨（Aguila Saleh Issa）：利比亚现任国家元首。来源：Wikidata
+- 穆罕默德·門菲（Mohamed al-Menfi）：利比亚现任国家元首。来源：Wikidata
+- 阿卜杜勒·哈米德·德拜巴（Abd al-Hamid Dbeibeh）：利比亚现任政府首脑。来源：Wikidata
+- 利比亚国民代表大会（House of Representatives）：利比亚的立法机构。来源：Wikidata
+- 最高国务委员会（利比亚）（High Council of State）：利比亚的立法机构。来源：Wikidata
+- 利比亚中央银行（Central Bank of Libya）：利比亚的中央银行。来源：Wikidata
 - 利比亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

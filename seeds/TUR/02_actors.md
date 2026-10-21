@@ -4,6 +4,15 @@
 
 ## 本国政府与机构
 
+- 雷杰普·塔伊普·埃尔多安（Recep Tayyip Erdoğan）：土耳其现任国家元首。来源：Wikidata
+- 苏莱曼·德米雷尔（Süleyman Demirel）：土耳其现任政府首脑。来源：Wikidata
+- 图尔古特·厄扎尔（Turgut Özal）：土耳其现任政府首脑。来源：Wikidata
+- 比連德·烏盧蘇（Bülent Ulusu）：土耳其现任政府首脑。来源：Wikidata
+- 耶尔德勒姆·阿克布卢特（Yıldırım Akbulut）：土耳其现任政府首脑。来源：Wikidata
+- 埃达尔·伊诺努（Erdal İnönü）：土耳其现任政府首脑。来源：Wikidata
+- 雷杰普·塔伊普·埃尔多安（Recep Tayyip Erdoğan）：土耳其现任政府首脑。来源：Wikidata
+- 土耳其大国民议会（Grand National Assembly of Turkey）：土耳其的立法机构。来源：Wikidata
+- 土耳其共和國中央銀行（Central Bank of the Republic of Turkey）：土耳其的中央银行。来源：Wikidata
 - 土耳其政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -15,6 +24,21 @@
 - 中国政府：在土耳其出现在 4 个项目中，涉及金额约 130 万美元。例：2011 年 Chinese government grants $1 million USD for Van Earthquake relief；2003 年 China donates $30,000 to Turkey for earthquake recovery；2010 年 China donates thousands of books to Turkish educational institutions and think tanks
 - 汉办 / 孔子学院总部（Hanban）：在土耳其出现在 4 个项目中。例：2015 年 Hanban funds the establishment of Confucius Institute at Yeditepe University；2012 年 Hanban funds the establishment of Confucius Institute at Okan University；2008 年 Hanban funds the establishment of Confucius Institute at Middle East Technical University
 - 中国驻当地使领馆：在土耳其出现在 1 个项目中。例：2019 年 Chinese Embassy in Turkey provides grant of 600 books and CDs to Hasan Çapan Anatolian High School in Turkey i
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：土耳其对其出口 32.78 亿美元，自其进口 495.76 亿美元
+- 德国：土耳其对其出口 221.67 亿美元，自其进口 301.10 亿美元
+- 俄罗斯：土耳其对其出口 67.25 亿美元，自其进口 423.73 亿美元
+- 美国：土耳其对其出口 163.28 亿美元，自其进口 180.80 亿美元
+- Italy：土耳其对其出口 132.32 亿美元，自其进口 157.36 亿美元
+- 法国：土耳其对其出口 111.96 亿美元，自其进口 128.56 亿美元
+- 英国：土耳其对其出口 167.73 亿美元，自其进口 72.55 亿美元
+- Special Categories：土耳其对其出口 20.95 亿美元，自其进口 208.16 亿美元
+- 西班牙：土耳其对其出口 104.22 亿美元，自其进口 101.67 亿美元
+- 阿联酋：土耳其对其出口 92.81 亿美元，自其进口 96.74 亿美元
+- 瑞士：土耳其对其出口 22.41 亿美元，自其进口 157.50 亿美元
+- 伊拉克：土耳其对其出口 123.80 亿美元，自其进口 19.62 亿美元
 
 ## 发布旅行建议的外国政府
 

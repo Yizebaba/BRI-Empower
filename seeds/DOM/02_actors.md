@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 路易斯·阿比纳德尔（Luis Abinader）：多米尼加现任国家元首。来源：Wikidata
+- 路易斯·阿比纳德尔（Luis Abinader）：多米尼加现任政府首脑。来源：Wikidata
+- 多明尼加共和國國會（Congress of the Dominican Republic）：多米尼加的立法机构。来源：Wikidata
+- 多米尼克共和国中央银行（Central Bank of the Dominican Republic）：多米尼加的中央银行。来源：Wikidata
 - 多米尼加政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

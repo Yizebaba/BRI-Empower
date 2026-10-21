@@ -4,6 +4,9 @@
 
 ## 本国政府与机构
 
+- 图普六世（Tupou VI of Tonga）：汤加现任国家元首。来源：Wikidata
+- 法塔菲希·法卡法努阿（Fatafehi Fakafānua, 8th Lord Fakafānua）：汤加现任政府首脑。来源：Wikidata
+- 汤加立法会（Legislative Assembly of Tonga）：汤加的立法机构。来源：Wikidata
 - 汤加政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

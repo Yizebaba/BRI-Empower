@@ -4,6 +4,11 @@
 
 ## 本国政府与机构
 
+- 李在明（Lee Jae Myung）：韩国现任国家元首。来源：Wikidata
+- 李在明（Lee Jae Myung）：韩国现任政府首脑。来源：Wikidata
+- 韓聖淑（Han Seong-sook）：韩国现任政府首脑。来源：Wikidata
+- 韩国国会（National Assembly）：韩国的立法机构。来源：Wikidata
+- 韩国银行（Bank of Korea）：韩国的中央银行。来源：Wikidata
 - 韩国政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

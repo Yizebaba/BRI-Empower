@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 巴西鲁·迪奥马耶·法耶（Bassirou Diomaye Faye）：塞内加尔现任国家元首。来源：Wikidata
+- 巴西鲁·迪奥马耶·法耶（Bassirou Diomaye Faye）：塞内加尔现任政府首脑。来源：Wikidata
+- 塞内加尔国民议会（National Assembly）：塞内加尔的立法机构。来源：Wikidata
+- 西非国家中央银行（Central Bank of West African States）：塞内加尔的中央银行。来源：Wikidata
 - 塞内加尔政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -18,6 +22,21 @@
 - 中国驻当地使领馆：在塞内加尔出现在 2 个项目中，涉及金额约 9 万美元。例：2016 年 Chinese Embassy grants 46 million CFA Francs worth of drugs and medical supplies to the Pikine hospital；2010 年 Chinese Embassy donates office equipment to Senegal’s Ministry of Foreign Affairs
 - China exchanges letters to：在塞内加尔出现在 1 个项目中。例：2018 年 China exchanges letters to support the technical mission at the National Children’s Hospital Center in Diamnia
 - Jiangsu Provincial Construction Group Co., Ltd.,：在塞内加尔出现在 1 个项目中。例：2019 年 Jiangsu Provincial Construction Group Co., Ltd., donates school supplies to children's hospital in Senegal
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：塞内加尔对其出口 8.48 亿美元，自其进口 17.02 亿美元
+- 马里：塞内加尔对其出口 16.03 亿美元，自其进口 983 万美元
+- 印度：塞内加尔对其出口 6.82 亿美元，自其进口 7.25 亿美元
+- 法国：塞内加尔对其出口 2.37 亿美元，自其进口 11.69 亿美元
+- 荷兰：塞内加尔对其出口 9.16 亿美元，自其进口 2.93 亿美元
+- 西班牙：塞内加尔对其出口 6.48 亿美元，自其进口 5.43 亿美元
+- 瑞士：塞内加尔对其出口 11.18 亿美元，自其进口 7091 万美元
+- Italy：塞内加尔对其出口 6.25 亿美元，自其进口 2.50 亿美元
+- 俄罗斯：塞内加尔对其出口 43 美元，自其进口 8.51 亿美元
+- 美国：塞内加尔对其出口 3.74 亿美元，自其进口 4.58 亿美元
+- 尼日利亚：塞内加尔对其出口 1080 万美元，自其进口 7.11 亿美元
+- 阿联酋：塞内加尔对其出口 1.11 亿美元，自其进口 5.56 亿美元
 
 ## 发布旅行建议的外国政府
 

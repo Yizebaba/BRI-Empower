@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 博拉·蒂努布（Bola Tinubu）：尼日利亚现任国家元首。来源：Wikidata
+- 博拉·蒂努布（Bola Tinubu）：尼日利亚现任政府首脑。来源：Wikidata
+- 尼日利亚议会（National Assembly of Nigeria）：尼日利亚的立法机构。来源：Wikidata
+- 尼日利亞中央銀行（Central Bank of Nigeria）：尼日利亚的中央银行。来源：Wikidata
 - 尼日利亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -24,6 +28,21 @@
 - CGCOC：在尼日利亚出现在 1 个项目中。例：2019 年 CGCOC donates cultural materials and other items to Government Secondary School Byazhin
 - 29 students：在尼日利亚出现在 1 个项目中。例：2019 年 29 students participate in Central South University and Ahmadu Bello University's joint degree program in 2019
 - Peiyang Chemical Corp.：在尼日利亚出现在 1 个项目中。例：2018 年 Peiyang Chemical Corp. commits 70% financing for Edo Modular Refinery
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：尼日利亚对其出口 18.32 亿美元，自其进口 130.33 亿美元
+- 印度：尼日利亚对其出口 58.69 亿美元，自其进口 43.43 亿美元
+- 美国：尼日利亚对其出口 32.38 亿美元，自其进口 55.76 亿美元
+- 荷兰：尼日利亚对其出口 48.54 亿美元，自其进口 22.04 亿美元
+- 西班牙：尼日利亚对其出口 49.05 亿美元，自其进口 10.26 亿美元
+- 法国：尼日利亚对其出口 40.10 亿美元，自其进口 6.93 亿美元
+- 加拿大：尼日利亚对其出口 28.36 亿美元，自其进口 2.98 亿美元
+- Italy：尼日利亚对其出口 24.77 亿美元，自其进口 5.90 亿美元
+- 印度尼西亚：尼日利亚对其出口 25.34 亿美元，自其进口 4.45 亿美元
+- 阿联酋：尼日利亚对其出口 10.84 亿美元，自其进口 18.69 亿美元
+- 巴西：尼日利亚对其出口 13.18 亿美元，自其进口 14.13 亿美元
+- 比利时：尼日利亚对其出口 5.65 亿美元，自其进口 20.77 亿美元
 
 ## 发布旅行建议的外国政府
 

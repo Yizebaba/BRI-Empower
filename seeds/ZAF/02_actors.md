@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 西里尔·拉马福萨（Cyril Ramaphosa）：南非现任国家元首。来源：Wikidata
+- 西里尔·拉马福萨（Cyril Ramaphosa）：南非现任政府首脑。来源：Wikidata
+- 南非议会（Parliament of South Africa）：南非的立法机构。来源：Wikidata
+- 南非储备银行（South African Reserve Bank）：南非的中央银行。来源：Wikidata
 - 南非政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

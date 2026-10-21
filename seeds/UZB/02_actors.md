@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 沙夫卡特·米尔济约耶夫（Shavkat Mirziyoyev）：乌兹别克斯坦现任国家元首。来源：Wikidata
+- 沙夫卡特·米尔济约耶夫（Shavkat Mirziyoyev）：乌兹别克斯坦现任政府首脑。来源：Wikidata
+- 乌兹别克斯坦最高会议参议院（Oliy Majlis）：乌兹别克斯坦的立法机构。来源：Wikidata
+- 乌兹别克斯坦共和国中央银行（Central Bank of Uzbekistan）：乌兹别克斯坦的中央银行。来源：Wikidata
 - 乌兹别克斯坦政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -19,6 +23,21 @@
 - 中国驻当地使领馆：在乌兹别克斯坦出现在 1 个项目中。例：2019 年 Chinese Embassy finances a course in Uzbekistan on Agriculture and SME's for Afghan citizens in 2018
 - Fuwai Hospital of China：在乌兹别克斯坦出现在 1 个项目中。例：2018 年 Fuwai Hospital of China sends a doctor of cardiac surgery to Republican Surgery Center for a medical exchange
 - China held a series of Uzbekistan：在乌兹别克斯坦出现在 1 个项目中。例：2019 年 China held a series of Uzbekistan and China training sessions to provide advanced techniques from China
+
+## 主要贸易伙伴（UN Comtrade，2024 年，本国申报）
+
+- 中国：乌兹别克斯坦对其出口 11.90 亿美元，自其进口 103.29 亿美元
+- 俄罗斯：乌兹别克斯坦对其出口 29.85 亿美元，自其进口 77.05 亿美元
+- 未列明地区：乌兹别克斯坦对其出口 92.06 亿美元，自其进口 124 万美元
+- 哈萨克斯坦：乌兹别克斯坦对其出口 12.56 亿美元，自其进口 27.62 亿美元
+- 土耳其：乌兹别克斯坦对其出口 9.82 亿美元，自其进口 16.77 亿美元
+- 韩国：乌兹别克斯坦对其出口 1988 万美元，自其进口 18.56 亿美元
+- 土库曼斯坦：乌兹别克斯坦对其出口 9534 万美元，自其进口 10.17 亿美元
+- 德国：乌兹别克斯坦对其出口 5489 万美元，自其进口 9.80 亿美元
+- 阿富汗：乌兹别克斯坦对其出口 9.22 亿美元，自其进口 4467 万美元
+- 印度：乌兹别克斯坦对其出口 1992 万美元，自其进口 8.43 亿美元
+- 吉尔吉斯斯坦：乌兹别克斯坦对其出口 5.04 亿美元，自其进口 3.27 亿美元
+- 白俄罗斯：乌兹别克斯坦对其出口 1.57 亿美元，自其进口 5.20 亿美元
 
 ## 发布旅行建议的外国政府
 

@@ -4,6 +4,9 @@
 
 ## 本国政府与机构
 
+- 艾哈迈德·沙拉（Ahmed al-Sharaa）：叙利亚现任国家元首。来源：Wikidata
+- 叙利亚人民议会（People's Assembly of Syria）：叙利亚的立法机构。来源：Wikidata
+- 敘利亞中央銀行（Central Bank of Syria）：叙利亚的中央银行。来源：Wikidata
 - 叙利亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

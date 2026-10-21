@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 凯斯·赛义德（Kais Saied）：突尼斯现任国家元首。来源：Wikidata
+- 萨拉·扎法拉尼（Sarra Zaafrani）：突尼斯现任政府首脑。来源：Wikidata
+- 國民代表大會（Assembly of the Representatives of the People）：突尼斯的立法机构。来源：Wikidata
+- 突尼斯中央银行（Central Bank of Tunisia）：突尼斯的中央银行。来源：Wikidata
 - 突尼斯政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

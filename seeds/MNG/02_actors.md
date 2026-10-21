@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 乌赫那·呼日勒苏赫（Khurelsukh Ukhnaa）：蒙古现任国家元首。来源：Wikidata
+- 尼亚木奥斯尔·乌其尔勒（Uchral Nyam-Osor）：蒙古现任政府首脑。来源：Wikidata
+- 国家大呼拉尔（State Great Khural）：蒙古的立法机构。来源：Wikidata
+- 蒙古銀行（Bank of Mongolia）：蒙古的中央银行。来源：Wikidata
 - 蒙古政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

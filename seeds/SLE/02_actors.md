@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 朱利叶斯·马达·比奥（Julius Maada Bio）：塞拉利昂现任国家元首。来源：Wikidata
+- 戴维·莫伊尼纳·森格（David Sengeh）：塞拉利昂现任政府首脑。来源：Wikidata
+- 塞拉利昂议会（Parliament of Sierra Leone）：塞拉利昂的立法机构。来源：Wikidata
+- Bank of Sierra Leone：塞拉利昂的中央银行。来源：Wikidata
 - 塞拉利昂政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

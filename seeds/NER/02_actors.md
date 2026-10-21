@@ -4,6 +4,11 @@
 
 ## 本国政府与机构
 
+- 哈苏米·马苏杜（Hassoumi Massoudou）：尼日尔现任国家元首。来源：Wikidata
+- 阿卜杜拉赫曼·奇亚尼（Abdourahamane Tiani）：尼日尔现任国家元首。来源：Wikidata
+- 阿里·拉明·泽因（Ali Lamine Zeine）：尼日尔现任政府首脑。来源：Wikidata
+- 尼日尔国民议会（National Assembly）：尼日尔的立法机构。来源：Wikidata
+- 西非国家中央银行（Central Bank of West African States）：尼日尔的中央银行。来源：Wikidata
 - 尼日尔政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -15,6 +20,21 @@
 - 中国驻当地使领馆：在尼日尔出现在 7 个项目中。例：2019 年 Chinese Embassy donates funds to support flood victims in the Mirriah Department of the Zinder Region；2019 年 Chinese Embassy and China Gezhouba Group Company donate sanitation equipment to Tillabéri；2019 年 Chinese Embassy donates a batch of batch of sports equipment to school children in the Illela Department
 - 葛洲坝集团（Gezhouba）：在尼日尔出现在 1 个项目中。例：2019 年 Chinese Embassy and China Gezhouba Group Company donate sanitation equipment to Tillabéri
 - 中国港湾工程（CHEC）：在尼日尔出现在 1 个项目中。例：2018 年 CHEC donates textbooks and other school supplies to the Kourtéré primary school in Niamey
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- Italy：尼日尔对其出口 8.59 亿美元，自其进口 824 万美元
+- 荷兰：尼日尔对其出口 6.28 亿美元，自其进口 1300 万美元
+- 中国：尼日尔对其出口 1.64 亿美元，自其进口 4.14 亿美元
+- 印度：尼日尔对其出口 66 万美元，自其进口 4.69 亿美元
+- 尼日利亚：尼日尔对其出口 3650 万美元，自其进口 3.61 亿美元
+- 新加坡：尼日尔对其出口 8886 万美元，自其进口 162 万美元
+- 英国：尼日尔对其出口 8539 万美元，自其进口 436 万美元
+- 阿联酋：尼日尔对其出口 7057 万美元，自其进口 1854 万美元
+- 泰国：尼日尔对其出口 无数据，自其进口 8301 万美元
+- 德国：尼日尔对其出口 6699 万美元，自其进口 1398 万美元
+- 法国：尼日尔对其出口 14 万美元，自其进口 7138 万美元
+- 阿尔及利亚：尼日尔对其出口 832 万美元，自其进口 6101 万美元
 
 ## 发布旅行建议的外国政府
 

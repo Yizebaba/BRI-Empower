@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 伊尔法安·阿里（Irfaan Ali）：圭亚那现任国家元首。来源：Wikidata
+- 馬克·菲利普斯（Hugo Chávez）：圭亚那现任政府首脑。来源：Wikidata
+- 圭亚那国民议会（National Assembly）：圭亚那的立法机构。来源：Wikidata
+- 圭亚那银行（Bank of Guyana）：圭亚那的中央银行。来源：Wikidata
 - 圭亚那政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

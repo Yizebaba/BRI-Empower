@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 保羅·比亞（Paul Biya）：喀麦隆现任国家元首。来源：Wikidata
+- 迪翁·恩古特·约瑟夫（Joseph Ngute）：喀麦隆现任政府首脑。来源：Wikidata
+- 议会（Parliament of Cameroon）：喀麦隆的立法机构。来源：Wikidata
+- 中非国家银行（Bank of Central African States）：喀麦隆的中央银行。来源：Wikidata
 - 喀麦隆政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -21,6 +25,21 @@
 - Chinese company：在喀麦隆出现在 1 个项目中，涉及金额约 2 万美元。例：2003 年 Chinese company donates Diesel Generator Set worth RMB 60,000 to hospital in Cameroon
 - National Health Commission of China：在喀麦隆出现在 1 个项目中。例：2021 年 National Health Commission of China donates a batch of Covid-19 medical supplies to Ministry of Health in Came
 - 中国援外医疗队：在喀麦隆出现在 1 个项目中。例：2021 年 Chinese medical team provides TCM training to Cameroon medical professionals in December 2021
+
+## 主要贸易伙伴（UN Comtrade，2023 年，本国申报）
+
+- 中国：喀麦隆对其出口 3.85 亿美元，自其进口 15.73 亿美元
+- 印度：喀麦隆对其出口 4.76 亿美元，自其进口 9.60 亿美元
+- 荷兰：喀麦隆对其出口 11.53 亿美元，自其进口 1.60 亿美元
+- 法国：喀麦隆对其出口 6.15 亿美元，自其进口 6.32 亿美元
+- 比利时：喀麦隆对其出口 1.65 亿美元，自其进口 3.67 亿美元
+- 美国：喀麦隆对其出口 5335 万美元，自其进口 4.01 亿美元
+- 德国：喀麦隆对其出口 1.32 亿美元，自其进口 2.55 亿美元
+- Italy：喀麦隆对其出口 2.20 亿美元，自其进口 1.61 亿美元
+- 印度尼西亚：喀麦隆对其出口 1.94 亿美元，自其进口 1.51 亿美元
+- 西班牙：喀麦隆对其出口 1.65 亿美元，自其进口 1.72 亿美元
+- 英国：喀麦隆对其出口 1.31 亿美元，自其进口 1.82 亿美元
+- 土耳其：喀麦隆对其出口 1.47 亿美元，自其进口 1.58 亿美元
 
 ## 发布旅行建议的外国政府
 

@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 哈桑·谢赫·马哈茂德（Hassan Sheikh Mohamud）：索马里现任国家元首。来源：Wikidata
+- 哈姆扎·阿卜迪·巴雷（Hamza Abdi Barre）：索马里现任政府首脑。来源：Wikidata
+- 索馬利亞聯邦議會（Federal Parliament of Somalia）：索马里的立法机构。来源：Wikidata
+- Central Bank of Somalia：索马里的中央银行。来源：Wikidata
 - 索马里政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

@@ -4,6 +4,9 @@
 
 ## 本国政府与机构
 
+- 戈尔达娜·斯利娅诺夫斯卡-达夫科娃（Gordana Siljanovska-Davkova）：北马其顿现任国家元首。来源：Wikidata
+- 赫里斯蒂扬·米科斯基（Hristijan Mickoski）：北马其顿现任政府首脑。来源：Wikidata
+- 北馬其頓議會（Assembly of North Macedonia）：北马其顿的立法机构。来源：Wikidata
 - 北马其顿政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -19,6 +22,21 @@
 - Chinese company ZTE：在北马其顿出现在 1 个项目中。例：2016 年 Chinese company ZTE donates 500 barrels of drinking water to Macedonia following rainstorm (Linked to projects
 - 中兴通讯（ZTE）：在北马其顿出现在 1 个项目中。例：2016 年 Chinese company ZTE donates 500 barrels of drinking water to Macedonia following rainstorm (Linked to projects
 - 国家开发银行（China Development Bank）：在北马其顿出现在 1 个项目中。例：2009 年 Ningbo Branch of China Development Bank funds Haier Street Light project in North Macedonia
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 德国：北马其顿对其出口 32.74 亿美元，自其进口 12.92 亿美元
+- 塞尔维亚：北马其顿对其出口 9.22 亿美元，自其进口 9.55 亿美元
+- 英国：北马其顿对其出口 1.32 亿美元，自其进口 16.52 亿美元
+- 中国：北马其顿对其出口 6221 万美元，自其进口 14.33 亿美元
+- 希腊：北马其顿对其出口 2.96 亿美元，自其进口 10.56 亿美元
+- 保加利亚：北马其顿对其出口 5.17 亿美元，自其进口 6.06 亿美元
+- 土耳其：北马其顿对其出口 1.46 亿美元，自其进口 8.57 亿美元
+- Italy：北马其顿对其出口 2.49 亿美元，自其进口 5.73 亿美元
+- 波兰：北马其顿对其出口 2.39 亿美元，自其进口 4.46 亿美元
+- 匈牙利：北马其顿对其出口 4.10 亿美元，自其进口 2.41 亿美元
+- 捷克：北马其顿对其出口 3.24 亿美元，自其进口 1.81 亿美元
+- 美国：北马其顿对其出口 2.48 亿美元，自其进口 2.34 亿美元
 
 ## 发布旅行建议的外国政府
 

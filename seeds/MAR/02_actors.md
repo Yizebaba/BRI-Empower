@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 穆罕默德六世（Mohammed VI of Morocco）：摩洛哥现任国家元首。来源：Wikidata
+- 法蒂玛·扎赫拉·曼苏里（Fatima Ezzahra El Mansouri）：摩洛哥现任政府首脑。来源：Wikidata
+- 摩洛哥议会（Parliament of Morocco）：摩洛哥的立法机构。来源：Wikidata
+- 摩洛哥银行（Bank Al-Maghrib）：摩洛哥的中央银行。来源：Wikidata
 - 摩洛哥政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

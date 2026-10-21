@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 阿卜杜勒-法塔赫·塞西（Abdel Fattah el-Sisi）：埃及现任国家元首。来源：Wikidata
+- 穆斯塔法·马德布利（Mostafa Madbouly）：埃及现任政府首脑。来源：Wikidata
+- 埃及议会（Parliament of Egypt）：埃及的立法机构。来源：Wikidata
+- 埃及中央銀行（Central Bank of Egypt）：埃及的中央银行。来源：Wikidata
 - 埃及政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 桑德拉·梅森（Sandra Mason）：巴巴多斯现任国家元首。来源：Wikidata
+- 米亚·莫特利（Mia Mottley）：巴巴多斯现任政府首脑。来源：Wikidata
+- 巴巴多斯议会（Parliament of Barbados）：巴巴多斯的立法机构。来源：Wikidata
+- 巴巴多斯中央银行（Central Bank of Barbados）：巴巴多斯的中央银行。来源：Wikidata
 - 巴巴多斯政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

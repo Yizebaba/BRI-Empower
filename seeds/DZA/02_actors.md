@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 阿卜杜勒马吉德·特本（Abdelmadjid Tebboune）：阿尔及利亚现任国家元首。来源：Wikidata
+- 赛菲·喀里布（Sifi Ghrieb）：阿尔及利亚现任政府首脑。来源：Wikidata
+- 阿尔及利亚议会（Parliament of Algeria）：阿尔及利亚的立法机构。来源：Wikidata
+- 阿尔及尼亚银行（Bank of Algeria）：阿尔及利亚的中央银行。来源：Wikidata
 - 阿尔及利亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

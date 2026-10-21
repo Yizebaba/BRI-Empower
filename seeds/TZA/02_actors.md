@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 薩米婭·蘇盧胡（Samia Suluhu Hassan）：坦桑尼亚现任国家元首。来源：Wikidata
+- 薩米婭·蘇盧胡（Samia Suluhu Hassan）：坦桑尼亚现任政府首脑。来源：Wikidata
+- 坦桑尼亚国民代表大会（National Assembly）：坦桑尼亚的立法机构。来源：Wikidata
+- 坦桑尼亚银行（Bank of Tanzania）：坦桑尼亚的中央银行。来源：Wikidata
 - 坦桑尼亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

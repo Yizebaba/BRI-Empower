@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 哈维尔·米莱（Javier Milei）：阿根廷现任国家元首。来源：Wikidata
+- 哈维尔·米莱（Javier Milei）：阿根廷现任政府首脑。来源：Wikidata
+- 阿根廷國會（Argentine National Congress）：阿根廷的立法机构。来源：Wikidata
+- 阿根廷共和国中央銀行（Central Bank of Argentina）：阿根廷的中央银行。来源：Wikidata
 - 阿根廷政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

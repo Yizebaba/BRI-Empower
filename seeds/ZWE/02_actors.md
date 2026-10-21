@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 埃默森·姆南加古瓦（Emmerson Mnangagwa）：津巴布韦现任国家元首。来源：Wikidata
+- 埃默森·姆南加古瓦（Emmerson Mnangagwa）：津巴布韦现任政府首脑。来源：Wikidata
+- 辛巴威議會（Parliament of Zimbabwe）：津巴布韦的立法机构。来源：Wikidata
+- 辛巴威儲備銀行（Reserve Bank of Zimbabwe）：津巴布韦的中央银行。来源：Wikidata
 - 津巴布韦政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

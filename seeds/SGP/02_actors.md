@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 尚达曼（Tharman Shanmugaratnam）：新加坡现任国家元首。来源：Wikidata
+- 黄循财（Lawrence Wong）：新加坡现任政府首脑。来源：Wikidata
+- 新加坡国会（Parliament of Singapore）：新加坡的立法机构。来源：Wikidata
+- 新加坡金融管理局（Monetary Authority of Singapore）：新加坡的中央银行。来源：Wikidata
 - 新加坡政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

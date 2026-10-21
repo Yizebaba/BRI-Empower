@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 查尔斯三世（Charles III）：安提瓜和巴布达现任国家元首。来源：Wikidata
+- 加斯顿·布朗（Gaston Browne）：安提瓜和巴布达现任政府首脑。来源：Wikidata
+- 安提瓜和巴布达议会（Parliament of Antigua and Barbuda）：安提瓜和巴布达的立法机构。来源：Wikidata
+- 东加勒比中央银行（Eastern Caribbean Central Bank）：安提瓜和巴布达的中央银行。来源：Wikidata
 - 安提瓜和巴布达政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

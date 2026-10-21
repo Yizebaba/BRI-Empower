@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 若泽·拉莫斯·奥尔塔（José Ramos-Horta）：东帝汶现任国家元首。来源：Wikidata
+- 沙纳纳·古斯芒（Xanana Gusmão）：东帝汶现任政府首脑。来源：Wikidata
+- 国民议会（National Parliament）：东帝汶的立法机构。来源：Wikidata
+- 东帝汶中央银行（Banco Central de Timor-Leste）：东帝汶的中央银行。来源：Wikidata
 - 东帝汶政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -11,8 +15,8 @@
 - 中国政府：在东帝汶出现在 38 个项目中，涉及金额约 8504 万美元。例：2003 年 Chinese Government provides $9.3 million grant for Ministry of Foreign Affairs Office Building Construction Pr；2007 年 Chinese Government provides $6.8 million grant for Presidential Palace Construction Project (Linked to Project；2012 年 Chinese Government provides $8 million grant for Customs Inspection Equipment Project
 - 中国驻当地使领馆：在东帝汶出现在 12 个项目中，涉及金额约 8 万美元。例：2021 年 Chinese embassy donates $20,000 to Centro Quesadhip Ruak Foundation；2021 年 Chinese Embassy donates USD 20,000 to Asosiasaun Café Timor；2020 年 Chinese Embassy in Timor-Leste provides 40,000 face masks to the Timor-Leste Ministry of the Interior in Augus
 - China Harbor Engineering：在东帝汶出现在 1 个项目中，涉及金额约 2 万美元。例：2021 年 China Harbor Engineering donates anti-epidemic supplies to SAMES Timor-Leste in March 2021
-- 中国机械设备工程（CMEC）：在东帝汶出现在 1 个项目中。例：2006 年 China's CMEC donates 4500 tons of rice and 50 tons of oil to Timor-Leste
 - China's CMEC：在东帝汶出现在 1 个项目中。例：2006 年 China's CMEC donates 4500 tons of rice and 50 tons of oil to Timor-Leste
+- 中国机械设备工程（CMEC）：在东帝汶出现在 1 个项目中。例：2006 年 China's CMEC donates 4500 tons of rice and 50 tons of oil to Timor-Leste
 - 2014: China：在东帝汶出现在 1 个项目中。例：2014 年 2014: China donates medical supplies to National Hospital of Timor Leste (Linked with #38110)
 - 2012: China：在东帝汶出现在 1 个项目中。例：2012 年 2012: China donates medical supplies to National Hospital of Timor Leste (Linked with #38110)
 - LongPing High-Tech Agricultural Co Ltd：在东帝汶出现在 1 个项目中。例：2011 年 LongPing High-Tech Agricultural Co Ltd donates agricultural equipment to Timor-Leste for Phase II of the Hybri

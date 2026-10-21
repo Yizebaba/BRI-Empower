@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 塔米姆·本·哈马德·阿勒萨尼（Tamim bin Hamad Al Thani）：卡塔尔现任国家元首。来源：Wikidata
+- 穆罕默德·本·阿卜杜勒拉赫曼·阿勒萨尼（Mohammed bin Abdulrahman Al Thani）：卡塔尔现任政府首脑。来源：Wikidata
+- 协商会议（Consultative Assembly of Qatar）：卡塔尔的立法机构。来源：Wikidata
+- Qatar Central Bank：卡塔尔的中央银行。来源：Wikidata
 - 卡塔尔政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

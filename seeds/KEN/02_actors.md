@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 威廉·鲁托（William Ruto）：肯尼亚现任国家元首。来源：Wikidata
+- 威廉·鲁托（William Ruto）：肯尼亚现任政府首脑。来源：Wikidata
+- 肯尼亚议会（Parliament of Kenya）：肯尼亚的立法机构。来源：Wikidata
+- 肯尼亚中央银行（Central Bank of Kenya）：肯尼亚的中央银行。来源：Wikidata
 - 肯尼亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -25,6 +29,21 @@
 - Chinese Peace Ark：在肯尼亚出现在 1 个项目中。例：2010 年 Chinese Peace Ark offers free medical service to Kenya
 - STECOL Corporation：在肯尼亚出现在 1 个项目中。例：2018 年 STECOL Corporation donates water storage tank to Kitoo Primary School in Kenya 
 - 中国铁建（CRCC）：在肯尼亚出现在 1 个项目中。例：2018 年 China Railway Construction Corporation branch offers emergency assistance to reopen road in Kenya
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：肯尼亚对其出口 1.31 亿美元，自其进口 51.91 亿美元
+- 阿联酋：肯尼亚对其出口 6.01 亿美元，自其进口 25.07 亿美元
+- 印度：肯尼亚对其出口 1.06 亿美元，自其进口 22.66 亿美元
+- 美国：肯尼亚对其出口 6.16 亿美元，自其进口 10.56 亿美元
+- 乌干达：肯尼亚对其出口 12.49 亿美元，自其进口 3.56 亿美元
+- 日本：肯尼亚对其出口 4986 万美元，自其进口 10.91 亿美元
+- 马来西亚：肯尼亚对其出口 1441 万美元，自其进口 11.08 亿美元
+- 沙特阿拉伯：肯尼亚对其出口 1.30 亿美元，自其进口 7.71 亿美元
+- 坦桑尼亚：肯尼亚对其出口 4.86 亿美元，自其进口 3.85 亿美元
+- 巴基斯坦：肯尼亚对其出口 5.84 亿美元，自其进口 2.37 亿美元
+- 英国：肯尼亚对其出口 4.64 亿美元，自其进口 3.03 亿美元
+- 荷兰：肯尼亚对其出口 5.33 亿美元，自其进口 1.61 亿美元
 
 ## 发布旅行建议的外国政府
 

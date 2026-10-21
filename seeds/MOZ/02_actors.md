@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 丹尼尔·查波（Daniel Chapo）：莫桑比克现任国家元首。来源：Wikidata
+- Maria Benvinda Levy：莫桑比克现任政府首脑。来源：Wikidata
+- 共和国议会（Assembly of the Republic）：莫桑比克的立法机构。来源：Wikidata
+- 莫桑比克银行（Bank of Mozambique）：莫桑比克的中央银行。来源：Wikidata
 - 莫桑比克政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -16,6 +20,21 @@
 - 中国石油天然气集团（CNPC）：在莫桑比克出现在 4 个项目中，涉及金额约 6 万美元。例：2020 年 CNPC donates 100,000 surgical masks to Mozambique's Ministry of Health；2020 年 CNPC donates 40,000 masks to Mozambique's Ministry of Mineral Resources and Energy (linked to #92129)；2020 年 CNPC donates 15,000 masks to Mozambique INP (linked to #92130)
 - Sichuan Province Government：在莫桑比克出现在 1 个项目中，涉及金额约 2 万美元。例：2020 年 Sichuan Province Government donates anti-epidemic supplies to Maputo Central Hospital
 - Chinese Defense Ministry：在莫桑比克出现在 1 个项目中。例：2020 年 Chinese Defense Ministry provides donation of 13 tons of medical equipment to Maputo Hospital
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 南非：莫桑比克对其出口 9.84 亿美元，自其进口 26.15 亿美元
+- 印度：莫桑比克对其出口 16.02 亿美元，自其进口 6.18 亿美元
+- 中国：莫桑比克对其出口 6.42 亿美元，自其进口 14.84 亿美元
+- 阿联酋：莫桑比克对其出口 1.55 亿美元，自其进口 7.73 亿美元
+- 英国：莫桑比克对其出口 6.50 亿美元，自其进口 6366 万美元
+- 新加坡：莫桑比克对其出口 5.58 亿美元，自其进口 1.45 亿美元
+- 韩国：莫桑比克对其出口 4.99 亿美元，自其进口 5144 万美元
+- 日本：莫桑比克对其出口 2.44 亿美元，自其进口 2.07 亿美元
+- 阿曼：莫桑比克对其出口 547 万美元，自其进口 4.24 亿美元
+- 马来西亚：莫桑比克对其出口 3323 万美元，自其进口 3.87 亿美元
+- 越南：莫桑比克对其出口 2.85 亿美元，自其进口 1.26 亿美元
+- 澳大利亚：莫桑比克对其出口 13 万美元，自其进口 4.11 亿美元
 
 ## 发布旅行建议的外国政府
 

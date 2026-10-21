@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 米丽娅姆·斯皮泰里·德博诺（Myriam Spiteri Debono）：马耳他现任国家元首。来源：Wikidata
+- 羅伯特·阿貝拉（Robert Abela）：马耳他现任政府首脑。来源：Wikidata
+- 马耳他议会（Parliament of Malta）：马耳他的立法机构。来源：Wikidata
+- 马耳他中央银行（Central Bank of Malta）：马耳他的中央银行。来源：Wikidata
 - 马耳他政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

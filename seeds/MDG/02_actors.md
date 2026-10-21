@@ -4,6 +4,11 @@
 
 ## 本国政府与机构
 
+- 安德里·拉乔利纳（Andry Rajoelina）：马达加斯加现任国家元首。来源：Wikidata
+- 米夏埃爾·蘭德里亞尼里納（Michael Randrianirina）：马达加斯加现任国家元首。来源：Wikidata
+- 马米蒂亚纳·拉乔纳里松（Mamitiana Rajaonarison）：马达加斯加现任政府首脑。来源：Wikidata
+- 马达加斯加议会（Parliament of Madagascar）：马达加斯加的立法机构。来源：Wikidata
+- 马达加斯加中央银行（Central Bank of Madagascar）：马达加斯加的中央银行。来源：Wikidata
 - 马达加斯加政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -15,6 +20,21 @@
 - 中国驻当地使领馆：在马达加斯加出现在 11 个项目中，涉及金额约 6183 美元。例：2018 年 Chinese Embassy donates office supplies worth 19 million Ariary to Morondava District City Government；2016 年 Chinese Embassy donates office supplies to Madagascar’s Ministry of Foreign Affairs；2016 年 Chinese Embassy donates office supplies to Madagascar’s Ministry of Culture
 - 汉办 / 孔子学院总部（Hanban）：在马达加斯加出现在 3 个项目中。例：2014 年 Hanban provides grant to support establishment of Confucius Institute at Toamasina University.；2007 年 Hanban provides grant for establishment of Confucius Institute at Antananarivo University；2018 年 Hanban funds Confucius Classroom at Ecole de la Francophonie Primary School
 - Chinese Government dispatch 11 optometry experts to：在马达加斯加出现在 1 个项目中。例：2017 年 Chinese Government dispatch 11 optometry experts to support the Light Action Campaign (Linked to Project ID#60
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：马达加斯加对其出口 2.03 亿美元，自其进口 13.29 亿美元
+- 法国：马达加斯加对其出口 4.46 亿美元，自其进口 2.88 亿美元
+- 阿曼：马达加斯加对其出口 45 万美元，自其进口 6.46 亿美元
+- 美国：马达加斯加对其出口 3.95 亿美元，自其进口 1.11 亿美元
+- 印度：马达加斯加对其出口 1.38 亿美元，自其进口 3.57 亿美元
+- 南非：马达加斯加对其出口 9488 万美元，自其进口 2.04 亿美元
+- 阿联酋：马达加斯加对其出口 2845 万美元，自其进口 2.56 亿美元
+- 巴基斯坦：马达加斯加对其出口 402 万美元，自其进口 2.65 亿美元
+- 日本：马达加斯加对其出口 1.71 亿美元，自其进口 5452 万美元
+- 马来西亚：马达加斯加对其出口 915 万美元，自其进口 2.10 亿美元
+- 荷兰：马达加斯加对其出口 1.53 亿美元，自其进口 3687 万美元
+- 韩国：马达加斯加对其出口 1.29 亿美元，自其进口 5328 万美元
 
 ## 发布旅行建议的外国政府
 

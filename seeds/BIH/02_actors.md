@@ -4,6 +4,12 @@
 
 ## 本国政府与机构
 
+- 泽利科·科姆希奇（Željko Komšić）：波黑现任国家元首。来源：Wikidata
+- 热莉卡·茨维亚诺维奇（Željka Cvijanović）：波黑现任国家元首。来源：Wikidata
+- 戴尼斯·贝契罗维奇（Denis Bećirović）：波黑现任国家元首。来源：Wikidata
+- 博里亚娜·克里什托（Borjana Krišto）：波黑现任政府首脑。来源：Wikidata
+- 波斯尼亚和黑塞哥维那议会（Parliamentary Assembly of Bosnia and Herzegovina）：波黑的立法机构。来源：Wikidata
+- 波斯尼亚和黑塞哥维那中央银行（Central Bank of Bosnia and Herzegovina）：波黑的中央银行。来源：Wikidata
 - 波黑政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -16,6 +22,21 @@
 - 中国驻当地使领馆：在波黑出现在 4 个项目中，涉及金额约 4 万美元。例：2021 年 Chinese Embassy provides anti-pandemic supplies to Zenica State Hospital in December 2021；2021 年 Chinese Embassy provides personal protective equipment to Mostar City Health Center in Bosnia and Herzegovina ；2021 年 Chinese Embassy provides anti-pandemic supplies to the Foundation for Shared Societies and Values of Bosnia an
 - 汉办 / 孔子学院总部（Hanban）：在波黑出现在 3 个项目中。例：2015 年 Hanban funds establishment of Confucius Institute at University of Sarajevo；2019 年 Hanban grants 4 Primary and Secondary Schools 10 Chinese Language Teachers in Republika Srpska, Bosnia in 2019；2015 年 Hanban commits to provide Chinese teachers to University of Sorojevo in 2015
 - Sinopharm：在波黑出现在 1 个项目中。例：2021 年 Sinopharm donates 36 boxes of anti-epidemic materials to Sveti Hospital in January 2021
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 德国：波黑对其出口 14.09 亿美元，自其进口 19.82 亿美元
+- 克罗地亚：波黑对其出口 17.73 亿美元，自其进口 14.86 亿美元
+- 塞尔维亚：波黑对其出口 11.61 亿美元，自其进口 18.38 亿美元
+- Italy：波黑对其出口 7.35 亿美元，自其进口 20.47 亿美元
+- 中国：波黑对其出口 1807 万美元，自其进口 18.64 亿美元
+- 奥地利：波黑对其出口 8.96 亿美元，自其进口 5.98 亿美元
+- 斯洛文尼亚：波黑对其出口 8.11 亿美元，自其进口 6.10 亿美元
+- 土耳其：波黑对其出口 2.39 亿美元，自其进口 9.51 亿美元
+- 波兰：波黑对其出口 1.30 亿美元，自其进口 5.52 亿美元
+- 匈牙利：波黑对其出口 1.68 亿美元，自其进口 4.05 亿美元
+- 捷克：波黑对其出口 2.03 亿美元，自其进口 3.11 亿美元
+- 法国：波黑对其出口 1.95 亿美元，自其进口 3.14 亿美元
 
 ## 发布旅行建议的外国政府
 

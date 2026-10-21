@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 阿努拉·库马拉·迪萨纳亚克（Anura Kurankan Dissanayake）：斯里兰卡现任国家元首。来源：Wikidata
+- 哈里妮·阿马拉苏里亚（Harini Amarasuriya）：斯里兰卡现任政府首脑。来源：Wikidata
+- 斯里蘭卡國會（Parliament of Sri Lanka）：斯里兰卡的立法机构。来源：Wikidata
+- 斯里蘭卡中央銀行（Central Bank of Sri Lanka）：斯里兰卡的中央银行。来源：Wikidata
 - 斯里兰卡政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

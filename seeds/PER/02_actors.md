@@ -4,6 +4,9 @@
 
 ## 本国政府与机构
 
+- 藤森惠子（Keiko Fujimori）：秘鲁现任国家元首。来源：Wikidata
+- 共和国国会（Congress of the Republic of Peru）：秘鲁的立法机构。来源：Wikidata
+- 秘鲁中央储备银行（Central Reserve Bank of Peru）：秘鲁的中央银行。来源：Wikidata
 - 秘鲁政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

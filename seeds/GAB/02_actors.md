@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 布里斯·克洛泰尔·奥利吉·恩圭马（Brice Clotaire Oligui Nguema）：加蓬现任国家元首。来源：Wikidata
+- 雷蒙·恩东·希马（Raymond Ndong Sima）：加蓬现任政府首脑。来源：Wikidata
+- 加蓬议会（Parliament of Gabon）：加蓬的立法机构。来源：Wikidata
+- 中非国家银行（Bank of Central African States）：加蓬的中央银行。来源：Wikidata
 - 加蓬政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -17,6 +21,21 @@
 - Gabon：在加蓬出现在 1 个项目中，涉及金额约 1099 万美元。例：2009 年 Gabon and China sign 50 million RMB Economic and Technical Agreement for Stade de l’Amitié (Linked to ID#60470
 - China Embassy in Gabon：在加蓬出现在 1 个项目中。例：2018 年 China Embassy in Gabon donates books for Wenhui Library at African Management University
 - 中国驻当地使领馆：在加蓬出现在 1 个项目中。例：2018 年 Chinese Embassy donates educational materials to the Sino-Gabonese Pilot School
+
+## 主要贸易伙伴（UN Comtrade，2023 年，本国申报）
+
+- 中国：加蓬对其出口 35.16 亿美元，自其进口 4.90 亿美元
+- 法国：加蓬对其出口 13.41 亿美元，自其进口 5.49 亿美元
+- 荷兰：加蓬对其出口 7.24 亿美元，自其进口 1.02 亿美元
+- 西班牙：加蓬对其出口 7.55 亿美元，自其进口 6652 万美元
+- 印度：加蓬对其出口 5.88 亿美元，自其进口 1.64 亿美元
+- Israel：加蓬对其出口 6.80 亿美元，自其进口 586 万美元
+- Italy：加蓬对其出口 5.94 亿美元，自其进口 7832 万美元
+- 马来西亚：加蓬对其出口 6.31 亿美元，自其进口 3119 万美元
+- 韩国：加蓬对其出口 6305 万美元，自其进口 5.60 亿美元
+- 印度尼西亚：加蓬对其出口 5.73 亿美元，自其进口 2348 万美元
+- 刚果（布）：加蓬对其出口 5.74 亿美元，自其进口 1012 万美元
+- 美国：加蓬对其出口 1.63 亿美元，自其进口 3.18 亿美元
 
 ## 发布旅行建议的外国政府
 

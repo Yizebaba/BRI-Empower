@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 雅科夫·米拉托维奇（Jakov Milatović）：黑山现任国家元首。来源：Wikidata
+- 米洛伊科·斯帕伊奇（Milojko Spajić）：黑山现任政府首脑。来源：Wikidata
+- 黑山国会（Parliament of Montenegro）：黑山的立法机构。来源：Wikidata
+- 蒙特内哥罗中央银行（Central Bank of Montenegro）：黑山的中央银行。来源：Wikidata
 - 黑山政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -15,6 +19,21 @@
 - 汉办 / 孔子学院总部（Hanban）：在黑山出现在 1 个项目中。例：2014 年 Hanban funds establishment of Confucius Institute at the University of Montenegro
 - 中国驻当地使领馆：在黑山出现在 1 个项目中。例：2013 年 Chinese Embassy donates computers, printers, sports equipment, and school supplies to Ivović Elementary School
 - Chinese National Administration of Traditional Chinese Medicine：在黑山出现在 1 个项目中。例：2017 年 Chinese National Administration of Traditional Chinese Medicine establishes the China-Montenegro Traditional C
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 塞尔维亚：黑山对其出口 1.95 亿美元，自其进口 9.96 亿美元
+- 中国：黑山对其出口 1926 万美元，自其进口 7.02 亿美元
+- 德国：黑山对其出口 1390 万美元，自其进口 5.79 亿美元
+- 波黑：黑山对其出口 7260 万美元，自其进口 3.23 亿美元
+- Italy：黑山对其出口 2018 万美元，自其进口 3.35 亿美元
+- 克罗地亚：黑山对其出口 1263 万美元，自其进口 3.10 亿美元
+- 土耳其：黑山对其出口 1988 万美元，自其进口 2.76 亿美元
+- 希腊：黑山对其出口 511 万美元，自其进口 2.74 亿美元
+- 瑞士：黑山对其出口 3475 万美元，自其进口 1.43 亿美元
+- 阿尔巴尼亚：黑山对其出口 3552 万美元，自其进口 1.21 亿美元
+- 法国：黑山对其出口 436 万美元，自其进口 1.40 亿美元
+- 波兰：黑山对其出口 3270 万美元，自其进口 1.10 亿美元
 
 ## 发布旅行建议的外国政府
 

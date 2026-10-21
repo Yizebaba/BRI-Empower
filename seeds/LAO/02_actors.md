@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 通伦·西苏里（Thongloun Sisoulith）：老挝现任国家元首。来源：Wikidata
+- 宋赛·西潘敦（Sonexay Siphandone）：老挝现任政府首脑。来源：Wikidata
+- 国民议会 (老挝)（National Assembly）：老挝的立法机构。来源：Wikidata
+- 老挝人民民主共和国银行（Bank of the Lao P.D.R.）：老挝的中央银行。来源：Wikidata
 - 老挝政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -28,21 +32,6 @@
 - Laos-China Railway Company：在老挝出现在 1 个项目中，涉及金额约 10 万美元。例：2018 年 Laos-China Railway Company donates cash and supplies worth ₭800 million LAK to flood victims in the Sanamxay d
 - All-China Women's Federation：在老挝出现在 2 个项目中，涉及金额约 8 万美元。例：2004 年 All-China Women's Federation donates 36,144 USD worth of items to Lao Women Union；2018 年 All-China Women's Federation donates materials to the Lao Women's Union
 - People's Liberation Army：在老挝出现在 4 个项目中，涉及金额约 8 万美元。例：2019 年 People's Liberation Army donates medications and medical equipment worth RMB 500,000 (Linked to Project ID#886；2018 年 People's Liberation Army provides free medical services in Vientiane and aid to flood victims in the Sanamxay ；2019 年 People's Liberation Army provides medical assistance under the Peace Train-2019 (Linked to Project ID#88757 an
-
-## 主要贸易伙伴（UN Comtrade，2023 年，本国申报）
-
-- 中国：老挝对其出口 23.10 亿美元，自其进口 21.09 亿美元
-- 泰国：老挝对其出口 7.92 亿美元，自其进口 29.48 亿美元
-- 越南：老挝对其出口 12.04 亿美元，自其进口 3.17 亿美元
-- 未列明地区：老挝对其出口 4.71 亿美元，自其进口 6.95 亿美元
-- 澳大利亚：老挝对其出口 3.47 亿美元，自其进口 8070 万美元
-- 美国：老挝对其出口 9919 万美元，自其进口 2.04 亿美元
-- 日本：老挝对其出口 9764 万美元，自其进口 1.49 亿美元
-- 新加坡：老挝对其出口 8557 万美元，自其进口 7788 万美元
-- 德国：老挝对其出口 9506 万美元，自其进口 2759 万美元
-- 印度：老挝对其出口 8293 万美元，自其进口 2526 万美元
-- 瑞士：老挝对其出口 5892 万美元，自其进口 4756 万美元
-- 中国香港：老挝对其出口 7340 万美元，自其进口 1646 万美元
 
 ## 发布旅行建议的外国政府
 

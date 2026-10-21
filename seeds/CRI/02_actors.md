@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 劳拉·费尔南德斯（Laura Fernández Delgado）：哥斯达黎加现任国家元首。来源：Wikidata
+- 劳拉·费尔南德斯（Laura Fernández Delgado）：哥斯达黎加现任政府首脑。来源：Wikidata
+- 哥斯達黎加立法大會（Legislative Assembly of Costa Rica）：哥斯达黎加的立法机构。来源：Wikidata
+- 哥斯达黎加中央银行（Central Bank of Costa Rica）：哥斯达黎加的中央银行。来源：Wikidata
 - 哥斯达黎加政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

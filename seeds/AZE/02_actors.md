@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 伊利哈姆·阿利耶夫（Ilham Aliyev）：阿塞拜疆现任国家元首。来源：Wikidata
+- 阿里·阿薩多夫（Ali Asadov）：阿塞拜疆现任政府首脑。来源：Wikidata
+- 国民议会（National Assembly of Azerbaijan）：阿塞拜疆的立法机构。来源：Wikidata
+- 阿塞拜疆中央銀行（Central Bank of Azerbaijan）：阿塞拜疆的中央银行。来源：Wikidata
 - 阿塞拜疆政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -16,6 +20,21 @@
 - CICETE：在阿塞拜疆出现在 1 个项目中，涉及金额约 1299 万美元。例：2016 年 CICETE provides $11 million grant for Educational Equipment Project
 - 中国商务部（MOFCOM）：在阿塞拜疆出现在 1 个项目中，涉及金额约 329 万美元。例：2019 年 China Ministry of Commerce grants USD 2.293 million for mobile energy stations in Nakhchivan, Azerbaijan
 - 汉办 / 孔子学院总部（Hanban）：在阿塞拜疆出现在 3 个项目中。例：2011 年 Hanban establishes a Confucius Institute at Baku State University；2016 年 Hanban establishes a Confucius Institute at the Azerbaijan University of Languages；2017 年 Hanban establishes Chinese Language Center at Azerbaijan State Academy of Fine Arts
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- Italy：阿塞拜疆对其出口 113.42 亿美元，自其进口 5.18 亿美元
+- 土耳其：阿塞拜疆对其出口 33.77 亿美元，自其进口 23.41 亿美元
+- 俄罗斯：阿塞拜疆对其出口 11.84 亿美元，自其进口 37.35 亿美元
+- 中国：阿塞拜疆对其出口 8436 万美元，自其进口 47.90 亿美元
+- 瑞士：阿塞拜疆对其出口 4.80 亿美元，自其进口 12.93 亿美元
+- 美国：阿塞拜疆对其出口 6192 万美元，自其进口 14.96 亿美元
+- 德国：阿塞拜疆对其出口 5.50 亿美元，自其进口 8.19 亿美元
+- 英国：阿塞拜疆对其出口 3.43 亿美元，自其进口 7.98 亿美元
+- 澳大利亚：阿塞拜疆对其出口 45 万美元，自其进口 8.95 亿美元
+- 格鲁吉亚：阿塞拜疆对其出口 7.13 亿美元，自其进口 1.68 亿美元
+- 希腊：阿塞拜疆对其出口 8.33 亿美元，自其进口 3941 万美元
+- 保加利亚：阿塞拜疆对其出口 8.12 亿美元，自其进口 2740 万美元
 
 ## 发布旅行建议的外国政府
 

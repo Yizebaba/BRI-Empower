@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 米沙勒·艾哈迈德·贾比尔·萨巴赫（Mishal Al-Ahmad Al-Jaber Al-Sabah）：科威特现任国家元首。来源：Wikidata
+- 贾比尔·穆巴拉克·哈马德·萨巴赫（Sabah Al-Khalid Al-Sabah）：科威特现任政府首脑。来源：Wikidata
+- 科威特国民议会（National Assembly of Kuwait）：科威特的立法机构。来源：Wikidata
+- 科威特中央银行（Central Bank of Kuwait）：科威特的中央银行。来源：Wikidata
 - 科威特政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

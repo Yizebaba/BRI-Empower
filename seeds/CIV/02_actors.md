@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 阿拉萨内·瓦塔拉（Alassane Ouattara）：科特迪瓦现任国家元首。来源：Wikidata
+- 罗贝尔·伯格雷·芒贝（Robert Beugré Mambé）：科特迪瓦现任政府首脑。来源：Wikidata
+- 议会 (科特迪瓦)（Parliament of Ivory Coast）：科特迪瓦的立法机构。来源：Wikidata
+- 西非国家中央银行（Central Bank of West African States）：科特迪瓦的中央银行。来源：Wikidata
 - 科特迪瓦政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -17,6 +21,21 @@
 - 汉办 / 孔子学院总部（Hanban）：在科特迪瓦出现在 1 个项目中。例：2015 年 Hanban provides grant for establishment of Confucius Institute at Félix Houphouët-Boigny University 
 - China Road & Bridge Company：在科特迪瓦出现在 1 个项目中。例：2018 年 China Road & Bridge Company donates primary school building and school supplies in Cote d'Ivoire
 - China-Foreign Language Exchange：在科特迪瓦出现在 1 个项目中。例：2021 年 China-Foreign Language Exchange and Cooperation Center signs agreement to dispatch team of Chinese teachers to
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：科特迪瓦对其出口 11.36 亿美元，自其进口 37.56 亿美元
+- 瑞士：科特迪瓦对其出口 42.67 亿美元，自其进口 5914 万美元
+- 荷兰：科特迪瓦对其出口 37.15 亿美元，自其进口 4.09 亿美元
+- 法国：科特迪瓦对其出口 15.03 亿美元，自其进口 12.50 亿美元
+- 美国：科特迪瓦对其出口 15.73 亿美元，自其进口 9.54 亿美元
+- 越南：科特迪瓦对其出口 15.80 亿美元，自其进口 7.42 亿美元
+- 尼日利亚：科特迪瓦对其出口 1.33 亿美元，自其进口 19.49 亿美元
+- 马里：科特迪瓦对其出口 16.75 亿美元，自其进口 1.79 亿美元
+- 印度：科特迪瓦对其出口 6.69 亿美元，自其进口 10.74 亿美元
+- 比利时：科特迪瓦对其出口 13.55 亿美元，自其进口 3.40 亿美元
+- 德国：科特迪瓦对其出口 11.95 亿美元，自其进口 4.82 亿美元
+- 西班牙：科特迪瓦对其出口 9.31 亿美元，自其进口 3.85 亿美元
 
 ## 国际与多边机构
 

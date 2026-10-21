@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 丹尼尔·奥尔特加（Daniel Ortega）：尼加拉瓜现任国家元首。来源：Wikidata
+- 丹尼尔·奥尔特加（Daniel Ortega）：尼加拉瓜现任政府首脑。来源：Wikidata
+- 尼加拉瓜国民议会（Asamblea Nacional de Nicaragua）：尼加拉瓜的立法机构。来源：Wikidata
+- 尼加拉瓜中央银行（Central Bank of Nicaragua）：尼加拉瓜的中央银行。来源：Wikidata
 - 尼加拉瓜政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

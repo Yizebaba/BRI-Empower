@@ -4,6 +4,9 @@
 
 ## 本国政府与机构
 
+- 海巴图拉·阿洪扎达（Hibatullah Akhundzada）：阿富汗现任国家元首。来源：Wikidata
+- 穆罕默德·哈桑·阿洪德（Mohammad Hasan Akhund）：阿富汗现任政府首脑。来源：Wikidata
+- 阿富汗中央银行（Da Afghanistan Bank）：阿富汗的中央银行。来源：Wikidata
 - 阿富汗政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

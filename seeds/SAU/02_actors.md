@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 萨勒曼·本·阿卜杜勒-阿齐兹·阿勒沙特（Salman bin Abdulaziz Al Saud）：沙特阿拉伯现任国家元首。来源：Wikidata
+- 萨勒曼·本·阿卜杜勒-阿齐兹·阿勒沙特（Salman bin Abdulaziz Al Saud）：沙特阿拉伯现任政府首脑。来源：Wikidata
+- 沙特協商會議（Consultative Assembly of Saudi Arabia）：沙特阿拉伯的立法机构。来源：Wikidata
+- 沙烏地阿拉伯貨幣局（Saudi Central Bank）：沙特阿拉伯的中央银行。来源：Wikidata
 - 沙特阿拉伯政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

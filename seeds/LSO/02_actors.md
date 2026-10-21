@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 莱齐耶三世（Letsie III of Lesotho）：莱索托现任国家元首。来源：Wikidata
+- 萨姆·马特凯恩（Sam Matekane）：莱索托现任政府首脑。来源：Wikidata
+- 莱索托议会（Parliament of Lesotho）：莱索托的立法机构。来源：Wikidata
+- 莱索托中央银行（Central Bank of Lesotho）：莱索托的中央银行。来源：Wikidata
 - 莱索托政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -15,6 +19,21 @@
 - China-Lesotho Friendship Fund：在莱索托出现在 12 个项目中，涉及金额约 2 万美元。例：2017 年 China-Lesotho Friendship Fund donates seed and fertilizer worth 100,000 M to Butha-Buthe ；2017 年 China-Lesotho Friendship Fund donates 53,000 M to Berea high school students (Linked to #72235)；2017 年 China-Lesotho Friendship Fund donates water tanks worth 30,000 M (Linked to #56630)
 - China Embassy：在莱索托出现在 2 个项目中。例：2018 年  China Embassy donates 43 braille books to Basotho Federation of Youth with Disabilities (BFYD) ；2018 年 China Embassy donates office equipment to the Senate of the Kingdom of Lesotho
 - China Women's Federation：在莱索托出现在 1 个项目中。例：2003 年 China Women's Federation donate sewing equipment to Lesotho
+
+## 主要贸易伙伴（UN Comtrade，2024 年，本国申报）
+
+- 南非：莱索托对其出口 5.88 亿美元，自其进口 14.82 亿美元
+- 比利时：莱索托对其出口 2.36 亿美元，自其进口 303 万美元
+- 中国：莱索托对其出口 3 万美元，自其进口 1.93 亿美元
+- 美国：莱索托对其出口 1.46 亿美元，自其进口 905 万美元
+- 中国台湾地区（Comtrade 记作 Other Asia, nes）：莱索托对其出口 60 万美元，自其进口 5409 万美元
+- 印度：莱索托对其出口 10 万美元，自其进口 2663 万美元
+- 日本：莱索托对其出口 190 美元，自其进口 1942 万美元
+- 德国：莱索托对其出口 728 万美元，自其进口 682 万美元
+- 博茨瓦纳：莱索托对其出口 278 万美元，自其进口 892 万美元
+- 莫桑比克：莱索托对其出口 41 万美元，自其进口 1045 万美元
+- Eswatini：莱索托对其出口 653 万美元，自其进口 341 万美元
+- 赞比亚：莱索托对其出口 11 万美元，自其进口 982 万美元
 
 ## 发布旅行建议的外国政府
 

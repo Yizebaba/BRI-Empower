@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 拉姆·昌德拉·鲍德尔（Ram Chandra Poudel）：尼泊尔现任国家元首。来源：Wikidata
+- 普什帕·卡迈勒·达哈尔（Pushpa Kamal Dahal）：尼泊尔现任政府首脑。来源：Wikidata
+- 尼泊尔联邦议会（Parliament of Nepal）：尼泊尔的立法机构。来源：Wikidata
+- 尼泊尔国家银行（Nepal Rastra Bank）：尼泊尔的中央银行。来源：Wikidata
 - 尼泊尔政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -23,21 +27,6 @@
 - Ministry of Education of China：在尼泊尔出现在 1 个项目中。例：2007 年 Ministry of Education of China funds the Confucius Institute at Kathmandu University 
 - 国家国际发展合作署（CIDCA）：在尼泊尔出现在 1 个项目中。例：2019 年 CIDCA provides grant for 50km Kathmandu to Rasuwagadi Road Project feasibility study
 - 中国驻当地使领馆：在尼泊尔出现在 1 个项目中。例：2021 年 Chinese Embassy donates internet equipment to four schools in Nepal in November 2021
-
-## 主要贸易伙伴（UN Comtrade，2025 年，镜像：各国对它的申报）
-
-- 印度：尼泊尔对其出口 19.87 亿美元，自其进口 74.50 亿美元
-- 中国：尼泊尔对其出口 3101 万美元，自其进口 23.35 亿美元
-- 美国：尼泊尔对其出口 1.33 亿美元，自其进口 1.12 亿美元
-- 新加坡：尼泊尔对其出口 475 万美元，自其进口 2.38 亿美元
-- 中国香港：尼泊尔对其出口 1725 万美元，自其进口 1.32 亿美元
-- 澳大利亚：尼泊尔对其出口 1292 万美元，自其进口 1.00 亿美元
-- 德国：尼泊尔对其出口 4271 万美元，自其进口 3633 万美元
-- 法国：尼泊尔对其出口 2102 万美元，自其进口 4099 万美元
-- 泰国：尼泊尔对其出口 76 万美元，自其进口 5696 万美元
-- 加拿大：尼泊尔对其出口 1359 万美元，自其进口 3678 万美元
-- 日本：尼泊尔对其出口 1693 万美元，自其进口 3271 万美元
-- 马来西亚：尼泊尔对其出口 139 万美元，自其进口 4404 万美元
 
 ## 发布旅行建议的外国政府
 

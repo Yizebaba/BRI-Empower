@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 塔耶·阿茨克·塞拉西（Taye Atske Selassie）：埃塞俄比亚现任国家元首。来源：Wikidata
+- 阿比·艾哈迈德·阿里（Abiy Ahmed）：埃塞俄比亚现任政府首脑。来源：Wikidata
+- 联邦议会（Federal Parliamentary Assembly）：埃塞俄比亚的立法机构。来源：Wikidata
+- 衣索比亚国家银行（National Bank of Ethiopia）：埃塞俄比亚的中央银行。来源：Wikidata
 - 埃塞俄比亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -26,6 +30,21 @@
 - 中国电建 / 水电建设集团（PowerChina / Sinohydro）：在埃塞俄比亚出现在 2 个项目中。例：2018 年 PowerChina International Group Limited donates educational supplies to Addis Hiwot Center of the Blind. ；2018 年 PowerChina donates supplies to Addis Hiwot Center of the Blind
 - Chinese ophthalmologist team：在埃塞俄比亚出现在 1 个项目中。例：2014 年 Chinese ophthalmologist team offers services and donates medical equipments to Ethiopia
 - Xuzhou Construction Machinery Group (XCMG)：在埃塞俄比亚出现在 1 个项目中。例：2017 年 Xuzhou Construction Machinery Group (XCMG) provides 41 water cellars for Ethiopian Village
+
+## 主要贸易伙伴（UN Comtrade，2023 年，本国申报）
+
+- 中国：埃塞俄比亚对其出口 1.32 亿美元，自其进口 55.72 亿美元
+- 印度：埃塞俄比亚对其出口 1.39 亿美元，自其进口 16.38 亿美元
+- 沙特阿拉伯：埃塞俄比亚对其出口 2.98 亿美元，自其进口 11.29 亿美元
+- 美国：埃塞俄比亚对其出口 2.76 亿美元，自其进口 10.81 亿美元
+- 科威特：埃塞俄比亚对其出口 576 万美元，自其进口 13.27 亿美元
+- 摩洛哥：埃塞俄比亚对其出口 274 万美元，自其进口 6.77 亿美元
+- 土耳其：埃塞俄比亚对其出口 4637 万美元，自其进口 6.20 亿美元
+- 阿联酋：埃塞俄比亚对其出口 1.64 亿美元，自其进口 4.72 亿美元
+- 日本：埃塞俄比亚对其出口 1.04 亿美元，自其进口 3.82 亿美元
+- 埃及：埃塞俄比亚对其出口 871 万美元，自其进口 4.55 亿美元
+- 英国：埃塞俄比亚对其出口 4145 万美元，自其进口 3.63 亿美元
+- 印度尼西亚：埃塞俄比亚对其出口 2345 万美元，自其进口 3.31 亿美元
 
 ## 发布旅行建议的外国政府
 

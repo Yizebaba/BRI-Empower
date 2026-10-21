@@ -4,6 +4,12 @@
 
 ## 本国政府与机构
 
+- 图伊拉埃帕·萨伊莱莱·马利埃莱额奥伊（Tuilaʻepa Saʻilele Malielegaoi）：萨摩亚现任国家元首。来源：Wikidata
+- 瓦莱托阿·苏阿劳维二世（Va'aletoa Sualauvi II）：萨摩亚现任国家元首。来源：Wikidata
+- 菲婭梅·內奧米·馬塔阿法（Fiamē Naomi Mataʻafa）：萨摩亚现任政府首脑。来源：Wikidata
+- 图伊拉埃帕·萨伊莱莱·马利埃莱额奥伊（Tuilaʻepa Saʻilele Malielegaoi）：萨摩亚现任政府首脑。来源：Wikidata
+- 萨摩亚立法大会（Legislative Assembly of Samoa）：萨摩亚的立法机构。来源：Wikidata
+- 萨摩亚中央银行（Central Bank of Samoa）：萨摩亚的中央银行。来源：Wikidata
 - 萨摩亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

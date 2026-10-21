@@ -4,6 +4,11 @@
 
 ## 本国政府与机构
 
+- 彼得·穆塔里卡（Peter Mutharika）：马拉维现任国家元首。来源：Wikidata
+- 拉扎勒斯·查克沃拉（Lazarus Chakwera）：马拉维现任国家元首。来源：Wikidata
+- 拉扎勒斯·查克沃拉（Lazarus Chakwera）：马拉维现任政府首脑。来源：Wikidata
+- 国民议会（National Assembly）：马拉维的立法机构。来源：Wikidata
+- 马拉维储备银行（Reserve Bank of Malawi）：马拉维的中央银行。来源：Wikidata
 - 马拉维政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -24,6 +29,21 @@
 - China Health：在马拉维出现在 1 个项目中。例：2017 年 China Health and Family Planning Commission sends 16 medical experts to train health officials at Malawi Minis
 - Chinese：在马拉维出现在 1 个项目中。例：2014 年 Chinese grant for Phase II of rural secondary school in Thyolo (linked to #829)
 - 国家开发银行（China Development Bank）：在马拉维出现在 1 个项目中。例：2016 年 CDB provides loan to China-Africa Cotton Malawi Limited for Cotton Planting and Purchasing Project (linked to 
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：马拉维对其出口 6328 万美元，自其进口 7.99 亿美元
+- 南非：马拉维对其出口 3993 万美元，自其进口 5.27 亿美元
+- 坦桑尼亚：马拉维对其出口 2107 万美元，自其进口 5.33 亿美元
+- 印度：马拉维对其出口 5139 万美元，自其进口 2.31 亿美元
+- 阿联酋：马拉维对其出口 1778 万美元，自其进口 2.62 亿美元
+- 比利时：马拉维对其出口 1.71 亿美元，自其进口 3923 万美元
+- 莫桑比克：马拉维对其出口 1613 万美元，自其进口 1.94 亿美元
+- 赞比亚：马拉维对其出口 2271 万美元，自其进口 1.75 亿美元
+- 日本：马拉维对其出口 321 万美元，自其进口 1.37 亿美元
+- 美国：马拉维对其出口 4253 万美元，自其进口 8631 万美元
+- 科威特：马拉维对其出口 243 美元，自其进口 9199 万美元
+- 英国：马拉维对其出口 2623 万美元，自其进口 6235 万美元
 
 ## 发布旅行建议的外国政府
 

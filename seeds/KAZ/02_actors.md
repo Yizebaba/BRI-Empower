@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 卡瑟姆若马尔特·托卡耶夫（Kassym-Jomart Tokayev）：哈萨克斯坦现任国家元首。来源：Wikidata
+- 奥尔扎斯·别克捷诺夫（Olzhas Bektenov）：哈萨克斯坦现任政府首脑。来源：Wikidata
+- 哈萨克斯坦议会（Parliament of Kazakhstan）：哈萨克斯坦的立法机构。来源：Wikidata
+- 哈萨克斯坦国家银行（National Bank of Kazakhstan）：哈萨克斯坦的中央银行。来源：Wikidata
 - 哈萨克斯坦政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -20,6 +24,21 @@
 - 中国政府：在哈萨克斯坦出现在 2 个项目中，涉及金额约 1982 万美元。例：2017 年 Chinese Government provides $17.2 million USD for the Chukurbulak Dam Construction Project on the Khorgos Rive；2011 年 Chinese Government provides a grant for 1 MW solar power plant and 5 MW wind farm
 - China's Ministry of Public Security：在哈萨克斯坦出现在 1 个项目中，涉及金额约 71 万美元。例：2007 年 China's Ministry of Public Security grants 396,000 USD in equipment for Kazakh Police
 - China's Public Security Ministry：在哈萨克斯坦出现在 1 个项目中，涉及金额约 30 万美元。例：2002 年 China's Public Security Ministry donates 1million yuan worth equipment to Kazakh police
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：哈萨克斯坦对其出口 151.96 亿美元，自其进口 189.70 亿美元
+- 俄罗斯：哈萨克斯坦对其出口 82.48 亿美元，自其进口 195.39 亿美元
+- Italy：哈萨克斯坦对其出口 156.39 亿美元，自其进口 12.79 亿美元
+- 荷兰：哈萨克斯坦对其出口 59.82 亿美元，自其进口 3.55 亿美元
+- 土耳其：哈萨克斯坦对其出口 38.97 亿美元，自其进口 15.13 亿美元
+- 法国：哈萨克斯坦对其出口 33.26 亿美元，自其进口 15.70 亿美元
+- 乌兹别克斯坦：哈萨克斯坦对其出口 34.86 亿美元，自其进口 12.79 亿美元
+- 德国：哈萨克斯坦对其出口 13.06 亿美元，自其进口 32.38 亿美元
+- 美国：哈萨克斯坦对其出口 10.32 亿美元，自其进口 21.88 亿美元
+- 韩国：哈萨克斯坦对其出口 9.28 亿美元，自其进口 22.43 亿美元
+- 罗马尼亚：哈萨克斯坦对其出口 26.27 亿美元，自其进口 1.69 亿美元
+- 希腊：哈萨克斯坦对其出口 23.49 亿美元，自其进口 8133 万美元
 
 ## 发布旅行建议的外国政府
 

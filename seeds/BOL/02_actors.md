@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 罗德里戈·帕斯·佩雷拉（Rodrigo Paz）：玻利维亚现任国家元首。来源：Wikidata
+- 罗德里戈·帕斯·佩雷拉（Rodrigo Paz）：玻利维亚现任政府首脑。来源：Wikidata
+- 多民族立法大会（Plurinational Legislative Assembly）：玻利维亚的立法机构。来源：Wikidata
+- 玻利维亚中央银行（Central Bank of Bolivia）：玻利维亚的中央银行。来源：Wikidata
 - 玻利维亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

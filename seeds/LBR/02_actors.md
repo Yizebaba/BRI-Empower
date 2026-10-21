@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 约瑟夫·博阿凯（Joseph Boakai）：利比里亚现任国家元首。来源：Wikidata
+- 约瑟夫·博阿凯（Joseph Boakai）：利比里亚现任政府首脑。来源：Wikidata
+- 利比里亚议会（Legislature of Liberia）：利比里亚的立法机构。来源：Wikidata
+- 利比里亚中央银行（Central Bank of Liberia）：利比里亚的中央银行。来源：Wikidata
 - 利比里亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -17,6 +21,21 @@
 - Chinese company CICO：在利比里亚出现在 1 个项目中。例：2012 年 Chinese company CICO donates 30 police motorcycles to Liberia
 - Confucius Institute at the University of Liberia：在利比里亚出现在 1 个项目中。例：2018 年 Confucius Institute at the University of Liberia and the Chinese Embassy in Liberia provide funding for the Li
 - CHINENGR-17：在利比里亚出现在 1 个项目中。例：2015 年 CHINENGR-17 constructs new driveway for Grand Gedeh Community College in Garloville
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：利比里亚对其出口 1183 万美元，自其进口 5.81 亿美元
+- 科特迪瓦：利比里亚对其出口 132 万美元，自其进口 5.43 亿美元
+- 印度：利比里亚对其出口 967 万美元，自其进口 4.28 亿美元
+- 土耳其：利比里亚对其出口 79 万美元，自其进口 3.88 亿美元
+- 美国：利比里亚对其出口 5932 万美元，自其进口 8337 万美元
+- 法国：利比里亚对其出口 1.15 亿美元，自其进口 1041 万美元
+- 西班牙：利比里亚对其出口 6962 万美元，自其进口 2245 万美元
+- 日本：利比里亚对其出口 无数据，自其进口 7534 万美元
+- 瑞典：利比里亚对其出口 2 万美元，自其进口 6568 万美元
+- 马来西亚：利比里亚对其出口 3163 万美元，自其进口 2656 万美元
+- 荷兰：利比里亚对其出口 1680 万美元，自其进口 4002 万美元
+- 比利时：利比里亚对其出口 3054 万美元，自其进口 2233 万美元
 
 ## 发布旅行建议的外国政府
 

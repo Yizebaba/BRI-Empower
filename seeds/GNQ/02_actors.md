@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 特奥多罗·奥比昂·恩圭马·姆巴索戈（Teodoro Obiang）：赤道几内亚现任国家元首。来源：Wikidata
+- 曼努埃尔·奥萨·恩苏埃·恩苏阿（Manuel Osa Nsue Nsua）：赤道几内亚现任政府首脑。来源：Wikidata
+- 议会（Parliament of Equatorial Guinea）：赤道几内亚的立法机构。来源：Wikidata
+- 中非国家银行（Bank of Central African States）：赤道几内亚的中央银行。来源：Wikidata
 - 赤道几内亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -25,6 +29,21 @@
 - Chinese People's Liberation Army：在赤道几内亚出现在 1 个项目中。例：2021 年 Chinese People's Liberation Army provides humanitarian supplies to Equatorial Guinea in response to the Bata e
 - Equatorial Guinea-China Chamber of Commerce：在赤道几内亚出现在 1 个项目中。例：2021 年 Equatorial Guinea-China Chamber of Commerce and other Chinese entities provide cash donation to the Government
 - China’s technical assistance project team：在赤道几内亚出现在 1 个项目中。例：2021 年 China’s technical assistance project team provides living supplies to Equatorial Guinea’s Ministry of Agricult
+
+## 主要贸易伙伴（UN Comtrade，2025 年，镜像：各国对它的申报）
+
+- 中国：赤道几内亚对其出口 7.78 亿美元，自其进口 1.76 亿美元
+- 西班牙：赤道几内亚对其出口 5.68 亿美元，自其进口 1.59 亿美元
+- 韩国：赤道几内亚对其出口 3.30 亿美元，自其进口 923 万美元
+- 荷兰：赤道几内亚对其出口 2.33 亿美元，自其进口 4313 万美元
+- Italy：赤道几内亚对其出口 2.14 亿美元，自其进口 3951 万美元
+- 美国：赤道几内亚对其出口 1.05 亿美元，自其进口 8417 万美元
+- 德国：赤道几内亚对其出口 1.49 亿美元，自其进口 3397 万美元
+- 尼日利亚：赤道几内亚对其出口 6470 万美元，自其进口 6416 万美元
+- 泰国：赤道几内亚对其出口 1.17 亿美元，自其进口 1154 万美元
+- 印度尼西亚：赤道几内亚对其出口 1.05 亿美元，自其进口 2243 万美元
+- 日本：赤道几内亚对其出口 1.23 亿美元，自其进口 222 万美元
+- 印度：赤道几内亚对其出口 9736 万美元，自其进口 2159 万美元
 
 ## 发布旅行建议的外国政府
 

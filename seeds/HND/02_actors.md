@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 拿斯利·阿斯富拉（Nasry Asfura）：洪都拉斯现任国家元首。来源：Wikidata
+- 拿斯利·阿斯富拉（Nasry Asfura）：洪都拉斯现任政府首脑。来源：Wikidata
+- 洪都拉斯国民议会（National Congress of Honduras）：洪都拉斯的立法机构。来源：Wikidata
+- 洪都拉斯中央银行（Central Bank of Honduras）：洪都拉斯的中央银行。来源：Wikidata
 - 洪都拉斯政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

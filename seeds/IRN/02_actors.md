@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 穆傑塔巴·哈梅內伊（Mojtaba Khamenei）：伊朗现任国家元首。来源：Wikidata
+- 马苏德·佩泽希齐扬（Masoud Pezeshkian）：伊朗现任政府首脑。来源：Wikidata
+- 伊朗伊斯兰会议（Islamic Consultative Assembly）：伊朗的立法机构。来源：Wikidata
+- 伊朗伊斯兰共和国中央银行（Central Bank of Iran）：伊朗的中央银行。来源：Wikidata
 - 伊朗政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

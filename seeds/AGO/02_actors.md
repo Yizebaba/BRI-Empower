@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 若昂·洛伦索（João Lourenço）：安哥拉现任国家元首。来源：Wikidata
+- 若昂·洛伦索（João Lourenço）：安哥拉现任政府首脑。来源：Wikidata
+- 安哥拉国民议会（National Assembly of Angola）：安哥拉的立法机构。来源：Wikidata
+- 安哥拉中央银行（National Bank of Angola）：安哥拉的中央银行。来源：Wikidata
 - 安哥拉政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -28,6 +32,21 @@
 - China's CITIC：在安哥拉出现在 1 个项目中。例：2013 年 China's CITIC builds CITIC Centennial Vocational School in Angola
 - China helps：在安哥拉出现在 1 个项目中。例：2007 年 China helps construct a rural school in Angola
 - China Xinjiang Bingtuan Construction：在安哥拉出现在 1 个项目中。例：2008 年 China Xinjiang Bingtuan Construction constructs CATETE farm in Angola
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 中国：安哥拉对其出口 144.89 亿美元，自其进口 34.21 亿美元
+- 印度：安哥拉对其出口 36.41 亿美元，自其进口 10.44 亿美元
+- 阿联酋：安哥拉对其出口 18.09 亿美元，自其进口 6.83 亿美元
+- 西班牙：安哥拉对其出口 18.86 亿美元，自其进口 2.85 亿美元
+- 印度尼西亚：安哥拉对其出口 19.67 亿美元，自其进口 1.47 亿美元
+- 葡萄牙：安哥拉对其出口 1.72 亿美元，自其进口 16.43 亿美元
+- 荷兰：安哥拉对其出口 12.84 亿美元，自其进口 2.99 亿美元
+- 美国：安哥拉对其出口 4.96 亿美元，自其进口 9.31 亿美元
+- 法国：安哥拉对其出口 8.75 亿美元，自其进口 5.21 亿美元
+- 英国：安哥拉对其出口 2.72 亿美元，自其进口 10.06 亿美元
+- 南非：安哥拉对其出口 6.95 亿美元，自其进口 5.06 亿美元
+- 巴西：安哥拉对其出口 4.14 亿美元，自其进口 6.23 亿美元
 
 ## 发布旅行建议的外国政府
 

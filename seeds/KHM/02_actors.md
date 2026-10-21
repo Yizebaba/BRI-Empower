@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 诺罗敦·西哈莫尼（Norodom Sihamoni）：柬埔寨现任国家元首。来源：Wikidata
+- 洪玛奈（Hun Manet）：柬埔寨现任政府首脑。来源：Wikidata
+- 柬埔寨国会（Parliament of Cambodia）：柬埔寨的立法机构。来源：Wikidata
+- 柬埔寨國家銀行（National Bank of Cambodia）：柬埔寨的中央银行。来源：Wikidata
 - 柬埔寨政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 埃莫马利·拉赫蒙（Emomali Rahmon）：塔吉克斯坦现任国家元首。来源：Wikidata
+- 科希尔·拉苏尔佐达（Kokhir Rasulzoda）：塔吉克斯坦现任政府首脑。来源：Wikidata
+- 最高议会（Supreme Assembly）：塔吉克斯坦的立法机构。来源：Wikidata
+- 塔吉克斯坦国家银行（National Bank of Tajikistan）：塔吉克斯坦的中央银行。来源：Wikidata
 - 塔吉克斯坦政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -23,6 +27,21 @@
 - 中兴通讯（ZTE）：在塔吉克斯坦出现在 1 个项目中，涉及金额约 235 万美元。例：2003 年 Chinese Government provides RMB 8 million grant for provision of switches in the Danghara region and equipment
 - 中国驻当地使领馆：在塔吉克斯坦出现在 11 个项目中。例：2018 年 Chinese Embassy donates computers, projectors, and other teaching equipment to Penjikent Pedagogical Institute；2018 年 Chinese Embassy donates communications equipment to Ministry of Foreign Affairs of Tajikistan；2018 年 Chinese Embassy donates school bags, stationery, and other school supplies to students of Kafrat School in Taj
 - 中国电建 / 水电建设集团（PowerChina / Sinohydro）：在塔吉克斯坦出现在 1 个项目中。例：2018 年 SinoHydro finances the construction of three schools in Tajikistan in 2018
+
+## 主要贸易伙伴（UN Comtrade，2023 年，本国申报）
+
+- 中国：塔吉克斯坦对其出口 3.13 亿美元，自其进口 7.75 亿美元
+- 俄罗斯：塔吉克斯坦对其出口 1.35 亿美元，自其进口 8.99 亿美元
+- 哈萨克斯坦：塔吉克斯坦对其出口 2.54 亿美元，自其进口 7.55 亿美元
+- 乌兹别克斯坦：塔吉克斯坦对其出口 1.35 亿美元，自其进口 2.89 亿美元
+- 土耳其：塔吉克斯坦对其出口 1.65 亿美元，自其进口 1.65 亿美元
+- 美国：塔吉克斯坦对其出口 19 万美元，自其进口 2.00 亿美元
+- 日本：塔吉克斯坦对其出口 87 万美元，自其进口 1.80 亿美元
+- 德国：塔吉克斯坦对其出口 54 万美元，自其进口 1.75 亿美元
+- 伊朗：塔吉克斯坦对其出口 9971 万美元，自其进口 7294 万美元
+- 韩国：塔吉克斯坦对其出口 2857 美元，自其进口 1.11 亿美元
+- 白俄罗斯：塔吉克斯坦对其出口 587 万美元，自其进口 8292 万美元
+- 印度：塔吉克斯坦对其出口 10 万美元，自其进口 7547 万美元
 
 ## 发布旅行建议的外国政府
 

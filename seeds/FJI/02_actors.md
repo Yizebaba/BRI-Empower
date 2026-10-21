@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 维利亚姆·卡托尼韦雷（Wiliame Katonivere）：斐济现任国家元首。来源：Wikidata
+- 西蒂韦尼·兰布卡（Sitiveni Rabuka）：斐济现任政府首脑。来源：Wikidata
+- 斐济议会（Parliament of Fiji）：斐济的立法机构。来源：Wikidata
+- 斐济储备银行（Reserve Bank of Fiji）：斐济的中央银行。来源：Wikidata
 - 斐济政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

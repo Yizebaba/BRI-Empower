@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 苏丹易卜拉欣·伊斯梅尔（Ibrahim Iskandar of Johor）：马来西亚现任国家元首。来源：Wikidata
+- 安瓦尔·易卜拉欣（Anwar Ibrahim）：马来西亚现任政府首脑。来源：Wikidata
+- 马来西亚国会（Parliament of Malaysia）：马来西亚的立法机构。来源：Wikidata
+- 马来西亚国家银行（Bank Negara Malaysia）：马来西亚的中央银行。来源：Wikidata
 - 马来西亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

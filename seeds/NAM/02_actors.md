@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 內通波·南迪-恩代特瓦赫（Netumbo Nandi-Ndaitwah）：纳米比亚现任国家元首。来源：Wikidata
+- Elijah Ngurare：纳米比亚现任政府首脑。来源：Wikidata
+- 纳米比亚议会（Parliament of Namibia）：纳米比亚的立法机构。来源：Wikidata
+- 纳米比亚银行（Bank of Namibia）：纳米比亚的中央银行。来源：Wikidata
 - 纳米比亚政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -19,6 +23,21 @@
 - Metallurgical Corporation of China：在纳米比亚出现在 1 个项目中，涉及金额约 8164 美元。例：2014 年 Metallurgical Corporation of China donates supplies to Namibian primary schools and charity organizations
 - 汉办 / 孔子学院总部（Hanban）：在纳米比亚出现在 1 个项目中。例：2012 年 Hanban establishes Confucius Institute at University of Namibia
 - 中国援外医疗队：在纳米比亚出现在 1 个项目中。例：2021 年 Chinese medical team in Namibia donates anti-epidemic materials to Katutura State Hospital
+
+## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
+
+- 南非：纳米比亚对其出口 16.13 亿美元，自其进口 31.73 亿美元
+- 中国：纳米比亚对其出口 10.92 亿美元，自其进口 9.31 亿美元
+- 赞比亚：纳米比亚对其出口 6.93 亿美元，自其进口 2.90 亿美元
+- 博茨瓦纳：纳米比亚对其出口 7.90 亿美元，自其进口 3094 万美元
+- 印度：纳米比亚对其出口 1.21 亿美元，自其进口 3.96 亿美元
+- 美国：纳米比亚对其出口 2.52 亿美元，自其进口 2.40 亿美元
+- 刚果（金）：纳米比亚对其出口 1.32 亿美元，自其进口 2.71 亿美元
+- 西班牙：纳米比亚对其出口 2.74 亿美元，自其进口 6986 万美元
+- 未列明地区：纳米比亚对其出口 1764 万美元，自其进口 3.12 亿美元
+- 法国：纳米比亚对其出口 2.46 亿美元，自其进口 6398 万美元
+- 阿曼：纳米比亚对其出口 6 万美元，自其进口 2.52 亿美元
+- 阿联酋：纳米比亚对其出口 1.46 亿美元，自其进口 9969 万美元
 
 ## 发布旅行建议的外国政府
 

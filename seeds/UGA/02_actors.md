@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 约韦里·穆塞韦尼（Yoweri Museveni）：乌干达现任国家元首。来源：Wikidata
+- 罗比娜·纳班贾（Nabbanja Robinah）：乌干达现任政府首脑。来源：Wikidata
+- 乌干达议会（Parliament of Uganda）：乌干达的立法机构。来源：Wikidata
+- 烏干達銀行（Bank of Uganda）：乌干达的中央银行。来源：Wikidata
 - 乌干达政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

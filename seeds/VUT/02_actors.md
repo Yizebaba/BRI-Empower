@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 尼克尼克·武罗巴拉武（Nikenike Vurobaravu）：瓦努阿图现任国家元首。来源：Wikidata
+- 鮑勃·拉夫曼（Bob Loughman）：瓦努阿图现任政府首脑。来源：Wikidata
+- 萬那杜國會（Parliament of Vanuatu）：瓦努阿图的立法机构。来源：Wikidata
+- 瓦努阿图储备银行（Reserve Bank of Vanuatu）：瓦努阿图的中央银行。来源：Wikidata
 - 瓦努阿图政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

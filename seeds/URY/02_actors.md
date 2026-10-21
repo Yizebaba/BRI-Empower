@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 亚曼杜·奥尔西（Yamandú Orsi）：乌拉圭现任国家元首。来源：Wikidata
+- 亚曼杜·奥尔西（Yamandú Orsi）：乌拉圭现任政府首脑。来源：Wikidata
+- 烏拉圭國會（General Assembly of Uruguay）：乌拉圭的立法机构。来源：Wikidata
+- 乌拉圭央行（Central Bank of Uruguay）：乌拉圭的中央银行。来源：Wikidata
 - 乌拉圭政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

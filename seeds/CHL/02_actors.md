@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 何塞·安东尼奥·卡斯特（José Antonio Kast）：智利现任国家元首。来源：Wikidata
+- 何塞·安东尼奥·卡斯特（José Antonio Kast）：智利现任政府首脑。来源：Wikidata
+- 智利國民大會（National Congress of Chile）：智利的立法机构。来源：Wikidata
+- 智利中央银行（Central Bank of Chile）：智利的中央银行。来源：Wikidata
 - 智利政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

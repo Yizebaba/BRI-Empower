@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 拉沙德·穆罕默德·阿里米（Rashad al-Alimi）：也门现任国家元首。来源：Wikidata
+- 薩利姆·薩利赫·本·布賴克（Salem Saleh bin Braik）：也门现任政府首脑。来源：Wikidata
+- 也门议会（Parliament of Yemen）：也门的立法机构。来源：Wikidata
+- Central Bank of Yemen：也门的中央银行。来源：Wikidata
 - 也门政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）

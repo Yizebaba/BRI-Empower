@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 穆罕默德·本·扎耶德·阿勒纳哈扬（Mohammed Bin Zayed Al Nahyan）：阿联酋现任国家元首。来源：Wikidata
+- 穆罕默德·本·拉希德·阿勒马克图姆（Mohammed bin Rashid Al Maktoum）：阿联酋现任政府首脑。来源：Wikidata
+- 联邦最高委员会（Federal Supreme Council）：阿联酋的立法机构。来源：Wikidata
+- 阿联酋中央银行（Central Bank of the United Arab Emirates）：阿联酋的中央银行。来源：Wikidata
 - 阿联酋政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

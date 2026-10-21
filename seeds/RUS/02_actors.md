@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 弗拉基米尔·普京（Vladimir Putin）：俄罗斯现任国家元首。来源：Wikidata
+- 米哈伊尔·米舒斯京（Mikhail Mishustin）：俄罗斯现任政府首脑。来源：Wikidata
+- 俄罗斯联邦会议（Federal Assembly of the Russian Federation）：俄罗斯的立法机构。来源：Wikidata
+- 俄羅斯銀行（Central Bank of Russia）：俄罗斯的中央银行。来源：Wikidata
 - 俄罗斯政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
@@ -27,6 +31,21 @@
 - 中国驻当地使领馆：在俄罗斯出现在 7 个项目中，涉及金额约 2 万美元。例：2020 年 Chinese Consulate General in St. Petersburg donates 30,000 medical-grade masks to the Municipal Government of ；2010 年 Chinese Consulate General in Yekaterinburg donates gifts to student representatives from Ural State University；2021 年 Chinese Consulate General in Kazan donates medical supplies to the Government of Republic of Tatarstan
 - BoC：在俄罗斯出现在 1 个项目中。例：2009 年 BoC provides loan to Gazprombank to support foreign trade transactions
 - Guangzhou Library：在俄罗斯出现在 1 个项目中。例：2017 年 Guangzhou Library donates Chinese books to Yekaterinburg Mayor's Library in 2017
+
+## 主要贸易伙伴（UN Comtrade，2025 年，镜像：各国对它的申报）
+
+- 中国：俄罗斯对其出口 1240.06 亿美元，自其进口 1034.58 亿美元
+- 印度：俄罗斯对其出口 628.65 亿美元，自其进口 44.95 亿美元
+- 土耳其：俄罗斯对其出口 423.73 亿美元，自其进口 67.25 亿美元
+- 哈萨克斯坦：俄罗斯对其出口 195.39 亿美元，自其进口 82.48 亿美元
+- 中国香港：俄罗斯对其出口 131.17 亿美元，自其进口 16.48 亿美元
+- 巴西：俄罗斯对其出口 102.86 亿美元，自其进口 15.23 亿美元
+- 韩国：俄罗斯对其出口 68.96 亿美元，自其进口 40.41 亿美元
+- 德国：俄罗斯对其出口 16.95 亿美元，自其进口 80.31 亿美元
+- 日本：俄罗斯对其出口 55.30 亿美元，自其进口 24.57 亿美元
+- 亚美尼亚：俄罗斯对其出口 46.97 亿美元，自其进口 29.16 亿美元
+- 法国：俄罗斯对其出口 45.66 亿美元，自其进口 21.37 亿美元
+- 匈牙利：俄罗斯对其出口 52.97 亿美元，自其进口 9.28 亿美元
 
 ## 发布旅行建议的外国政府
 

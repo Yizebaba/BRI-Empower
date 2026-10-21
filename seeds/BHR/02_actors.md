@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 哈迈德·本·伊萨·本·萨勒曼·阿勒哈利法（Hamad II of Bahrain）：巴林现任国家元首。来源：Wikidata
+- 萨勒曼·本·哈迈德·本·伊萨·阿勒哈利法（Salman bin Hamad, Crown Prince of Bahrain）：巴林现任政府首脑。来源：Wikidata
+- 巴林国民议会（National Assembly of Bahrain）：巴林的立法机构。来源：Wikidata
+- 巴林中央银行（Central Bank of Bahrain）：巴林的中央银行。来源：Wikidata
 - 巴林政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 发布旅行建议的外国政府

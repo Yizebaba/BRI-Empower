@@ -4,6 +4,10 @@
 
 ## 本国政府与机构
 
+- 查尔斯三世（Charles III）：格林纳达现任国家元首。来源：Wikidata
+- 迪康·米切尔（Dickon Mitchell）：格林纳达现任政府首脑。来源：Wikidata
+- 格林纳达议会（Parliament of Grenada）：格林纳达的立法机构。来源：Wikidata
+- 东加勒比中央银行（Eastern Caribbean Central Bank）：格林纳达的中央银行。来源：Wikidata
 - 格林纳达政府各部门：AidData 记录中的借款方、受援方和项目实施方。
 
 ## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）
