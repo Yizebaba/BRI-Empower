@@ -12,6 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/logistics.py
+      - run: python3 tools/chokepoints_land.py
+        continue-on-error: true
       - run: python3 tools/seed_docs.py
       - name: Commit
         run: |

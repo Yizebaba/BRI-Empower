@@ -324,6 +324,21 @@
     "cadence": "Weekly (needs an approved appname; skipped otherwise)",
     "use": "Excerpts of the latest humanitarian reports per country (seed documents)"
    }
+  },
+  {
+   "id": "landchoke",
+   "name": "航空、铁路、公路咽喉要道（30 个口岸和枢纽）",
+   "url": "https://github.com/Yizebaba/BRI-Empower/blob/main/tools/chokepoints_land.py",
+   "license": "新闻标题版权归原媒体；灾害数据见 USGS、GDACS、NASA；机场状态见 World Monitor",
+   "cadence": "每天两次",
+   "use": "中欧班列口岸、主要公路口岸、航空枢纽近 7 天的中断类报道、100 km 内灾害、机场状态",
+   "how": "tools/chokepoints_land.py（Google 新闻 RSS + data/country_live.json + data/wm.json）",
+   "en": {
+    "name": "Air, rail and road chokepoints (30 crossings and hubs)",
+    "license": "Headlines © publishers; hazards from USGS, GDACS, NASA; airport status from World Monitor",
+    "cadence": "Twice daily",
+    "use": "Disruption reports in the last 7 days, hazards within 100 km and airport status for China–Europe rail crossings, key road border posts and air hubs"
+   }
   }
  ]
 }
