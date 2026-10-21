@@ -14,8 +14,4 @@ jobs:
       - run: pip install -q shapely
       - run: python3 tools/chokepoints_land.py
       - name: Commit
-        run: |
-          git config user.name "bri-bot"; git config user.email "bri-bot@users.noreply.github.com"
-          git add data/chokepoints_land.json; git diff --cached --quiet && exit 0
-          git commit -qm "chokepoints $(date -u +%F)"
-          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done
+        run: bash tools/push_data.sh "chokepoints $(date -u +%F)" data/chokepoints_land.json

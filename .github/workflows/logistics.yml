@@ -12,10 +12,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/logistics.py
-      - run: python3 tools/seed_docs.py
       - name: Commit
-        run: |
-          git config user.name "bri-bot"; git config user.email "bri-bot@users.noreply.github.com"
-          git add data seeds; git diff --cached --quiet && exit 0
-          git commit -qm "logistics $(date -u +%F)"
-          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+        run: bash tools/push_data.sh "logistics $(date -u +%F)" data/logistics.json

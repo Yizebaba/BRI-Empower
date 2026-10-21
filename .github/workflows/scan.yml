@@ -22,9 +22,4 @@ jobs:
       - name: Seed documents
         run: python3 tools/seed_docs.py
       - name: Commit
-        run: |
-          git config user.name "bri-bot"; git config user.email "bri-bot@users.noreply.github.com"
-          git add data seeds
-          git diff --cached --quiet && { echo "no change"; exit 0; }
-          git commit -qm "scan $(date -u +%FT%TZ)"
-          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+        run: bash tools/push_data.sh "scan $(date -u +%FT%TZ)" data/country_live.json data/live.json data/wm.json seeds
