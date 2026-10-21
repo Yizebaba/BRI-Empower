@@ -6,5 +6,6 @@
 
 全国靠港 47 次（前 30 天 46 次），进口约 449001 公吨，出口约 44426 公吨。
 - Acajutla港：靠港 47 次，进口约 449001 公吨，出口约 44426 公吨
+- La Libertad港：靠港 0 次，进口约 0 公吨，出口约 0 公吨
 
 来源：UN Comtrade https://comtradeplus.un.org/ ；IMF PortWatch https://portwatch.imf.org/ 。金额为现价美元。

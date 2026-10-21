@@ -4,8 +4,9 @@
 
 ## 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天，卫星船舶信号估算）
 
-全国靠港 125 次（前 30 天 99 次），进口约 800494 公吨，出口约 625564 公吨。
+全国靠港 130 次（前 30 天 109 次），进口约 805580 公吨，出口约 1241949 公吨。
 - Umm Qasr港：靠港 125 次，进口约 800494 公吨，出口约 625564 公吨
+- Basrah Oil Terminal港：靠港 5 次，进口约 5086 公吨，出口约 616385 公吨
 - Al Basrah港：靠港 0 次，进口约 0 公吨，出口约 0 公吨
 
 来源：UN Comtrade https://comtradeplus.un.org/ ；IMF PortWatch https://portwatch.imf.org/ 。金额为现价美元。

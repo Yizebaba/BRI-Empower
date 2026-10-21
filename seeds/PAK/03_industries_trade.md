@@ -204,4 +204,11 @@
 | 活植物、花卉（HS 06，Trees and other plants, live; bulbs, roots and the like; cut flowers a） | 275 美元 | 2 万美元 |
 | 炸药、烟火（HS 36，Explosives; pyrotechnic products; matches; pyrophoric alloys; certain） | 7695 美元 | 无数据 |
 
+## 港口（IMF PortWatch，截至 2026-10-16 00:00 UTC 的近 30 天，卫星船舶信号估算）
+
+全国靠港 283 次（前 30 天 259 次），进口约 3951594 公吨，出口约 1143880 公吨。
+- Karachi港：靠港 175 次，进口约 1690397 公吨，出口约 864530 公吨
+- Muhammad Bin Qasim港：靠港 106 次，进口约 2239601 公吨，出口约 275534 公吨
+- Gwadar港：靠港 2 次，进口约 21596 公吨，出口约 3816 公吨
+
 来源：UN Comtrade https://comtradeplus.un.org/ ；IMF PortWatch https://portwatch.imf.org/ 。金额为现价美元。
