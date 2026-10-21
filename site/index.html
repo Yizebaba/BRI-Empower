@@ -42,11 +42,12 @@ html[lang=en] .brand span{display:none}
 .h3{font-size:13px;font-weight:600;margin:16px 0 6px;color:#d8d6cf}
 .mute{color:var(--mute)}
 .small{font-size:12px}
-.hero .tag{display:flex;flex-direction:column;gap:6px;margin:0 0 18px;padding-left:12px;border-left:2px solid rgba(233,196,106,.55);font-family:"Noto Serif SC",serif;font-size:15px;line-height:1.5;letter-spacing:.06em;color:#bdb9ae}
-.hero .tag span{opacity:0;transform:translateY(6px);animation:tagin .9s ease forwards}
-.hero .tag span:nth-child(2){animation-delay:.5s}.hero .tag .q{animation-delay:1s;color:var(--silk);font-size:16px}
+.tag{position:fixed;left:0;right:clamp(420px,32vw,520px);top:13vh;z-index:3;pointer-events:none;text-align:center;font-family:"Noto Serif SC",serif;font-size:19px;line-height:1.9;letter-spacing:.18em;color:rgba(232,228,216,.62);text-shadow:0 2px 18px rgba(7,8,10,1)}
+.tag span{display:block;opacity:0;transform:translateY(6px);animation:tagin 1s ease forwards}
+.tag span:nth-child(2){animation-delay:.6s}.tag .q{animation-delay:1.2s;color:var(--silk);font-size:22px;margin-top:6px}
 @keyframes tagin{to{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.hero .tag span{animation:none;opacity:1;transform:none}}
+html[lang=en] .tag{letter-spacing:.03em;font-size:17px}html[lang=en] .tag .q{font-size:19px}
+@media (prefers-reduced-motion:reduce){.tag span{animation:none;opacity:1;transform:none}}
 .hero h1 .gdot{display:inline-block;width:.32em;height:.32em;border-radius:50%;background:var(--silk);box-shadow:0 0 .4em var(--silk);margin:0 .22em;vertical-align:middle;transform:translateY(-.06em)}
 .cktog{display:flex;align-items:center;gap:10px;width:100%;margin:14px 0 4px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.02);cursor:pointer;text-align:left;font-weight:600}.cktog .mute{flex:1;text-align:right;font-weight:400}.cktog .cv{color:var(--mute)}
 .cktabs{display:flex;gap:6px;margin:8px 0 2px}.cktabs button{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:none;cursor:pointer;font-size:12.5px;color:var(--mute)}.cktabs button[aria-selected=true]{border-color:var(--silk);color:var(--silk)}
@@ -134,7 +135,7 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
  #gl{position:absolute;height:62vh}
  .hero{position:absolute;top:58vh;bottom:auto;left:16px;right:16px}
  .hero h1{font-size:28px}
- .hero .tag{font-size:13px;gap:3px;margin-bottom:12px}.hero .tag .q{font-size:14px}
+ .tag{right:0;top:64px;font-size:13px;line-height:1.7;letter-spacing:.1em}.tag .q{font-size:15px;margin-top:2px}
  .brand span{display:none}.top{padding-left:16px;padding-right:12px}.top nav a{white-space:nowrap;padding:4px 10px}.brand b{white-space:nowrap;font-size:17px}
  .side{position:relative;top:auto;right:auto;bottom:auto;width:auto;margin:calc(62vh + 120px) 12px 16px;min-height:70vh}
  .body{overflow:visible}
@@ -149,8 +150,8 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
  <a class="brand" href="./"><b>一带一路赋能</b><span>BRI-Empower</span></a>
  <nav><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><button id="lang" class="lgb" type="button">EN</button></nav>
 </header>
+<div class="tag" aria-label="slogan"><span>如果，看见未来的不同可能</span><span>如果，未来可以事先预演</span><span class="q">那么决策的胜率会有多高呢？</span></div>
 <section class="hero">
- <div class="tag"><span>如果，看见未来的不同可能</span><span>如果，未来可以事先预演</span><span class="q">那么决策的胜率会有多高呢？</span></div>
  <h1>全局<i class="gdot"></i>预鉴</h1>
  <p id="heroP">一带一路 · 150 个共建国家</p>
  <div class="route"><span><i style="background:#ff5b4d"></i>不要前往</span><span><i style="background:#ff9f43"></i>重新考虑</span><span><i style="background:#f2c14e"></i>加强注意</span><span><i style="background:#5fe0a8"></i>正常</span></div>
@@ -199,7 +200,7 @@ let NAMES_ADDED=false;function addNames(){if(NAMES_ADDED||!D.countries.length)re
 function trNode(root){if(!EN()||!root)return;const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){if(n.parentElement&&n.parentElement.closest(".md,.keep"))continue;const v=trText(n.nodeValue);if(v!==n.nodeValue)n.nodeValue=v}
  root.querySelectorAll("[placeholder],[title],[aria-label],optgroup[label]").forEach(el=>["placeholder","title","aria-label","label"].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,trText(el.getAttribute(a)))}))}
 const STATIC=[];function applyLang(){document.documentElement.lang=EN()?"en":"zh-CN";$("lang").textContent=EN()?"中文":"EN";
- if(!STATIC.length)document.querySelectorAll(".hero .tag span,.hero h1,.hero p,.hero .route span,.brand b,.top nav a,#side").forEach(el=>STATIC.push([el,el.innerHTML]));
+ if(!STATIC.length)document.querySelectorAll(".tag span,.hero h1,.hero p,.hero .route span,.brand b,.top nav a,#side").forEach(el=>STATIC.push([el,el.innerHTML]));
  STATIC.forEach(([el,h])=>{if(el.id==="side"){el.setAttribute("aria-label",EN()?"Content":"内容");return}el.innerHTML=h;trNode(el)});document.title=EN()?"BRI-Empower · Belt and Road":"一带一路赋能 · BRI-Empower"}
 const bj=t=>{if(!t)return"—";const d=new Date(t);if(isNaN(d))return esc(t);return d.toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false,month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})};
 const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
