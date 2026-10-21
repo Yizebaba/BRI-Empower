@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 PJ, OUT = sys.argv[1], sys.argv[2]
 NOW = datetime.now(timezone.utc)
 iso = lambda d: d.strftime("%Y-%m-%dT%H:%M:%SZ")
-UA = {"user-agent": "BRI-Empower-scan (github.com/Yizebaba/BRI-Empower)"}
+UA = {"user-agent": "BRI-Empower-scan (github.com/Yizebaba/BRI-Full-Scope-Foresight)"}
 ERR = {}
 
 

@@ -7,7 +7,7 @@ import json, time, urllib.parse, urllib.request
 from datetime import datetime, timedelta, timezone
 
 NOW = datetime.now(timezone.utc); iso = lambda d: d.strftime("%Y-%m-%dT%H:%M:%SZ")
-UA = {"user-agent": "BRI-Empower (github.com/Yizebaba/BRI-Empower)"}
+UA = {"user-agent": "BRI-Empower (github.com/Yizebaba/BRI-Full-Scope-Foresight)"}
 C = json.load(open("data/bri_countries.json"))["countries"]
 ISO3 = [c["iso3"] for c in C]; NUM = {int(c["num"]): c["iso3"] for c in C}
 PW = "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/ArcGIS/rest/services/"

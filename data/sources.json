@@ -313,7 +313,7 @@
   {
    "id": "landchoke",
    "name": "航空、铁路、公路咽喉要道（150 国）",
-   "url": "https://github.com/Yizebaba/BRI-Empower/blob/main/tools/chokepoints_land.py",
+   "url": "https://github.com/Yizebaba/BRI-Full-Scope-Foresight/blob/main/tools/chokepoints_land.py",
    "license": "新闻标题版权归原媒体；灾害数据见 USGS、GDACS、NASA；机场状态见 World Monitor",
    "cadence": "每天两次",
    "use": "每国主要国际机场、跨境铁路口岸、主要公路口岸和每一段陆地边境：近 7 天中断类报道、附近灾害、机场状态",

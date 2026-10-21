@@ -7,7 +7,7 @@ import json, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 NOW = datetime.now(timezone.utc)
-UA = {"user-agent": "BRI-Empower (github.com/Yizebaba/BRI-Empower)", "accept": "application/json"}
+UA = {"user-agent": "BRI-Empower (github.com/Yizebaba/BRI-Full-Scope-Foresight)", "accept": "application/json"}
 C = json.load(open("data/bri_countries.json"))["countries"]; ISO = {c["iso3"] for c in C}
 WB = {"NY.GDP.MKTP.CD": "GDP（现价美元）", "NY.GDP.MKTP.KD.ZG": "GDP 实际增长率（%）", "NY.GDP.PCAP.CD": "人均 GDP（现价美元）", "SP.POP.TOTL": "人口",
       "NV.AGR.TOTL.ZS": "农林牧渔业增加值占 GDP（%）", "NV.IND.TOTL.ZS": "工业（含建筑业）增加值占 GDP（%）", "NV.IND.MANF.ZS": "制造业增加值占 GDP（%）", "NV.SRV.TOTL.ZS": "服务业增加值占 GDP（%）",

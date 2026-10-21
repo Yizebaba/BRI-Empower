@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 
 NOW = datetime.now(timezone.utc); iso = lambda d: d.strftime("%Y-%m-%dT%H:%M:%SZ")
-UA = {"user-agent": "BRI-Empower (github.com/Yizebaba/BRI-Empower)"}
+UA = {"user-agent": "BRI-Empower (github.com/Yizebaba/BRI-Full-Scope-Foresight)"}
 # 类别, 中文名, 英文名, 纬度, 经度, 相关国家, 新闻检索词
 P = [
  ("rail", "阿拉山口—多斯特克", "Alashankou–Dostyk", 45.17, 82.57, ["CHN", "KAZ"], '"Alashankou" OR "Dostyk"'),

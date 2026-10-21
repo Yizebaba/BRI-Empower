@@ -9,7 +9,7 @@ import json, os, re, sys, time, urllib.parse, urllib.request
 from datetime import datetime, timezone
 
 NOW = datetime.now(timezone.utc)
-UA = {"user-agent": "BRI-Empower/1.0 (https://github.com/Yizebaba/BRI-Empower; seed documents)", "accept": "application/json"}
+UA = {"user-agent": "BRI-Empower/1.0 (https://github.com/Yizebaba/BRI-Full-Scope-Foresight; seed documents)", "accept": "application/json"}
 C = json.load(open("data/bri_countries.json"))["countries"]
 ONLY = set(sys.argv[1].split(",")) if len(sys.argv) > 1 and sys.argv[1] else None
 os.makedirs("data/docs", exist_ok=True)

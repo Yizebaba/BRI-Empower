@@ -9,7 +9,7 @@ from shapely.geometry import shape, Point
 from shapely.prepared import prep
 
 NOW = datetime.now(timezone.utc); iso = lambda d: d.strftime("%Y-%m-%dT%H:%M:%SZ")
-UA = {"user-agent": "BRI-Empower-scan (github.com/Yizebaba/BRI-Empower)"}
+UA = {"user-agent": "BRI-Empower-scan (github.com/Yizebaba/BRI-Full-Scope-Foresight)"}
 get = lambda u, raw=False: (lambda b: b if raw else json.loads(b))(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60).read())
 C = json.load(open("data/bri_countries.json"))["countries"]
 SH = {k: (shape(v), prep(shape(v).buffer(0.15))) for k, v in json.load(open("data/bri_shapes.json")).items()}

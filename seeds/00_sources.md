@@ -16,11 +16,11 @@
 - 偏差测试参考事实（ICIMOD、Eos、全印广播、ProPakistani、老挝通讯社等）：data/reference.json。许可：各来源原文链接见文件。更新：手工整理。用途：4 起真实事件的权威事实，用来量化平台的偏差。
 - IMF PortWatch 港口与海上咽喉要道：https://portwatch.imf.org/。许可：IMF / 牛津大学，公开数据，注明来源。更新：每天一次（数据本身约晚几天）。用途：各国港口近 30 天靠港次数、进出口量（公吨），28 个咽喉要道通行。
 - UN Comtrade 联合国商品贸易统计：https://comtradeplus.un.org/。许可：联合国统计司，公开预览接口。更新：每周。用途：各国对全世界的进出口（97 个行业大类，HS 两位章）、主要贸易伙伴、中国对各国的分行业贸易；本国没申报的用镜像数据。
-- 世界银行开放数据（World Development Indicators）：https://data.worldbank.org/。许可：CC BY 4.0。更新：每周取一次，各指标取最近一个有值的年份。用途：经济规模、增长、三次产业和制造业占比、通胀、外债、偿债、外资、就业结构、城市化、通电和互联网。
-- Wikidata：https://www.wikidata.org/。许可：CC0。更新：每周。用途：现任国家元首、政府首脑、立法机构、中央银行、首都、货币、官方语言（种子文档里的真实主体）。
+- 世界银行开放数据（World Development Indicators）：https://data.worldbank.org/。许可：CC BY 4.0。更新：每周取一次，各指标取最近一个有值的年份。用途：经济规模、增长、三次产业和制造业占比、通胀、外债、偿债、外资、就业结构、城市化、通电和互联网；军费、武装部队人数、武器进出口（SIPRI、IISS 数据）；研发支出、研究人员、科技论文、专利、高技术出口。
+- Wikidata：https://www.wikidata.org/。许可：CC0。更新：每周。用途：现任国家元首、政府首脑、立法机构、中央银行、首都、货币、官方语言（种子文档里的真实主体）；诺贝尔奖、菲尔兹奖、图灵奖的本国获奖者。
 - 维基百科（英文）：https://en.wikipedia.org/。许可：CC BY-SA 4.0。更新：每周。用途：国家条目导言、“中国—该国关系”条目全文、与“一带一路”相关的条目导言（种子文档）。
 - 世界银行文献库（Documents & Reports）：https://documents.worldbank.org/。许可：世界银行使用条款，多数为 CC BY 3.0 IGO。更新：每周。用途：每国最新的报告和项目文件：标题、类型、日期、摘要（种子文档）。
-- OpenAlex 学术论文库：https://openalex.org/。许可：CC0。更新：每周。用途：关于“一带一路”和该国的论文：标题、年份、期刊、摘要（种子文档）。
+- OpenAlex 学术论文库：https://openalex.org/。许可：CC0。更新：每周。用途：关于“一带一路”和该国的论文：标题、年份、期刊、摘要（种子文档）；各国近一年论文数和主要学科。
 - ReliefWeb（联合国人道协调厅）：https://reliefweb.int/。许可：按各报告来源。更新：每周（需要批准的 appname，没有时跳过）。用途：每国最新的人道报告正文节选（种子文档）。
-- 航空、铁路、公路咽喉要道（150 国）：https://github.com/Yizebaba/BRI-Empower/blob/main/tools/chokepoints_land.py。许可：新闻标题版权归原媒体；灾害数据见 USGS、GDACS、NASA；机场状态见 World Monitor。更新：每天两次。用途：每国主要国际机场、跨境铁路口岸、主要公路口岸和每一段陆地边境：近 7 天中断类报道、附近灾害、机场状态。
+- 航空、铁路、公路咽喉要道（150 国）：https://github.com/Yizebaba/BRI-Full-Scope-Foresight/blob/main/tools/chokepoints_land.py。许可：新闻标题版权归原媒体；灾害数据见 USGS、GDACS、NASA；机场状态见 World Monitor。更新：每天两次。用途：每国主要国际机场、跨境铁路口岸、主要公路口岸和每一段陆地边境：近 7 天中断类报道、附近灾害、机场状态。
 - OurAirports 机场数据：https://ourairports.com/data/。许可：公有领域。更新：每天两次读取。用途：150 国的主要国际机场名单和位置。
