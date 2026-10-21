@@ -129,3 +129,4 @@ for c in C:
     json.dump(d, open(p, "w"), ensure_ascii=False, separators=(",", ":"))
     print(k, {x: (len(d[x]) if isinstance(d[x], list) else sum(len(v) for v in d[x].values())) for x in ("wikipedia", "worldbank", "openalex", "reliefweb")}, flush=True)
 print("docs:", STAT, ERR)
+if ERR.get("reliefweb"): print("::notice::reliefweb " + ERR["reliefweb"].replace("\n", " "))
