@@ -14,7 +14,3 @@
 
 - 2026-10-16 16:17 UTC：M4.6，41 km NNE of Kilimatinde, Tanzania。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qn 
 - 2026-10-14 09:16 UTC：M4.6，42 km NNE of Kilimatinde, Tanzania。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u28e 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-05-21 00:00 UTC：Orange 级 DR，Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda。https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR 

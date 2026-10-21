@@ -8,7 +8,3 @@
 ## 各国政府旅行建议更新（经 World Monitor）
 
 - 2026-09-03 04:00 UTC：CDC Travel Notices Level 2 - Chikungunya in Nicaragua。https://wwwnc.cdc.gov/travel/notices/level2/chikungunya-nicaragua 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-04-21 00:00 UTC：Orange 级 DR，Drought in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States。https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=12&eventtype=DR 

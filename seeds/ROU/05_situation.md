@@ -8,7 +8,3 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-19 08:51 UTC：M4.5，2 km W of Lunca Jariștei, Romania。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3bs 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2025-12-21 00:00 UTC：Orange 级 DR，Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Moldova, Montenegro, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, Ukraine, 。https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=25&eventtype=DR 

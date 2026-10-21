@@ -7,4 +7,4 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-09-15 01:00 UTC：Green 级 FL，Flood in Ecuador。https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=8&eventtype=FL 
+- 2026-09-15 01:00 UTC：Green 级 FL，Flood in Ecuador。https://www.gdacs.org/report.aspx?eventid=1104167&episodeid=6&eventtype=FL 

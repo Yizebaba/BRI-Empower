@@ -14,9 +14,3 @@
 - 2026-08-28 04:00 UTC：CDC Travel Notices Level 2 - Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda。https://wwwnc.cdc.gov/travel/notices/level2/ebola-drc-uganda 
 - 2026-08-04 04:00 UTC：CDC Travel Notices Level 4 - Ebola Bundibugyo Virus Disease in Ituri and Nord-Kivu Provinces of the Democratic Republic of the Congo。https://wwwnc.cdc.gov/travel/notices/level4/ebola-drc-provinces 
 - 2026-08-04 04:00 UTC：CDC Travel Notices Level 3 - Ebola Bundibugyo Virus Disease in Haut-Uélé and Tshopo Provinces of the Democratic Republic of the Congo。https://wwwnc.cdc.gov/travel/notices/level3/ebola-democratic-republic-of-the-congo 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-06-21 00:00 UTC：Orange 级 DR，Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad。https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR 
-- 2026-05-21 00:00 UTC：Orange 级 DR，Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda。https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR 
-- 2025-12-21 00:00 UTC：Green 级 DR，Drought in Angola, Democratic Republic of Congo, Republic of Congo。https://www.gdacs.org/report.aspx?eventid=1018344&episodeid=26&eventtype=DR 

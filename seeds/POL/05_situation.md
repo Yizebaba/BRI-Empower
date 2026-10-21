@@ -18,7 +18,3 @@
 - 2026-09-30 11:46 UTC：US Embassy Poland Consular outreach in Wroclaw on October 13, 2026。https://pl.usembassy.gov/consular-outreach-in-wroclaw-on-october-13-2026/ 
 - 2026-09-28 09:45 UTC：US Embassy Poland Message to U.S. Citizens – U.S. Embassy Warsaw (September 24, 2026)。https://pl.usembassy.gov/message-to-u-s-citizens-u-s-embassy-warsaw-september-24-2026/ 
 - 2026-09-01 07:16 UTC：US Embassy Poland Consular outreach and American Night in Tri-Cities on September 25, 2026。https://pl.usembassy.gov/consular-outreach-and-american-night-in-tri-cities-on-september-25-2026/ 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2025-12-21 00:00 UTC：Orange 级 DR，Drought in Austria, Bosnia  and  Herzegovina, Belgium, Belarus, Switzerland, Czech Republic, Germany, Denmark, Spain, France, Croatia, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Moldova, Montenegro, Netherlands, Poland, Romania, Serbia, Sweden, Slovenia, Slovakia, Ukraine, 。https://www.gdacs.org/report.aspx?eventid=1018332&episodeid=25&eventtype=DR 

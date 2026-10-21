@@ -14,4 +14,3 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-10-20 06:04 UTC：Green 级 EQ，Earthquake in Philippines。https://www.gdacs.org/report.aspx?eventid=1572708&episodeid=1741348&eventtype=EQ 
-- 2026-03-21 00:00 UTC：Green 级 DR，Drought in Brunei, Indonesia, Cambodia, Malaysia, Papua New Guinea, Philippines。https://www.gdacs.org/report.aspx?eventid=1018545&episodeid=18&eventtype=DR 

@@ -19,4 +19,3 @@
 - 2026-10-16 00:00 UTC：Green 级 WF，Forest fires in Sudan。https://www.gdacs.org/report.aspx?eventid=1032977&episodeid=1&eventtype=WF 
 - 2026-10-14 00:00 UTC：Green 级 WF，Forest fires in Sudan。https://www.gdacs.org/report.aspx?eventid=1032872&episodeid=2&eventtype=WF 
 - 2026-10-14 00:00 UTC：Green 级 WF，Forest fires in Sudan。https://www.gdacs.org/report.aspx?eventid=1032913&episodeid=4&eventtype=WF 
-- 2026-06-21 00:00 UTC：Orange 级 DR，Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad。https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR 

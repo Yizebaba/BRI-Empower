@@ -8,7 +8,3 @@
 ## 各国政府旅行建议更新（经 World Monitor）
 
 - 2026-10-16 16:03 UTC：UK FCDO Ethiopia。https://www.gov.uk/foreign-travel-advice/ethiopia 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-06-21 00:00 UTC：Orange 级 DR，Drought in Democratic Republic of Congo, Central African Republic, Cameroon, Eritrea, Ethiopia, Niger, Nigeria, Sudan, South Sudan, Chad。https://www.gdacs.org/report.aspx?eventid=1027450&episodeid=12&eventtype=DR 

@@ -13,4 +13,3 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-10-09 01:00 UTC：Green 级 FL，Flood in Costa Rica。https://www.gdacs.org/report.aspx?eventid=1104227&episodeid=2&eventtype=FL 
-- 2026-04-21 00:00 UTC：Orange 级 DR，Drought in The Bahamas, Belize, Costa Rica, Cuba, Dominican Republic, Guatemala, Honduras, Haiti, Mexico, Nicaragua, El Salvador, United States。https://www.gdacs.org/report.aspx?eventid=1027449&episodeid=12&eventtype=DR 

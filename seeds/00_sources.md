@@ -15,4 +15,6 @@
 - Natural Earth 1:50m 国界：https://www.naturalearthdata.com/。许可：公有领域。更新：静态。用途：网页地图底图。
 - 偏差测试参考事实（ICIMOD、Eos、全印广播、ProPakistani、老挝通讯社等）：data/reference.json。许可：各来源原文链接见文件。更新：手工整理。用途：4 起真实事件的权威事实，用来量化平台的偏差。
 - IMF PortWatch 港口与海上咽喉要道：https://portwatch.imf.org/。许可：IMF / 牛津大学，公开数据，注明来源。更新：每天一次（数据本身约晚几天）。用途：各国港口近 30 天靠港次数、进出口量（公吨），28 个咽喉要道通行。
-- UN Comtrade 联合国商品贸易统计：https://comtradeplus.un.org/。许可：联合国统计司，公开预览接口。更新：每天检查一次（年度数据）。用途：中国与各国的年度货物出口、进口额。
+- UN Comtrade 联合国商品贸易统计：https://comtradeplus.un.org/。许可：联合国统计司，公开预览接口。更新：每周。用途：各国对全世界的进出口（97 个行业大类，HS 两位章）、主要贸易伙伴、中国对各国的分行业贸易；本国没申报的用镜像数据。
+- 世界银行开放数据（World Development Indicators）：https://data.worldbank.org/。许可：CC BY 4.0。更新：每周取一次，各指标取最近一个有值的年份。用途：经济规模、增长、三次产业和制造业占比、通胀、外债、偿债、外资、就业结构、城市化、通电和互联网。
+- Wikidata：https://www.wikidata.org/。许可：CC0。更新：每周。用途：现任国家元首、政府首脑、立法机构、中央银行、首都、货币、官方语言（种子文档里的真实主体）。

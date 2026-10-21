@@ -10,7 +10,3 @@
 - 2026-10-19 04:00 UTC：CDC Travel Notices Level 1 - Ebola Bundibugyo Virus Disease in Kenya。https://wwwnc.cdc.gov/travel/notices/level1/ebola-kenya 
 - 2026-10-19 00:00 UTC：US State Dept Kenya - Level 3: Reconsider Travel。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ken.html 
 - 2026-10-16 12:02 UTC：UK FCDO Kenya。https://www.gov.uk/foreign-travel-advice/kenya 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-05-21 00:00 UTC：Orange 级 DR，Drought in Burundi, Democratic Republic of Congo, Kenya, Rwanda, Tanzania, Uganda。https://www.gdacs.org/report.aspx?eventid=1027465&episodeid=9&eventtype=DR 
