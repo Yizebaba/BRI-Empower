@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>一带一路 全量·预鉴 · BRI-Empower</title>
+<title>一带一路 全量 预鉴</title>
 <meta name="description" content="一带一路项目周边的实时态势、可引用的数据源、自动生成的 MiroFish 种子文档和推演。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -51,7 +51,7 @@ html[lang=en] .brand span{display:none}
 @keyframes tagin{to{opacity:1;transform:none}}
 html[lang=en] .hero .tag{letter-spacing:.01em;font-size:15px}
 @media (prefers-reduced-motion:reduce){.hero .tag span,.hero h1{animation:none;opacity:1;transform:none}}
-.brand .bq{font-style:normal;margin-left:.55em;color:var(--silk)}
+.brand .bq{font-style:normal;margin-left:.55em;color:var(--silk)}.brand .bq .sp{display:inline-block;width:.45em}
 .gdot{display:inline-block;width:.32em;height:.32em;border-radius:50%;background:var(--silk);box-shadow:0 0 .4em var(--silk);margin:0 .22em;vertical-align:middle;transform:translateY(-.06em)}
 .cktog{display:flex;align-items:center;gap:10px;width:100%;margin:14px 0 4px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.02);cursor:pointer;text-align:left;font-weight:600}.cktog .mute{flex:1;text-align:right;font-weight:400}.cktog .cv{color:var(--mute)}
 .cktabs{display:flex;gap:6px;margin:8px 0 2px}.cktabs button{padding:4px 12px;border:1px solid var(--line);border-radius:999px;background:none;cursor:pointer;font-size:12.5px;color:var(--mute)}.cktabs button[aria-selected=true]{border-color:var(--silk);color:var(--silk)}
@@ -151,7 +151,7 @@ textarea:focus,input:focus,select:focus{border-color:var(--silk)}
 <body>
 <canvas id="gl" aria-hidden="true"></canvas>
 <header class="top">
- <div class="brandw"><a class="brand" href="./"><b>一带一路<em class="bq">全量<i class="gdot"></i>预鉴</em></b><span>BRI-Empower</span></a><div class="bsub">150 个共建国家</div></div>
+ <div class="brandw"><a class="brand" href="./"><b>一带一路<em class="bq">全量<span class="sp"></span>预鉴</em></b></a><div class="bsub">150 个共建国家</div></div>
  <nav><a href="https://github.com/Yizebaba/BRI-Empower" target="_blank" rel="noopener">GitHub ↗</a><a href="https://claude.ai/artifact/6heopu2wizEAFMJJLDs44H" target="_blank" rel="noopener">珠峰平台 ↗</a><button id="lang" class="lgb" type="button">EN</button></nav>
 </header>
 <section class="hero">
@@ -203,7 +203,7 @@ function trNode(root){if(!EN()||!root)return;const w=document.createTreeWalker(r
  root.querySelectorAll("[placeholder],[title],[aria-label],optgroup[label]").forEach(el=>["placeholder","title","aria-label","label"].forEach(a=>{if(el.hasAttribute(a))el.setAttribute(a,trText(el.getAttribute(a)))}))}
 const STATIC=[];function applyLang(){document.documentElement.lang=EN()?"en":"zh-CN";$("lang").textContent=EN()?"中文":"EN";
  if(!STATIC.length)document.querySelectorAll(".hero .tag span,.bsub,.hero h1,.hero p,.hero .route span,.brand b,.top nav a,#side").forEach(el=>STATIC.push([el,el.innerHTML]));
- STATIC.forEach(([el,h])=>{if(el.id==="side"){el.setAttribute("aria-label",EN()?"Content":"内容");return}el.innerHTML=h;trNode(el)});document.title=EN()?"Belt and Road · Full-Scope Foresight":"一带一路 全量·预鉴 · BRI-Empower"}
+ STATIC.forEach(([el,h])=>{if(el.id==="side"){el.setAttribute("aria-label",EN()?"Content":"内容");return}el.innerHTML=h;trNode(el)});document.title=EN()?"Belt and Road · Full-Scope Foresight":"一带一路 全量 预鉴"}
 const bj=t=>{if(!t)return"—";const d=new Date(t);if(isNaN(d))return esc(t);return d.toLocaleString("zh-CN",{timeZone:"Asia/Shanghai",hour12:false,month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})};
 const ls={get:k=>{try{return localStorage.getItem(k)}catch(e){return null}},set:(k,v)=>{try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}};
 async function get(path,text){const r=await fetch((/^https?:/.test(path)?path:BASE+path)+(BASE.startsWith("http")?"?v="+Math.floor(Date.now()/60000):""),{cache:"no-store"});if(!r.ok)throw new Error(path+" "+r.status);return text?r.text():r.json()}
