@@ -1,10 +1,16 @@
-"""航空、铁路、公路的咽喉要道（“一带一路”主要通道上的口岸、枢纽），每天两次：
+"""航空、铁路、公路的咽喉要道，覆盖全部 150 个共建国家，每天两次：
+- 航空：每国主要国际机场（OurAirports 公开数据：大型机场；没有大型机场的取有定期航班的国际机场），另加几个航空枢纽。
+- 铁路：中欧班列和跨境铁路的主要口岸。
+- 公路：主要公路口岸 + 每一段陆地边境（Natural Earth 计算的接壤国家对，data/borders.json）。
+每一处：
 - 新闻：Google 新闻 RSS 近 7 天，按地名 + 关闭/中断/拥堵等词查，记条数和最近 3 条标题（标题原文）。
 - 自然灾害：data/country_live.json 里 100 km 以内的地震、灾害警报、自然事件。
 - 机场：World Monitor 机场状态（data/wm.json 的 airports，按 IATA 代码对上）。
 不判断“是否中断”，只列有据可查的信号。输出 data/chokepoints_land.json。用法：python3 tools/chokepoints_land.py
 """
-import json, math, re, time, urllib.parse, urllib.request
+import csv, io, json, math, re, time, urllib.parse, urllib.request
+from concurrent.futures import ThreadPoolExecutor
+from shapely.geometry import shape, Point
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
@@ -21,6 +27,18 @@ P = [
  ("rail", "跨里海通道（阿克套—巴库）", "Trans-Caspian (Aktau–Baku)", 42.4, 50.3, ["KAZ", "AZE"], '"Middle Corridor" OR "Trans-Caspian" OR "Aktau port"'),
  ("rail", "中老铁路磨憨—磨丁", "China–Laos Railway Mohan–Boten", 21.15, 101.69, ["CHN", "LAO"], '"Laos-China Railway" OR "China-Laos railway" OR "Boten"'),
  ("rail", "凭祥—同登", "Pingxiang–Dong Dang", 22.03, 106.75, ["CHN", "VNM"], '"Dong Dang" OR "Pingxiang" border'),
+ ("rail", "萨雷阿加什（哈萨克斯坦—乌兹别克斯坦）", "Saryagash (Kazakhstan–Uzbekistan)", 41.45, 69.17, ["KAZ", "UZB"], '"Saryagash" OR "Keles" border rail'),
+ ("rail", "萨拉赫斯（伊朗—土库曼斯坦）", "Sarakhs (Iran–Turkmenistan)", 36.54, 61.16, ["IRN", "TKM"], '"Sarakhs"'),
+ ("rail", "卡皮科伊—拉齐（土耳其—伊朗）", "Kapıköy–Razi (Turkey–Iran)", 38.47, 44.36, ["TUR", "IRN"], '"Kapikoy" OR "Razi" border rail Iran Turkey'),
+ ("rail", "巴库—第比利斯—卡尔斯铁路", "Baku–Tbilisi–Kars railway", 41.23, 43.25, ["AZE", "GEO", "TUR"], '"Baku-Tbilisi-Kars" OR "BTK railway"'),
+ ("rail", "亚的斯亚贝巴—吉布提铁路", "Addis Ababa–Djibouti railway", 11.0, 42.3, ["ETH", "DJI"], '"Addis Ababa-Djibouti railway" OR "Ethio-Djibouti railway"'),
+ ("rail", "坦赞铁路（通杜马—纳孔德）", "TAZARA (Tunduma–Nakonde)", -9.33, 32.77, ["TZA", "ZMB"], '"TAZARA" OR "Tunduma" OR "Nakonde"'),
+ ("rail", "蒙巴萨—内罗毕标轨铁路", "Mombasa–Nairobi SGR", -2.5, 38.5, ["KEN"], '"Standard Gauge Railway" Kenya OR "Madaraka Express"'),
+ ("rail", "廊开—塔纳楞（泰国—老挝）", "Nong Khai–Thanaleng (Thailand–Laos)", 17.88, 102.72, ["THA", "LAO"], '"Nong Khai" OR "Thanaleng" rail'),
+ ("rail", "巴东勿刹（马来西亚—泰国）", "Padang Besar (Malaysia–Thailand)", 6.66, 100.32, ["MYS", "THA"], '"Padang Besar"'),
+ ("rail", "雅万高铁", "Jakarta–Bandung high-speed railway", -6.6, 107.2, ["IDN"], '"Whoosh" OR "Jakarta-Bandung high-speed"'),
+ ("rail", "匈塞铁路（贝尔格莱德—布达佩斯）", "Budapest–Belgrade railway", 46.1, 19.7, ["SRB", "HUN"], '"Budapest-Belgrade railway"'),
+ ("rail", "比雷埃夫斯港铁路（中欧陆海快线）", "China–Europe Land-Sea Express (Piraeus)", 37.95, 23.62, ["GRC", "MKD", "SRB", "HUN"], '"Land-Sea Express" OR "Piraeus" rail freight'),
  ("road", "红其拉甫口岸", "Khunjerab Pass", 36.85, 75.43, ["CHN", "PAK"], '"Khunjerab"'),
  ("road", "托克哈姆口岸", "Torkham", 34.10, 71.10, ["PAK", "AFG"], '"Torkham"'),
  ("road", "查曼口岸", "Chaman", 30.92, 66.45, ["PAK", "AFG"], '"Chaman" border'),
@@ -66,25 +84,65 @@ def news(q):
 
 CL = json.load(open("data/country_live.json")).get("countries", {})
 WM = json.load(open("data/wm.json")).get("countries", {})
-items, ERR = [], {}
-for p in P:
-    kind, zh, en, la, lo, cs, q = p[:7]; iata = p[7] if len(p) > 7 else None
+CT = {c["iso3"]: c for c in json.load(open("data/bri_countries.json"))["countries"]}
+I2 = {c["iso2"]: c["iso3"] for c in CT.values()}
+try: OLD = {(x["kind"], x["en"]): x for x in json.load(open("data/chokepoints_land.json")).get("items", [])}
+except Exception: OLD = {}
+ERR = {}
+
+# 每国主要机场（OurAirports，公有领域）
+have = {p[7] for p in P if len(p) > 7}
+try:
+    rows = list(csv.DictReader(io.StringIO(urllib.request.urlopen(urllib.request.Request("https://davidmegginson.github.io/ourairports-data/airports.csv", headers=UA), timeout=120).read().decode("utf-8"))))
+    by = {}
+    for r in rows:
+        k = I2.get(r["iso_country"])
+        if k and r.get("iata_code") and r.get("scheduled_service") == "yes" and r["type"] in ("large_airport", "medium_airport"): by.setdefault(k, []).append(r)
+    for k, L in by.items():
+        big = [r for r in L if r["type"] == "large_airport"]
+        pick = big[: (6 if k in ("CHN", "RUS") else 3)] or [r for r in L if "international" in r["name"].lower()][:2] or L[:1]
+        for r in pick:
+            if r["iata_code"] in have: continue
+            have.add(r["iata_code"])
+            P.append(("air", f"{CT[k]['zh']} · {r['name']}（{r['iata_code']}）", f"{r['name']} ({r['iata_code']})", float(r["latitude_deg"]), float(r["longitude_deg"]), [k], f'"{r["name"]}"', r["iata_code"]))
+except Exception as ex: ERR["ourairports"] = str(ex)[:160]
+
+# 每一段陆地边境
+BL = {}
+for b in json.load(open("data/borders.json"))["pairs"]:
+    zh = f"{b['a_zh']}—{b['b_zh']}边境"; en = f"{b['a_en']}–{b['b_en']} border"
+    P.append(("road", zh, en, b["lat"], b["lon"], [x for x in (b["a"], b["b"]) if x in CT], f'"{b["a_en"]}" "{b["b_en"]}" border (closed OR closure OR crossing OR checkpoint OR reopen)', None, True))
+    BL[en] = shape(b["line"])
+
+
+def one(p):
+    kind, zh, en, la, lo, cs, q = p[:7]; iata = p[7] if len(p) > 7 else None; border = len(p) > 8
     e = {"kind": kind, "zh": zh, "en": en, "lat": la, "lon": lo, "countries": cs}
+    if border: e["border"] = True
     try:
         n = news(q); inc = [x for x in n if x["inc"]]
         e["news7"] = len(n); e["incidents7"] = len(inc); e["latest"] = (inc or n)[:3]
-    except Exception as ex: ERR[en] = str(ex)[:120]
+    except Exception as ex:
+        ERR[en] = str(ex)[:80]; o = OLD.get((kind, en)) or {}
+        for k in ("news7", "incidents7", "latest"):
+            if k in o: e[k] = o[k]
+        e["stale"] = True
     hz = []
     for k in cs:
         for key in ("quakes", "gdacs", "eonet"):
             for x in (CL.get(k) or {}).get(key) or []:
-                if x.get("lat") is not None and km(la, lo, x["lat"], x["lon"]) <= 100:
-                    hz.append({"t": x["t"], "src": key, "text": x.get("text"), "km": round(km(la, lo, x["lat"], x["lon"]))})
+                if x.get("lat") is None: continue
+                dkm = BL[en].distance(Point(x["lon"], x["lat"])) * 111 if border else km(la, lo, x["lat"], x["lon"])
+                if dkm <= (50 if border else 100): hz.append({"t": x["t"], "src": key, "text": x.get("text"), "km": round(dkm)})
     e["hazards"] = sorted(hz, key=lambda x: x["t"], reverse=True)[:3]
     if iata:
         for k in cs:
             for a in (WM.get(k) or {}).get("airports") or []:
                 if a.get("iata") == iata: e["airport"] = {"severity": a.get("severity"), "reason": a.get("reason")}
-    items.append(e); time.sleep(1.5)
-json.dump({"generated": iso(NOW), "window_days": 7, "items": items, "errors": ERR}, open("data/chokepoints_land.json", "w"), ensure_ascii=False, separators=(",", ":"))
-print("land/air chokepoints:", len(items), "errors", ERR)
+    time.sleep(1.0)
+    return e
+
+
+with ThreadPoolExecutor(3) as ex: items = list(ex.map(one, P))
+json.dump({"generated": iso(NOW), "window_days": 7, "items": items, "errors": dict(list(ERR.items())[:30]), "n_errors": len(ERR)}, open("data/chokepoints_land.json", "w"), ensure_ascii=False, separators=(",", ":"))
+print("chokepoints:", len(items), {k: sum(1 for x in items if x["kind"] == k) for k in ("air", "rail", "road")}, "errors", len(ERR))

@@ -327,17 +327,33 @@
   },
   {
    "id": "landchoke",
-   "name": "航空、铁路、公路咽喉要道（30 个口岸和枢纽）",
+   "name": "航空、铁路、公路咽喉要道（150 国）",
    "url": "https://github.com/Yizebaba/BRI-Empower/blob/main/tools/chokepoints_land.py",
    "license": "新闻标题版权归原媒体；灾害数据见 USGS、GDACS、NASA；机场状态见 World Monitor",
    "cadence": "每天两次",
-   "use": "中欧班列口岸、主要公路口岸、航空枢纽近 7 天的中断类报道、100 km 内灾害、机场状态",
-   "how": "tools/chokepoints_land.py（Google 新闻 RSS + data/country_live.json + data/wm.json）",
+   "use": "每国主要国际机场、跨境铁路口岸、主要公路口岸和每一段陆地边境：近 7 天中断类报道、附近灾害、机场状态",
+   "how": "tools/chokepoints_land.py（Google 新闻 RSS、OurAirports、Natural Earth 接壤国家对 data/borders.json、data/country_live.json、data/wm.json）",
    "en": {
-    "name": "Air, rail and road chokepoints (30 crossings and hubs)",
+    "name": "Air, rail and road chokepoints (150 countries)",
     "license": "Headlines © publishers; hazards from USGS, GDACS, NASA; airport status from World Monitor",
     "cadence": "Twice daily",
-    "use": "Disruption reports in the last 7 days, hazards within 100 km and airport status for China–Europe rail crossings, key road border posts and air hubs"
+    "use": "Main international airports, cross-border rail crossings, key road border posts and every land border: disruption reports in the last 7 days, nearby hazards, airport status"
+   }
+  },
+  {
+   "id": "ourairports",
+   "name": "OurAirports 机场数据",
+   "url": "https://ourairports.com/data/",
+   "license": "公有领域",
+   "cadence": "每天两次读取",
+   "use": "150 国的主要国际机场名单和位置",
+   "how": "tools/chokepoints_land.py",
+   "cite": null,
+   "en": {
+    "name": "OurAirports",
+    "license": "Public domain",
+    "cadence": "Read twice daily",
+    "use": "Main international airports and locations in 150 countries"
    }
   }
  ]
