@@ -6,7 +6,7 @@ MiroFish 从这些文档里抽取实体和关系建知识图谱，再生成智�
 用法：python3 tools/seed_docs.py
 只有内容变化时才改写文件（生成时间不算变化），避免无意义的提交。
 """
-import json, math, os, re
+import collections, glob, json, math, os, re
 from datetime import datetime, timezone
 
 D = lambda p: json.load(open(p)) if os.path.exists(p) else {}
@@ -135,7 +135,155 @@ def write(path, text):
 CT = {c["iso3"]: c for c in D("data/bri_countries.json").get("countries", [])}
 AS = D("data/aiddata_summary.json").get("countries", {})
 CL = D("data/country_live.json"); WC = (W.get("countries") or {})
+FX = D("data/country_facts.json"); FC = FX.get("countries") or {}; WBL = FX.get("labels") or {}
+TI = D("data/trade_index.json"); HSN = TI.get("hs_names") or {}; HSZ = D("data/hs2_zh.json")
+LG = D("data/logistics.json")
 LVZ = {1: "一级（正常注意）", 2: "二级（加强注意）", 3: "三级（重新考虑出行）", 4: "四级（不要前往）"}
+ZHC = {c["iso3"]: c["zh"] for c in CT.values()}
+PZH = {"USA": "美国", "Japan": "日本", "Germany": "德国", "India": "印度", "France": "法国", "United Kingdom": "英国", "Canada": "加拿大", "Australia": "澳大利亚", "Netherlands": "荷兰", "Belgium": "比利时",
+       "Spain": "西班牙", "Switzerland": "瑞士", "Brazil": "巴西", "Mexico": "墨西哥", "China, Hong Kong SAR": "中国香港", "China, Macao SAR": "中国澳门", "Other Asia, nes": "中国台湾地区（Comtrade 记作 Other Asia, nes）",
+       "Ireland": "爱尔兰", "Denmark": "丹麦", "Sweden": "瑞典", "Finland": "芬兰", "Norway": "挪威", "Colombia": "哥伦比亚", "Taiwan": "中国台湾地区", "Areas, nes": "未列明地区", "Bunkers": "船用燃料", "Free Zones": "自由区"}
+
+
+def usd(v):
+    if v is None: return "无数据"
+    a = abs(v)
+    return f"{v/1e8:.2f} 亿美元" if a >= 1e8 else f"{v/1e4:.0f} 万美元" if a >= 1e4 else f"{v:.0f} 美元"
+
+
+def hsname(h): return f"{HSZ.get(h, '')}（HS {h}，{(HSN.get(h) or '')[:70].rstrip(' ;,')}）"
+
+
+# AidData 标题里的出资方（“X provides …”），归一成中文名
+VERB = r"(?:provides?|grants?|donates?|issues?|signs?|lends?|offers?|finances?|pledges?|commits?|contributes?|disburses?|extends?|funds?|awards?|approves?|builds?|constructs?|delivers?|supports?|sends?|dispatches?|hands? over|establishes?|agrees?|underwrites?|participates?|co-finances?)\b"
+NORM = [(r"^(the )?chinese government$|^government of china$|^china$|^people's republic of china$", "中国政府"), (r"chinese embassy|embassy of china|chinese ambassador|chinese consulate", "中国驻当地使领馆"),
+        (r"^cdb$|china development bank", "国家开发银行（China Development Bank）"), (r"eximbank|export-import bank of china", "中国进出口银行（China Eximbank）"),
+        (r"^icbc|industrial and commercial bank", "中国工商银行（ICBC）"), (r"^bank of china", "中国银行（Bank of China）"), (r"china construction bank", "中国建设银行（China Construction Bank）"),
+        (r"agricultural bank of china", "中国农业银行"), (r"^hanban", "汉办 / 孔子学院总部（Hanban）"), (r"^mofcom|ministry of commerce", "中国商务部（MOFCOM）"), (r"^cidca", "国家国际发展合作署（CIDCA）"),
+        (r"^sinosure", "中国出口信用保险公司（Sinosure）"), (r"silk road fund", "丝路基金（Silk Road Fund）"), (r"medical team", "中国援外医疗队"), (r"^cnpc|china national petroleum", "中国石油天然气集团（CNPC）"),
+        (r"^sinohydro|^powerchina", "中国电建 / 水电建设集团（PowerChina / Sinohydro）"), (r"^chec|china harbour", "中国港湾工程（CHEC）"), (r"^cmec|china machinery engineering", "中国机械设备工程（CMEC）"),
+        (r"^zte", "中兴通讯（ZTE）"), (r"^huawei", "华为（Huawei）"), (r"^cscec|china state construction", "中国建筑（CSCEC）"), (r"^crbc|china road and bridge", "中国路桥（CRBC）"), (r"^cccc|china communications construction", "中国交建（CCCC）"),
+        (r"^crec|china railway group|china railway engineering", "中国中铁（CREC）"), (r"^crcc|china railway construction", "中国铁建（CRCC）"), (r"three gorges", "中国三峡集团（China Three Gorges）"), (r"gezhouba", "葛洲坝集团（Gezhouba）"),
+        (r"state grid", "国家电网（State Grid）"), (r"^sinopec", "中国石化（Sinopec）"), (r"^cnooc", "中国海油（CNOOC）"), (r"^citic", "中信集团（CITIC）"), (r"^cosco", "中远海运（COSCO）"), (r"^china merchants", "招商局集团（China Merchants）")]
+SOE = [x for x in NORM if x[1].startswith(("中国石油", "中国电建", "中国港湾", "中国机械", "中兴", "华为", "中国建筑", "中国路桥", "中国交建", "中国中铁", "中国铁建", "中国三峡", "葛洲坝", "国家电网", "中国石化", "中国海油", "中信", "中远", "招商局"))]
+
+
+def actor(raw):
+    r = raw.strip().lower()
+    for pat, zh in NORM:
+        if re.search(pat, r): return zh
+    return raw.strip()
+
+
+def funders(pj):
+    f = {}
+    for x in pj:
+        t = re.sub(r"^\[[^\]]*\]\s*", "", x.get("title") or "")
+        m = re.match(r"(.{3,90}?)\s+(?:and\s+.{3,60}?\s+)?" + VERB, t)
+        names = {actor(m.group(1))} if m else set()
+        for pat, zh in SOE:   # 标题里提到的中资企业（承建、合作方）
+            if re.search(r"\b" + pat.lstrip("^").split("|")[0], t, re.I): names.add(zh)
+        for n in names:
+            e = f.setdefault(n, {"n": 0, "usd": 0, "ex": []}); e["n"] += 1; e["usd"] += x.get("amount") or 0
+            if len(e["ex"]) < 4: e["ex"].append(x)
+    return sorted(f.items(), key=lambda kv: (-kv[1]["usd"], -kv[1]["n"]))
+
+
+def pj_of(k):
+    try: return json.load(open(f"data/countries/{k}.json"))["projects"]
+    except Exception: return []
+
+
+def tr_of(k):
+    try: return json.load(open(f"data/trade/{k}.json"))
+    except Exception: return {}
+
+
+def L2(lst): return "、".join(f"{a}（{b}）" if b and b != a else a for a, b in lst) if lst else "无数据"
+
+
+def doc_country(k):
+    c = CT[k]; f = FC.get(k) or {}; wb = f.get("wb") or {}
+    o = [f"# {c['zh']}（{c['en']}）国家概况与经济结构", "", f"{c['zh']}属于{c['region']}，是共建“一带一路”国家（Green Finance & Development Center 名单，截至 2025 年 5 月）" + (f"，备注：{c['note']}" if c.get("note") else "") + "。", ""]
+    o += ["## 国家机构与领导人（Wikidata，现任）", "",
+          f"- 国家元首：{L2(f.get('hos'))}；职位：{L2(f.get('hos_office'))}",
+          f"- 政府首脑：{L2(f.get('hog'))}；职位：{L2(f.get('hog_office'))}",
+          f"- 立法机构：{L2(f.get('legislature'))}", f"- 中央银行：{L2(f.get('central_bank'))}",
+          f"- 首都：{L2(f.get('capital'))}；货币：{L2(f.get('currency'))}；官方语言：{L2(f.get('language'))}", ""]
+    if wb:
+        o += ["## 经济与社会指标（世界银行开放数据，各取最近一个有值的年份）", ""]
+        for code, lab in WBL.items():
+            if code in wb:
+                v, y = wb[code]
+                vs = usd(v) if "美元" in lab and "%" not in lab else (f"{v/1e4:.0f} 万" if v >= 1e5 else f"{v:,.0f}") if code in ("SP.POP.TOTL", "ST.INT.ARVL") else f"{v:.1f}"
+                o.append(f"- {lab.replace('（美元）','').replace('（现价美元）','（现价）')}：{vs}（{y} 年）")
+        o.append("")
+        ag, ind, srv, mf = (wb.get(x, [None])[0] for x in ("NV.AGR.TOTL.ZS", "NV.IND.TOTL.ZS", "NV.SRV.TOTL.ZS", "NV.IND.MANF.ZS"))
+        if ag is not None and ind is not None and srv is not None:
+            o += [f"产业结构：农业约占 GDP 的 {ag:.0f}%，工业（含建筑业）约 {ind:.0f}%" + (f"（其中制造业约 {mf:.0f}%）" if mf is not None else "") + f"，服务业约 {srv:.0f}%。", ""]
+    o += [f"来源：世界银行开放数据 https://data.worldbank.org/country/{k} ；Wikidata https://www.wikidata.org/ （CC0）。"]
+    return "\n".join(o) + "\n"
+
+
+def doc_actors(k):
+    c = CT[k]; f = FC.get(k) or {}; pj = pj_of(k); tr = tr_of(k); w = WC.get(k) or {}; l = (CL.get("countries") or {}).get(k) or {}
+    o = [f"# {c['zh']}（{c['en']}）：与“一带一路”相关的参与方", "", "下面列出在本国事务中能发声、会行动的真实主体，以及它们之间有据可查的关系。每条注明来源。", ""]
+    o += ["## 本国政府与机构", ""]
+    for key, lab in (("hos", "国家元首"), ("hog", "政府首脑")):
+        for zh, en in f.get(key) or []: o.append(f"- {zh}" + (f"（{en}）" if en and en != zh else "") + f"：{c['zh']}现任{lab}。来源：Wikidata")
+    for key, lab in (("legislature", "立法机构"), ("central_bank", "中央银行")):
+        for zh, en in f.get(key) or []: o.append(f"- {zh}" + (f"（{en}）" if en and en != zh else "") + f"：{c['zh']}的{lab}。来源：Wikidata")
+    o.append(f"- {c['zh']}政府各部门：AidData 记录中的借款方、受援方和项目实施方。")
+    fs = funders(pj)
+    if fs:
+        o += ["", "## 中国方面的出资方和企业（AidData 项目标题原文统计，2000–2021 年承诺）", ""]
+        for n, e in fs[:20]:
+            ex = "；".join(f"{x['year']} 年 {x['title'][:110]}" for x in e["ex"][:3])
+            o.append(f"- {n}：在{c['zh']}出现在 {e['n']} 个项目中" + (f"，涉及金额约 {usd(e['usd'])}" if e["usd"] else "") + f"。例：{ex}")
+    if tr.get("partners"):
+        o += ["", f"## 主要贸易伙伴（UN Comtrade，{tr.get('year')} 年，{tr.get('partners_basis')}）", ""]
+        for p in tr["partners"][:12]:
+            nm = ZHC.get(p.get("iso3")) or PZH.get(p.get("name")) or p.get("name")
+            o.append(f"- {nm}：{c['zh']}对其出口 {usd(p.get('x'))}，自其进口 {usd(p.get('m'))}")
+    adv = [e.get("source") for e in (w.get("advisories") or []) if e.get("source")]
+    if l.get("us") or adv:
+        o += ["", "## 发布旅行建议的外国政府", ""]
+        if l.get("us"): o.append(f"- 美国国务院：{l['us']['title']}。{l['us'].get('url')}")
+        for s in sorted(set(adv)): o.append(f"- {s}：近期发布或更新了对{c['zh']}的旅行建议（经 World Monitor）")
+    med = collections.Counter(e.get("source") for e in (w.get("stories") or []) if e.get("source"))
+    if med:
+        o += ["", "## 近期报道该国的媒体（经 World Monitor 新闻聚合）", ""] + [f"- {m}：{n} 篇相关报道" for m, n in med.most_common(12)]
+    uc = w.get("ucdp") or []
+    if uc:
+        pairs = collections.Counter((e.get("a"), e.get("b")) for e in uc)
+        o += ["", "## 武装冲突的当事方（UCDP，经 World Monitor）", ""] + [f"- {a} 与 {b}：{n} 起有人员死亡的事件" for (a, b), n in pairs.most_common(10)]
+    o += ["", "## 国际与多边机构", "", "- 世界银行、国际货币基金组织（IMF）、亚洲基础设施投资银行（AIIB）、联合国相关机构：本组文档引用的数据来自世界银行、IMF PortWatch、UN Comtrade；具体贷款关系以各机构公开记录为准。"]
+    return "\n".join(o) + "\n"
+
+
+def doc_trade(k):
+    c = CT[k]; tr = tr_of(k)
+    o = [f"# {c['zh']}（{c['en']}）：行业、贸易与物流", ""]
+    if tr.get("total"): o += [f"货物贸易总额（UN Comtrade，{tr.get('year')} 年，{tr.get('partners_basis')}）：出口 {usd(tr['total'].get('x'))}，进口 {usd(tr['total'].get('m'))}。", ""]
+    ind = tr.get("industries") or []
+    if ind:
+        o += [f"## 全部行业的进出口（HS 两位章，{tr.get('year')} 年，本国申报，对全世界）", "", "| 行业 | 出口 | 进口 |", "|---|---|---|"]
+        o += [f"| {hsname(r['hs'])} | {usd(r.get('x'))} | {usd(r.get('m'))} |" for r in ind if r["hs"] != "TOTAL"]
+        o.append("")
+    elif k != "CHN": o += ["本国没有向 UN Comtrade 申报近三年的分行业数据。", ""]
+    ch = tr.get("china") or {}
+    if ch.get("industries"):
+        o += [f"## 中国与{c['zh']}的分行业贸易（中国海关向 UN Comtrade 申报，{ch.get('year')} 年）", "", "| 行业 | 中国出口到该国 | 中国自该国进口 |", "|---|---|---|"]
+        o += [f"| {hsname(r['hs'])} | {usd(r.get('x'))} | {usd(r.get('m'))} |" for r in ch["industries"] if r["hs"] != "TOTAL"]
+        o.append("")
+    pw = ((LG.get("portwatch") or {}).get("countries") or {}).get(k)
+    if pw:
+        o += [f"## 港口（IMF PortWatch，截至 {bj((LG.get('portwatch') or {}).get('data_until'))} 的近 30 天，卫星船舶信号估算）", "",
+              f"全国靠港 {pw.get('calls30')} 次（前 30 天 {pw.get('calls_prev')} 次），进口约 {pw.get('import30')} 公吨，出口约 {pw.get('export30')} 公吨。"]
+        o += [f"- {x['name']}港：靠港 {x['calls30']} 次，进口约 {x['import30']} 公吨，出口约 {x['export30']} 公吨" for x in pw.get("ports", [])]
+        o.append("")
+    o.append("来源：UN Comtrade https://comtradeplus.un.org/ ；IMF PortWatch https://portwatch.imf.org/ 。金额为现价美元。")
+    return "\n".join(o) + "\n"
 
 
 def country_profile(k):
@@ -170,14 +318,13 @@ def country_situation(k):
         ("gdacs", "灾害警报（GDACS，近 14 天）", lambda e: f"{bj(e['t'])}：{e.get('level')} 级 {e.get('type')}，{e.get('text')}。{e.get('url') or ''} "),
         ("eonet", "自然事件（NASA EONET，近 30 天）", lambda e: f"{bj(e['t'])}：{e.get('type')}，{e.get('text')}。{e.get('url') or ''} ")):
         if l.get(key): o += ["", f"## {title}", ""] + [f"- {fmt(e)}" for e in l[key][:15]]
-    LG = D("data/logistics.json"); pw = ((LG.get("portwatch") or {}).get("countries") or {}).get(k); ct = ((LG.get("comtrade") or {}).get("countries") or {}).get(k)
-    if pw or ct: o += ["", "## 物流与贸易", ""]
-    if pw:
-        o.append(f"- 港口（IMF PortWatch，截至 {bj((LG.get('portwatch') or {}).get('data_until'))} 的近 30 天）：靠港 {pw.get('calls30')} 次（前 30 天 {pw.get('calls_prev')} 次），进口约 {pw.get('import30')} 公吨，出口约 {pw.get('export30')} 公吨。")
-        o += [f"  - {x['name']}：靠港 {x['calls30']} 次，进口约 {x['import30']} 公吨，出口约 {x['export30']} 公吨" for x in pw.get("ports", [])]
-    if ct: o.append(f"- 中国与该国货物贸易（UN Comtrade，{(LG.get('comtrade') or {}).get('year')} 年，中国申报）：中国出口 {ct.get('export')} 美元，中国进口 {ct.get('import')} 美元。")
     if len(o) <= 4: o.append("近期各来源都没有记录。")
     return "\n".join(o) + "\n"
+
+
+def country_profile_finance(k):
+    t = country_profile(k)
+    return t.replace("：中国融资项目概况", "：中国融资项目（AidData）", 1)
 
 
 idx = {"note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选国家自动上传。", "sources": "seeds/00_sources.md", "scopes": {}}
@@ -186,19 +333,19 @@ os.makedirs("seeds", exist_ok=True); changed += write("seeds/00_sources.md", sou
 for k, c in CT.items():
     os.makedirs(f"seeds/{k}", exist_ok=True)
     ps = [p for p in P if p["country"] == k]
-    docs = [("01_profile.md", country_profile(k)), ("02_situation.md", country_situation(k) + ("\n" + situation_doc(k, ps) if ps else "")),
-            ("03_projects_detail.md", projects_doc(k, ps) if ps else None), ("04_history.md", history_doc(k) if ps else None)]
+    docs = [("01_country.md", doc_country(k)), ("02_actors.md", doc_actors(k)), ("03_industries_trade.md", doc_trade(k)),
+            ("04_china_finance.md", country_profile_finance(k)), ("05_situation.md", country_situation(k) + ("\n" + situation_doc(k, ps) if ps else "")),
+            ("06_projects_detail.md", projects_doc(k, ps) if ps else None), ("07_history.md", history_doc(k) if ps else None)]
+    keep = {n for n, t in docs if t is not None}
+    for old in glob.glob(f"seeds/{k}/*.md"):
+        if os.path.basename(old) not in keep: os.remove(old); changed += 1
     files = []
     for name, text in docs:
+        if text is None: continue
         p = f"seeds/{k}/{name}"
-        if text is None:
-            if os.path.exists(p): os.remove(p); changed += 1
-            continue
         changed += write(p, text)
         files.append({"path": p, "title": text.splitlines()[0].lstrip("# "), "bytes": len(text.encode())})
-    idx["scopes"][k] = {"name": c["zh"], "region": c["region"], "files": files}
-for old in ("seeds/NPL/01_projects.md", "seeds/LAO/01_projects.md", "seeds/PAK/01_projects.md", "seeds/NPL/03_history.md", "seeds/LAO/03_history.md", "seeds/PAK/03_history.md", "seeds/NPL/00_sources.md", "seeds/LAO/00_sources.md", "seeds/PAK/00_sources.md"):
-    if os.path.exists(old): os.remove(old)
-idx["generated"] = L.get("generated")
+    idx["scopes"][k] = {"name": c["zh"], "en": c["en"], "region": c["region"], "files": files}
+idx["generated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 json.dump(idx, open("seeds/index.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print("seed docs changed:", changed, "countries:", len(idx["scopes"]))

@@ -1,0 +1,34 @@
+# 乌兹别克斯坦（Uzbekistan）：中国融资项目（AidData）
+
+- 所属区域：欧洲和中亚；共建“一带一路”国家（来源：Green Finance & Development Center，截至 2025 年 5 月）
+- AidData 收录 2000–2021 年承诺的项目 86 个，承诺金额合计约 118.0 亿美元（2021 年不变价）；主要行业：Water Supply And Sanitation（19）、Industry, Mining, Construction（17）、Energy（15）
+
+## 金额最大的项目（AidData 原文）
+
+- CDB contributes $1.75 billion to $3.5 billion syndicated loan for Uzbek Sections of Lines A and B of the Central Asia-China Gas Pipeline Project (Linked to Project ID#54489, #39997, #54528, #39955, #70616, #91898, #91917, #91923, #91926, #91901)（Industry, Mining, Construction，已完工，2008 年承诺，约 2668 百万美元）。https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=39.206%2C63.655%3B41.344%2C69.126#map=8/40.816/68.901
+- BOC contributes $1.75 billion to $3.5 billion syndicated loan for Uzbek Sections of Lines A and B of the Central Asia-China Gas Pipeline Project (Linked to Project ID#54489, #39997, #54528, #39955, #70616, #91898, #91901, #91917, #91923)（Industry, Mining, Construction，已完工，2008 年承诺，约 2668 百万美元）。https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=39.206%2C63.655%3B41.344%2C69.126#map=8/40.816/68.901
+- CDB contributes $1.2 billion to $1.4 billion syndicated loan for Uzbek Section of Line C of the Central Asia-China Gas Pipeline Project (Linked to Project ID #54489, #39997, #39955, #70616, #91898, #91901, #91917, #91923, #91926)（Industry, Mining, Construction，已完工，2013 年承诺，约 1354 百万美元）。https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=39.206%2C63.655%3B41.344%2C69.126
+- China Eximbank provides $373.8 million for Navoiazot PVC Chemical Complex Construction Project （Industry, Mining, Construction，已完工，2013 年承诺，约 422 百万美元）。https://www.openstreetmap.org/way/171509388
+- China Eximbank provide $350 million loan for Kamchiq Tunnel in the Angren-Pap Railway（Transport And Storage，已完工，2013 年承诺，约 395 百万美元）。https://www.openstreetmap.org/way/385539420
+- China Development Bank provides $309 million loan for acquisition of three Boeing 787-8 aircraft for Uzbekistan Airways（Transport And Storage，在建，2019 年承诺，约 347 百万美元）。https://www.openstreetmap.org/way/91875452#map=17/41.29970/69.28736
+- Bank of China contributes to $750 million syndicated loan for 1.5GW Sirdarya Independent Power Project（Energy，在建，2021 年承诺，约 300 百万美元）。https://www.openstreetmap.org/way/229824212
+- CDB participates in $2.54 billion syndicated loan to Uz-Kor Gas Chemical LLC for Ustyurt Natural Gas and Petrochemicals Complex at Surgil Gas Field Project（Energy，已完工，2012 年承诺，约 294 百万美元）。https://www.openstreetmap.org/way/514723393 
+- China Development Bank provides $220 million loan for 370MW Tashkent Combined Cycle Power Plant Modernization Project（Energy，已完工，2012 年承诺，约 258 百万美元）。https://www.openstreetmap.org/way/105707198
+- China Development Bank provides $179.37 million loan for acquisition of ten, A320-200 Airbus aircraft (Linked to #91793)（Transport And Storage，已完工，2010 年承诺，约 250 百万美元）。https://www.openstreetmap.org/relation/12345328
+- Bank of China contributes $200 million to $1.4 billion syndicated loan for Uzbek Section of Line C of Central Asia-China Gas Pipeline Project (Linked to Project ID#54489, #39997, #54528, #39955, #70616, #91901, #91917, #91923, #91926)（Industry, Mining, Construction，已完工，2013 年承诺，约 226 百万美元）。https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=39.206%2C63.655%3B41.344%2C69.126#map=8/40.816/68.901
+- Bank of China provides a $177.7 million loan for Phase 1 of Karakul Gas Field Project (Linked to Project ID#54069, #39659, #39658, #54489 and #39997)（Energy，已完工，2017 年承诺，约 205 百万美元）。https://www.openstreetmap.org/way/273490766, https://www.openstreetmap.org/relation/7812898
+- China Eximbank provides $165.6 million for 150 MW Angren Thermal Power Plant Project（Energy，已完工，2011 年承诺，约 204 百万美元）。https://www.openstreetmap.org/way/229924899
+- China Eximbank provides preferential buyer's credit for Tire Plant Project in Angren Special Economic Zone（Industry, Mining, Construction，已完工，2014 年承诺，约 173 百万美元）。https://www.openstreetmap.org/relation/8158516
+- China Eximbank provides $113.8 million loan for Conversion of Units 1, 2, 3, 4, 5 of Novo‐Angren Thermal Power Plant Project.（Energy，已完工，2010 年承诺，约 159 百万美元）。https://www.openstreetmap.org/way/262167659
+- China Eximbank provides $110.5 million preferential buyer’s credit loan for Phase II of Dehkanabad Potash Fertilizer Plant Project (Linked to Project ID#72169 and #40129)（Industry, Mining, Construction，已完工，2011 年承诺，约 136 百万美元）。https://www.openstreetmap.org/way/230156965
+- China Eximbank provides $70.11 million preferential buyer's credit loan for the purchase of Chinese electric locomotives (Linked to Project ID#40131)（Transport And Storage，已完工，2009 年承诺，约 105 百万美元）。https://www.openstreetmap.org/relation/15589846
+- China Eximbank provide $89.5 million preferential buyer’s credit for Shargun Coal Mine Modernization Project (Linked to Project ID#40326)（Energy，在建，2017 年承诺，约 103 百万美元）。https://www.openstreetmap.org/way/495666770, https://www.openstreetmap.org/way/465950345
+- CDB provides $85 million loan for Mubarek Gas Chemical Complex Project（Energy，已完工，2014 年承诺，约 94 百万美元）。https://www.openstreetmap.org/way/220695187
+- China Eximbank provides $85.8 million loan to Turonbank for Uzbekhydroenergo JSC projects (Linked to Project ID#54385)（Energy，在建，2018 年承诺，约 94 百万美元）。https://www.openstreetmap.org/relation/196251#map=8/41.251/70.332, https://www.openstreetmap.org/node/27524773#map=10/41.3134/69.2702, https://www.openstreetmap.org/way/27142752#map=11/40.7121/72.0696, https://www.openstreetmap.org/node/245385393#map=11/41.4708/69.5905, https://www.openstreetmap.org/directions?engine=fossgis_osrm_car&route=41.4717%2C69.5796%3B41.2026%2C69.0487#map=10/41.3670/69.4041
+- China Eximbank provides a $73.85 million for Kungrad Soda Ash Plant Expansion Project (Linked to Project ID#39943)（Industry, Mining, Construction，已完工，2012 年承诺，约 87 百万美元）。https://www.openstreetmap.org/way/441678582
+- China Eximbank provides $41.7 million loan for Phase I of Dehkanabad Potash Fertilizer Plant Project (Linked to Project ID#72169 and #40128)（Industry, Mining, Construction，已完工，2007 年承诺，约 75 百万美元）。https://www.openstreetmap.org/way/230156965
+- ICBC provides $29.2 million export buyer's credit loan for Kungrad Soda Ash Plant Project (Linked to Project ID#54832)（Industry, Mining, Construction，已完工，2003 年承诺，约 71 百万美元）。https://www.openstreetmap.org/way/441678582
+- China Eximbank provides $60.5 million loan to Uzbekistan Railways in 2017 for Tashkent City Subway Project (Yunusabad line)（Transport And Storage，在建，2017 年承诺，约 70 百万美元）。https://www.openstreetmap.org/relation/2458136
+- China Eximbank provides $50 million loan for the purchase of 63 excavators and 10 bulldozers （Water Supply And Sanitation，已完工，2010 年承诺，约 70 百万美元）。https://www.openstreetmap.org/relation/13070474
+
+来源：AidData 全球中国发展融资地理数据集 v3.0，https://github.com/aiddata/gcdf-geospatial-data

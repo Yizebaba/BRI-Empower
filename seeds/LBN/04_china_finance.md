@@ -1,0 +1,34 @@
+# 黎巴嫩（Lebanon）：中国融资项目（AidData）
+
+- 所属区域：中东和北非；共建“一带一路”国家（来源：Green Finance & Development Center，截至 2025 年 5 月）
+- AidData 收录 2000–2021 年承诺的项目 32 个，承诺金额合计约 1.3 亿美元（2021 年不变价）；主要行业：Other Social Infrastructure And Services（8）、Government And Civil Society（7）、Education（5）
+
+## 金额最大的项目（AidData 原文）
+
+- Chinese Government provides a RMB 213 million grant — via an April 2019 ETCA — for the Lebanese National Higher Conservatory of Music Construction Project (Linked to Project ID#65712, #65714, #40971, #65786, and #85604)（Other Social Infrastructure And Services，在建，2019 年承诺，约 35 百万美元）。https://www.openstreetmap.org/relation/7276833#map=14/33.9381/35.5904
+- Chinese Government provides a RMB 100 million grant — via a May 2017 ETCA — for the Lebanese National Higher Conservatory of Music Construction Project (Linked to Project ID#65712, #65714, #40971, and #65797)（Other Social Infrastructure And Services，在建，2017 年承诺，约 17 百万美元）。https://www.openstreetmap.org/relation/7276833
+- Chinese Government provides $5 million interest-free loan for the development of fish farms near Tyre (Linked to Project ID#40928)（Agriculture, Forestry, Fishing，已承诺，2002 年承诺，约 12 百万美元）。https://www.openstreetmap.org/relation/12196423
+- Chinese Government provides RMB 46 million interest-free loan — via 1996 ETCA — for the Container Inspection Equipment Project（Trade Policies And Regulations，已完工，2005 年承诺，约 12 百万美元）。https://www.openstreetmap.org/relation/12927915
+- Chinese Government provides a RMB 50 million grant — via a February 2013 ETCA — for the Lebanese National Higher Conservatory of Music Construction Project (Linked to Project ID#40971, #65714, #65786, and #65797)（Other Social Infrastructure And Services，在建，2013 年承诺，约 9 百万美元）。https://www.openstreetmap.org/relation/7276833
+- Chinese Government provides a RMB 50 million grant — via a December 2013 ETCA — for the Lebanese National Higher Conservatory of Music Construction Project (Linked to Project ID#65712, #40971, #65786, and #65797)（Other Social Infrastructure And Services，在建，2013 年承诺，约 9 百万美元）。https://www.openstreetmap.org/relation/7276833
+- Chinese Government provides EUR 3.6 million grant for Solar Lighting Project（Energy，已完工，2013 年承诺，约 5 百万美元）。https://www.openstreetmap.org/node/259206936, https://www.openstreetmap.org/relation/7924645, https://www.openstreetmap.org/node/4704006960, https://www.openstreetmap.org/relation/9200211, https://www.openstreetmap.org/node/258842202
+- Chinese Government provides a RMB 20 million grant - via a December 2006 ETCA - for the acquisition of equipment and devices for Lebanon's Ministry of Telecommunications（Communications，已完工，2006 年承诺，约 5 百万美元）。https://www.openstreetmap.org/way/30907193
+- Chinese Government provides a RMB 20 million grant — via a September 2015 ETCA — for the Lebanese National Higher Conservatory of Music Construction Project (Linked to Project ID#65712, #65714, #65786, and #65797)（Other Social Infrastructure And Services，在建，2015 年承诺，约 4 百万美元）。https://www.openstreetmap.org/relation/7276833
+- Chinese Government provides a RMB 10 million grant — via a December 2003 ETCA — for the acquisition of 16 services cars and 500 sets of solar water heaters (Linked to Project ID#41006)（Other Multisector，已完工，2003 年承诺，约 3 百万美元）。https://www.openstreetmap.org/relation/317306, https://www.openstreetmap.org/relation/317318, https://www.openstreetmap.org/relation/15683284, https://www.openstreetmap.org/relation/12196423, https://www.openstreetmap.org/relation/9933772, https://www.openstreetmap.org/relation/317315
+- Chinese Government provides a $1 million USD interest-free loan to develop the agricultural sector in the Beqaa Valley (Linked to Project ID#40927)（Agriculture, Forestry, Fishing，已承诺，2002 年承诺，约 2 百万美元）。https://www.openstreetmap.org/relation/7231015#map=9/34.1761/36.2533, https://www.openstreetmap.org/relation/318174
+- MOFCOM provides RMB 12 million grant for Orange Nassau Hospital Equipping Project（Health，已完工，2014 年承诺，约 2 百万美元）。https://www.openstreetmap.org/node/7824071079
+- Chinese Government provides a RMB 5 million grant to supply equipment to schools in southern Lebanon（Education，已承诺，2000 年承诺，约 2 百万美元）。https://www.openstreetmap.org/relation/318236, https://www.openstreetmap.org/relation/318309
+- Chinese Government provides a RMB 5 million grant — via a March 2002 ETCA — for the acquisition of 500 computers for the TVA Department of Lebanon's Ministry of Finance（Government And Civil Society，已完工，2002 年承诺，约 2 百万美元）。https://www.openstreetmap.org/way/514515325
+- Chinese Government donates equipment and materials worth RMB 5 million to Lebanese Ministry of Foreign Affairs (Linked to Project ID#65493)（Government And Civil Society，已承诺，2007 年承诺，约 1 百万美元）。https://www.openstreetmap.org/way/478104407
+- Chinese Government provides $1 million — via UNICEF — to support 86,000 Syrian refugees in Lebanon（Emergency Response，已完工，2017 年承诺，约 1 百万美元）。https://www.openstreetmap.org/relation/318174, https://www.openstreetmap.org/relation/316552
+- Chinese Government donates 600 solar water heaters worth RMB 5.6 million (Linked to Project ID#65396)（Energy，已完工，2010 年承诺，约 1 百万美元）。https://www.openstreetmap.org/relation/318236, https://www.openstreetmap.org/relation/318309
+- Chinese Government signed grant worth 500,000 USD for the Lebanese Ministry of Foreign Affairs（Government And Civil Society，已承诺，2005 年承诺，约 1 百万美元）。https://www.openstreetmap.org/way/478104407
+- Chinese Government donates office supplies worth $753,000 to the Foreign Ministry of Lebanon（Government And Civil Society，已完工，2011 年承诺，约 1 百万美元）。https://www.openstreetmap.org/way/478104407
+- Chinese Government provides a $500,000 USD grant for the reconstruction of the Nahr el-Bared Camp (Linked to Project ID#65641)（Reconstruction Relief And Rehabilitation，已完工，2009 年承诺，约 1 百万美元）。https://www.openstreetmap.org/way/927429440
+- Chinese Government provides a RMB 1.5 million grant to the Banque du Liban to acquire information network equipment for the LEBSTAT Project（Government And Civil Society，已完工，2003 年承诺，约 0 百万美元）。https://www.openstreetmap.org/way/542304576#map=19/33.89560/35.48892
+- Chinese Government signs $71,000 grant to drill well in Hammana, Lebanon（Water Supply And Sanitation，已承诺，2009 年承诺，约 0 百万美元）。https://www.openstreetmap.org/node/5037448063
+- 20th Chinese peacekeeping force donates medicine worth USD 22,000 to a Lebanese village in November 2021 (Linked to Project ID#94431)（Health，已完工，2021 年承诺，约 0 百万美元）。https://www.openstreetmap.org/relation/318309#map=11/33.2780/35.5676
+- Chinese engineers clear landmines in South Lebanon（Government And Civil Society，已完工，2013 年承诺）。https://www.openstreetmap.org/relation/318236, https://www.openstreetmap.org/relation/318309
+- Hanban establishes first Confucius Institute in the Middle East Region at Saint Joseph University in Lebanon（Education，已完工，2006 年承诺）。https://www.openstreetmap.org/way/478809769
+
+来源：AidData 全球中国发展融资地理数据集 v3.0，https://github.com/aiddata/gcdf-geospatial-data

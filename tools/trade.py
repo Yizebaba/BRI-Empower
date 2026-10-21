@@ -66,6 +66,7 @@ for c in C:
                 w = [r for r in rows if int(r.get("partnerCode") or -1) == 0]
                 out["total"] = {("x" if r["flowCode"] == "X" else "m"): r.get("primaryValue") for r in w}
                 out["industries"] = chapters(get(reporterCode=n, period=y, cmdCode="AG2", flowCode="X,M", partnerCode=0))
+                if not out["total"] and out["industries"]: out["total"] = {"x": sum(r["x"] or 0 for r in out["industries"]), "m": sum(r["m"] or 0 for r in out["industries"])}
                 break
         if "partners" not in out:   # 没有申报：用各国对它的申报（镜像）
             for y in YEARS:
