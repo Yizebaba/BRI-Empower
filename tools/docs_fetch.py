@@ -54,14 +54,14 @@ def wiki(c, name):
     d["relations"] = [r for r in rel if "relations" in r["title"].lower()]
     s = get("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode({"action": "query", "list": "search", "srsearch": f'"{name}" "Belt and Road" China', "srlimit": 8, "format": "json"}))
     skip = {name, "Belt and Road Initiative"} | {r["title"] for r in d["relations"]}
-    titles = [x["title"] for x in s.get("query", {}).get("search", []) if x["title"] not in skip and not x["title"].startswith(("List of", "Foreign relations of"))][:5]
-    d["bri"] = wiki_extract(titles, intro=True, chars=4000) if titles else []
+    titles = [x["title"] for x in s.get("query", {}).get("search", []) if x["title"] not in skip and not x["title"].startswith(("List of", "Foreign relations of"))][:8]
+    d["bri"] = [x for x in (wiki_extract(titles, intro=True, chars=4000) if titles else []) if name.lower() in (x["title"] + " " + x["text"]).lower()][:5]
     STAT["wiki"] += 1
     return d
 
 
 def worldbank(c):
-    p = {"format": "json", "count_exact": c["en"].split(",")[0], "rows": 15, "os": 0, "srt": "docdt", "order": "desc",
+    p = {"format": "json", "count_exact": c["en"].split(",")[0], "rows": 80, "os": 0, "srt": "docdt", "order": "desc",
          "fl": "docdt,docty,display_title,abstracts,url,repnb,majdocty,projn,count"}
     j = get("https://search.worldbank.org/api/v3/wds?" + urllib.parse.urlencode(p))
     out = []
@@ -72,7 +72,10 @@ def worldbank(c):
         out.append({"title": v.get("display_title"), "date": (v.get("docdt") or "")[:10], "type": v.get("docty") or v.get("majdocty"), "project": v.get("projn"),
                     "abstract": re.sub(r"\s+", " ", ab).strip()[:1500], "url": v.get("url")})
     STAT["wb"] += 1
-    return sorted(out, key=lambda x: x["date"], reverse=True)
+    LOW = ("procurement plan", "disclosable", "environmental and social commitment", "stakeholder engagement", "implementation status", "letter", "memorandum", "minutes", "aide memoire", "auditing", "audit", "financial statement", "terms of reference")
+    out = [x for x in out if not any(w in (str(x["type"]) + " " + str(x["title"])).lower() for w in LOW)]
+    out.sort(key=lambda x: (bool(x["abstract"]), x["date"]), reverse=True)
+    return out[:12]
 
 
 def openalex(c, name):

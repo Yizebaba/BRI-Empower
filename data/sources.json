@@ -9,7 +9,13 @@
    "cadence": "静态（截至 2025 年 5 月）",
    "use": "网页覆盖的国家范围",
    "how": "tools/bri_countries.py → data/bri_countries.json",
-   "cite": "Nedopil, C. (2025). Countries of the Belt and Road Initiative. Green Finance & Development Center."
+   "cite": "Nedopil, C. (2025). Countries of the Belt and Road Initiative. Green Finance & Development Center.",
+   "en": {
+    "name": "Belt and Road partner countries (150)",
+    "license": "Green Finance & Development Center, free to use with attribution",
+    "cadence": "Static (as of May 2025)",
+    "use": "Country coverage of the site"
+   }
   },
   {
    "id": "aiddata",
@@ -20,7 +26,13 @@
    "cadence": "静态（2000–2021 年承诺的项目）",
    "use": "150 国的中国融资项目清单（8,951 个）和 11 个重点项目的范围",
    "how": "tools/aiddata_countries.py → data/countries/；tools/bri_registry.py → data/projects.json",
-   "cite": "Goodman, S., et al. (2024). AidData's Geospatial Global Chinese Development Finance Dataset, Version 3.0. Williamsburg, VA: AidData at William & Mary."
+   "cite": "Goodman, S., et al. (2024). AidData's Geospatial Global Chinese Development Finance Dataset, Version 3.0. Williamsburg, VA: AidData at William & Mary.",
+   "en": {
+    "name": "AidData Geospatial Global Chinese Development Finance Dataset v3.0",
+    "license": "ODC-By 1.0; OSM features ODbL",
+    "cadence": "Static (projects committed 2000–2021)",
+    "use": "Chinese-financed projects in 150 countries (8,951) and footprints of 11 key projects"
+   }
   },
   {
    "id": "usgs",
@@ -29,7 +41,13 @@
    "license": "美国政府作品，公有领域",
    "cadence": "每 30 分钟",
    "use": "按国界归到 150 个国家；11 个重点项目周边",
-   "how": "tools/country_scan.py、tools/bri_scan.py"
+   "how": "tools/country_scan.py、tools/bri_scan.py",
+   "en": {
+    "name": "USGS earthquake catalogue (M2.5+, last 7 days)",
+    "license": "US Government work, public domain",
+    "cadence": "Every 30 min",
+    "use": "Assigned to 150 countries by border; near 11 key projects"
+   }
   },
   {
    "id": "gdacs",
@@ -38,7 +56,13 @@
    "license": "欧盟委员会 JRC / 联合国 OCHA，注明来源可用",
    "cadence": "每 30 分钟",
    "use": "按国界归到 150 个国家；11 个重点项目周边",
-   "how": "tools/country_scan.py、tools/bri_scan.py"
+   "how": "tools/country_scan.py、tools/bri_scan.py",
+   "en": {
+    "name": "GDACS Global Disaster Alert and Coordination System",
+    "license": "European Commission JRC / UN OCHA, free with attribution",
+    "cadence": "Every 30 min",
+    "use": "Assigned to 150 countries by border; near 11 key projects"
+   }
   },
   {
    "id": "eonet",
@@ -47,7 +71,13 @@
    "license": "NASA 开放数据",
    "cadence": "每 30 分钟",
    "use": "按国界归到 150 个国家；11 个重点项目周边",
-   "how": "tools/country_scan.py、tools/bri_scan.py"
+   "how": "tools/country_scan.py、tools/bri_scan.py",
+   "en": {
+    "name": "NASA EONET natural events",
+    "license": "NASA open data",
+    "cadence": "Every 30 min",
+    "use": "Assigned to 150 countries by border; near 11 key projects"
+   }
   },
   {
    "id": "gnews",
@@ -56,7 +86,13 @@
    "license": "标题和链接，版权归原媒体",
    "cadence": "每 30 分钟",
    "use": "项目相关报道和事件线索",
-   "how": "tools/bri_scan.py"
+   "how": "tools/bri_scan.py",
+   "en": {
+    "name": "Google News RSS (project names, last 7 days)",
+    "license": "Headlines and links; copyright of the publishers",
+    "cadence": "Every 30 min",
+    "use": "Project coverage and incident leads"
+   }
   },
   {
    "id": "ioda",
@@ -65,7 +101,13 @@
    "license": "学术开放数据，注明来源",
    "cadence": "每 30 分钟",
    "use": "所在国近 7 天断网告警",
-   "how": "tools/bri_scan.py"
+   "how": "tools/bri_scan.py",
+   "en": {
+    "name": "IODA Internet Outage Detection (Georgia Tech)",
+    "license": "Academic open data, with attribution",
+    "cadence": "Every 30 min",
+    "use": "National outage alerts, last 7 days"
+   }
   },
   {
    "id": "us_adv",
@@ -74,7 +116,13 @@
    "license": "美国政府作品",
    "cadence": "每 30 分钟",
    "use": "150 国的旅行建议级别",
-   "how": "tools/bri_scan.py（RSS）"
+   "how": "tools/bri_scan.py（RSS）",
+   "en": {
+    "name": "US State Department travel advisories",
+    "license": "US Government work",
+    "cadence": "Every 30 min",
+    "use": "Advisory level for 150 countries"
+   }
   },
   {
    "id": "uk_adv",
@@ -83,7 +131,13 @@
    "license": "Open Government Licence v3.0",
    "cadence": "每 30 分钟",
    "use": "最近更新时间和更新摘要",
-   "how": "tools/bri_scan.py（Content API）"
+   "how": "tools/bri_scan.py（Content API）",
+   "en": {
+    "name": "UK FCDO travel advice",
+    "license": "Open Government Licence v3.0",
+    "cadence": "Every 30 min",
+    "use": "Latest update time and summary"
+   }
   },
   {
    "id": "worldmonitor",
@@ -92,7 +146,13 @@
    "license": "World Monitor 服务条款；UCDP 数据 CC BY 4.0",
    "cadence": "每天一次（免费账号每天 5 次调用，每次取全球数据）",
    "use": "每个国家的冲突、新闻、断网、旅行建议",
-   "how": "定时任务经 World Monitor 连接器取全球数据存入 data/wm_raw/，tools/wm_process.py 按国家整理成 data/wm.json"
+   "how": "定时任务经 World Monitor 连接器取全球数据存入 data/wm_raw/，tools/wm_process.py 按国家整理成 data/wm.json",
+   "en": {
+    "name": "World Monitor (UCDP conflict events, travel advisories, top stories, Cloudflare outages, outbreaks, airports)",
+    "license": "World Monitor terms; UCDP data CC BY 4.0",
+    "cadence": "Daily (free account: 5 calls a day, global data each call)",
+    "use": "Conflict, news, outages and advisories per country"
+   }
   },
   {
    "id": "naturalearth",
@@ -101,7 +161,13 @@
    "license": "公有领域",
    "cadence": "静态",
    "use": "网页地图底图",
-   "how": "tools/bri_basemap.js"
+   "how": "tools/bri_basemap.js",
+   "en": {
+    "name": "Natural Earth 1:50m borders",
+    "license": "Public domain",
+    "cadence": "Static",
+    "use": "Map base layer"
+   }
   },
   {
    "id": "reference",
@@ -110,7 +176,13 @@
    "license": "各来源原文链接见文件",
    "cadence": "手工整理",
    "use": "4 起真实事件的权威事实，用来量化平台的偏差",
-   "how": "人工逐条摘录，注明出处"
+   "how": "人工逐条摘录，注明出处",
+   "en": {
+    "name": "Reference facts for accuracy tests (ICIMOD, Eos, All India Radio, ProPakistani, Lao News Agency, etc.)",
+    "license": "Source links in the file",
+    "cadence": "Curated by hand",
+    "use": "Authoritative facts on 4 real events, used to measure the platform's errors"
+   }
   },
   {
    "id": "mirofish",
@@ -119,7 +191,13 @@
    "license": "AGPL-3.0（本项目不改它的代码，只调用它的后端接口）",
    "cadence": "手动触发",
    "use": "用种子文档和你写的推演要求做多智能体模拟，输出报告",
-   "how": ".github/workflows/drill.yml"
+   "how": "Yizebaba/EVEREST- .github/workflows/mirofish.yml（网页提交 → Worker 排队 → mirofish-queue.yml 派出）",
+   "en": {
+    "name": "MiroFish swarm-intelligence simulation engine",
+    "license": "AGPL-3.0 (its code is not modified; only its backend API is called)",
+    "cadence": "On request",
+    "use": "Multi-agent simulation from seed documents and your prompt; outputs a report"
+   }
   },
   {
    "id": "portwatch",
@@ -128,7 +206,13 @@
    "license": "IMF / 牛津大学，公开数据，注明来源",
    "cadence": "每天一次（数据本身约晚几天）",
    "use": "各国港口近 30 天靠港次数、进出口量（公吨），28 个咽喉要道通行",
-   "how": "tools/logistics.py（ArcGIS FeatureServer 统计查询，不要密钥）"
+   "how": "tools/logistics.py（ArcGIS FeatureServer 统计查询，不要密钥）",
+   "en": {
+    "name": "IMF PortWatch ports and maritime chokepoints",
+    "license": "IMF / University of Oxford, open data with attribution",
+    "cadence": "Daily (data lags a few days)",
+    "use": "Port calls and import/export volume (tonnes) over 30 days; transits through 28 chokepoints"
+   }
   },
   {
    "id": "comtrade",
@@ -137,7 +221,13 @@
    "license": "联合国统计司，公开预览接口",
    "cadence": "每周",
    "use": "各国对全世界的进出口（97 个行业大类，HS 两位章）、主要贸易伙伴、中国对各国的分行业贸易；本国没申报的用镜像数据",
-   "how": "comtradeapi.un.org 公共预览接口，免费、不要密钥，每次最多 500 条"
+   "how": "comtradeapi.un.org 公共预览接口，免费、不要密钥，每次最多 500 条",
+   "en": {
+    "name": "UN Comtrade international trade statistics",
+    "license": "UN Statistics Division, public preview API",
+    "cadence": "Weekly",
+    "use": "Each country's trade with the world across 97 industries (HS chapters), top partners, China's trade with each country by industry; mirror data where a country does not report"
+   }
   },
   {
    "id": "worldbank",
@@ -147,7 +237,13 @@
    "cadence": "每周取一次，各指标取最近一个有值的年份",
    "use": "经济规模、增长、三次产业和制造业占比、通胀、外债、偿债、外资、就业结构、城市化、通电和互联网",
    "how": "api.worldbank.org/v2，免费、不要密钥",
-   "cite": "World Bank, World Development Indicators"
+   "cite": "World Bank, World Development Indicators",
+   "en": {
+    "name": "World Bank Open Data (World Development Indicators)",
+    "license": "CC BY 4.0",
+    "cadence": "Weekly; latest available year per indicator",
+    "use": "Economy size, growth, sector shares, manufacturing, inflation, debt, debt service, FDI, employment, urbanisation, electricity and internet"
+   }
   },
   {
    "id": "wikidata",
@@ -157,7 +253,77 @@
    "cadence": "每周",
    "use": "现任国家元首、政府首脑、立法机构、中央银行、首都、货币、官方语言（种子文档里的真实主体）",
    "how": "query.wikidata.org SPARQL，免费",
-   "cite": "Wikidata contributors"
+   "cite": "Wikidata contributors",
+   "en": {
+    "name": "Wikidata",
+    "license": "CC0",
+    "cadence": "Weekly",
+    "use": "Current heads of state and government, legislature, central bank, capital, currency, languages (real actors in the seed documents)"
+   }
+  },
+  {
+   "id": "wikipedia",
+   "name": "维基百科（英文）",
+   "url": "https://en.wikipedia.org/",
+   "license": "CC BY-SA 4.0",
+   "cadence": "每周",
+   "use": "国家条目导言、“中国—该国关系”条目全文、与“一带一路”相关的条目导言（种子文档）",
+   "how": "tools/docs_fetch.py（MediaWiki API，免费）",
+   "cite": "Wikipedia contributors",
+   "en": {
+    "name": "Wikipedia (English)",
+    "license": "CC BY-SA 4.0",
+    "cadence": "Weekly",
+    "use": "Country intro, full 'China–X relations' article, intros of Belt and Road related articles (seed documents)"
+   }
+  },
+  {
+   "id": "wbdocs",
+   "name": "世界银行文献库（Documents & Reports）",
+   "url": "https://documents.worldbank.org/",
+   "license": "世界银行使用条款，多数为 CC BY 3.0 IGO",
+   "cadence": "每周",
+   "use": "每国最新的报告和项目文件：标题、类型、日期、摘要（种子文档）",
+   "how": "tools/docs_fetch.py（search.worldbank.org/api/v3/wds，免费、不要密钥）",
+   "cite": "World Bank Documents & Reports",
+   "en": {
+    "name": "World Bank Documents & Reports",
+    "license": "World Bank terms; mostly CC BY 3.0 IGO",
+    "cadence": "Weekly",
+    "use": "Latest reports and project documents per country: title, type, date, abstract (seed documents)"
+   }
+  },
+  {
+   "id": "openalex",
+   "name": "OpenAlex 学术论文库",
+   "url": "https://openalex.org/",
+   "license": "CC0",
+   "cadence": "每周",
+   "use": "关于“一带一路”和该国的论文：标题、年份、期刊、摘要（种子文档）",
+   "how": "tools/docs_fetch.py（api.openalex.org，免费额度）",
+   "cite": "Priem, J., Piwowar, H., & Orr, R. (2022). OpenAlex.",
+   "en": {
+    "name": "OpenAlex scholarly works",
+    "license": "CC0",
+    "cadence": "Weekly",
+    "use": "Papers on the Belt and Road and each country: title, year, journal, abstract (seed documents)"
+   }
+  },
+  {
+   "id": "reliefweb",
+   "name": "ReliefWeb（联合国人道协调厅）",
+   "url": "https://reliefweb.int/",
+   "license": "按各报告来源",
+   "cadence": "每周（需要批准的 appname，没有时跳过）",
+   "use": "每国最新的人道报告正文节选（种子文档）",
+   "how": "tools/docs_fetch.py（api.reliefweb.int v2）",
+   "cite": "ReliefWeb, UN OCHA",
+   "en": {
+    "name": "ReliefWeb (UN OCHA)",
+    "license": "Per report source",
+    "cadence": "Weekly (needs an approved appname; skipped otherwise)",
+    "use": "Excerpts of the latest humanitarian reports per country (seed documents)"
+   }
   }
  ]
 }

@@ -322,13 +322,39 @@ def country_situation(k):
     return "\n".join(o) + "\n"
 
 
+def doc_documents(k):
+    c = CT[k]
+    try: d = json.load(open(f"data/docs/{k}.json"))
+    except Exception: return None
+    w = d.get("wikipedia") or {}; o = [f"# {c['zh']}（{c['en']}）：公开文档汇编", "", "以下为公开文档的原文或摘要（英文原文，未翻译），每段注明出处。", ""]
+    if w.get("country"): o += ["## 国家概况（维基百科）", ""] + [f"{x['text']}\n\n来源：{x['url']}（CC BY-SA 4.0）" for x in w["country"]] + [""]
+    if w.get("relations"): o += [f"## 中国与{c['zh']}的关系（维基百科全文）", ""] + [f"### {x['title']}\n\n{x['text']}\n\n来源：{x['url']}（CC BY-SA 4.0）" for x in w["relations"]] + [""]
+    if w.get("bri"): o += ["## 与“一带一路”相关的条目（维基百科导言）", ""] + [f"### {x['title']}\n\n{x['text']}\n\n来源：{x['url']}" for x in w["bri"]] + [""]
+    if d.get("worldbank"):
+        o += ["## 世界银行最新文件（Documents & Reports）", ""]
+        for x in d["worldbank"]:
+            o.append(f"- {x['date']} · {x.get('type') or ''} · {x['title']}" + (f"（项目：{x['project']}）" if x.get("project") else "") + f"。{x.get('url') or ''}")
+            if x.get("abstract"): o.append(f"  摘要：{x['abstract']}")
+        o.append("")
+    if d.get("openalex"):
+        o += ["## 学术论文（OpenAlex）", ""]
+        for x in d["openalex"]:
+            o.append(f"### {x['title']}（{x.get('year')}，{x.get('venue') or ''}，被引 {x.get('cited')}）\n\n{x.get('abstract') or '（无摘要）'}\n\n{x.get('url')}")
+        o.append("")
+    if d.get("reliefweb"):
+        o += ["## 人道报告（ReliefWeb）", ""] + [f"### {x['date']} · {x['source']} · {x['title']}\n\n{x['text']}\n\n{x.get('url') or ''}" for x in d["reliefweb"]] + [""]
+    if len(o) <= 4: return None
+    o.append(f"抓取时间：{d.get('generated')}")
+    return "\n".join(o) + "\n"
+
+
 def country_profile_finance(k):
     t = country_profile(k)
     return t.replace("：中国融资项目概况", "：中国融资项目（AidData）", 1)
 
 
 TEN = {"01_country.md": "Country & economy", "02_actors.md": "Actors", "03_industries_trade.md": "Industries, trade & logistics", "04_china_finance.md": "Chinese finance (AidData)",
-       "05_situation.md": "Recent situation", "06_projects_detail.md": "Key project dossiers", "07_history.md": "Historical events"}
+       "05_situation.md": "Recent situation", "06_projects_detail.md": "Key project dossiers", "07_history.md": "Historical events", "08_documents.md": "Public documents (Wikipedia, World Bank, papers)"}
 idx = {"note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选国家自动上传。", "sources": "seeds/00_sources.md", "scopes": {}}
 changed = 0
 os.makedirs("seeds", exist_ok=True); changed += write("seeds/00_sources.md", sources_doc())
@@ -337,7 +363,7 @@ for k, c in CT.items():
     ps = [p for p in P if p["country"] == k]
     docs = [("01_country.md", doc_country(k)), ("02_actors.md", doc_actors(k)), ("03_industries_trade.md", doc_trade(k)),
             ("04_china_finance.md", country_profile_finance(k)), ("05_situation.md", country_situation(k) + ("\n" + situation_doc(k, ps) if ps else "")),
-            ("06_projects_detail.md", projects_doc(k, ps) if ps else None), ("07_history.md", history_doc(k) if ps else None)]
+            ("06_projects_detail.md", projects_doc(k, ps) if ps else None), ("07_history.md", history_doc(k) if ps else None), ("08_documents.md", doc_documents(k))]
     keep = {n for n, t in docs if t is not None}
     for old in glob.glob(f"seeds/{k}/*.md"):
         if os.path.basename(old) not in keep: os.remove(old); changed += 1
