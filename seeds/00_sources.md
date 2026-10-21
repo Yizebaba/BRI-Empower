@@ -22,3 +22,4 @@
 - 世界银行文献库（Documents & Reports）：https://documents.worldbank.org/。许可：世界银行使用条款，多数为 CC BY 3.0 IGO。更新：每周。用途：每国最新的报告和项目文件：标题、类型、日期、摘要（种子文档）。
 - OpenAlex 学术论文库：https://openalex.org/。许可：CC0。更新：每周。用途：关于“一带一路”和该国的论文：标题、年份、期刊、摘要（种子文档）。
 - ReliefWeb（联合国人道协调厅）：https://reliefweb.int/。许可：按各报告来源。更新：每周（需要批准的 appname，没有时跳过）。用途：每国最新的人道报告正文节选（种子文档）。
+- 航空、铁路、公路咽喉要道（30 个口岸和枢纽）：https://github.com/Yizebaba/BRI-Empower/blob/main/tools/chokepoints_land.py。许可：新闻标题版权归原媒体；灾害数据见 USGS、GDACS、NASA；机场状态见 World Monitor。更新：每天两次。用途：中欧班列口岸、主要公路口岸、航空枢纽近 7 天的中断类报道、100 km 内灾害、机场状态。
