@@ -355,7 +355,7 @@ def country_profile_finance(k):
 
 TEN = {"01_country.md": "Country & economy", "02_actors.md": "Actors", "03_industries_trade.md": "Industries, trade & logistics", "04_china_finance.md": "Chinese finance (AidData)",
        "05_situation.md": "Recent situation", "06_projects_detail.md": "Key project dossiers", "07_history.md": "Historical events", "08_documents.md": "Public documents (Wikipedia, World Bank, papers)"}
-idx = {"note": "MiroFish 种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选国家自动上传。", "sources": "seeds/00_sources.md", "scopes": {}}
+idx = {"note": "推演种子文档，由 tools/seed_docs.py 从 data/ 自动生成；推演时按所选国家自动上传。", "sources": "seeds/00_sources.md", "scopes": {}}
 changed = 0
 os.makedirs("seeds", exist_ok=True); changed += write("seeds/00_sources.md", sources_doc())
 for k, c in CT.items():

@@ -185,21 +185,6 @@
    }
   },
   {
-   "id": "mirofish",
-   "name": "MiroFish 群体智能推演引擎",
-   "url": "https://github.com/666ghj/MiroFish",
-   "license": "AGPL-3.0（本项目不改它的代码，只调用它的后端接口）",
-   "cadence": "手动触发",
-   "use": "用种子文档和你写的推演要求做多智能体模拟，输出报告",
-   "how": "Yizebaba/EVEREST- .github/workflows/mirofish.yml（网页提交 → Worker 排队 → mirofish-queue.yml 派出）",
-   "en": {
-    "name": "MiroFish swarm-intelligence simulation engine",
-    "license": "AGPL-3.0 (its code is not modified; only its backend API is called)",
-    "cadence": "On request",
-    "use": "Multi-agent simulation from seed documents and your prompt; outputs a report"
-   }
-  },
-  {
    "id": "portwatch",
    "name": "IMF PortWatch 港口与海上咽喉要道",
    "url": "https://portwatch.imf.org/",
