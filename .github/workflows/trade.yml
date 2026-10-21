@@ -1,0 +1,22 @@
+# 每周一次：UN Comtrade 各国进出口（按 97 个行业大类）、主要贸易伙伴、中国对该国的分行业贸易（免费、不要密钥）→ data/trade/
+name: trade
+on:
+  schedule: [{ cron: "23 3 * * 1" }]
+  workflow_dispatch:
+    inputs:
+      countries: { description: "只跑这些国家（ISO3，逗号分隔；空 = 全部 150 国）", default: "", type: string }
+permissions: { contents: write }
+concurrency: { group: trade, cancel-in-progress: false }
+jobs:
+  run:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/trade.py ${{ inputs.countries }}
+      - name: Commit
+        run: |
+          git config user.name "bri-bot"; git config user.email "bri-bot@users.noreply.github.com"
+          git add data/trade data/trade_index.json; git diff --cached --quiet && exit 0
+          git commit -qm "trade $(date -u +%F)"
+          for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 7; done
