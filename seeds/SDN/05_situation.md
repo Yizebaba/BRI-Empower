@@ -13,3 +13,10 @@
 ## 国际新闻要闻（经 World Monitor）
 
 - 2026-10-19 12:00 UTC：UN condemns deadly wave of drone strikes in war-torn Sudan（UN News）。https://news.un.org/feed/view/en/story/2026/10/1168628 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-20 00:00 UTC：Green 级 WF，Forest fires in South Sudan, Sudan。https://www.gdacs.org/report.aspx?eventid=1033025&episodeid=1&eventtype=WF 
+- 2026-10-16 00:00 UTC：Green 级 WF，Forest fires in Sudan。https://www.gdacs.org/report.aspx?eventid=1032977&episodeid=2&eventtype=WF 
+- 2026-10-14 00:00 UTC：Green 级 WF，Forest fires in Sudan。https://www.gdacs.org/report.aspx?eventid=1032913&episodeid=5&eventtype=WF 
+- 2026-10-14 00:00 UTC：Green 级 WF，Forest fires in Sudan。https://www.gdacs.org/report.aspx?eventid=1032946&episodeid=2&eventtype=WF 

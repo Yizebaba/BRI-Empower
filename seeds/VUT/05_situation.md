@@ -8,3 +8,7 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-17 08:59 UTC：M4.8，110 km NE of Norsup, Vanuatu。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2z9 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-21 04:23 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1572876&episodeid=1741535&eventtype=EQ 

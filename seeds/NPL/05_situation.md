@@ -9,7 +9,7 @@
 
 - 2026-09-04 00:00 UTC：US State Dept Nepal - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html 
 
-# 尼泊尔项目周边近期态势（截至 2026-10-22 00:37 UTC）
+# 尼泊尔项目周边近期态势（截至 2026-10-22 05:19 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -32,7 +32,7 @@
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-19 18:07 UTC：China cites non-existent Tibetan refugee threats to refuse reopening Nepal border trade post - Tibetan Review
-- 2026-10-18 07:43 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
+- 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
 
 ## 热索瓦加迪（Timure）口岸边检站
