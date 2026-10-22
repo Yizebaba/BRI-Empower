@@ -20,4 +20,3 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-16 03:35 UTC：M6.9，76 km NE of Ozernovskiy, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq 
-- 2026-10-14 23:20 UTC：M4.5，82 km SSW of Mil’kovo, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2d6 

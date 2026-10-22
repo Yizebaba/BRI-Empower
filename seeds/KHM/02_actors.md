@@ -26,8 +26,8 @@
 - China's Ministry of National Defense：在柬埔寨出现在 1 个项目中，涉及金额约 112 万美元。例：2020 年 China's Ministry of National Defense provides donation of 16 tons of medical supplies in April 2020 to Nationa
 - Chinese Ministry of Foreign Affairs：在柬埔寨出现在 1 个项目中，涉及金额约 100 万美元。例：2021 年 Chinese Ministry of Foreign Affairs provides demining equipment worth USD $1 million to Cambodia
 - Chinese company：在柬埔寨出现在 1 个项目中，涉及金额约 68 万美元。例：2012 年 Chinese company donates 2 fire trucks to Cambodia's National Police
-- 中国路桥（CRBC）：在柬埔寨出现在 1 个项目中，涉及金额约 34 万美元。例：2019 年 China Bridge and Road Corporation (CRBC) donates 300,000 USD to Cambodian Red Cross
 - China Bridge：在柬埔寨出现在 1 个项目中，涉及金额约 34 万美元。例：2019 年 China Bridge and Road Corporation (CRBC) donates 300,000 USD to Cambodian Red Cross
+- 中国路桥（CRBC）：在柬埔寨出现在 1 个项目中，涉及金额约 34 万美元。例：2019 年 China Bridge and Road Corporation (CRBC) donates 300,000 USD to Cambodian Red Cross
 - China government：在柬埔寨出现在 1 个项目中，涉及金额约 22 万美元。例：2008 年 China government donates office equipment and vehicles to Cambodian Senate
 - China Provides RMB 1.34 million：在柬埔寨出现在 1 个项目中，涉及金额约 22 万美元。例：2020 年 China Provides RMB 1.34 million grant for Feasibility Study on Sewage and Wastewater Treatment Infrastructure 
 - Chinese enterprises：在柬埔寨出现在 1 个项目中，涉及金额约 17 万美元。例：2010 年 Chinese enterprises donate $65,000 to Cambodian stampede victims

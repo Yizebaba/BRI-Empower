@@ -11,9 +11,3 @@
 - 2026-10-19 22:42 UTC：M4.9，52 km S of Kokopo, Papua New Guinea。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ic 
 - 2026-10-18 22:06 UTC：M4.7，147 km SSW of Kokopo, Papua New Guinea。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u38b 
 - 2026-10-18 00:28 UTC：M4.8，31 km SE of Kainantu, Papua New Guinea。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u32r 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032814&episodeid=16&eventtype=WF 
-- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032894&episodeid=4&eventtype=WF 
-- 2026-10-06 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032888&episodeid=8&eventtype=WF 

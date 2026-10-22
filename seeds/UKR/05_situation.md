@@ -37,7 +37,3 @@
 - 2025-09-18 08:35 UTC：US Embassy Ukraine Security Alert: Message for U.S. Citizens Considering Travel to Uman for Rosh Hashanah。https://ua.usembassy.gov/security-alert-message-for-u-s-citizens-considering-travel-to-uman-for-rosh-hashanah-2/ 
 - 2025-07-21 14:04 UTC：US Embassy Ukraine Alert – Message for U.S. Citizens: Potential Obligations of Dual Citizens under Martial Law and Mobilization Law。https://ua.usembassy.gov/message-for-u-s-citizens-potential-obligations-of-dual-citizens-under-martial-law-and-mobilization-law/ 
 - 2025-06-22 05:51 UTC：US Embassy Ukraine Security Alert – Worldwide Caution。https://ua.usembassy.gov/security-alert-worldwide-caution-june-22-2025/ 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-19 01:00 UTC：Green 级 FL，Flood in Ukraine。https://www.gdacs.org/report.aspx?eventid=1104242&episodeid=1&eventtype=FL 
