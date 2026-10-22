@@ -40,7 +40,7 @@
 
 - 2026-10-17 05:06 UTC：M5.7，48 km WNW of Khuzdar, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1 
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-22 19:27 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-22 22:41 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -73,12 +73,12 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
+- 2026-10-22 20:30 UTC：Three terrorists killed as security forces foil attack in Gwadar - Minute Mirror。https://news.google.com/rss/articles/CBMiogFBVV95cUxOY0J4Z2lBZGFPVEhQQVVXTnVtZFQ5RjRVejE0YXVWVURVTU05ZnBhandOLTlERnRhdEI3VndxOWpNNU0xTzRnTHJ3S2ViSjI2R3dYZ3VQSGZDQWpuWE84WGlLVlJBeGhCOTlvaW1sV1hZS29OeGxVemNqQmlySlVJWVlzZFBfMjc4XzdQYjNXcU1EdXFVRUdmek5kWFZId2FfeEE?oc=5
 - 2026-10-22 18:35 UTC：Security Forces Foil Attack, Kill Three Terrorists In Gwadar - UrduPoint。https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3BkQlc4dWRtNm9ENGhIUzV3cktuQ1NZcnhWQWtBVmVCeGRoaUdlbDQ5cWdXVEs0WmdJaTBhT01UQ1pPYk5MNUVHeW1feFR5MU5LM2VmVG1CWEZxZUpRejAyUGtEM0F1RDgydnRIWnBsNlZnSmNncVdwR1hNR2d2RHlRT0FIVkM0bzdxbTNUUmVlalVLWG9zMUgyRQ?oc=5
 - 2026-10-22 18:25 UTC：Three terrorists killed as security forces foil attack on Gwadar camp - Hum News English。https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEZyYnJnTGU0ZzhiVDhmUkJCd2RfcGtnZ29idDBCWERTSEkyZUpoc1ZCX0Q0U3Q0LVVMdU9zNTE3RTNRdUZIV2w0T0JXTEZkb0g2SVZKbF90eF80cVBPODE5cV80VVV6YkJQTXNzNFhtMU9wRFRhQlIzbVhPeHVDVk5TVHRnMWN1aUtBNWNyYnVGRk5maG90NXV1TzJkY2VUMkE?oc=5
 - 2026-10-22 18:00 UTC：Naqvi Praises Security Forces For Foiling Gwadar Terrorist Attack, Three Militants Killed - UrduPoint。https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ296SFpNWjlpSGNLSlJ1VFVnWGdqWWQ2RkM3dHhUamljd2ctMUpDRVQ0d0JkQkpIbkVRNUNXYkd2R0E1NGE4VXhzUy1NWExBMm11NUdyM1pWT3RmSFFNSmtMcGtXRWZOU2xfZWV6MmJ4QU9wNVlVRVgwNlE0Ym0tRGZmWUxhSWtFanBfYlhrVGtUZkh1MlRuMkZwaHc?oc=5
-- 2026-10-22 17:56 UTC：3 terrorists killed in southwestern Pakistan: Report - Anadolu Ajansı。https://news.google.com/rss/articles/CBMingFBVV95cUxQcy1TYkZZMHBnYm5fWkwzQUhDVW96SUxvZXhTZ3BNamRLX0N2TGp6eW1FdVZYSDdGREMxSDFPNHVhTmllZlhOSlp0Ukl4SG1zeWN4aG5uOU5JaTFycXhTMW9zek9CWl9LXzhzckdTVU1qRHhZV2VYdWtRQWZ2bnhuNXJ1aXlTSnpiZzN3LTh6WkNxY2NJZkdiVUdTWk1Rdw?oc=5
 - 2026-10-22 17:56 UTC：Three Militants Killed as Security Forces Foil Attack on Construction Camp in Gwadar - The Nation (Pakistan )。https://news.google.com/rss/articles/CBMiswFBVV95cUxORkFYdHdxUnVubWwtZU5SQUdpYmlTd2JkYVBYT2ZmLThHTzZjd25YQ3BjVktrMG5XeHNCNjRWRG14Rnllb3hvVXFid2V4VFhTYXltSGt3YjkyNUltRUZsYm5FZkhYZldSSEl3ZEJ1TExpS0stcU9yM0JRcG5mbjcybk50bDBDLXBrZHIxbFR6aEFxVDY0M0hJTzkxd24zOHRUR3Nacy1LaDhLZ1lyVlVrZHMxRQ?oc=5
-- 2026-10-22 17:42 UTC：Gwadar Attack by BLA-BLF: Reality behind ‘Operation Almas’ EXPOSED - Pakistan Observer。https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXBXUmN1TzZHdzJqMWtJX3NiZHNoa0Y2ek1nSlU2RUlNeDVsSW9kYXpEMFNHa3g2R2VUQzZBbG9QeVJlQnBEVmotOWp2X1VJUGpYWXp2UVRpcEp1MjMtVmJZckRMWndrS0F4UHlIZFhNVWQ0dFBGcWdyQmFzdzJYU3FXWnozTlFXVUVpMG1uQnhtZw?oc=5
+- 2026-10-22 17:41 UTC：Gwadar Attack by BLA-BLF: Reality behind ‘Operation Almas’ EXPOSED - Pakistan Observer。https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXBXUmN1TzZHdzJqMWtJX3NiZHNoa0Y2ek1nSlU2RUlNeDVsSW9kYXpEMFNHa3g2R2VUQzZBbG9QeVJlQnBEVmotOWp2X1VJUGpYWXp2UVRpcEp1MjMtVmJZckRMWndrS0F4UHlIZFhNVWQ0dFBGcWdyQmFzdzJYU3FXWnozTlFXVUVpMG1uQnhtZw?oc=5
 - 2026-10-22 17:41 UTC：Security forces foil attack in Gwadar, kill three militants - Daily Times。https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1RwLTFXZzJ3SXBkVExIbGVhaUZJb0dfQ2Rxd3AtREFTUU5KN3pVd3BfcFRqWU1ORG0wNHRxRUhyXzZsX1BSdTN2R1p3TmtwY1RXMjJmVzk2UmIxUU1vd0hQQXlndjc3YUtpYUkyRFFwMGVBYk9tTnB1TEtBc0dKU3RmdnhoWU1VZnFyZTJDRUdXcVVtVEtLZw?oc=5
 - 2026-10-22 17:36 UTC：Three militants killed, seven surrounded in ongoing Gwadar operations - Pakistan Today。https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXZ1eDFEOGZLWmJrWTBIWEtZWG5sTXZmdVVralJpclE5akFmTGtfZUdUN1ZWRzMyQm5MeHFHZzE0T2pJV1cxX2ItSW9zNmlVa0pjY1hzcTQxbk9ucF9tM0tXSnV6WUtwME9WZEVSbjFQNkstc0FHNFRaT1paWTZURDhlZFFQd0MyNWo4dnlxRjhIME1SS0tvcFlVMTZ6RzZ4Y0dGbU9mcXJNd3UtYmowcmln?oc=5
 - 2026-10-22 17:33 UTC：Security Forces Foil Terror Attacks in Gwadar, Kill Three Militants - Pakistan Observer。https://news.google.com/rss/articles/CBMilgFBVV95cUxNWDhzWUlicUFJTG9EenctTGVkUE84bkRBeE9udDRzcGFqQnZZV2Fwd09Yc2t1anlPQy1CQU5GeFlsQzRnTHNsZTRORkJEXzBaVlY2eHZWU3E3ckpoVzQ2am1tVHVvazBHamVxak1lR19lWVk5OGJTNHFKS21xYjVWTGp1RzB1Q3lBSGY3Z0NVTVJkdjVxWHc?oc=5
@@ -87,14 +87,14 @@
 - 2026-10-22 17:11 UTC：Fact Check: BLA’s Gwadar Attack Propaganda Exposed amid Damage to Balochistan's Civilian Property - Daily Pakistan。https://news.google.com/rss/articles/CBMi1AFBVV95cUxPal9fbWNhLWQ1SmItZGlrNy1hYTVOYnptOWZ5WnpNQmtHNTYyT204bjdzWm5tdnNvNEo1V08tTDZTVkExMzlsb3BEdkZLdHFPQkVRR0hBd3VrREJMQVkxXzBxWXZzWml6bnFTXzBSNllaay1HYXEzQXZwd0ZlZHFrOVZTbTlHa09SMkd5ekQ3cUd6ekUzb29taG41aWFBZTItVTZ0QmVpbWxDOTVWWVlIUUl3bVgzeFNxVDMyaU5rbmxiUEVQR2FMcUJCWGFoVk9VMm1PVg?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
+- 2026-10-22 17:40 UTC：Security forces kill three terrorists, surround seven others in Gwadar: sources - شبكة تواصل الإخبارية
 - 2026-10-22 17:05 UTC：Gwadar Security Update | Security Forces Operation | Balochistan News - Breaking News - Aaj English TV
-- 2026-10-22 16:59 UTC：Security forces kill three terrorists, surround seven others in Gwadar: sources - The News Pakistan
 - 2026-10-22 14:25 UTC：PTI Takeover Plan in KP? | Gwadar to Khyber Under Pressure | China vs Pakistan - YouTube
 - 2026-10-22 13:01 UTC：What Happened to Gwadar’s Rights Movement? - The Diplomat – Asia-Pacific Current Affairs Magazine
 - 2026-10-22 02:15 UTC：Pakistan-United States relations: Why Trump is sending “Thank You Pakistan” messages to Islamabad - Prothom Alo English
 - 2026-10-21 19:39 UTC：ADC Gwadar Orders Reliable Medicine Supplies, Attendance at Public Hospitals - Daily Independent
 - 2026-10-21 16:03 UTC：Pakistan Maritime Resilience Faces a New Test - The Daily CPEC
-- 2026-10-21 06:29 UTC：Gwadar Steps Up Drainage Cleaning to Improve Urban Sanitation - Daily Independent
+- 2026-10-21 02:53 UTC：Pak-China joint venture in donkey business holds groundbreaking ceremony - Gwadar Pro
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 

@@ -12,4 +12,4 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-14 12:00 UTC：Red 级 TC，Tropical Cyclone CHAMPI-26。https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=33&eventtype=TC 
+- 2026-10-14 12:00 UTC：Red 级 TC，Tropical Cyclone CHAMPI-26。https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=34&eventtype=TC 

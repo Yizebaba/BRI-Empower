@@ -11,4 +11,5 @@
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Zambia。https://www.gdacs.org/report.aspx?eventid=1032949&episodeid=5&eventtype=WF 
 - 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Zambia。https://www.gdacs.org/report.aspx?eventid=1032981&episodeid=3&eventtype=WF 
 - 2026-10-11 00:00 UTC：Green 级 WF，Forest fires in Zambia。https://www.gdacs.org/report.aspx?eventid=1032983&episodeid=4&eventtype=WF 
-- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Zambia。https://www.gdacs.org/report.aspx?eventid=1032789&episodeid=19&eventtype=WF 
+- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Zambia。https://www.gdacs.org/report.aspx?eventid=1032789&episodeid=20&eventtype=WF 
+- 2026-10-08 00:00 UTC：Green 级 WF，Forest fires in Zambia。https://www.gdacs.org/report.aspx?eventid=1032805&episodeid=13&eventtype=WF 
