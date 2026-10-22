@@ -9,3 +9,7 @@
 
 - 2026-10-20 06:04 UTC：M4.6，7 km SE of San Julian, Philippines。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3k7 
 - 2026-10-16 12:18 UTC：M4.7，10 km SE of Lamitan, Philippines。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2pp 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-14 12:00 UTC：Red 级 TC，Tropical Cyclone CHAMPI-26。https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=33&eventtype=TC 

@@ -40,7 +40,7 @@
 
 - 2026-10-17 05:06 UTC：M5.7，48 km WNW of Khuzdar, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1 
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-22 15:36 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-22 19:27 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -64,9 +64,6 @@
 周边自然事件（地震 150 km、灾害警报 300 km、NASA 自然事件 150 km 以内）：
 - 2026-10-22 10:07 UTC，GDACS：Green 级 · Earthquake in Afghanistan，距项目 252.0 km。https://www.gdacs.org/report.aspx?eventid=1573108&episodeid=1741795&eventtype=EQ
 
-近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-15 16:52 UTC：Rs12.75bn lined up for six strategic infrastructure projects-INP - Independent News Pakistan
-
 ## 卡洛特水电站（720 MW）
 
 周边自然事件：扫描期间没有记录。
@@ -76,28 +73,28 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
-- 2026-10-22 13:27 UTC：Security forces repel Fitna al-Hindustan terrorists’ attacks on three posts in Gwadar - Pakistan Connect。https://news.google.com/rss/articles/CBMickFVX3lxTE9rM09hSHZHWG54dDkyNFFfMXJjbzU3dllZRVpld2JYZmV0enl4NlhUX1Mza3ZyeE5jVjQ5MWp0c1ZPbW5DcUZqNlRqYjRCV0RIUjZyaEpBNVdXdzBReF9iT2pGWHF4YTlsM0hjaVdOQWRsdw?oc=5
-- 2026-10-22 13:16 UTC：Security Forces Foil Gwadar Attack and Engage Terrorists After Border Gate Raid and Civilian Ambush - Balochistan Pulse。https://news.google.com/rss/articles/CBMigAFBVV95cUxOUDdkTGhKdmpxRnBDeDI3Y0lLdmllTnN2VllhSmpWc2kwSnYzZThaRzhVZFg0RFcwLURpV0xia2JHSnF4UnlwUktUc0NibElRbUQ4dnFmNW1yTG9JQTdyenk5eW9KejM1T3lsUUNVQVExOFd4eEVmbHd2MGE5TERuY9IBgAFBVV95cUxOUDdkTGhKdmpxRnBDeDI3Y0lLdmllTnN2VllhSmpWc2kwSnYzZThaRzhVZFg0RFcwLURpV0xia2JHSnF4UnlwUktUc0NibElRbUQ4dnFmNW1yTG9JQTdyenk5eW9KejM1T3lsUUNVQVExOFd4eEVmbHd2MGE5TERuYw?oc=5
-- 2026-10-21 02:05 UTC：Four terrorists killed in Balochistan operations, Army major martyred in Gwadar - Tribal News Network。https://news.google.com/rss/articles/CBMiowFBVV95cUxQNC04dnhkaWlsTFFkSEs3V1BjRWd5eDJWV2YxZFc5VVdCcWFtbV95aVIxN2ZjN3U2TEtnSjdkU2VqN19KZWdza3hLV0xhS3d5ZmdNOVRiQ0V3S2FZX1Z6WDhrNnFiaFVsYi1MbGluMjh2RGlRckNGd2ZxRUhLaGUycE1fcHQ1ODh0Nk9EVzRfOXplM2Nmb01OZ1Y3OWJJcFdEZXlv?oc=5
-- 2026-10-20 04:22 UTC：Army major martyred, four terrorists killed in Balochistan IBOs - Daily Times。https://news.google.com/rss/articles/CBMingFBVV95cUxPTTIyVEdrVXdOdm1TY2hVckxVYllnYk1SWExNZFpJeEVlN2QwT1hJYV90Tjllb2VtOEZWMTNRaUJmaXprTWFJbEVxVXFrNnNmNUdQeWQ5ZGhZbExUWms1RVg0MVNIYjB5RGQ2NjVBTEpDRXZzNlpYTXNvVDZEbUptS1BCbDY4QlVmVTRVTl93LXN0RXZGWWNfbUt5Wnh5dw?oc=5
-- 2026-10-19 18:24 UTC：Four Terrorists Killed in Kalat Operation; Major Wajahat Waheed Embraces Shahadat in Gwadar - Daily Independent。https://news.google.com/rss/articles/CBMi1AFBVV95cUxQYUpIZkN5cWZQQ2UtRG1ycmNCQXg5ZzdUUE5YaTRnNXg3UjBZYXdGaGpoY3VmV1BienRMZVRkLVNMUFVSQUY5bTM4cFllUGJLSmJqY1BvTVdGTzFaZmZid3FwU3BSZWFVNFhlQ1VZQmdOMXVaQnNKSDVITXpreGtlYlJubWI2WFBzSmlZdWFFdVdESjhvWGtzS2JoSVRuUmNXMUNCMnF1Q0ZsbzNwMVpXeG8xT2xObnBUajI4T2NjaFRJN1BYa0VZR0ZWR2diWTdVOVFTWg?oc=5
-- 2026-10-19 15:00 UTC：Army major martyred in Gwadar, four terrorists killed in Kalat IBO: ISPR - The News Pakistan。https://news.google.com/rss/articles/CBMiqwFBVV95cUxONUowZmtiSzM5UGlyS1ZmSEtXMHpVc2JnUFk3cVM4Tl93dGM4ck12RkJ1SzNmeUFjeU94T1l0dmNBUnBZblpObDNZSGUwZXpxLUg1dGQ0SlBWZmN0MWUySlZvTTdBRmNjWXNpMXhZQ1doeW45ak4xN0xSV1k5WTVsbnJkWGVJOHl0eVJhS0lLaFNmQ1ZpdThhbjF4YmhhbnpkYlBpMDdLNWltR1k?oc=5
-- 2026-10-19 13:27 UTC：Four militants killed, Pakistan Army major martyred in Balochistan - Daily Times。https://news.google.com/rss/articles/CBMiogFBVV95cUxQZk16bkE2SWstTW9GbU4xMTlidWRlM24wVWlaTUhkR1NXaHl6WDA1WEhveHpwSUQxVEpXblU2emEwOENFNVdxRENzcDliNXBmRHQ3WjRXXzBaNjdRYnltNUVyb0J6ZWdRMUV4TE5kd1RKX1d0Uks0S2ZfSWRFSXBia0tuaTdrS0swUVBTYm1MU0kxb204dmVrVkFyZUYzTUs4OVE?oc=5
-- 2026-10-19 10:06 UTC：BLA Claims Deadly IED Strike On Pakistan Army Convoy In Gwadar, Major-Rank Officer Killed - News18。https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZF9vZnZYbGRtSFBIcWdKN2lCbmRsajdkRWdnN2ZablBCMnV5WUZickhWWWhkck1uNFJBZkx1bFhQZDV4Tzh1cFo4Wm91eFp5VG5JS1hpSF9jZU82UkJfWkZpaE9MNHlBUlFDb1VyT0NDcW9OQTNVTXpWc0haeXJ0c3lLck95SmxZak8yb0dPOG0ybzllR2d4LXhtUW44VGItaHYtS0dJTUFhMW54TnhfM2ZoczNuVXVCV2ZpZ1ozblJFdVI2RWVZRi1NaWJBWFkwSG5J0gHYAUFVX3lxTFBmU0gyUUIxeWFBWDd1QWtybWloMmU0LWhGLXFWY0xQWTlMUzY1WTh6N2xpRTB4eU83THVDMXpNTERpSmRvd2p4STlYLUppWDhzd1huZTRRY090T0xQNEpLdXRFSmJpT3gwREJySjFnV28wM0VwRUFzbUxaYVJZWVZkUVE0bmZhY1lyaEpRSE1SVlFnVnktODBlSzlhbnR4ZS1STV9kMEhzM3czU0kxTlFXRnM0UkJlM3ZsYXhwT0t6NTFDb1ZrQjN0d0QzRzRWVnBjSXdEX3E0Vg?oc=5
-- 2026-10-19 08:07 UTC：Two killed in firing incident in Gwadar - | Associated Press Of Pakistan。https://news.google.com/rss/articles/CBMifEFVX3lxTFBaWW1vVGMwYlJTYUJxcjd0LVV0dU5ZallCOThzd2xFYlZtOHRXcHhIMFVZTEhKdWUxNnJKVTlORU1kMnN1NWI4UEIxN29xRjRfTzUwVENZMGxPS0twSXdyeFAxMGQ3RVg1QkNqWHZJdjFxNV9ROUVyNTMwZ0U?oc=5
-- 2026-10-19 07:40 UTC：IED Blast During Gwadar Operation Claims Life of Major Wajahat Waheed - MM News。https://news.google.com/rss/articles/CBMikgFBVV95cUxPdjRBVUoxT0VmZkVMTzRWOV9SN2RPLXlkQWNtaTFTb3Y0dHE2UXlrVmhOaVV0c0QxWGNZS3cyMVFFbXZuY3RiMlR6UGwxckdqd2tQWGhuemFmOGZ0SU91V1RMdTRIeUUwTURFXzVVenZTdXRQd2NfZFo0VEU4blNoZEp6YkVHSnBPY0ZPZDRKRXBndw?oc=5
-- 2026-10-19 07:23 UTC：KALAT AND GWADAR OPERATIONS: 4 TERRORISTS KILLED, MAJOR WAJAHAT WAHEED MARTYRED - Minute Mirror。https://news.google.com/rss/articles/CBMiswFBVV95cUxONTBldHNJRm1ILVRQRFpwZ2VIaUdMWHpCdXNzZEhJYlNfRUUzcy16a1BnUDV3aEFUSmdxblVHNTBXb1UyU0M5azdQMnExdThlTW5XZ0dyQ3dpMHFlcFBHNkozMGpfOGJBNkZFZm9SYXFEYkhjdE5rdnBucUJvLW1JblJRYUU4RHNCZ21kN0tVeU40bW9BQWhlenZEa0gyTXFpMlctWlhKay1XU0xQZ25jbEFROA?oc=5
-- 2026-10-19 06:44 UTC：Major Wajahat Waheed Martyred in Gwadar IED Attack - Balochistan Pulse。https://news.google.com/rss/articles/CBMi1gFBVV95cUxNMVNZTE1fcHpYenBSREhlRElsUHhyaG1ZRXlNS0ZuOEZIRTlWbWFoYTRFMDVjZTY0QVpmRzlYUkJuZXNUWnl5MUNUZ3RMRlJDY1FYOV9OQTZmYmdnV0FKOVZmbU1JS2ZWcXV5cjdlTlFRcGR3VWwxTEZpSjFXUlJURUdOakIxa2xzbVgyX3czSHo5b1NCWkNmczA0bW5zMnZQZ3NWcEdoeUMzdUJJVXpnVE9QRFM0N1BVcHNMYzBKSE9PMXJILUp4Ylp4cEhIQ2F2d3EwblZB?oc=5
+- 2026-10-22 18:35 UTC：Security Forces Foil Attack, Kill Three Terrorists In Gwadar - UrduPoint。https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3BkQlc4dWRtNm9ENGhIUzV3cktuQ1NZcnhWQWtBVmVCeGRoaUdlbDQ5cWdXVEs0WmdJaTBhT01UQ1pPYk5MNUVHeW1feFR5MU5LM2VmVG1CWEZxZUpRejAyUGtEM0F1RDgydnRIWnBsNlZnSmNncVdwR1hNR2d2RHlRT0FIVkM0bzdxbTNUUmVlalVLWG9zMUgyRQ?oc=5
+- 2026-10-22 18:25 UTC：Three terrorists killed as security forces foil attack on Gwadar camp - Hum News English。https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEZyYnJnTGU0ZzhiVDhmUkJCd2RfcGtnZ29idDBCWERTSEkyZUpoc1ZCX0Q0U3Q0LVVMdU9zNTE3RTNRdUZIV2w0T0JXTEZkb0g2SVZKbF90eF80cVBPODE5cV80VVV6YkJQTXNzNFhtMU9wRFRhQlIzbVhPeHVDVk5TVHRnMWN1aUtBNWNyYnVGRk5maG90NXV1TzJkY2VUMkE?oc=5
+- 2026-10-22 18:00 UTC：Naqvi Praises Security Forces For Foiling Gwadar Terrorist Attack, Three Militants Killed - UrduPoint。https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ296SFpNWjlpSGNLSlJ1VFVnWGdqWWQ2RkM3dHhUamljd2ctMUpDRVQ0d0JkQkpIbkVRNUNXYkd2R0E1NGE4VXhzUy1NWExBMm11NUdyM1pWT3RmSFFNSmtMcGtXRWZOU2xfZWV6MmJ4QU9wNVlVRVgwNlE0Ym0tRGZmWUxhSWtFanBfYlhrVGtUZkh1MlRuMkZwaHc?oc=5
+- 2026-10-22 17:56 UTC：3 terrorists killed in southwestern Pakistan: Report - Anadolu Ajansı。https://news.google.com/rss/articles/CBMingFBVV95cUxQcy1TYkZZMHBnYm5fWkwzQUhDVW96SUxvZXhTZ3BNamRLX0N2TGp6eW1FdVZYSDdGREMxSDFPNHVhTmllZlhOSlp0Ukl4SG1zeWN4aG5uOU5JaTFycXhTMW9zek9CWl9LXzhzckdTVU1qRHhZV2VYdWtRQWZ2bnhuNXJ1aXlTSnpiZzN3LTh6WkNxY2NJZkdiVUdTWk1Rdw?oc=5
+- 2026-10-22 17:56 UTC：Three Militants Killed as Security Forces Foil Attack on Construction Camp in Gwadar - The Nation (Pakistan )。https://news.google.com/rss/articles/CBMiswFBVV95cUxORkFYdHdxUnVubWwtZU5SQUdpYmlTd2JkYVBYT2ZmLThHTzZjd25YQ3BjVktrMG5XeHNCNjRWRG14Rnllb3hvVXFid2V4VFhTYXltSGt3YjkyNUltRUZsYm5FZkhYZldSSEl3ZEJ1TExpS0stcU9yM0JRcG5mbjcybk50bDBDLXBrZHIxbFR6aEFxVDY0M0hJTzkxd24zOHRUR3Nacy1LaDhLZ1lyVlVrZHMxRQ?oc=5
+- 2026-10-22 17:42 UTC：Gwadar Attack by BLA-BLF: Reality behind ‘Operation Almas’ EXPOSED - Pakistan Observer。https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXBXUmN1TzZHdzJqMWtJX3NiZHNoa0Y2ek1nSlU2RUlNeDVsSW9kYXpEMFNHa3g2R2VUQzZBbG9QeVJlQnBEVmotOWp2X1VJUGpYWXp2UVRpcEp1MjMtVmJZckRMWndrS0F4UHlIZFhNVWQ0dFBGcWdyQmFzdzJYU3FXWnozTlFXVUVpMG1uQnhtZw?oc=5
+- 2026-10-22 17:41 UTC：Security forces foil attack in Gwadar, kill three militants - Daily Times。https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1RwLTFXZzJ3SXBkVExIbGVhaUZJb0dfQ2Rxd3AtREFTUU5KN3pVd3BfcFRqWU1ORG0wNHRxRUhyXzZsX1BSdTN2R1p3TmtwY1RXMjJmVzk2UmIxUU1vd0hQQXlndjc3YUtpYUkyRFFwMGVBYk9tTnB1TEtBc0dKU3RmdnhoWU1VZnFyZTJDRUdXcVVtVEtLZw?oc=5
+- 2026-10-22 17:36 UTC：Three militants killed, seven surrounded in ongoing Gwadar operations - Pakistan Today。https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXZ1eDFEOGZLWmJrWTBIWEtZWG5sTXZmdVVralJpclE5akFmTGtfZUdUN1ZWRzMyQm5MeHFHZzE0T2pJV1cxX2ItSW9zNmlVa0pjY1hzcTQxbk9ucF9tM0tXSnV6WUtwME9WZEVSbjFQNkstc0FHNFRaT1paWTZURDhlZFFQd0MyNWo4dnlxRjhIME1SS0tvcFlVMTZ6RzZ4Y0dGbU9mcXJNd3UtYmowcmln?oc=5
+- 2026-10-22 17:33 UTC：Security Forces Foil Terror Attacks in Gwadar, Kill Three Militants - Pakistan Observer。https://news.google.com/rss/articles/CBMilgFBVV95cUxNWDhzWUlicUFJTG9EenctTGVkUE84bkRBeE9udDRzcGFqQnZZV2Fwd09Yc2t1anlPQy1CQU5GeFlsQzRnTHNsZTRORkJEXzBaVlY2eHZWU3E3ckpoVzQ2am1tVHVvazBHamVxak1lR19lWVk5OGJTNHFKS21xYjVWTGp1RzB1Q3lBSGY3Z0NVTVJkdjVxWHc?oc=5
+- 2026-10-22 17:25 UTC：Security forces foil attack on construction camp in Gwadar, kill three terrorists - Daily Ausaf。https://news.google.com/rss/articles/CBMitwFBVV95cUxOSC1YWFNFMXFxby01bXZSNEJxSnJqRjNKVlRab1BjN0g1ci1BWkREOW9QNkFMaXRoS01lZ005RjdzVlB6MDNPb2pTRTJHSHNHWkpReEtfcTBmQXE3dGQ2VHpJRTU3R3ZLbmt1bVdnZnZIdDM4OWN3UnF3RUVoUWZleUJrV09YM0t3WUtTejZVb0NHYWFRN2Q5ODlPQmxJVzVRa2FDdl9jczFzS0NKNGlzY3JPOV9ERlnSAbwBQVVfeXFMTU0zUEdXamF3dTM1eGRVbXpkRWtQWmJ3aHFFeFNCak8ybnVIUU4xaGltRE8wcl9YaldMbUE1ZFZlcTNZX0htbmNMUGhGU3dEZVRobVRXOGdyN2ltN1NxVThFUG5icHlDU09nRy1RdjFMYWlyQzg2djhkeVBRMm15Y014WVE5RXdueUpEekFNbHpsTlZWTnFSSXZtYndDYTh6Z3VKZUVMSWxwcDVaemQ3eVZ1YXB4NlBjSGNndXo?oc=5
+- 2026-10-22 17:15 UTC：Gwadar Operation: Security forces kill three militants as attack on construction camp foiled - Dunya News。https://news.google.com/rss/articles/CBMirgFBVV95cUxQck1ya0lPbnJuTjFrMnByM19KTDY5QkNNLXB5Z2hZZzN3c3gwX0p0MUdoMTBFckd5MFV3Q0tGR2t2ZzlFRW9KaTE2SWlxV1AtenBRRlFqZDl3M3RrX0daUWlUY3cwaDBuVzFDLVRRa0FQWmlwb0JqcnNPbTRKTERjdURjT0MxblBidGRQVzI0eDdPQWdTV3hGcDZ0TTN6Z2Nmem1NSllMSmsydXMteHfSAVZBVV95cUxQU2Jpa1A5cjE2bE16Y2x3eVlqOHA1Z1B2WFZuMS1SRXFuaDJWQ1Z2VlRncGE0SnRHeThBQ0RoM2xUQk9iZWtjY0FtRk12TDdVZHY0cWp1dw?oc=5
+- 2026-10-22 17:11 UTC：Fact Check: BLA’s Gwadar Attack Propaganda Exposed amid Damage to Balochistan's Civilian Property - Daily Pakistan。https://news.google.com/rss/articles/CBMi1AFBVV95cUxPal9fbWNhLWQ1SmItZGlrNy1hYTVOYnptOWZ5WnpNQmtHNTYyT204bjdzWm5tdnNvNEo1V08tTDZTVkExMzlsb3BEdkZLdHFPQkVRR0hBd3VrREJMQVkxXzBxWXZzWml6bnFTXzBSNllaay1HYXEzQXZwd0ZlZHFrOVZTbTlHa09SMkd5ekQ3cUd6ekUzb29taG41aWFBZTItVTZ0QmVpbWxDOTVWWVlIUUl3bVgzeFNxVDMyaU5rbmxiUEVQR2FMcUJCWGFoVk9VMm1PVg?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-22 12:08 UTC：What Happened to Gwadar’s Rights Movement? - The Diplomat – Asia-Pacific Current Affairs Magazine
+- 2026-10-22 17:05 UTC：Gwadar Security Update | Security Forces Operation | Balochistan News - Breaking News - Aaj English TV
+- 2026-10-22 16:59 UTC：Security forces kill three terrorists, surround seven others in Gwadar: sources - The News Pakistan
+- 2026-10-22 14:25 UTC：PTI Takeover Plan in KP? | Gwadar to Khyber Under Pressure | China vs Pakistan - YouTube
+- 2026-10-22 13:01 UTC：What Happened to Gwadar’s Rights Movement? - The Diplomat – Asia-Pacific Current Affairs Magazine
 - 2026-10-22 02:15 UTC：Pakistan-United States relations: Why Trump is sending “Thank You Pakistan” messages to Islamabad - Prothom Alo English
 - 2026-10-21 19:39 UTC：ADC Gwadar Orders Reliable Medicine Supplies, Attendance at Public Hospitals - Daily Independent
 - 2026-10-21 16:03 UTC：Pakistan Maritime Resilience Faces a New Test - The Daily CPEC
 - 2026-10-21 06:29 UTC：Gwadar Steps Up Drainage Cleaning to Improve Urban Sanitation - Daily Independent
-- 2026-10-21 01:29 UTC：Gwadar Residents Welcome Healthcare Improvements at Mir Abdul Ghafoor Kalmati Teaching Hospital - Daily Independent
-- 2026-10-20 11:21 UTC：Pak-China joint venture in donkey business holds groundbreaking ceremony Breaking - Independent News Pakistan
-- 2026-10-20 08:02 UTC：Gwadar District General League Football Championship 2026 Kicks Off - Gwadar Pro
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 

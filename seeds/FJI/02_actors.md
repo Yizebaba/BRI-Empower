@@ -27,7 +27,7 @@
 
 ## 发布旅行建议的外国政府
 
-- 美国国务院：Fiji - Level 1: Exercise Normal Precautions。https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/fiji-travel-advisory.html
+- 美国国务院：Fiji - Level 1: Exercise Normal Precautions。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.fji.html
 
 ## 国际与多边机构
 
