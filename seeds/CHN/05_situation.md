@@ -12,6 +12,7 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-22 14:33 UTC：M7，191 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g 
 - 2026-10-20 06:41 UTC：M5.1，263 km WSW of Yanglong, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ka 
 - 2026-10-20 00:56 UTC：M4.5，156 km SE of Kuqa, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3j5 
 - 2026-10-19 10:57 UTC：M5，31 km NW of Jiangyou, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c7 

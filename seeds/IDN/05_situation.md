@@ -11,10 +11,6 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-22 10:57 UTC：M4.9，85 km NNW of Curup, Indonesia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42q 
 - 2026-10-20 13:27 UTC：M4.5，142 km SSW of Abepura, Indonesia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3lx 
 - 2026-10-18 08:00 UTC：M5.2，55 km NNW of Ruteng, Indonesia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u34e 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-21 07:44 UTC：Green 级 EQ，Earthquake in Indonesia。https://www.gdacs.org/report.aspx?eventid=1572908&episodeid=1741568&eventtype=EQ 
-- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=9&eventtype=WF 

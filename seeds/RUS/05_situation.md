@@ -20,7 +20,3 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-16 03:35 UTC：M6.9，76 km NE of Ozernovskiy, Russia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2mq 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-22 08:34 UTC：Green 级 EQ，Earthquake in Russia。https://www.gdacs.org/report.aspx?eventid=1573098&episodeid=1741784&eventtype=EQ 
