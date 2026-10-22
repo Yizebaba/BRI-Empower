@@ -9,7 +9,7 @@
 
 - 2026-09-04 00:00 UTC：US State Dept Nepal - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html 
 
-# 尼泊尔项目周边近期态势（截至 2026-10-22 05:19 UTC）
+# 尼泊尔项目周边近期态势（截至 2026-10-22 10:33 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -29,10 +29,11 @@
 - 2026-10-16 03:15 UTC：Strategic Road Section Linking Nepal and China Damaged by Flood, Reconstruction Uncertain - Ratopati。https://news.google.com/rss/articles/CBMirwFBVV95cUxPdE9BOWRoZ0pUSzk4TjRocGwyWVVZQjlkclFYTHZVaHcxUkV5eWMxM0tRVDFvNDRjbUo1NnBfbTBYQ2w1X1lzbTYwUk1yeEk3SXBOaHkyWWdsU2xGdnRDbGJpYjdoblYyemV5Ynd1TG8xN0NNczhOVTVOdGR0djZYbXR0WlpoanJxa0p3X3Z6Z0VVM3JJTUlxczg1ZTZXQTh3ejhZTGFYSjlOM3h6OHJF?oc=5
 - 2026-10-16 03:05 UTC：Langtang Trekking Route Repaired by Locals After Flood Damage - Ratopati。https://news.google.com/rss/articles/CBMinAFBVV95cUxOWDJ0a0pqdkxhODdhMGwycFVhdFZpal93amNtUFV0Qlk2TXJ6RGloUnhkTmdtSnNzUDAtbmdhQTdnd0xhVUxWWjlhWExpUHBFUTZMQTVkLURYZ25TVGNwa25YVE95bm9HNmNnWDE5WUprQlVKemQyODU2UXcxc1haVkt3U1hKb2hZQkZ5TnFHZWRDQmFDNzBsNDhiNjg?oc=5
 - 2026-10-15 23:58 UTC：Families Await News of Loved Ones Missing After Nepal-China Border Floods - Ratopati。https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2M1ZnphRW1kNlRvYVVGVGxRdV8xM3pldVlIbTRYM3E0ekhMc3A4YlRZWkZHNXF0TUt3SkhwcHQxbE0zUkE4Z0diT09xdFlTR2VuejY0Z2tGY1lrMUE2eVV1Z2ZfV1JlS2xjdGRQeWN5dW1jR2NHcDVIOUJYbEc1SUdyaGJtMHVUemxXWHRoYVNpRDIyWGRHUXdBVEluQ2NOWWUwOVprT2Utckk?oc=5
+- 2026-10-15 20:56 UTC：Floodwaters Reach Malekhu, Risk High in Lower Coastal Areas - Ratopati。https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FWWRwNlptQWs2QUlKbjVWYjV0NkI1Sl9YbE9LMDdVZmZ4Y24yd3lMUURqcG9vWXd6Z21OMEZaSGU0VVM2UUNQeGprMUR3YUlOcmFWbGhR?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-19 18:07 UTC：China cites non-existent Tibetan refugee threats to refuse reopening Nepal border trade post - Tibetan Review
-- 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
+- 2026-10-18 07:43 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
 
 ## 热索瓦加迪（Timure）口岸边检站
@@ -46,7 +47,7 @@
 - 2026-10-16 03:15 UTC：Strategic Road Section Linking Nepal and China Damaged by Flood, Reconstruction Uncertain - Ratopati。https://news.google.com/rss/articles/CBMirwFBVV95cUxPdE9BOWRoZ0pUSzk4TjRocGwyWVVZQjlkclFYTHZVaHcxUkV5eWMxM0tRVDFvNDRjbUo1NnBfbTBYQ2w1X1lzbTYwUk1yeEk3SXBOaHkyWWdsU2xGdnRDbGJpYjdoblYyemV5Ynd1TG8xN0NNczhOVTVOdGR0djZYbXR0WlpoanJxa0p3X3Z6Z0VVM3JJTUlxczg1ZTZXQTh3ejhZTGFYSjlOM3h6OHJF?oc=5
 - 2026-10-16 03:05 UTC：Langtang Trekking Route Repaired by Locals After Flood Damage - Ratopati。https://news.google.com/rss/articles/CBMinAFBVV95cUxOWDJ0a0pqdkxhODdhMGwycFVhdFZpal93amNtUFV0Qlk2TXJ6RGloUnhkTmdtSnNzUDAtbmdhQTdnd0xhVUxWWjlhWExpUHBFUTZMQTVkLURYZ25TVGNwa25YVE95bm9HNmNnWDE5WUprQlVKemQyODU2UXcxc1haVkt3U1hKb2hZQkZ5TnFHZWRDQmFDNzBsNDhiNjg?oc=5
 - 2026-10-15 23:58 UTC：Families Await News of Loved Ones Missing After Nepal-China Border Floods - Ratopati。https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2M1ZnphRW1kNlRvYVVGVGxRdV8xM3pldVlIbTRYM3E0ekhMc3A4YlRZWkZHNXF0TUt3SkhwcHQxbE0zUkE4Z0diT09xdFlTR2VuejY0Z2tGY1lrMUE2eVV1Z2ZfV1JlS2xjdGRQeWN5dW1jR2NHcDVIOUJYbEc1SUdyaGJtMHVUemxXWHRoYVNpRDIyWGRHUXdBVEluQ2NOWWUwOVprT2Utckk?oc=5
-- 2026-10-15 07:52 UTC：Rasuwa flood victims at temporary shelter struggle with loss and uncertain future - OnlineKhabar English News。https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXljYUZMcjRpLVQxZ0FNOXhpZHVwd2pMTmdyem1XSExWbDlhZGlmaXZsTVQtUzNxaklIWGFjeVJsVVFqMXQ1NXdkWVdVYWNDeFhYbzlsMjZkeEN4bTFuVWlWRDJJa2lVS2doRDlPU2ItdzBfYWt2cDJuWFo4aURLQWdlWWxxM2hhOHFzQVVoYUZQaF90aGg5My1vc0RmZkJWcl9FNW1XTWtha3JWN0J3VFZqSnYxS0pOSzV3?oc=5
+- 2026-10-15 20:56 UTC：Floodwaters Reach Malekhu, Risk High in Lower Coastal Areas - Ratopati。https://news.google.com/rss/articles/CBMiVkFVX3lxTE9FWWRwNlptQWs2QUlKbjVWYjV0NkI1Sl9YbE9LMDdVZmZ4Y24yd3lMUURqcG9vWXd6Z21OMEZaSGU0VVM2UUNQeGprMUR3YUlOcmFWbGhR?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post

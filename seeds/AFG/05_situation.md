@@ -10,3 +10,11 @@
 
 - 2026-08-31：Government of Afghanistan 与 Civilians，死亡 1 人。UCDP 引用来源：The Afghan Digest
 - 2026-08-31：Government of Afghanistan 与 AUF，死亡 0 人。UCDP 引用来源：The Afghan Digest
+
+## 地震（USGS，M4.5+，近 7 天）
+
+- 2026-10-22 10:07 UTC：M4.6，11 km W of Ashkāsham, Afghanistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u42e 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-22 10:07 UTC：Green 级 EQ，Earthquake in Afghanistan。https://www.gdacs.org/report.aspx?eventid=1573108&episodeid=1741795&eventtype=EQ 
