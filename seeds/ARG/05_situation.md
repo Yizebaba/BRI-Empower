@@ -7,4 +7,9 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-23 00:09 UTC：M4.5，102 km W of San Antonio de los Cobres, Argentina。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u48i 
 - 2026-10-19 07:33 UTC：M4.5，79 km W of San Antonio de los Cobres, Argentina。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3b9 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-23 00:09 UTC：Green 级 EQ，Earthquake in Argentina。https://www.gdacs.org/report.aspx?eventid=1573250&episodeid=1741990&eventtype=EQ 

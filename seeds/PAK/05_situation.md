@@ -40,7 +40,7 @@
 
 - 2026-10-17 05:06 UTC：M5.7，48 km WNW of Khuzdar, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1 
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-23 01:25 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-23 06:26 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -56,9 +56,6 @@
 - 2026-10-22 10:07 UTC，GDACS：Green 级 · Earthquake in Afghanistan，距项目 264.6 km。https://www.gdacs.org/report.aspx?eventid=1573108&episodeid=1741795&eventtype=EQ
 - 2026-10-20 23:16 UTC，USGS 地震目录：M4.6 earthquake · 115 km NNE of Barishal, Pakistan，距项目 47.4 km。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3r1
 
-近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-16 05:00 UTC：Karakoram Highway | Facts, Completion Date, & Khunjerab Pass - Britannica
-
 ## 喀喇昆仑公路二期（塔科特—哈维连）
 
 周边自然事件（地震 150 km、灾害警报 300 km、NASA 自然事件 150 km 以内）：
@@ -73,18 +70,18 @@
 周边自然事件：扫描期间没有记录。
 
 近 7 天新闻中与事故、灾害、安全相关的报道（标题原文）：
-- 2026-10-23 01:01 UTC：3 terrorists killed as security forces foil attack on construction camp in Gwadar: state media - The Express Tribune。https://news.google.com/rss/articles/CBMiygFBVV95cUxOZUxiTU9SMC1RS1g4ekt0YlFYbHJKblItTWJURUNNM18xVm5tc09ZdGgtMVNxTmNQYmZUQ29NeFV5TW1RR1gxdTlSMDJoWFZrbDlGck51eTQ5SjBhZnpIN0xCckRVb19WQlkxdHdLXzVwNEFPY1VqdDAwVzZQZ2EtQy1MTHpCSmxaT2pQTzZucks3VTBKb1QySWFKdmxKU3dENFRQOExYVHZCdUxYUTQxVnQyU1lBVFhUUC1EV0prNFVfQndnbGlVNDVB0gHSAUFVX3lxTE5yXy0zRXM1VWNWWUdPd05hcDVXWEIwYUxlRzJoRFVlNUlLbHFHNjRiSXJhTzBfX0ZEVVpTRHdnNHFBNXR0bXBCOF83YWlXSTJDazhqXy1VUGxkSW9RangwdXgxRXRENkk2NTRDWC1CTUFkaEFDZHd0ZWhjcG1fRzl4ZFBDMzZSTGtWeGMyWDJPOUdPTFlRQm1FOFA2OHRGSDgxaTBhTks3OVZidFpOeHhVQ1hrcmNoZ2JzTFpZcnp4cjdYMUlvNndzZ3ozbGZwcXZEZw?oc=5
+- 2026-10-23 06:19 UTC：Gwadar camp attack: 7 terrorists killed in operation - samaa tv。https://news.google.com/rss/articles/CBMimgFBVV95cUxOSUphbmljbFBEOG12VmxQZXdUaHFndXFwWU1kZXNVbjFxR0VfZTN5X2tGMkpYS19reVNfS3hQSVEwYkFzalhBQTlrMU1SaXVzaUdLUzJvOG1tNkMzaVFKTFRIQTEzWnlQNHdSVjhybUhvaHpEUXlac29udEhwTVJqRklGZkhRUUtjOFdlbWxaMkVFU29XYlRIV0NR?oc=5
+- 2026-10-23 05:32 UTC：Gwadar operation: 3 terrorists killed in foiled attack - samaa tv。https://news.google.com/rss/articles/CBMilwFBVV95cUxPTzRBS2Z4cTN5SEJuWlZ2Mkk4S3J2Z0lFQU9tdWdUU3F0aG5YWWE3Q3ZNWHZnaWUtdTF0aGpnd3pvUEk2NmlKRjk0T19FUVhyV1k2QnFGekIyYWpZbElFc3Z3aE1rWVI2TDYzV3lIWjVmcHVlRlFfdDJQU0hFdmdKVnc5UFhRN0xORENQU2VUQjhMbU5JcW5j?oc=5
+- 2026-10-23 04:42 UTC：Forces fend off terrorist attack on Gwadar camp - The Express Tribune。https://news.google.com/rss/articles/CBMilAFBVV95cUxQVnBzVFg4ckhFd1NRb2dmdHZqLV9BUWNERGUzNVcycEkwVGJwRXlZTENXTVpZV1U2X0tGNk1vZ3dpQXdsRnc1b01janF5UXo1aXg3LVlMMTNRWmFwSS1PcmZTR3MtQm5OUmcwZTI3dk1xdDJ2SUZmeDVDWC1Pc1BzM0RQYnRWQ0w1RkZoRXhqbE5Vdmg00gGUAUFVX3lxTFBWcHNUWDhySEV3U1FvZ2Z0dmotX0FRY0REZTM1VzJwSTBUYnBFeVlMQ1dNWllXVTZfS0Y2TW9nd2lBd2xGdzVvTWNqcXlRejVpeDctWUwxM1FaYXBJLU9yZlNHcy1Cbk5SZzBlMjd2TXF0MnZJRmZ4NUNYLU9zUHMzRFBidFZDTDVGRmhFeGpsTlV2aDQ?oc=5
+- 2026-10-23 02:05 UTC：Three terrorists killed as forces foil attack in Gwadar - Dawn。https://news.google.com/rss/articles/CBMiSEFVX3lxTE41cFBpMFlUWm9paEFKelBZeHNaMjRNYmd2eFlPdlZaVndxclhCaDlmRDIwQ3dGRHloREFYcElaWmZSbU9NVERMTA?oc=5
+- 2026-10-23 01:01 UTC：3 terrorists killed as security forces foil attack on construction camp in Gwadar: state media - The Express Tribune。https://news.google.com/rss/articles/CBMiygFBVV95cUxOZUxiTU9SMC1RS1g4ekt0YlFYbHJKblItTWJURUNNM18xVm5tc09ZdGgtMVNxTmNQYmZUQ29NeFV5TW1RR1gxdTlSMDJoWFZrbDlGck51eTQ5SjBhZnpIN0xCckRVb19WQlkxdHdLXzVwNEFPY1VqdDAwVzZQZ2EtQy1MTHpCSmxaT2pQTzZucks3VTBKb1QySWFKdmxKU3dENFRQOExYVHZCdUxYUTQxVnQyU1lBVFhUUC1EV0prNFVfQndnbGlVNDVB?oc=5
+- 2026-10-23 00:47 UTC：Three terrorists killed in Gwadar - Business Recorder。https://news.google.com/rss/articles/CBMiVkFVX3lxTE1PMWpaam9Od2NuRzVNUnd4ZDJka3lVTWtNcktNY3hFZ0pDTm1yVFNHdDFELVhWZTZwcmI2NDg2TXM5RE9FYkZHVW93clFLY2oyMEFicmFn0gFWQVVfeXFMTU8xalpqb053Y25HNU1Sd3hkMmRreVVNa01yS01jeEVnSkNObXJUU0d0MUQtWFZlNnByYjY0ODZNczlET0ViRkdVb3dyUUtjajIwQWJyYWc?oc=5
 - 2026-10-22 20:30 UTC：Three terrorists killed as security forces foil attack in Gwadar - Minute Mirror。https://news.google.com/rss/articles/CBMiogFBVV95cUxOY0J4Z2lBZGFPVEhQQVVXTnVtZFQ5RjRVejE0YXVWVURVTU05ZnBhandOLTlERnRhdEI3VndxOWpNNU0xTzRnTHJ3S2ViSjI2R3dYZ3VQSGZDQWpuWE84WGlLVlJBeGhCOTlvaW1sV1hZS29OeGxVemNqQmlySlVJWVlzZFBfMjc4XzdQYjNXcU1EdXFVRUdmek5kWFZId2FfeEE?oc=5
 - 2026-10-22 18:35 UTC：Three terrorists killed as security forces foil attack on Gwadar camp - SUCH TV。https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXZtV2Fwejg3Ni1tdWl3RUxraklZbDlTc1V0X25BX3hmOFBSS19OaExJYWJ3bFFhWTdFeEVzUS1UNjA3VDQwSmY0SlgxOVowNEN4MmFXTE9JbWlNVGxEa3Z1WmF0OFFpVktNcnpFMUpUa1NYemRGTjNrWVBrcUVoQnktN3FvR2pYdnJZSjVMMUE4a3dwY2tGYzJZWW1JMUZ4WHNfYVZMV2tIVHlvVElUZVB3WVRBRGQxYTNqTVprdGhfeWJFdnd0Mg?oc=5
 - 2026-10-22 18:35 UTC：Security Forces Foil Attack, Kill Three Terrorists In Gwadar - UrduPoint。https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ3BkQlc4dWRtNm9ENGhIUzV3cktuQ1NZcnhWQWtBVmVCeGRoaUdlbDQ5cWdXVEs0WmdJaTBhT01UQ1pPYk5MNUVHeW1feFR5MU5LM2VmVG1CWEZxZUpRejAyUGtEM0F1RDgydnRIWnBsNlZnSmNncVdwR1hNR2d2RHlRT0FIVkM0bzdxbTNUUmVlalVLWG9zMUgyRQ?oc=5
 - 2026-10-22 18:00 UTC：Naqvi Praises Security Forces For Foiling Gwadar Terrorist Attack, Three Militants Killed - UrduPoint。https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ296SFpNWjlpSGNLSlJ1VFVnWGdqWWQ2RkM3dHhUamljd2ctMUpDRVQ0d0JkQkpIbkVRNUNXYkd2R0E1NGE4VXhzUy1NWExBMm11NUdyM1pWT3RmSFFNSmtMcGtXRWZOU2xfZWV6MmJ4QU9wNVlVRVgwNlE0Ym0tRGZmWUxhSWtFanBfYlhrVGtUZkh1MlRuMkZwaHc?oc=5
 - 2026-10-22 17:56 UTC：3 terrorists killed in southwestern Pakistan: Report - Anadolu Ajansı。https://news.google.com/rss/articles/CBMingFBVV95cUxQcy1TYkZZMHBnYm5fWkwzQUhDVW96SUxvZXhTZ3BNamRLX0N2TGp6eW1FdVZYSDdGREMxSDFPNHVhTmllZlhOSlp0Ukl4SG1zeWN4aG5uOU5JaTFycXhTMW9zek9CWl9LXzhzckdTVU1qRHhZV2VYdWtRQWZ2bnhuNXJ1aXlTSnpiZzN3LTh6WkNxY2NJZkdiVUdTWk1Rdw?oc=5
 - 2026-10-22 17:56 UTC：Three Militants Killed as Security Forces Foil Attack on Construction Camp in Gwadar - The Nation (Pakistan )。https://news.google.com/rss/articles/CBMiswFBVV95cUxORkFYdHdxUnVubWwtZU5SQUdpYmlTd2JkYVBYT2ZmLThHTzZjd25YQ3BjVktrMG5XeHNCNjRWRG14Rnllb3hvVXFid2V4VFhTYXltSGt3YjkyNUltRUZsYm5FZkhYZldSSEl3ZEJ1TExpS0stcU9yM0JRcG5mbjcybk50bDBDLXBrZHIxbFR6aEFxVDY0M0hJTzkxd24zOHRUR3Nacy1LaDhLZ1lyVlVrZHMxRQ?oc=5
-- 2026-10-22 17:41 UTC：Gwadar Attack by BLA-BLF: Reality behind ‘Operation Almas’ EXPOSED - Pakistan Observer。https://news.google.com/rss/articles/CBMikgFBVV95cUxOaXBXUmN1TzZHdzJqMWtJX3NiZHNoa0Y2ek1nSlU2RUlNeDVsSW9kYXpEMFNHa3g2R2VUQzZBbG9QeVJlQnBEVmotOWp2X1VJUGpYWXp2UVRpcEp1MjMtVmJZckRMWndrS0F4UHlIZFhNVWQ0dFBGcWdyQmFzdzJYU3FXWnozTlFXVUVpMG1uQnhtZw?oc=5
-- 2026-10-22 17:41 UTC：Security forces foil attack in Gwadar, kill three militants - Daily Times。https://news.google.com/rss/articles/CBMimAFBVV95cUxQN1RwLTFXZzJ3SXBkVExIbGVhaUZJb0dfQ2Rxd3AtREFTUU5KN3pVd3BfcFRqWU1ORG0wNHRxRUhyXzZsX1BSdTN2R1p3TmtwY1RXMjJmVzk2UmIxUU1vd0hQQXlndjc3YUtpYUkyRFFwMGVBYk9tTnB1TEtBc0dKU3RmdnhoWU1VZnFyZTJDRUdXcVVtVEtLZw?oc=5
-- 2026-10-22 17:36 UTC：Three militants killed, seven surrounded in ongoing Gwadar operations - Pakistan Today。https://news.google.com/rss/articles/CBMisgFBVV95cUxPaXZ1eDFEOGZLWmJrWTBIWEtZWG5sTXZmdVVralJpclE5akFmTGtfZUdUN1ZWRzMyQm5MeHFHZzE0T2pJV1cxX2ItSW9zNmlVa0pjY1hzcTQxbk9ucF9tM0tXSnV6WUtwME9WZEVSbjFQNkstc0FHNFRaT1paWTZURDhlZFFQd0MyNWo4dnlxRjhIME1SS0tvcFlVMTZ6RzZ4Y0dGbU9mcXJNd3UtYmowcmln?oc=5
-- 2026-10-22 17:33 UTC：Security Forces Foil Terror Attacks in Gwadar, Kill Three Militants - Pakistan Observer。https://news.google.com/rss/articles/CBMilgFBVV95cUxNWDhzWUlicUFJTG9EenctTGVkUE84bkRBeE9udDRzcGFqQnZZV2Fwd09Yc2t1anlPQy1CQU5GeFlsQzRnTHNsZTRORkJEXzBaVlY2eHZWU3E3ckpoVzQ2am1tVHVvazBHamVxak1lR19lWVk5OGJTNHFKS21xYjVWTGp1RzB1Q3lBSGY3Z0NVTVJkdjVxWHc?oc=5
-- 2026-10-22 17:25 UTC：Security forces foil attack on construction camp in Gwadar, kill three terrorists - Daily Ausaf。https://news.google.com/rss/articles/CBMitwFBVV95cUxOSC1YWFNFMXFxby01bXZSNEJxSnJqRjNKVlRab1BjN0g1ci1BWkREOW9QNkFMaXRoS01lZ005RjdzVlB6MDNPb2pTRTJHSHNHWkpReEtfcTBmQXE3dGQ2VHpJRTU3R3ZLbmt1bVdnZnZIdDM4OWN3UnF3RUVoUWZleUJrV09YM0t3WUtTejZVb0NHYWFRN2Q5ODlPQmxJVzVRa2FDdl9jczFzS0NKNGlzY3JPOV9ERlnSAbwBQVVfeXFMTU0zUEdXamF3dTM1eGRVbXpkRWtQWmJ3aHFFeFNCak8ybnVIUU4xaGltRE8wcl9YaldMbUE1ZFZlcTNZX0htbmNMUGhGU3dEZVRobVRXOGdyN2ltN1NxVThFUG5icHlDU09nRy1RdjFMYWlyQzg2djhkeVBRMm15Y014WVE5RXdueUpEekFNbHpsTlZWTnFSSXZtYndDYTh6Z3VKZUVMSWxwcDVaemQ3eVZ1YXB4NlBjSGNndXo?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
 - 2026-10-22 17:40 UTC：Security forces kill three terrorists, surround seven others in Gwadar: sources - شبكة تواصل الإخبارية
