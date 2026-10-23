@@ -19,8 +19,8 @@
 - 中国驻当地使领馆：在北马其顿出现在 3 个项目中，涉及金额约 3 万美元。例：2021 年 Chinese Embassy donates 1,540,000 denars to provide support for the Berovo Renovation Project in North Macedon；2021 年 Chinese Embassy provides teaching equipment to Rajko Zinzifov elementary school in North Macedonia ；2021 年 Chinese Embassy provides online teaching equipment to Rade Jovchevski Korchagin High School in North Macedonia
 - 中国电建 / 水电建设集团（PowerChina / Sinohydro）：在北马其顿出现在 3 个项目中，涉及金额约 5224 美元。例：2016 年 Sinohydro donates 300 blankets and 100 sets of bedding to support disaster relief efforts (Linked to Project I；2016 年 Sinohydro donates trucks, excavators, and sprinklers to support disaster relief efforts (Linked to Project ID#；2015 年 Sinohydro dispatches technicians and provides equipment to support disaster relief efforts (Linked to Project 
 - 汉办 / 孔子学院总部（Hanban）：在北马其顿出现在 1 个项目中。例：2013 年 Hanban funds establishment of Confucius Institute at SS. Cyril and Methodius University
-- 中兴通讯（ZTE）：在北马其顿出现在 1 个项目中。例：2016 年 Chinese company ZTE donates 500 barrels of drinking water to Macedonia following rainstorm (Linked to projects
 - Chinese company ZTE：在北马其顿出现在 1 个项目中。例：2016 年 Chinese company ZTE donates 500 barrels of drinking water to Macedonia following rainstorm (Linked to projects
+- 中兴通讯（ZTE）：在北马其顿出现在 1 个项目中。例：2016 年 Chinese company ZTE donates 500 barrels of drinking water to Macedonia following rainstorm (Linked to projects
 - 国家开发银行（China Development Bank）：在北马其顿出现在 1 个项目中。例：2009 年 Ningbo Branch of China Development Bank funds Haier Street Light project in North Macedonia
 
 ## 主要贸易伙伴（UN Comtrade，2025 年，本国申报）
