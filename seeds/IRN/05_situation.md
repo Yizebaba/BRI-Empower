@@ -13,7 +13,3 @@
 ## 国际新闻要闻（经 World Monitor）
 
 - 2026-10-20 14:41 UTC：Iran live updates: Trump says US is winning war, 'can leave right now'（ABC News）。 
-
-## 地震（USGS，M4.5+，近 7 天）
-
-- 2026-10-16 21:30 UTC：M4.5，70 km NNE of Mīnāb, Iran。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2w9 

@@ -12,6 +12,7 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-23 20:37 UTC：M4.8，209 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gj 
 - 2026-10-23 14:41 UTC：M4.5，233 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dk 
 - 2026-10-23 14:14 UTC：M4.7，215 km NE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4df 
 - 2026-10-23 02:17 UTC：M4.5，18 km NNW of Yongning, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49a 
@@ -26,10 +27,10 @@
 - 2026-10-22 14:33 UTC：M7，191 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g 
 - 2026-10-20 06:41 UTC：M5.1，263 km WSW of Yanglong, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ka 
 - 2026-10-20 00:56 UTC：M4.5，156 km SE of Kuqa, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3j5 
-- 2026-10-19 10:57 UTC：M5，31 km NW of Jiangyou, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3c7 
 
 ## 灾害警报（GDACS，近 14 天）
 
+- 2026-10-23 20:37 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573456&episodeid=1742188&eventtype=EQ 
 - 2026-10-23 14:41 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573438&episodeid=1742167&eventtype=EQ 
 - 2026-10-23 14:14 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573398&episodeid=1742165&eventtype=EQ 
 - 2026-10-23 02:17 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573282&episodeid=1741996&eventtype=EQ 
