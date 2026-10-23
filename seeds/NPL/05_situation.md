@@ -9,7 +9,7 @@
 
 - 2026-09-04 00:00 UTC：US State Dept Nepal - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html 
 
-# 尼泊尔项目周边近期态势（截至 2026-10-23 16:57 UTC）
+# 尼泊尔项目周边近期态势（截至 2026-10-23 20:19 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -32,6 +32,7 @@
 - 2026-10-18 07:37 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Inquirer.net
 - 2026-10-18 05:14 UTC：Over 2,400 Tonnes of Fruits and Food Items Imported via Korala Border - Nepalnews.com
 - 2026-10-18 04:14 UTC：Can Nepal’s hydropower boom withstand a changing Himalaya? - Hamro Patro
+- 2026-10-17 12:02 UTC：Sustainable recovery of Bhotekoshi: Resettlement is not just moving houses - The Annapurna Express
 - 2026-10-17 01:46 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - The Kathmandu Post
 - 2026-10-17 01:45 UTC：Beijing’s security concerns cloud Nepal’s push to reopen Tatopani - Hamro Patro
 

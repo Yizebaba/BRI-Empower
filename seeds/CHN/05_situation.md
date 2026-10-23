@@ -12,6 +12,8 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-23 14:41 UTC：M4.5，233 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dk 
+- 2026-10-23 14:14 UTC：M4.7，215 km NE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4df 
 - 2026-10-23 02:17 UTC：M4.5，18 km NNW of Yongning, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49a 
 - 2026-10-22 18:06 UTC：M5，207 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45j 
 - 2026-10-22 16:57 UTC：M4.7，190 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u45a 
@@ -28,4 +30,6 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
+- 2026-10-23 14:41 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573438&episodeid=1742167&eventtype=EQ 
+- 2026-10-23 14:14 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573398&episodeid=1742165&eventtype=EQ 
 - 2026-10-23 02:17 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573282&episodeid=1741996&eventtype=EQ 
