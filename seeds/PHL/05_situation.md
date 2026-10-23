@@ -12,4 +12,5 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
+- 2026-10-23 09:09 UTC：Green 级 EQ，Earthquake in Philippines。https://www.gdacs.org/report.aspx?eventid=1573339&episodeid=1742057&eventtype=EQ 
 - 2026-10-14 12:00 UTC：Red 级 TC，Tropical Cyclone CHAMPI-26。https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=35&eventtype=TC 

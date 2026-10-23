@@ -29,12 +29,3 @@
 ## 灾害警报（GDACS，近 14 天）
 
 - 2026-10-23 02:17 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573282&episodeid=1741996&eventtype=EQ 
-- 2026-10-22 18:06 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573188&episodeid=1741889&eventtype=EQ 
-- 2026-10-22 16:57 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573168&episodeid=1741916&eventtype=EQ 
-- 2026-10-22 16:50 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573208&episodeid=1741913&eventtype=EQ 
-- 2026-10-22 16:45 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573162&episodeid=1741907&eventtype=EQ 
-- 2026-10-22 16:21 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573158&episodeid=1741905&eventtype=EQ 
-- 2026-10-22 15:45 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573149&episodeid=1741844&eventtype=EQ 
-- 2026-10-22 15:27 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573192&episodeid=1741894&eventtype=EQ 
-- 2026-10-22 15:12 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573144&episodeid=1741839&eventtype=EQ 
-- 2026-10-22 14:33 UTC：Red 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573141&episodeid=1741837&eventtype=EQ 

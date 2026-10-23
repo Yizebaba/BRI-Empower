@@ -20,8 +20,8 @@
 - Hong Kong Branch of Bank of China：在菲律宾出现在 1 个项目中，涉及金额约 2.25 亿美元。例：2019 年 Hong Kong Branch of Bank of China provides $200 million term loan to DTC for Phase 1 of 4G/5G Telecommunicatio
 - 中国政府：在菲律宾出现在 37 个项目中，涉及金额约 1.76 亿美元。例：2018 年 Chinese Government provides USD 74.15 million grant — via ETCA — for Binondo-Intramuros Bridge Construction Pr；2018 年 Chinese Government provides USD 17.46 million grant — via ETCA — for Estrella-Pantaleon Bridge Expansion and R；2000 年 Chinese Government provides $7 million grant for establishment of the Philippines-Sino Center for Agricultural
 - CAMC：在菲律宾出现在 2 个项目中，涉及金额约 1.49 亿美元。例：2001 年 CAMC provides $34.9 million supplier credit for Banaoang Pump Irrigation Project (Linked to Project ID#34701)；2003 年 CAMC provides $24.9 million supplier credit for General Santos Fish Port Complex (GSFPC) Expansion and Improve
-- 中信集团（CITIC）：在菲律宾出现在 1 个项目中，涉及金额约 7510 万美元。例：2009 年 China CITIC Bank provides $50 million buyer's credit for Phase 2 3G Expansion and Phase 8A NCR and South Luzon
 - China CITIC Bank：在菲律宾出现在 1 个项目中，涉及金额约 7510 万美元。例：2009 年 China CITIC Bank provides $50 million buyer's credit for Phase 2 3G Expansion and Phase 8A NCR and South Luzon
+- 中信集团（CITIC）：在菲律宾出现在 1 个项目中，涉及金额约 7510 万美元。例：2009 年 China CITIC Bank provides $50 million buyer's credit for Phase 2 3G Expansion and Phase 8A NCR and South Luzon
 - China's Herbal Medical University/BioMedical Engineering Center：在菲律宾出现在 1 个项目中，涉及金额约 6377 万美元。例：2004 年 China's Herbal Medical University/BioMedical Engineering Center provides $28 million USD credit facility for p
 - 中国工商银行（ICBC）：在菲律宾出现在 1 个项目中，涉及金额约 1624 万美元。例：2021 年 ICBC participates in PHP 1.6 billion syndicated loan for Phases 3A and 3B of the Bataan Solar Project
 - 中国商务部（MOFCOM）：在菲律宾出现在 1 个项目中，涉及金额约 658 万美元。例：2020 年 MOFCOM provides RMB 40.6 million grant for Davao River Bridge (Bucana Bridge) Construction Project

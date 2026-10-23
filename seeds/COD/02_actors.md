@@ -19,8 +19,8 @@
 - 中国银行（Bank of China）：在刚果（金）出现在 1 个项目中，涉及金额约 5.31 亿美元。例：2016 年 Bank of China contributes $450 million — via Tranche A — to $1.59 billion syndicated loan for acquisition of 5
 - 中国政府：在刚果（金）出现在 65 个项目中，涉及金额约 4.26 亿美元。例：2011 年 Chinese Government provides $97.5 million for SNCC for acquisition of construction materials for track works (；2017 年 Chinese Government provides RMB 519 million grant for Central African Culture and Art Center Construction Proj；2015 年 Chinese Government provides $34.1 million interest-free loan for Comprehensive Government Office Building Cons
 - 中兴通讯（ZTE）：在刚果（金）出现在 1 个项目中，涉及金额约 2.11 亿美元。例：2011 年 CDB provides loan to Orange RDC to pay for ZTE’s services in 2011 (Linked to Project ID#382 and #60113)
-- 中信集团（CITIC）：在刚果（金）出现在 1 个项目中，涉及金额约 2.07 亿美元。例：2016 年 China CITIC Bank contributes — via Tranche B — to $1.59 billion syndicated loan for acquisition of 56% ownersh
 - China CITIC Bank：在刚果（金）出现在 1 个项目中，涉及金额约 2.07 亿美元。例：2016 年 China CITIC Bank contributes — via Tranche B — to $1.59 billion syndicated loan for acquisition of 56% ownersh
+- 中信集团（CITIC）：在刚果（金）出现在 1 个项目中，涉及金额约 2.07 亿美元。例：2016 年 China CITIC Bank contributes — via Tranche B — to $1.59 billion syndicated loan for acquisition of 56% ownersh
 - COVEC：在刚果（金）出现在 1 个项目中，涉及金额约 1.22 亿美元。例：2006 年 COVEC provides $60 million supplier’s credit to Gécamines
 - 招商局集团（China Merchants）：在刚果（金）出现在 1 个项目中，涉及金额约 1.15 亿美元。例：2017 年 China Merchants Bank contributes $100 million to syndicated loan for acquisition of 30% ownership stake in the
 - Sicomines：在刚果（金）出现在 1 个项目中，涉及金额约 7623 万美元。例：2008 年 Sicomines provides $50 million loan to Gécamines for workshop rehabilitation activities

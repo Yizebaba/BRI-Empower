@@ -17,11 +17,11 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-22 10:57 UTC：Green 级 EQ，Earthquake in Indonesia。https://www.gdacs.org/report.aspx?eventid=1573113&episodeid=1741803&eventtype=EQ 
-- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032972&episodeid=10&eventtype=WF 
-- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033001&episodeid=5&eventtype=WF 
-- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033012&episodeid=6&eventtype=WF 
-- 2026-10-12 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032893&episodeid=12&eventtype=WF 
-- 2026-10-11 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033054&episodeid=3&eventtype=WF 
-- 2026-10-08 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033000&episodeid=8&eventtype=WF 
-- 2026-10-07 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032887&episodeid=14&eventtype=WF 
+- 2026-10-18 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033073&episodeid=2&eventtype=WF 
+- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032942&episodeid=11&eventtype=WF 
+- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033012&episodeid=8&eventtype=WF 
+- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033001&episodeid=6&eventtype=WF 
+- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1032972&episodeid=11&eventtype=WF 
+- 2026-10-11 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033054&episodeid=4&eventtype=WF 
+- 2026-10-10 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033098&episodeid=1&eventtype=WF 
+- 2026-10-08 00:00 UTC：Green 级 WF，Forest fires in Indonesia。https://www.gdacs.org/report.aspx?eventid=1033000&episodeid=9&eventtype=WF 
