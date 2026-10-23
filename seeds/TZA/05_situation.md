@@ -9,7 +9,3 @@
 
 - 2026-10-20 14:04 UTC：UK FCDO Tanzania。https://www.gov.uk/foreign-travel-advice/tanzania 
 - 2026-10-16 00:00 UTC：US State Dept Tanzania - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html 
-
-## 地震（USGS，M4.5+，近 7 天）
-
-- 2026-10-16 16:17 UTC：M4.6，41 km NNE of Kilimatinde, Tanzania。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2qn 

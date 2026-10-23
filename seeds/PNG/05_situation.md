@@ -16,4 +16,3 @@
 
 - 2026-10-12 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1033052&episodeid=3&eventtype=WF 
 - 2026-10-11 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032999&episodeid=9&eventtype=WF 
-- 2026-10-09 00:00 UTC：Green 级 WF，Forest fires in Papua New Guinea。https://www.gdacs.org/report.aspx?eventid=1032814&episodeid=19&eventtype=WF 
