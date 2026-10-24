@@ -9,3 +9,8 @@
 
 - 2026-10-20 14:04 UTC：UK FCDO Tanzania。https://www.gov.uk/foreign-travel-advice/tanzania 
 - 2026-10-16 00:00 UTC：US State Dept Tanzania - Level 2: Exercise Increased Caution。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tza.html 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-18 00:00 UTC：Green 级 WF，Forest fires in Tanzania。https://www.gdacs.org/report.aspx?eventid=1033156&episodeid=1&eventtype=WF 
+- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Tanzania。https://www.gdacs.org/report.aspx?eventid=1033160&episodeid=1&eventtype=WF 

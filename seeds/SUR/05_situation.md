@@ -8,8 +8,3 @@
 ## 各国政府旅行建议更新（经 World Monitor）
 
 - 2026-09-08 00:00 UTC：US State Dept Suriname - Level 1: Exercise Normal Precautions。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sur.html 
-
-## 灾害警报（GDACS，近 14 天）
-
-- 2026-10-20 00:00 UTC：Green 级 WF，Forest fires in Suriname, Brazil。https://www.gdacs.org/report.aspx?eventid=1033068&episodeid=3&eventtype=WF 
-- 2026-10-13 00:00 UTC：Green 级 WF，Forest fires in Suriname, Brazil。https://www.gdacs.org/report.aspx?eventid=1033084&episodeid=6&eventtype=WF 
