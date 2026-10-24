@@ -40,7 +40,7 @@
 
 - 2026-10-17 05:06 UTC：M5.7，48 km WNW of Khuzdar, Pakistan。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u2y1 
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-23 23:25 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-24 01:55 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -82,14 +82,14 @@
 - 2026-10-23 10:54 UTC：10 India-sponsored terrorists killed as bid to undermine state's writ in Gwadar foiled: ISPR - Dawn。https://news.google.com/rss/articles/CBMiSEFVX3lxTE8wd3RBU0c4RzRNNklWYU1XNGxObmF0T3AzeWxwUUZjSnpody02Tm5mX3JVZnJvVk41SzRBU1Nabm1mVWtpVEloag?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
-- 2026-10-23 17:10 UTC：Pakistan security forces kill 10 militants in Gwadar operations, ISPR says - Bol News
+- 2026-10-23 17:44 UTC：Pakistan security forces kill 10 militants in Gwadar operations, ISPR says - Bol News
 - 2026-10-23 16:56 UTC：Beyond Hormuz: What Gwadar can really do for Pakistan's energy security - 24 News HD
-- 2026-10-23 16:42 UTC：Gwadar Lawyers’ Club Inaugurated to Promote Professional Unity - Daily Independent
 - 2026-10-23 15:14 UTC：Gwadar operations kill 10 militants, says military media wing - Minute Mirror
 - 2026-10-23 13:04 UTC：BLA, BLF claim capture of Pakistan Army camp in Gwadar | BLF also released a video | Inshorts - Inshorts
 - 2026-10-23 12:10 UTC：Civilian martyred as security forces neutralise 10 India-backed terrorists in Gwadar - The News Pakistan
 - 2026-10-23 11:36 UTC：GDA Launches Drip Irrigation Plantation Project in Gwadar - The Daily CPEC
 - 2026-10-23 11:29 UTC：Security forces kill 10 terrorists in Gwadar operations: ISPR - Minute Mirror
+- 2026-10-23 11:15 UTC：ISPR Gwadar Operation | 10 Militants Neutralized | Balochistan Security Update - Aaj News
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 

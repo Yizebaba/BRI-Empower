@@ -17,8 +17,8 @@
 - 中国驻当地使领馆：在阿尔巴尼亚出现在 5 个项目中。例：2011 年 Chinese Embassy donates more than 200 sets of Chinese book to Albanian University ；2015 年 Chinese Embassy donates books to Confucius Institute；2014 年 Chinese Embassy donates albums in an art exhibition in Albania
 - 汉办 / 孔子学院总部（Hanban）：在阿尔巴尼亚出现在 1 个项目中。例：2013 年 Hanban provides grant for establishment of Confucius Institute at University of Tirana
 - China Radio International：在阿尔巴尼亚出现在 1 个项目中。例：2015 年 China Radio International donates books to Albania Prime Minister's Library
-- 华为（Huawei）：在阿尔巴尼亚出现在 1 个项目中。例：2009 年 Ningbo Branch of China Development Bank funds Huawei - Eagle Mobile project in Albania
 - 国家开发银行（China Development Bank）：在阿尔巴尼亚出现在 1 个项目中。例：2009 年 Ningbo Branch of China Development Bank funds Huawei - Eagle Mobile project in Albania
+- 华为（Huawei）：在阿尔巴尼亚出现在 1 个项目中。例：2009 年 Ningbo Branch of China Development Bank funds Huawei - Eagle Mobile project in Albania
 
 ## 主要贸易伙伴（UN Comtrade，2024 年，本国申报）
 
