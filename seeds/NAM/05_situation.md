@@ -11,5 +11,4 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-20 00:00 UTC：Green 级 WF，Forest fires in Namibia, Botswana。https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=1&eventtype=WF 
-- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Namibia, Angola。https://www.gdacs.org/report.aspx?eventid=1033032&episodeid=4&eventtype=WF 
+- 2026-10-20 00:00 UTC：Green 级 WF，Forest fires in Namibia, Botswana。https://www.gdacs.org/report.aspx?eventid=1033107&episodeid=2&eventtype=WF 

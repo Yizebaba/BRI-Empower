@@ -13,4 +13,3 @@
 
 - 2026-10-17 00:00 UTC：Green 级 WF，Forest fires in Malawi。https://www.gdacs.org/report.aspx?eventid=1033119&episodeid=1&eventtype=WF 
 - 2026-10-16 00:00 UTC：Green 级 WF，Forest fires in Malawi。https://www.gdacs.org/report.aspx?eventid=1033122&episodeid=1&eventtype=WF 
-- 2026-10-15 00:00 UTC：Green 级 WF，Forest fires in Tanzania, Malawi。https://www.gdacs.org/report.aspx?eventid=1033034&episodeid=4&eventtype=WF 
