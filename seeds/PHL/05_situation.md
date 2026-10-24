@@ -8,3 +8,7 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-20 06:04 UTC：M4.6，7 km SE of San Julian, Philippines。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3k7 
+
+## 灾害警报（GDACS，近 14 天）
+
+- 2026-10-24 11:48 UTC：Green 级 EQ，Earthquake in Philippines。https://www.gdacs.org/report.aspx?eventid=1573606&episodeid=1742382&eventtype=EQ 

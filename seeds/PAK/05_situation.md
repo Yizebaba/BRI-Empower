@@ -36,7 +36,7 @@
 - 2026-06-07 07:51 UTC：US Embassy Pakistan Demonstration Alert: June 9 Protests in Azad Kashmir。https://pk.usembassy.gov/demonstration-alert-june-9-protests-in-azad-kashmir/ 
 - 2026-04-24 03:48 UTC：US Embassy Pakistan Schedule of Fees for Consular Services。https://pk.usembassy.gov/schedule-of-fees-for-consular-services/ 
 
-# 巴基斯坦项目周边近期态势（截至 2026-10-24 12:11 UTC）
+# 巴基斯坦项目周边近期态势（截至 2026-10-24 16:12 UTC）
 
 本文件由程序从公开来源自动汇编，每条注明来源和时间，内容是来源原文的转述。
 
@@ -69,23 +69,23 @@
 - 2026-10-24 01:03 UTC：Pakistan says it killed 10 militants in Gwadar — The Express Tribune - UA.NEWS。https://news.google.com/rss/articles/CBMipgFBVV95cUxQU256bDc3TTBsczZxMmdVTkJlaS1idDVibHVuZktrWWhLVmhaSDNSa1UtYUZ3eXVqWWw3OGdtc2h0TGtQaTR0NjZhNEVDZmNtVTY1Z2dKT2dGUF8zampTTEVnRFhCTHJqSjRXRUtYU2g2LWVUc2RuVmgzSDhHMHZoMEdma2pYUFBSbnprYXpTajNXYzZ5RGdndk5lbGstY3pUWGpxLXV3?oc=5
 - 2026-10-24 00:32 UTC：10 terrorists killed near Gabd border crossing - Business Recorder。https://news.google.com/rss/articles/CBMiVkFVX3lxTFBFSmJWV1lYZVRrdGZ4Qi1nUHdpRktnUjRkaWhoTi1yNDBfU05GWTVkQnNKZEtVSlhweFlMclBPdmJTWWFReHN2TzUzTzdma0ozZ2IwQ1dB0gFWQVVfeXFMUEVKYlZXWVhlVGt0ZnhCLWdQd2lGS2dSNGRpaGhOLXI0MF9TTkZZNWRCc0pkS1VKWHB4WUxyUE92YlNZYVF4c3ZPNTNPN2ZrSjNnYjBDV0E?oc=5
 - 2026-10-23 17:23 UTC：10 terrorists killed as security forces foil Gwadar attacks - Pakistan Today。https://news.google.com/rss/articles/CBMipgFBVV95cUxOdl84Q2NwSUdJYU16c2szLXFCTXlYeDhfYWtzNS1vQXdjdDk1U0xnUEh4dEVaa3JZNjBjQkFpY1RzQTNXcUF0YklRS0VhMnhjT2tmcVktT29qeDlsY3kyT1RORHJNYU9HMjJUV0oyRWU1NnFXY0RBS1BnWkJJWVA4UWlMZTVvZDFoNlVSTlJ6eDROZlp3MXdkaGEwWHN1WXdlcEhjV3dB?oc=5
+- 2026-10-23 15:11 UTC：10 terrorists, including one female, killed in Gwadar: ISPR - GNN | Latest News。https://news.google.com/rss/articles/CBMijAFBVV95cUxOaElMd1B1a1dhNVhFZm5xMTA3Nms5b1NMWVRycVpscHFySWM0d19wREVEelZMLWtTR2dOVmtOeTV6TEl4SFlIS3BueEJyajAtWUtnNUwxVG1ReTVNOTZRN3F0YVlkMlc1dXhjdDVDZF92X3hRcU1wdUoxMThvbkU5cUpGR0M1WWtNeEktYw?oc=5
 - 2026-10-23 14:27 UTC：ISPR says 10 India-sponsored terrorists killed in Gwadar - Daily Times。https://news.google.com/rss/articles/CBMilgFBVV95cUxOdUdEa3dMcG42cHM3STFnRUJoanhqRUJwMWJwWGVVay0waF9CVVNvLXlwVnBoY201ZGp1aldSSmlRX2hvQXJjTkFBa1VybUlNektUUWw3bnEtTkhwUGJPdk1iYVRNYmVnamtKSWhkeXJ3VktoZE5MaDVmdEpNNGhveHgwRFpUTEh6MzVoVFZxQ3lTUnFHZHc?oc=5
 - 2026-10-23 14:25 UTC：Gwadar Security Operation Foils Attacks, 10 Militants Reported Killed - Aaj News。https://news.google.com/rss/articles/CBMiTEFVX3lxTE9pSVhNakNlMHgwX3ZacHdaRElidlhQTUI5dzJaZTZLVk5vNFdtZmh6dzYwT1NLaHFzd0Q3ZXhLTktDa2xBb2hNMEk1MW0?oc=5
 - 2026-10-23 14:25 UTC：Gwadar Security Operation Foils Attacks, 10 Militants Reported Killed - Aaj English TV。https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Gc3h1WEdLWVNzTEREcGNuNzRfNXJFMlltYkVJaHA3NklrNXBScnlHUEZzR1ZaaWg1aDl2MzdzQ2lqdjNaMXc3M19FcFF2YUp6cDZR?oc=5
 - 2026-10-23 14:15 UTC：Pakistan army says 10 killed in counter-terror operations in Gwadar - Latest news from Azerbaijan。https://news.google.com/rss/articles/CBMikgFBVV95cUxPR2F3bTNQNjBqN2xWcDZlN2llV055T2xPVlYzSHBXcm1MbFBfRndtUmJkU2hIZFowVURxbkoyTHAtaldmMlp0VmhpeVZGaWpqUTBWVnJKUldMY25wQkx1N3BLOXllV0x0MWVJZnFNWDlpMFhvbUtLa2ZnQUhoaG5IbnJ0WkhWMThZaUs1WnE1Y045dw?oc=5
 - 2026-10-23 13:53 UTC：10 terrorists, including woman, killed in Gwadar: Pakistan army - A News。https://news.google.com/rss/articles/CBMipAFBVV95cUxPRjhvU01KdGVRaVBhR0N4cE5GMDZZZkZhbzJCV2FORFV2T3hFSWItbXlyS3FvaWE5VmhWZ01HLXlNV2FLSzRZaGdxdmxiNFpjVkMxMnc5QThwUm1FNnhuNWU0TjlyLWVOZ2QwRnV3YXpVODRrd2w0LUhTNi1WMUsxeGpXN1dBOGt6SGlWRFprUkxDZmdNOEQ3QVBDbzJuSnNIRVE2UtIBqgFBVV95cUxQZTc1SWpRTTVoOXp5QzRvYU11aENtbkZQTXNSdGcwbTJDNUJEMWxVbVZpOWxlTm95ZXpQNElQU2RGZmNGaGQxSHM2OHZjMUhXTlBqc1NCcnBjU0J2NUstdlNaZTRFQjBDbllsUmk1Qy1ZRTVQdVhwb3RoTFZaWGNTQ1lTTDZKRER6UU9nZHNVZGc3c05IeWxlV25lbjU5czlRYmRjMndPMlZkUQ?oc=5
 - 2026-10-23 13:44 UTC：Military says 10 militants killed in Gwadar clearance operations - PakTribune。https://news.google.com/rss/articles/CBMikgFBVV95cUxQV2JVeDJqWTF5NmFKbGJUTVY0cnduTlpCTWFjNHJEaDZkczBZV0k4dkJuVm82NGY0ekloX1BDc3R4Zm0tZEhocXhBTWZfQV9PVzViNjdSQVBKTlZaMDJFR213MWhFYVdBSFVvbmxGYldyaGRCNDNLMG1fZl9FYm1ERms1bi1yT0xkazJFUXpUNExuQQ?oc=5
-- 2026-10-23 12:56 UTC：Gwadar Attacks: What Happened and What We Know About the BLF - Balochistan Pulse。https://news.google.com/rss/articles/CBMiakFVX3lxTE5nMU9tRDhlZkJ4MmNDSDVkQlFMY21DZjRfNHpsVnAzSTdzTmNkV1FIbUtQUlJ6Nl9QT0dhYXhCSk93VGo4Q1ZRV29tdmRKUnZnYlBGeENzNzRqSm5NWng0ZHZsam5tSTZtRVHSAWpBVV95cUxOZzFPbUQ4ZWZCeDJjQ0g1ZEJRTGNtQ2Y0XzR6bFZwM0k3c05jZFdRSG1LUFJSejZfUE9HYWF4QkpPd1RqOENWUVdvbXZkSlJ2Z2JQRnhDczc0akpuTVp4NGR2bGpubUk2bUVR?oc=5
 
 近 7 天其他相关报道（标题原文，按项目名匹配，可能含无关报道）：
+- 2026-10-24 13:19 UTC：Security forces kill 10 militants in Gwadar clashes; civilian dies - Abb Takk News
+- 2026-10-24 07:05 UTC：Gwadar Operation | ISPR Statement | Pakistan Security Forces | Balochistan - Aaj News - Aaj English TV
 - 2026-10-24 07:05 UTC：Gwadar Operation | ISPR Statement | Pakistan Security Forces | Balochistan - Aaj News
 - 2026-10-24 04:10 UTC：Lawyers’ Club Inaugurated in Gwadar to Boost Cooperation - The Daily CPEC
+- 2026-10-23 17:44 UTC：Pakistan security forces kill 10 militants in Gwadar operations, ISPR says - Bol News
 - 2026-10-23 16:56 UTC：Beyond Hormuz: What Gwadar can really do for Pakistan's energy security - 24 News HD
 - 2026-10-23 15:14 UTC：Gwadar operations kill 10 militants, says military media wing - Minute Mirror
 - 2026-10-23 13:04 UTC：BLA, BLF claim capture of Pakistan Army camp in Gwadar | BLF also released a video | Inshorts - Inshorts
-- 2026-10-23 12:10 UTC：Civilian martyred as security forces neutralise 10 India-backed terrorists in Gwadar - The News Pakistan
-- 2026-10-23 11:36 UTC：GDA Launches Drip Irrigation Plantation Project in Gwadar - The Daily CPEC
-- 2026-10-23 11:29 UTC：Security forces kill 10 terrorists in Gwadar operations: ISPR - Minute Mirror
 
 ## 已核实的冲突事件（UCDP，经 World Monitor）
 

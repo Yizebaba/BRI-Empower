@@ -21,8 +21,8 @@
 - Poly Technologies, Inc.：在赞比亚出现在 1 个项目中，涉及金额约 4924 万美元。例：2011 年 Poly Technologies, Inc. provides RMB 258.8 million supplier's credit for Rehabilitation of Roads in Lusaka Cit
 - 中国电建 / 水电建设集团（PowerChina / Sinohydro）：在赞比亚出现在 4 个项目中，涉及金额约 4715 万美元。例：2016 年 Sinohydro provides $29 million supplier's credit for Musonda Falls Hydroelectric Power Plant Upgrading Project；2015 年 Sinohydro provides $10 million USD supplier's credit to ZESCO Ltd. for Musonda Falls Hydroelectric Power Plant；2017 年 PowerChina builds and donates Sinohydro Training Institute in Chikankata
 - CJIC：在赞比亚出现在 1 个项目中，涉及金额约 1846 万美元。例：2018 年 CJIC provides $16.94 million bridge loan for 330kV Kabwe-Pensulo Second Transmission Line Project (Linked to P
-- 中信集团（CITIC）：在赞比亚出现在 1 个项目中，涉及金额约 1736 万美元。例：2005 年 China CITIC Bank provides $8 million loan for Phase I of Fiber Optic Cable Project (Linked to Project ID#57579
 - China CITIC Bank：在赞比亚出现在 1 个项目中，涉及金额约 1736 万美元。例：2005 年 China CITIC Bank provides $8 million loan for Phase I of Fiber Optic Cable Project (Linked to Project ID#57579
+- 中信集团（CITIC）：在赞比亚出现在 1 个项目中，涉及金额约 1736 万美元。例：2005 年 China CITIC Bank provides $8 million loan for Phase I of Fiber Optic Cable Project (Linked to Project ID#57579
 - 中国机械设备工程（CMEC）：在赞比亚出现在 1 个项目中，涉及金额约 1635 万美元。例：2018 年 CMEC provides $15 million bridge loan for 15MW Lusiwasi Upper Hydropower Project
 - Sinoma International Engineering Co., Ltd Subsidiary：在赞比亚出现在 1 个项目中，涉及金额约 94 万美元。例：2016 年 Sinoma International Engineering Co., Ltd Subsidiary grants $800,000 USD for the Nachitete Hospital Constructi
 - Sinoma International Engineering Co., Ltd subsidiary：在赞比亚出现在 1 个项目中，涉及金额约 48 万美元。例：2016 年 Sinoma International Engineering Co., Ltd subsidiary grants $410,000 USD for the Nachitete Primary School Cons
