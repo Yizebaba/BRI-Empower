@@ -12,4 +12,4 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
-- 2026-10-23 02:45 UTC：Green 级 EQ，Earthquake in Bolivia。https://www.gdacs.org/report.aspx?eventid=1573288&episodeid=1742003&eventtype=EQ 
+- 2026-10-21 00:00 UTC：Green 级 WF，Forest fires in Bolivia。https://www.gdacs.org/report.aspx?eventid=1033142&episodeid=1&eventtype=WF 

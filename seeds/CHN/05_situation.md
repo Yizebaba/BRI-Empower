@@ -12,6 +12,8 @@
 
 ## 地震（USGS，M4.5+，近 7 天）
 
+- 2026-10-24 08:39 UTC：M5.3，223 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lg 
+- 2026-10-24 08:29 UTC：M4.9，41 km SSE of Kax, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4lb 
 - 2026-10-24 00:07 UTC：M4.9，209 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4i8 
 - 2026-10-23 20:37 UTC：M4.8，209 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4gj 
 - 2026-10-23 14:41 UTC：M4.5，233 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u4dk 
@@ -25,13 +27,11 @@
 - 2026-10-22 15:45 UTC：M4.9，western Xizang。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44w 
 - 2026-10-22 15:27 UTC：M4.7，139 km ENE of Kashgar, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44u 
 - 2026-10-22 15:12 UTC：M5.2，201 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u44n 
-- 2026-10-22 14:33 UTC：M7，191 km ENE of Nagqu, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u43g 
-- 2026-10-20 06:41 UTC：M5.1，263 km WSW of Yanglong, China。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u3ka 
 
 ## 灾害警报（GDACS，近 14 天）
 
+- 2026-10-24 08:39 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573572&episodeid=1742342&eventtype=EQ 
+- 2026-10-24 08:29 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573577&episodeid=1742350&eventtype=EQ 
 - 2026-10-24 00:07 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573484&episodeid=1742225&eventtype=EQ 
-- 2026-10-23 20:37 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573456&episodeid=1742188&eventtype=EQ 
-- 2026-10-23 14:41 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573438&episodeid=1742167&eventtype=EQ 
-- 2026-10-23 14:14 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573398&episodeid=1742165&eventtype=EQ 
-- 2026-10-23 02:17 UTC：Green 级 EQ，Earthquake in China。https://www.gdacs.org/report.aspx?eventid=1573282&episodeid=1741996&eventtype=EQ 
+- 2026-10-22 00:00 UTC：Green 级 WF，Forest fires in China。https://www.gdacs.org/report.aspx?eventid=1033138&episodeid=1&eventtype=WF 
+- 2026-10-20 00:00 UTC：Green 级 WF，Forest fires in China。https://www.gdacs.org/report.aspx?eventid=1033143&episodeid=1&eventtype=WF 
