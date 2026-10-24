@@ -4,7 +4,3 @@
 
 - 美国国务院旅行建议：Vietnam - Level 1: Exercise Normal Precautions（Wed, 24 Jun 2026）。https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vnm.html 
 - World Monitor 汇总的旅行建议级别：normal
-
-## 地震（USGS，M4.5+，近 7 天）
-
-- 2026-10-17 18:48 UTC：M4.5，29 km SW of Trà My, Vietnam。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u31a 

@@ -8,7 +8,6 @@
 ## 地震（USGS，M4.5+，近 7 天）
 
 - 2026-10-23 02:45 UTC：M4.5，58 km SW of Atocha, Bolivia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u49c 
-- 2026-10-17 16:52 UTC：M4.6，88 km SSW of Uyuni, Bolivia。https://earthquake.usgs.gov/earthquakes/eventpage/us6000u30x 
 
 ## 灾害警报（GDACS，近 14 天）
 

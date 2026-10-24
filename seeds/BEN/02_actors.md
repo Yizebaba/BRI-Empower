@@ -18,8 +18,8 @@
 - 中国银行（Bank of China）：在贝宁出现在 1 个项目中，涉及金额约 2.11 亿美元。例：2019 年 Bank of China provides EUR 167.3 million buyer’s credit loan for Ouidah Marina Project (Linked to Project ID#9
 - 中国工商银行（ICBC）：在贝宁出现在 1 个项目中，涉及金额约 5663 万美元。例：2019 年 ICBC and Bank of China provide EUR 90 million syndicated buyer’s credit loan for Ouidah Marina Project (Linked
 - Africa Growing Together Fund：在贝宁出现在 1 个项目中，涉及金额约 5435 万美元。例：2019 年 Africa Growing Together Fund provides EUR 43.19 million loan for Kérou-Banikoara Section of Djougou-Péhunco-Ké
-- 中兴通讯（ZTE）：在贝宁出现在 1 个项目中，涉及金额约 342 万美元。例：2004 年 Chinese ZTE corporation donates $1.5 million in GSM and CDMA telecommunications equipment to Benin
 - Chinese ZTE corporation：在贝宁出现在 1 个项目中，涉及金额约 342 万美元。例：2004 年 Chinese ZTE corporation donates $1.5 million in GSM and CDMA telecommunications equipment to Benin
+- 中兴通讯（ZTE）：在贝宁出现在 1 个项目中，涉及金额约 342 万美元。例：2004 年 Chinese ZTE corporation donates $1.5 million in GSM and CDMA telecommunications equipment to Benin
 - 中国驻当地使领馆：在贝宁出现在 9 个项目中。例：2016 年 Chinese Embassy provides grant for China-Benin Friendship School Construction Project in Abomey (Linked to Pro；2014 年 Chinese Embassy donates office equipment to Benin Ministry of Justice；2018 年 Chinese Embassy in Benin provides grant for Benin-China Friendship Primary School Construction Project in Port
 - Guangdong Huarun Paints：在贝宁出现在 1 个项目中。例：2006 年 Guangdong Huarun Paints provides materials for Beninese Ministry
 - 汉办 / 孔子学院总部（Hanban）：在贝宁出现在 1 个项目中。例：2009 年 Hanban provides grant for establishment of Confucius Institute at University of Abomey-Calavi

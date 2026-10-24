@@ -11,6 +11,7 @@
 
 ## 灾害警报（GDACS，近 14 天）
 
+- 2026-10-24 16:54 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573651&episodeid=1742436&eventtype=EQ 
 - 2026-10-24 11:14 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573601&episodeid=1742376&eventtype=EQ 
 - 2026-10-24 09:38 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573585&episodeid=1742358&eventtype=EQ 
 - 2026-10-24 08:56 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573578&episodeid=1742347&eventtype=EQ 
@@ -25,4 +26,3 @@
 - 2026-10-24 04:44 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573533&episodeid=1742284&eventtype=EQ 
 - 2026-10-24 03:51 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573525&episodeid=1742273&eventtype=EQ 
 - 2026-10-24 03:08 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573518&episodeid=1742265&eventtype=EQ 
-- 2026-10-24 02:35 UTC：Green 级 EQ，Earthquake in Vanuatu。https://www.gdacs.org/report.aspx?eventid=1573517&episodeid=1742262&eventtype=EQ 
